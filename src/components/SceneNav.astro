@@ -11,9 +11,10 @@ import type { BucketConfig, ConcertEntry } from '../lib/types';
 interface Props {
   buckets: BucketConfig[];
   grouped: Map<string, ConcertEntry[]>;
+  birthdaysCount?: number;
 }
 
-const { buckets, grouped } = Astro.props;
+const { buckets, grouped, birthdaysCount } = Astro.props;
 ---
 
 <nav class="scene-nav" aria-label="Jump to scene">
@@ -32,6 +33,14 @@ const { buckets, grouped } = Astro.props;
           </li>
         );
       })}
+      {birthdaysCount && birthdaysCount > 0 ? (
+        <li class="scene-nav__item">
+          <a class="scene-nav__link" href="#bucket-birthdays">
+            <span class="scene-nav__name">Birthdays</span>
+            <span class="scene-nav__count">{birthdaysCount}</span>
+          </a>
+        </li>
+      ) : null}
     </ul>
   </div>
 </nav>
