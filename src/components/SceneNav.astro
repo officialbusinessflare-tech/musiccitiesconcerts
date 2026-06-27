@@ -1,0 +1,37 @@
+---
+/**
+ * SceneNav — sticky pill-style navigation under the header.
+ *
+ * Renders one button per bucket. Each button is an anchor jump-link to
+ * #bucket-{bucket.id}, and the inline count shows how many entries are
+ * in that bucket. Sticky on scroll so it's always reachable.
+ */
+import type { BucketConfig, ConcertEntry } from '../lib/types';
+
+interface Props {
+  buckets: BucketConfig[];
+  grouped: Map<string, ConcertEntry[]>;
+}
+
+const { buckets, grouped } = Astro.props;
+---
+
+<nav class="scene-nav" aria-label="Jump to scene">
+  <div class="container scene-nav__inner">
+    <span class="scene-nav__label">Jump to:</span>
+    <ul class="scene-nav__list">
+      {buckets.map((bucket) => {
+        const count = grouped.get(bucket.id)?.length ?? 0;
+        return (
+          <li class="scene-nav__item">
+            <a class="scene-nav__link" href={`#bucket-${bucket.id}`}>
+              <span class="scene-nav__name">{bucket.name}</span>
+              {bucket.kanji ? <span class="scene-nav__kanji" lang="ja">{bucket.kanji}</span> : null}
+              <span class="scene-nav__count" aria-label={`${count} entries`}>{count}</span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+</nav>
