@@ -1,0 +1,17 @@
+---
+import type { BirthdayEntry } from '../lib/types';
+
+interface Props { entry: BirthdayEntry; }
+const { entry } = Astro.props;
+
+const MONTHS = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+const dateStamp = entry.month && entry.day ? `${MONTHS[entry.month - 1]} ${entry.day}` : 'TBD';
+---
+
+<article class="card bday-card">
+  <div class="card__date">🎂 {dateStamp}</div>
+  <span class="card__tag">Birthday</span>
+  <h3 class="card__title">{entry.person}</h3>
+  {entry.affiliation ? <p class="card__meta">{entry.affiliation}</p> : null}
+  {entry.status ? <p class="card__desc"><em>{entry.status}</em></p> : null}
+</article>
