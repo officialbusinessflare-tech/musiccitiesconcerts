@@ -1,0 +1,24 @@
+---
+import type { BirthdayEntry } from '../lib/types';
+import BirthdayCard from './BirthdayCard.astro';
+
+interface Props { entries: BirthdayEntry[]; }
+const { entries } = Astro.props;
+---
+
+<section class="bucket" id="bucket-birthdays" aria-labelledby="bucket-birthdays-title">
+  <div class="container">
+    <header class="bucket__header">
+      <span class="bucket__eyebrow">Mark your calendar</span>
+      <h2 class="bucket__title" id="bucket-birthdays-title">Birthdays 🎂</h2>
+      <p class="bucket__description">Artists, players, and the people behind the bands we follow. Sorted by next-up.</p>
+    </header>
+    {entries.length === 0 ? (
+      <p class="bucket__empty">No birthdays loaded.</p>
+    ) : (
+      <div class="bucket__grid">
+        {entries.map((e) => <BirthdayCard entry={e} />)}
+      </div>
+    )}
+  </div>
+</section>
