@@ -5,7 +5,7 @@ import SceneNav from '../components/SceneNav.astro';
 import Footer from '../components/Footer.astro';
 import BucketSection from '../components/BucketSection.astro';
 import type { BucketsConfigFile, ConcertsDataFile, ConcertEntry } from '../lib/types';
-import { groupByBucket } from '../lib/categorize';
+import { categorize, groupByBucket } from '../lib/categorize';
 
 // Astro can import JSON directly at build time. concerts.json is regenerated
 // nightly by the scheduled function committing back to the repo.
@@ -18,10 +18,15 @@ const data = concertsData as ConcertsDataFile;
 // Defensive: filter out anything in the past, just in case the data file
 // outpaces the nightly rebuild.
 const today = new Date().toISOString().slice(0, 10);
-const upcoming: ConcertEntry[] = (data.entries ?? []).filter((e) => {
-  const compareDate = e.endDate ?? e.date;
-  return compareDate >= today;
-});
+const upcoming: ConcertEntry[] = (data.entries ?? [])
+  .filter((e) => {
+    const compareDate = e.endDate ?? e.date;
+    return compareDate >= today;
+  })
+  // Re-run categorization at build time so changes to the bucket config or
+  // matching logic take effect immediately, without waiting for the nightly
+  // rebuild to regenerate concerts.json.
+  .map((e) => ({ ...e, buckets: categorize(e, buckets) }));
 
 const grouped = groupByBucket(upcoming, buckets);
 
