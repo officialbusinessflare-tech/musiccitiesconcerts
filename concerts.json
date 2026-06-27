@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:32:35.719Z",
+  "generatedAt": "2026-06-27T22:37:04.994Z",
   "entries": [
     {
       "id": "86baaafeh",
@@ -566,6 +566,7 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9ky5hv",
       "buckets": [
+        "japanese-metal",
         "key-festivals"
       ]
     },
