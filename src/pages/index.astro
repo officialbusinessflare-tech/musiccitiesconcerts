@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
 import Footer from '../components/Footer.astro';
 import BucketSection from '../components/BucketSection.astro';
 import type { BucketsConfigFile, ConcertsDataFile, ConcertEntry } from '../lib/types';
@@ -38,6 +39,7 @@ const lastUpdated = data.generatedAt
   description="Curated metal concerts, festivals, and album releases across Florida, Japan, and the wider scene. Updated nightly."
 >
   <Header />
+  <SceneNav buckets={buckets} grouped={grouped} />
 
   <section class="hero-strip">
     <div class="container">
