@@ -22,6 +22,11 @@ const cleanedName = entry.name.replace(/^\s*📀\s*/, '').trim();
 const headline = cleanedName || entry.bands[0] || entry.name;
 
 const showPriority = entry.priority === 'urgent' || entry.priority === 'high';
+
+// Public-facing CTA. Only link if we have a real URL the visitor can use
+// (Spotify, Bandcamp, official store, etc.) — NEVER fall back to the internal
+// ClickUp task URL.
+const ctaUrl = entry.ticketUrl;
 ---
 
 <article class="card">
@@ -48,14 +53,12 @@ const showPriority = entry.priority === 'urgent' || entry.priority === 'high';
       <span aria-hidden="true"></span>
     )}
 
-    {entry.ticketUrl ? (
-      <a class="card__ticket" href={entry.ticketUrl} target="_blank" rel="noopener noreferrer">
+    {ctaUrl ? (
+      <a class="card__ticket" href={ctaUrl} target="_blank" rel="noopener noreferrer">
         Listen &rarr;
       </a>
     ) : (
-      <a class="card__ticket" href={entry.clickupUrl} target="_blank" rel="noopener noreferrer">
-        Details &rarr;
-      </a>
+      <span aria-hidden="true"></span>
     )}
   </div>
 </article>
