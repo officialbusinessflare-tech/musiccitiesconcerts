@@ -9,64 +9,53 @@
 export type Priority = 'urgent' | 'high' | 'normal' | 'low';
 
 export type ConcertEntry = {
-  /** ClickUp task ID. Stable across rebuilds. */
-  id: string;
-  /** Task name as written in ClickUp (preserves emoji, em-dashes, etc.). */
-  name: string;
-  /** ISO date YYYY-MM-DD (start date for multi-day entries). */
-  date: string;
-  /** ISO date YYYY-MM-DD for multi-day festivals. Optional. */
-  endDate?: string;
-  /** Parsed venue. May be undefined if name parsing failed. */
-  venue?: string;
-  /** Parsed city. */
-  city?: string;
-  /** Parsed state (US) or region. */
-  state?: string;
-  /** Parsed country. */
-  country?: string;
-  /** Bands extracted from the task name. Index 0 is usually the headliner. */
-  bands: string[];
-  /** First ~280 chars of markdown_description with markdown stripped. */
-  description?: string;
-  /** First https:// URL found in the description, if any. */
-  ticketUrl?: string;
-  /** ClickUp priority bucketed into 4 buckets. */
-  priority: Priority;
-  /** True if the task name starts with the disc emoji. */
-  isRelease: boolean;
-  /** Computed at build time from today's date. */
-  isPast: boolean;
-  /** Direct URL back to the ClickUp task. */
-  clickupUrl: string;
-  /** Bucket IDs this entry was categorized into. */
-  buckets: string[];
+    id: string;
+    name: string;
+    date: string;
+    endDate?: string;
+    venue?: string;
+    city?: string;
+    state?: string;
+    country?: string;
+    bands: string[];
+    description?: string;
+    ticketUrl?: string;
+    priority: Priority;
+    isRelease: boolean;
+    isPast: boolean;
+    clickupUrl: string;
+    buckets: string[];
 };
 
 export type BucketMatchRules = {
-  venues?: string[];
-  cities?: string[];
-  bands?: string[];
-  /** True for the festival bucket. Also matches names containing Fest/Festival/Open Air. */
-  isFestival?: boolean;
-  /** True for the album-releases bucket. Matches entries with isRelease === true. */
-  isRelease?: boolean;
+    venues?: string[];
+    cities?: string[];
+    bands?: string[];
+    /** True for the festival bucket. Also matches names containing Fest/Festival/Open Air. */
+    isFestival?: boolean;
+    /** True for the album-releases bucket. Matches entries with isRelease === true. */
+    isRelease?: boolean;
+    /**
+     * True for the "Interesting Elsewhere" catch-all. Fallback buckets only
+     * receive entries that didn't match any non-fallback, non-release bucket.
+     */
+    isFallback?: boolean;
 };
 
 export type BucketConfig = {
-  id: string;
-  name: string;
-  /** Optional kanji subtitle (currently only Japanese Metal). */
-  kanji?: string;
-  description: string;
-  matchRules: BucketMatchRules;
+    id: string;
+    name: string;
+    /** Optional kanji subtitle (currently only Japanese Metal). */
+    kanji?: string;
+    description: string;
+    matchRules: BucketMatchRules;
 };
 
 export type BucketsConfigFile = {
-  buckets: BucketConfig[];
+    buckets: BucketConfig[];
 };
 
 export type ConcertsDataFile = {
-  generatedAt: string;
-  entries: ConcertEntry[];
+    generatedAt: string;
+    entries: ConcertEntry[];
 };
