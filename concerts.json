@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T06:31:25.556Z",
+  "generatedAt": "2026-06-27T06:42:00.497Z",
   "entries": [
     {
       "id": "86baaafeh",
@@ -10,9 +10,7 @@
       "state": "FL",
       "bands": [
         "Nicko McBrain Q",
-        "A",
-        "Capnharris",
-        "amp; Co"
+        "Capnharris"
       ],
       "description": "Nicko McBrain (Iron Maiden) — Q&A / Recording Event with Capnharris & Co",
       "ticketUrl": "https://linktr.ee/TitaniumTart",
@@ -21,8 +19,7 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baaafeh",
       "buckets": [
-        "florida-metal-scene",
-        "japanese-metal"
+        "florida-metal-scene"
       ]
     },
     {
@@ -1271,7 +1268,6 @@
       "bands": [
         "EyeHateGod",
         "Whores",
-        "No",
         "Más"
       ],
       "description": "EyeHateGod — Fall 2026 US Tour",
@@ -1293,7 +1289,6 @@
       "bands": [
         "EyeHateGod",
         "Whores",
-        "No",
         "Más"
       ],
       "description": "EyeHateGod + Whores + No/Más — Fall 2026 US Tour",
@@ -1332,7 +1327,6 @@
       "bands": [
         "EyeHateGod",
         "Whores",
-        "No",
         "Más"
       ],
       "description": "EyeHateGod — Fall 2026 US Tour",
