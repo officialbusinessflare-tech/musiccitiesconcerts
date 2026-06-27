@@ -1,4 +1,4 @@
-/**
+———/**
  * Core types for the Music Cities Concerts dashboard.
  *
  * ConcertEntry is the canonical shape produced by scripts/fetch-clickup.js
@@ -58,4 +58,35 @@ export type BucketsConfigFile = {
 export type ConcertsDataFile = {
     generatedAt: string;
     entries: ConcertEntry[];
+};
+
+
+/* ----------------------------------------------------------------------------
+ * Artist Birthdays
+ * -------------------------------------------------------------------------- */
+
+export type BirthdayEntry = {
+      id: string;
+      /** Raw ClickUp task name, e.g. "Asami Birthday Lovebites". */
+      name: string;
+      /** Parsed artist/person name. */
+      person: string;
+      /** Parsed band/affiliation. */
+      affiliation?: string;
+      /** Original ISO YYYY-MM-DD of the ClickUp due_date (some year). */
+      rawDate?: string;
+      /** Month (1-12) and day (1-31) extracted from rawDate — the annually-recurring part. */
+      month?: number;
+      day?: number;
+      /** Free-form notes the user added. */
+      description?: string;
+      /** Free-form flags like "DECEASED" or "UNVERIFIED". */
+      status?: string;
+      /** ClickUp source URL — internal only, never rendered publicly. */
+      clickupUrl: string;
+};
+
+export type BirthdaysDataFile = {
+      generatedAt: string;
+      entries: BirthdayEntry[];
 };
