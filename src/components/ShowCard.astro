@@ -23,13 +23,24 @@ const endStamp = entry.endDate && entry.endDate !== entry.date ? formatDateStamp
 // Headline: prefer first parsed band, fall back to raw name.
 const headline = entry.bands[0] ?? entry.name;
 
-// Meta line: venue + city
-const venueLine = [entry.venue, entry.city, entry.state ?? entry.country].filter(Boolean).join(' — ');
+// Meta line: venue + city + state/country (the dedupe step in venue-collision
+// rescue means venue and city can sometimes be the same string — collapse them).
+const metaParts: string[] = [];
+if (entry.venue) metaParts.push(entry.venue);
+if (entry.city && entry.city !== entry.venue) metaParts.push(entry.city);
+if (entry.state) metaParts.push(entry.state);
+else if (entry.country) metaParts.push(entry.country);
+const venueLine = metaParts.join(' — ');
 
 const priorityClass =
   entry.priority === 'urgent' || entry.priority === 'high' ? 'card__priority' : 'card__priority card__priority--low';
 
 const showPriority = entry.priority === 'urgent' || entry.priority === 'high';
+
+// Public-facing CTA. Only link if we have a real ticket URL the visitor can
+// use — NEVER fall back to the internal ClickUp task URL.
+const ctaUrl = entry.ticketUrl;
+const ctaLabel = 'Tickets';
 ---
 
 <article class="card">
@@ -52,14 +63,12 @@ const showPriority = entry.priority === 'urgent' || entry.priority === 'high';
       <span aria-hidden="true"></span>
     )}
 
-    {entry.ticketUrl ? (
-      <a class="card__ticket" href={entry.ticketUrl} target="_blank" rel="noopener noreferrer">
-        Tickets &rarr;
+    {ctaUrl ? (
+      <a class="card__ticket" href={ctaUrl} target="_blank" rel="noopener noreferrer">
+        {ctaLabel} &rarr;
       </a>
     ) : (
-      <a class="card__ticket" href={entry.clickupUrl} target="_blank" rel="noopener noreferrer" aria-label="View source task in ClickUp">
-        Details &rarr;
-      </a>
+      <span aria-hidden="true"></span>
     )}
   </div>
 </article>
