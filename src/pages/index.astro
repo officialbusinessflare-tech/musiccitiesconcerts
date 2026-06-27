@@ -6,6 +6,7 @@ import Footer from '../components/Footer.astro';
 import BucketSection from '../components/BucketSection.astro';
 import type { BucketsConfigFile, ConcertsDataFile, ConcertEntry } from '../lib/types';
 import { categorize, groupByBucket } from '../lib/categorize';
+import { collectKnownVenues, reparseEntry } from '../lib/parse-name';
 
 // Astro can import JSON directly at build time. concerts.json is regenerated
 // nightly by the scheduled function committing back to the repo.
@@ -14,6 +15,7 @@ import concertsData from '../../concerts.json';
 
 const buckets = (bucketsConfig as BucketsConfigFile).buckets;
 const data = concertsData as ConcertsDataFile;
+const knownVenues = collectKnownVenues(buckets);
 
 // Defensive: filter out anything in the past, just in case the data file
 // outpaces the nightly rebuild.
@@ -23,9 +25,12 @@ const upcoming: ConcertEntry[] = (data.entries ?? [])
     const compareDate = e.endDate ?? e.date;
     return compareDate >= today;
   })
+  // Re-parse the name at build time. The nightly fetch may have run with an
+  // older parser; this lets fixes to parse-name.ts take effect immediately,
+  // including venue-collision rescue for titles like "Nemophila with Conduit".
+  .map((e) => reparseEntry(e, knownVenues))
   // Re-run categorization at build time so changes to the bucket config or
-  // matching logic take effect immediately, without waiting for the nightly
-  // rebuild to regenerate concerts.json.
+  // matching logic take effect immediately too.
   .map((e) => ({ ...e, buckets: categorize(e, buckets) }));
 
 const grouped = groupByBucket(upcoming, buckets);
