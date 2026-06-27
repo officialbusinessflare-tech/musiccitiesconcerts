@@ -1,1 +1,157 @@
-{"generatedAt":"2026-06-27T22:00:00Z","entries":[{"id":"86baazex7","name":"Yngwie Malmsteen Birthday solo","person":"Yngwie Malmsteen","clickupUrl":"https://app.clickup.com/t/86baazex7","rawDate":"2026-06-30","month":6,"day":30},{"id":"86baazeu3","name":"Moa Kikuchi Birthday BABYMETAL","person":"Moa Kikuchi","clickupUrl":"https://app.clickup.com/t/86baazeu3","affiliation":"BABYMETAL","rawDate":"2026-07-04","month":7,"day":4},{"id":"86baazewp","name":"Asami Birthday Lovebites","person":"Asami","clickupUrl":"https://app.clickup.com/t/86baazewp","affiliation":"Lovebites","rawDate":"2026-07-10","month":7,"day":10},{"id":"86baazewd","name":"Miho Birthday Lovebites","person":"Miho","clickupUrl":"https://app.clickup.com/t/86baazewd","affiliation":"Lovebites","rawDate":"2026-07-22","month":7,"day":22},{"id":"86baazex2","name":"David Lee Roth Birthday Van Halen","person":"David Lee Roth","clickupUrl":"https://app.clickup.com/t/86baazex2","affiliation":"Van Halen","rawDate":"2026-10-10","month":10,"day":10},{"id":"86baazewx","name":"Paul Gilbert Birthday Mr. Big / Racer X","person":"Paul Gilbert","clickupUrl":"https://app.clickup.com/t/86baazewx","affiliation":"Mr. Big / Racer X","rawDate":"2026-11-06","month":11,"day":6},{"id":"86baazexb","name":"Ozzy Osbourne Birthday Black Sabbath (DECEASED)","person":"Ozzy Osbourne","clickupUrl":"https://app.clickup.com/t/86baazexb","affiliation":"Black Sabbath","status":"DECEASED","rawDate":"2026-12-03","month":12,"day":3},{"id":"86baazewm","name":"Suzuka Nakamoto Birthday BABYMETAL","person":"Suzuka Nakamoto","clickupUrl":"https://app.clickup.com/t/86baazewm","affiliation":"BABYMETAL","rawDate":"2026-12-20","month":12,"day":20},{"id":"86baazewc","name":"Haruna Birthday Lovebites","person":"Haruna","clickupUrl":"https://app.clickup.com/t/86baazewc","affiliation":"Lovebites","rawDate":"2026-12-30","month":12,"day":30},{"id":"86baazeub","name":"Momoko Okazaki Birthday BABYMETAL","person":"Momoko Okazaki","clickupUrl":"https://app.clickup.com/t/86baazeub","affiliation":"BABYMETAL","rawDate":"2027-03-03","month":3,"day":3},{"id":"86baazewy","name":"Billy Sheehan Birthday Mr. Big / Winery Dogs","person":"Billy Sheehan","clickupUrl":"https://app.clickup.com/t/86baazewy","affiliation":"Mr. Big / Winery Dogs","rawDate":"2027-03-19","month":3,"day":19},{"id":"86baazewt","name":"Miyako Watanabe Birthday Lovebites","person":"Miyako Watanabe","clickupUrl":"https://app.clickup.com/t/86baazewt","affiliation":"Lovebites","rawDate":"2027-04-05","month":4,"day":5},{"id":"86baazewa","name":"Midori Tatematsu Birthday Lovebites","person":"Midori Tatematsu","clickupUrl":"https://app.clickup.com/t/86baazewa","affiliation":"Lovebites","rawDate":"2027-05-28","month":5,"day":28},{"id":"86baazexe","name":"Fami Birthday Lovebites (UNVERIFIED)","person":"Fami","clickupUrl":"https://app.clickup.com/t/86baazexe","affiliation":"Lovebites","status":"UNVERIFIED"}]}
+{
+  "generatedAt": "2026-06-27T22:37:45.279Z",
+  "entries": [
+    {
+      "id": "86baazex7",
+      "name": "Yngwie Malmsteen Birthday solo",
+      "person": "Yngwie Malmsteen",
+      "rawDate": "2026-06-30",
+      "month": 6,
+      "day": 30,
+      "description": "RECURRING ANNUAL — June 30\n\nFull name: Lars Johan Yngwie Lannerbäck (known as Yngwie Johann Malmsteen)\nStage name: Yngwie Malmsteen\nBand & role: Solo artist; Rising Force — guitar\nCountry of origin: Sweden (Swedish-American)\nGreeting language: English\nLast known interaction with Kevin/TMC: None recorded (direct-relationship solo artist tracked by Kevin)\nSource: Wikipedia (Yngwie Malmsteen) — DOB Jun 30, 1963",
+      "clickupUrl": "https://app.clickup.com/t/86baazex7"
+    },
+    {
+      "id": "86baazeu3",
+      "name": "Moa Kikuchi Birthday BABYMETAL",
+      "person": "Moa Kikuchi",
+      "affiliation": "BABYMETAL",
+      "rawDate": "2026-07-04",
+      "month": 7,
+      "day": 4,
+      "description": "RECURRING ANNUAL — July 4\n\nFull name: Moa Kikuchi (菊地最愛)\nStage name: Moametal\nBand & role: BABYMETAL — vocals/dance (scream)\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded (Japanese metal relationship-investment priority)\nSource: Wikipedia (Moa Kikuchi) — DOB Jul 4, 1999",
+      "clickupUrl": "https://app.clickup.com/t/86baazeu3"
+    },
+    {
+      "id": "86baazewp",
+      "name": "Asami Birthday Lovebites",
+      "person": "Asami",
+      "affiliation": "Lovebites",
+      "rawDate": "2026-07-10",
+      "month": 7,
+      "day": 10,
+      "description": "RECURRING ANNUAL — July 10\n\nFull name: Asami\nStage name: Asami (mononym)\nBand & role: Lovebites — lead vocals\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded (Japanese metal relationship-investment priority)\nSource: Official Lovebites fanpage (lovebites-music.com/band-members) — Birthday Jul 10 (year not published)",
+      "clickupUrl": "https://app.clickup.com/t/86baazewp"
+    },
+    {
+      "id": "86baazewd",
+      "name": "Miho Birthday Lovebites",
+      "person": "Miho",
+      "affiliation": "Lovebites",
+      "rawDate": "2026-07-22",
+      "month": 7,
+      "day": 22,
+      "description": "RECURRING ANNUAL — July 22\n\nFull name: Miho\nStage name: Miho (mononym)\nBand & role: Lovebites — bass, backing vocals (FORMER; co-founder, left Aug 2021)\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded\nSource: Official Lovebites fanpage — Birthday Jul 22 (year not published). NOTE: Former member — confirm with Kevin whether to keep in active rotation.",
+      "clickupUrl": "https://app.clickup.com/t/86baazewd"
+    },
+    {
+      "id": "86baazex2",
+      "name": "David Lee Roth Birthday Van Halen",
+      "person": "David Lee Roth",
+      "affiliation": "Van Halen",
+      "rawDate": "2026-10-10",
+      "month": 10,
+      "day": 10,
+      "description": "RECURRING ANNUAL — October 10\n\nFull name: David Lee Roth\nStage name: \"Diamond Dave\"\nBand & role: Van Halen — lead vocals; solo artist\nCountry of origin: USA\nGreeting language: English\nLast known interaction with Kevin/TMC: None recorded (direct-relationship solo artist tracked by Kevin)\nSource: Wikipedia (David Lee Roth) — DOB Oct 10, 1954",
+      "clickupUrl": "https://app.clickup.com/t/86baazex2"
+    },
+    {
+      "id": "86baazewx",
+      "name": "Paul Gilbert Birthday Mr. Big / Racer X",
+      "person": "Paul Gilbert",
+      "affiliation": "Mr. Big / Racer X",
+      "rawDate": "2026-11-06",
+      "month": 11,
+      "day": 6,
+      "description": "RECURRING ANNUAL — November 6\n\nFull name: Paul Brandon Gilbert\nStage name: —\nBand & role: Mr. Big, Racer X — guitar; solo artist\nCountry of origin: USA\nGreeting language: English\nLast known interaction with Kevin/TMC: None recorded (direct-relationship solo artist tracked by Kevin)\nSource: Wikipedia (Paul Gilbert) — DOB Nov 6, 1966",
+      "clickupUrl": "https://app.clickup.com/t/86baazewx"
+    },
+    {
+      "id": "86baazexb",
+      "name": "Ozzy Osbourne Birthday Black Sabbath (DECEASED)",
+      "person": "Ozzy Osbourne",
+      "affiliation": "Black Sabbath",
+      "rawDate": "2026-12-03",
+      "month": 12,
+      "day": 3,
+      "description": "RECURRING ANNUAL — December 3 · ⚠️ DECEASED — do NOT send a happy-birthday greeting; commemorative/tribute content only.\n\nFull name: John Michael Osbourne\nStage name: Ozzy Osbourne (\"Prince of Darkness\")\nBand & role: Black Sabbath — lead vocals; solo artist\nCountry of origin: England (UK)\nGreeting language: English\nLast known interaction with Kevin/TMC: None recorded\nSource: Wikipedia (Ozzy Osbourne) — DOB Dec 3, 1948. DECEASED — flagged per Kevin's instruction.",
+      "status": "DECEASED",
+      "clickupUrl": "https://app.clickup.com/t/86baazexb"
+    },
+    {
+      "id": "86baazewm",
+      "name": "Suzuka Nakamoto Birthday BABYMETAL",
+      "person": "Suzuka Nakamoto",
+      "affiliation": "BABYMETAL",
+      "rawDate": "2026-12-20",
+      "month": 12,
+      "day": 20,
+      "description": "RECURRING ANNUAL — December 20\n\nFull name: Suzuka Nakamoto (中元すず香)\nStage name: Su-metal\nBand & role: BABYMETAL — lead vocals\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded (Japanese metal relationship-investment priority)\nSource: Wikipedia (Suzuka Nakamoto) — DOB Dec 20, 1997",
+      "clickupUrl": "https://app.clickup.com/t/86baazewm"
+    },
+    {
+      "id": "86baazewc",
+      "name": "Haruna Birthday Lovebites",
+      "person": "Haruna",
+      "affiliation": "Lovebites",
+      "rawDate": "2026-12-30",
+      "month": 12,
+      "day": 30,
+      "description": "RECURRING ANNUAL — December 30\n\nFull name: Haruna\nStage name: Haruna (mononym)\nBand & role: Lovebites — drums, backing vocals (co-founder)\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded\nSource: Official Lovebites fanpage + Metal Archives — DOB Dec 30, 1988",
+      "clickupUrl": "https://app.clickup.com/t/86baazewc"
+    },
+    {
+      "id": "86baazeub",
+      "name": "Momoko Okazaki Birthday BABYMETAL",
+      "person": "Momoko Okazaki",
+      "affiliation": "BABYMETAL",
+      "rawDate": "2027-03-03",
+      "month": 3,
+      "day": 3,
+      "description": "RECURRING ANNUAL — March 3\n\nFull name: Momoko Okazaki (岡崎百々子)\nStage name: Momometal\nBand & role: BABYMETAL — vocals/dance (official member since 2023)\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded (Japanese metal relationship-investment priority)\nSource: Wikipedia (Momoko Okazaki) — DOB Mar 3, 2003. (Kevin pre-confirmed March 3.)",
+      "clickupUrl": "https://app.clickup.com/t/86baazeub"
+    },
+    {
+      "id": "86baazewy",
+      "name": "Billy Sheehan Birthday Mr. Big / Winery Dogs",
+      "person": "Billy Sheehan",
+      "affiliation": "Mr. Big / Winery Dogs",
+      "rawDate": "2027-03-19",
+      "month": 3,
+      "day": 19,
+      "description": "RECURRING ANNUAL — March 19\n\nFull name: William Sheehan\nStage name: Billy Sheehan\nBand & role: Mr. Big, The Winery Dogs, Talas, David Lee Roth band — bass\nCountry of origin: USA\nGreeting language: English\nLast known interaction with Kevin/TMC: None recorded (direct-relationship solo artist tracked by Kevin)\nSource: Wikipedia (Billy Sheehan) — DOB Mar 19, 1953",
+      "clickupUrl": "https://app.clickup.com/t/86baazewy"
+    },
+    {
+      "id": "86baazewt",
+      "name": "Miyako Watanabe Birthday Lovebites",
+      "person": "Miyako Watanabe",
+      "affiliation": "Lovebites",
+      "rawDate": "2027-04-05",
+      "month": 4,
+      "day": 5,
+      "description": "RECURRING ANNUAL — April 5\n\nFull name: Watanabe Miyako (渡部美宥子)\nStage name: Miyako (formerly romanized \"Mi-ya\")\nBand & role: Lovebites — guitar, piano, backing vocals\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded (Japanese metal relationship-investment priority)\nSource: Official Lovebites fanpage + Metal Archives — DOB Apr 5, 1990. NOTE: \"Mi-ya\" in Kevin's roster = Miyako.",
+      "clickupUrl": "https://app.clickup.com/t/86baazewt"
+    },
+    {
+      "id": "86baazewa",
+      "name": "Midori Tatematsu Birthday Lovebites",
+      "person": "Midori Tatematsu",
+      "affiliation": "Lovebites",
+      "rawDate": "2027-05-28",
+      "month": 5,
+      "day": 28,
+      "description": "RECURRING ANNUAL — May 28\n\nFull name: Tatematsu Midori (立松みどり)\nStage name: Midori (mononym)\nBand & role: Lovebites — guitar, backing vocals\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded\nSource: Official Lovebites fanpage — Birthday May 28 (year not published). NOTE: Current member not named in Kevin's roster; added to scope.",
+      "clickupUrl": "https://app.clickup.com/t/86baazewa"
+    },
+    {
+      "id": "86baazexe",
+      "name": "Fami Birthday Lovebites (UNVERIFIED — needs date)",
+      "person": "Fami",
+      "affiliation": "Lovebites",
+      "description": "RECURRING ANNUAL — DATE UNVERIFIED ⚠️ No due date set until confirmed.\n\nFull name: Fami\nStage name: Fami (mononym)\nBand & role: Lovebites — bass (current; joined Oct 2022)\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded\nSource: Born 2002 per multiple sources; exact birthday NOT publicly documented. Band posted a birthday message on Instagram (@lovebites_jp) but the date isn't confirmable from search. FOLLOW-UP: confirm exact date at next meet-and-greet / social interaction, or check the Instagram post date directly.",
+      "status": "UNVERIFIED — needs date",
+      "clickupUrl": "https://app.clickup.com/t/86baazexe"
+    }
+  ]
+}
