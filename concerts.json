@@ -1,30 +1,37 @@
 {
-  "generatedAt": "2026-06-27T03:43:06Z",
+  "generatedAt": "2026-06-27T05:41:15.419Z",
   "entries": [
     {
       "id": "86baaafeh",
-      "name": "Nicko McBrain Q&A w/ Capnharris & Co — Rock N Roll Ribs, Coral Springs FL",
+      "name": "Nicko McBrain Q&A w/ Capnharris &amp; Co — Rock N Roll Ribs, Coral Springs FL",
       "date": "2026-06-29",
+      "venue": "Rock N Roll Ribs",
+      "city": "Coral Springs",
+      "state": "FL",
       "bands": [
-        "Nicko McBrain Q&A",
-        "Capnharris & Co"
+        "Nicko McBrain Q",
+        "A",
+        "Capnharris",
+        "amp; Co"
       ],
+      "description": "Nicko McBrain (Iron Maiden) — Q&A / Recording Event with Capnharris & Co",
+      "ticketUrl": "https://linktr.ee/TitaniumTart",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baaafeh",
-      "venue": "Rock N Roll Ribs",
-      "city": "Coral Springs",
-      "state": "FL",
-      "country": "US",
       "buckets": [
-        "florida-metal-scene"
+        "florida-metal-scene",
+        "japanese-metal"
       ]
     },
     {
       "id": "86bae8yt0",
       "name": "NGY / Bobby Peru / Aotte / Zero Pulse / Regarding Waves — Churchill's Pub, Miami FL",
       "date": "2026-07-03",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
       "bands": [
         "NGY",
         "Bobby Peru",
@@ -32,14 +39,12 @@
         "Zero Pulse",
         "Regarding Waves"
       ],
+      "description": "South Florida Underground — Independence Day Weekend Kickoff",
+      "ticketUrl": "https://shotgun.live/events/ngy-bobby-peru-aotte-zero-pulse-regarding-waves",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bae8yt0",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -48,9 +53,11 @@
       "id": "86bahh5fa",
       "name": "📀 FATE GEAR — 冥王と慈愛の天使 (When the Angel Fell for the Devil) — RELEASE",
       "date": "2026-07-08",
+      "venue": "冥王と慈愛の天使 (When the Angel Fell for the Devil) — RELEASE",
       "bands": [
         "FATE GEAR"
       ],
+      "description": "FATE GEAR — 冥王と慈愛の天使 (When the Angel Fell for the Devil) 📀",
       "priority": "normal",
       "isRelease": true,
       "isPast": false,
@@ -64,47 +71,51 @@
       "id": "86ba794d9",
       "name": "Nemophila with Conduit, Winter Park FL",
       "date": "2026-07-08",
+      "venue": "Conduit",
+      "city": "Winter Park",
+      "state": "FL",
       "bands": [
-        "Nemophila with Conduit, Winter Park FL"
+        "Nemophila"
       ],
+      "description": "Nemophila with Conduit, Winter Park, Florida. Wednesday July 8, 2026, 7:00 PM. General Admission, 2 tickets purchased (order #53258587, May 15). Ticket center confirmation received May 20.",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba794d9",
       "buckets": [
         "florida-metal-scene",
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86ba3659c",
       "name": "Nemophila — Conduit, Winter Park FL",
       "date": "2026-07-08",
+      "venue": "Conduit",
+      "city": "Winter Park",
+      "state": "FL",
       "bands": [
         "Nemophila"
       ],
+      "description": "Nemophila — North America Tour 2026",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba3659c",
-      "venue": "Conduit",
-      "city": "Winter Park",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene",
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86bammf4y",
       "name": "📀 HAGANE — EP (TBD title) — RELEASE",
       "date": "2026-07-09",
+      "venue": "EP (TBD title) — RELEASE",
       "bands": [
         "HAGANE"
       ],
+      "description": "HAGANE — EP 📀",
       "priority": "normal",
       "isRelease": true,
       "isPast": false,
@@ -118,58 +129,56 @@
       "id": "86bammf2g",
       "name": "NEMOPHILA — Come and Take It Live, Austin TX",
       "date": "2026-07-10",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
       "bands": [
         "NEMOPHILA"
       ],
+      "description": "NEMOPHILA — North America Tour 2026",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammf2g",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "country": "US",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86ba365ff",
       "name": "Trash Panda — Conduit, Orlando FL",
       "date": "2026-07-10",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
       "bands": [
         "Trash Panda"
       ],
+      "description": "Trash Panda — FL Tour (presented by Violent Death Records)",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365ff",
-      "venue": "Conduit",
-      "city": "Orlando",
-      "state": "FL",
-      "country": "US",
       "buckets": [
-        "florida-metal-scene",
-        "interesting-elsewhere"
+        "florida-metal-scene"
       ]
     },
     {
       "id": "86b9b7kea",
       "name": "Mind Virus / Ramtha / Cryptlord — Summer Weekender — Daytona, FL",
       "date": "2026-07-10",
+      "venue": "Summer Weekender — Daytona",
+      "state": "FL",
       "bands": [
         "Mind Virus",
         "Ramtha",
         "Cryptlord"
       ],
+      "description": "7/10 at Punk Rock Pizza, Daytona FL. Big Ear Booking Summer Weekender tour. Source: Instagram saved post.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7kea",
-      "city": "Daytona",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -178,75 +187,73 @@
       "id": "86bammf2m",
       "name": "NEMOPHILA — Trees, Dallas TX",
       "date": "2026-07-11",
+      "venue": "Trees",
+      "city": "Dallas",
+      "state": "TX",
       "bands": [
         "NEMOPHILA"
       ],
+      "description": "NEMOPHILA — North America Tour 2026",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammf2m",
-      "venue": "Trees",
-      "city": "Dallas",
-      "state": "TX",
-      "country": "US",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86bahh7rj",
       "name": "Asami Birthday Party 2026 — Day 1 (Livestream) — Tokyo",
       "date": "2026-07-11",
+      "venue": "Day 1 (Livestream) — Tokyo",
       "bands": [
         "Asami Birthday Party 2026"
       ],
+      "description": "Asami (LOVEBITES vocalist) Birthday Party 2026 — Day 1",
+      "ticketUrl": "https://asami.zaiko.io/e/asami-bdparty2026",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bahh7rj",
-      "city": "Tokyo",
-      "country": "Japan",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86baaaq3r",
       "name": "Terminators (Camilo Acosta Millón) — Eddie's Place, Miami FL",
       "date": "2026-07-11",
+      "venue": "Eddie's Place",
+      "city": "Miami",
+      "state": "FL",
       "bands": [
         "Terminators (Camilo Acosta Millón)"
       ],
+      "description": "Terminators",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baaaq3r",
-      "venue": "Eddie's Place",
-      "city": "Miami",
-      "state": "FL",
-      "country": "US",
       "buckets": [
-        "florida-metal-scene",
-        "interesting-elsewhere"
+        "florida-metal-scene"
       ]
     },
     {
       "id": "86ba365ft",
       "name": "Trash Panda — The Orpheum, Tampa FL",
       "date": "2026-07-11",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
       "bands": [
         "Trash Panda"
       ],
+      "description": "Trash Panda — FL Tour (presented by Violent Death Records)",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365ft",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -255,16 +262,16 @@
       "id": "86b9ckkt5",
       "name": "Hatebreed - Summer Slaughter Tour 2026 - Austin TX",
       "date": "2026-07-11",
+      "city": "Summer Slaughter Tour 2026 - Austin",
+      "state": "TX",
       "bands": [
         "Hatebreed"
       ],
+      "description": "Hatebreed — Summer Slaughter Tour 2026\nDate: Saturday, July 11, 2026\nVenue: Austin, TX\nTickets: Ticketmaster\nSource: Facebook saved post (concerts collection) — saved from Hatebreed's post",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9ckkt5",
-      "city": "Austin",
-      "state": "TX",
-      "country": "US",
       "buckets": [
         "interesting-elsewhere"
       ]
@@ -273,17 +280,18 @@
       "id": "86b9b7kej",
       "name": "Mind Virus / Ramtha / Cryptlord — Summer Weekender — Deviant Libation, Tampa",
       "date": "2026-07-11",
+      "city": "Summer Weekender — Deviant Libation",
+      "country": "Tampa",
       "bands": [
         "Mind Virus",
         "Ramtha",
         "Cryptlord"
       ],
+      "description": "7/11 at Deviant Libation, Tampa FL. Big Ear Booking Summer Weekender tour. Source: Instagram saved post.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7kej",
-      "venue": "Deviant Libation",
-      "city": "Tampa",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -292,35 +300,36 @@
       "id": "86bahh7rv",
       "name": "Asami Birthday Party 2026 — Day 2 (Livestream) — Tokyo",
       "date": "2026-07-12",
+      "venue": "Day 2 (Livestream) — Tokyo",
       "bands": [
         "Asami Birthday Party 2026"
       ],
+      "description": "Asami (LOVEBITES vocalist) Birthday Party 2026 — Day 2",
+      "ticketUrl": "https://asami.zaiko.io/e/asami-bdparty2026",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bahh7rv",
-      "city": "Tokyo",
-      "country": "Japan",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86b9b7kfd",
       "name": "Mind Virus / Ramtha / Cryptlord — Summer Weekender — Propaganda, West Palm Beach",
       "date": "2026-07-12",
+      "city": "Summer Weekender — Propaganda",
+      "country": "West Palm Beach",
       "bands": [
         "Mind Virus",
         "Ramtha",
         "Cryptlord"
       ],
+      "description": "7/12 at Propaganda, West Palm Beach FL. Big Ear Booking Summer Weekender tour. Source: Instagram saved post.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7kfd",
-      "venue": "Propaganda",
-      "city": "West Palm Beach",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -329,49 +338,49 @@
       "id": "86bammf3e",
       "name": "NEMOPHILA — Nile Theater, Phoenix AZ",
       "date": "2026-07-13",
+      "venue": "Nile Theater",
+      "city": "Phoenix",
+      "state": "AZ",
       "bands": [
         "NEMOPHILA"
       ],
+      "description": "NEMOPHILA — North America Tour 2026",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammf3e",
-      "venue": "Nile Theater",
-      "city": "Phoenix",
-      "state": "AZ",
-      "country": "US",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86bammf3x",
       "name": "NEMOPHILA — The Glass House, Los Angeles CA",
       "date": "2026-07-14",
+      "venue": "The Glass House",
+      "city": "Los Angeles",
+      "state": "CA",
       "bands": [
         "NEMOPHILA"
       ],
+      "description": "NEMOPHILA — North America Tour 2026 (FINALE)",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammf3x",
-      "venue": "The Glass House",
-      "city": "Los Angeles",
-      "state": "CA",
-      "country": "US",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86bahh5gf",
       "name": "📀 KOIAI — Starting Over EP — RELEASE",
       "date": "2026-07-15",
+      "venue": "Starting Over EP — RELEASE",
       "bands": [
         "KOIAI"
       ],
+      "description": "KOIAI — Starting Over (4th EP) 📀",
       "priority": "high",
       "isRelease": true,
       "isPast": false,
@@ -385,77 +394,73 @@
       "id": "86ba365d7",
       "name": "Jiluka — Come and Take It Live, Austin TX",
       "date": "2026-07-17",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
       "bands": [
         "Jiluka"
       ],
+      "description": "Jiluka — DEVILS USA #2 / 2026 World Tour",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365d7",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "country": "US",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86ba365hy",
       "name": "Kataklysm + Wormhole — Culture Room, Fort Lauderdale FL",
       "date": "2026-07-18",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
       "bands": [
         "Kataklysm",
         "Wormhole"
       ],
+      "description": "Kataklysm w/ Wormhole",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365hy",
-      "venue": "Culture Room",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "country": "US",
       "buckets": [
-        "florida-metal-scene",
-        "interesting-elsewhere"
+        "florida-metal-scene"
       ]
     },
     {
       "id": "86bammfq8",
       "name": "Lonesome_Blue — \"Ready for Takeoff\" — Sally's first show — Tokyo GRIT, Shibuya",
       "date": "2026-07-25",
+      "city": "\"Ready for Takeoff\" — Sally's first show — Tokyo GRIT",
+      "country": "Shibuya",
       "bands": [
         "Lonesome_Blue"
       ],
+      "description": "LonesomeBlue — \"Ready for Takeoff\" — Sally's first show",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammfq8",
-      "venue": "Tokyo GRIT",
-      "city": "Shibuya",
-      "country": "Japan",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86bammja3",
       "name": "Kittie — Wacken Open Air 2026 (day/stage TBD)",
       "date": "2026-07-29",
+      "venue": "Wacken Open Air 2026 (day/stage TBD)",
       "bands": [
         "Kittie"
       ],
+      "description": "Kittie — Wacken Open Air 2026",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammja3",
-      "city": "Wacken Open Air 2026 (day/stage TBD)",
-      "country": "Germany",
       "buckets": [
-        "interesting-elsewhere",
         "key-festivals"
       ]
     },
@@ -463,17 +468,16 @@
       "id": "86bammecb",
       "name": "Gannondorf — Wacken Metal Battle tournament opener (Wed Jul 29 Headbangers)",
       "date": "2026-07-29",
+      "venue": "Wacken Metal Battle tournament opener (Wed Jul 29 Headbangers)",
       "bands": [
         "Gannondorf"
       ],
+      "description": "Gannondorf — Wacken Metal Battle USA winner — tournament opener",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammecb",
-      "city": "Wacken Metal Battle tournament opener (Wed Jul 29 Headbangers)",
-      "country": "Germany",
       "buckets": [
-        "interesting-elsewhere",
         "key-festivals"
       ]
     },
@@ -481,35 +485,35 @@
       "id": "86ba9ag04",
       "name": "Rolling Quartz — Orlando FL (MY TURN NA Tour)",
       "date": "2026-07-29",
+      "venue": "Orlando FL (MY TURN NA Tour)",
       "bands": [
         "Rolling Quartz"
       ],
+      "description": "Rolling Quartz — MY TURN North America Tour 2026",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba9ag04",
-      "city": "Orlando FL (MY TURN NA Tour)",
       "buckets": [
         "florida-metal-scene",
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86ba365ex",
       "name": "Internal Suffering — Brass Mug, Tampa FL",
       "date": "2026-07-29",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
       "bands": [
         "Internal Suffering"
       ],
+      "description": "Internal Suffering — 30 Years of Chaos / Dominion of the Xul Tour 2026",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365ex",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -518,17 +522,16 @@
       "id": "86b9ky5hv",
       "name": "BROKEN BY THE SCREAM — Wacken Open Air 2026",
       "date": "2026-07-29",
+      "venue": "Wacken Open Air 2026",
       "bands": [
         "BROKEN BY THE SCREAM"
       ],
+      "description": "Broken by the Scream confirmed for Wacken Open Air 2026. Japanese girl metal band. New addition to Music Cities ecosystem mapping.",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9ky5hv",
-      "city": "Wacken Open Air 2026",
-      "country": "Germany",
       "buckets": [
-        "interesting-elsewhere",
         "key-festivals"
       ]
     },
@@ -536,18 +539,17 @@
       "id": "86b9ky5gr",
       "name": "LOVEBITES — Wacken Open Air 2026",
       "date": "2026-07-29",
+      "venue": "Wacken Open Air 2026",
       "bands": [
         "LOVEBITES"
       ],
+      "description": "Lovebites confirmed for Wacken Open Air 2026.",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9ky5gr",
-      "city": "Wacken Open Air 2026",
-      "country": "Germany",
       "buckets": [
         "japanese-metal",
-        "interesting-elsewhere",
         "key-festivals"
       ]
     },
@@ -555,18 +557,17 @@
       "id": "86bammebn",
       "name": "Yngwie Malmsteen — Wacken Open Air 2026 (Thu Jul 30, Faster Stage)",
       "date": "2026-07-30",
+      "city": "Wacken Open Air 2026 (Thu Jul 30",
+      "country": "Faster Stage)",
       "bands": [
         "Yngwie Malmsteen"
       ],
+      "description": "Yngwie Malmsteen — Wacken Open Air 2026",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammebn",
-      "venue": "Wacken Open Air 2026 (Thu Jul 30",
-      "city": "Faster Stage)",
-      "country": "Germany",
       "buckets": [
-        "interesting-elsewhere",
         "key-festivals"
       ]
     },
@@ -574,18 +575,34 @@
       "id": "86bammec7",
       "name": "Judas Priest — Wacken Open Air 2026 (Fri Jul 31, Harder Stage headliner)",
       "date": "2026-07-31",
+      "city": "Wacken Open Air 2026 (Fri Jul 31",
+      "country": "Harder Stage headliner)",
       "bands": [
         "Judas Priest"
       ],
+      "description": "Judas Priest — Wacken Open Air 2026",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammec7",
-      "venue": "Wacken Open Air 2026 (Fri Jul 31",
-      "city": "Harder Stage headliner)",
-      "country": "Germany",
       "buckets": [
-        "interesting-elsewhere",
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86baaaptn",
+      "name": "Heavy Kawaii Fes 2026 Day 1 — AKB48 Band x KOIAI — Meijiza, Tokyo",
+      "date": "2026-07-31",
+      "venue": "Heavy Kawaii Fes",
+      "city": "AKB48 Band x KOIAI — Meijiza",
+      "country": "Tokyo",
+      "bands": [],
+      "description": "Heavy Kawaii Fes 2026 — Day 1 — AKB48 Band x KOIAI",
+      "priority": "low",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baaaptn",
+      "buckets": [
         "key-festivals"
       ]
     },
@@ -593,17 +610,15 @@
       "id": "86ba365f0",
       "name": "Florida Extreme Metal Fest (FDMS) — Brass Mug, Tampa FL",
       "date": "2026-07-31",
-      "bands": [
-        "Florida Extreme Metal Fest (FDMS)"
-      ],
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [],
+      "description": "Florida Extreme Metal Fest (FDMS 2026)",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365f0",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene",
         "key-festivals"
@@ -613,18 +628,34 @@
       "id": "86bammebe",
       "name": "Arch Enemy — Wacken Open Air 2026 (Sat Aug 1, Harder Stage)",
       "date": "2026-08-01",
+      "city": "Wacken Open Air 2026 (Sat Aug 1",
+      "country": "Harder Stage)",
       "bands": [
         "Arch Enemy"
       ],
+      "description": "Arch Enemy — Wacken Open Air 2026",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammebe",
-      "venue": "Wacken Open Air 2026 (Sat Aug 1",
-      "city": "Harder Stage)",
-      "country": "Germany",
       "buckets": [
-        "interesting-elsewhere",
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86baaaput",
+      "name": "Heavy Kawaii Fes 2026 Day 2 — Shiritsu Ebisu Chugaku x KOIAI — Meijiza, Tokyo",
+      "date": "2026-08-01",
+      "venue": "Heavy Kawaii Fes",
+      "city": "Shiritsu Ebisu Chugaku x KOIAI — Meijiza",
+      "country": "Tokyo",
+      "bands": [],
+      "description": "Heavy Kawaii Fes 2026 — Day 2 — Shiritsu Ebisu Chugaku x KOIAI",
+      "priority": "low",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baaaput",
+      "buckets": [
         "key-festivals"
       ]
     },
@@ -632,19 +663,36 @@
       "id": "86baaapqv",
       "name": "LiveKill — Evil Weekend Run / Music Video Shoot — West End Trading Co, Sanford FL",
       "date": "2026-08-01",
+      "venue": "Evil Weekend Run / Music Video Shoot — West End Trading Co",
+      "city": "Sanford",
+      "state": "FL",
       "bands": [
         "LiveKill"
       ],
+      "description": "LiveKill — The Evil Weekend Run / Music Video Shoot",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baaapqv",
-      "venue": "West End Trading Co",
-      "city": "Sanford",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86baaapwa",
+      "name": "Heavy Kawaii Fes 2026 Day 3 — METALVERSE x KOIAI — Meijiza, Tokyo",
+      "date": "2026-08-02",
+      "venue": "Heavy Kawaii Fes",
+      "city": "METALVERSE x KOIAI — Meijiza",
+      "country": "Tokyo",
+      "bands": [],
+      "description": "Heavy Kawaii Fes 2026 — Day 3 — METALVERSE x KOIAI",
+      "priority": "low",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baaapwa",
+      "buckets": [
+        "key-festivals"
       ]
     },
     {
@@ -658,45 +706,41 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b7xwux4",
-      "country": "Germany",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
+      "buckets": []
     },
     {
       "id": "86b9ky5n5",
       "name": "LOVEBITES — O2 Academy Islington, London + Meet and Greet (Trip Prep)",
       "date": "2026-08-03",
+      "city": "O2 Academy Islington",
+      "country": "London + Meet and Greet (Trip Prep)",
       "bands": [
         "LOVEBITES"
       ],
+      "description": "Detailed prep and execution task for the Lovebites O2 Arena show on August 3, 2026.",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9ky5n5",
-      "venue": "O2 Academy Islington",
-      "city": "London + Meet and Greet (Trip Prep)",
-      "country": "UK",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86baaaq6g",
       "name": "Frozen Soul — Beat The Heat Summer Getaway — Conduit, Winter Park FL",
       "date": "2026-08-06",
+      "venue": "Beat The Heat Summer Getaway — Conduit",
+      "city": "Winter Park",
+      "state": "FL",
       "bands": [
         "Frozen Soul"
       ],
+      "description": "Frozen Soul — Beat The Heat Summer Getaway Tour",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baaaq6g",
-      "venue": "Conduit",
-      "city": "Winter Park",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -705,19 +749,19 @@
       "id": "86ba365ab",
       "name": "TRHÄ / Saidan / Barbelith — Churchill's Pub, Miami FL",
       "date": "2026-08-06",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
       "bands": [
         "TRHÄ",
         "Saidan",
         "Barbelith"
       ],
+      "description": "TRHÄ + Saidan + Barbelith",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365ab",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -726,17 +770,17 @@
       "id": "86ba365a1",
       "name": "Frozen Soul — Churchill's Pub, Miami FL",
       "date": "2026-08-07",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
       "bands": [
         "Frozen Soul"
       ],
+      "description": "Frozen Soul w/ Bodybox FL, Maul, Eternal",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365a1",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -745,17 +789,15 @@
       "id": "86ba365ag",
       "name": "Crows Fest 2026 — Churchill's Pub, Miami FL",
       "date": "2026-08-08",
-      "bands": [
-        "Crows Fest 2026"
-      ],
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [],
+      "description": "Crows Fest 2026 — The Inauguration",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365ag",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene",
         "key-festivals"
@@ -765,6 +807,7 @@
       "id": "86b997uw3",
       "name": "Deep Purple - Hard Rock",
       "date": "2026-08-09",
+      "venue": "Hard Rock",
       "bands": [
         "Deep Purple"
       ],
@@ -772,24 +815,23 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b997uw3",
-      "city": "Hard Rock",
       "buckets": []
     },
     {
       "id": "86bahh7t5",
       "name": "Smash 'Em Up — Ashes to Empires Album Release Party — Brass Mug, Tampa FL",
       "date": "2026-08-15",
+      "venue": "Ashes to Empires Album Release Party — Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
       "bands": [
         "Smash 'Em Up"
       ],
+      "description": "Smash 'Em Up — \"Ashes to Empires\" Album Release Party",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bahh7t5",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -828,30 +870,31 @@
       "id": "86ba365fy",
       "name": "Dokken + Lynch Mob — Ferg's, St. Petersburg FL",
       "date": "2026-08-22",
+      "venue": "Ferg's",
+      "city": "St. Petersburg",
+      "state": "FL",
       "bands": [
         "Dokken",
         "Lynch Mob"
       ],
+      "description": "Dokken + Lynch Mob, special guest Britny Fox",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365fy",
-      "venue": "Ferg's",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "country": "US",
       "buckets": [
-        "florida-metal-scene",
-        "interesting-elsewhere"
+        "florida-metal-scene"
       ]
     },
     {
       "id": "86bammf50",
       "name": "📀 Lonesome_Blue — FOURTH DIMENSION — RELEASE",
       "date": "2026-08-26",
+      "venue": "FOURTH DIMENSION — RELEASE",
       "bands": [
         "Lonesome_Blue"
       ],
+      "description": "LonesomeBlue — FOURTH DIMENSION (2nd album) 📀",
       "priority": "normal",
       "isRelease": true,
       "isPast": false,
@@ -865,18 +908,18 @@
       "id": "86bahh73t",
       "name": "Nicko McBrain's Titanium Tart + Maximum Friction — The Barn, Sanford FL",
       "date": "2026-08-29",
+      "venue": "The Barn",
+      "city": "Sanford",
+      "state": "FL",
       "bands": [
         "Nicko McBrain's Titanium Tart",
         "Maximum Friction"
       ],
+      "description": "Nicko McBrain — Titanium Tart Tour 2026",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bahh73t",
-      "venue": "The Barn",
-      "city": "Sanford",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -885,16 +928,16 @@
       "id": "86b9b7meq",
       "name": "LOVEBITES — Outstanding Tour — Zepp Fukuoka, Japan",
       "date": "2026-08-29",
+      "city": "Outstanding Tour — Zepp Fukuoka",
+      "country": "Japan",
       "bands": [
         "LOVEBITES"
       ],
+      "description": "LOVEBITES Outstanding Tour Japan 2026. Zepp Fukuoka, Fukuoka.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7meq",
-      "venue": "Zepp Fukuoka",
-      "city": "Fukuoka",
-      "country": "Japan",
       "buckets": [
         "japanese-metal"
       ]
@@ -903,16 +946,16 @@
       "id": "86b9b7mew",
       "name": "LOVEBITES — Outstanding Tour — Hiroshima Club Quattro, Japan",
       "date": "2026-08-30",
+      "city": "Outstanding Tour — Hiroshima Club Quattro",
+      "country": "Japan",
       "bands": [
         "LOVEBITES"
       ],
+      "description": "LOVEBITES Outstanding Tour Japan 2026. Hiroshima Club Quattro, Hiroshima.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mew",
-      "venue": "Hiroshima Club Quattro",
-      "city": "Hiroshima",
-      "country": "Japan",
       "buckets": [
         "japanese-metal"
       ]
@@ -921,9 +964,11 @@
       "id": "86bammf4u",
       "name": "📀 SiM — HOOMAN AFTER ALL — RELEASE",
       "date": "2026-09-02",
+      "venue": "HOOMAN AFTER ALL — RELEASE",
       "bands": [
         "SiM"
       ],
+      "description": "SiM — HOOMAN AFTER ALL (7th album) 📀",
       "priority": "high",
       "isRelease": true,
       "isPast": false,
@@ -937,38 +982,37 @@
       "id": "86ba365ck",
       "name": "No Raza / Mind Virus / Revenant Curse — Guadalajara Night Club, Fort Pierce FL",
       "date": "2026-09-04",
+      "venue": "Guadalajara Night Club",
+      "city": "Fort Pierce",
+      "state": "FL",
       "bands": [
         "No Raza",
         "Mind Virus",
         "Revenant Curse"
       ],
+      "description": "No Raza w/ Mind Virus, Revenant Curse",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365ck",
-      "venue": "Guadalajara Night Club",
-      "city": "Fort Pierce",
-      "state": "FL",
-      "country": "US",
       "buckets": [
-        "florida-metal-scene",
-        "interesting-elsewhere"
+        "florida-metal-scene"
       ]
     },
     {
       "id": "86b9b7mf1",
       "name": "LOVEBITES — Outstanding Tour — Zepp Nagoya, Japan",
       "date": "2026-09-04",
+      "city": "Outstanding Tour — Zepp Nagoya",
+      "country": "Japan",
       "bands": [
         "LOVEBITES"
       ],
+      "description": "LOVEBITES Outstanding Tour Japan 2026. Zepp Nagoya, Nagoya.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mf1",
-      "venue": "Zepp Nagoya",
-      "city": "Nagoya",
-      "country": "Japan",
       "buckets": [
         "japanese-metal"
       ]
@@ -977,18 +1021,15 @@
       "id": "86b93vh5e",
       "name": "Muddy Roots Music Festival — Cookeville, TN",
       "date": "2026-09-04",
-      "bands": [
-        "Muddy Roots Music Festival"
-      ],
+      "venue": "Cookeville",
+      "state": "TN",
+      "bands": [],
+      "description": "Muddy Roots Music Festival 2026\\n\\nDates: September 4-6, 2026\\nLocation: Cookeville, Tennessee\\n\\nLineup includes: Circle Jerks, Monolord, Municipal Waste, Mac Sabbath, Frankie and the Witch Fingers, Angry Zeta, Builders and the Butchers, Rickshaw Billie's Burger Patrol, Sex…",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b93vh5e",
-      "city": "Cookeville",
-      "state": "TN",
-      "country": "US",
       "buckets": [
-        "interesting-elsewhere",
         "key-festivals"
       ]
     },
@@ -996,26 +1037,27 @@
       "id": "86b9b8egf",
       "name": "Nicko McBrain's Titanium Tart - Culture Room, Fort Lauderdale FL",
       "date": "2026-09-05",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
       "bands": [
         "Nicko McBrain's Titanium Tart"
       ],
+      "description": "Nicko McBrain's Titanium Tart - An iconic tribute. Saturday, September 5, 2026 at 7:30 PM at Culture Room, Fort Lauderdale, FL. Found in Facebook saved posts (concerts collection).",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b8egf",
-      "venue": "Culture Room",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "country": "US",
       "buckets": [
-        "florida-metal-scene",
-        "interesting-elsewhere"
+        "florida-metal-scene"
       ]
     },
     {
       "id": "86b7xwhgu",
       "name": "Deathfest - Tampa, Brass Mug",
       "date": "2026-09-05",
+      "city": "Tampa",
+      "country": "Brass Mug",
       "bands": [
         "Deathfest"
       ],
@@ -1023,8 +1065,6 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b7xwhgu",
-      "venue": "Tampa",
-      "city": "Brass Mug",
       "buckets": [
         "florida-metal-scene",
         "key-festivals"
@@ -1034,16 +1074,16 @@
       "id": "86b9b7mgn",
       "name": "LOVEBITES — Outstanding Tour — Zepp Osaka Bayside, Japan",
       "date": "2026-09-06",
+      "city": "Outstanding Tour — Zepp Osaka Bayside",
+      "country": "Japan",
       "bands": [
         "LOVEBITES"
       ],
+      "description": "LOVEBITES Outstanding Tour Japan 2026. Zepp Osaka Bayside, Osaka.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mgn",
-      "venue": "Zepp Osaka Bayside",
-      "city": "Osaka",
-      "country": "Japan",
       "buckets": [
         "japanese-metal"
       ]
@@ -1052,6 +1092,7 @@
       "id": "86b840zp0",
       "name": "Velocity - Dyersville",
       "date": "2026-09-06",
+      "venue": "Dyersville",
       "bands": [
         "Velocity"
       ],
@@ -1059,56 +1100,40 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b840zp0",
-      "city": "Dyersville",
       "buckets": []
     },
     {
       "id": "86b9b7mh7",
       "name": "LOVEBITES — Outstanding Tour — Zepp Sapporo, Japan",
       "date": "2026-09-11",
+      "city": "Outstanding Tour — Zepp Sapporo",
+      "country": "Japan",
       "bands": [
         "LOVEBITES"
       ],
+      "description": "LOVEBITES Outstanding Tour Japan 2026. Zepp Sapporo, Sapporo.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mh7",
-      "venue": "Zepp Sapporo",
-      "city": "Sapporo",
-      "country": "Japan",
       "buckets": [
         "japanese-metal"
-      ]
-    },
-    {
-      "id": "86b7xwryu",
-      "name": "Charlotte",
-      "date": "2026-09-12",
-      "bands": [
-        "Charlotte"
-      ],
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b7xwryu",
-      "buckets": [
-        "interesting-elsewhere"
       ]
     },
     {
       "id": "86b9b7mhk",
       "name": "LOVEBITES — Outstanding Tour — Sendai Gigs, Japan",
       "date": "2026-09-13",
+      "city": "Outstanding Tour — Sendai Gigs",
+      "country": "Japan",
       "bands": [
         "LOVEBITES"
       ],
+      "description": "LOVEBITES Outstanding Tour Japan 2026. Sendai Gigs, Sendai.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mhk",
-      "venue": "Sendai Gigs",
-      "city": "Sendai",
-      "country": "Japan",
       "buckets": [
         "japanese-metal"
       ]
@@ -1117,47 +1142,48 @@
       "id": "86bammf4c",
       "name": "BABYMETAL — Truliant Amphitheater, Charlotte NC",
       "date": "2026-09-15",
+      "venue": "Truliant Amphitheater",
+      "city": "Charlotte",
+      "state": "NC",
       "bands": [
         "BABYMETAL"
       ],
+      "description": "BABYMETAL — World Tour 2026 NA leg (w/ Halestorm + Violent Vira)",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammf4c",
-      "venue": "Truliant Amphitheater",
-      "city": "Charlotte",
-      "state": "NC",
-      "country": "US",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86bammf4g",
       "name": "BABYMETAL — Ameris Bank Amphitheatre, Alpharetta GA (Atlanta)",
       "date": "2026-09-16",
+      "city": "Ameris Bank Amphitheatre",
+      "country": "Alpharetta GA (Atlanta)",
       "bands": [
         "BABYMETAL"
       ],
+      "description": "BABYMETAL — World Tour 2026 NA leg (w/ Halestorm + Violent Vira)",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammf4g",
-      "venue": "Ameris Bank Amphitheatre",
-      "city": "Atlanta",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86bahh5hz",
       "name": "📀 Iron Maiden — \"Iron Maiden at 50\" — RELEASE",
       "date": "2026-09-16",
+      "venue": "\"Iron Maiden at 50\" — RELEASE",
       "bands": [
         "Iron Maiden"
       ],
+      "description": "Iron Maiden — \"Iron Maiden at 50\" 📀",
       "priority": "high",
       "isRelease": true,
       "isPast": false,
@@ -1170,41 +1196,38 @@
       "id": "86bae8x0m",
       "name": "EyeHateGod + Whores + No/Más — Conduit, Orlando FL",
       "date": "2026-09-16",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
       "bands": [
         "EyeHateGod",
         "Whores",
-        "No/Más"
+        "No",
+        "Más"
       ],
+      "description": "EyeHateGod — Fall 2026 US Tour",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bae8x0m",
-      "venue": "Conduit",
-      "city": "Orlando",
-      "state": "FL",
-      "country": "US",
       "buckets": [
-        "florida-metal-scene",
-        "interesting-elsewhere"
+        "florida-metal-scene"
       ]
     },
     {
       "id": "86b7xwt2u",
       "name": "Louder Than Life 2026 — Highland Festival Grounds, Louisville KY",
       "date": "2026-09-17",
-      "bands": [
-        "Louder Than Life 2026"
-      ],
+      "venue": "Highland Festival Grounds",
+      "city": "Louisville",
+      "state": "KY",
+      "bands": [],
+      "description": "Louder Than Life 2026 — 4-day festival",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b7xwt2u",
-      "venue": "Highland Festival Grounds",
-      "city": "Louisville",
-      "state": "KY",
-      "country": "US",
       "buckets": [
-        "interesting-elsewhere",
         "key-festivals"
       ]
     },
@@ -1212,19 +1235,20 @@
       "id": "86bae8x0q",
       "name": "EyeHateGod + Whores + No/Más — Brass Mug, Tampa FL",
       "date": "2026-09-18",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
       "bands": [
         "EyeHateGod",
         "Whores",
-        "No/Más"
+        "No",
+        "Más"
       ],
+      "description": "EyeHateGod — Fall 2026 US Tour",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bae8x0q",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -1233,16 +1257,16 @@
       "id": "86b9b7mjx",
       "name": "LOVEBITES — Outstanding Tour — Kanazawa Redsun, Japan",
       "date": "2026-09-19",
+      "city": "Outstanding Tour — Kanazawa Redsun",
+      "country": "Japan",
       "bands": [
         "LOVEBITES"
       ],
+      "description": "LOVEBITES Outstanding Tour Japan 2026. Kanazawa Redsun, Kanazawa.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mjx",
-      "venue": "Kanazawa Redsun",
-      "city": "Kanazawa",
-      "country": "Japan",
       "buckets": [
         "japanese-metal"
       ]
@@ -1251,6 +1275,8 @@
       "id": "86b80hbu9",
       "name": "Blades of Steel Metalfest - Madison WI",
       "date": "2026-09-19",
+      "city": "Madison",
+      "state": "WI",
       "bands": [
         "Blades of Steel Metalfest"
       ],
@@ -1258,11 +1284,7 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b80hbu9",
-      "city": "Madison",
-      "state": "WI",
-      "country": "US",
       "buckets": [
-        "interesting-elsewhere",
         "key-festivals"
       ]
     },
@@ -1270,6 +1292,7 @@
       "id": "86b7xwr6f",
       "name": "Ripplefest Texas - Austin",
       "date": "2026-09-20",
+      "venue": "Austin",
       "bands": [
         "Ripplefest Texas"
       ],
@@ -1277,9 +1300,7 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b7xwr6f",
-      "city": "Austin",
       "buckets": [
-        "interesting-elsewhere",
         "key-festivals"
       ]
     },
@@ -1287,16 +1308,16 @@
       "id": "86b9b7mkb",
       "name": "LOVEBITES — Outstanding Tour — Niigata Lots, Japan",
       "date": "2026-09-21",
+      "city": "Outstanding Tour — Niigata Lots",
+      "country": "Japan",
       "bands": [
         "LOVEBITES"
       ],
+      "description": "LOVEBITES Outstanding Tour Japan 2026. Niigata Lots, Niigata.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mkb",
-      "venue": "Niigata Lots",
-      "city": "Niigata",
-      "country": "Japan",
       "buckets": [
         "japanese-metal"
       ]
@@ -1305,17 +1326,17 @@
       "id": "86b9b7kfv",
       "name": "KK's Priest + W.A.S.P. — Clearwater, FL",
       "date": "2026-09-22",
+      "venue": "Clearwater",
+      "state": "FL",
       "bands": [
         "KK's Priest",
         "W.A.S.P."
       ],
+      "description": "9/22 in Clearwater, FL. KK's Priest + W.A.S.P. US/Canada tour. Tickets: kkspriest.com. Source: Instagram saved post.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7kfv",
-      "city": "Clearwater",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -1324,17 +1345,17 @@
       "id": "86b9b7kg2",
       "name": "KK's Priest + W.A.S.P. — Daytona Beach, FL",
       "date": "2026-09-23",
+      "venue": "Daytona Beach",
+      "state": "FL",
       "bands": [
         "KK's Priest",
         "W.A.S.P."
       ],
+      "description": "9/23 in Daytona Beach, FL. KK's Priest + W.A.S.P. US/Canada tour. Source: Instagram saved post.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7kg2",
-      "city": "Daytona Beach",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -1343,17 +1364,17 @@
       "id": "86b9b7kgy",
       "name": "KK's Priest + W.A.S.P. — Jacksonville, FL",
       "date": "2026-09-24",
+      "venue": "Jacksonville",
+      "state": "FL",
       "bands": [
         "KK's Priest",
         "W.A.S.P."
       ],
+      "description": "9/24 in Jacksonville, FL. KK's Priest + W.A.S.P. US/Canada tour. Source: Instagram saved post.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7kgy",
-      "city": "Jacksonville",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -1362,36 +1383,33 @@
       "id": "86b9b7mm1",
       "name": "LOVEBITES — Outstanding Tour — Zepp Haneda Night 1, Tokyo",
       "date": "2026-09-25",
+      "city": "Outstanding Tour — Zepp Haneda Night 1",
+      "country": "Tokyo",
       "bands": [
         "LOVEBITES"
       ],
+      "description": "LOVEBITES Outstanding Tour Japan 2026. Zepp Haneda Night 1, Tokyo.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mm1",
-      "venue": "Zepp Haneda Night 1",
-      "city": "Tokyo",
-      "country": "Japan",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86ba365c7",
       "name": "Party Weekend Festival — Iron Horse Saloon, Daytona Beach FL",
       "date": "2026-09-26",
-      "bands": [
-        "Party Weekend Festival"
-      ],
+      "venue": "Iron Horse Saloon",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "bands": [],
+      "description": "Party Weekend Festival 2026",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365c7",
-      "venue": "Iron Horse Saloon",
-      "city": "Daytona Beach",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene",
         "key-festivals"
@@ -1401,34 +1419,18 @@
       "id": "86b9b7mpq",
       "name": "LOVEBITES — Outstanding Tour FINALE — Zepp Haneda Night 2, Tokyo",
       "date": "2026-09-26",
+      "city": "Outstanding Tour FINALE — Zepp Haneda Night 2",
+      "country": "Tokyo",
       "bands": [
         "LOVEBITES"
       ],
+      "description": "LOVEBITES Outstanding Tour Japan 2026 FINALE. Zepp Haneda Night 2, Tokyo.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mpq",
-      "venue": "Zepp Haneda Night 2",
-      "city": "Tokyo",
-      "country": "Japan",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86b7xwt0t",
-      "name": "San Antonio",
-      "date": "2026-09-29",
-      "bands": [
-        "San Antonio"
-      ],
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b7xwt0t",
-      "buckets": [
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
@@ -1448,106 +1450,105 @@
       "id": "86ba9ag36",
       "name": "✅ Rolling Quartz — Austin TX (Super Diadem PURCHASED)",
       "date": "2026-10-04",
+      "venue": "Austin TX (Super Diadem PURCHASED)",
       "bands": [
-        "Rolling Quartz"
+        "✅ Rolling Quartz"
       ],
+      "description": "Rolling Quartz — MY TURN North America Tour 2026 ✅ PURCHASED — SUPER DIADEM",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba9ag36",
-      "city": "Austin TX (Super Diadem PURCHASED)",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86ba9ag6r",
       "name": "Rolling Quartz — Dallas TX (MY TURN NA Tour) [travel candidate]",
       "date": "2026-10-09",
+      "venue": "Dallas TX (MY TURN NA Tour) [travel candidate]",
       "bands": [
         "Rolling Quartz"
       ],
+      "description": "Rolling Quartz — MY TURN North America Tour 2026",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba9ag6r",
-      "city": "Dallas TX (MY TURN NA Tour) [travel candidate]",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86ba5zfhv",
       "name": "Arch Enemy at Revolution Live, Fort Lauderdale",
       "date": "2026-10-16",
+      "city": "Revolution Live",
+      "country": "Fort Lauderdale",
       "bands": [
-        "Arch Enemy at Revolution Live, Fort Lauderdale"
+        "Arch Enemy"
       ],
+      "description": "Arch Enemy concert at Revolution Live, Fort Lauderdale. Friday October 16, 2026.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba5zfhv",
       "buckets": [
-        "florida-metal-scene",
-        "interesting-elsewhere"
+        "florida-metal-scene"
       ]
     },
     {
       "id": "86b7xwt6n",
       "name": "Sick New World - Fort Worth",
       "date": "2026-10-24",
-      "bands": [
-        "Sick New World"
-      ],
+      "venue": "Fort Worth",
+      "bands": [],
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b7xwt6n",
-      "city": "Fort Worth",
-      "buckets": [
-        "key-festivals"
-      ]
+      "buckets": []
     },
     {
       "id": "86bae8x0j",
       "name": "Whitechapel + Chelsea Grin + The Acacia Strain + Netherwalker — HOB, Lake Buena Vista (Orlando) FL",
       "date": "2026-11-13",
+      "venue": "HOB",
+      "city": "Lake Buena Vista (Orlando)",
+      "state": "FL",
       "bands": [
         "Whitechapel",
         "Chelsea Grin",
         "The Acacia Strain",
         "Netherwalker"
       ],
+      "description": "Whitechapel — 20th Anniversary Tour",
+      "ticketUrl": "https://livemu.sc/4ec5inf",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bae8x0j",
-      "venue": "HOB",
-      "city": "Orlando",
-      "state": "FL",
-      "country": "US",
       "buckets": [
-        "florida-metal-scene",
-        "interesting-elsewhere"
+        "florida-metal-scene"
       ]
     },
     {
       "id": "86b93veqt",
       "name": "Tampa Doom & Gloom Fest III — Deviant Libation, Tampa FL",
       "date": "2026-11-13",
+      "venue": "Deviant Libation",
+      "city": "Tampa",
+      "state": "FL",
       "bands": [
-        "Tampa Doom & Gloom Fest III"
+        "Tampa Doom",
+        "Gloom Fest III"
       ],
+      "description": "Tampa Doom & Gloom Fest III — 3 days, 2 stages, 36 bands\\n\\nDates: November 13-15, 2026\\nVenue: Deviant Libation, 3800 N Nebraska Ave, Tampa FL\\nAll Ages\\nDoors: Fri 1PM, Sat/Sun 12PM\\n\\nBands include: November's Doom, Florist Heavy, Somnent, Hollow Leg, Palaces, Sandcrawler,…",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b93veqt",
-      "venue": "Deviant Libation",
-      "city": "Tampa",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene",
         "key-festivals"
@@ -1557,57 +1558,55 @@
       "id": "86bammf4p",
       "name": "SiM — Come and Take It Live, Austin TX",
       "date": "2026-11-14",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
       "bands": [
         "SiM"
       ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour 2026 NA leg",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammf4p",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "country": "US",
       "buckets": [
-        "japanese-metal",
-        "interesting-elsewhere"
+        "japanese-metal"
       ]
     },
     {
       "id": "86baaaf87",
       "name": "DragonForce — House of Blues, Lake Buena Vista (Orlando) FL",
       "date": "2026-11-20",
+      "venue": "House of Blues",
+      "city": "Lake Buena Vista (Orlando)",
+      "state": "FL",
       "bands": [
         "DragonForce"
       ],
+      "description": "DragonForce — Inhuman Rampage 20th Anniversary Tour 2026",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baaaf87",
-      "venue": "House of Blues",
-      "city": "Orlando",
-      "state": "FL",
-      "country": "US",
       "buckets": [
-        "florida-metal-scene",
-        "interesting-elsewhere"
+        "florida-metal-scene"
       ]
     },
     {
       "id": "86baaafa5",
       "name": "DragonForce — The Ritz Ybor, Tampa FL",
       "date": "2026-11-21",
+      "venue": "The Ritz Ybor",
+      "city": "Tampa",
+      "state": "FL",
       "bands": [
         "DragonForce"
       ],
+      "description": "DragonForce — Inhuman Rampage 20th Anniversary Tour 2026",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baaafa5",
-      "venue": "The Ritz Ybor",
-      "city": "Tampa",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -1619,6 +1618,7 @@
       "bands": [
         "DragonForce in Tampa"
       ],
+      "description": "DragonForce concert in Tampa. Saturday November 21, 2026.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
@@ -1631,16 +1631,17 @@
       "id": "86b93vh4a",
       "name": "Fear Factory — Two Nights, Two Albums (Demanufacture + Obsolete) — The Whisky, LA",
       "date": "2026-11-28",
+      "venue": "Two Nights",
+      "city": "Two Albums (Demanufacture + Obsolete) — The Whisky",
+      "state": "LA",
       "bands": [
         "Fear Factory"
       ],
+      "description": "Fear Factory / Darkest Hour — Two Nights, Two Albums at The Whisky, Los Angeles\\n\\nSaturday Nov 28: Performing Demanufacture in its entirety\\nSunday Nov 29: Performing Obsolete in its entirety\\n\\nSupport acts include Brutality, Sjera, Pathology, Voices of Ruin\\n\\nFound on…",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b93vh4a",
-      "city": "The Whisky",
-      "state": "LA",
-      "country": "US",
       "buckets": [
         "interesting-elsewhere"
       ]
@@ -1649,16 +1650,16 @@
       "id": "86b9b7q2u",
       "name": "Metallica — M72 World Tour 2026 — Miami, FL",
       "date": "2026-12-08",
+      "venue": "M72 World Tour 2026 — Miami",
+      "state": "FL",
       "bands": [
         "Metallica"
       ],
+      "description": "Metallica M72 World Tour 2026 Grand Finale in Miami, FL. December 8th. Source: Facebook saved post.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7q2u",
-      "city": "Miami",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -1667,6 +1668,7 @@
       "id": "86b7xw9xz",
       "name": "Sabaton - FLL",
       "date": "2026-12-12",
+      "venue": "FLL",
       "bands": [
         "Sabaton"
       ],
@@ -1674,30 +1676,24 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b7xw9xz",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "country": "US",
-      "buckets": [
-        "florida-metal-scene",
-        "interesting-elsewhere"
-      ]
+      "buckets": []
     },
     {
       "id": "86baaae1w",
       "name": "Yo-Yo Ma + Solon Gordon — Knight Concert Hall, Arsht Center, Miami FL",
       "date": "2027-01-10",
+      "venue": "Knight Concert Hall, Arsht Center",
+      "city": "Miami",
+      "state": "FL",
       "bands": [
         "Yo-Yo Ma",
         "Solon Gordon"
       ],
+      "description": "Yo-Yo Ma and Solon Gordon — Arsht Center 2026-27 Classical Music Series",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baaae1w",
-      "venue": "Knight Concert Hall, Arsht Center",
-      "city": "Miami",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -1706,17 +1702,17 @@
       "id": "86baaae33",
       "name": "Yuja Wang (piano) — Knight Concert Hall, Arsht Center, Miami FL",
       "date": "2027-03-23",
+      "venue": "Knight Concert Hall, Arsht Center",
+      "city": "Miami",
+      "state": "FL",
       "bands": [
         "Yuja Wang (piano)"
       ],
+      "description": "Yuja Wang — Arsht Debut — Arsht Center 2026-27 Classical Music Series",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baaae33",
-      "venue": "Knight Concert Hall, Arsht Center",
-      "city": "Miami",
-      "state": "FL",
-      "country": "US",
       "buckets": [
         "florida-metal-scene"
       ]
