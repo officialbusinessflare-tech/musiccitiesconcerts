@@ -1,0 +1,65 @@
+---
+import type { ConcertEntry } from '../lib/types';
+
+interface Props {
+  entry: ConcertEntry;
+}
+
+const { entry } = Astro.props;
+
+// Format date: "JUL 10"
+const MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+
+function formatDateStamp(iso: string): string {
+  // Use UTC parts to avoid timezone drift in static builds.
+  const [y, m, d] = iso.split('-').map(Number);
+  if (!y || !m || !d) return iso;
+  return `${MONTHS[m - 1]} ${d}`;
+}
+
+const dateStamp = formatDateStamp(entry.date);
+const endStamp = entry.endDate && entry.endDate !== entry.date ? formatDateStamp(entry.endDate) : null;
+
+// Headline: prefer first parsed band, fall back to raw name.
+const headline = entry.bands[0] ?? entry.name;
+
+// Meta line: venue + city
+const venueLine = [entry.venue, entry.city, entry.state ?? entry.country].filter(Boolean).join(' — ');
+
+const priorityClass =
+  entry.priority === 'urgent' || entry.priority === 'high' ? 'card__priority' : 'card__priority card__priority--low';
+
+const showPriority = entry.priority === 'urgent' || entry.priority === 'high';
+---
+
+<article class="card">
+  <div class="card__date">
+    {dateStamp}{endStamp ? <span>&nbsp;–&nbsp;{endStamp}</span> : null}
+  </div>
+
+  <h3 class="card__title">{headline}</h3>
+
+  {venueLine ? <p class="card__meta">{venueLine}</p> : null}
+
+  {entry.description ? <p class="card__desc">{entry.description}</p> : null}
+
+  <div class="card__footer">
+    {showPriority ? (
+      <span class={priorityClass} aria-label={`Priority: ${entry.priority}`}>
+        {entry.priority}
+      </span>
+    ) : (
+      <span aria-hidden="true"></span>
+    )}
+
+    {entry.ticketUrl ? (
+      <a class="card__ticket" href={entry.ticketUrl} target="_blank" rel="noopener noreferrer">
+        Tickets &rarr;
+      </a>
+    ) : (
+      <a class="card__ticket" href={entry.clickupUrl} target="_blank" rel="noopener noreferrer" aria-label="View source task in ClickUp">
+        Details &rarr;
+      </a>
+    )}
+  </div>
+</article>

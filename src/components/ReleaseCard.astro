@@ -1,0 +1,61 @@
+---
+import type { ConcertEntry } from '../lib/types';
+
+interface Props {
+  entry: ConcertEntry;
+}
+
+const { entry } = Astro.props;
+
+const MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+
+function formatDateStamp(iso: string): string {
+  const [y, m, d] = iso.split('-').map(Number);
+  if (!y || !m || !d) return iso;
+  return `${MONTHS[m - 1]} ${d}`;
+}
+
+const dateStamp = formatDateStamp(entry.date);
+
+// Strip the leading disc emoji from the display title; keep it as a tag instead.
+const cleanedName = entry.name.replace(/^\s*📀\s*/, '').trim();
+const headline = cleanedName || entry.bands[0] || entry.name;
+
+const showPriority = entry.priority === 'urgent' || entry.priority === 'high';
+---
+
+<article class="card">
+  <div class="card__date">
+    📀 {dateStamp}
+  </div>
+
+  <span class="card__tag">Release</span>
+
+  <h3 class="card__title">{headline}</h3>
+
+  {entry.bands.length > 1 ? (
+    <p class="card__meta"><strong>Artist:</strong> {entry.bands.join(', ')}</p>
+  ) : null}
+
+  {entry.description ? <p class="card__desc">{entry.description}</p> : null}
+
+  <div class="card__footer">
+    {showPriority ? (
+      <span class="card__priority" aria-label={`Priority: ${entry.priority}`}>
+        {entry.priority}
+      </span>
+    ) : (
+      <span aria-hidden="true"></span>
+    )}
+
+    {entry.ticketUrl ? (
+      <a class="card__ticket" href={entry.ticketUrl} target="_blank" rel="noopener noreferrer">
+        Listen &rarr;
+      </a>
+    ) : (
+      <a class="card__ticket" href={entry.clickupUrl} target="_blank" rel="noopener noreferrer">
+        Details &rarr;
+      </a>
+    )}
+  </div>
+</article>

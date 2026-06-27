@@ -1,0 +1,23 @@
+{
+  "name": "music-cities-concerts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The Music Cities Concerts Dashboard — curated metal shows, releases, festivals.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fetch-data": "node scripts/fetch-clickup.js"
+  },
+  "dependencies": {
+    "astro": "^4.16.18",
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

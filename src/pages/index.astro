@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import BucketSection from '../components/BucketSection.astro';
+import type { BucketsConfigFile, ConcertsDataFile, ConcertEntry } from '../lib/types';
+import { groupByBucket } from '../lib/categorize';
+
+// Astro can import JSON directly at build time. concerts.json is regenerated
+// nightly by the scheduled function committing back to the repo.
+import bucketsConfig from '../../buckets.config.json';
+import concertsData from '../../concerts.json';
+
+const buckets = (bucketsConfig as BucketsConfigFile).buckets;
+const data = concertsData as ConcertsDataFile;
+
+// Defensive: filter out anything in the past, just in case the data file
+// outpaces the nightly rebuild.
+const today = new Date().toISOString().slice(0, 10);
+const upcoming: ConcertEntry[] = (data.entries ?? []).filter((e) => {
+  const compareDate = e.endDate ?? e.date;
+  return compareDate >= today;
+});
+
+const grouped = groupByBucket(upcoming, buckets);
+
+const lastUpdated = data.generatedAt
+  ? new Date(data.generatedAt).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+    })
+  : null;
+---
+
+<BaseLayout
+  title="The Music Cities — Concerts Dashboard"
+  description="Curated metal concerts, festivals, and album releases across Florida, Japan, and the wider scene. Updated nightly."
+>
+  <Header />
+
+  <section class="hero-strip">
+    <div class="container">
+      <h1 class="hero-strip__lede">
+        Concerts. Releases. <em>The scene.</em>
+      </h1>
+      <p class="hero-strip__body">
+        Not an aggregator. This is the calendar Kevin actually pays attention to —
+        Florida's metal venues, the Japanese watch list, marquee festivals, and
+        the records on heavy rotation. {lastUpdated ? <span>Last updated {lastUpdated}.</span> : null}
+      </p>
+    </div>
+  </section>
+
+  <main>
+    {buckets.map((bucket) => (
+      <BucketSection bucket={bucket} entries={grouped.get(bucket.id) ?? []} />
+    ))}
+  </main>
+
+  <Footer />
+</BaseLayout>

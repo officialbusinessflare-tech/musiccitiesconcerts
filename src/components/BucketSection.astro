@@ -1,0 +1,45 @@
+---
+import type { BucketConfig, ConcertEntry } from '../lib/types';
+import ShowCard from './ShowCard.astro';
+import ReleaseCard from './ReleaseCard.astro';
+
+interface Props {
+  bucket: BucketConfig;
+  entries: ConcertEntry[];
+}
+
+const { bucket, entries } = Astro.props;
+
+// Releases bucket uses the release card; everything else uses the show card.
+const isReleaseBucket = bucket.matchRules?.isRelease === true;
+
+// Sort by date ascending (callers may have already done this; double-sorting is cheap).
+const sorted = [...entries].sort((a, b) => a.date.localeCompare(b.date));
+---
+
+<section class="bucket" id={`bucket-${bucket.id}`} aria-labelledby={`bucket-${bucket.id}-title`}>
+  <div class="container">
+    <header class="bucket__header">
+      <span class="bucket__eyebrow">{isReleaseBucket ? 'New music' : 'On the calendar'}</span>
+      <h2 class="bucket__title" id={`bucket-${bucket.id}-title`}>
+        {bucket.name}
+        {bucket.kanji ? <span class="bucket__kanji" lang="ja">{bucket.kanji}</span> : null}
+      </h2>
+      <p class="bucket__description">{bucket.description}</p>
+    </header>
+
+    {sorted.length === 0 ? (
+      <p class="bucket__empty">Nothing on the calendar here yet. Check back soon.</p>
+    ) : (
+      <div class="bucket__grid">
+        {sorted.map((entry) =>
+          isReleaseBucket || entry.isRelease ? (
+            <ReleaseCard entry={entry} />
+          ) : (
+            <ShowCard entry={entry} />
+          ),
+        )}
+      </div>
+    )}
+  </div>
+</section>
