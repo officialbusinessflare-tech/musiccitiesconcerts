@@ -19,6 +19,19 @@ type Stop = {
   verdict: string;
 };
 
+const sundayBonusStops: Stop[] = [
+  {
+    num: '13',
+    name: 'Crypt of the Wizard',
+    priority: 'MAYBE',
+    address: '264 Hackney Rd, E2 7SJ',
+    what: "London's only dedicated all-metal record shop — vinyl, CDs, tapes, their own label releases, shirts, zines. The specialist dig. Open Sundays 12–4 only (CLOSED Mondays, so Sunday is your one shot this trip).",
+    open: 'Sunday 12PM–4PM. (Closed Mondays.)',
+    getting: 'From Heathrow: Uber direct ~60–75 min (~£65–85) — the only realistic way to beat the 4PM close. Tube exists (Piccadilly to King’s Cross, then Overground/bus toward Hackney, ~75–95 min) but too slow to make 4PM. You MUST arrive before 4PM; works only off an early flight, skipping the hotel.',
+    verdict: 'BONUS only if you land by ~1:30PM. Uber straight from Heathrow, skip the hotel, dig the crates, then cab on to Raven before 6 and into Camden. Off the planned 3PM landing it’ll be shut before you arrive — go to Raven on Monday instead and don’t sweat it.',
+  },
+];
+
 const sundayStops: Stop[] = [
   {
     num: '3',
@@ -27,8 +40,8 @@ const sundayStops: Stop[] = [
     address: '24 Camden Rd, NW1 9DP',
     what: "London's premier metal record store + the world's ONLY alcohol-free metal bar + a metal coffee shop. Vinyl, CDs, merch, patches, metal coffee and 0.0% drinks.",
     open: 'Sunday 12PM–6PM. (Full hours in Monday’s section.)',
-    getting: '~2 min from Camden Town station.',
-    verdict: 'Tight on Sunday given the 5PM arrival. If you’re out of the hotel fast you can catch the last 30–40 min; otherwise lock it in for Monday and don’t stress it tonight. Catch before 6PM if at all possible.',
+    getting: '~2 min from Camden Town station. From the hotel: Northern line Angel → Camden Town ~12 min, or a ~10-min cab (~£12).',
+    verdict: 'Tight on Sunday given the 5–5:30PM hotel arrival. If you’re out fast you can catch the last 30–40 min; otherwise lock it in for Monday and don’t stress it tonight. Catch before 6PM if at all possible.',
   },
   {
     num: '7',
@@ -70,8 +83,8 @@ const mondayMorningStops: Stop[] = [
     address: '1 Maryland Point, Stratford, E15 1PF',
     what: 'The birthplace of Iron Maiden. Steve Harris’s band played their first gigs here in 1976 and held a weekly residency 1976–78. Today it leans into the legend: Eddie memorabilia, a basement live room, Maiden everywhere, and a merch counter (patches, magnets, picks).',
     open: 'Open 12PM daily (confirmed for Mon Aug 3 — no private event that day).',
-    getting: 'Hotel → Northern line Angel → King’s Cross (1 stop), then Elizabeth line east to Stratford, then ~6 min walk to Maryland Point. Or Overground via Highbury & Islington. ~35–45 min door to door.',
-    verdict: 'Go right at noon so you have it to yourself. Soak in the history, hit the merch counter — this is the photo you came for.',
+    getting: 'From the hotel: Northern line Angel → King’s Cross (1 stop), then Elizabeth line east to Stratford, ~6 min walk to Maryland Point (~35–45 min). Or just Uber the whole way — ~30–40 min, ~£30–40, door to door.',
+    verdict: 'Go right at noon so you have it to yourself. Soak in the history, hit the merch counter — this is the photo you came for. No need to drink to enjoy it.',
   },
 ];
 
@@ -136,7 +149,7 @@ const mondaySohoStops: Stop[] = [
     address: 'Denmark St, WC2H 8NA',
     what: "Britain's Tin Pan Alley — the historic guitar-and-music-shop street. Still trading: Regent Sounds (Fender/Gretsch), Hanks / Denmark Street Guitars (huge used stock, claims the UK’s largest selection), Wunjo Guitars, Macari’s (effects/amps), Argents (keys/sheet music). Walls of guitars, amps and pedals, plus rock history at every door.",
     open: 'Shops typically ~10AM–6PM Monday.',
-    getting: 'Northern line Angel → Tottenham Court Road (~8 min), then ~3 min walk.',
+    getting: 'From Camden: Uber ~10–12 min (~£20–25), or Northern line Camden Town → Tottenham Court Road ~10 min + 3 min walk. From the hotel direct it’s Northern line Angel → Tottenham Court Road ~8 min.',
     verdict: 'The instrument-shop motherlode. Go before 6PM. If you play, budget extra time.',
   },
   {
@@ -199,9 +212,11 @@ const skipList = [
   { name: 'Intrepid Fox', why: 'Long gone.' },
   { name: 'Garlic & Shots', why: 'Long gone.' },
   { name: 'Resurrection Records (Camden)', why: 'Shop closed, online only.' },
-  { name: 'Crypt of the Wizard (Hackney)', why: "London's dedicated all-metal shop — but it's CLOSED on Mondays (your only free day). Filed for a future trip." },
+  { name: 'Crypt of the Wizard (Hackney)', why: "London's dedicated all-metal shop. Open Sun 12–4, closed Mon. Only reachable Sunday off an early flight — see the Sunday Plan B Bonus above." },
   { name: 'A Lemmy statue', why: "There is NO Lemmy statue in London. The famous ones are in Los Angeles and Stoke-on-Trent." },
 ];
+---
+
 ---
 
 <BaseLayout
@@ -238,8 +253,8 @@ const skipList = [
             in Stratford, which gets its own window so you never cross the city twice.
           </p>
           <ul>
-            <li><strong>Sunday Aug 2:</strong> Land Heathrow 3PM, at the hotel ~5:30PM. Evening is yours — straight into Camden for a full night out, pubs till midnight.</li>
-            <li><strong>Monday Aug 3:</strong> Full day free until doors. Cart and Horses at noon, then Camden (or Soho) afternoon. Lovebites: doors 7PM, curfew 11PM.</li>
+            <li><strong>Sunday Aug 2:</strong> Land Heathrow 3PM, at the hotel ~5:00–5:30PM. Evening is yours — straight into Camden for a full night out, pubs till midnight.</li>
+            <li><strong>Monday Aug 3:</strong> Full day free until doors. Cart and Horses at noon, then Camden (Raven Records) and Uber down to Soho for the shops. Lovebites: doors 7PM, curfew 11PM.</li>
             <li><strong>Tuesday Aug 4:</strong> Noon flight from Heathrow. Travel day, not a touring day.</li>
           </ul>
         </div>
@@ -251,19 +266,49 @@ const skipList = [
         <h2 class="london-day__title">Sunday, August 2 <span class="london-day__sub">— Land &amp; Hit Camden (Until Midnight)</span></h2>
         <div class="london-prose">
           <p>
-            Land 3PM. By the time you clear Heathrow, grab bags and ride the Piccadilly line
-            in, you’re at the hotel around 5:00–5:30PM. Dump the bags, splash water on your
-            face, and go — Sunday night in Camden runs late and it’s a 12-minute Tube ride.
-            This is a full evening, not a nap.
+            Land 3PM. Fastest with bags is an Uber/taxi straight in — Heathrow to the hotel
+            is ~50–70 min, ~£60–80. If you’d rather save the cash, the Tube works too:
+            Piccadilly line from Heathrow to King’s Cross, then one Northern line stop to
+            Angel (~75–90 min, a few £ with contactless). Either way you’re at the hotel
+            around 5:00–5:30PM. Dump bags and go: Camden runs late and it’s a 10-min cab
+            (~£12) or a 12-min Tube from Angel (Northern line, direct).
           </p>
           <p>
-            The play: drop bags by ~5:30, Northern line Angel → Camden Town (~12 min), and
-            work a Camden loop from ~6:30PM until the pubs close at midnight. Records first
-            (they shut at 6), then the late venues. Last Northern line back to Angel runs
-            well past midnight, so you’re never stuck.
+            <strong>Sunday game plan:</strong> If you’ve only got carry-on, take the shot at
+            the Crypt — Uber straight from Heathrow to Crypt of the Wizard (Hackney, open
+            Sun 12–4). On time you’ll arrive ~4:30 (tight against the 4PM close), but an
+            early flight makes it. If it’s open, great; if shut, Uber on to Raven Records
+            (~20 min) to catch it before 6. Then cab to the hotel, drop the bag, and head
+            back to Camden for the pubs till midnight. No bag drama, fully fluid — and
+            nothing breaks if the Crypt doesn’t pan out, since Raven covers your metal
+            vinyl Monday too.
           </p>
         </div>
-        <h3 class="london-cluster__title">Evening — The Camden Loop (~6:30PM–Midnight)</h3>
+        <h3 class="london-cluster__title">Plan B Bonus (Earlier Flight Only) — Crypt of the Wizard</h3>
+        <p class="london-cluster__intro">
+          Only realistic if you land by ~1:30PM. London’s only dedicated all-metal record
+          shop, Sundays 12–4 only. Skip the hotel and Uber straight from Heathrow. If you
+          can’t make 4PM, leave it for a future trip — Raven covers your metal vinyl.
+        </p>
+        <div class="london-cards">
+          {sundayBonusStops.map((s) => (
+            <article class={`london-card london-card--${s.priority.toLowerCase()}`}>
+              <header class="london-card__head">
+                {s.num ? <span class="london-card__num">{s.num}</span> : null}
+                <h4 class="london-card__name">{s.name}</h4>
+                <span class={`london-card__tag london-card__tag--${s.priority.toLowerCase()}`}>{s.priority}</span>
+              </header>
+              <dl class="london-card__facts">
+                <div><dt>Address</dt><dd>{s.address}</dd></div>
+                <div><dt>What it is</dt><dd>{s.what}</dd></div>
+                <div><dt>Hours</dt><dd>{s.open}</dd></div>
+                <div><dt>Getting there</dt><dd>{s.getting}</dd></div>
+                <div><dt>Verdict</dt><dd>{s.verdict}</dd></div>
+              </dl>
+            </article>
+          ))}
+        </div>
+        <h3 class="london-cluster__title">Evening — The Camden Loop (~6:00PM–Midnight)</h3>
         <div class="london-cards">
           {sundayStops.map((s) => (
             <article class={`london-card london-card--${s.priority.toLowerCase()}`}>
@@ -307,16 +352,17 @@ const skipList = [
         <div class="london-prose">
           <p>
             The whole trip. Full day, hard stop: be back near the O2 Academy by ~6:30PM,
-            relaxed, before 7PM doors. Two clean halves, no backtracking — head east to
-            Stratford right as Cart and Horses opens at noon, then come back through the
-            centre for Camden (records, coffee, the living metal scene) and back to the
-            hotel to freshen up before the show.
+            relaxed, before 7PM doors. Two clean halves, no backtracking:
           </p>
+          <ul>
+            <li><strong>Late morning</strong> — head EAST to Stratford for the Cart and Horses (the one unmissable), right as it opens at noon.</li>
+            <li><strong>Afternoon</strong> — come back through the centre and do Camden (Raven Records + All Ages), then Uber down to the Soho shops, then back to Angel for the show.</li>
+          </ul>
           <p>
-            Soho/West End (record shops + guitar shops + Marquee plaque) is an
-            alternative afternoon if you’d rather dig crates and browse gear than do
-            Camden. You can’t comfortably do both full halves AND make doors relaxed —
-            pick one.
+            Your plan does BOTH Camden and Soho on Monday, using taxis to make it fit:
+            Cart and Horses first, then Raven Records in Camden, then Uber down to the
+            Soho shops, then back to Angel for the show. It’s a full day but very doable
+            by cab.
           </p>
         </div>
 
@@ -340,12 +386,12 @@ const skipList = [
           ))}
         </div>
 
-        <h3 class="london-cluster__title">Afternoon Option A (Recommended) — Camden: Records, Coffee &amp; the Living Scene</h3>
+        <h3 class="london-cluster__title">Midday — Camden: Raven Records (Records, Coffee &amp; the Alcohol-Free Metal Bar)</h3>
         <p class="london-cluster__intro">
-          From Stratford head back toward Camden Town (Elizabeth/Overground to a Northern
-          line interchange, or Overground toward Camden Road; ~35–45 min). Camden earns the
-          trip — and for you specifically it’s perfect, because the best stops are record
-          shops and an alcohol-free metal bar, not boozers.
+          From Stratford head back toward Camden Town — Overground toward Camden Road or
+          Elizabeth line to a Northern line interchange (~35–45 min), or Uber (~30–40 min,
+          ~£30–40). Camden earns the trip — for you it’s perfect, because the best stops
+          here are record shops and an alcohol-free metal bar, not boozers.
         </p>
         <div class="london-cards">
           {mondayCamdenStops.map((s) => (
@@ -372,12 +418,15 @@ const skipList = [
           back to Angel is ~10–12 min — to freshen up before doors.
         </p>
 
-        <h3 class="london-cluster__title">Afternoon Option B — Soho / West End: Record Shops + Guitar Shops</h3>
+        <h3 class="london-cluster__title">Afternoon — Uber to Soho: Record Shops + Guitar Shops</h3>
         <p class="london-cluster__intro">
-          Choose this instead of Camden if you want the deepest concentration of record
-          shops and instrument shops in London. A tight, walkable cluster around Berwick
-          Street, Denmark Street and Wardour Street — all shops and history, no drinking
-          required.
+          Your Monday plan threads BOTH areas: Cart and Horses, then Raven Records in
+          Camden, then down to Soho for the shops. Camden → Soho is ~10 min and ~£20–25 by
+          cab (fastest), or Northern line Camden Town → Tottenham Court Road ~10 min then
+          a short walk (cheapest). A tight, walkable cluster around Berwick Street,
+          Denmark Street and Wardour Street — all shops and history, no drinking required.
+          Leave Camden by ~3:30PM for a clear ~2 hours in Soho and an easy return to Angel
+          before 7PM doors.
         </p>
         <div class="london-cards">
           {mondaySohoStops.map((s) => (
@@ -494,6 +543,9 @@ const skipList = [
 
     </div>
   </main>
+
+  <Footer />
+</BaseLayout>
 
   <Footer />
 </BaseLayout>
