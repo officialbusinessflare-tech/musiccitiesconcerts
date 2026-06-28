@@ -1,0 +1,499 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+// TODO: An interactive map (Metal_London_Map.html) and shapefile/GeoJSON/KML
+// bundle live alongside the source doc in Drive. Not embedded here yet — they
+// need to be re-hosted as static assets (or rebuilt as a Leaflet/MapLibre
+// inline map) before they can ship to the public page.
+
+type Stop = {
+  num?: string;
+  name: string;
+  priority: 'MUST' | 'MAYBE' | 'SKIP' | 'NOTE';
+  address: string;
+  what: string;
+  open: string;
+  getting: string;
+  verdict: string;
+};
+
+const sundayStops: Stop[] = [
+  {
+    num: '3',
+    name: 'Raven Records',
+    priority: 'MUST',
+    address: '24 Camden Rd, NW1 9DP',
+    what: "London's premier metal record store + the world's ONLY alcohol-free metal bar + a metal coffee shop. Vinyl, CDs, merch, patches, metal coffee and 0.0% drinks.",
+    open: 'Sunday 12PM–6PM. (Full hours in Monday’s section.)',
+    getting: '~2 min from Camden Town station.',
+    verdict: 'Tight on Sunday given the 5PM arrival. If you’re out of the hotel fast you can catch the last 30–40 min; otherwise lock it in for Monday and don’t stress it tonight. Catch before 6PM if at all possible.',
+  },
+  {
+    num: '7',
+    name: "The World's End / The Underworld",
+    priority: 'MUST',
+    address: '174 Camden High St, NW1 0NE',
+    what: 'Vast landmark pub right at Camden Town station, sitting on top of The Underworld — the legendary 500-cap metal venue in the basement. Check the Underworld listings — there may well be a Sunday-night gig downstairs you can walk into.',
+    open: 'Sunday 12PM–11PM (pub).',
+    getting: 'Right at Camden Town Tube — start here.',
+    verdict: 'Your anchor for the night. Soft drink, soak up the room, check what’s on in the basement.',
+  },
+  {
+    num: '6',
+    name: 'The Devonshire Arms ("The Dev")',
+    priority: 'MUST',
+    address: '33 Kentish Town Rd, NW1 8NL',
+    what: "London's longest-surviving goth/metal pub. Dark, mock-Tudor, rock and metal on the system. Pure atmosphere, open till midnight.",
+    open: 'Sunday 3PM–12AM.',
+    getting: '~4 min walk from the World’s End.',
+    verdict: 'The classic Camden cave. Doesn’t matter that you’re not drinking — this is about standing in it.',
+  },
+  {
+    num: '5',
+    name: 'The Black Heart',
+    priority: 'MUST',
+    address: '2 Greenland Pl, NW1 0AP',
+    what: 'The flagship modern London metal pub: lively bar downstairs, 150-cap gig room upstairs, weekly rock/metal bills. Sundays often have a live gig on.',
+    open: 'Sunday 12PM–12AM.',
+    getting: '~3 min from the Dev / ~2 min from Camden Town Tube.',
+    verdict: 'The best note to end on. Stay till they call it (~midnight), then it’s a 2-min walk to the Tube.',
+  },
+];
+
+const mondayMorningStops: Stop[] = [
+  {
+    num: '2',
+    name: 'Cart and Horses',
+    priority: 'MUST',
+    address: '1 Maryland Point, Stratford, E15 1PF',
+    what: 'The birthplace of Iron Maiden. Steve Harris’s band played their first gigs here in 1976 and held a weekly residency 1976–78. Today it leans into the legend: Eddie memorabilia, a basement live room, Maiden everywhere, and a merch counter (patches, magnets, picks).',
+    open: 'Open 12PM daily (confirmed for Mon Aug 3 — no private event that day).',
+    getting: 'Hotel → Northern line Angel → King’s Cross (1 stop), then Elizabeth line east to Stratford, then ~6 min walk to Maryland Point. Or Overground via Highbury & Islington. ~35–45 min door to door.',
+    verdict: 'Go right at noon so you have it to yourself. Soak in the history, hit the merch counter — this is the photo you came for.',
+  },
+];
+
+const mondayCamdenStops: Stop[] = [
+  {
+    num: '3',
+    name: 'Raven Records',
+    priority: 'MUST',
+    address: '24 Camden Rd, NW1 9DP',
+    what: "London's premier heavy metal record store, the world's ONLY alcohol-free metal bar, AND a metal-themed coffee shop, all in one. Vinyl, CDs, books, band merch, patches; metal coffee (Black Coffee Worship), occult teas, and a full range of 0.0% draft beers, spirits and cocktails. They run signings and ‘metal health’ events.",
+    open: 'Monday 12PM–6PM. (Closed Weds.)',
+    getting: '~100m from Camden Town station, ~2 min walk.',
+    verdict: 'Your Camden anchor. Dig records, get a metal coffee or an alcohol-free cocktail, sit in a metal bar with zero compromise. Don’t miss this one.',
+  },
+  {
+    num: '4',
+    name: 'All Ages Records',
+    priority: 'MUST',
+    address: '27A Pratt St, NW1 0BG',
+    what: "Camden's 100% independent punk and hardcore record shop — underground music across punk/metal/alt, plus zines, gig tickets and DIY culture. Staff will dig out anything.",
+    open: 'Monday 11:30AM–6:30PM.',
+    getting: '~3–4 min walk from Raven Records.',
+    verdict: 'Pair it with Raven for a proper Camden record crawl. Pure shop, no bar.',
+  },
+  {
+    num: '5',
+    name: 'The Black Heart',
+    priority: 'MAYBE',
+    address: '2 Greenland Pl, NW1 0AP',
+    what: 'The flagship modern London metal pub — downstairs bar, upstairs gig room, the genuine current scene. Worth stepping inside for the atmosphere even on a soft drink.',
+    open: 'Monday 3PM–12AM (opens 3PM — time it).',
+    getting: '~2 min from Camden Town Tube.',
+    verdict: 'Atmosphere stop. Look in after 3PM if you want to feel the scene; skippable if records + coffee filled your afternoon.',
+  },
+  {
+    num: '6',
+    name: 'The Devonshire Arms ("The Dev")',
+    priority: 'MAYBE',
+    address: '33 Kentish Town Rd, NW1 8NL',
+    what: "London's longest-surviving goth/metal pub. Dark, loud, mock-Tudor, metal on the system. An institution.",
+    open: 'Open daily, typically from early/mid-afternoon.',
+    getting: '~3–4 min from the Black Heart.',
+    verdict: 'A quick look for the vibe. No need to drink — just absorb the cave.',
+  },
+  {
+    num: '7',
+    name: "The World's End / The Underworld",
+    priority: 'MAYBE',
+    address: '174 Camden High St, NW1 0NE',
+    what: 'Enormous landmark pub at Camden Town station, sitting on top of The Underworld — the legendary 500-cap metal venue in the basement.',
+    open: 'Sun & Mon 12PM–11PM.',
+    getting: 'Right at Camden Town Tube.',
+    verdict: 'Good orientation stop since it opens at noon. Admire the building, peek at the Underworld’s gig posters.',
+  },
+];
+
+const mondaySohoStops: Stop[] = [
+  {
+    num: '8',
+    name: 'Denmark Street (Tin Pan Alley)',
+    priority: 'MUST',
+    address: 'Denmark St, WC2H 8NA',
+    what: "Britain's Tin Pan Alley — the historic guitar-and-music-shop street. Still trading: Regent Sounds (Fender/Gretsch), Hanks / Denmark Street Guitars (huge used stock, claims the UK’s largest selection), Wunjo Guitars, Macari’s (effects/amps), Argents (keys/sheet music). Walls of guitars, amps and pedals, plus rock history at every door.",
+    open: 'Shops typically ~10AM–6PM Monday.',
+    getting: 'Northern line Angel → Tottenham Court Road (~8 min), then ~3 min walk.',
+    verdict: 'The instrument-shop motherlode. Go before 6PM. If you play, budget extra time.',
+  },
+  {
+    num: '9',
+    name: 'Sister Ray Records',
+    priority: 'MUST',
+    address: '75 Berwick St, W1F 8TG',
+    what: 'Berwick Street’s flagship since 1989. Original pressings, killer reissues, and the occasional ultra-rare NWOBHM record. The best crate-dig in Soho.',
+    open: 'Monday 10AM–8PM (latest-closing of the cluster).',
+    getting: '~5 min walk from Denmark Street.',
+    verdict: 'The standout Soho record stop. Open late, so it can anchor the end of your afternoon.',
+  },
+  {
+    num: '10',
+    name: 'Reckless Records',
+    priority: 'MAYBE',
+    address: '30 Berwick St, W1F 8RH',
+    what: "Soho's oldest record shop (since 1984). Deep secondhand rock section, fair prices.",
+    open: 'Monday ~10AM–7PM.',
+    getting: 'A few doors from Sister Ray.',
+    verdict: 'Do it in the same Berwick Street stop as Sister Ray — two shops, two minutes apart.',
+  },
+  {
+    num: '11',
+    name: 'Marquee Club site (90 Wardour St)',
+    priority: 'MAYBE',
+    address: '90 Wardour St, W1F 0TN',
+    what: 'Site of the most important rock club London ever had (1964–88) — the Stones to Maiden played here. Now commercial, but a Keith Moon blue plaque marks the spot.',
+    open: 'Street — anytime.',
+    getting: '~5 min walk from Berwick Street.',
+    verdict: 'A photo and a nod. It’s a plaque, not a venue — set expectations.',
+  },
+  {
+    num: '12',
+    name: 'St Moritz Club',
+    priority: 'MAYBE',
+    address: '159 Wardour St, W1F 8WH',
+    what: 'Tiny Swiss-themed basement club where Lemmy hung out after the Marquee closed.',
+    open: 'Evenings, varies; rock club nights tend to be Thu–Sat, so a Monday is likely quiet/closed — a street photo will do.',
+    getting: '~2 min from the Marquee site.',
+    verdict: 'Worth seeing from the street; don’t count on it being open on a Monday.',
+  },
+];
+
+const mondayShow: Stop = {
+  num: '1',
+  name: 'O2 Academy Islington — LOVEBITES',
+  priority: 'MUST',
+  address: 'N1 Centre, 16 Parkfield St, N1 0PS',
+  what: 'Your whole reason for the stop. Lovebites (Japanese all-female power metal) on the Outstanding Tour. Venue is tucked inside the N1 shopping centre.',
+  open: 'Mon Aug 3: doors 7PM, curfew 11PM. Tickets ~£30 — buy in advance.',
+  getting: '~4–5 min walk from the Hilton.',
+  verdict: 'Be back at the hotel by ~6:15–6:30PM, sort yourself out, stroll over for doors. Unhurried, exactly as you wanted.',
+};
+
+const skipList = [
+  { name: 'Ruskin Arms (East Ham)', why: "Maiden's other early home (25 gigs 1978–81). Closed since 2019; only the sign survives." },
+  { name: 'Bridge House (Canning Town)', why: 'Hosted 35+ Maiden gigs. Demolished 2002.' },
+  { name: 'Crobar (Soho)', why: 'Closed 2020, never reopened.' },
+  { name: 'Intrepid Fox', why: 'Long gone.' },
+  { name: 'Garlic & Shots', why: 'Long gone.' },
+  { name: 'Resurrection Records (Camden)', why: 'Shop closed, online only.' },
+  { name: 'Crypt of the Wizard (Hackney)', why: "London's dedicated all-metal shop — but it's CLOSED on Mondays (your only free day). Filed for a future trip." },
+  { name: 'A Lemmy statue', why: "There is NO Lemmy statue in London. The famous ones are in Los Angeles and Stoke-on-Trent." },
+];
+---
+
+<BaseLayout
+  title="Metal London — A NWOBHM Pilgrimage | The Music Cities"
+  description="Kevin's post-Wacken metal pilgrimage through London, 2–4 August 2026: Camden, Stratford, Soho, and the Lovebites show at O2 Academy Islington."
+>
+  <Header />
+
+  <section class="london-hero">
+    <div class="container">
+      <p class="london-hero__eyebrow">Field Trip</p>
+      <h1 class="london-hero__title">Metal <em>London</em></h1>
+      <p class="london-hero__subtitle">A NWOBHM Pilgrimage on a Tight Clock</p>
+      <p class="london-hero__dates">Sunday 2 &mdash; Tuesday 4 August 2026</p>
+      <p class="london-hero__lede">
+        Kevin’s plan for the three days after Wacken: anchored on the Hilton London Angel Islington
+        and the Lovebites show at O2 Academy Islington, built around atmosphere, history,
+        record-digging and gear — no drinking required.
+      </p>
+    </div>
+  </section>
+
+  <main class="london-main">
+    <div class="container">
+
+      <!-- SHAPE OF THE TRIP -->
+      <section class="london-section" id="shape">
+        <h2 class="london-section__title">The Shape of the Trip</h2>
+        <div class="london-prose">
+          <p>
+            Three days, realistically one and a half of touring. Hotel and venue are the
+            same spot; Camden and Soho/West End are both a short Tube ride south on the
+            Northern line. The one outlier is the non-negotiable Cart and Horses, out east
+            in Stratford, which gets its own window so you never cross the city twice.
+          </p>
+          <ul>
+            <li><strong>Sunday Aug 2:</strong> Land Heathrow 3PM, at the hotel ~5:30PM. Evening is yours — straight into Camden for a full night out, pubs till midnight.</li>
+            <li><strong>Monday Aug 3:</strong> Full day free until doors. Cart and Horses at noon, then Camden (or Soho) afternoon. Lovebites: doors 7PM, curfew 11PM.</li>
+            <li><strong>Tuesday Aug 4:</strong> Noon flight from Heathrow. Travel day, not a touring day.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SUNDAY -->
+      <section class="london-section" id="sunday">
+        <p class="london-day__eyebrow">Day One</p>
+        <h2 class="london-day__title">Sunday, August 2 <span class="london-day__sub">— Land &amp; Hit Camden (Until Midnight)</span></h2>
+        <div class="london-prose">
+          <p>
+            Land 3PM. By the time you clear Heathrow, grab bags and ride the Piccadilly line
+            in, you’re at the hotel around 5:00–5:30PM. Dump the bags, splash water on your
+            face, and go — Sunday night in Camden runs late and it’s a 12-minute Tube ride.
+            This is a full evening, not a nap.
+          </p>
+          <p>
+            The play: drop bags by ~5:30, Northern line Angel → Camden Town (~12 min), and
+            work a Camden loop from ~6:30PM until the pubs close at midnight. Records first
+            (they shut at 6), then the late venues. Last Northern line back to Angel runs
+            well past midnight, so you’re never stuck.
+          </p>
+        </div>
+        <h3 class="london-cluster__title">Evening — The Camden Loop (~6:30PM–Midnight)</h3>
+        <div class="london-cards">
+          {sundayStops.map((s) => (
+            <article class={`london-card london-card--${s.priority.toLowerCase()}`}>
+              <header class="london-card__head">
+                {s.num ? <span class="london-card__num">{s.num}</span> : null}
+                <h4 class="london-card__name">{s.name}</h4>
+                <span class={`london-card__tag london-card__tag--${s.priority.toLowerCase()}`}>{s.priority}</span>
+              </header>
+              <dl class="london-card__facts">
+                <div><dt>Address</dt><dd>{s.address}</dd></div>
+                <div><dt>What it is</dt><dd>{s.what}</dd></div>
+                <div><dt>Hours</dt><dd>{s.open}</dd></div>
+                <div><dt>Getting there</dt><dd>{s.getting}</dd></div>
+                <div><dt>Verdict</dt><dd>{s.verdict}</dd></div>
+              </dl>
+            </article>
+          ))}
+        </div>
+        <div class="london-prose london-prose--inset">
+          <h4>Food on the night</h4>
+          <p>
+            Camden is wall-to-wall late food. Camden Market’s food stalls run into the
+            evening, and the High Street has kebab houses, pizza and noodle spots open
+            late. Grab something between pubs — Poppies fish &amp; chips and the market’s
+            street-food vendors are easy, no-booze-required fuel. Eat around 8–9PM so
+            you can keep going.
+          </p>
+          <h4>Getting home</h4>
+          <p>
+            Last southbound Northern line from Camden Town toward Angel runs past
+            midnight (roughly 00:15–00:30 on Sundays). Worst case a cab to Angel is
+            ~10 min. You will not be stranded.
+          </p>
+        </div>
+      </section>
+
+      <!-- MONDAY -->
+      <section class="london-section" id="monday">
+        <p class="london-day__eyebrow">Day Two — The Big Day</p>
+        <h2 class="london-day__title">Monday, August 3 <span class="london-day__sub">— Up to the Show</span></h2>
+        <div class="london-prose">
+          <p>
+            The whole trip. Full day, hard stop: be back near the O2 Academy by ~6:30PM,
+            relaxed, before 7PM doors. Two clean halves, no backtracking — head east to
+            Stratford right as Cart and Horses opens at noon, then come back through the
+            centre for Camden (records, coffee, the living metal scene) and back to the
+            hotel to freshen up before the show.
+          </p>
+          <p>
+            Soho/West End (record shops + guitar shops + Marquee plaque) is an
+            alternative afternoon if you’d rather dig crates and browse gear than do
+            Camden. You can’t comfortably do both full halves AND make doors relaxed —
+            pick one.
+          </p>
+        </div>
+
+        <h3 class="london-cluster__title">Late Morning — East to Iron Maiden Ground Zero</h3>
+        <div class="london-cards">
+          {mondayMorningStops.map((s) => (
+            <article class={`london-card london-card--${s.priority.toLowerCase()}`}>
+              <header class="london-card__head">
+                {s.num ? <span class="london-card__num">{s.num}</span> : null}
+                <h4 class="london-card__name">{s.name}</h4>
+                <span class={`london-card__tag london-card__tag--${s.priority.toLowerCase()}`}>{s.priority}</span>
+              </header>
+              <dl class="london-card__facts">
+                <div><dt>Address</dt><dd>{s.address}</dd></div>
+                <div><dt>What it is</dt><dd>{s.what}</dd></div>
+                <div><dt>Hours</dt><dd>{s.open}</dd></div>
+                <div><dt>Getting there</dt><dd>{s.getting}</dd></div>
+                <div><dt>Verdict</dt><dd>{s.verdict}</dd></div>
+              </dl>
+            </article>
+          ))}
+        </div>
+
+        <h3 class="london-cluster__title">Afternoon Option A (Recommended) — Camden: Records, Coffee &amp; the Living Scene</h3>
+        <p class="london-cluster__intro">
+          From Stratford head back toward Camden Town (Elizabeth/Overground to a Northern
+          line interchange, or Overground toward Camden Road; ~35–45 min). Camden earns the
+          trip — and for you specifically it’s perfect, because the best stops are record
+          shops and an alcohol-free metal bar, not boozers.
+        </p>
+        <div class="london-cards">
+          {mondayCamdenStops.map((s) => (
+            <article class={`london-card london-card--${s.priority.toLowerCase()}`}>
+              <header class="london-card__head">
+                {s.num ? <span class="london-card__num">{s.num}</span> : null}
+                <h4 class="london-card__name">{s.name}</h4>
+                <span class={`london-card__tag london-card__tag--${s.priority.toLowerCase()}`}>{s.priority}</span>
+              </header>
+              <dl class="london-card__facts">
+                <div><dt>Address</dt><dd>{s.address}</dd></div>
+                <div><dt>What it is</dt><dd>{s.what}</dd></div>
+                <div><dt>Hours</dt><dd>{s.open}</dd></div>
+                <div><dt>Getting there</dt><dd>{s.getting}</dd></div>
+                <div><dt>Verdict</dt><dd>{s.verdict}</dd></div>
+              </dl>
+            </article>
+          ))}
+        </div>
+        <p class="london-cluster__outro">
+          <strong>Camden timing tip:</strong> Start at Raven Records at noon (records + metal coffee +
+          alcohol-free bar), then All Ages, then look in at the World’s End / Dev, and the
+          Black Heart from 3PM if you want. Leave Camden by ~5:30PM — Northern line straight
+          back to Angel is ~10–12 min — to freshen up before doors.
+        </p>
+
+        <h3 class="london-cluster__title">Afternoon Option B — Soho / West End: Record Shops + Guitar Shops</h3>
+        <p class="london-cluster__intro">
+          Choose this instead of Camden if you want the deepest concentration of record
+          shops and instrument shops in London. A tight, walkable cluster around Berwick
+          Street, Denmark Street and Wardour Street — all shops and history, no drinking
+          required.
+        </p>
+        <div class="london-cards">
+          {mondaySohoStops.map((s) => (
+            <article class={`london-card london-card--${s.priority.toLowerCase()}`}>
+              <header class="london-card__head">
+                {s.num ? <span class="london-card__num">{s.num}</span> : null}
+                <h4 class="london-card__name">{s.name}</h4>
+                <span class={`london-card__tag london-card__tag--${s.priority.toLowerCase()}`}>{s.priority}</span>
+              </header>
+              <dl class="london-card__facts">
+                <div><dt>Address</dt><dd>{s.address}</dd></div>
+                <div><dt>What it is</dt><dd>{s.what}</dd></div>
+                <div><dt>Hours</dt><dd>{s.open}</dd></div>
+                <div><dt>Getting there</dt><dd>{s.getting}</dd></div>
+                <div><dt>Verdict</dt><dd>{s.verdict}</dd></div>
+              </dl>
+            </article>
+          ))}
+        </div>
+
+        <h3 class="london-cluster__title">Evening — The Anchor</h3>
+        <div class="london-cards">
+          <article class={`london-card london-card--${mondayShow.priority.toLowerCase()} london-card--anchor`}>
+            <header class="london-card__head">
+              <span class="london-card__num">{mondayShow.num}</span>
+              <h4 class="london-card__name">{mondayShow.name}</h4>
+              <span class={`london-card__tag london-card__tag--${mondayShow.priority.toLowerCase()}`}>{mondayShow.priority}</span>
+            </header>
+            <dl class="london-card__facts">
+              <div><dt>Address</dt><dd>{mondayShow.address}</dd></div>
+              <div><dt>What it is</dt><dd>{mondayShow.what}</dd></div>
+              <div><dt>Hours</dt><dd>{mondayShow.open}</dd></div>
+              <div><dt>Getting there</dt><dd>{mondayShow.getting}</dd></div>
+              <div><dt>Verdict</dt><dd>{mondayShow.verdict}</dd></div>
+            </dl>
+          </article>
+        </div>
+        <div class="london-prose london-prose--inset">
+          <h4>Pre-show food right by the venue</h4>
+          <p>
+            The N1 Centre and surrounding Angel streets have plenty of quick food, and the
+            hotel’s Halo Bar is the no-stress spot. Eat around 5:30–6:30PM near the hotel
+            so you’re fed before doors, then it’s a two-minute amble to the show. After
+            the 11PM curfew you’re a four-minute walk from your bed.
+          </p>
+        </div>
+      </section>
+
+      <!-- IF YOU ONLY DO THREE THINGS -->
+      <section class="london-section" id="core">
+        <h2 class="london-section__title">If You Only Do Three Things</h2>
+        <ol class="london-core">
+          <li><strong>Lovebites at O2 Academy Islington</strong> (Mon — the anchor, non-negotiable).</li>
+          <li><strong>Cart and Horses, Stratford</strong> — Iron Maiden ground zero, the one landmark worth crossing town for.</li>
+          <li><strong>Raven Records, Camden</strong> — records + metal coffee + the world’s only alcohol-free metal bar.</li>
+        </ol>
+        <p class="london-prose">
+          Everything else — All Ages, Denmark Street, Sister Ray, the Black Heart, the
+          Marquee plaque — is gravy.
+        </p>
+      </section>
+
+      <!-- TUESDAY -->
+      <section class="london-section" id="tuesday">
+        <p class="london-day__eyebrow">Day Three</p>
+        <h2 class="london-day__title">Tuesday, August 4 <span class="london-day__sub">— Getting to Heathrow</span></h2>
+        <div class="london-prose">
+          <p>
+            Noon international flight. Be at the airport by ~9:30–10:00AM. Recommended
+            departure from Islington: leave the hotel by ~8:00–8:15AM.
+          </p>
+          <ul>
+            <li><strong>Tube only:</strong> Northern line (Angel) → King’s Cross, then Piccadilly line direct to Heathrow. Cheapest, ~75–90 min, no changes after King’s Cross. Leave by ~8:00AM.</li>
+            <li><strong>Faster:</strong> Northern → King’s Cross, Elizabeth line → Paddington, then Heathrow Express (15 min). Pricier but quickest; leave by ~8:30AM.</li>
+            <li><strong>Taxi / ride-share:</strong> ~45–70 min depending on traffic; build in extra for a Tuesday morning. Leave by ~8:15–8:30AM.</li>
+          </ul>
+          <p><strong>Bottom line:</strong> out the door by 8:15AM at the latest. No touring — this is a travel morning.</p>
+        </div>
+      </section>
+
+      <!-- SKIP LIST -->
+      <section class="london-section" id="skip">
+        <h2 class="london-section__title">Skip List — Don’t Go Hunting For These</h2>
+        <p class="london-prose">
+          A handful of famous sites are gone, closed, or out of window. Listed once here
+          so they don’t clog the day plan.
+        </p>
+        <ul class="london-skip">
+          {skipList.map((s) => (
+            <li><strong>{s.name}</strong> — {s.why}</li>
+          ))}
+        </ul>
+      </section>
+
+      <!-- SOURCES -->
+      <section class="london-section" id="sources">
+        <h2 class="london-section__title">Verification Notes &amp; Sources</h2>
+        <p class="london-prose">All checked live in June 2026.</p>
+        <ul class="london-sources">
+          <li><a href="https://www.livenation.co.uk/event/lovebites-london-tickets-edp1664049" rel="noopener noreferrer">Lovebites, O2 Academy Islington — Mon 3 Aug 2026</a></li>
+          <li><a href="https://www.cartandhorses.london/" rel="noopener noreferrer">Cart and Horses — open 12PM daily</a></li>
+          <li><a href="https://ravenrecordshop.com/" rel="noopener noreferrer">Raven Records — metal shop + alcohol-free bar + coffee</a></li>
+          <li><a href="http://allagesrecords.com/" rel="noopener noreferrer">All Ages Records — Pratt St</a></li>
+          <li><a href="https://sisterray.co.uk/" rel="noopener noreferrer">Sister Ray Records, Berwick St</a></li>
+          <li><a href="https://www.cryptofthewizard.com/" rel="noopener noreferrer">Crypt of the Wizard — hours (closed Mon)</a></li>
+          <li><a href="https://www.ourblackheart.com/" rel="noopener noreferrer">The Black Heart, Camden</a></li>
+          <li><a href="https://theworldsend.co.uk/" rel="noopener noreferrer">The World’s End / Underworld</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Denmark_Street" rel="noopener noreferrer">Denmark Street guitar shops</a></li>
+          <li><a href="https://www.londonremembers.com/subjects/marquee-club" rel="noopener noreferrer">Marquee Club site / Keith Moon plaque</a></li>
+          <li><a href="https://www.timeout.com/london/news/sohos-legendary-heavy-metal-nightspot-crobar-has-closed-092120" rel="noopener noreferrer">Crobar — closed 2020</a></li>
+          <li><a href="https://www.gonomad.com/1141-a-heavy-metal-tour-of-london" rel="noopener noreferrer">GoNOMAD heavy metal tour of London (2008 lead)</a></li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
