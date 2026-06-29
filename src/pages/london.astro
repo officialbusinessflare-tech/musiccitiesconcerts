@@ -242,7 +242,73 @@ const skipList = [
   <main class="london-main">
     <div class="container">
 
-      <!-- SHAPE OF THE TRIP -->
+            <!-- MAP -->
+      <section class="london-section" id="map">
+        <h2 class="london-section__title">The Map</h2>
+        <p class="london-prose london-prose--inset" style="margin-bottom:1rem">
+          Every stop, the hotel, and the venue on one map. Click any pin for hours and the why.
+          Camden cluster is to the north; Soho is south of the river bend; Stratford is the far east outlier.
+        </p>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+        <div id="london-map" style="height:520px;width:100%;border-radius:14px;overflow:hidden;border:1px solid var(--border, #222)"></div>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+        <script is:inline define:vars={{ mapStops: [
+          { name: 'Hilton London Angel Islington', cat: 'hotel', tag: 'BASE', lat: 51.53343, lon: -0.10588, addr: '53 Upper St, N1 0UY', hours: 'Open 24h', why: 'Your home base, around the corner from the venue.' },
+          { name: 'O2 Academy Islington — LOVEBITES', cat: 'venue', tag: 'MUST', lat: 51.53438, lon: -0.10760, addr: 'N1 Centre, 16 Parkfield St, N1 0PS', hours: 'Mon doors 7PM, curfew 11PM', why: 'The anchor of the trip. ~4 min walk from the hotel.' },
+          { name: 'Cart and Horses', cat: 'pub', tag: 'MUST', lat: 51.54639, lon: 0.00378, addr: '1 Maryland Point, Stratford, E15 1PF', hours: 'Open 12PM daily', why: 'Iron Maiden ground zero, 1976–78 residency. Eddie everywhere.' },
+          { name: 'Raven Records', cat: 'shop', tag: 'MUST', lat: 51.5395, lon: -0.1402, addr: '24 Camden Rd, NW1 9DP', hours: 'Sun 12–6PM, Mon 12–6PM', why: 'Premier metal record store + alcohol-free metal bar + metal coffee shop.' },
+          { name: 'All Ages Records', cat: 'shop', tag: 'MUST', lat: 51.5363, lon: -0.1389, addr: '27A Pratt St, NW1 0BG', hours: 'Mon 11:30AM–6:30PM', why: 'Camden independent punk/hardcore record shop. Pure dig.' },
+          { name: 'The Black Heart', cat: 'pub', tag: 'MUST', lat: 51.54156, lon: -0.14460, addr: '2 Greenland Pl, NW1 0AP', hours: 'Sun 12PM–12AM; Mon 3PM–12AM', why: 'Flagship modern Camden metal pub. Bar down, gig room up.' },
+          { name: 'The Devonshire Arms (The Dev)', cat: 'pub', tag: 'MUST', lat: 51.5388, lon: -0.1407, addr: '33 Kentish Town Rd, NW1 8NL', hours: 'Sun 3PM–12AM', why: 'Camden longest-surviving goth/metal pub. The cave.' },
+          { name: 'The Worlds End / The Underworld', cat: 'venue', tag: 'MUST', lat: 51.53953, lon: -0.14318, addr: '174 Camden High St, NW1 0NE', hours: 'Sun & Mon 12PM–11PM', why: 'Landmark Camden pub atop the legendary 500-cap Underworld venue.' },
+          { name: 'Crypt of the Wizard', cat: 'shop', tag: 'BONUS', lat: 51.5326, lon: -0.0644, addr: '264 Hackney Rd, E2 7SJ', hours: 'Sun 12–4PM (Closed Mon)', why: 'London only dedicated all-metal record shop. Sunday Plan B Bonus only — Uber from Heathrow if you land by ~1:30PM.' },
+          { name: 'Denmark Street (Tin Pan Alley)', cat: 'shop', tag: 'MUST', lat: 51.51558, lon: -0.12862, addr: 'Denmark St, WC2H 8NA', hours: 'Shops ~10AM–6PM Mon', why: 'Britain Tin Pan Alley. Guitar shop heaven.' },
+          { name: 'Sister Ray Records', cat: 'shop', tag: 'MUST', lat: 51.5141, lon: -0.1359, addr: '75 Berwick St, W1F 8TG', hours: 'Mon 10AM–8PM', why: 'Soho best crate-dig since 1989. Originals, reissues, NWOBHM rarities.' },
+          { name: 'Reckless Records', cat: 'shop', tag: 'MAYBE', lat: 51.5135, lon: -0.1357, addr: '30 Berwick St, W1F 8RH', hours: 'Mon ~10AM–7PM', why: 'Soho oldest record shop (1984). Deep secondhand rock.' },
+          { name: 'Marquee Club site (Keith Moon plaque)', cat: 'landmark', tag: 'MAYBE', lat: 51.51336, lon: -0.13327, addr: '90 Wardour St, W1F 0TN', hours: 'Street — anytime', why: 'Site of the legendary Marquee 1964–88. Plaque only.' },
+          { name: 'St Moritz Club', cat: 'venue', tag: 'MAYBE', lat: 51.51442, lon: -0.13420, addr: '159 Wardour St, W1F 8WH', hours: 'Eve, varies (Th–Sat club nights)', why: 'Tiny Swiss-themed basement club where Lemmy hung out post-Marquee.' },
+          { name: 'Ruskin Arms (closed)', cat: 'landmark', tag: 'SKIP', lat: 51.54852, lon: 0.0513, addr: '386 High St N, East Ham, E12 6PH', hours: 'Closed — exterior only', why: 'Maiden NWOBHM home. Building shut since 2019; sign survives.' }
+        ] }}>
+          (function () {
+            if (typeof L === 'undefined') return;
+            const colorByTag = { 'BASE':'#888','MUST':'#d33','MAYBE':'#e7a23a','BONUS':'#7a4dd6','SKIP':'#555' };
+            const map = L.map('london-map', { scrollWheelZoom: false }).setView([51.530, -0.075], 11);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              maxZoom: 19,
+              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+            const bounds = [];
+            mapStops.forEach(function (s) {
+              const color = colorByTag[s.tag] || '#444';
+              const icon = L.divIcon({
+                className: 'london-map-pin',
+                html: '<span style="display:inline-block;width:22px;height:22px;border-radius:50%;background:' + color + ';border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.5);font:bold 11px/22px system-ui,sans-serif;color:#fff;text-align:center">' + s.tag.charAt(0) + '</span>',
+                iconSize: [22,22],
+                iconAnchor: [11,11]
+              });
+              const popup = '<strong>' + s.name + '</strong><br>' +
+                            '<small style="color:' + color + ';font-weight:700">' + s.tag + ' &middot; ' + s.cat + '</small><br>' +
+                            '<em>' + s.addr + '</em><br>' +
+                            '<small>' + s.hours + '</small><br><br>' +
+                            s.why;
+              L.marker([s.lat, s.lon], { icon: icon }).addTo(map).bindPopup(popup);
+              bounds.push([s.lat, s.lon]);
+            });
+            map.fitBounds(bounds, { padding: [40,40] });
+            map.on('click', function () { map.scrollWheelZoom.enable(); });
+          })();
+        </script>
+        <p class="london-prose" style="font-size:0.85rem;opacity:0.7;margin-top:0.75rem">
+          <strong>Legend:</strong>
+          <span style="display:inline-block;width:10px;height:10px;background:#d33;border-radius:50%;vertical-align:middle"></span> MUST &middot;
+          <span style="display:inline-block;width:10px;height:10px;background:#e7a23a;border-radius:50%;vertical-align:middle"></span> MAYBE &middot;
+          <span style="display:inline-block;width:10px;height:10px;background:#7a4dd6;border-radius:50%;vertical-align:middle"></span> BONUS (Sunday Plan B only) &middot;
+          <span style="display:inline-block;width:10px;height:10px;background:#888;border-radius:50%;vertical-align:middle"></span> BASE &middot;
+          <span style="display:inline-block;width:10px;height:10px;background:#555;border-radius:50%;vertical-align:middle"></span> SKIP
+        </p>
+      </section>
+
+<!-- SHAPE OF THE TRIP -->
       <section class="london-section" id="shape">
         <h2 class="london-section__title">The Shape of the Trip</h2>
         <div class="london-prose">
