@@ -8,10 +8,10 @@
  *   - Header
  *   - SceneNav (now links to top-level pages)
  *   - Hero strip ("Concerts. Releases. The scene.")
- *   - Field Trip strip (Metal London — preserved)
+ *   - Field Trips: TWO strips — Wacken (chronologically first), then London
  *   - Coming Up Next: next 8 entries across ALL buckets
  *   - The Scenes: 7 bucket teaser tiles
- *   - Scene Briefs: 3 editorial dashboards (Wacken, Japan Scene, Japan Global)
+ *   - Scene Briefs: 2 editorial dashboards (Japan Scene, Japan Global)
  *   - Footer
  */
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -90,16 +90,32 @@ const venuesTeaser = {
 const teasers = [...bucketTeasers, birthdaysTeaser, venuesTeaser];
 
 /**
- * Scene Briefs — editorial dashboards that aren't ClickUp-driven. Each is its
- * own deep-dive page. Rendered in a separate row below the bucket tiles.
+ * Field Trips — where Kevin is actually going. Chronological order.
+ * Wacken (29 Jul – 1 Aug) lands before London (2 – 4 Aug).
  */
-const sceneBriefs = [
+const fieldTrips = [
   {
     id: 'wacken',
-    name: 'Wacken 2026',
-    description: "The full 4-day Wacken 2026 dashboard: lineup, tier picks, conflict resolutions, M&G watch, and Kevin's day-by-day schedule.",
     href: '/wacken',
+    titleHtml: 'Wacken <em>2026</em> — 35th Anniversary Pilgrimage',
+    sub: "Wednesday 29 July — Saturday 1 August 2026 · 4 days, ~140 bands, four headliners, Kevin's tier-coded schedule + conflict picks",
+    cta: 'View the brief →',
   },
+  {
+    id: 'london',
+    href: '/london',
+    titleHtml: 'Metal <em>London</em> — A NWOBHM Pilgrimage',
+    sub: "Sunday 2 — Tuesday 4 August 2026 · Lovebites @ O2 Academy Islington + the city's metal stops",
+    cta: 'View the trip plan →',
+  },
+];
+
+/**
+ * Scene Briefs — editorial dashboards that aren't ClickUp-driven. Each is its
+ * own deep-dive page. Wacken used to live here but has been promoted to a
+ * Field Trip strip above.
+ */
+const sceneBriefs = [
   {
     id: 'japan-scene',
     name: 'Japan Scene',
@@ -146,12 +162,20 @@ const lastUpdated = data.generatedAt
 
   <section class="field-trip-strip">
     <div class="container">
-      <a href="/london/" class="field-trip-strip__link">
-        <span class="field-trip-strip__eyebrow">Field Trip</span>
-        <h2 class="field-trip-strip__title">Metal <em>London</em> — A NWOBHM Pilgrimage</h2>
-        <p class="field-trip-strip__sub">Sunday 2 — Tuesday 4 August 2026 · Lovebites @ O2 Academy Islington + the city's metal stops</p>
-        <span class="field-trip-strip__cta">View the trip plan →</span>
-      </a>
+      <header class="field-trips__header">
+        <span class="field-trips__eyebrow">Field Trips</span>
+        <p class="field-trips__sub">Where Kevin's actually going. The 2026 post-Wacken arc, Wacken then London.</p>
+      </header>
+      <div class="field-trips__stack">
+        {fieldTrips.map((trip) => (
+          <a href={trip.href} class="field-trip-strip__link">
+            <span class="field-trip-strip__eyebrow">Field Trip</span>
+            <h2 class="field-trip-strip__title" set:html={trip.titleHtml}></h2>
+            <p class="field-trip-strip__sub">{trip.sub}</p>
+            <span class="field-trip-strip__cta">{trip.cta}</span>
+          </a>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -216,3 +240,35 @@ const lastUpdated = data.generatedAt
 
   <Footer />
 </BaseLayout>
+
+<style is:global>
+  /* ----- Field Trips section header + stacked strip layout -----
+     The existing .field-trip-strip section wraps a header plus a vertical
+     stack of two .field-trip-strip__link cards. These rules add the header
+     styling and the small gap between stacked cards. */
+  .field-trips__header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+  }
+  .field-trips__eyebrow {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+  .field-trips__sub {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    margin: 0;
+    max-width: 60ch;
+    line-height: 1.4;
+  }
+  .field-trips__stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+</style>
