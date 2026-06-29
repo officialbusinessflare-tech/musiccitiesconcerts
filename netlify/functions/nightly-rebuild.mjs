@@ -9,13 +9,18 @@
  *   2. Build a fresh concerts.json payload.
  *   3. Pull birthday tasks from the Artist Birthdays list, parse, build
  *      birthdays.json payload.
- *   4. Commit both files to the GitHub repo via the Contents API, which
- *      triggers a Netlify build automatically.
+ *   4. Fetch YouTube channel stats for @themusiccitiespodcast and build
+ *      youtube-stats.json payload.
+ *   5. Commit all three files to the GitHub repo via the Contents API,
+ *      which triggers a Netlify build automatically.
  *
  * Required env vars (set in Netlify -> Site -> Environment):
  *   CLICKUP_TOKEN       -- ClickUp personal token
  *   CLICKUP_LIST_ID     -- (optional) defaults to 901413842804
  *   BIRTHDAYS_LIST_ID   -- (optional) defaults to 901417078439
+ *   YOUTUBE_API_KEY     -- (optional) YouTube Data API v3 key; if absent the
+ *                          YouTube refresh step is skipped (existing
+ *                          youtube-stats.json is preserved)
  *   GITHUB_TOKEN        -- PAT with contents:write on the repo
  *   GITHUB_REPO         -- e.g. "officialbusinessflare-tech/musiccitiesconcerts"
  *   GITHUB_BRANCH       -- (optional) defaults to "main"
@@ -38,6 +43,8 @@ const DEFAULT_BIRTHDAYS_LIST_ID = '901417078439';
 const DEFAULT_BRANCH = 'main';
 const FILE_PATH = 'concerts.json';
 const BIRTHDAYS_FILE_PATH = 'birthdays.json';
+const YOUTUBE_FILE_PATH = 'public/youtube-stats.json';
+const YOUTUBE_HANDLE = 'themusiccitiespodcast';
 
 /* ---------- Birthday parser (JS-only mirror of src/lib/parse-birthday.ts) ---------- */
 
@@ -132,6 +139,40 @@ function buildBirthdayEntries(rawTasks) {
     return entries;
 }
 
+/* ---------- YouTube stats fetcher (mirror of scripts/fetch-youtube-stats.mjs) ---------- */
+
+async function fetchYoutubeStats(apiKey) {
+    if (!apiKey) {
+        console.warn('[youtube-stats] YOUTUBE_API_KEY not set; skipping fetch');
+        return null;
+    }
+    try {
+        const url = `https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet&forHandle=${YOUTUBE_HANDLE}&key=${apiKey}`;
+        const res = await fetch(url);
+        if (!res.ok) {
+            const body = await res.text();
+            throw new Error(`YouTube API ${res.status}: ${body.substring(0, 300)}`);
+        }
+        const data = await res.json();
+        if (!data.items || !data.items.length) {
+            throw new Error('YouTube API returned no channel for handle ' + YOUTUBE_HANDLE);
+        }
+        const channel = data.items[0];
+        return {
+            handle: '@' + YOUTUBE_HANDLE,
+            channelId: channel.id,
+            channelTitle: channel.snippet?.title,
+            subscriberCount: Number(channel.statistics.subscriberCount),
+            videoCount: Number(channel.statistics.videoCount),
+            viewCount: Number(channel.statistics.viewCount),
+            fetchedAt: new Date().toISOString(),
+        };
+    } catch (err) {
+        console.error('[youtube-stats] fetch failed:', err?.message ?? err);
+        return null;
+    }
+}
+
 /* ---------- GitHub Contents API helpers ---------- */
 
 async function ghGetFileSha({ token, repo, branch, path }) {
@@ -192,6 +233,7 @@ export default async (req) => {
           const ghToken = process.env.GITHUB_TOKEN;
           const ghRepo = process.env.GITHUB_REPO;
           const ghBranch = process.env.GITHUB_BRANCH || DEFAULT_BRANCH;
+          const youtubeApiKey = process.env.YOUTUBE_API_KEY;
 
       const missing = [];
           if (!token) missing.push('CLICKUP_TOKEN');
@@ -268,6 +310,46 @@ export default async (req) => {
                   console.error('[nightly-rebuild] birthdays step failed:', err?.stack || err?.message || err);
           }
 
+      /* ---- YouTube stats ---- */
+          let youtubeSubscribers = null;
+          let youtubeError = null;
+          try {
+                  log('Fetching YouTube channel stats');
+                  const stats = await fetchYoutubeStats(youtubeApiKey);
+                  if (!stats) {
+                          if (!youtubeApiKey) {
+                                  log('  skipped (YOUTUBE_API_KEY not set)');
+                          } else {
+                                  log('  no stats returned; skipping commit (existing youtube-stats.json preserved)');
+                          }
+                  } else {
+                          youtubeSubscribers = stats.subscriberCount;
+                          log(`  subscribers=${youtubeSubscribers} videos=${stats.videoCount} views=${stats.viewCount}`);
+
+              const ytJson = JSON.stringify(stats, null, 2) + '\n';
+                          const ytBase64 = Buffer.from(ytJson, 'utf8').toString('base64');
+
+              log(`Looking up current sha of ${YOUTUBE_FILE_PATH} on ${ghRepo}@${ghBranch}`);
+                          const ytSha = await ghGetFileSha({ token: ghToken, repo: ghRepo, branch: ghBranch, path: YOUTUBE_FILE_PATH });
+                          log(`  sha=${ytSha ?? '<none -- will create>'}`);
+
+              log(`Committing ${YOUTUBE_FILE_PATH}...`);
+                          await ghPutFile({
+                                          token: ghToken,
+                                          repo: ghRepo,
+                                          branch: ghBranch,
+                                          path: YOUTUBE_FILE_PATH,
+                                          contentBase64: ytBase64,
+                                          sha: ytSha ?? undefined,
+                                          message: `nightly youtube-stats rebuild ${dateLabel}`,
+                          });
+                          log('youtube-stats.json done.');
+                  }
+          } catch (err) {
+                  youtubeError = String(err?.message || err);
+                  console.error('[nightly-rebuild] youtube step failed:', err?.stack || err?.message || err);
+          }
+
       return new Response(
               JSON.stringify({
                         ok: true,
@@ -277,6 +359,8 @@ export default async (req) => {
                         commitMessage,
                         birthdayCount,
                         birthdayError,
+                        youtubeSubscribers,
+                        youtubeError,
               }),
         { status: 200, headers: { 'Content-Type': 'application/json' } },
             );
