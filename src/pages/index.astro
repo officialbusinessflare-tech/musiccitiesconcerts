@@ -10,7 +10,8 @@
  *   - Hero strip ("Concerts. Releases. The scene.")
  *   - Field Trip strip (Metal London — preserved)
  *   - Coming Up Next: next 8 entries across ALL buckets
- *   - The Scenes: 6 bucket teaser tiles + a Venues tile (7 total)
+ *   - The Scenes: 7 bucket teaser tiles
+ *   - Scene Briefs: 3 editorial dashboards (Wacken, Japan Scene, Japan Global)
  *   - Footer
  */
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -87,6 +88,31 @@ const venuesTeaser = {
 };
 
 const teasers = [...bucketTeasers, birthdaysTeaser, venuesTeaser];
+
+/**
+ * Scene Briefs — editorial dashboards that aren't ClickUp-driven. Each is its
+ * own deep-dive page. Rendered in a separate row below the bucket tiles.
+ */
+const sceneBriefs = [
+  {
+    id: 'wacken',
+    name: 'Wacken 2026',
+    description: "The full 4-day Wacken 2026 dashboard: lineup, tier picks, conflict resolutions, M&G watch, and Kevin's day-by-day schedule.",
+    href: '/wacken',
+  },
+  {
+    id: 'japan-scene',
+    name: 'Japan Scene',
+    description: "The in-Japan shows: 14 J-metal bands' Japan dates, recommended trip windows, festivals, and travel intel.",
+    href: '/japan-scene',
+  },
+  {
+    id: 'japan-global',
+    name: 'Japan Global',
+    description: 'Japanese metal bands touring abroad: North America, Europe, Asia/Oceania tour schedules in one view.',
+    href: '/japan-global',
+  },
+];
 
 const lastUpdated = data.generatedAt
   ? new Date(data.generatedAt).toLocaleDateString('en-US', {
@@ -166,6 +192,22 @@ const lastUpdated = data.generatedAt
             {t.count !== null ? <p class="bucket-teaser__count">{t.count} {t.count === 1 ? 'entry' : 'entries'}</p> : null}
             <p class="bucket-teaser__desc">{t.description}</p>
             <span class="bucket-teaser__cta">View all →</span>
+          </a>
+        ))}
+      </div>
+
+      <header class="scenes__header scenes__header--briefs">
+        <span class="scenes__eyebrow">Scene briefs</span>
+        <h2 class="scenes__title">Editorial dashboards</h2>
+        <p class="scenes__sub">Deep-dive pages for specific trips and festivals — separate from the ClickUp-driven bucket calendars.</p>
+      </header>
+
+      <div class="bucket-teasers">
+        {sceneBriefs.map((t) => (
+          <a href={t.href} class="bucket-teaser">
+            <h3 class="bucket-teaser__name">{t.name}</h3>
+            <p class="bucket-teaser__desc">{t.description}</p>
+            <span class="bucket-teaser__cta">View briefing →</span>
           </a>
         ))}
       </div>
