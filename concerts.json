@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T13:52:14.361Z",
+  "generatedAt": "2026-06-29T20:24:51.861Z",
   "entries": [
     {
       "id": "86baaafeh",
@@ -93,7 +93,7 @@
       "bands": [
         "Nemophila"
       ],
-      "description": "Nemophila with Conduit, Winter Park, Florida. Wednesday July 8, 2026, 7:00 PM. General Admission, 2 tickets purchased (order #53258587, May 15). Ticket center confirmation received May 20.",
+      "description": "Nemophila at Conduit, Winter Park, Florida. Wednesday July 8, 2026, 7:00 PM. General Admission.",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
@@ -1637,6 +1637,25 @@
       "clickupUrl": "https://app.clickup.com/t/86b9b7mpq",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bangtgg",
+      "name": "Buddy Guy 90th Birthday Concert — Radio City Music Hall, NYC",
+      "date": "2026-10-01",
+      "city": "Radio City Music Hall",
+      "country": "NYC",
+      "bands": [
+        "Buddy Guy 90th Birthday Concert"
+      ],
+      "description": "Buddy's Got the Blues: A 90th Birthday Concert Celebration — Wed Oct 1, 2026 at Radio City Music Hall, New York City.",
+      "ticketUrl": "https://variety.com/2026/music/news/buddy-guy-90th-birthday-concert-eric-clapton-john-mayer-1236787730/",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bangtgg",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
