@@ -269,7 +269,7 @@ const skipList = [
           { name: 'St Moritz Club', cat: 'venue', tag: 'MAYBE', lat: 51.51442, lon: -0.13420, addr: '159 Wardour St, W1F 8WH', hours: 'Eve, varies (Th–Sat club nights)', why: 'Tiny Swiss-themed basement club where Lemmy hung out post-Marquee.' },
           { name: 'Ruskin Arms (closed)', cat: 'landmark', tag: 'SKIP', lat: 51.54852, lon: 0.0513, addr: '386 High St N, East Ham, E12 6PH', hours: 'Closed — exterior only', why: 'Maiden NWOBHM home. Building shut since 2019; sign survives.' }
         ] }}>
-          (function () {
+          window.addEventListener('load', function () {
             if (typeof L === 'undefined') return;
             const colorByTag = { 'BASE':'#888','MUST':'#d33','MAYBE':'#e7a23a','BONUS':'#7a4dd6','SKIP':'#555' };
             const map = L.map('london-map', { scrollWheelZoom: false }).setView([51.530, -0.075], 11);
@@ -296,7 +296,7 @@ const skipList = [
             });
             map.fitBounds(bounds, { padding: [40,40] });
             map.on('click', function () { map.scrollWheelZoom.enable(); });
-          })();
+          });
         </script>
         <p class="london-prose" style="font-size:0.85rem;opacity:0.7;margin-top:0.75rem">
           <strong>Legend:</strong>
