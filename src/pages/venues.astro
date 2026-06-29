@@ -74,10 +74,13 @@ const goToVenues: GoToVenue[] = [
 const data = concertsData as ConcertsDataFile;
 const today = new Date().toISOString().slice(0, 10);
 
-// All non-release, future-dated entries with a venue field.
+// All non-release, future-dated entries with a venue field that have been
+// assigned at least one editorial bucket. The bucket assignment IS the
+// "fits our style" filter — uncategorized entries don't surface on /venues.
 const upcoming: ConcertEntry[] = (data.entries ?? []).filter((e) => {
   if (e.isRelease) return false;
   if (!e.venue) return false;
+  if (!e.buckets || e.buckets.length === 0) return false;
   const compareDate = e.endDate ?? e.date;
   return compareDate >= today;
 });
