@@ -47,7 +47,7 @@ const entries = (grouped.get(BUCKET_ID) ?? []).sort((a, b) => a.date.localeCompa
   title={`${bucket.name} | The Music Cities`}
   description={bucket.description}
 >
-  <Header />
+  <Header title="Interesting Elsewhere" />
   <SceneNav buckets={buckets} grouped={grouped} birthdaysCount={birthdays.length} activeBucketId={BUCKET_ID} />
 
   <section class="bucket-hero">

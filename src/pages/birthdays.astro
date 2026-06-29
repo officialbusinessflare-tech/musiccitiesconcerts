@@ -59,7 +59,7 @@ const birthdays = [...rawBirthdays].sort((a, b) => daysUntil(a) - daysUntil(b));
   title="Birthdays | The Music Cities"
   description="Artists, players, and the people behind the bands we follow. Sorted by next-up."
 >
-  <Header />
+  <Header title="Artist Birthdays" />
   <SceneNav buckets={buckets} grouped={grouped} birthdaysCount={birthdays.length} activeBucketId="birthdays" />
 
   <section class="bucket-hero">
