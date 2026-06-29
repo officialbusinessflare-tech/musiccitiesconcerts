@@ -1,46 +1,62 @@
 ---
 /**
- * Site header. Wordmark + brand tagline + curator line.
+ * Site header. Wordmark + brand tagline + curator line + YouTube sub banner.
  *
  * The wordmark image lives at /public/assets/wordmark-white.png — drop the real
  * file there (see /public/assets/.placeholders/README.md) and it'll show up
  * automatically. Until then the alt text carries the brand.
  *
- * Optional `title` prop renders a breadcrumb after the wordmark, like:
- *   The Music Cities  /  Wacken 2026 Dashboard
- * The homepage passes no title and the breadcrumb is hidden. On all other
- * pages, the wordmark stays clickable to "/" and the breadcrumb makes it
- * obvious where you are in the site.
+ * YouTube subscriber count is fetched at build time by scripts/fetch-youtube-stats.mjs
+ * (runs as the `prebuild` npm script) and also refreshed by the nightly-rebuild
+ * Netlify function. If public/youtube-stats.json is missing or unreadable, the
+ * banner is silently omitted — never blocks rendering.
  */
-interface Props {
-  title?: string;
+
+let youtubeStats: { subscriberCount?: number } | null = null;
+try {
+  // Build-time JSON import — Astro/Vite resolves this against public/.
+  youtubeStats = (await import('../../public/youtube-stats.json', { with: { type: 'json' } })).default;
+} catch (e) {
+  // youtube-stats.json doesn't exist yet — render without count
 }
-const { title } = Astro.props;
+
+function formatSubCount(n: number): string {
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
+  if (n >= 10_000) return (n / 1_000).toFixed(0) + 'K';
+  if (n >= 1_000) return (n / 1_000).toFixed(1).replace(/\.0$/, '') + 'K';
+  return n.toLocaleString();
+}
+
+const subCount = youtubeStats?.subscriberCount;
+const formattedCount = typeof subCount === 'number' && subCount > 0 ? formatSubCount(subCount) : null;
 ---
 
 <header class="site-header">
   <div class="container site-header__inner">
-    <div class="site-header__brand-row">
-      <a href="/" aria-label="The Music Cities — home" class="site-header__wordmark-link">
-        <img
-          class="site-header__wordmark"
-          src="/assets/wordmark-white.png"
-          alt="The Music Cities"
-          width="380"
-          height="80"
-          loading="eager"
-          decoding="async"
-        />
+    <a href="/" aria-label="The Music Cities — home" style="display:inline-block;">
+      <img
+        class="site-header__wordmark"
+        src="/assets/wordmark-white.png"
+        alt="The Music Cities"
+        width="380"
+        height="80"
+        loading="eager"
+        decoding="async"
+      />
+    </a>
+    {formattedCount && (
+      <a
+        class="site-header__subs"
+        href="https://www.youtube.com/@themusiccitiespodcast"
+        target="_blank"
+        rel="noopener"
+        aria-label={`The Music Cities Podcast on YouTube — ${formattedCount} subscribers`}
+      >
+        <span class="site-header__subs-num">{formattedCount}</span>
+        <span class="site-header__subs-label">YouTube subscribers</span>
       </a>
-      {title ? (
-        <nav class="site-header__breadcrumb" aria-label="Breadcrumb">
-          <span class="site-header__breadcrumb-sep" aria-hidden="true">/</span>
-          <span class="site-header__breadcrumb-title">{title}</span>
-        </nav>
-      ) : null}
-    </div>
+    )}
     <p class="site-header__tagline">Where heavy metal is economic development.</p>
     <p class="site-header__sub">Curated by The Music Cities — concerts, releases, the scene.</p>
   </div>
 </header>
-
