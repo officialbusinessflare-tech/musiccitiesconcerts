@@ -1,16 +1,28 @@
 ---
+/**
+ * Homepage — curated overview.
+ *
+ * As of the Jun 2026 architectural split, the homepage no longer renders
+ * the full per-bucket scroll. Its job is to direct visitors to the right
+ * bucket page. Layout, top to bottom:
+ *   - Header
+ *   - SceneNav (now links to top-level pages)
+ *   - Hero strip ("Concerts. Releases. The scene.")
+ *   - Field Trip strip (Metal London — preserved)
+ *   - Coming Up Next: next 8 entries across ALL buckets
+ *   - The Scenes: 6 bucket teaser tiles + a Venues tile (7 total)
+ *   - Footer
+ */
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import SceneNav from '../components/SceneNav.astro';
 import Footer from '../components/Footer.astro';
-import BucketSection from '../components/BucketSection.astro';
-import BirthdaySection from '../components/BirthdaySection.astro';
+import ShowCard from '../components/ShowCard.astro';
+import ReleaseCard from '../components/ReleaseCard.astro';
 import type { BucketsConfigFile, ConcertsDataFile, ConcertEntry, BirthdaysDataFile } from '../lib/types';
 import { categorize, groupByBucket } from '../lib/categorize';
 import { collectKnownVenues, reparseEntry } from '../lib/parse-name';
 
-// Astro can import JSON directly at build time. concerts.json is regenerated
-// nightly by the scheduled function committing back to the repo.
 import bucketsConfig from '../../buckets.config.json';
 import concertsData from '../../concerts.json';
 import birthdaysData from '../../birthdays.json';
@@ -18,26 +30,63 @@ import birthdaysData from '../../birthdays.json';
 const buckets = (bucketsConfig as BucketsConfigFile).buckets;
 const data = concertsData as ConcertsDataFile;
 const knownVenues = collectKnownVenues(buckets);
-
 const birthdays = (birthdaysData as BirthdaysDataFile).entries ?? [];
 
-// Defensive: filter out anything in the past, just in case the data file
-// outpaces the nightly rebuild.
 const today = new Date().toISOString().slice(0, 10);
 const upcoming: ConcertEntry[] = (data.entries ?? [])
   .filter((e) => {
     const compareDate = e.endDate ?? e.date;
     return compareDate >= today;
   })
-  // Re-parse the name at build time. The nightly fetch may have run with an
-  // older parser; this lets fixes to parse-name.ts take effect immediately,
-  // including venue-collision rescue for titles like "Nemophila with Conduit".
   .map((e) => reparseEntry(e, knownVenues))
-  // Re-run categorization at build time so changes to the bucket config or
-  // matching logic take effect immediately too.
   .map((e) => ({ ...e, buckets: categorize(e, buckets) }));
 
 const grouped = groupByBucket(upcoming, buckets);
+
+// Coming Up Next — the next 8 entries across the WHOLE calendar, regardless
+// of bucket. Sorted by date ascending.
+const comingUp = [...upcoming]
+  .sort((a, b) => a.date.localeCompare(b.date))
+  .slice(0, 8);
+
+// Bucket teasers — one tile per bucket, with the count and short description.
+// Plus a Venues tile (same visual pattern, lives at /venues).
+const BUCKET_HREFS: Record<string, string> = {
+  'florida-metal-scene': '/florida',
+  'japanese-metal': '/japan',
+  'key-festivals': '/festivals',
+  'interesting-elsewhere': '/elsewhere',
+  'album-releases': '/releases',
+};
+
+const bucketTeasers = buckets.map((b) => ({
+  id: b.id,
+  name: b.name,
+  kanji: b.kanji,
+  description: b.description,
+  count: grouped.get(b.id)?.length ?? 0,
+  href: BUCKET_HREFS[b.id] ?? '/',
+}));
+
+const birthdaysTeaser = {
+  id: 'birthdays',
+  name: 'Birthdays',
+  kanji: undefined as string | undefined,
+  description: 'Artists, players, and the people behind the bands we follow. Sorted by next-up.',
+  count: birthdays.length,
+  href: '/birthdays',
+};
+
+const venuesTeaser = {
+  id: 'venues',
+  name: 'Go-To Venues',
+  kanji: undefined as string | undefined,
+  description: "The rooms Kevin anchors his coverage on. One per city — where the bands you care about actually play.",
+  count: null as number | null,
+  href: '/venues',
+};
+
+const teasers = [...bucketTeasers, birthdaysTeaser, venuesTeaser];
 
 const lastUpdated = data.generatedAt
   ? new Date(data.generatedAt).toLocaleDateString('en-US', {
@@ -80,13 +129,48 @@ const lastUpdated = data.generatedAt
     </div>
   </section>
 
-  <main>
-    {buckets.map((bucket) => (
-      <BucketSection bucket={bucket} entries={grouped.get(bucket.id) ?? []} />
-    ))}
-  </main>
+  <section class="coming-up">
+    <div class="container">
+      <header class="coming-up__header">
+        <span class="coming-up__eyebrow">Coming up next</span>
+        <h2 class="coming-up__title">The next eight on the calendar</h2>
+        <p class="coming-up__sub">Across every bucket, soonest first. Use the bucket pages for the full lists.</p>
+      </header>
+      {comingUp.length === 0 ? (
+        <p class="bucket__empty">Nothing on the calendar yet. Check back soon.</p>
+      ) : (
+        <div class="bucket__grid">
+          {comingUp.map((entry) =>
+            entry.isRelease ? <ReleaseCard entry={entry} /> : <ShowCard entry={entry} />,
+          )}
+        </div>
+      )}
+    </div>
+  </section>
 
-  <BirthdaySection entries={birthdays} />
+  <section class="scenes">
+    <div class="container">
+      <header class="scenes__header">
+        <span class="scenes__eyebrow">The scenes</span>
+        <h2 class="scenes__title">Pick your beat</h2>
+        <p class="scenes__sub">Each tile is its own page — bucket, count, and the editorial scope behind it.</p>
+      </header>
+
+      <div class="bucket-teasers">
+        {teasers.map((t) => (
+          <a href={t.href} class="bucket-teaser">
+            <h3 class="bucket-teaser__name">
+              {t.name}
+              {t.kanji ? <span class="bucket-teaser__kanji" lang="ja">{t.kanji}</span> : null}
+            </h3>
+            {t.count !== null ? <p class="bucket-teaser__count">{t.count} {t.count === 1 ? 'entry' : 'entries'}</p> : null}
+            <p class="bucket-teaser__desc">{t.description}</p>
+            <span class="bucket-teaser__cta">View all →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
 
   <Footer />
 </BaseLayout>
