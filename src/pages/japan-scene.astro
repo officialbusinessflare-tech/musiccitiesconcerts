@@ -1,0 +1,596 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+/**
+ * /japan-scene — In-Japan editorial dashboard.
+ *
+ * Built from the japan-metal-trip-2026 brief. Tracks 14 J-metal bands'
+ * confirmed Japan dates, a chronological timeline, recommended trip windows,
+ * festivals, and travel intel. Five tabs, JS-driven.
+ *
+ * Distinct from /japan (the auto-generated calendar of Japan-bucket entries
+ * from ClickUp). This page is editorial planning, /japan is the live feed.
+ */
+
+type Status = 'active' | 'hot' | 'hiatus' | 'limited' | 'intl' | 'farewell';
+
+type Show = { date: string; venue?: string; city?: string; note?: string; past?: boolean };
+
+type Band = {
+  name: string;
+  status: Status;
+  statusLabel: string;
+  genre: string;
+  members?: string;
+  shows?: Show[];
+  noShowsNote?: string;
+  footer?: string;
+};
+
+const bands: Band[] = [
+  {
+    name: 'LOVEBITES',
+    status: 'hot',
+    statusLabel: '10-Date Tour',
+    genre: 'Power / Speed Metal · Est. 2016',
+    shows: [
+      { date: 'MAR 29', venue: 'Nippon Budokan', city: 'Tokyo', note: '"LIVE AT BUDOKAN 2026"', past: true },
+      { date: 'AUG 29', venue: 'Zepp Fukuoka', city: 'Fukuoka' },
+      { date: 'AUG 30', venue: 'Hiroshima Club Quattro', city: 'Hiroshima' },
+      { date: 'SEP 4', venue: 'Zepp Nagoya', city: 'Nagoya (Aichi)' },
+      { date: 'SEP 6', venue: 'Zepp Osaka Bayside', city: 'Osaka' },
+      { date: 'SEP 11', venue: 'Zepp Sapporo', city: 'Sapporo (Hokkaido)' },
+      { date: 'SEP 13', venue: 'Sendai Gigs', city: 'Sendai (Miyagi)' },
+      { date: 'SEP 19', venue: 'Kanazawa Redsun', city: 'Kanazawa (Ishikawa)' },
+      { date: 'SEP 21', venue: 'Niigata Lots', city: 'Niigata' },
+      { date: 'SEP 25', venue: 'Zepp Haneda', city: 'Tokyo' },
+      { date: 'SEP 26', venue: 'Zepp Haneda', city: 'Tokyo', note: '2-night Tokyo finale' },
+    ],
+    footer: '"OUTSTANDING TOUR JAPAN 2026" · Also confirmed for Wacken Open Air (Germany).',
+  },
+  {
+    name: 'BAND-MAID',
+    status: 'farewell',
+    statusLabel: 'Final Tour',
+    genre: 'Hard Rock / Heavy Metal · Est. 2013',
+    members: 'Saiki · Miku · Kanami · MISA · Akane',
+    shows: [
+      { date: 'APR 3-5', venue: 'Central Music & Ent. Festival', city: 'Yokohama', past: true },
+      { date: 'APR 11', venue: 'KT Zepp Yokohama', city: 'Yokohama' },
+      { date: 'MAY 2', venue: 'Sendai GIGS', city: 'Sendai' },
+      { date: 'MAY 10', venue: 'Zepp Haneda', city: 'Tokyo' },
+      { date: 'JUL 12', venue: 'Sapporo Factory Hall', city: 'Sapporo' },
+      { date: 'JUL 17', venue: 'B.9 V1', city: 'Kumamoto' },
+      { date: 'JUL 18', venue: 'Zepp Fukuoka', city: 'Fukuoka' },
+      { date: 'NOV 1', venue: 'TBA', city: 'Aichi (Nagoya)' },
+      { date: 'NOV 3', venue: 'Namba Hatch', city: 'Osaka' },
+      { date: 'NOV 13', venue: 'Nippon Budokan', city: 'Tokyo', note: 'FINALE Night 1' },
+      { date: 'NOV 14', venue: 'Nippon Budokan', city: 'Tokyo', note: 'FINALE Night 2 · Hiatus after this show' },
+    ],
+    footer: 'First solo world tour · Entering hiatus after Nov Budokan · Returning for 15th anniversary 2028. Tickets: Standing ¥7,700 / Reserved ¥8,800.',
+  },
+  {
+    name: 'BABYMETAL',
+    status: 'hot',
+    statusLabel: 'Major Year',
+    genre: 'Kawaii Metal · Est. 2010',
+    members: 'Su-metal · Moametal · Momometal',
+    shows: [
+      { date: 'JAN 10-11', venue: 'Saitama Super Arena', city: 'Saitama', note: '"LEGEND - METAL FORTH" (2 nights)', past: true },
+      { date: 'MAR 29', venue: 'Tokyo Garden Theater', city: 'Tokyo', note: 'TOKYO FM 55th Anniv. · w/ Max the Hormone', past: true },
+      { date: 'MAR 30', venue: 'Zepp Haneda', city: 'Tokyo', note: 'World Tour 2026 · Opening act: METALVERSE' },
+      { date: 'APR 4', venue: 'DEAD POP FESTiVAL 2026', city: 'Kawasaki', note: 'Organized by SiM' },
+      { date: 'AUG 14-16', venue: 'Summer Sonic 2026', city: 'Chiba + Osaka', note: 'Curating "SONIC METAL STAGE" · 15th anniversary' },
+    ],
+  },
+  {
+    name: 'METALVERSE',
+    status: 'active',
+    statusLabel: 'Rising',
+    genre: 'Kawaii Metal · Est. 2023 · BABYMETAL universe',
+    members: 'Miko · Sakia · Kokona · Miki · Yume',
+    shows: [
+      { date: 'MAR 30', venue: 'Zepp Haneda', city: 'Tokyo', note: 'Opening for BABYMETAL' },
+      { date: 'MAY 9', venue: 'Spotify O-EAST', city: 'Tokyo (Shibuya)', note: '"METALVERSE#3 - GARDEN OF EDEN" · Standing ¥8,000 / Reserved ¥8,500 / Z-VERSE (under 22) ¥4,000' },
+      { date: 'AUG ?', venue: 'Summer Sonic 2026', city: 'Chiba/Osaka', note: "Likely on BABYMETAL's SONIC METAL STAGE (unconfirmed)" },
+    ],
+    footer: 'New "METALVERSE VAND PROJECT" launching — rotating lineup of next-gen artists.',
+  },
+  {
+    name: 'HANABIE.',
+    status: 'hot',
+    statusLabel: 'Hot',
+    genre: 'Nu-Metal / Metalcore · Est. 2015',
+    shows: [
+      { date: 'JAN-FEB', venue: '"Moshikasite, Kotoshikoso" Japan Tour', note: 'Mito, Fukuoka, Osaka, Nagoya, Sendai, Tokyo (all complete)', past: true },
+    ],
+    footer: 'Currently on N. America tour (Mar-Apr). Confirmed for Bukurock 2026 + Daikaihou Festival. Expect fall Japan dates.',
+  },
+  {
+    name: 'ZILQY',
+    status: 'hot',
+    statusLabel: 'Sold Out',
+    genre: 'Heavy Metal · Est. 2025 · Supergroup',
+    members: 'Toki (ex-Aldious) · Miho (ex-LOVEBITES) · Anna · Kano',
+    shows: [
+      { date: 'MAR 22', venue: 'Shin-Yokohama New SIDE BEACH!!', city: 'Yokohama', past: true },
+      { date: 'APR 4', venue: 'ell.FITS ALL', city: 'Nagoya' },
+      { date: 'APR 5', venue: 'OSAKA MUSE', city: 'Osaka' },
+      { date: 'MAY 1', venue: 'Shibuya WWW X', city: 'Tokyo', note: 'EXTRA SHOW (added due to sellouts)' },
+      { date: 'MAY 3', venue: 'Shibuya WWW', city: 'Tokyo' },
+    ],
+  },
+  {
+    name: 'NEMOPHILA',
+    status: 'active',
+    statusLabel: 'Active',
+    genre: 'Heavy Metal / Hard Rock · Est. 2019',
+    shows: [
+      { date: 'FEB-MAR', venue: 'GOZO Release Tour', note: 'Sendai, Yamanashi, Sapporo, Asahikawa, Kashiwa (all complete)', past: true },
+      { date: 'JUN 6', venue: "CLUB CITTA'", city: 'Kawasaki', note: 'UNLUCKY FES 2026' },
+    ],
+    footer: "Also at NAON's BUNTAI 2026 + Sound Planet Fest (Korea).",
+  },
+  {
+    name: 'TRiDENT',
+    status: 'active',
+    statusLabel: 'Active',
+    genre: 'Hard Rock / Metal · Est. 2018',
+    shows: [
+      { date: 'APR 6', venue: 'Young Festival 2026', city: 'Tokyo' },
+      { date: 'APR 17', venue: '"THE CHAOS FUTURE"', city: 'Tokyo' },
+      { date: 'APR 22', venue: "CiON's Love Call 2026", city: 'Tokyo' },
+    ],
+    footer: '"King of the Sea Tour 2026" — more dates likely.',
+  },
+  {
+    name: 'BRIDEAR',
+    status: 'limited',
+    statusLabel: 'Limited',
+    genre: 'Melodic Metal / Power Metal · Est. 2012',
+    shows: [
+      { date: 'JAN 12', venue: 'Aoyama RizM', city: 'Tokyo', past: true },
+      { date: 'JAN 29', venue: 'Shinjuku ANTIKNOCK', city: 'Tokyo', past: true },
+      { date: 'APR 29', venue: 'Shibuya Star Lounge', city: 'Tokyo', note: '6:30 PM · ~¥10,066' },
+    ],
+  },
+  {
+    name: 'LADYBABY',
+    status: 'limited',
+    statusLabel: 'Limited',
+    genre: 'Idol Metal / J-Pop Metal · Est. 2015',
+    noShowsNote: '4th generation lineup · Japan dates not yet confirmed for 2026.',
+  },
+  {
+    name: 'ROLLING QUARTZ',
+    status: 'intl',
+    statusLabel: 'Korea / EU Tour',
+    genre: 'Rock / Metal · Est. 2019 · Korean',
+    shows: [
+      { date: 'APR 15', venue: 'P60', city: 'Netherlands' },
+      { date: 'APR 19', venue: 'The Garage', city: 'London' },
+    ],
+    footer: 'EU "My Turn" tour. No Japan dates — possible Seoul side-trip.',
+  },
+  {
+    name: 'ALDIOUS',
+    status: 'hiatus',
+    statusLabel: 'Hiatus',
+    genre: 'Heavy / Power Metal · Est. 2008',
+    noShowsNote: 'Indefinite hiatus since May 2025. Toki departed to form ZILQY.',
+  },
+  {
+    name: "MARY'S BLOOD",
+    status: 'hiatus',
+    statusLabel: 'Inactive',
+    genre: 'Heavy Metal · Est. 2009',
+    noShowsNote: 'Indefinite hiatus since April 2022. No return announced.',
+  },
+];
+
+type TimelineEvent = { date: string; band: string; venue: string; city: string; past?: boolean; highlight?: 'lovebites' | 'bandmaid' };
+type TimelineMonth = { name: string; pastMonth?: boolean; titleColor?: 'accent' | 'purple'; events: TimelineEvent[] };
+
+const timeline: TimelineMonth[] = [
+  { name: 'January 2026', pastMonth: true, events: [
+    { date: 'Jan 10-11', band: 'BABYMETAL', venue: 'Saitama Super Arena (2 nights)', city: 'Saitama', past: true },
+    { date: 'Jan 12', band: 'BRIDEAR', venue: 'Aoyama RizM', city: 'Tokyo', past: true },
+    { date: 'Jan 19', band: 'HANABIE.', venue: 'Mito venue', city: 'Mito', past: true },
+    { date: 'Jan 29', band: 'BRIDEAR', venue: 'Shinjuku ANTIKNOCK', city: 'Tokyo', past: true },
+  ] },
+  { name: 'February 2026', pastMonth: true, events: [
+    { date: 'Feb 7', band: 'HANABIE.', venue: 'Fukuoka', city: 'Fukuoka', past: true },
+    { date: 'Feb 7', band: 'NEMOPHILA', venue: 'Rensa', city: 'Sendai', past: true },
+    { date: 'Feb 14-23', band: 'HANABIE.', venue: 'Osaka, Nagoya, Sendai, Tokyo', city: 'Multi-city', past: true },
+    { date: 'Feb 15', band: 'NEMOPHILA', venue: 'CONVICTION', city: 'Yamanashi', past: true },
+  ] },
+  { name: 'March 2026', pastMonth: true, events: [
+    { date: 'Mar 14-15', band: 'NEMOPHILA', venue: 'Penny Lane 24 / CASINO DRIVE', city: 'Hokkaido', past: true },
+    { date: 'Mar 22', band: 'ZILQY', venue: 'New SIDE BEACH!!', city: 'Yokohama', past: true },
+    { date: 'Mar 27', band: 'NEMOPHILA', venue: 'PALOOZA', city: 'Kashiwa', past: true },
+    { date: 'Mar 29', band: 'LOVEBITES', venue: 'Nippon Budokan', city: 'Tokyo', past: true },
+    { date: 'Mar 29', band: 'BABYMETAL', venue: 'Tokyo Garden Theater', city: 'Tokyo', past: true },
+    { date: 'Mar 30', band: 'BABYMETAL', venue: 'Zepp Haneda (+ METALVERSE opens)', city: 'Tokyo' },
+  ] },
+  { name: 'April 2026', events: [
+    { date: 'Apr 3-5', band: 'BAND-MAID', venue: 'Central Music & Ent. Festival', city: 'Yokohama' },
+    { date: 'Apr 4', band: 'ZILQY', venue: 'ell.FITS ALL', city: 'Nagoya' },
+    { date: 'Apr 4', band: 'BABYMETAL', venue: 'DEAD POP FESTiVAL', city: 'Kawasaki' },
+    { date: 'Apr 5', band: 'ZILQY', venue: 'OSAKA MUSE', city: 'Osaka' },
+    { date: 'Apr 6', band: 'TRiDENT', venue: 'Young Festival 2026', city: 'Tokyo' },
+    { date: 'Apr 11', band: 'BAND-MAID', venue: 'KT Zepp Yokohama', city: 'Yokohama' },
+    { date: 'Apr 17', band: 'TRiDENT', venue: 'THE CHAOS FUTURE', city: 'Tokyo' },
+    { date: 'Apr 22', band: 'TRiDENT', venue: "CiON's Love Call", city: 'Tokyo' },
+    { date: 'Apr 29', band: 'BRIDEAR', venue: 'Shibuya Star Lounge', city: 'Tokyo' },
+  ] },
+  { name: 'May 2026', events: [
+    { date: 'May 1', band: 'ZILQY', venue: 'Shibuya WWW X', city: 'Tokyo' },
+    { date: 'May 2', band: 'BAND-MAID', venue: 'Sendai GIGS', city: 'Sendai' },
+    { date: 'May 3', band: 'ZILQY', venue: 'Shibuya WWW', city: 'Tokyo' },
+    { date: 'May 9', band: 'METALVERSE', venue: 'Spotify O-EAST "GARDEN OF EDEN"', city: 'Tokyo' },
+    { date: 'May 10', band: 'BAND-MAID', venue: 'Zepp Haneda', city: 'Tokyo' },
+  ] },
+  { name: 'June 2026', events: [
+    { date: 'Jun 6', band: 'NEMOPHILA', venue: "UNLUCKY FES @ CLUB CITTA'", city: 'Kawasaki' },
+  ] },
+  { name: 'July 2026', events: [
+    { date: 'Jul 12', band: 'BAND-MAID', venue: 'Sapporo Factory Hall', city: 'Sapporo' },
+    { date: 'Jul 17', band: 'BAND-MAID', venue: 'B.9 V1', city: 'Kumamoto' },
+    { date: 'Jul 18', band: 'BAND-MAID', venue: 'Zepp Fukuoka', city: 'Fukuoka' },
+  ] },
+  { name: 'August 2026', events: [
+    { date: 'Aug 14-16', band: 'BABYMETAL', venue: 'Summer Sonic (SONIC METAL STAGE)', city: 'Chiba + Osaka' },
+    { date: 'Aug 29', band: 'LOVEBITES', venue: 'Zepp Fukuoka', city: 'Fukuoka' },
+    { date: 'Aug 30', band: 'LOVEBITES', venue: 'Hiroshima Club Quattro', city: 'Hiroshima' },
+  ] },
+  { name: 'September 2026 — LOVEBITES Outstanding Tour', titleColor: 'accent', events: [
+    { date: 'Sep 4', band: 'LOVEBITES', venue: 'Zepp Nagoya', city: 'Nagoya', highlight: 'lovebites' },
+    { date: 'Sep 6', band: 'LOVEBITES', venue: 'Zepp Osaka Bayside', city: 'Osaka', highlight: 'lovebites' },
+    { date: 'Sep 11', band: 'LOVEBITES', venue: 'Zepp Sapporo', city: 'Sapporo', highlight: 'lovebites' },
+    { date: 'Sep 13', band: 'LOVEBITES', venue: 'Sendai Gigs', city: 'Sendai', highlight: 'lovebites' },
+    { date: 'Sep 19', band: 'LOVEBITES', venue: 'Kanazawa Redsun', city: 'Kanazawa', highlight: 'lovebites' },
+    { date: 'Sep 21', band: 'LOVEBITES', venue: 'Niigata Lots', city: 'Niigata', highlight: 'lovebites' },
+    { date: 'Sep 25', band: 'LOVEBITES', venue: 'Zepp Haneda (Night 1)', city: 'Tokyo', highlight: 'lovebites' },
+    { date: 'Sep 26', band: 'LOVEBITES', venue: 'Zepp Haneda (Night 2 FINALE)', city: 'Tokyo', highlight: 'lovebites' },
+  ] },
+  { name: 'November 2026 — BAND-MAID Final Run', titleColor: 'purple', events: [
+    { date: 'Nov 1', band: 'BAND-MAID', venue: 'TBA', city: 'Nagoya', highlight: 'bandmaid' },
+    { date: 'Nov 3', band: 'BAND-MAID', venue: 'Namba Hatch', city: 'Osaka', highlight: 'bandmaid' },
+    { date: 'Nov 13', band: 'BAND-MAID', venue: 'Nippon Budokan (Night 1)', city: 'Tokyo', highlight: 'bandmaid' },
+    { date: 'Nov 14', band: 'BAND-MAID', venue: 'Nippon Budokan (Night 2 — FINAL SHOW)', city: 'Tokyo', highlight: 'bandmaid' },
+  ] },
+];
+
+type Trip = { label: string; title: string; dates: string; details: string[]; bands: string[] };
+const trips: Trip[] = [
+  {
+    label: 'Best Near-Term Option',
+    title: 'The April Blitz',
+    dates: 'April 3–11, 2026 (9 days)',
+    details: [
+      '<strong>Apr 3-5:</strong> BAND-MAID @ Central Music & Ent. Festival — Yokohama',
+      '<strong>Apr 4:</strong> ZILQY @ ell.FITS ALL — Nagoya (or BABYMETAL @ DEAD POP FESTiVAL — Kawasaki)',
+      '<strong>Apr 5:</strong> ZILQY @ OSAKA MUSE — Osaka',
+      '<strong>Apr 6:</strong> TRiDENT @ Young Festival — Tokyo',
+      '<strong>Apr 11:</strong> BAND-MAID @ KT Zepp Yokohama',
+      '<strong>Route:</strong> Tokyo/Yokohama → Nagoya → Osaka → Tokyo (Shinkansen corridor). Cherry blossom season.',
+    ],
+    bands: ['BAND-MAID x2', 'ZILQY x2', 'TRiDENT', 'BABYMETAL'],
+  },
+  {
+    label: 'Maximum Show Count',
+    title: 'The Golden Week Marathon',
+    dates: 'April 3 – May 10, 2026 (38 days)',
+    details: [
+      '<strong>Apr 3-11:</strong> BAND-MAID x2 (Yokohama), ZILQY x2 (Nagoya+Osaka), BABYMETAL (Kawasaki), TRiDENT (Tokyo)',
+      '<strong>Apr 17:</strong> TRiDENT — Tokyo',
+      '<strong>Apr 22:</strong> TRiDENT — Tokyo',
+      '<strong>Apr 29:</strong> BRIDEAR — Tokyo (Shibuya Star Lounge)',
+      '<strong>May 1:</strong> ZILQY — Tokyo (Shibuya WWW X)',
+      '<strong>May 2:</strong> BAND-MAID — Sendai',
+      '<strong>May 3:</strong> ZILQY — Tokyo (Shibuya WWW)',
+      '<strong>May 9:</strong> METALVERSE — Tokyo (Spotify O-EAST "GARDEN OF EDEN")',
+      '<strong>May 10:</strong> BAND-MAID — Tokyo (Zepp Haneda)',
+      '<strong>Total: 13+ shows, 6 bands</strong>',
+    ],
+    bands: ['BAND-MAID x4', 'ZILQY x4', 'TRiDENT x3', 'BABYMETAL', 'BRIDEAR', 'METALVERSE'],
+  },
+  {
+    label: 'Your Target Trip',
+    title: 'The LOVEBITES September Run',
+    dates: 'August 29 – September 26, 2026 (29 days full / pick your window)',
+    details: [
+      '<strong>Aug 29:</strong> LOVEBITES @ Zepp Fukuoka — Fukuoka',
+      '<strong>Aug 30:</strong> LOVEBITES @ Hiroshima Club Quattro — Hiroshima',
+      '<strong>Sep 4:</strong> LOVEBITES @ Zepp Nagoya — Nagoya',
+      '<strong>Sep 6:</strong> LOVEBITES @ Zepp Osaka Bayside — Osaka',
+      '<strong>Sep 11:</strong> LOVEBITES @ Zepp Sapporo — Sapporo (fly up)',
+      '<strong>Sep 13:</strong> LOVEBITES @ Sendai Gigs — Sendai',
+      '<strong>Sep 19:</strong> LOVEBITES @ Kanazawa Redsun — Kanazawa',
+      '<strong>Sep 21:</strong> LOVEBITES @ Niigata Lots — Niigata',
+      '<strong>Sep 25-26:</strong> LOVEBITES @ Zepp Haneda (2 nights) — Tokyo',
+      '<strong>Recommended short version:</strong> Sep 4–6 (Nagoya+Osaka) then Sep 25–26 (Tokyo finale) = catch 4 shows in 2 clusters.',
+      '<strong>Full tour chase route:</strong> Fukuoka → Hiroshima → Nagoya → Osaka → Sapporo (fly) → Sendai → Kanazawa → Niigata → Tokyo. 21-day JR Pass (¥100,000) recommended.',
+    ],
+    bands: ['LOVEBITES x10'],
+  },
+  {
+    label: 'Summer Festival Window',
+    title: 'Summer Sonic into LOVEBITES Tour',
+    dates: 'August 13 – September 6, 2026 (25 days)',
+    details: [
+      "<strong>Aug 14-16:</strong> Summer Sonic 2026 (BABYMETAL's SONIC METAL STAGE + festival) — Chiba/Osaka",
+      '<strong>Aug 29:</strong> LOVEBITES — Fukuoka',
+      '<strong>Aug 30:</strong> LOVEBITES — Hiroshima',
+      '<strong>Sep 4:</strong> LOVEBITES — Nagoya',
+      '<strong>Sep 6:</strong> LOVEBITES — Osaka',
+      '<strong>Route:</strong> Chiba → (sightsee) → Fukuoka → Hiroshima → Nagoya → Osaka',
+    ],
+    bands: ['BABYMETAL', 'LOVEBITES x4', 'METALVERSE (likely)'],
+  },
+  {
+    label: 'Once-in-a-Lifetime',
+    title: 'BAND-MAID Budokan Farewell',
+    dates: 'November 1–14, 2026 (14 days)',
+    details: [
+      '<strong>Nov 1:</strong> BAND-MAID — Nagoya (venue TBA)',
+      '<strong>Nov 3:</strong> BAND-MAID @ Namba Hatch — Osaka',
+      '<strong>Nov 13:</strong> BAND-MAID @ Nippon Budokan Night 1 — Tokyo',
+      '<strong>Nov 14:</strong> BAND-MAID @ Nippon Budokan Night 2 FINAL — Tokyo',
+      "This is their last show before hiatus. They won't return until 2028. If BAND-MAID matters to you, this is the trip.",
+      '<strong>Route:</strong> Nagoya → Osaka → Tokyo. Autumn foliage season.',
+    ],
+    bands: ['BAND-MAID x4 (FINAL)'],
+  },
+  {
+    label: 'Add-On',
+    title: 'Seoul Side-Trip: Rolling Quartz',
+    dates: 'Flexible — add 2-3 days to any trip',
+    details: [
+      'Rolling Quartz is Korean-based. Seoul is ~2.5 hours from Tokyo by air (budget airlines from ¥15,000 one-way). Monitor their schedule for Korea dates that overlap your Japan window.',
+    ],
+    bands: ['Rolling Quartz'],
+  },
+];
+
+type Festival = { title: string; date: string; body: string };
+const festivals: Festival[] = [
+  { title: 'Summer Sonic 2026 (25th Anniversary)', date: 'August 14–16 · Chiba (Tokyo area) + Osaka', body: '<span class="jms-hl">BABYMETAL curating "SONIC METAL STAGE"</span> at both venues. Three-day mega-festival. BABYMETAL\'s 15th anniversary. METALVERSE likely on the metal stage. Headliners: The Strokes, L\'Arc-en-Ciel, Jamiroquai.' },
+  { title: 'DEAD POP FESTiVAL 2026', date: 'April 4–5 · Kawasaki Higashi-Ogishima East Park', body: '<span class="jms-hl">BABYMETAL confirmed</span>. Organized by SiM. Multi-genre heavy festival. Close to Tokyo.' },
+  { title: 'UNLUCKY FES 2026', date: "June 6 · Kawasaki CLUB CITTA'", body: '<span class="jms-hl">NEMOPHILA confirmed</span>. Multi-band festival that often features female-fronted acts. One station from Tokyo.' },
+  { title: "NAON's BUNTAI 2026", date: 'Date TBD · Produced by SHOW-YA', body: '<span class="jms-hl">NEMOPHILA confirmed</span>. Legendary all-female band showcase. Previous editions featured LOVEBITES, BRIDEAR, and others.' },
+  { title: 'BABYMETAL "Meta-Radi! FES"', date: 'March 29 · Tokyo Garden Theater', body: 'TOKYO FM 55th Anniversary special. <span class="jms-hl">BABYMETAL + Maximum the Hormone + ATARASHII GAKKO!</span> (already occurred).' },
+  { title: 'Loud Park 2026', date: 'Historically October · Saitama Super Arena / Makuhari Messe', body: 'Japan\'s premier metal festival. No 2026 edition confirmed yet. If it returns, best single-event chance to see multiple bands on one bill.' },
+];
+
+const activeCount = bands.filter((b) => b.status !== 'hiatus').length;
+---
+
+<BaseLayout
+  title="Japan Scene 2026 | The Music Cities"
+  description="In-Japan shows from 14 J-metal bands: confirmed dates, recommended trip windows, festivals, and travel intel for the 2026 touring year."
+>
+  <Header />
+
+  <section class="dash-hero">
+    <div class="container">
+      <p class="dash-hero__eyebrow">Scene Brief</p>
+      <h1 class="dash-hero__title">Japan <em>Scene 2026</em></h1>
+      <p class="dash-hero__subtitle">In-Japan dates from the J-metal watch list</p>
+      <p class="dash-hero__lede">
+        All-female Japanese metal bands (+ BABYMETAL & Rolling Quartz), every confirmed Japan show
+        we have, four recommended trip windows, the festival calendar, and the travel intel to
+        navigate buying tickets, riding the Shinkansen, and finding the right metal bar.
+      </p>
+      <div class="jms-stats">
+        <div class="jms-stat"><div class="jms-stat__num">{bands.length}</div><div class="jms-stat__lbl">Bands tracked</div></div>
+        <div class="jms-stat"><div class="jms-stat__num">{activeCount}</div><div class="jms-stat__lbl">Active in 2026</div></div>
+        <div class="jms-stat"><div class="jms-stat__num">50+</div><div class="jms-stat__lbl">Confirmed shows</div></div>
+        <div class="jms-stat"><div class="jms-stat__num">10+</div><div class="jms-stat__lbl">Cities</div></div>
+      </div>
+    </div>
+  </section>
+
+  <nav class="dash-tabs" aria-label="Section tabs">
+    <button class="dash-tab is-active" data-target="jms-bands" type="button">All Bands</button>
+    <button class="dash-tab" data-target="jms-timeline" type="button">Timeline</button>
+    <button class="dash-tab" data-target="jms-trips" type="button">Trip Options</button>
+    <button class="dash-tab" data-target="jms-festivals" type="button">Festivals</button>
+    <button class="dash-tab" data-target="jms-travel" type="button">Travel Intel</button>
+  </nav>
+
+  <main class="dash-main">
+    <div class="container">
+
+      <section id="jms-bands" class="dash-tabpanel is-active">
+        <h2 class="dash-section__title">Band Roster &amp; Confirmed Shows</h2>
+        <p class="dash-section__intro">All confirmed 2026 Japan dates. Past shows dimmed.</p>
+        <div class="jms-band-grid">
+          {bands.map((b) => (
+            <article class="jms-band">
+              <header class="jms-band__head">
+                <div class="jms-band__name">{b.name}</div>
+                <span class={`jms-status jms-status--${b.status}`}>{b.statusLabel}</span>
+              </header>
+              <div class="jms-band__genre">{b.genre}</div>
+              {b.members ? <div class="jms-band__members">{b.members}</div> : null}
+              {b.shows && b.shows.length > 0 ? (
+                <ul class="jms-shows">
+                  {b.shows.map((s) => (
+                    <li class={s.past ? 'jms-show jms-show--past' : 'jms-show'}>
+                      <span class="jms-show__date">{s.date}</span>
+                      <div class="jms-show__body">
+                        {s.venue ? <span class="jms-show__venue">{s.venue}</span> : null}
+                        {s.city ? <Fragment> — <span class="jms-show__city">{s.city}</span></Fragment> : null}
+                        {s.note ? <div class="jms-show__note">{s.note}</div> : null}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
+              {b.noShowsNote ? <p class="jms-no-shows">{b.noShowsNote}</p> : null}
+              {b.footer ? <p class="jms-band__footer">{b.footer}</p> : null}
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section id="jms-timeline" class="dash-tabpanel">
+        <h2 class="dash-section__title">2026 Japan Show Timeline</h2>
+        <p class="dash-section__intro">All confirmed Japan dates in chronological order.</p>
+        <div class="jms-timeline">
+          {timeline.map((m) => (
+            <div class="jms-tl-month">
+              <div class={m.pastMonth ? 'jms-tl-dot jms-tl-dot--past' : 'jms-tl-dot jms-tl-dot--upcoming'}></div>
+              <div class={
+                m.pastMonth
+                  ? 'jms-tl-month-name jms-tl-month-name--past'
+                  : m.titleColor === 'accent'
+                  ? 'jms-tl-month-name jms-tl-month-name--accent'
+                  : m.titleColor === 'purple'
+                  ? 'jms-tl-month-name jms-tl-month-name--purple'
+                  : 'jms-tl-month-name'
+              }>{m.name}</div>
+              <div class="jms-tl-events">
+                {m.events.map((e) => (
+                  <div class={
+                    e.past
+                      ? 'jms-tl-event jms-tl-event--past'
+                      : e.highlight === 'lovebites'
+                      ? 'jms-tl-event jms-tl-event--lovebites'
+                      : e.highlight === 'bandmaid'
+                      ? 'jms-tl-event jms-tl-event--bandmaid'
+                      : 'jms-tl-event'
+                  }>
+                    <span class="jms-tl-date">{e.date}</span>
+                    <span class="jms-tl-band">{e.band}</span>
+                    <span class="jms-tl-venue">{e.venue}</span>
+                    <span class="jms-tl-city">{e.city}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section id="jms-trips" class="dash-tabpanel">
+        <h2 class="dash-section__title">Recommended Trip Windows</h2>
+        <p class="dash-section__intro">Optimized multi-band itineraries based on all confirmed dates.</p>
+        {trips.map((t) => (
+          <div class="jms-trip">
+            <div class="jms-trip__label">{t.label}</div>
+            <div class="jms-trip__title">{t.title}</div>
+            <div class="jms-trip__dates">{t.dates}</div>
+            {t.details.map((d) => (
+              <p class="jms-trip__detail" set:html={d}></p>
+            ))}
+            <div class="jms-trip__bands">
+              {t.bands.map((b) => <span class="jms-trip__tag">{b}</span>)}
+            </div>
+          </div>
+        ))}
+      </section>
+
+      <section id="jms-festivals" class="dash-tabpanel">
+        <h2 class="dash-section__title">2026 Festivals</h2>
+        <p class="dash-section__intro">Major events featuring bands from the watch list.</p>
+        {festivals.map((f) => (
+          <div class="jms-festival">
+            <h3>{f.title}</h3>
+            <div class="jms-festival__date">{f.date}</div>
+            <p set:html={f.body}></p>
+          </div>
+        ))}
+      </section>
+
+      <section id="jms-travel" class="dash-tabpanel">
+        <h2 class="dash-section__title">Travel Intel</h2>
+        <p class="dash-section__intro">Everything you need to navigate Japan as a metalhead.</p>
+        <div class="jms-info-grid">
+          <div class="jms-info">
+            <h3>Buying Tickets</h3>
+            <p>Japan's three major platforms all require a Japanese phone number for SMS verification:</p>
+            <ul>
+              <li><strong>e+ (eplus)</strong> — "e+ International" portal for select events (no JP phone needed), ~5% coverage</li>
+              <li><strong>Ticket Pia</strong> — partners with 7-Eleven / FamilyMart for in-store pickup</li>
+              <li><strong>Lawson Ticket</strong> — use Loppi machines at any Lawson</li>
+            </ul>
+            <p><strong>Strategy:</strong> Get a Japanese SIM card at the airport, register accounts, buy during general sale at convenience store machines. BAND-MAID tickets on sale now (Standing ¥7,700 / Reserved ¥8,800).</p>
+          </div>
+          <div class="jms-info">
+            <h3>Japan Rail Pass</h3>
+            <ul>
+              <li><strong>7-day:</strong> <span class="jms-price">¥50,000</span> (~$345)</li>
+              <li><strong>14-day:</strong> <span class="jms-price">¥80,000</span></li>
+              <li><strong>21-day:</strong> <span class="jms-price">¥100,000</span></li>
+            </ul>
+            <p>The 21-day pass is ideal for chasing the full LOVEBITES September tour across 8 cities. A 7-day pass covers the Nagoya→Osaka→Tokyo corridor for shorter trips.</p>
+          </div>
+          <div class="jms-info">
+            <h3>Where to Stay</h3>
+            <ul>
+              <li><strong>Shibuya (Tokyo)</strong> — #1 pick. Walk to WWW, WWW X, Star Lounge, O-EAST, Club Quattro</li>
+              <li><strong>Shinjuku (Tokyo)</strong> — Near ANTIKNOCK, Loft. Major transport hub</li>
+              <li><strong>Shinsaibashi/Namba (Osaka)</strong> — Near OSAKA MUSE, Zepp Osaka, Hokage metal bar</li>
+            </ul>
+            <p>For Zepp Haneda shows: stay near Haneda Airport or Kamata station (10 min walk).</p>
+          </div>
+          <div class="jms-info">
+            <h3>Metal Spots</h3>
+            <ul>
+              <li><strong>GODZ (Shinjuku)</strong> — Best metal bar in Japan</li>
+              <li><strong>Hokage (Osaka)</strong> — Metalhead pub, touring bands hang out here</li>
+              <li><strong>Disk Union (Shibuya/Shinjuku)</strong> — Multi-floor record shops, massive metal sections</li>
+              <li><strong>Tower Records Shibuya</strong> — 9 floors. The metal floor is a pilgrimage</li>
+            </ul>
+          </div>
+          <div class="jms-info">
+            <h3>September Weather</h3>
+            <ul>
+              <li><strong>Temp:</strong> 23–30°C (73–86°F), hotter early month</li>
+              <li><strong>Humidity:</strong> High. Feels like 35°C. Muggy indoor venues</li>
+              <li><strong>Typhoons:</strong> 1–2 per month. Can disrupt Shinkansen for half a day</li>
+              <li><strong>Pack:</strong> Light clothes, rain jacket, portable fan, waterproof phone case</li>
+            </ul>
+          </div>
+          <div class="jms-info">
+            <h3>Key Links to Monitor</h3>
+            <ul>
+              <li><strong>lovebites.jp/shows</strong> — LOVEBITES schedule</li>
+              <li><strong>bandmaid.tokyo</strong> — BAND-MAID official</li>
+              <li><strong>babymetal.com</strong> — BABYMETAL tour page</li>
+              <li><strong>metalverse-world.com</strong> — METALVERSE</li>
+              <li><strong>zilqy.com/tour</strong> — ZILQY</li>
+              <li><strong>nemophila.tokyo/en/live</strong> — NEMOPHILA</li>
+              <li><strong>hanabietour.com</strong> — HANABIE</li>
+              <li><strong>japanconcerttickets.com</strong> — Aggregator (English)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <p class="dash-footnote" style="margin-top:2rem;">Dates subject to change. Check official band sites for the latest. Stay heavy.</p>
+    </div>
+  </main>
+
+  <Footer />
+
+  <script is:inline>
+    (function () {
+      function activate(target) {
+        document.querySelectorAll('.dash-tabpanel').forEach(function (p) { p.classList.remove('is-active'); });
+        document.querySelectorAll('.dash-tab').forEach(function (t) { t.classList.remove('is-active'); });
+        var panel = document.getElementById(target);
+        if (panel) panel.classList.add('is-active');
+        var btn = document.querySelector('.dash-tab[data-target="' + target + '"]');
+        if (btn) btn.classList.add('is-active');
+      }
+      document.querySelectorAll('.dash-tab').forEach(function (t) {
+        t.addEventListener('click', function () { activate(t.getAttribute('data-target')); });
+      });
+    })();
+  </script>
+</BaseLayout>
