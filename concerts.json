@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T07:01:25.376Z",
+  "generatedAt": "2026-06-29T13:52:14.361Z",
   "entries": [
     {
       "id": "86baaafeh",
@@ -406,6 +406,27 @@
       ]
     },
     {
+      "id": "86ban5v4a",
+      "name": "Coffins (w/ Brothers Grim) — Brick by Brick, San Diego CA",
+      "date": "2026-07-17",
+      "venue": "Brick by Brick",
+      "city": "San Diego",
+      "state": "CA",
+      "bands": [
+        "Coffins (w",
+        "Brothers Grim)"
+      ],
+      "description": "Coffins — Japanese death/doom legends, headlining w/ Brothers Grim. West Coast date.",
+      "ticketUrl": "https://www.songkick.com/concerts/43295718",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86ban5v4a",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86ba365d7",
       "name": "Jiluka — Come and Take It Live, Austin TX",
       "date": "2026-07-17",
@@ -422,6 +443,26 @@
       "clickupUrl": "https://app.clickup.com/t/86ba365d7",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86ban5vax",
+      "name": "CRÜEFEST 2026 — Whisky a Go Go, West Hollywood CA",
+      "date": "2026-07-18",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "CRÜEFEST 2026"
+      ],
+      "description": "CRÜEFEST 2026 — Mötley Crüe tribute/celebration bill at the Whisky.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86ban5vax",
+      "buckets": [
+        "florida-metal-scene",
+        "key-festivals"
       ]
     },
     {
@@ -442,6 +483,26 @@
       "clickupUrl": "https://app.clickup.com/t/86ba365hy",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86ban5v0m",
+      "name": "Jiluka — Brick by Brick, San Diego CA",
+      "date": "2026-07-23",
+      "venue": "Brick by Brick",
+      "city": "San Diego",
+      "state": "CA",
+      "bands": [
+        "Jiluka"
+      ],
+      "description": "Jiluka — West Coast date at Brick by Brick. Support: What Lies Below, Mirrorcell.",
+      "ticketUrl": "https://www.songkick.com/concerts/43179378-jiluka-at-brick-by-brick",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86ban5v0m",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -950,6 +1011,45 @@
       ]
     },
     {
+      "id": "86ban5vbt",
+      "name": "Spineshank w/ Hed PE — Whisky a Go Go, West Hollywood CA",
+      "date": "2026-08-27",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Spineshank",
+        "Hed PE"
+      ],
+      "description": "Spineshank w/ Hed PE — Industrial / nu-metal double bill.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86ban5vbt",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86ban5vcu",
+      "name": "Slaughter — Whisky a Go Go, West Hollywood CA",
+      "date": "2026-08-28",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Slaughter"
+      ],
+      "description": "Slaughter — Late-80s hard rock.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86ban5vcu",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bahh73t",
       "name": "Nicko McBrain's Titanium Tart + Maximum Friction — The Barn, Sanford FL",
       "date": "2026-08-29",
@@ -1340,6 +1440,26 @@
       ]
     },
     {
+      "id": "86ban5v2r",
+      "name": "Rolling Quartz — Whisky a Go Go, West Hollywood CA (MY TURN 2026 Tour)",
+      "date": "2026-09-19",
+      "city": "Whisky a Go Go",
+      "country": "West Hollywood CA (MY TURN 2026 Tour)",
+      "bands": [
+        "Rolling Quartz"
+      ],
+      "description": "Rolling Quartz — MY TURN 2026 Tour. West Hollywood date at the Whisky.",
+      "ticketUrl": "https://www.ticketweb.com/event/rolling-quartz-my-turn-2026-whisky-a-go-go-tickets/14947483",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86ban5v2r",
+      "buckets": [
+        "florida-metal-scene",
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86b9b7mjx",
       "name": "LOVEBITES — Outstanding Tour — Kanazawa Redsun, Japan",
       "date": "2026-09-19",
@@ -1539,6 +1659,26 @@
       ]
     },
     {
+      "id": "86ban5v5q",
+      "name": "Hammerfall w/ Evergrey, Elvenking — Whisky a Go Go, West Hollywood CA",
+      "date": "2026-10-02",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Hammerfall",
+        "Evergrey, Elvenking"
+      ],
+      "description": "Hammerfall — Swedish power metal mainstay. Strong support: Evergrey + Elvenking. Marquee West Coast bill.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86ban5v5q",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bamuujj",
       "name": "Sawed-Off Suffering Tour — Banyan Live, West Palm Beach FL",
       "date": "2026-10-04",
@@ -1670,6 +1810,44 @@
       ]
     },
     {
+      "id": "86ban5vf4",
+      "name": "Dead Boys — Whisky a Go Go, West Hollywood CA",
+      "date": "2026-11-04",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Dead Boys"
+      ],
+      "description": "Dead Boys — Cleveland punk legends.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86ban5vf4",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86ban5vdy",
+      "name": "Ace Frehley Band — Whisky a Go Go, West Hollywood CA",
+      "date": "2026-11-10",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Ace Frehley Band"
+      ],
+      "description": "Ace Frehley Band — Ex-KISS guitarist solo project.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86ban5vdy",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bae8x0j",
       "name": "Whitechapel + Chelsea Grin + The Acacia Strain + Netherwalker — HOB, Lake Buena Vista (Orlando) FL",
       "date": "2026-11-13",
@@ -1730,6 +1908,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bammf4p",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86ban5v76",
+      "name": "Armored Saint w/ Metal Church — Whisky a Go Go, West Hollywood CA",
+      "date": "2026-11-19",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Armored Saint",
+        "Metal Church"
+      ],
+      "description": "Armored Saint w/ Metal Church — US power metal double bill, NWOBHM-adjacent / classic metal.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86ban5v76",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -1837,6 +2035,43 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b7xw9xz",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86ban5v88",
+      "name": "VIO-LENCE — Whisky a Go Go, West Hollywood CA",
+      "date": "2026-12-18",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "VIO-LENCE"
+      ],
+      "description": "VIO-LENCE — Bay Area thrash legends.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86ban5v88",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86ban5v9w",
+      "name": "L.A. Guns — Whisky a Go Go, West Hollywood CA (NYE 2026)",
+      "date": "2026-12-31",
+      "city": "Whisky a Go Go",
+      "country": "West Hollywood CA (NYE 2026)",
+      "bands": [
+        "L.A. Guns"
+      ],
+      "description": "L.A. Guns — NYE residency closer at the Whisky. Part of the Whisky NYE block (Enuff Z'Nuff 12/28, White Lion 12/29, Faster Pussycat 12/30).",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86ban5v9w",
       "buckets": [
         "florida-metal-scene"
       ]
