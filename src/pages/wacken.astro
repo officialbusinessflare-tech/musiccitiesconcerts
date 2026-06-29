@@ -1,0 +1,448 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+/**
+ * /wacken — Wacken 2026 editorial dashboard.
+ *
+ * Built from the Wacken_Dashboard_20260622 brief. Kevin's personal schedule
+ * is INTENTIONALLY PUBLIC — the framing as "Kevin's schedule" is the
+ * editorial voice The Music Cities publishes under. Do not strip it.
+ *
+ * Tier color codes: headliner/tier1/tier2/tier3 surface through the .wkn-*
+ * classes (see styles/global.css). Conflict callouts and "Pick:"
+ * recommendations are deliberately preserved.
+ *
+ * The live countdown ticker is wired as an inline script at the bottom.
+ */
+
+type Tier = 'headliner' | 't1' | 't2' | 'gap';
+
+type PriorityItem = { name: string; pill?: string; pillKind?: 'default' | 'confirmed' | 'pending' | 'farewell' };
+
+const headliners: PriorityItem[] = [
+  { name: 'Def Leppard' },
+  { name: 'Judas Priest', pill: 'Tier 1' },
+  { name: 'Powerwolf' },
+  { name: 'Sabaton' },
+];
+
+const tier1: PriorityItem[] = [
+  { name: 'Lovebites', pill: 'O2 M&G Aug 3', pillKind: 'confirmed' },
+  { name: 'Arch Enemy', pill: 'Lauren Hart era' },
+  { name: 'Broken By The Scream', pill: 'JP' },
+  { name: 'Yngwie Malmsteen', pill: 'Neighbor' },
+  { name: 'Judas Priest' },
+];
+
+const tier2: PriorityItem[] = [
+  { name: 'Scorpions Virgin Killer Reborn', pill: 'New', pillKind: 'confirmed' },
+  { name: 'Saxon' },
+  { name: 'Europe' },
+  { name: 'Savatage', pill: 'FL band' },
+  { name: 'Black Label Society' },
+  { name: 'Lamb of God' },
+  { name: 'In Flames' },
+  { name: 'Running Wild', pill: 'Farewell', pillKind: 'farewell' },
+  { name: 'Sepultura', pill: 'Last DE', pillKind: 'farewell' },
+  { name: 'Emperor' },
+  { name: 'Uli Jon Roth', pill: 'Scorpions 50' },
+  { name: 'Animals As Leaders' },
+  { name: 'Hatebreed' },
+  { name: 'Crimson Glory' },
+  { name: 'Thundermother' },
+  { name: 'Lacuna Coil', pill: 'New', pillKind: 'confirmed' },
+];
+
+type BattleRow = { day: string; time: string; country: string; band: string; stage: string; highlight?: 'us' | 'jp' };
+
+const metalBattle: BattleRow[] = [
+  { day: 'Wed Jul 29', time: '11:25-12:05', country: 'USA', band: 'GANNONDORF (San Diego, avant-garde black metal) - opens the tournament', stage: 'Headbangers', highlight: 'us' },
+  { day: 'Wed Jul 29', time: '11:50-12:10', country: 'Cyprus', band: 'Speak In Whispers', stage: 'W:E:T' },
+  { day: 'Wed Jul 29', time: '12:15-12:35', country: 'Canada', band: 'BornBroken', stage: 'Headbangers' },
+  { day: 'Wed Jul 29', time: '12:40-13:00', country: 'Greece', band: 'I.See.Red', stage: 'W:E:T' },
+  { day: 'Wed Jul 29', time: '13:30-13:50', country: 'Sweden', band: 'Goodnight Greatness', stage: 'W:E:T' },
+  { day: 'Wed Jul 29', time: '14:20-14:40', country: 'Austria', band: "The Crescent's Call", stage: 'W:E:T' },
+  { day: 'Wed Jul 29', time: '15:50-16:10', country: 'France', band: 'Ashed Winter', stage: 'Headbangers' },
+  { day: 'Wed Jul 29', time: '16:15-16:35', country: 'Lithuania', band: 'SINAMORT', stage: 'W:E:T' },
+  { day: 'Wed Jul 29', time: '16:40-17:00', country: 'Luxembourg', band: 'BLANKET HILL', stage: 'Headbangers' },
+  { day: 'Wed Jul 29', time: '17:05-17:25', country: 'Italy', band: 'DEFLAG', stage: 'W:E:T' },
+  { day: 'Wed Jul 29', time: '17:55-18:35', country: 'Finland', band: 'TBA (final June 19)', stage: 'Headbangers' },
+  { day: 'Wed Jul 29', time: '18:20-18:40', country: 'Mexico', band: 'Elchivo', stage: 'W:E:T' },
+  { day: 'Wed Jul 29', time: '19:10-19:30', country: 'Latvia', band: 'MORPHIDE', stage: 'W:E:T' },
+  { day: 'Wed Jul 29', time: '19:35-19:55', country: 'Iceland', band: 'SOT', stage: 'Headbangers' },
+  { day: 'Thu Jul 30', time: '11:00-11:20', country: 'Croatia', band: 'E.N.D.', stage: 'W:E:T' },
+  { day: 'Thu Jul 30', time: '11:25-11:45', country: 'Netherlands', band: 'Novelization', stage: 'Headbangers' },
+  { day: 'Thu Jul 30', time: '11:50-12:10', country: 'Malta', band: 'HAINE', stage: 'W:E:T' },
+  { day: 'Thu Jul 30', time: '12:15-12:35', country: 'Slovakia', band: 'GAGOR', stage: 'W:E:T' },
+  { day: 'Thu Jul 30', time: '13:05-13:25', country: 'Chile', band: 'FORCE', stage: 'Headbangers' },
+  { day: 'Thu Jul 30', time: '13:30-14:10', country: 'Philippines', band: 'TBA', stage: 'W:E:T' },
+  { day: 'Thu Jul 30', time: '13:55-14:15', country: 'India', band: 'Midhaven', stage: 'Headbangers' },
+  { day: 'Thu Jul 30', time: '14:20-14:40', country: 'Japan', band: 'Given By The Flames (gothic metalcore)', stage: 'Headbangers', highlight: 'jp' },
+  { day: 'Thu Jul 30', time: '14:45-15:05', country: 'El Salvador', band: 'GIDORA', stage: 'W:E:T' },
+];
+
+type Slot = { time: string; band: string; meta?: string; why: string; tier: Tier };
+type Conflict = { title: string; body: string; pick: string };
+type DayBlock = { head: string; slots: Slot[]; conflicts?: Conflict[]; footnote?: string };
+
+const days: DayBlock[] = [
+  {
+    head: 'WEDNESDAY JULY 29',
+    slots: [
+      { time: '16:00-17:00', band: 'Lovebites', meta: 'Faster stage', why: 'Tier 1. Anchor of day 1. Festival set ahead of the O2 show. Get to the rail early.', tier: 't1' },
+      { time: '21:00-22:30', band: 'Lacuna Coil', meta: 'Louder stage', why: 'Tier 2, newly added. No conflict with anything else you want.', tier: 't2' },
+      { time: '22:45-00:00', band: 'Rose Tattoo', meta: 'W:E:T stage', why: 'Optional. Starts as Lacuna Coil ends, slight overlap on the tail. Easy walk if you want both.', tier: 't2' },
+      { time: 'Open', band: 'Discovery windows', why: 'Visions of Atlantis 13:30, Thundermother 15:15 and The Gathering 18:45 on Louder are worth catching between anchors. Kadavar 21:15 on Headbangers if you skip Lacuna Coil.', tier: 'gap' },
+    ],
+  },
+  {
+    head: 'THURSDAY JULY 30',
+    slots: [
+      { time: '16:15-17:30', band: 'Uli Jon Roth', meta: 'Harder stage', why: 'Tier 2. The Scorpions Virgin Killer Reborn 50th anniversary set with special guests. This is your Scorpions content.', tier: 't2' },
+      { time: '17:30-18:45', band: 'Yngwie Malmsteen', meta: 'Faster stage', why: 'Tier 1, your neighbor. Griffin and Yngwie concept. See conflict note below, the handoff from Roth is tight.', tier: 't1' },
+      { time: '19:00-20:15', band: 'Europe', meta: 'Harder stage', why: 'Tier 2. Clean slot right after Yngwie.', tier: 't2' },
+      { time: '20:30-22:00', band: 'Savatage', meta: 'Faster stage', why: 'Tier 2, Florida band. Overlaps only the tail of Europe.', tier: 't2' },
+      { time: '22:15-00:00', band: 'Def Leppard', meta: 'Harder stage', why: 'Headliner. Day 2 closer. Clean, starts after Savatage.', tier: 'headliner' },
+    ],
+    conflicts: [
+      {
+        title: 'Conflict - Uli Jon Roth vs Yngwie Malmsteen',
+        body: 'Roth 16:15-17:30 (Harder) into Yngwie 17:30-18:45 (Faster). Back to back with zero gap and a stage change.',
+        pick: "Pick: see both. Watch Roth from stage right near the Faster side exit, leave at 17:20, walk to Faster. You lose Roth's last song and Yngwie's intro. If you only pick one, take Yngwie, he is your Tier 1 and the neighbor angle. Roth's set repeats thematically through the Scorpions material you can catch elsewhere.",
+      },
+    ],
+  },
+  {
+    head: 'FRIDAY JULY 31 - the heavy day',
+    slots: [
+      { time: '17:00-18:15', band: 'Black Label Society', meta: 'Faster stage', why: 'Tier 2. Ends as Saxon starts, slight tail overlap.', tier: 't2' },
+      { time: '18:15-19:30', band: 'Saxon', meta: 'Harder stage', why: 'Tier 2. Walk over after BLS.', tier: 't2' },
+      { time: '19:45-21:15', band: 'In Flames', meta: 'Faster stage', why: 'Tier 2. Conflicts with Hatebreed, see note.', tier: 't2' },
+      { time: '21:30-23:00', band: 'Judas Priest', meta: 'Harder stage', why: 'Headliner and Tier 1. Starts right as In Flames ends. Clean handoff, this is the must see of the night.', tier: 'headliner' },
+      { time: '23:15-00:45', band: 'Running Wild', meta: 'Faster stage', why: "Tier 2, farewell, last show ever. Overlaps Priest's final 45 minutes. See note.", tier: 't2' },
+      { time: '01:00-02:15', band: 'Sepultura', meta: 'Harder stage', why: 'Tier 2, last German festival show. Clean, after Running Wild.', tier: 't2' },
+    ],
+    conflicts: [
+      {
+        title: 'Conflict - In Flames vs Hatebreed',
+        body: 'In Flames 19:45-21:15 (Faster) overlaps Hatebreed 19:00-20:15 (Louder).',
+        pick: "Pick: In Flames. Both are Tier 2 but In Flames is on the path to Priest and the bigger set. Catch the first 30 minutes of Hatebreed then move to Faster, you only miss In Flames' opening two songs.",
+      },
+      {
+        title: 'Conflict - Judas Priest tail vs Running Wild farewell',
+        body: 'Priest 21:30-23:00 (Harder), Running Wild 23:15-00:45 (Faster). Running Wild starts 15 minutes after Priest ends, so no real overlap. The tension is energy and stamina, not time.',
+        pick: 'Pick: full Priest, then full Running Wild, then Sepultura. It works on paper. This is a three headliner night ending at 02:15. Eat and hydrate before 21:00 because there is no break after.',
+      },
+    ],
+  },
+  {
+    head: 'SATURDAY AUGUST 1 - final day',
+    slots: [
+      { time: '16:15-17:45', band: 'Lamb of God', meta: 'Harder stage', why: 'Tier 2. Clean afternoon slot.', tier: 't2' },
+      { time: '19:00-20:30', band: 'Arch Enemy', meta: 'Harder stage', why: 'Tier 1. Lauren Hart era, Leadership episode thesis. No conflict, this is a clean must see.', tier: 't1' },
+      { time: '20:45-22:30', band: 'Powerwolf', meta: 'Faster stage', why: 'Headliner. Starts right as Arch Enemy ends. Clean handoff, walk from Harder to Faster.', tier: 'headliner' },
+      { time: '23:00-00:45', band: 'Sabaton', meta: 'Harder stage', why: 'Headliner. Festival closer. Starts after Powerwolf ends, clean.', tier: 'headliner' },
+      { time: 'Open', band: 'Discovery windows', why: 'Crimson Glory 14:00 on Headbangers is the one Tier 2 you might still catch earlier in the day. Triptykon 22:45 on Louder overlaps Powerwolf, skip it, you have a M&G slot with them instead.', tier: 'gap' },
+    ],
+    footnote: 'Saturday is the cleanest day. Arch Enemy into Powerwolf into Sabaton is three straight headline grade sets with zero conflicts. No hard choices.',
+  },
+];
+
+type TripArcRow = { date: string; detail: string; sub?: string; subWarn?: boolean };
+const tripArc: TripArcRow[] = [
+  { date: 'Jul 28 Tue', detail: 'Travel to Hamburg, transfer to Wacken' },
+  { date: 'Jul 29 Wed', detail: 'Wacken day 1', sub: 'Festival opens' },
+  { date: 'Jul 30 Thu', detail: 'Wacken day 2' },
+  { date: 'Jul 31 Fri', detail: 'Wacken day 3' },
+  { date: 'Aug 1 Sat', detail: 'Wacken day 4 final', sub: 'Festival closes' },
+  { date: 'Aug 2 Sun', detail: 'Hamburg to London' },
+  { date: 'Aug 3 Mon', detail: 'Lovebites London show plus meet and greet', sub: 'Venue verification needed: public listings show O2 Academy Islington, not O2 Arena. Confirm your ticket and update transit plan.', subWarn: true },
+  { date: 'Aug 4 Tue', detail: 'Fly home' },
+  { date: 'Oct 3 Fri', detail: 'Lovebites London additional show plus meet and greet', sub: 'Not in public ticketing listings as of June 13. Confirm directly with band.', subWarn: true },
+];
+
+const fullLineup: { name: string; tier?: Tier }[] = [
+  { name: 'Def Leppard', tier: 'headliner' }, { name: 'Judas Priest', tier: 'headliner' }, { name: 'Powerwolf', tier: 'headliner' }, { name: 'Sabaton', tier: 'headliner' },
+  { name: '5th Avenue' }, { name: '9mm Headshot' }, { name: 'Ad Infinitum' }, { name: 'Airbourne' }, { name: 'Alcest' }, { name: 'Alestorm' }, { name: 'Alfahanne' }, { name: 'Alien Ant Farm' }, { name: 'Alien Rockin Explosion' }, { name: 'Allt' }, { name: 'Anaal Nathrakh' },
+  { name: 'Animals As Leaders', tier: 't2' }, { name: 'Angelus Apatrida' }, { name: 'Any Given Day' }, { name: 'Arch Enemy', tier: 't1' }, { name: 'Arroganz' }, { name: 'Asrock' }, { name: 'Battlecreek' }, { name: 'Bear McCreary' }, { name: 'Blaas Of Glory' },
+  { name: 'Black Label Society', tier: 't2' }, { name: 'Black Tish' }, { name: 'Bleed From Within' }, { name: 'Blood Command' }, { name: 'Blood Fire Death' }, { name: 'Blood Red Throne' },
+  { name: 'Broken By The Scream', tier: 't1' }, { name: 'Brunhilde' }, { name: 'Castle Rat' }, { name: 'Chaosbay' }, { name: 'Corrosion Of Conformity' }, { name: 'Craft' }, { name: 'Crematory' },
+  { name: 'Crimson Glory', tier: 't2' }, { name: 'Cruachan' }, { name: 'Crypt Sermon' }, { name: 'Cursed Abyss' }, { name: 'Danko Jones' }, { name: 'Deafheaven' }, { name: 'Diabolisches Werk' }, { name: 'Dieter Birr' }, { name: 'Dirty Shirt' }, { name: 'Divlje Jagode' }, { name: 'Dritte Wahl' }, { name: 'Dubioza Kolektiv' }, { name: 'Einherjer' }, { name: 'Electric Bassboy' }, { name: 'Elakelainen' },
+  { name: 'Emperor', tier: 't2' }, { name: 'Employed To Serve' }, { name: 'Europe', tier: 't2' }, { name: 'Evil Jared X Krogi' }, { name: 'Expellow' }, { name: 'Faun' }, { name: 'Finsterforst' }, { name: 'Firespawn' }, { name: 'Fit For An Autopsy' }, { name: 'Focus' }, { name: 'Future Palace' }, { name: 'Grand Magus' }, { name: 'Guilt Trip' }, { name: 'Gutalax' }, { name: 'H-Blockx' },
+  { name: 'Hatebreed', tier: 't2' }, { name: 'Hamatom' }, { name: 'Heartless Human Harvest' }, { name: 'Heavysaurus' },
+  { name: 'In Flames', tier: 't2' }, { name: 'Insanity Alert' }, { name: 'Kadavar' }, { name: 'Karbholz' }, { name: 'Kupfergold' },
+  { name: 'Lacuna Coil', tier: 't2' }, { name: 'Lamb of God', tier: 't2' }, { name: 'Lovebites', tier: 't1' }, { name: 'Luna Kills' }, { name: 'Mambo Kurt' }, { name: 'Manntra' }, { name: 'Mantar' }, { name: 'Maschine' }, { name: 'Metaklapa' }, { name: 'Minotaurus' }, { name: 'Mr Hurley und Die Pulveraffen' }, { name: 'Nevermore' }, { name: 'Of Mice and Men' }, { name: 'Orbit Culture' }, { name: 'Paleface Swiss' }, { name: 'Paradise Lost' }, { name: 'Pig Destroyer' }, { name: 'President' }, { name: 'Rose Tattoo' },
+  { name: 'Running Wild', tier: 't2' }, { name: 'Sagenbringer' }, { name: 'Savatage', tier: 't2' }, { name: 'Saviourself' }, { name: 'Saxon', tier: 't2' }, { name: 'Sepultura', tier: 't2' }, { name: 'Skyline' }, { name: 'Stonem' }, { name: 'Subway to Sally' }, { name: 'Temple Of The Absurd' }, { name: 'Ten56' }, { name: 'The Gathering' }, { name: 'The Hardkiss' }, { name: 'The Limit' }, { name: 'The Other' }, { name: 'Thrown' },
+  { name: 'Thundermother', tier: 't2' }, { name: 'Trold' }, { name: 'Tryptikon' }, { name: 'Tuxedoo' },
+  { name: 'Uli Jon Roth', tier: 't2' }, { name: 'Unzucht' }, { name: 'Velvet Rush' }, { name: 'Visions of Atlantis' }, { name: 'Wacken Firefighters' }, { name: 'Wustenberg' }, { name: 'Wytch Hazel' }, { name: 'Year Of The Goat' },
+  { name: 'Yngwie Malmsteen', tier: 't1' }, { name: 'Zeltinger Band' },
+];
+
+function pillClass(kind?: string) {
+  switch (kind) {
+    case 'confirmed': return 'wkn-pill wkn-pill--confirmed';
+    case 'pending': return 'wkn-pill wkn-pill--pending';
+    case 'farewell': return 'wkn-pill wkn-pill--farewell';
+    default: return 'wkn-pill';
+  }
+}
+---
+
+<BaseLayout
+  title="Wacken 2026 Dashboard | The Music Cities"
+  description="The 35th anniversary edition of Wacken Open Air, July 29 to August 1, 2026 — lineup, priority tiers, conflict picks, Metal Battle, and Kevin's day-by-day schedule."
+>
+  <Header />
+
+  <section class="dash-hero">
+    <div class="container">
+      <p class="dash-hero__eyebrow">Festival Brief</p>
+      <h1 class="dash-hero__title">Wacken <em>2026</em></h1>
+      <p class="dash-hero__subtitle">35th anniversary edition — July 29 to August 1, 2026 — Wacken, Germany</p>
+      <p class="dash-hero__lede">
+        ~140 confirmed bands, four headliners, the Scorpions Virgin Killer Reborn 50th anniversary set,
+        Running Wild's farewell, Sepultura's last German festival show — and a tier-coded day-by-day
+        plan with the conflicts already picked.
+      </p>
+      <div class="wkn-countdown" id="wkn-countdown" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <main class="dash-main">
+    <div class="container">
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Festival window</h2>
+        <dl class="wkn-meta">
+          <div><dt>Lineup size</dt><dd>~140 confirmed bands plus support</dd></div>
+          <div><dt>Headliners</dt><dd>Def Leppard, Judas Priest, Powerwolf, Sabaton</dd></div>
+          <div><dt>Special show</dt><dd>Scorpions Virgin Killer Reborn 50th anniversary, featuring Uli Jon Roth and special guests</dd></div>
+          <div><dt>Final shows</dt><dd>Running Wild farewell, Sepultura last German festival show</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Priority tiers</h2>
+        <div class="wkn-tier-grid">
+          <div class="wkn-tier wkn-tier--headliners">
+            <div class="wkn-tier__label">Headliners</div>
+            <ul>
+              {headliners.map((b) => (
+                <li>{b.name}{b.pill ? <span class={pillClass(b.pillKind)}>{b.pill}</span> : null}</li>
+              ))}
+            </ul>
+          </div>
+          <div class="wkn-tier wkn-tier--t1">
+            <div class="wkn-tier__label">Tier 1 must see</div>
+            <ul>
+              {tier1.map((b) => (
+                <li>{b.name}{b.pill ? <span class={pillClass(b.pillKind)}>{b.pill}</span> : null}</li>
+              ))}
+            </ul>
+          </div>
+          <div class="wkn-tier wkn-tier--t2">
+            <div class="wkn-tier__label">Tier 2 high interest</div>
+            <ul>
+              {tier2.map((b) => (
+                <li>{b.name}{b.pill ? <span class={pillClass(b.pillKind)}>{b.pill}</span> : null}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Metal Battle 2026 — national winners watch</h2>
+        <p class="dash-section__intro">
+          Wacken Metal Battle pits one band from each participating country in a Headbangers Stage tournament
+          during the festival. Confirmed national champions get a Wacken slot. Tracking the US closely
+          because Kevin attended the US National Final on June 13 in San Diego.
+        </p>
+        <dl class="wkn-meta">
+          <div><dt>US National Final</dt><dd>June 13, 2026, Brick By Brick, San Diego — Kevin attended</dd></div>
+          <div><dt>US WINNER</dt><dd class="wkn-meta__green">GANNONDORF — San Diego, avant-garde black metal. The hometown band took it. Took judges and crowd. Judges: Rod Kukla (Silver Lining Music), Martin Koller (Prophecy Productions / SPKR Media), Kelly McLauchlin (Pessimist). Prize: WOA slot, full backline, $1,000 USD flight stipend, VIP camping.</dd></div>
+          <div><dt>USA slot at Wacken</dt><dd class="wkn-meta__green">OPENING SLOT of the entire tournament. Wednesday July 29, 11:25 to 12:05, Headbangers Stage.</dd></div>
+          <div><dt>Japan</dt><dd>Given By The Flames (gothic metalcore). Thursday July 30, 14:20 to 14:40, Headbangers Stage.</dd></div>
+          <div><dt>Korea / South Korea</dt><dd>Not participating in 2026.</dd></div>
+          <div><dt>Tournament progress</dt><dd>21 of 31 country slots named (USA added June 13). Finland national final ran June 17 to 20 at Nummirock with finalists Fatal Effect, Wagtails, Where's My Bible — winner not yet posted. Philippines, Germany, UK, Australia, Switzerland still pending.</dd></div>
+        </dl>
+        <div class="wkn-table-wrap">
+          <table class="wkn-table">
+            <thead><tr><th>Day</th><th>Time</th><th>Country</th><th>Band</th><th>Stage</th></tr></thead>
+            <tbody>
+              {metalBattle.map((r) => (
+                <tr class={r.highlight ? `wkn-row--${r.highlight}` : undefined}>
+                  <td>{r.day}</td><td>{r.time}</td><td>{r.country}</td><td>{r.band}</td><td>{r.stage}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="dash-footnote">
+          Source: wacken.com running order and metal-battle.com 2026 grid. Unlabeled Headbangers slots
+          (Seers of Light, Human Nebula, Dead Memories, Witchlords, Invasion, Death Row, Days of Ruin)
+          are likely additional national entries whose country tags will be confirmed as remaining national
+          finals wrap up. The international Metal Battle final rounds run Wednesday and Thursday on the
+          Headbangers Stage. About 30 national champions compete for the worldwide title.
+        </p>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Kevin's personal schedule</h2>
+        <p class="dash-section__intro">
+          Built from the first running order published May 20, 2026. Set times are subject to change.
+          Slots flagged for you are priority tier bands. Times in 24 hour. Stage in parentheses.
+        </p>
+        <div class="wkn-legend">
+          <span><i class="wkn-swatch wkn-swatch--headliner"></i> Headliner</span>
+          <span><i class="wkn-swatch wkn-swatch--t1"></i> Tier 1 must see</span>
+          <span><i class="wkn-swatch wkn-swatch--t2"></i> Tier 2 high interest</span>
+          <span><i class="wkn-swatch wkn-swatch--gap"></i> Open block, discovery or rest</span>
+        </div>
+
+        {days.map((d) => (
+          <div class="wkn-day">
+            <div class="wkn-day__head">{d.head}</div>
+            {d.slots.map((s) => (
+              <div class={`wkn-slot wkn-slot--${s.tier}`}>
+                <div class="wkn-slot__time">{s.time}</div>
+                <div class="wkn-slot__body">
+                  <div class="wkn-slot__band">{s.band}</div>
+                  {s.meta ? <div class="wkn-slot__meta">{s.meta}</div> : null}
+                  <div class="wkn-slot__why">{s.why}</div>
+                </div>
+              </div>
+            ))}
+            {d.conflicts?.map((c) => (
+              <div class="wkn-conflict">
+                <div class="wkn-conflict__title">{c.title}</div>
+                <div class="wkn-conflict__body">{c.body}</div>
+                <div class="wkn-conflict__pick">{c.pick}</div>
+              </div>
+            ))}
+            {d.footnote ? <div class="dash-footnote">{d.footnote}</div> : null}
+          </div>
+        ))}
+
+        <p class="dash-footnote">
+          Summary of hard choices: Thursday Roth into Yngwie is the only true clash and it is solvable
+          by leaving Roth early. Friday In Flames vs Hatebreed split the first half hour. Everything
+          else chains cleanly. Your four headliners are all catchable in full. All five Tier 1 bands
+          are catchable in full.
+        </p>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Meet and greet schedule</h2>
+        <dl class="wkn-meta">
+          <div><dt>Status</dt><dd>Wacken official schedule still not released as of June 22. Mid-July rollout has not started.</dd></div>
+          <div><dt>Confirmed slots so far</dt><dd>Mantar, Triptykon (unchanged since May)</dd></div>
+          <div><dt>Lovebites Wacken M&amp;G</dt><dd>Not announced</dd></div>
+          <div><dt>Lovebites London M&amp;G</dt><dd class="wkn-meta__warn">Action needed — verify venue. Public ticketing lists O2 Academy Islington (800-cap club, north London), not O2 Arena (20K arena, Greenwich). Check your actual ticket.</dd></div>
+          <div><dt>Lovebites Oct 3 London show</dt><dd class="wkn-meta__warn">Not surfacing in current Live Nation / AXS / Ents24 / Songkick listings. May be fan club presale. Confirm directly with lovebites-music.com.</dd></div>
+          <div><dt>Band-side fan club events</dt><dd>None announced for any priority band as of June 22</dd></div>
+        </dl>
+        <div class="wkn-table-wrap">
+          <table class="wkn-table">
+            <thead><tr><th>Band</th><th>Day</th><th>Time</th><th>Source</th></tr></thead>
+            <tbody>
+              <tr><td>Mantar</td><td class="wkn-cell--muted">TBA</td><td class="wkn-cell--muted">TBA</td><td><a href="https://www.wacken.com/en/news-details/meet-greet-update-5/" target="_blank" rel="noopener noreferrer">wacken.com</a></td></tr>
+              <tr><td>Triptykon</td><td class="wkn-cell--muted">TBA</td><td class="wkn-cell--muted">TBA</td><td><a href="https://www.wacken.com/en/news-details/meet-greet-update-8/" target="_blank" rel="noopener noreferrer">wacken.com</a></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="dash-footnote">
+          Wacken meet and greets are free at the M&amp;G stalls inside the infield, on the left side of
+          the Faster stage. Saturday Wacken Watch report tracks new announcements. Every priority band
+          is on the watch list.
+        </p>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Kevin's trip arc</h2>
+        <div class="wkn-arc">
+          {tripArc.map((r) => (
+            <div class="wkn-arc__row">
+              <div class="wkn-arc__date">{r.date}</div>
+              <div class="wkn-arc__detail">
+                {r.detail}
+                {r.sub ? <small class={r.subWarn ? 'wkn-arc__sub wkn-arc__sub--warn' : 'wkn-arc__sub'}>{r.sub}</small> : null}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Playlists</h2>
+        <dl class="wkn-meta">
+          <div><dt>Wacken 2026 Familiarization (Spotify, private)</dt><dd><a href="https://open.spotify.com/playlist/4tJaTF2zrn28TNzaXnZMaZ" target="_blank" rel="noopener noreferrer">open</a> — 93 tracks, 22 bands, headliners + Tier 1 + Tier 2</dd></div>
+          <div><dt>Wacken 2026 Tier 3 Discovery (Spotify, private)</dt><dd><a href="https://open.spotify.com/playlist/3in2kkXVfduTjUcEWmf43X" target="_blank" rel="noopener noreferrer">open</a> — 265 tracks, 88 bands, deep cut discovery</dd></div>
+          <div><dt>Wacken 2026 Lineup Discovery (YouTube, public)</dt><dd>Music Cities Radio channel — pending build</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Full lineup confirmed</h2>
+        <details class="wkn-lineup">
+          <summary>Show full alphabetical roster (~140 bands)</summary>
+          <div class="wkn-lineup-grid">
+            {fullLineup.map((b) => (
+              <div class={b.tier ? `wkn-lineup-band wkn-lineup-band--${b.tier}` : 'wkn-lineup-band'}>{b.name}</div>
+            ))}
+          </div>
+        </details>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Notes</h2>
+        <ul class="wkn-notes">
+          <li>Nita Strauss will not be at Wacken 2026 due to pregnancy.</li>
+          <li>Two Japanese bands confirmed: Lovebites and Broken By The Scream. Validates Two Engine Model thesis. Both are content priorities.</li>
+          <li>Broken By The Scream signed to Metal Blade Records in 2026. Major label inflection point, reinforces the Two Engine Model thesis.</li>
+          <li>Arch Enemy playing with Lauren Hart replacing Alissa White-Gluz. Connects to Leadership episode thesis where Alissa left two days after that episode launched.</li>
+          <li>Yngwie Malmsteen is Kevin's neighbor. Griffin and Yngwie concept in development. New Yngwie solo album finished, release later in 2026. Potential approach opportunity at Wacken.</li>
+          <li>Scorpions presence is via the Uli Jon Roth Virgin Killer Reborn 50th anniversary show with special guests, not the full current Scorpions touring lineup. Roth confirmed he will play Virgin Killer in full for the first time ever.</li>
+          <li>Judas Priest Faithkeepers Tour extended to 28 dates across 15 countries, Wacken July 31 included. Ian Hill confirmed studio work on 20th album.</li>
+          <li>Sepultura Wacken set confirmed as their last German show. Final European date is Dublin August 9.</li>
+          <li>Running Wild Wacken set still billed as their final-ever show.</li>
+          <li>Def Leppard released a Greatest Hits compilation June 12, 2026 (standard black and blood-red marbled vinyl with 2026 tour artwork) plus standalone single "Rejoice".</li>
+          <li>Judas Priest released "The Best Of Judas Priest" compilation in June 2026. Faithkeepers tour intact, Wacken July 31 set unchanged.</li>
+          <li>Sabaton announced Grand Swedish Arena Tour 2027 on June 12, tickets went on sale June 15. Wacken closing-headliner slot August 1 unchanged.</li>
+          <li>Gannondorf, the US Metal Battle 2026 champion, is a San Diego avant-garde black metal band. They won June 13 at Brick By Brick taking both judges and crowd. Kevin attended. They open the international Metal Battle tournament on the Headbangers Stage Wednesday July 29 at 11:25.</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+
+  <script is:inline>
+    (function () {
+      function tick() {
+        var el = document.getElementById('wkn-countdown');
+        if (!el) return;
+        var target = new Date('2026-07-29T00:00:00').getTime();
+        var diff = target - Date.now();
+        if (diff < 0) {
+          el.innerHTML = '<div class="wkn-count-box"><div class="wkn-count-num">LIVE</div><div class="wkn-count-lbl">Festival underway</div></div>';
+          return;
+        }
+        var days = Math.floor(diff / 86400000);
+        var hours = Math.floor((diff % 86400000) / 3600000);
+        var mins = Math.floor((diff % 3600000) / 60000);
+        el.innerHTML =
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + days + '</div><div class="wkn-count-lbl">Days to gates</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + hours + '</div><div class="wkn-count-lbl">Hours</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + mins + '</div><div class="wkn-count-lbl">Minutes</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">Aug 1</div><div class="wkn-count-lbl">Festival ends</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">Aug 3</div><div class="wkn-count-lbl">Lovebites O2</div></div>';
+      }
+      tick();
+      setInterval(tick, 60000);
+    })();
+  </script>
+</BaseLayout>
