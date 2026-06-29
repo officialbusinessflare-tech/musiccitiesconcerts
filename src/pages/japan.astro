@@ -1,0 +1,80 @@
+---
+/**
+ * Florida Metal Scene — dedicated bucket page.
+ *
+ * Filters concerts.json down to entries categorized into the
+ * `japanese-metal` bucket. An entry can live in multiple buckets
+ * (e.g. Nemophila @ Conduit also lands in Japanese Metal); that's by
+ * design — we show the entry on every page it belongs to.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
+import Footer from '../components/Footer.astro';
+import ShowCard from '../components/ShowCard.astro';
+import ReleaseCard from '../components/ReleaseCard.astro';
+import type { BucketsConfigFile, ConcertsDataFile, ConcertEntry, BirthdaysDataFile } from '../lib/types';
+import { categorize, groupByBucket } from '../lib/categorize';
+import { collectKnownVenues, reparseEntry } from '../lib/parse-name';
+
+import bucketsConfig from '../../buckets.config.json';
+import concertsData from '../../concerts.json';
+import birthdaysData from '../../birthdays.json';
+
+const BUCKET_ID = 'japanese-metal';
+
+const buckets = (bucketsConfig as BucketsConfigFile).buckets;
+const data = concertsData as ConcertsDataFile;
+const knownVenues = collectKnownVenues(buckets);
+const birthdays = (birthdaysData as BirthdaysDataFile).entries ?? [];
+
+const bucket = buckets.find((b) => b.id === BUCKET_ID)!;
+
+const today = new Date().toISOString().slice(0, 10);
+const upcoming: ConcertEntry[] = (data.entries ?? [])
+  .filter((e) => {
+    const compareDate = e.endDate ?? e.date;
+    return compareDate >= today;
+  })
+  .map((e) => reparseEntry(e, knownVenues))
+  .map((e) => ({ ...e, buckets: categorize(e, buckets) }));
+
+const grouped = groupByBucket(upcoming, buckets);
+const entries = (grouped.get(BUCKET_ID) ?? []).sort((a, b) => a.date.localeCompare(b.date));
+---
+
+<BaseLayout
+  title={`${bucket.name} | The Music Cities`}
+  description={bucket.description}
+>
+  <Header />
+  <SceneNav buckets={buckets} grouped={grouped} birthdaysCount={birthdays.length} activeBucketId={BUCKET_ID} />
+
+  <section class="bucket-hero">
+    <div class="container">
+      <p class="bucket-hero__eyebrow">On the calendar</p>
+      <h1 class="bucket-hero__title">
+        {bucket.name}
+        {bucket.kanji ? <span class="bucket-hero__kanji" lang="ja">{bucket.kanji}</span> : null}
+        <span class="bucket-hero__count">{entries.length}</span>
+      </h1>
+      <p class="bucket-hero__lede">{bucket.description}</p>
+    </div>
+  </section>
+
+  <main class="bucket-page">
+    <div class="container">
+      {entries.length === 0 ? (
+        <p class="bucket__empty">Nothing on the calendar here yet. Check back soon.</p>
+      ) : (
+        <div class="bucket__grid">
+          {entries.map((entry) =>
+            entry.isRelease ? <ReleaseCard entry={entry} /> : <ShowCard entry={entry} />,
+          )}
+        </div>
+      )}
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

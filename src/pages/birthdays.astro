@@ -1,0 +1,89 @@
+---
+/**
+ * Birthdays — dedicated bucket page.
+ *
+ * Reads birthdays.json (separate from concerts.json) and renders the
+ * artists/players we follow, sorted by next-upcoming birthday relative
+ * to today. Mirrors the BirthdaySection logic that previously rendered
+ * inline on the homepage.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
+import Footer from '../components/Footer.astro';
+import BirthdayCard from '../components/BirthdayCard.astro';
+import type { BucketsConfigFile, ConcertsDataFile, ConcertEntry, BirthdaysDataFile, BirthdayEntry } from '../lib/types';
+import { categorize, groupByBucket } from '../lib/categorize';
+import { collectKnownVenues, reparseEntry } from '../lib/parse-name';
+
+import bucketsConfig from '../../buckets.config.json';
+import concertsData from '../../concerts.json';
+import birthdaysData from '../../birthdays.json';
+
+const buckets = (bucketsConfig as BucketsConfigFile).buckets;
+const data = concertsData as ConcertsDataFile;
+const knownVenues = collectKnownVenues(buckets);
+
+// We still need to feed SceneNav with concert counts; recompute the same
+// upcoming list here so the pill counts stay in sync.
+const today = new Date().toISOString().slice(0, 10);
+const upcoming: ConcertEntry[] = (data.entries ?? [])
+  .filter((e) => {
+    const compareDate = e.endDate ?? e.date;
+    return compareDate >= today;
+  })
+  .map((e) => reparseEntry(e, knownVenues))
+  .map((e) => ({ ...e, buckets: categorize(e, buckets) }));
+const grouped = groupByBucket(upcoming, buckets);
+
+const rawBirthdays: BirthdayEntry[] = (birthdaysData as BirthdaysDataFile).entries ?? [];
+
+// Sort by next-upcoming birthday from today's month/day.
+const todayDate = new Date();
+const tMonth = todayDate.getMonth() + 1;
+const tDay = todayDate.getDate();
+
+function daysUntil(entry: BirthdayEntry): number {
+  if (!entry.month || !entry.day) return 9999;
+  const thisYear = todayDate.getFullYear();
+  let target = new Date(thisYear, entry.month - 1, entry.day);
+  const now = new Date(thisYear, tMonth - 1, tDay);
+  if (target < now) target = new Date(thisYear + 1, entry.month - 1, entry.day);
+  return Math.round((target.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+}
+
+const birthdays = [...rawBirthdays].sort((a, b) => daysUntil(a) - daysUntil(b));
+---
+
+<BaseLayout
+  title="Birthdays | The Music Cities"
+  description="Artists, players, and the people behind the bands we follow. Sorted by next-up."
+>
+  <Header />
+  <SceneNav buckets={buckets} grouped={grouped} birthdaysCount={birthdays.length} activeBucketId="birthdays" />
+
+  <section class="bucket-hero">
+    <div class="container">
+      <p class="bucket-hero__eyebrow">Mark your calendar</p>
+      <h1 class="bucket-hero__title">
+        Birthdays <span aria-hidden="true">🎂</span>
+        <span class="bucket-hero__count">{birthdays.length}</span>
+      </h1>
+      <p class="bucket-hero__lede">Artists, players, and the people behind the bands we follow. Sorted by next-up.</p>
+    </div>
+  </section>
+
+  <main class="bucket-page">
+    <div class="container">
+      {birthdays.length === 0 ? (
+        <p class="bucket__empty">No birthdays loaded.</p>
+      ) : (
+        <div class="bucket__grid">
+          {birthdays.map((e) => <BirthdayCard entry={e} />)}
+        </div>
+      )}
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
