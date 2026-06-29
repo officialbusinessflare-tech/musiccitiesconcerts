@@ -186,11 +186,45 @@ function isVisible(entry: ConcertEntry): boolean {
   return entry.date >= sevenDaysAgoISO;
 }
 
+// Restrict to physically-in-Japan shows. Conservative: if uncertain, drop.
+// Bands touring outside Japan surface on /japan-global instead.
+function isInJapan(entry: ConcertEntry): boolean {
+  const state = (entry.state || '').toLowerCase().trim();
+  const city = (entry.city || '').toLowerCase();
+  const venue = (entry.venue || '').toLowerCase();
+
+  // Direct state match
+  if (state === 'japan' || state === 'jp') return true;
+
+  // City keyword match (well-known Japanese cities)
+  const japaneseCities = [
+    'tokyo', 'osaka', 'nagoya', 'kyoto', 'fukuoka', 'sapporo',
+    'sendai', 'hiroshima', 'niigata', 'kanazawa', 'yokohama',
+    'kobe', 'chiba', 'shibuya', 'shinjuku', 'kawasaki',
+    'kumamoto', 'saitama', 'yamanashi', 'kashiwa', 'hokkaido',
+    'aichi', 'miyagi', 'ishikawa', 'haneda',
+  ];
+  if (japaneseCities.some((jc) => city.includes(jc))) return true;
+
+  // Venue keyword match (well-known Japan venue prefixes)
+  if (venue.includes('zepp')) return true;
+  if (venue.includes('budokan')) return true;
+  if (venue.includes('tokyo grit')) return true;
+  if (venue.includes('meijiza')) return true;
+  if (venue.includes('shibuya')) return true;
+  if (venue.includes('namba hatch')) return true;
+
+  // Otherwise — assume NOT Japan (conservative; better to under-show
+  // here than to leak US/EU dates onto the in-Japan dashboard).
+  return false;
+}
+
 type BandShow = { dateLabel: string; iso: string; venue: string; city: string; note?: string; past: boolean };
 function bandShows(matchNames: string[]): BandShow[] {
   return allEntries
     .filter((e) => entryMatchesBand(e, matchNames))
     .filter(isVisible)
+    .filter(isInJapan)
     .sort((a, b) => a.date.localeCompare(b.date))
     .map((e) => {
       const cityState = e.state ? `${e.city ?? ''} ${e.state}`.trim() : (e.city ?? '');
@@ -213,6 +247,7 @@ const trackedMatchNames = bands.flatMap((b) => b.matchNames);
 const timelineEntries = allEntries
   .filter((e) => !e.isRelease)
   .filter(isVisible)
+  .filter(isInJapan)
   .filter((e) => bands.some((b) => entryMatchesBand(e, b.matchNames)))
   .sort((a, b) => a.date.localeCompare(b.date));
 
@@ -358,7 +393,11 @@ const upcomingShowCount = bandsWithShows.reduce((sum, b) => sum + b.shows.filter
 
       <section id="jms-bands" class="dash-tabpanel is-active">
         <h2 class="dash-section__title">Band Roster &amp; Confirmed Shows</h2>
-        <p class="dash-section__intro">All confirmed dates from the dashboard data feed. Past shows from the last 7 days are dimmed; older entries drop off.</p>
+        <p class="dash-section__intro">
+          In-Japan dates only, from the dashboard data feed. Past shows from the last 7 days
+          are dimmed; older entries drop off. Out-of-country dates for these same bands surface
+          on <a href="/japan-global">/japan-global</a>.
+        </p>
         <div class="jms-band-grid">
           {bandsWithShows.map((b) => (
             <article class="jms-band">
@@ -392,7 +431,10 @@ const upcomingShowCount = bandsWithShows.reduce((sum, b) => sum + b.shows.filter
 
       <section id="jms-timeline" class="dash-tabpanel">
         <h2 class="dash-section__title">2026 Show Timeline</h2>
-        <p class="dash-section__intro">All confirmed dates in chronological order, dynamic from concerts.json.</p>
+        <p class="dash-section__intro">
+          Shows physically in Japan only, in chronological order, dynamic from concerts.json.
+          For Japanese bands touring abroad, see <a href="/japan-global">/japan-global</a>.
+        </p>
         <div class="jms-timeline">
           {timeline.length === 0 ? (
             <p class="dash-footnote">No shows in the timeline window yet. Check back as the calendar fills in.</p>
