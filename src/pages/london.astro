@@ -205,6 +205,38 @@ const mondayShow: Stop = {
   verdict: 'Be back at the hotel by ~6:15–6:30PM, sort yourself out, stroll over for doors. Unhurried, exactly as you wanted.',
 };
 
+const lateNightStops: Stop[] = [
+{
+num: '14',
+name: 'Broken By The Scream — The Dome, Tufnell Park',
+priority: 'MUST',
+address: 'Downstairs at The Dome, 178 Junction Rd, N19 5QQ',
+what: 'Japanese metal-screaming idol act on their Screaming Rebellion EU/UK 2026 tour. On-brand for the whole trip — J-metal, all-female-fronted, intense live show. £30 advance via DICE.',
+open: 'Sun Aug 2: doors 19:00. ~£30 (DICE).',
+getting: 'Northern line Angel → Tufnell Park (~10–12 min) + 5 min walk. Or Uber ~15 min from Camden if you do pubs first. From the hotel direct: ~25 min by Tube, ~15 min by cab.',
+verdict: 'The unexpected find of the trip. Sunday night you were free anyway, and this is exactly the scene you cover. Buy tickets ahead — small venue, will sell.',
+},
+{
+num: '15',
+name: 'The Blood Countess — The Black Heart (upstairs)',
+priority: 'MAYBE',
+address: '2 Greenland Pl, NW1 0AP',
+what: 'London debut, ~100-cap upstairs room above the Black Heart. Doom/occult metal. £14 advance via DICE. Camden-pub-crawl-compatible — the gig IS the pub.',
+open: 'Sun Aug 2: doors 19:00. ~£14 (DICE).',
+getting: 'Same as Black Heart — ~2 min from Camden Town Tube.',
+verdict: 'The Camden-anchored backup. Cheaper than BBTS, no Tube hop, and you stay in your pub-crawl orbit. Pick this if you want Camden over Tufnell Park.',
+},
+{
+num: '16',
+name: "Slim Jim's Liquor Store",
+priority: 'MAYBE',
+address: '112 Upper St, N1 1QN',
+what: "Rock'n'roll dive bar on Upper Street. Whiskey, Zeppelin on the jukebox, no cover, open till 2AM Monday. Five-minute walk from O2 Academy Islington.",
+open: 'Mon late: open till 2AM.',
+getting: '~5 min walk from O2 Academy Islington, on the way back toward the hotel.',
+verdict: 'The right Monday-late play. Fall in after the Lovebites curfew, couple of whiskies, then walk to the hotel. No ticket, no plan.',
+},
+];
 const skipList = [
   { name: 'Ruskin Arms (East Ham)', why: "Maiden's other early home (25 gigs 1978–81). Closed since 2019; only the sign survives." },
   { name: 'Bridge House (Canning Town)', why: 'Hosted 35+ Maiden gigs. Demolished 2002.' },
@@ -267,7 +299,10 @@ const skipList = [
           { name: 'Reckless Records', cat: 'shop', tag: 'MAYBE', lat: 51.5135, lon: -0.1357, addr: '30 Berwick St, W1F 8RH', hours: 'Mon ~10AM–7PM', why: 'Soho oldest record shop (1984). Deep secondhand rock.' },
           { name: 'Marquee Club site (Keith Moon plaque)', cat: 'landmark', tag: 'MAYBE', lat: 51.51336, lon: -0.13327, addr: '90 Wardour St, W1F 0TN', hours: 'Street — anytime', why: 'Site of the legendary Marquee 1964–88. Plaque only.' },
           { name: 'St Moritz Club', cat: 'venue', tag: 'MAYBE', lat: 51.51442, lon: -0.13420, addr: '159 Wardour St, W1F 8WH', hours: 'Eve, varies (Th–Sat club nights)', why: 'Tiny Swiss-themed basement club where Lemmy hung out post-Marquee.' },
-          { name: 'Ruskin Arms (closed)', cat: 'landmark', tag: 'SKIP', lat: 51.54852, lon: 0.0513, addr: '386 High St N, East Ham, E12 6PH', hours: 'Closed — exterior only', why: 'Maiden NWOBHM home. Building shut since 2019; sign survives.' }
+          { name: 'Ruskin Arms (closed)', cat: 'landmark', tag: 'SKIP', lat: 51.54852, lon: 0.0513, addr: '386 High St N, East Ham, E12 6PH', hours: 'Closed — exterior only', why: 'Maiden NWOBHM home. Building shut since 2019; sign survives.' },
+          { name: 'Broken By The Scream — The Dome, Tufnell Park', cat: 'venue', tag: 'MUST', lat: 51.5598, lon: -0.1376, addr: '178 Junction Rd, N19 5QQ', hours: 'Sun Aug 2: doors 19:00, ~£30 (DICE)', why: 'Japanese metal-screaming idol act on Screaming Rebellion EU tour. On-brand for the whole trip. Buy tickets ahead.' },
+          { name: 'The Blood Countess — Black Heart (upstairs)', cat: 'venue', tag: 'MAYBE', lat: 51.54156, lon: -0.14460, addr: '2 Greenland Pl, NW1 0AP', hours: 'Sun Aug 2: doors 19:00, ~£14 (DICE)', why: 'Doom/occult metal London debut upstairs at Black Heart. Camden-pub-crawl-compatible backup if you skip BBTS.' },
+          { name: "Slim Jim's Liquor Store", cat: 'pub', tag: 'MAYBE', lat: 51.5395, lon: -0.1027, addr: '112 Upper St, N1 1QN', hours: 'Mon late: open till 2AM, no cover', why: 'Rock dive bar on Upper Street, 5min walk from O2 Academy. The right post-Lovebites stop on Mon.' }
         ] }}>
           window.addEventListener('load', function () {
             if (typeof L === 'undefined') return;
@@ -541,7 +576,66 @@ const skipList = [
         </div>
       </section>
 
-      <!-- IF YOU ONLY DO THREE THINGS -->
+      <!-- LATE NIGHT OPTIONS -->
+<section class="london-section" id="late-night">
+<h2 class="london-section__title">Late-Night Options</h2>
+<div class="london-prose">
+<p>
+Two extras worth knowing about, surfaced from a live London venue sweep five
+weeks out: a real Sunday-night gig that fits the trip perfectly, and a
+walk-from-the-Hilton dive bar for after the Lovebites curfew on Monday.
+</p>
+</div>
+<h3 class="london-cluster__title">Sun Aug 2 — Two Real Gigs On Your Free Night</h3>
+<p class="london-cluster__intro">
+Camden pubs were the default plan, but a sweep of every major London rock/metal
+venue turned up two ticketed shows worth at least considering. Broken By The
+Scream is the find — J-metal on the night you cover J-metal.
+</p>
+<div class="london-cards">
+{lateNightStops.slice(0, 2).map((s) => (
+<article class={`london-card london-card--${s.priority.toLowerCase()}`}>
+<header class="london-card__head">
+{s.num ? <span class="london-card__num">{s.num}</span> : null}
+<h4 class="london-card__name">{s.name}</h4>
+<span class={`london-card__tag london-card__tag--${s.priority.toLowerCase()}`}>{s.priority}</span>
+</header>
+<dl class="london-card__facts">
+<div><dt>Address</dt><dd>{s.address}</dd></div>
+<div><dt>What it is</dt><dd>{s.what}</dd></div>
+<div><dt>Hours</dt><dd>{s.open}</dd></div>
+<div><dt>Getting there</dt><dd>{s.getting}</dd></div>
+<div><dt>Verdict</dt><dd>{s.verdict}</dd></div>
+</dl>
+</article>
+))}
+</div>
+<h3 class="london-cluster__title">Mon Aug 3 Late — After the Lovebites Curfew</h3>
+<p class="london-cluster__intro">
+Every major London room is dark Mon after 11PM — checked. The right call isn't
+another gig; it's the rock dive bar a five-minute walk from O2 Academy on the
+way back to the hotel.
+</p>
+<div class="london-cards">
+{lateNightStops.slice(2).map((s) => (
+<article class={`london-card london-card--${s.priority.toLowerCase()}`}>
+<header class="london-card__head">
+{s.num ? <span class="london-card__num">{s.num}</span> : null}
+<h4 class="london-card__name">{s.name}</h4>
+<span class={`london-card__tag london-card__tag--${s.priority.toLowerCase()}`}>{s.priority}</span>
+</header>
+<dl class="london-card__facts">
+<div><dt>Address</dt><dd>{s.address}</dd></div>
+<div><dt>What it is</dt><dd>{s.what}</dd></div>
+<div><dt>Hours</dt><dd>{s.open}</dd></div>
+<div><dt>Getting there</dt><dd>{s.getting}</dd></div>
+<div><dt>Verdict</dt><dd>{s.verdict}</dd></div>
+</dl>
+</article>
+))}
+</div>
+</section>
+<!-- IF YOU ONLY DO THREE THINGS -->
       <section class="london-section" id="core">
         <h2 class="london-section__title">If You Only Do Three Things</h2>
         <ol class="london-core">
