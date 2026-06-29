@@ -3309,3 +3309,53 @@ button {
 /* ---------- Secondary scene-brief pill row ---------- */
 .scene-nav__row--briefs { border-top: 1px solid var(--color-border); padding-top: var(--space-2); margin-top: var(--space-2); }
 .scene-nav__row--briefs .scene-nav__label { color: var(--color-accent); }
+/* ---------- Header breadcrumb (page title beside wordmark on inner pages) ---------- */
+.site-header__brand-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  width: 100%;
+}
+.site-header__wordmark-link {
+  display: inline-block;
+  flex: 0 0 auto;
+}
+.site-header__breadcrumb {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+  flex: 1 1 auto;
+}
+.site-header__breadcrumb-sep {
+  color: var(--color-text-dim);
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1;
+  user-select: none;
+}
+.site-header__breadcrumb-title {
+  color: var(--color-text);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+@media (max-width: 640px) {
+  .site-header__brand-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+  }
+  .site-header__breadcrumb {
+    padding-left: var(--space-1);
+  }
+  .site-header__breadcrumb-sep {
+    display: none;
+  }
+  .site-header__breadcrumb-title {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+  }
+}
