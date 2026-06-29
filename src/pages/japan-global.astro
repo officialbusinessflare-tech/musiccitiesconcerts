@@ -2,444 +2,221 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import type { ConcertsDataFile, ConcertEntry } from '../lib/types';
+import concertsData from '../../concerts.json';
 
 /**
  * /japan-global — J-bands touring abroad.
  *
- * Built from the global-metal-tours-2026 brief. Five tabs: By Band (expandable
- * tour cards), North America, Europe, Asia/Oceania, Festivals. Per-band JS
- * toggle for the "open" state is preserved as an inline script.
+ * Band roster metadata + festival cards are STATIC editorial intel. Per-band
+ * tour cards + per-region tour groups (North America / Europe / Asia-Oceania)
+ * are DYNAMIC, pulled from concerts.json at build time.
+ *
+ * Past-show filter: only shows from the last 7 days render (faded). Anything
+ * older drops off entirely.
  */
 
 type Region = 'japan' | 'na' | 'eu' | 'asia' | 'oceania' | 'festival';
-type Row = { date: string; venue: string; city: string; note?: string; past?: boolean; highlight?: boolean };
-type RegionBlock = { region: Region; label?: string; rows: Row[] };
-type Band = { id: string; name: string; meta: string; countLabel: string; countKind: string; open?: boolean; regions: RegionBlock[]; note?: string };
 
-const bands: Band[] = [
-  {
-    id: 'bt-lovebites',
-    name: 'LOVEBITES',
-    meta: 'Power / Speed Metal · "Outstanding Tour Japan 2026" + Wacken',
-    countLabel: '12 DATES',
-    countKind: 'red',
-    open: true,
-    regions: [
-      { region: 'japan', rows: [
-        { date: 'MAR 29', venue: 'Nippon Budokan', city: 'Tokyo', note: '"LIVE AT BUDOKAN 2026" · Worldwide livestream', past: true },
-        { date: 'AUG 29', venue: 'Zepp Fukuoka', city: 'Fukuoka' },
-        { date: 'AUG 30', venue: 'Hiroshima Club Quattro', city: 'Hiroshima' },
-        { date: 'SEP 4', venue: 'Zepp Nagoya', city: 'Nagoya' },
-        { date: 'SEP 6', venue: 'Zepp Osaka Bayside', city: 'Osaka' },
-        { date: 'SEP 11', venue: 'Zepp Sapporo', city: 'Sapporo' },
-        { date: 'SEP 13', venue: 'Sendai Gigs', city: 'Sendai' },
-        { date: 'SEP 19', venue: 'Kanazawa Redsun', city: 'Kanazawa' },
-        { date: 'SEP 21', venue: 'Niigata Lots', city: 'Niigata' },
-        { date: 'SEP 25', venue: 'Zepp Haneda', city: 'Tokyo', note: 'Night 1' },
-        { date: 'SEP 26', venue: 'Zepp Haneda', city: 'Tokyo', note: 'Night 2 — Tour Finale' },
-      ] },
-      { region: 'eu', rows: [
-        { date: 'JUL 29-AUG 1', venue: 'Wacken Open Air 2026', city: 'Wacken, Germany' },
-      ] },
-    ],
-  },
-  {
-    id: 'bt-bandmaid',
-    name: 'BAND-MAID',
-    meta: 'Hard Rock / Metal · First World Tour · Budokan Finale · Hiatus after Nov',
-    countLabel: '18+ DATES',
-    countKind: 'purple',
-    regions: [
-      { region: 'asia', rows: [
-        { date: 'MAR 20', venue: 'Kitty Woo Stadium, Tung Po', city: 'Hong Kong', past: true },
-        { date: 'MAR 21-22', venue: 'Megaport Festival 2026', city: 'Kaohsiung, Taiwan', past: true },
-      ] },
-      { region: 'japan', rows: [
-        { date: 'APR 3-5', venue: 'Central Music & Ent. Festival', city: 'Yokohama' },
-        { date: 'APR 11', venue: 'KT Zepp Yokohama', city: 'Yokohama' },
-        { date: 'MAY 2', venue: 'Sendai GIGS', city: 'Sendai' },
-        { date: 'MAY 10', venue: 'Zepp Haneda', city: 'Tokyo' },
-        { date: 'JUL 12', venue: 'Sapporo Factory Hall', city: 'Sapporo' },
-        { date: 'JUL 17', venue: 'B.9 V1', city: 'Kumamoto' },
-        { date: 'JUL 18', venue: 'Zepp Fukuoka', city: 'Fukuoka' },
-        { date: 'NOV 1', venue: 'Venue TBA', city: 'Nagoya' },
-        { date: 'NOV 3', venue: 'Namba Hatch', city: 'Osaka' },
-        { date: 'NOV 13', venue: 'Nippon Budokan', city: 'Tokyo', note: 'FINALE Night 1', highlight: true },
-        { date: 'NOV 14', venue: 'Nippon Budokan', city: 'Tokyo', note: 'FINALE Night 2 — LAST SHOW BEFORE HIATUS', highlight: true },
-      ] },
-      { region: 'eu', label: 'EUROPE (Multiple shows SOLD OUT)', rows: [
-        { date: 'JUN 3', venue: 'Columbia Theater', city: 'Berlin, Germany' },
-        { date: 'JUN 5', venue: 'Batschkapp', city: 'Frankfurt, Germany' },
-        { date: 'JUN 6', venue: 'Technikum', city: 'Munich, Germany' },
-        { date: 'JUN 9', venue: 'Bataclan', city: 'Paris, France' },
-        { date: 'JUN 11', venue: 'Electric Brixton', city: 'London, UK' },
-      ] },
-      { region: 'na', rows: [
-        { date: 'OCT TBD', venue: 'US + Mexico dates — venues and cities TBA', city: 'Multiple cities' },
-      ] },
-    ],
-    note: 'BAND-MAID enters hiatus after the Nov 14 Budokan show. They return for their 15th anniversary in 2028. This is the last chance to see them live for ~2 years.',
-  },
-  {
-    id: 'bt-babymetal',
-    name: 'BABYMETAL',
-    meta: 'Kawaii Metal · World Tour 2026 · 15th Anniversary · Curating Summer Sonic Metal Stage',
-    countLabel: '20+ DATES',
-    countKind: 'pink',
-    regions: [
-      { region: 'oceania', label: 'AUSTRALIA (w/ Bloodywood)', rows: [
-        { date: 'MAR 12', venue: 'HPC Perth', city: 'Perth', past: true },
-        { date: 'MAR 14', venue: 'AEC Theatre', city: 'Adelaide', past: true },
-        { date: 'MAR 17', venue: 'John Cain Arena', city: 'Melbourne', past: true },
-        { date: 'MAR 19-20', venue: 'Hordern Pavilion', city: 'Sydney', past: true },
-        { date: 'MAR 22', venue: 'Riverstage', city: 'Brisbane', past: true },
-      ] },
-      { region: 'japan', rows: [
-        { date: 'JAN 10-11', venue: 'Saitama Super Arena', city: 'Saitama', note: '"LEGEND - METAL FORTH" (2 nights)', past: true },
-        { date: 'MAR 29', venue: 'Tokyo Garden Theater', city: 'Tokyo', note: 'w/ Max the Hormone, ATARASHII GAKKO!', past: true },
-        { date: 'MAR 30', venue: 'Zepp Haneda', city: 'Tokyo', note: 'METALVERSE opens' },
-        { date: 'APR 4', venue: 'DEAD POP FESTiVAL 2026', city: 'Kawasaki', note: 'Organized by SiM' },
-        { date: 'AUG 14-16', venue: 'Summer Sonic 2026', city: 'Chiba + Osaka', note: 'Curating SONIC METAL STAGE · 15th anniversary', highlight: true },
-      ] },
-      { region: 'eu', label: 'EUROPEAN FESTIVALS', rows: [
-        { date: 'JUN 3', venue: 'Sweden Rock Festival', city: 'Solves., Sweden' },
-        { date: 'JUN 5-7', venue: 'Rock am Ring / Rock im Park', city: 'Germany' },
-        { date: 'JUN 14', venue: 'Download Festival', city: 'Donington, UK' },
-        { date: 'JUN 18', venue: 'Summer Punch Festival', city: 'Warsaw, Poland' },
-        { date: 'JUN 18-21', venue: 'Graspop Metal Meeting', city: 'Dessel, Belgium' },
-        { date: 'JUN 24', venue: 'Tons Of Rock', city: 'Oslo, Norway' },
-        { date: 'JUN 26-27', venue: 'Impericon Festival', city: 'Leipzig, Germany', note: 'Headlining' },
-        { date: 'JUN 27', venue: 'COPENHELL', city: 'Copenhagen, Denmark' },
-      ] },
-      { region: 'na', rows: [
-        { date: 'OCT 3', venue: 'Monster Energy Aftershock', city: 'Sacramento, CA', note: 'Discovery Park' },
-      ] },
-    ],
-  },
-  {
-    id: 'bt-hanabie',
-    name: 'HANABIE.',
-    meta: 'Nu-Metal / Metalcore · 21-date North America headliner + Japan tour',
-    countLabel: '28+ DATES',
-    countKind: 'cyan',
-    regions: [
-      { region: 'japan', label: 'JAPAN — "Moshikasite, Kotoshikoso" Tour', rows: [
-        { date: 'JAN 19', venue: 'Venue TBA', city: 'Mito', past: true },
-        { date: 'FEB 7', venue: 'DRUM LOGOS / BLARE FEST', city: 'Fukuoka / Nagoya', past: true },
-        { date: 'FEB 14', venue: 'GORILLA HALL OSAKA', city: 'Osaka', past: true },
-        { date: 'FEB 15', venue: 'DIAMOND HALL', city: 'Nagoya', past: true },
-        { date: 'FEB 22', venue: 'Rensa', city: 'Sendai', past: true },
-        { date: 'FEB 23', venue: 'Zepp Haneda', city: 'Tokyo', past: true },
-      ] },
-      { region: 'na', label: 'NORTH AMERICA (w/ Nekrogoblikon & Enterprise Earth)', rows: [
-        { date: 'MAR 13', venue: 'Big Night Live', city: 'Boston, MA', past: true },
-        { date: 'MAR 14', venue: 'Brooklyn Bowl', city: 'Brooklyn, NY', past: true },
-        { date: 'MAR 15', venue: 'The Fillmore', city: 'Silver Spring, MD', past: true },
-        { date: 'MAR 17', venue: 'Theatre Beanfield', city: 'Montreal, QC', past: true },
-        { date: 'MAR 18', venue: 'The Danforth Music Hall', city: 'Toronto, ON', past: true },
-        { date: 'MAR 20', venue: 'Roxian Theatre', city: 'Pittsburgh, PA', past: true },
-        { date: 'MAR 21', venue: 'Theatre of Living Arts', city: 'Philadelphia, PA', past: true },
-        { date: 'MAR 23', venue: 'The Ritz', city: 'Raleigh, NC', past: true },
-        { date: 'MAR 24', venue: 'Buckhead Theatre', city: 'Atlanta, GA', past: true },
-        { date: 'MAR 25', venue: 'House of Blues', city: 'Orlando, FL', past: true },
-        { date: 'MAR 27', venue: 'House of Blues', city: 'Cleveland, OH', past: true },
-        { date: 'MAR 29', venue: "Saint Andrew's Hall", city: 'Detroit, MI', past: true },
-        { date: 'MAR 30', venue: 'House of Blues', city: 'Chicago, IL', past: true },
-        { date: 'APR 1', venue: 'The Fillmore', city: 'Minneapolis, MN' },
-        { date: 'APR 3', venue: 'House of Blues', city: 'Dallas, TX' },
-        { date: 'APR 4', venue: 'House of Blues', city: 'Houston, TX' },
-        { date: 'APR 6', venue: "Emo's", city: 'Austin, TX' },
-        { date: 'APR 7', venue: 'The Van Buren', city: 'Phoenix, AZ' },
-        { date: 'APR 9', venue: 'House of Blues', city: 'San Diego, CA' },
-        { date: 'APR 10', venue: 'August Hall', city: 'San Francisco, CA' },
-        { date: 'APR 11', venue: 'The Belasco', city: 'Los Angeles, CA' },
-      ] },
-      { region: 'festival', label: 'FESTIVALS (Dates TBD)', rows: [
-        { date: 'TBD', venue: 'Bukurock 2026', city: 'Osaka, Japan' },
-        { date: 'TBD', venue: 'Daikaihou Festival 2026', city: 'Japan' },
-        { date: 'MAY 10', venue: 'Pre-Spring Liberation Festival 2026', city: 'Yokohama, Japan' },
-      ] },
-    ],
-  },
-  {
-    id: 'bt-metalverse',
-    name: 'METALVERSE',
-    meta: 'Kawaii Metal · BABYMETAL universe · "GARDEN OF EDEN" solo show',
-    countLabel: '3+ DATES',
-    countKind: 'gold',
-    regions: [
-      { region: 'japan', rows: [
-        { date: 'MAR 30', venue: 'Zepp Haneda', city: 'Tokyo', note: 'Opening for BABYMETAL' },
-        { date: 'MAY 9', venue: 'Spotify O-EAST', city: 'Tokyo (Shibuya)', note: '"METALVERSE#3 - GARDEN OF EDEN" · Headline show' },
-      ] },
-      { region: 'asia', rows: [
-        { date: 'APR 30-MAY 1', venue: 'Metalverse Rock Festival', city: 'Kuala Lumpur, Malaysia', note: 'Mega Star Arena' },
-      ] },
-    ],
-    note: "METALVERSE likely to appear at Summer Sonic's SONIC METAL STAGE (Aug 14-16) curated by BABYMETAL. New \"METALVERSE VAND PROJECT\" launching with rotating lineup of next-gen artists.",
-  },
-  {
-    id: 'bt-nemophila',
-    name: 'NEMOPHILA',
-    meta: 'Heavy Metal · GOZO Release Tour + festivals',
-    countLabel: '14+ DATES',
-    countKind: 'green',
-    regions: [
-      { region: 'japan', label: 'JAPAN — GOZO Release Tour "Sangen"', rows: [
-        { date: 'FEB 7', venue: 'Rensa', city: 'Sendai', past: true },
-        { date: 'FEB 15', venue: 'CONVICTION', city: 'Yamanashi', past: true },
-        { date: 'FEB 15', venue: 'DIAMOND HALL', city: 'Nagoya', past: true },
-        { date: 'FEB 22', venue: 'KYOTO MUSE', city: 'Kyoto', past: true },
-        { date: 'FEB 23', venue: 'EIGHT HALL', city: 'Kanazawa', past: true },
-        { date: 'FEB 28', venue: 'CLUB JUNK BOX', city: 'Nagano', past: true },
-        { date: 'MAR 2', venue: 'DRUM LOGOS', city: 'Fukuoka', past: true },
-        { date: 'MAR 14', venue: 'Penny Lane 24', city: 'Sapporo', past: true },
-        { date: 'MAR 15', venue: 'CASINO DRIVE', city: 'Asahikawa', past: true },
-        { date: 'MAR 27', venue: 'PALOOZA', city: 'Kashiwa (Chiba)', past: true },
-        { date: 'MAR 28', venue: "HEAVEN'S ROCK", city: 'Utsunomiya', past: true },
-        { date: 'APR 11', venue: 'Ebisu LIQUIDROOM', city: 'Tokyo' },
-      ] },
-      { region: 'festival', rows: [
-        { date: 'JUN 6', venue: 'UNLUCKY FES 2026', city: 'Kawasaki, Japan', note: "CLUB CITTA'" },
-        { date: 'TBD', venue: "NAON's BUNTAI 2026", city: 'Japan', note: 'Produced by SHOW-YA' },
-        { date: 'TBD', venue: 'Sound Planet Festival 2026', city: 'South Korea' },
-      ] },
-    ],
-  },
-  {
-    id: 'bt-zilqy',
-    name: 'ZILQY',
-    meta: 'Heavy Metal Supergroup · "Rise to Liberation" Tour · SOLD OUT',
-    countLabel: '6 DATES',
-    countKind: 'gold',
-    regions: [
-      { region: 'japan', rows: [
-        { date: 'FEB 14', venue: 'MIXED HELL 2026', city: 'Kawasaki', note: "CLUB CITTA' (festival)", past: true },
-        { date: 'MAR 22', venue: 'Shin-Yokohama New SIDE BEACH!!', city: 'Yokohama', past: true },
-        { date: 'APR 4', venue: 'ell.FITS ALL', city: 'Nagoya' },
-        { date: 'APR 5', venue: 'OSAKA MUSE', city: 'Osaka' },
-        { date: 'MAY 1', venue: 'Shibuya WWW X', city: 'Tokyo', note: 'EXTRA (added due to sellouts)' },
-        { date: 'MAY 3', venue: 'Shibuya WWW', city: 'Tokyo' },
-      ] },
-    ],
-    note: 'Japan-only for now. First full-length album expected Fall 2026 — likely to trigger more tour dates including potential international. Tickets: ¥6,500 standing.',
-  },
-  {
-    id: 'bt-rq',
-    name: 'ROLLING QUARTZ',
-    meta: 'Korean Rock/Metal · "My Turn" Europe Tour',
-    countLabel: '6 DATES',
-    countKind: 'cyan',
-    regions: [
-      { region: 'eu', label: 'EUROPE — "MY TURN" Tour', rows: [
-        { date: 'APR 8', venue: 'Proxima', city: 'Warsaw, Poland' },
-        { date: 'APR 10', venue: 'Backstage Halle', city: 'Munich, Germany' },
-        { date: 'APR 12', venue: 'Club Bahnhof Ehrenfeld', city: 'Cologne, Germany' },
-        { date: 'APR 15', venue: 'P60', city: 'Amsterdam, Netherlands' },
-        { date: 'APR 17', venue: 'Cafe de la Danse', city: 'Paris, France' },
-        { date: 'APR 19', venue: 'The Garage', city: 'London, UK' },
-      ] },
-    ],
-    note: 'Korean-based, no Japan or Asia dates confirmed. A Seoul side-trip from Japan is ~2.5 hrs by air.',
-  },
-  {
-    id: 'bt-trident',
-    name: 'TRiDENT',
-    meta: 'Hard Rock / Metal · "King of the Sea Tour 2026"',
-    countLabel: '3+ DATES',
-    countKind: 'green',
-    regions: [
-      { region: 'japan', rows: [
-        { date: 'APR 6', venue: 'Young Festival 2026', city: 'Tokyo' },
-        { date: 'APR 17', venue: '"THE CHAOS FUTURE" event', city: 'Tokyo' },
-        { date: 'APR 22', venue: "CiON's Love Call 2026", city: 'Tokyo' },
-      ] },
-    ],
-    note: '"King of the Sea Tour 2026" announced Mar 21 — full schedule details still TBA. Japan only.',
-  },
-  {
-    id: 'bt-bridear',
-    name: 'BRIDEAR',
-    meta: 'Melodic Metal · EU/UK tour being rescheduled',
-    countLabel: '1 DATE',
-    countKind: 'muted',
-    regions: [
-      { region: 'japan', rows: [
-        { date: 'APR 29', venue: 'Shibuya Star Lounge', city: 'Tokyo' },
-      ] },
-    ],
-    note: 'Their "Into the World Forever" EU/UK tour was cancelled in Feb 2025 and is being rescheduled. Announced plans for their "biggest world tour ever" including Europe, UK, US, and Canada — dates TBA.',
-  },
-  {
-    id: 'bt-ladybaby',
-    name: 'LADYBABY',
-    meta: 'Idol Metal · Minimal 2026 activity',
-    countLabel: '1 DATE',
-    countKind: 'muted',
-    regions: [
-      { region: 'na', rows: [
-        { date: 'JUN 22', venue: 'Little Caesars Arena', city: 'Detroit, MI' },
-      ] },
-      { region: 'festival', rows: [
-        { date: 'TBD', venue: 'HEROINES FES 2026', city: 'Japan', note: 'LaLa Arena' },
-      ] },
-    ],
-  },
-  {
-    id: 'bt-hiatus',
-    name: "ALDIOUS / MARY'S BLOOD",
-    meta: 'Both on indefinite hiatus · No 2026 dates',
-    countLabel: 'HIATUS',
-    countKind: 'muted',
-    regions: [],
-    note: 'ALDIOUS: Hiatus since May 2025. Guitarist Toki departed to form ZILQY. MARY\'S BLOOD: Inactive since April 2022. No return announced.',
-  },
+type BandDef = {
+  id: string;
+  name: string;
+  matchNames: string[];
+  meta: string;
+  countKind: string;
+  open?: boolean;
+  note?: string;
+};
+
+const bandDefs: BandDef[] = [
+  { id: 'bt-lovebites', name: 'LOVEBITES', matchNames: ['LOVEBITES', 'Lovebites'], meta: 'Power / Speed Metal · "Outstanding Tour Japan 2026" + Wacken', countKind: 'red', open: true },
+  { id: 'bt-bandmaid', name: 'BAND-MAID', matchNames: ['BAND-MAID', 'Band-Maid', 'BAND MAID'], meta: 'Hard Rock / Metal · First World Tour · Budokan Finale · Hiatus after Nov', countKind: 'purple', note: 'BAND-MAID enters hiatus after the Nov 14 Budokan show. They return for their 15th anniversary in 2028.' },
+  { id: 'bt-babymetal', name: 'BABYMETAL', matchNames: ['BABYMETAL'], meta: 'Kawaii Metal · World Tour 2026 · 15th Anniversary · Curating Summer Sonic Metal Stage', countKind: 'pink' },
+  { id: 'bt-hanabie', name: 'HANABIE.', matchNames: ['HANABIE.', 'HANABIE', 'Hanabie'], meta: 'Nu-Metal / Metalcore · North America + Japan tours', countKind: 'cyan' },
+  { id: 'bt-metalverse', name: 'METALVERSE', matchNames: ['METALVERSE'], meta: 'Kawaii Metal · BABYMETAL universe · "GARDEN OF EDEN" solo show', countKind: 'gold', note: 'METALVERSE likely to appear at Summer Sonic\'s SONIC METAL STAGE (Aug 14-16) curated by BABYMETAL.' },
+  { id: 'bt-nemophila', name: 'NEMOPHILA', matchNames: ['NEMOPHILA', 'Nemophila'], meta: 'Heavy Metal · "MY TURN" NA tour + Japan festivals', countKind: 'green' },
+  { id: 'bt-zilqy', name: 'ZILQY', matchNames: ['ZILQY', 'Zilqy'], meta: 'Heavy Metal Supergroup · "Rise to Liberation" Tour · SOLD OUT', countKind: 'gold', note: 'First full-length album expected Fall 2026 — likely to trigger more tour dates.' },
+  { id: 'bt-rq', name: 'ROLLING QUARTZ', matchNames: ['ROLLING QUARTZ', 'Rolling Quartz', '✅ Rolling Quartz'], meta: 'Korean Rock/Metal · "MY TURN" NA + EU Tour', countKind: 'cyan', note: 'Korean-based, no Japan or Asia dates confirmed. A Seoul side-trip from Japan is ~2.5 hrs by air.' },
+  { id: 'bt-jiluka', name: 'JILUKA', matchNames: ['JILUKA', 'Jiluka'], meta: 'Visual Kei / Metalcore · North America tour', countKind: 'cyan' },
+  { id: 'bt-trident', name: 'TRiDENT', matchNames: ['TRiDENT', 'TRIDENT', 'Trident'], meta: 'Hard Rock / Metal · "King of the Sea Tour 2026"', countKind: 'green', note: '"King of the Sea Tour 2026" — schedule details still TBA. Japan only.' },
+  { id: 'bt-bridear', name: 'BRIDEAR', matchNames: ['BRIDEAR', 'Bridear'], meta: 'Melodic Metal · EU/UK tour being rescheduled', countKind: 'muted' },
+  { id: 'bt-ladybaby', name: 'LADYBABY', matchNames: ['LADYBABY', 'Ladybaby'], meta: 'Idol Metal · Minimal 2026 activity', countKind: 'muted' },
+  { id: 'bt-hiatus', name: "ALDIOUS / MARY'S BLOOD", matchNames: ['ALDIOUS', 'Aldious', "MARY'S BLOOD", "Mary's Blood"], meta: 'Both on indefinite hiatus · No 2026 dates', countKind: 'muted', note: 'ALDIOUS: Hiatus since May 2025. Guitarist Toki departed to form ZILQY. MARY\'S BLOOD: Inactive since April 2022.' },
 ];
+
+// --- Past-show filter ---
+const sevenDaysAgo = new Date();
+sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+const sevenDaysAgoISO = sevenDaysAgo.toISOString().slice(0, 10);
+const todayISO = new Date().toISOString().slice(0, 10);
+
+const allEntries: ConcertEntry[] = (concertsData as ConcertsDataFile).entries ?? [];
+
+// --- Region classification ---
+const NA_STATES = new Set(['AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC']);
+const CA_PROVS = new Set(['ON','QC','BC','AB','MB','SK','NS','NB','NL','PE','YT','NT','NU']);
+const MX_STATES = new Set(['MX']);
+const EU_KEYWORDS = ['UK', 'United Kingdom', 'England', 'London', 'Germany', 'France', 'Italy', 'Spain', 'Netherlands', 'Belgium', 'Sweden', 'Norway', 'Denmark', 'Finland', 'Poland', 'Ireland', 'Scotland', 'Wacken', 'Berlin', 'Paris', 'Munich', 'Frankfurt', 'Amsterdam', 'Cologne', 'Warsaw', 'Donington', 'Solvesborg', 'Solves', 'Oslo', 'Copenhagen', 'Dessel', 'Leipzig', 'Stockholm', 'Helsinki', 'Vienna', 'Zurich', 'Brussels', 'Lisbon', 'Madrid', 'Barcelona', 'Dublin'];
+const ASIA_KEYWORDS = ['Japan', 'Tokyo', 'Osaka', 'Kyoto', 'Nagoya', 'Sapporo', 'Fukuoka', 'Sendai', 'Hiroshima', 'Yokohama', 'Kanazawa', 'Niigata', 'Kumamoto', 'Saitama', 'Kawasaki', 'Korea', 'Seoul', 'Taiwan', 'Kaohsiung', 'Taipei', 'Hong Kong', 'Malaysia', 'Kuala Lumpur', 'Singapore', 'Thailand', 'Bangkok', 'Philippines', 'Manila', 'Indonesia', 'Jakarta'];
+const OCEANIA_KEYWORDS = ['Australia', 'Melbourne', 'Sydney', 'Brisbane', 'Perth', 'Adelaide', 'New Zealand', 'Auckland', 'Wellington'];
+
+function classifyRegion(e: ConcertEntry): Region {
+  if (e.buckets?.includes('key-festivals')) return 'festival';
+  const state = (e.state || '').toUpperCase();
+  if (NA_STATES.has(state) || CA_PROVS.has(state) || MX_STATES.has(state)) return 'na';
+  const haystack = `${e.venue || ''} ${e.city || ''} ${e.state || ''} ${e.country || ''} ${e.name || ''} ${e.description || ''}`.toLowerCase();
+  for (const kw of EU_KEYWORDS) { if (haystack.includes(kw.toLowerCase())) return 'eu'; }
+  for (const kw of OCEANIA_KEYWORDS) { if (haystack.includes(kw.toLowerCase())) return 'oceania'; }
+  for (const kw of ASIA_KEYWORDS) { if (haystack.includes(kw.toLowerCase())) return 'asia'; }
+  return 'japan'; // default — most J-bucket entries without other markers are JP
+}
+
+function isVisible(e: ConcertEntry): boolean {
+  return e.date >= sevenDaysAgoISO;
+}
+
+function entryMatchesBand(entry: ConcertEntry, matchNames: string[]): boolean {
+  if (entry.isRelease) return false;
+  if (!entry.bands || entry.bands.length === 0) return false;
+  const norm = (s: string) => s.toLowerCase().replace(/[\s._\-]+/g, '').replace(/✅/g, '').trim();
+  const wanted = matchNames.map(norm);
+  return entry.bands.some((b) => {
+    const nb = norm(b);
+    return wanted.some((w) => nb === w || nb.startsWith(w) || w.startsWith(nb));
+  });
+}
+
+function fmtDate(iso: string, endIso?: string): string {
+  const d = new Date(iso + 'T00:00:00Z');
+  const month = d.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' }).toUpperCase();
+  const day = d.getUTCDate();
+  if (endIso && endIso !== iso) {
+    const d2 = new Date(endIso + 'T00:00:00Z');
+    return `${month} ${day}-${d2.getUTCDate()}`;
+  }
+  return `${month} ${day}`;
+}
+
+function fmtDateShort(iso: string): string {
+  const d = new Date(iso + 'T00:00:00Z');
+  return d.toLocaleString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+}
+
+type BandRegionRow = { dateLabel: string; iso: string; venue: string; city: string; note?: string; past: boolean };
+type BandRegionBlock = { region: Region; rows: BandRegionRow[] };
+type Band = BandDef & { regions: BandRegionBlock[]; totalCount: number };
 
 const regionLabels: Record<Region, string> = {
   japan: 'JAPAN',
   na: 'NORTH AMERICA',
   eu: 'EUROPE',
   asia: 'ASIA',
-  oceania: 'AUSTRALIA',
+  oceania: 'AUSTRALIA / OCEANIA',
   festival: 'FESTIVALS',
 };
 
-type RegionRow = { date: string; band: string; bandClass: string; venue: string; city: string; past?: boolean };
-type RegionGroup = { title: string; titleColor: string; rows: RegionRow[] };
+const regionOrder: Region[] = ['japan', 'na', 'eu', 'asia', 'oceania', 'festival'];
 
-const naGroups: RegionGroup[] = [
-  {
-    title: 'HANABIE. — 21-Date Headlining Tour (w/ Nekrogoblikon & Enterprise Earth)',
-    titleColor: 'cyan',
-    rows: [
-      { date: 'Mar 13', band: 'HANABIE.', bandClass: 'hanabie', venue: 'Big Night Live', city: 'Boston, MA', past: true },
-      { date: 'Mar 14', band: 'HANABIE.', bandClass: 'hanabie', venue: 'Brooklyn Bowl', city: 'Brooklyn, NY', past: true },
-      { date: 'Mar 15', band: 'HANABIE.', bandClass: 'hanabie', venue: 'The Fillmore', city: 'Silver Spring, MD', past: true },
-      { date: 'Mar 17', band: 'HANABIE.', bandClass: 'hanabie', venue: 'Theatre Beanfield', city: 'Montreal, QC', past: true },
-      { date: 'Mar 18', band: 'HANABIE.', bandClass: 'hanabie', venue: 'Danforth Music Hall', city: 'Toronto, ON', past: true },
-      { date: 'Mar 20', band: 'HANABIE.', bandClass: 'hanabie', venue: 'Roxian Theatre', city: 'Pittsburgh, PA', past: true },
-      { date: 'Mar 21', band: 'HANABIE.', bandClass: 'hanabie', venue: 'Theatre of Living Arts', city: 'Philadelphia, PA', past: true },
-      { date: 'Mar 23', band: 'HANABIE.', bandClass: 'hanabie', venue: 'The Ritz', city: 'Raleigh, NC', past: true },
-      { date: 'Mar 24', band: 'HANABIE.', bandClass: 'hanabie', venue: 'Buckhead Theatre', city: 'Atlanta, GA', past: true },
-      { date: 'Mar 25', band: 'HANABIE.', bandClass: 'hanabie', venue: 'House of Blues', city: 'Orlando, FL', past: true },
-      { date: 'Mar 27', band: 'HANABIE.', bandClass: 'hanabie', venue: 'House of Blues', city: 'Cleveland, OH', past: true },
-      { date: 'Mar 29', band: 'HANABIE.', bandClass: 'hanabie', venue: "Saint Andrew's Hall", city: 'Detroit, MI', past: true },
-      { date: 'Mar 30', band: 'HANABIE.', bandClass: 'hanabie', venue: 'House of Blues', city: 'Chicago, IL', past: true },
-      { date: 'Apr 1', band: 'HANABIE.', bandClass: 'hanabie', venue: 'The Fillmore', city: 'Minneapolis, MN' },
-      { date: 'Apr 3', band: 'HANABIE.', bandClass: 'hanabie', venue: 'House of Blues', city: 'Dallas, TX' },
-      { date: 'Apr 4', band: 'HANABIE.', bandClass: 'hanabie', venue: 'House of Blues', city: 'Houston, TX' },
-      { date: 'Apr 6', band: 'HANABIE.', bandClass: 'hanabie', venue: "Emo's", city: 'Austin, TX' },
-      { date: 'Apr 7', band: 'HANABIE.', bandClass: 'hanabie', venue: 'The Van Buren', city: 'Phoenix, AZ' },
-      { date: 'Apr 9', band: 'HANABIE.', bandClass: 'hanabie', venue: 'House of Blues', city: 'San Diego, CA' },
-      { date: 'Apr 10', band: 'HANABIE.', bandClass: 'hanabie', venue: 'August Hall', city: 'San Francisco, CA' },
-      { date: 'Apr 11', band: 'HANABIE.', bandClass: 'hanabie', venue: 'The Belasco', city: 'Los Angeles, CA' },
-    ],
-  },
-  {
-    title: 'Other North America Dates',
-    titleColor: 'pink',
-    rows: [
-      { date: 'Jun 22', band: 'LADYBABY', bandClass: 'ladybaby', venue: 'Little Caesars Arena', city: 'Detroit, MI' },
-      { date: 'Oct 3', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'Monster Energy Aftershock', city: 'Sacramento, CA' },
-      { date: 'Oct TBD', band: 'BAND-MAID', bandClass: 'bandmaid', venue: 'US + Mexico tour — cities/venues TBA', city: 'Multiple' },
-    ],
-  },
-];
+const bands: Band[] = bandDefs.map((bd) => {
+  const matched = allEntries
+    .filter((e) => entryMatchesBand(e, bd.matchNames))
+    .filter(isVisible)
+    .sort((a, b) => a.date.localeCompare(b.date));
+  const byRegion = new Map<Region, BandRegionRow[]>();
+  for (const e of matched) {
+    const r = classifyRegion(e);
+    const cityState = e.state ? `${e.city ?? ''} ${e.state}`.trim() : (e.city ?? '');
+    const row: BandRegionRow = {
+      dateLabel: fmtDate(e.date, e.endDate),
+      iso: e.date,
+      venue: e.venue || '',
+      city: cityState,
+      note: e.description || undefined,
+      past: e.date < todayISO,
+    };
+    if (!byRegion.has(r)) byRegion.set(r, []);
+    byRegion.get(r)!.push(row);
+  }
+  const regions: BandRegionBlock[] = regionOrder
+    .filter((r) => byRegion.has(r))
+    .map((r) => ({ region: r, rows: byRegion.get(r)! }));
+  return { ...bd, regions, totalCount: matched.length };
+});
 
-const euGroups: RegionGroup[] = [
-  {
-    title: 'April — Rolling Quartz "My Turn" Tour',
-    titleColor: 'gold',
-    rows: [
-      { date: 'Apr 8', band: 'ROLLING QUARTZ', bandClass: 'rq', venue: 'Proxima', city: 'Warsaw, Poland' },
-      { date: 'Apr 10', band: 'ROLLING QUARTZ', bandClass: 'rq', venue: 'Backstage Halle', city: 'Munich, Germany' },
-      { date: 'Apr 12', band: 'ROLLING QUARTZ', bandClass: 'rq', venue: 'Club Bahnhof Ehrenfeld', city: 'Cologne, Germany' },
-      { date: 'Apr 15', band: 'ROLLING QUARTZ', bandClass: 'rq', venue: 'P60', city: 'Amsterdam, NL' },
-      { date: 'Apr 17', band: 'ROLLING QUARTZ', bandClass: 'rq', venue: 'Cafe de la Danse', city: 'Paris, France' },
-      { date: 'Apr 19', band: 'ROLLING QUARTZ', bandClass: 'rq', venue: 'The Garage', city: 'London, UK' },
-    ],
-  },
-  {
-    title: 'June — BAND-MAID World Tour (Multiple SOLD OUT)',
-    titleColor: 'purple',
-    rows: [
-      { date: 'Jun 3', band: 'BAND-MAID', bandClass: 'bandmaid', venue: 'Columbia Theater', city: 'Berlin, Germany' },
-      { date: 'Jun 5', band: 'BAND-MAID', bandClass: 'bandmaid', venue: 'Batschkapp', city: 'Frankfurt, Germany' },
-      { date: 'Jun 6', band: 'BAND-MAID', bandClass: 'bandmaid', venue: 'Technikum', city: 'Munich, Germany' },
-      { date: 'Jun 9', band: 'BAND-MAID', bandClass: 'bandmaid', venue: 'Bataclan', city: 'Paris, France' },
-      { date: 'Jun 11', band: 'BAND-MAID', bandClass: 'bandmaid', venue: 'Electric Brixton', city: 'London, UK' },
-    ],
-  },
-  {
-    title: 'June — BABYMETAL Festival Circuit',
-    titleColor: 'pink',
-    rows: [
-      { date: 'Jun 3', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'Sweden Rock Festival', city: 'Solvesborg, Sweden' },
-      { date: 'Jun 5-7', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'Rock am Ring / Rock im Park', city: 'Germany' },
-      { date: 'Jun 14', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'Download Festival', city: 'Donington, UK' },
-      { date: 'Jun 18', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'Summer Punch Festival', city: 'Warsaw, Poland' },
-      { date: 'Jun 18-21', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'Graspop Metal Meeting', city: 'Dessel, Belgium' },
-      { date: 'Jun 24', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'Tons Of Rock', city: 'Oslo, Norway' },
-      { date: 'Jun 26-27', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'Impericon Festival (Headlining)', city: 'Leipzig, Germany' },
-      { date: 'Jun 27', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'COPENHELL', city: 'Copenhagen, Denmark' },
-    ],
-  },
-  {
-    title: 'July/August — LOVEBITES',
-    titleColor: 'accent',
-    rows: [
-      { date: 'Jul 29-Aug 1', band: 'LOVEBITES', bandClass: 'lovebites', venue: 'Wacken Open Air 2026', city: 'Wacken, Germany' },
-    ],
-  },
-];
+// --- Per-region groups (NA, EU, Asia/Oceania) ---
+type RegionEvent = { dateLabel: string; iso: string; band: string; bandClass: string; venue: string; city: string; past: boolean };
 
-const asiaGroups: RegionGroup[] = [
-  {
-    title: 'Australia — BABYMETAL (March, w/ Bloodywood)',
-    titleColor: 'pink',
-    rows: [
-      { date: 'Mar 12', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'HPC Perth', city: 'Perth', past: true },
-      { date: 'Mar 14', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'AEC Theatre', city: 'Adelaide', past: true },
-      { date: 'Mar 17', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'John Cain Arena', city: 'Melbourne', past: true },
-      { date: 'Mar 19-20', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'Hordern Pavilion', city: 'Sydney', past: true },
-      { date: 'Mar 22', band: 'BABYMETAL', bandClass: 'babymetal', venue: 'Riverstage', city: 'Brisbane', past: true },
-    ],
-  },
-  {
-    title: 'Other Asia',
-    titleColor: 'green',
-    rows: [
-      { date: 'Mar 20', band: 'BAND-MAID', bandClass: 'bandmaid', venue: 'Kitty Woo Stadium', city: 'Hong Kong', past: true },
-      { date: 'Mar 21-22', band: 'BAND-MAID', bandClass: 'bandmaid', venue: 'Megaport Festival', city: 'Kaohsiung, Taiwan', past: true },
-      { date: 'Apr 30-May 1', band: 'METALVERSE', bandClass: 'metalverse', venue: 'Metalverse Rock Fest / Mega Star Arena', city: 'Kuala Lumpur, MY' },
-      { date: 'TBD', band: 'NEMOPHILA', bandClass: 'nemophila', venue: 'Sound Planet Festival 2026', city: 'South Korea' },
-      { date: 'TBD', band: 'ROLLING QUARTZ', bandClass: 'rq', venue: 'Home base — monitor for Seoul dates', city: 'Seoul, South Korea' },
-    ],
-  },
-];
+function bandClassFor(name: string): string {
+  const lower = name.toLowerCase().replace(/[\s.\-]/g, '');
+  if (lower.includes('lovebites')) return 'lovebites';
+  if (lower.includes('bandmaid')) return 'bandmaid';
+  if (lower.includes('babymetal')) return 'babymetal';
+  if (lower.includes('hanabie')) return 'hanabie';
+  if (lower.includes('metalverse')) return 'metalverse';
+  if (lower.includes('nemophila')) return 'nemophila';
+  if (lower.includes('zilqy')) return 'zilqy';
+  if (lower.includes('rollingquartz')) return 'rq';
+  if (lower.includes('jiluka')) return 'jiluka';
+  if (lower.includes('trident')) return 'trident';
+  if (lower.includes('bridear')) return 'bridear';
+  if (lower.includes('ladybaby')) return 'ladybaby';
+  return 'default';
+}
 
+function buildRegionEvents(region: Region | 'multi-na' | 'multi-eu' | 'multi-asia-oc'): RegionEvent[] {
+  const matching = allEntries
+    .filter((e) => !e.isRelease)
+    .filter(isVisible)
+    .filter((e) => bandDefs.some((bd) => entryMatchesBand(e, bd.matchNames)))
+    .filter((e) => {
+      const r = classifyRegion(e);
+      if (region === 'multi-na') return r === 'na';
+      if (region === 'multi-eu') return r === 'eu';
+      if (region === 'multi-asia-oc') return r === 'asia' || r === 'oceania';
+      return r === region;
+    })
+    .sort((a, b) => a.date.localeCompare(b.date));
+
+  return matching.map((e) => {
+    const bandLabel = (e.bands ?? []).filter((b) => b).join(' / ') || '—';
+    const cityState = e.state ? `${e.city ?? ''} ${e.state}`.trim() : (e.city ?? '');
+    return {
+      dateLabel: fmtDateShort(e.date),
+      iso: e.date,
+      band: bandLabel,
+      bandClass: bandClassFor(bandLabel),
+      venue: e.venue || '',
+      city: cityState,
+      past: e.date < todayISO,
+    };
+  });
+}
+
+const naEvents = buildRegionEvents('multi-na');
+const euEvents = buildRegionEvents('multi-eu');
+const asiaOcEvents = buildRegionEvents('multi-asia-oc');
+
+// --- Static editorial: festival cards ---
 type FestivalCard = { title: string; meta: string; body: string };
 const fests: FestivalCard[] = [
   { title: 'Summer Sonic 2026', meta: 'Aug 14-16 · Chiba + Osaka, Japan', body: '25th anniversary. <span class="jmg-hl">BABYMETAL curating "SONIC METAL STAGE"</span> at both venues (15th anniversary). METALVERSE likely. Headliners: The Strokes, L\'Arc-en-Ciel, Jamiroquai.' },
-  { title: 'Wacken Open Air 2026', meta: 'Jul 29 - Aug 1 · Wacken, Germany', body: '<span class="jmg-hl">LOVEBITES confirmed</span>. The world\'s biggest heavy metal festival. 85,000+ attendees.' },
-  { title: 'Download Festival 2026', meta: 'Jun 10-14 · Donington Park, UK', body: '<span class="jmg-hl">BABYMETAL confirmed (Jun 14)</span>. Legendary UK metal festival.' },
-  { title: 'Rock am Ring / Rock im Park', meta: 'Jun 5-7 · Germany', body: '<span class="jmg-hl">BABYMETAL confirmed</span>. Twin festivals in Nurburgring and Nuremberg.' },
-  { title: 'Sweden Rock Festival', meta: 'Jun 3 · Solvesborg, Sweden', body: '<span class="jmg-hl">BABYMETAL confirmed</span>. Same day as BAND-MAID in Berlin — pick your show.' },
-  { title: 'Graspop Metal Meeting', meta: 'Jun 18-21 · Dessel, Belgium', body: '<span class="jmg-hl">BABYMETAL confirmed</span>. One of Europe\'s premier metal festivals.' },
-  { title: 'Tons Of Rock', meta: 'Jun 24 · Oslo, Norway', body: '<span class="jmg-hl">BABYMETAL confirmed</span>.' },
-  { title: 'COPENHELL', meta: 'Jun 27 · Copenhagen, Denmark', body: '<span class="jmg-hl">BABYMETAL confirmed</span>. Scandinavian metal fest.' },
-  { title: 'Monster Energy Aftershock', meta: 'Oct 3 · Sacramento, CA', body: '<span class="jmg-hl">BABYMETAL confirmed</span>. Major US festival at Discovery Park.' },
-  { title: 'DEAD POP FESTiVAL', meta: 'Apr 4-5 · Kawasaki, Japan', body: '<span class="jmg-hl">BABYMETAL confirmed</span>. Organized by SiM. Multi-genre heavy festival near Tokyo.' },
-  { title: 'UNLUCKY FES 2026', meta: 'Jun 6 · Kawasaki, Japan', body: '<span class="jmg-hl">NEMOPHILA confirmed</span>. Multi-band festival at CLUB CITTA\'.' },
+  { title: 'Wacken Open Air 2026', meta: 'Jul 29 - Aug 1 · Wacken, Germany', body: '<span class="jmg-hl">LOVEBITES + BROKEN BY THE SCREAM confirmed</span>. The world\'s biggest heavy metal festival. 85,000+ attendees.' },
+  { title: 'Download Festival 2026', meta: 'Jun 10-14 · Donington Park, UK', body: 'Legendary UK metal festival.' },
+  { title: 'Rock am Ring / Rock im Park', meta: 'Jun 5-7 · Germany', body: 'Twin festivals in Nurburgring and Nuremberg.' },
+  { title: 'Sweden Rock Festival', meta: 'Jun 3 · Solvesborg, Sweden', body: 'Headline-tier European metal festival.' },
+  { title: 'Graspop Metal Meeting', meta: 'Jun 18-21 · Dessel, Belgium', body: 'One of Europe\'s premier metal festivals.' },
+  { title: 'Tons Of Rock', meta: 'Jun 24 · Oslo, Norway', body: 'Scandinavian heavy festival.' },
+  { title: 'COPENHELL', meta: 'Jun 27 · Copenhagen, Denmark', body: 'Scandinavian metal fest.' },
+  { title: 'Monster Energy Aftershock', meta: 'Oct 3 · Sacramento, CA', body: 'Major US festival at Discovery Park.' },
+  { title: 'UNLUCKY FES 2026', meta: 'Jun 6 · Kawasaki, Japan', body: 'NEMOPHILA confirmed. Multi-band festival at CLUB CITTA\'.' },
 ];
 ---
 
 <BaseLayout
   title="Japan Global Tours 2026 | The Music Cities"
-  description="Japanese metal bands touring abroad in 2026: North America, Europe, Asia/Oceania, and festival dates in one editorial view."
+  description="Japanese metal bands touring abroad in 2026: North America, Europe, Asia/Oceania, and festival dates pulled live from the dashboard data feed."
 >
-  <Header />
+  <Header title="Japan Global Tours 2026" />
 
   <section class="dash-hero">
     <div class="container">
@@ -447,9 +224,10 @@ const fests: FestivalCard[] = [
       <h1 class="dash-hero__title">Japan <em>Global Tours 2026</em></h1>
       <p class="dash-hero__subtitle">J-metal bands touring abroad — North America, Europe, Asia, Oceania</p>
       <p class="dash-hero__lede">
-        Every confirmed date across Japan, North America, Europe, Asia, and Oceania for the 13-band
-        watch list. Tour cards per band, then a regional breakdown — including the stacked June
-        window where BAND-MAID's first world tour overlaps BABYMETAL's European festival circuit.
+        Every confirmed date for the 13-band watch list, pulled live from concerts.json. Tour cards
+        per band, then a regional breakdown — including the Nemophila NA "MY TURN" tour, Rolling
+        Quartz crossing into LA / Texas, and Jiluka's summer Brick by Brick + Come and Take It Live
+        stops.
       </p>
     </div>
   </section>
@@ -467,7 +245,7 @@ const fests: FestivalCard[] = [
 
       <section id="jmg-byband" class="dash-tabpanel is-active">
         <h2 class="dash-section__title">Full Tour Schedules by Band</h2>
-        <p class="dash-section__intro">Click any band to expand their complete 2026 worldwide itinerary.</p>
+        <p class="dash-section__intro">Click any band to expand their complete 2026 worldwide itinerary. Dates pull live from concerts.json.</p>
         {bands.map((b) => (
           <article class={b.open ? 'jmg-band is-open' : 'jmg-band'} id={b.id}>
             <header class="jmg-band__head" data-toggle={b.id}>
@@ -475,26 +253,23 @@ const fests: FestivalCard[] = [
                 <div class="jmg-band__name">{b.name}</div>
                 <div class="jmg-band__meta">{b.meta}</div>
               </div>
-              <span class={`jmg-count jmg-count--${b.countKind}`}>{b.countLabel}</span>
+              <span class={`jmg-count jmg-count--${b.countKind}`}>{b.totalCount > 0 ? `${b.totalCount} DATE${b.totalCount === 1 ? '' : 'S'}` : (b.countKind === 'muted' ? 'NO DATES' : 'TBD')}</span>
             </header>
             <div class="jmg-band__body">
+              {b.regions.length === 0 ? (
+                <p class="jmg-note">No upcoming shows in the feed yet.</p>
+              ) : null}
               {b.regions.map((rg) => (
                 <Fragment>
                   <div class="jmg-region-label">
                     <span class={`jmg-dot jmg-dot--${rg.region}`}></span>
-                    {rg.label ?? regionLabels[rg.region]}
+                    {regionLabels[rg.region]}
                   </div>
                   <table class="jmg-table">
                     <tbody>
                       {rg.rows.map((r) => (
-                        <tr class={
-                          r.highlight
-                            ? 'jmg-row jmg-row--highlight'
-                            : r.past
-                            ? 'jmg-row jmg-row--past'
-                            : 'jmg-row'
-                        }>
-                          <td class="jmg-td-date">{r.date}</td>
+                        <tr class={r.past ? 'jmg-row jmg-row--past' : 'jmg-row'}>
+                          <td class="jmg-td-date">{r.dateLabel}</td>
                           <td class="jmg-td-venue">
                             {r.venue}
                             {r.note ? <span class="jmg-td-note"> · {r.note}</span> : null}
@@ -515,61 +290,49 @@ const fests: FestivalCard[] = [
       <section id="jmg-na" class="dash-tabpanel">
         <h2 class="dash-section__title">North America</h2>
         <p class="dash-section__intro">All confirmed US, Canada, and Mexico dates sorted chronologically.</p>
-        {naGroups.map((g) => (
-          <div class="jmg-region">
-            <h3 class={`jmg-region__title jmg-region__title--${g.titleColor}`}>{g.title}</h3>
-            {g.rows.map((r) => (
-              <div class={r.past ? 'jmg-event jmg-event--past' : 'jmg-event'}>
-                <span class="jmg-event__date">{r.date}</span>
-                <span class={`jmg-event__band jmg-event__band--${r.bandClass}`}>{r.band}</span>
-                <span class="jmg-event__venue">{r.venue}</span>
-                <span class="jmg-event__city">{r.city}</span>
-              </div>
-            ))}
-          </div>
-        ))}
+        {naEvents.length === 0 ? <p class="dash-footnote">No North America dates in the feed yet.</p> : null}
+        <div class="jmg-region">
+          {naEvents.map((r) => (
+            <div class={r.past ? 'jmg-event jmg-event--past' : 'jmg-event'}>
+              <span class="jmg-event__date">{r.dateLabel}</span>
+              <span class={`jmg-event__band jmg-event__band--${r.bandClass}`}>{r.band}</span>
+              <span class="jmg-event__venue">{r.venue}</span>
+              <span class="jmg-event__city">{r.city}</span>
+            </div>
+          ))}
+        </div>
       </section>
 
       <section id="jmg-eu" class="dash-tabpanel">
         <h2 class="dash-section__title">Europe &amp; UK</h2>
         <p class="dash-section__intro">All confirmed European dates across headline shows and festivals.</p>
-        {euGroups.map((g) => (
-          <div class="jmg-region">
-            <h3 class={`jmg-region__title jmg-region__title--${g.titleColor}`}>{g.title}</h3>
-            {g.rows.map((r) => (
-              <div class={r.past ? 'jmg-event jmg-event--past' : 'jmg-event'}>
-                <span class="jmg-event__date">{r.date}</span>
-                <span class={`jmg-event__band jmg-event__band--${r.bandClass}`}>{r.band}</span>
-                <span class="jmg-event__venue">{r.venue}</span>
-                <span class="jmg-event__city">{r.city}</span>
-              </div>
-            ))}
-          </div>
-        ))}
-        <div class="jmg-note">
-          <strong>Pro tip for Europe:</strong> June is absolutely stacked. BAND-MAID headline shows +
-          BABYMETAL festival circuit overlap across Germany, UK, France, and Scandinavia. You could
-          build a 3-4 week European metal trip catching both bands in June, then fly to Japan for
-          LOVEBITES in September.
+        {euEvents.length === 0 ? <p class="dash-footnote">No Europe dates in the feed yet.</p> : null}
+        <div class="jmg-region">
+          {euEvents.map((r) => (
+            <div class={r.past ? 'jmg-event jmg-event--past' : 'jmg-event'}>
+              <span class="jmg-event__date">{r.dateLabel}</span>
+              <span class={`jmg-event__band jmg-event__band--${r.bandClass}`}>{r.band}</span>
+              <span class="jmg-event__venue">{r.venue}</span>
+              <span class="jmg-event__city">{r.city}</span>
+            </div>
+          ))}
         </div>
       </section>
 
       <section id="jmg-asia" class="dash-tabpanel">
         <h2 class="dash-section__title">Asia &amp; Oceania</h2>
         <p class="dash-section__intro">Non-Japan Asian dates and Australia/NZ.</p>
-        {asiaGroups.map((g) => (
-          <div class="jmg-region">
-            <h3 class={`jmg-region__title jmg-region__title--${g.titleColor}`}>{g.title}</h3>
-            {g.rows.map((r) => (
-              <div class={r.past ? 'jmg-event jmg-event--past' : 'jmg-event'}>
-                <span class="jmg-event__date">{r.date}</span>
-                <span class={`jmg-event__band jmg-event__band--${r.bandClass}`}>{r.band}</span>
-                <span class="jmg-event__venue">{r.venue}</span>
-                <span class="jmg-event__city">{r.city}</span>
-              </div>
-            ))}
-          </div>
-        ))}
+        {asiaOcEvents.length === 0 ? <p class="dash-footnote">No Asia/Oceania dates outside Japan in the feed yet.</p> : null}
+        <div class="jmg-region">
+          {asiaOcEvents.map((r) => (
+            <div class={r.past ? 'jmg-event jmg-event--past' : 'jmg-event'}>
+              <span class="jmg-event__date">{r.dateLabel}</span>
+              <span class={`jmg-event__band jmg-event__band--${r.bandClass}`}>{r.band}</span>
+              <span class="jmg-event__venue">{r.venue}</span>
+              <span class="jmg-event__city">{r.city}</span>
+            </div>
+          ))}
+        </div>
       </section>
 
       <section id="jmg-fests" class="dash-tabpanel">
@@ -583,7 +346,7 @@ const fests: FestivalCard[] = [
         ))}
       </section>
 
-      <p class="dash-footnote" style="margin-top:2rem;">All dates subject to change. Check official band sites for the latest. Stay heavy, wherever you are.</p>
+      <p class="dash-footnote" style="margin-top:2rem;">Dates pull live from concerts.json. Past shows trim to last 7 days. Stay heavy, wherever you are.</p>
     </div>
   </main>
 
