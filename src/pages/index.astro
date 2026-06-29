@@ -53,17 +53,6 @@ const lastUpdated = data.generatedAt
   description="Curated metal concerts, festivals, and album releases across Florida, Japan, and the wider scene. Updated nightly."
 >
   <Header />
-
-  <aside class="london-callout" aria-label="Field trip: Metal London">
-    <div class="container london-callout__inner">
-      <span class="london-callout__eyebrow">Field Trip</span>
-      <p class="london-callout__text">
-        <strong>Metal London</strong> &mdash; Kevin&rsquo;s post-Wacken pilgrimage, 2&ndash;4 August 2026.
-      </p>
-      <a class="london-callout__cta" href="/london">See the plan &rarr;</a>
-    </div>
-  </aside>
-
   <SceneNav buckets={buckets} grouped={grouped} birthdaysCount={birthdays.length} />
 
   <section class="hero-strip">
@@ -77,6 +66,17 @@ const lastUpdated = data.generatedAt
         releases, livestreams, and the records on heavy rotation.
         {lastUpdated ? <span>Last updated {lastUpdated}.</span> : null}
       </p>
+    </div>
+  </section>
+
+  <section class="field-trip-strip">
+    <div class="container">
+      <a href="/london/" class="field-trip-strip__link">
+        <span class="field-trip-strip__eyebrow">Field Trip</span>
+        <h2 class="field-trip-strip__title">Metal <em>London</em> — A NWOBHM Pilgrimage</h2>
+        <p class="field-trip-strip__sub">Sunday 2 — Tuesday 4 August 2026 · Lovebites @ O2 Academy Islington + the city's metal stops</p>
+        <span class="field-trip-strip__cta">View the trip plan →</span>
+      </a>
     </div>
   </section>
 
