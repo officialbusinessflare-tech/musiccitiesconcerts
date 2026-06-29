@@ -2268,3 +2268,246 @@ button {
   font-style: italic;
   margin: 0;
 }
+
+/* ============================================================
+   Architectural split (Jun 2026) — per-bucket pages + curated
+   overview homepage. Adds:
+     - .bucket-hero        (hero on each bucket page)
+     - .coming-up          (Coming Up Next section on homepage)
+     - .scenes             (The Scenes section on homepage)
+     - .bucket-teasers     (grid of bucket tiles on homepage)
+     - .scene-nav__link.is-active (highlights current bucket pill)
+   Reuses existing .bucket__grid / .card / etc.
+   ============================================================ */
+
+/* ----- Per-bucket page hero ----- */
+.bucket-hero {
+  padding: var(--space-12) 0 var(--space-8);
+  border-bottom: 1px solid var(--color-border);
+  background: linear-gradient(180deg, #0c0c0c 0%, var(--color-bg) 100%);
+}
+
+.bucket-hero__eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-accent);
+  margin: 0 0 var(--space-3);
+}
+
+.bucket-hero__title {
+  font-size: clamp(1.8rem, 4vw, 2.75rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin: 0 0 var(--space-4);
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.bucket-hero__kanji {
+  font-size: 0.55em;
+  color: var(--color-accent);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.bucket-hero__count {
+  font-family: var(--font-mono);
+  font-size: 0.55em;
+  color: var(--color-accent);
+  background: rgba(193, 39, 45, 0.15);
+  padding: 0.15em 0.6em;
+  border-radius: 999px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.bucket-hero__lede {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  max-width: 65ch;
+  margin: 0;
+}
+
+/* ----- Bucket page main ----- */
+.bucket-page {
+  padding: var(--space-12) 0 var(--space-16);
+}
+
+/* ----- Coming Up Next section (homepage) ----- */
+.coming-up {
+  padding: var(--space-12) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.coming-up__header {
+  margin-bottom: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.coming-up__eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-accent);
+}
+
+.coming-up__title {
+  font-size: clamp(1.6rem, 2.8vw, 2.25rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.coming-up__sub {
+  color: var(--color-text-muted);
+  margin: 0;
+  max-width: 65ch;
+}
+
+/* ----- The Scenes section (homepage) ----- */
+.scenes {
+  padding: var(--space-12) 0 var(--space-16);
+  background: var(--color-bg-section);
+}
+
+.scenes__header {
+  margin-bottom: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.scenes__eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-accent);
+}
+
+.scenes__title {
+  font-size: clamp(1.6rem, 2.8vw, 2.25rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.scenes__sub {
+  color: var(--color-text-muted);
+  margin: 0;
+  max-width: 65ch;
+}
+
+/* ----- Bucket teaser tiles ----- */
+.bucket-teasers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+@media (min-width: 640px) {
+  .bucket-teasers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .bucket-teasers {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.bucket-teaser {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-6);
+  background: var(--color-bg-elev);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  text-decoration: none;
+  transition: transform 0.15s ease, border-color 0.15s ease,
+    box-shadow 0.15s ease;
+  position: relative;
+}
+
+.bucket-teaser:hover,
+.bucket-teaser:focus-visible {
+  transform: translateY(-2px);
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-card-hover);
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.bucket-teaser__name {
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  color: var(--color-text);
+}
+
+.bucket-teaser__kanji {
+  font-size: 0.75em;
+  color: var(--color-accent);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.bucket-teaser__count {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 0;
+}
+
+.bucket-teaser__desc {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.bucket-teaser__cta {
+  margin-top: var(--space-2);
+  align-self: flex-start;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.bucket-teaser:hover .bucket-teaser__cta,
+.bucket-teaser:focus-visible .bucket-teaser__cta {
+  color: var(--color-accent-hover);
+}
+
+/* ----- Active state for SceneNav pills (highlight current bucket) ----- */
+.scene-nav__link.is-active {
+  border-color: var(--color-accent);
+  background: rgba(193, 39, 45, 0.18);
+  color: var(--color-text);
+}
+
+.scene-nav__link.is-active .scene-nav__name {
+  color: var(--color-text);
+}
