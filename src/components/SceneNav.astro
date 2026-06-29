@@ -2,9 +2,12 @@
 /**
  * SceneNav — sticky pill-style navigation under the header.
  *
- * Renders one button per bucket. Each button is an anchor jump-link to
- * #bucket-{bucket.id}, and the inline count shows how many entries are
- * in that bucket. Sticky on scroll so it's always reachable.
+ * Renders one pill per bucket, plus a Birthdays pill and a Venues pill.
+ * After the architectural split (Jun 2026), each pill links to that
+ * bucket's dedicated top-level page (/florida, /japan, ...). The inline
+ * count keeps showing how many entries are in each bucket.
+ *
+ * Optional `activeBucketId` lets a bucket page highlight its own pill.
  */
 import type { BucketConfig, ConcertEntry } from '../lib/types';
 
@@ -12,20 +15,40 @@ interface Props {
   buckets: BucketConfig[];
   grouped: Map<string, ConcertEntry[]>;
   birthdaysCount?: number;
+  /**
+   * If set, the matching pill gets the `is-active` class for visual emphasis.
+   * Use either a bucket id (e.g. 'florida-metal-scene'), 'birthdays', or
+   * 'venues'.
+   */
+  activeBucketId?: string;
 }
 
-const { buckets, grouped, birthdaysCount } = Astro.props;
+const { buckets, grouped, birthdaysCount, activeBucketId } = Astro.props;
+
+/**
+ * Map a bucket id to its top-level slug. Kept in one place so the
+ * architectural URL scheme is easy to audit.
+ */
+const BUCKET_HREFS: Record<string, string> = {
+  'florida-metal-scene': '/florida',
+  'japanese-metal': '/japan',
+  'key-festivals': '/festivals',
+  'interesting-elsewhere': '/elsewhere',
+  'album-releases': '/releases',
+};
 ---
 
-<nav class="scene-nav" aria-label="Jump to scene">
+<nav class="scene-nav" aria-label="Browse the scene">
   <div class="container scene-nav__inner">
-    <span class="scene-nav__label">Jump to:</span>
+    <span class="scene-nav__label">Browse:</span>
     <ul class="scene-nav__list">
       {buckets.map((bucket) => {
         const count = grouped.get(bucket.id)?.length ?? 0;
+        const href = BUCKET_HREFS[bucket.id] ?? `#bucket-${bucket.id}`;
+        const isActive = activeBucketId === bucket.id;
         return (
           <li class="scene-nav__item">
-            <a class="scene-nav__link" href={`#bucket-${bucket.id}`}>
+            <a class={`scene-nav__link${isActive ? ' is-active' : ''}`} href={href} aria-current={isActive ? 'page' : undefined}>
               <span class="scene-nav__name">{bucket.name}</span>
               {bucket.kanji ? <span class="scene-nav__kanji" lang="ja">{bucket.kanji}</span> : null}
               <span class="scene-nav__count" aria-label={`${count} entries`}>{count}</span>
@@ -35,14 +58,14 @@ const { buckets, grouped, birthdaysCount } = Astro.props;
       })}
       {birthdaysCount && birthdaysCount > 0 ? (
         <li class="scene-nav__item">
-          <a class="scene-nav__link" href="#bucket-birthdays">
+          <a class={`scene-nav__link${activeBucketId === 'birthdays' ? ' is-active' : ''}`} href="/birthdays" aria-current={activeBucketId === 'birthdays' ? 'page' : undefined}>
             <span class="scene-nav__name">Birthdays</span>
             <span class="scene-nav__count">{birthdaysCount}</span>
           </a>
         </li>
       ) : null}
       <li class="scene-nav__item">
-        <a class="scene-nav__link" href="/venues/">
+        <a class={`scene-nav__link${activeBucketId === 'venues' ? ' is-active' : ''}`} href="/venues" aria-current={activeBucketId === 'venues' ? 'page' : undefined}>
           <span class="scene-nav__name">Venues</span>
         </a>
       </li>
