@@ -180,6 +180,39 @@ const fullLineup: { name: string; tier?: Tier }[] = [
   { name: 'Yngwie Malmsteen', tier: 't1' }, { name: 'Zeltinger Band' },
 ];
 
+type Playlist = {
+  title: string;
+  platform: 'Spotify' | 'YouTube' | 'Apple Music' | 'Other';
+  visibility?: string;
+  url?: string;
+  pending?: boolean;
+  meta?: string;
+};
+
+const playlists: Playlist[] = [
+  {
+    title: 'Wacken 2026 Familiarization',
+    platform: 'Spotify',
+    visibility: 'private',
+    url: 'https://open.spotify.com/playlist/4tJaTF2zrn28TNzaXnZMaZ',
+    meta: '93 tracks, 22 bands — headliners + Tier 1 + Tier 2',
+  },
+  {
+    title: 'Wacken 2026 Tier 3 Discovery',
+    platform: 'Spotify',
+    visibility: 'private',
+    url: 'https://open.spotify.com/playlist/3in2kkXVfduTjUcEWmf43X',
+    meta: '265 tracks, 88 bands — deep cut discovery',
+  },
+  {
+    title: 'Wacken 2026 Lineup Discovery',
+    platform: 'YouTube',
+    visibility: 'public',
+    pending: true,
+    meta: 'Music Cities Radio channel — pending build',
+  },
+];
+
 function pillClass(kind?: string) {
   switch (kind) {
     case 'confirmed': return 'wkn-pill wkn-pill--confirmed';
@@ -375,11 +408,25 @@ function pillClass(kind?: string) {
       </section>
 
       <section class="dash-section">
-        <h2 class="dash-section__title">Playlists</h2>
+        <h2 class="dash-section__title">Playlists & links</h2>
+        <p class="dash-section__intro">
+          Curated Wacken 2026 listening plus other reference links. Each row links out
+          to the platform; new playlists and references slot into the list as they arrive.
+        </p>
         <dl class="wkn-meta">
-          <div><dt>Wacken 2026 Familiarization (Spotify, private)</dt><dd><a href="https://open.spotify.com/playlist/4tJaTF2zrn28TNzaXnZMaZ" target="_blank" rel="noopener noreferrer">open</a> — 93 tracks, 22 bands, headliners + Tier 1 + Tier 2</dd></div>
-          <div><dt>Wacken 2026 Tier 3 Discovery (Spotify, private)</dt><dd><a href="https://open.spotify.com/playlist/3in2kkXVfduTjUcEWmf43X" target="_blank" rel="noopener noreferrer">open</a> — 265 tracks, 88 bands, deep cut discovery</dd></div>
-          <div><dt>Wacken 2026 Lineup Discovery (YouTube, public)</dt><dd>Music Cities Radio channel — pending build</dd></div>
+          {playlists.map((p) => (
+            <div>
+              <dt>{p.title} <small>({p.platform}{p.visibility ? `, ${p.visibility}` : ''})</small></dt>
+              <dd>
+                {p.url ? (
+                  <a href={p.url} target="_blank" rel="noopener noreferrer">Open &rarr;</a>
+                ) : p.pending ? (
+                  <em>Pending build</em>
+                ) : null}
+                {p.meta ? <Fragment> — {p.meta}</Fragment> : null}
+              </dd>
+            </div>
+          ))}
         </dl>
       </section>
 
