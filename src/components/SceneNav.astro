@@ -7,13 +7,15 @@
  * links to that bucket's dedicated top-level page (/florida, /japan, ...).
  * The inline count keeps showing how many entries are in each bucket.
  *
- * Row 2 (Scene Briefs:) renders editorial briefing pages that don't map to
- * a ClickUp bucket — Wacken 2026, Japan Scene, Japan Global, Metal London.
- * These have no count.
+ * Row 2 (Field Trips:) — places Kevin is actually going. Wacken 2026 and
+ * Metal London. No counts.
+ *
+ * Row 3 (Scene Briefs:) — editorial briefing pages that aren't field trips
+ * and don't map to a ClickUp bucket. Japan Scene, Japan Global. No counts.
  *
  * Optional `activeBucketId` lets a page highlight its own pill. Pass either
  * a bucket id (e.g. 'florida-metal-scene'), 'birthdays', 'venues', or a
- * brief id ('wacken', 'japan-scene', 'japan-global', 'london').
+ * field-trip / brief id ('wacken', 'london', 'japan-scene', 'japan-global').
  */
 import type { BucketConfig, ConcertEntry } from '../lib/types';
 
@@ -24,7 +26,7 @@ interface Props {
   /**
    * If set, the matching pill gets the `is-active` class for visual emphasis.
    * Use either a bucket id (e.g. 'florida-metal-scene'), 'birthdays', 'venues',
-   * or a brief id ('wacken', 'japan-scene', 'japan-global', 'london').
+   * or a field-trip / brief id ('wacken', 'london', 'japan-scene', 'japan-global').
    */
   activeBucketId?: string;
 }
@@ -44,15 +46,20 @@ const BUCKET_HREFS: Record<string, string> = {
 };
 
 /**
+ * Field Trips — where Kevin is actually going. Chronological order.
+ */
+const FIELD_TRIPS: { id: string; name: string; href: string }[] = [
+  { id: 'wacken', name: 'Wacken 2026', href: '/wacken' },
+  { id: 'london', name: 'Metal London', href: '/london' },
+];
+
+/**
  * Scene Briefs — editorial dashboards that live alongside the bucket pages.
- * Order: Wacken first (closest in time), then the two Japan briefs, then
- * the London field-trip page.
+ * Wacken was promoted to a Field Trip; only the two Japan briefs remain.
  */
 const SCENE_BRIEFS: { id: string; name: string; href: string }[] = [
-  { id: 'wacken', name: 'Wacken 2026', href: '/wacken' },
   { id: 'japan-scene', name: 'Japan Scene', href: '/japan-scene' },
   { id: 'japan-global', name: 'Japan Global', href: '/japan-global' },
-  { id: 'london', name: 'Metal London', href: '/london' },
 ];
 ---
 
@@ -88,6 +95,22 @@ const SCENE_BRIEFS: { id: string; name: string; href: string }[] = [
             <span class="scene-nav__name">Venues</span>
           </a>
         </li>
+      </ul>
+    </div>
+
+    <div class="scene-nav__row scene-nav__row--briefs">
+      <span class="scene-nav__label">Field Trips:</span>
+      <ul class="scene-nav__list">
+        {FIELD_TRIPS.map((trip) => {
+          const isActive = activeBucketId === trip.id;
+          return (
+            <li class="scene-nav__item">
+              <a class={`scene-nav__link${isActive ? ' is-active' : ''}`} href={trip.href} aria-current={isActive ? 'page' : undefined}>
+                <span class="scene-nav__name">{trip.name}</span>
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </div>
 
