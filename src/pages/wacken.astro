@@ -6,8 +6,8 @@ import Footer from '../components/Footer.astro';
 /**
  * /wacken — Wacken 2026 editorial dashboard.
  *
- * Built from the Wacken_Dashboard_20260622 brief. Our personal schedule
- * is INTENTIONALLY PUBLIC — the framing as "our schedule" is the
+ * Built from the Wacken_Dashboard_20260622 brief. Kevin's personal schedule
+ * is INTENTIONALLY PUBLIC — the framing as "Kevin's schedule" is the
  * editorial voice The Music Cities publishes under. Do not strip it.
  *
  * Tier color codes: headliner/tier1/tier2/tier3 surface through the .wkn-*
@@ -91,7 +91,6 @@ const days: DayBlock[] = [
   {
     head: 'WEDNESDAY JULY 29',
     slots: [
-      { time: '12:00-12:45', band: 'Broken By The Scream', meta: 'Louder stage', why: 'Tier 1, JP. Confirmed Wacken 2026 (signed to Metal Blade in 2026). Two Engine Model anchor — second Japanese band on the bill alongside Lovebites. Early afternoon slot, get there before doors close.', tier: 't1' },
       { time: '16:00-17:00', band: 'Lovebites', meta: 'Faster stage', why: 'Tier 1. Anchor of day 1. Festival set ahead of the O2 show. Get to the rail early.', tier: 't1' },
       { time: '21:00-22:30', band: 'Lacuna Coil', meta: 'Louder stage', why: 'Tier 2, newly added. No conflict with anything else you want.', tier: 't2' },
       { time: '22:45-00:00', band: 'Rose Tattoo', meta: 'W:E:T stage', why: 'Optional. Starts as Lacuna Coil ends, slight overlap on the tail. Easy walk if you want both.', tier: 't2' },
@@ -151,18 +150,6 @@ const days: DayBlock[] = [
   },
 ];
 
-type TripArcRow = { date: string; detail: string; sub?: string; subWarn?: boolean };
-const tripArc: TripArcRow[] = [
-  { date: 'Jul 28 Tue', detail: 'Travel to Hamburg, transfer to Wacken' },
-  { date: 'Jul 29 Wed', detail: 'Wacken day 1', sub: 'Festival opens' },
-  { date: 'Jul 30 Thu', detail: 'Wacken day 2' },
-  { date: 'Jul 31 Fri', detail: 'Wacken day 3' },
-  { date: 'Aug 1 Sat', detail: 'Wacken day 4 final', sub: 'Festival closes' },
-  { date: 'Aug 2 Sun', detail: 'Hamburg to London' },
-  { date: 'Aug 3 Mon', detail: 'Lovebites London show + meet and greet', sub: 'O2 Academy Islington, doors 19:00 curfew 23:00 (Live Nation UK confirmed).' },
-  { date: 'Aug 4 Tue', detail: 'Fly home' },
-];
-
 const fullLineup: { name: string; tier?: Tier }[] = [
   { name: 'Def Leppard', tier: 'headliner' }, { name: 'Judas Priest', tier: 'headliner' }, { name: 'Powerwolf', tier: 'headliner' }, { name: 'Sabaton', tier: 'headliner' },
   { name: '5th Avenue' }, { name: '9mm Headshot' }, { name: 'Ad Infinitum' }, { name: 'Airbourne' }, { name: 'Alcest' }, { name: 'Alestorm' }, { name: 'Alfahanne' }, { name: 'Alien Ant Farm' }, { name: 'Alien Rockin Explosion' }, { name: 'Allt' }, { name: 'Anaal Nathrakh' },
@@ -180,39 +167,6 @@ const fullLineup: { name: string; tier?: Tier }[] = [
   { name: 'Yngwie Malmsteen', tier: 't1' }, { name: 'Zeltinger Band' },
 ];
 
-type Playlist = {
-  title: string;
-  platform: 'Spotify' | 'YouTube' | 'Apple Music' | 'Other';
-  visibility?: string;
-  url?: string;
-  pending?: boolean;
-  meta?: string;
-};
-
-const playlists: Playlist[] = [
-  {
-    title: 'Wacken 2026 Familiarization',
-    platform: 'Spotify',
-    visibility: 'private',
-    url: 'https://open.spotify.com/playlist/4tJaTF2zrn28TNzaXnZMaZ',
-    meta: '93 tracks, 22 bands — headliners + Tier 1 + Tier 2',
-  },
-  {
-    title: 'Wacken 2026 Tier 3 Discovery',
-    platform: 'Spotify',
-    visibility: 'private',
-    url: 'https://open.spotify.com/playlist/3in2kkXVfduTjUcEWmf43X',
-    meta: '265 tracks, 88 bands — deep cut discovery',
-  },
-  {
-    title: 'Wacken 2026 Lineup Discovery',
-    platform: 'YouTube',
-    visibility: 'public',
-    pending: true,
-    meta: 'Music Cities Radio channel — pending build',
-  },
-];
-
 function pillClass(kind?: string) {
   switch (kind) {
     case 'confirmed': return 'wkn-pill wkn-pill--confirmed';
@@ -225,9 +179,9 @@ function pillClass(kind?: string) {
 
 <BaseLayout
   title="Wacken 2026 Dashboard | The Music Cities"
-  description="The 35th anniversary edition of Wacken Open Air, July 29 to August 1, 2026 — lineup, priority tiers, conflict picks, Metal Battle, and our day-by-day schedule."
+  description="The 35th anniversary edition of Wacken Open Air, July 29 to August 1, 2026 — lineup, priority tiers, conflict picks, Metal Battle, and Kevin's day-by-day schedule."
 >
-  <Header title="Wacken 2026 Dashboard" />
+  <Header />
 
   <section class="dash-hero">
     <div class="container">
@@ -291,10 +245,10 @@ function pillClass(kind?: string) {
         <p class="dash-section__intro">
           Wacken Metal Battle pits one band from each participating country in a Headbangers Stage tournament
           during the festival. Confirmed national champions get a Wacken slot. Tracking the US closely
-          because we attended the US National Final on June 13 in San Diego.
+          because Kevin attended the US National Final on June 13 in San Diego.
         </p>
         <dl class="wkn-meta">
-          <div><dt>US National Final</dt><dd>June 13, 2026, Brick By Brick, San Diego — we attended</dd></div>
+          <div><dt>US National Final</dt><dd>June 13, 2026, Brick By Brick, San Diego — Kevin attended</dd></div>
           <div><dt>US WINNER</dt><dd class="wkn-meta__green">GANNONDORF — San Diego, avant-garde black metal. The hometown band took it. Took judges and crowd. Judges: Rod Kukla (Silver Lining Music), Martin Koller (Prophecy Productions / SPKR Media), Kelly McLauchlin (Pessimist). Prize: WOA slot, full backline, $1,000 USD flight stipend, VIP camping.</dd></div>
           <div><dt>USA slot at Wacken</dt><dd class="wkn-meta__green">OPENING SLOT of the entire tournament. Wednesday July 29, 11:25 to 12:05, Headbangers Stage.</dd></div>
           <div><dt>Japan</dt><dd>Given By The Flames (gothic metalcore). Thursday July 30, 14:20 to 14:40, Headbangers Stage.</dd></div>
@@ -323,7 +277,7 @@ function pillClass(kind?: string) {
       </section>
 
       <section class="dash-section">
-        <h2 class="dash-section__title">Our personal schedule</h2>
+        <h2 class="dash-section__title">Kevin's personal schedule</h2>
         <p class="dash-section__intro">
           Built from the first running order published May 20, 2026. Set times are subject to change.
           Slots flagged for you are priority tier bands. Times in 24 hour. Stage in parentheses.
@@ -373,7 +327,7 @@ function pillClass(kind?: string) {
           <div><dt>Status</dt><dd>Wacken official schedule still not released as of June 22. Mid-July rollout has not started.</dd></div>
           <div><dt>Confirmed slots so far</dt><dd>Mantar, Triptykon (unchanged since May)</dd></div>
           <div><dt>Lovebites Wacken M&amp;G</dt><dd>Not announced</dd></div>
-          <div><dt>Lovebites London (Mon Aug 3)</dt><dd>Confirmed at O2 Academy Islington — doors 19:00, curfew 23:00, via Live Nation UK. The "Oct 3 additional show" line in earlier sweeps was a misdated source artifact; it's the same Aug 3 show. M&amp;G not yet announced; watching wacken.com and band socials.</dd></div>
+          <div><dt>Lovebites London M&amp;G</dt><dd>Confirmed at O2 Academy Islington — doors 19:00, curfew 23:00, via Live Nation UK. M&amp;G not yet announced; watching wacken.com and band socials.</dd></div>
           <div><dt>Band-side fan club events</dt><dd>None announced for any priority band as of June 22</dd></div>
         </dl>
         <div class="wkn-table-wrap">
@@ -393,40 +347,11 @@ function pillClass(kind?: string) {
       </section>
 
       <section class="dash-section">
-        <h2 class="dash-section__title">Our trip arc</h2>
-        <div class="wkn-arc">
-          {tripArc.map((r) => (
-            <div class="wkn-arc__row">
-              <div class="wkn-arc__date">{r.date}</div>
-              <div class="wkn-arc__detail">
-                {r.detail}
-                {r.sub ? <small class={r.subWarn ? 'wkn-arc__sub wkn-arc__sub--warn' : 'wkn-arc__sub'}>{r.sub}</small> : null}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section class="dash-section">
-        <h2 class="dash-section__title">Playlists & links</h2>
-        <p class="dash-section__intro">
-          Curated Wacken 2026 listening plus other reference links. Each row links out
-          to the platform; new playlists and references slot into the list as they arrive.
-        </p>
+        <h2 class="dash-section__title">Playlists</h2>
         <dl class="wkn-meta">
-          {playlists.map((p) => (
-            <div>
-              <dt>{p.title} <small>({p.platform}{p.visibility ? `, ${p.visibility}` : ''})</small></dt>
-              <dd>
-                {p.url ? (
-                  <a href={p.url} target="_blank" rel="noopener noreferrer">Open &rarr;</a>
-                ) : p.pending ? (
-                  <em>Pending build</em>
-                ) : null}
-                {p.meta ? <Fragment> — {p.meta}</Fragment> : null}
-              </dd>
-            </div>
-          ))}
+          <div><dt>Wacken 2026 Familiarization (Spotify, private)</dt><dd><a href="https://open.spotify.com/playlist/4tJaTF2zrn28TNzaXnZMaZ" target="_blank" rel="noopener noreferrer">open</a> — 93 tracks, 22 bands, headliners + Tier 1 + Tier 2</dd></div>
+          <div><dt>Wacken 2026 Tier 3 Discovery (Spotify, private)</dt><dd><a href="https://open.spotify.com/playlist/3in2kkXVfduTjUcEWmf43X" target="_blank" rel="noopener noreferrer">open</a> — 265 tracks, 88 bands, deep cut discovery</dd></div>
+          <div><dt>Wacken 2026 Lineup Discovery (YouTube, public)</dt><dd>Music Cities Radio channel — pending build</dd></div>
         </dl>
       </section>
 
@@ -449,7 +374,7 @@ function pillClass(kind?: string) {
           <li>Two Japanese bands confirmed: Lovebites and Broken By The Scream. Validates Two Engine Model thesis. Both are content priorities.</li>
           <li>Broken By The Scream signed to Metal Blade Records in 2026. Major label inflection point, reinforces the Two Engine Model thesis.</li>
           <li>Arch Enemy playing with Lauren Hart replacing Alissa White-Gluz. Connects to Leadership episode thesis where Alissa left two days after that episode launched.</li>
-          <li>Yngwie Malmsteen is our neighbor. Griffin and Yngwie concept in development. New Yngwie solo album finished, release later in 2026. Potential approach opportunity at Wacken.</li>
+          <li>Yngwie Malmsteen is Kevin's neighbor. Griffin and Yngwie concept in development. New Yngwie solo album finished, release later in 2026. Potential approach opportunity at Wacken.</li>
           <li>Scorpions presence is via the Uli Jon Roth Virgin Killer Reborn 50th anniversary show with special guests, not the full current Scorpions touring lineup. Roth confirmed he will play Virgin Killer in full for the first time ever.</li>
           <li>Judas Priest Faithkeepers Tour extended to 28 dates across 15 countries, Wacken July 31 included. Ian Hill confirmed studio work on 20th album.</li>
           <li>Sepultura Wacken set confirmed as their last German show. Final European date is Dublin August 9.</li>
@@ -457,7 +382,7 @@ function pillClass(kind?: string) {
           <li>Def Leppard released a Greatest Hits compilation June 12, 2026 (standard black and blood-red marbled vinyl with 2026 tour artwork) plus standalone single "Rejoice".</li>
           <li>Judas Priest released "The Best Of Judas Priest" compilation in June 2026. Faithkeepers tour intact, Wacken July 31 set unchanged.</li>
           <li>Sabaton announced Grand Swedish Arena Tour 2027 on June 12, tickets went on sale June 15. Wacken closing-headliner slot August 1 unchanged.</li>
-          <li>Gannondorf, the US Metal Battle 2026 champion, is a San Diego avant-garde black metal band. They won June 13 at Brick By Brick taking both judges and crowd. We attended. They open the international Metal Battle tournament on the Headbangers Stage Wednesday July 29 at 11:25.</li>
+          <li>Gannondorf, the US Metal Battle 2026 champion, is a San Diego avant-garde black metal band. They won June 13 at Brick By Brick taking both judges and crowd. Kevin attended. They open the international Metal Battle tournament on the Headbangers Stage Wednesday July 29 at 11:25.</li>
         </ul>
       </section>
 
