@@ -9,7 +9,7 @@
  *   - SceneNav (now links to top-level pages)
  *   - Hero strip ("Concerts. Releases. The scene.")
  *   - Field Trips: TWO strips — Wacken (chronologically first), then London
- *   - Coming Up Next: next 8 entries across ALL buckets
+ *   - Coming Up Next: next 9 entries across ALL buckets
  *   - The Scenes: 7 bucket teaser tiles
  *   - Scene Briefs: 2 editorial dashboards (Japan Scene, Japan Global)
  *   - Footer
@@ -44,11 +44,11 @@ const upcoming: ConcertEntry[] = (data.entries ?? [])
 
 const grouped = groupByBucket(upcoming, buckets);
 
-// Coming Up Next — the next 8 entries across the WHOLE calendar, regardless
+// Coming Up Next — the next 9 entries across the WHOLE calendar, regardless
 // of bucket. Sorted by date ascending.
 const comingUp = [...upcoming]
   .sort((a, b) => a.date.localeCompare(b.date))
-  .slice(0, 8);
+  .slice(0, 9);
 
 // Bucket teasers — one tile per bucket, with the count and short description.
 // Plus a Venues tile (same visual pattern, lives at /venues).
@@ -82,7 +82,7 @@ const venuesTeaser = {
   id: 'venues',
   name: 'Go-To Venues',
   kanji: undefined as string | undefined,
-  description: "The rooms Kevin anchors his coverage on. One per city — where the bands you care about actually play.",
+  description: "The rooms we anchor our coverage on. One per city — where the bands you care about actually play.",
   count: null as number | null,
   href: '/venues',
 };
@@ -90,7 +90,7 @@ const venuesTeaser = {
 const teasers = [...bucketTeasers, birthdaysTeaser, venuesTeaser];
 
 /**
- * Field Trips — where Kevin is actually going. Chronological order.
+ * Field Trips — where we're actually going. Chronological order.
  * Wacken (29 Jul – 1 Aug) lands before London (2 – 4 Aug).
  */
 const fieldTrips = [
@@ -98,7 +98,7 @@ const fieldTrips = [
     id: 'wacken',
     href: '/wacken',
     titleHtml: 'Wacken <em>2026</em> — 35th Anniversary Pilgrimage',
-    sub: "Wednesday 29 July — Saturday 1 August 2026 · 4 days, ~140 bands, four headliners, Kevin's tier-coded schedule + conflict picks",
+    sub: "Wednesday 29 July — Saturday 1 August 2026 · 4 days, ~140 bands, four headliners, our tier-coded schedule + conflict picks",
     cta: 'View the brief →',
   },
   {
@@ -152,7 +152,7 @@ const lastUpdated = data.generatedAt
         Concerts. Releases. <em>The scene.</em>
       </h1>
       <p class="hero-strip__body">
-        Not an aggregator. This is the calendar Kevin actually pays attention to —
+        Not an aggregator. This is the calendar we actually pay attention to —
         Florida's metal venues, the Japanese watch list, marquee festivals, new
         releases, livestreams, and the records on heavy rotation.
         {lastUpdated ? <span>Last updated {lastUpdated}.</span> : null}
@@ -164,7 +164,7 @@ const lastUpdated = data.generatedAt
     <div class="container">
       <header class="field-trips__header">
         <span class="field-trips__eyebrow">Field Trips</span>
-        <p class="field-trips__sub">Where Kevin's actually going. The 2026 post-Wacken arc, Wacken then London.</p>
+        <p class="field-trips__sub">Where we're actually going. The 2026 post-Wacken arc — four days of Wacken, then Broken By The Scream Sunday and Lovebites Monday in London.</p>
       </header>
       <div class="field-trips__stack">
         {fieldTrips.map((trip) => (
@@ -183,7 +183,7 @@ const lastUpdated = data.generatedAt
     <div class="container">
       <header class="coming-up__header">
         <span class="coming-up__eyebrow">Coming up next</span>
-        <h2 class="coming-up__title">The next eight on the calendar</h2>
+        <h2 class="coming-up__title">The next nine on the calendar</h2>
         <p class="coming-up__sub">Across every bucket, soonest first. Use the bucket pages for the full lists.</p>
       </header>
       {comingUp.length === 0 ? (
