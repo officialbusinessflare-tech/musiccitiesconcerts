@@ -1,27 +1,6 @@
 {
-  "generatedAt": "2026-06-29T20:25:43.549Z",
+  "generatedAt": "2026-06-30T07:08:25.728Z",
   "entries": [
-    {
-      "id": "86baaafeh",
-      "name": "Nicko McBrain Q&A w/ Capnharris &amp; Co — Rock N Roll Ribs, Coral Springs FL",
-      "date": "2026-06-29",
-      "venue": "Rock N Roll Ribs",
-      "city": "Coral Springs",
-      "state": "FL",
-      "bands": [
-        "Nicko McBrain Q",
-        "Capnharris"
-      ],
-      "description": "Nicko McBrain (Iron Maiden) — Q&A / Recording Event with Capnharris & Co",
-      "ticketUrl": "https://linktr.ee/TitaniumTart",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86baaafeh",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86bae8yt0",
       "name": "NGY / Bobby Peru / Aotte / Zero Pulse / Regarding Waves — Churchill's Pub, Miami FL",
