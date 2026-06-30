@@ -21,10 +21,9 @@ try {
 }
 
 function formatSubCount(n: number): string {
-  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
-  if (n >= 10_000) return (n / 1_000).toFixed(0) + 'K';
-  if (n >= 1_000) return (n / 1_000).toFixed(1).replace(/\.0$/, '') + 'K';
-  return n.toLocaleString();
+  // Always render the exact subscriber count with US thousands separators
+  // (e.g. 119283 -> "119,283"). No K/M abbreviation.
+  return n.toLocaleString('en-US');
 }
 
 const subCount = youtubeStats?.subscriberCount;
