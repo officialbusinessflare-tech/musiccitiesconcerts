@@ -3410,3 +3410,177 @@ button {
     font-size: 0.7rem;
   }
 }
+
+
+/* ============================================================
+   YouTube video strips + cards
+   Used by src/components/VideoStrip.astro + VideoCard.astro.
+   Renders on homepage and bucket pages.
+   ============================================================ */
+
+.video-strip {
+  padding: var(--space-12) 0 var(--space-8);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg-section);
+}
+
+.video-strip__title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-accent);
+  margin: 0 0 var(--space-5);
+}
+
+.video-strip__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+@media (min-width: 900px) {
+  .video-strip__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.video-strip__scroll {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 80%;
+  gap: var(--space-4);
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  padding-bottom: var(--space-3);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.video-strip__scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.video-strip__scroll > .video-card {
+  scroll-snap-align: start;
+}
+
+@media (min-width: 640px) {
+  .video-strip__scroll {
+    grid-auto-columns: 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .video-strip__scroll {
+    grid-auto-columns: 28%;
+  }
+}
+
+/* ----- Video card ----- */
+.video-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-elev);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: transform 0.15s ease, border-color 0.15s ease,
+    box-shadow 0.15s ease;
+  box-shadow: var(--shadow-card);
+}
+
+.video-card:hover,
+.video-card:focus-visible {
+  transform: translateY(-2px);
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-card-hover);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.video-card__thumb-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  overflow: hidden;
+}
+
+.video-card__thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.video-card__thumb--placeholder {
+  background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
+}
+
+.video-card__badge {
+  position: absolute;
+  top: var(--space-2);
+  left: var(--space-2);
+  padding: 2px var(--space-2);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  line-height: 1.4;
+}
+
+.video-card__badge--tmc {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.video-card__badge--radio {
+  background: rgba(20, 20, 20, 0.85);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-divider);
+}
+
+.video-card__duration {
+  position: absolute;
+  bottom: var(--space-2);
+  right: var(--space-2);
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.82);
+  color: #fff;
+  border-radius: 2px;
+  line-height: 1.4;
+}
+
+.video-card__body {
+  padding: var(--space-3) var(--space-4) var(--space-4);
+}
+
+.video-card__title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+  color: var(--color-text);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 640px) {
+  .video-strip {
+    padding: var(--space-8) 0 var(--space-6);
+  }
+  .video-card__title {
+    font-size: 0.9rem;
+  }
+}
