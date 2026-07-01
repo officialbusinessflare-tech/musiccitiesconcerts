@@ -1,0 +1,90 @@
+---
+/**
+ * VideoCard — one YouTube video tile.
+ *
+ * Renders a thumbnail with a duration badge and a channel badge, wrapped
+ * in a link that opens the video on youtube.com in a new tab.
+ *
+ * Props:
+ *   video        { id, title, thumbnails, durationSeconds, publishedAt }
+ *   channelBadge "TMC" | "Radio"
+ */
+export interface VideoInput {
+  id: string;
+  title: string;
+  publishedAt?: string;
+  thumbnails?: {
+    default?: { url: string; width?: number; height?: number };
+    medium?: { url: string; width?: number; height?: number };
+    high?: { url: string; width?: number; height?: number };
+    standard?: { url: string; width?: number; height?: number };
+    maxres?: { url: string; width?: number; height?: number };
+  };
+  duration?: string;
+  durationSeconds?: number;
+}
+
+interface Props {
+  video: VideoInput;
+  channelBadge: 'TMC' | 'Radio';
+}
+
+const { video, channelBadge } = Astro.props;
+
+function pickThumb(v: VideoInput): string {
+  const t = v.thumbnails || {};
+  return (
+    t.maxres?.url ||
+    t.standard?.url ||
+    t.high?.url ||
+    t.medium?.url ||
+    t.default?.url ||
+    ''
+  );
+}
+
+function formatDuration(sec: number): string {
+  const s = Math.max(0, Math.floor(sec || 0));
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const ss = s % 60;
+  const pad = (n: number) => String(n).padStart(2, '0');
+  if (h > 0) return `${h}:${pad(m)}:${pad(ss)}`;
+  return `${m}:${pad(ss)}`;
+}
+
+const thumb = pickThumb(video);
+const durationLabel = formatDuration(video.durationSeconds ?? 0);
+const badgeClass =
+  channelBadge === 'TMC' ? 'video-card__badge--tmc' : 'video-card__badge--radio';
+const href = `https://youtube.com/watch?v=${video.id}`;
+---
+
+<a
+  class="video-card"
+  href={href}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label={`${video.title} — open on YouTube`}
+>
+  <div class="video-card__thumb-wrap">
+    {thumb ? (
+      <img
+        class="video-card__thumb"
+        src={thumb}
+        alt=""
+        loading="lazy"
+        decoding="async"
+      />
+    ) : (
+      <div class="video-card__thumb video-card__thumb--placeholder" aria-hidden="true"></div>
+    )}
+    <span class={`video-card__badge ${badgeClass}`}>{channelBadge}</span>
+    {durationLabel && durationLabel !== '0:00' ? (
+      <span class="video-card__duration">{durationLabel}</span>
+    ) : null}
+  </div>
+  <div class="video-card__body">
+    <h3 class="video-card__title">{video.title}</h3>
+  </div>
+</a>

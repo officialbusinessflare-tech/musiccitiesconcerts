@@ -1,0 +1,40 @@
+---
+/**
+ * VideoStrip — a labeled strip of VideoCards.
+ *
+ * Silent-hide: if `videos` is empty/null/undefined, render nothing. That way
+ * bucket pages can drop the strip in without a null-check.
+ *
+ * Props:
+ *   title        strip heading (small red eyebrow)
+ *   videos       array of video records (see VideoCard)
+ *   channelBadge "TMC" | "Radio"
+ *   layout       "grid" (default) | "scroll"
+ */
+import VideoCard from './VideoCard.astro';
+import type { VideoInput } from './VideoCard.astro';
+
+interface Props {
+  title: string;
+  videos?: VideoInput[] | null;
+  channelBadge: 'TMC' | 'Radio';
+  layout?: 'grid' | 'scroll';
+}
+
+const { title, videos, channelBadge, layout = 'grid' } = Astro.props;
+
+const items = Array.isArray(videos) ? videos.filter(Boolean) : [];
+---
+
+{items.length > 0 ? (
+  <section class="video-strip">
+    <div class="container">
+      <h2 class="video-strip__title">{title}</h2>
+      <div class={layout === 'scroll' ? 'video-strip__scroll' : 'video-strip__grid'}>
+        {items.map((v) => (
+          <VideoCard video={v} channelBadge={channelBadge} />
+        ))}
+      </div>
+    </div>
+  </section>
+) : null}
