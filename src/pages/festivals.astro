@@ -13,6 +13,7 @@ import SceneNav from '../components/SceneNav.astro';
 import Footer from '../components/Footer.astro';
 import ShowCard from '../components/ShowCard.astro';
 import ReleaseCard from '../components/ReleaseCard.astro';
+import VideoStrip from '../components/VideoStrip.astro';
 import type { BucketsConfigFile, ConcertsDataFile, ConcertEntry, BirthdaysDataFile } from '../lib/types';
 import { categorize, groupByBucket } from '../lib/categorize';
 import { collectKnownVenues, reparseEntry } from '../lib/parse-name';
@@ -20,6 +21,17 @@ import { collectKnownVenues, reparseEntry } from '../lib/parse-name';
 import bucketsConfig from '../../buckets.config.json';
 import concertsData from '../../concerts.json';
 import birthdaysData from '../../birthdays.json';
+
+// YouTube content — silent fallback so a missing file doesn't break the build.
+let ytData: any = {
+  channels: { tmc: { recentLongform: [], recentShorts: [] }, radio: { recentLongform: [], recentShorts: [] } },
+  playlists: {},
+};
+try {
+  ytData = (await import('../../public/youtube-content.json')).default ?? ytData;
+} catch (err) {}
+const bucketPlaylist = ytData?.playlists?.['festivals'] ?? [];
+const radioShorts = ytData?.channels?.radio?.recentShorts ?? [];
 
 const BUCKET_ID = 'key-festivals';
 
@@ -62,6 +74,8 @@ const entries = (grouped.get(BUCKET_ID) ?? []).sort((a, b) => a.date.localeCompa
     </div>
   </section>
 
+  <VideoStrip title="Recent Festivals Episodes" videos={bucketPlaylist} channelBadge="TMC" />
+
   <main class="bucket-page">
     <div class="container">
       {entries.length === 0 ? (
@@ -75,6 +89,8 @@ const entries = (grouped.get(BUCKET_ID) ?? []).sort((a, b) => a.date.localeCompa
       )}
     </div>
   </main>
+
+  <VideoStrip title="Performance Shorts" videos={radioShorts.slice(0, 6)} channelBadge="Radio" layout="scroll" />
 
   <Footer />
 </BaseLayout>

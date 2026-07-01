@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import VideoStrip from '../components/VideoStrip.astro';
 
 /**
  * /wacken — Wacken 2026 editorial dashboard.
@@ -175,6 +176,17 @@ function pillClass(kind?: string) {
     default: return 'wkn-pill';
   }
 }
+
+// YouTube content — silent fallback so a missing file doesnt break the build.
+let ytData: any = {
+  channels: { tmc: { recentLongform: [], recentShorts: [] }, radio: { recentLongform: [], recentShorts: [] } },
+  playlists: {},
+};
+try {
+  ytData = (await import("../../public/youtube-content.json")).default ?? ytData;
+} catch (err) {}
+const bucketPlaylist = ytData?.playlists?.["wacken"] ?? [];
+const radioShorts = ytData?.channels?.radio?.recentShorts ?? [];
 ---
 
 <BaseLayout
@@ -196,6 +208,8 @@ function pillClass(kind?: string) {
       <div class="wkn-countdown" id="wkn-countdown" aria-live="polite"></div>
     </div>
   </section>
+
+  <VideoStrip title="Recent Wacken Episodes" videos={bucketPlaylist} channelBadge="TMC" />
 
   <main class="dash-main">
     <div class="container">
@@ -387,6 +401,8 @@ function pillClass(kind?: string) {
 
     </div>
   </main>
+
+  <VideoStrip title="Performance Shorts" videos={radioShorts.slice(0, 6)} channelBadge="Radio" layout="scroll" />
 
   <Footer />
 
