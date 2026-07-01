@@ -1,0 +1,1665 @@
+{
+  "fetchedAt": "2026-07-01T07:08:10.517Z",
+  "channels": {
+    "tmc": {
+      "handle": "@themusiccitiespodcast",
+      "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
+      "title": "The Music Cities ",
+      "subscriberCount": 119000,
+      "videoCount": 300,
+      "recentLongform": [
+        {
+          "id": "eS-V5Fb9yOQ",
+          "title": "Cities Chase Fame, Ignoring The Real Builders Of Success! #shorts",
+          "publishedAt": "2026-06-24T12:48:31Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/eS-V5Fb9yOQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/eS-V5Fb9yOQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/eS-V5Fb9yOQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/eS-V5Fb9yOQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/eS-V5Fb9yOQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M21S",
+          "durationSeconds": 81
+        },
+        {
+          "id": "G1TWg8rEUzQ",
+          "title": "Fate Defined |Wacken Metal Battle Finals | San Diego",
+          "publishedAt": "2026-06-24T04:47:01Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M47S",
+          "durationSeconds": 167
+        },
+        {
+          "id": "Kyc4F71XJ5Q",
+          "title": "Japanese Metal Queens Building Their Own Mountain! #shorts",
+          "publishedAt": "2026-06-23T20:01:25Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Kyc4F71XJ5Q/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Kyc4F71XJ5Q/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Kyc4F71XJ5Q/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Kyc4F71XJ5Q/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Kyc4F71XJ5Q/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M16S",
+          "durationSeconds": 76
+        },
+        {
+          "id": "1l5AEQJELwk",
+          "title": "Nemesis | Wacken Metal Battle Finals | San Diego",
+          "publishedAt": "2026-06-23T03:37:44Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M53S",
+          "durationSeconds": 173
+        }
+      ],
+      "recentShorts": [
+        {
+          "id": "EAItbTO_7fk",
+          "title": "David Allan Coe: The REAL Outlaw Country Legend They Don't Tell You About!",
+          "publishedAt": "2026-06-30T12:58:32Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/EAItbTO_7fk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/EAItbTO_7fk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/EAItbTO_7fk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/EAItbTO_7fk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/EAItbTO_7fk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT18S",
+          "durationSeconds": 18
+        },
+        {
+          "id": "LXnylUgH9fk",
+          "title": "Lovebites | Glory to the World | San Luis Obispo opening",
+          "publishedAt": "2026-06-30T05:06:48Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/LXnylUgH9fk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/LXnylUgH9fk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/LXnylUgH9fk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/LXnylUgH9fk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/LXnylUgH9fk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT59S",
+          "durationSeconds": 59
+        },
+        {
+          "id": "5s9RjdiMxJM",
+          "title": "Pantera's Secret: How a Studio Childhood Forged Their Sound",
+          "publishedAt": "2026-06-28T22:56:24Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/5s9RjdiMxJM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/5s9RjdiMxJM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/5s9RjdiMxJM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/5s9RjdiMxJM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/5s9RjdiMxJM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT35S",
+          "durationSeconds": 35
+        },
+        {
+          "id": "zmiA1uAgL9g",
+          "title": "Build YOUR Mountain: Real City Success vs. Chasing Fame #shorts",
+          "publishedAt": "2026-06-26T20:28:21Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/zmiA1uAgL9g/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/zmiA1uAgL9g/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/zmiA1uAgL9g/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/zmiA1uAgL9g/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/zmiA1uAgL9g/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT17S",
+          "durationSeconds": 17
+        },
+        {
+          "id": "bkU_JiVQH3k",
+          "title": "Miami Band Mix: Metallica to Country, We Played It All!",
+          "publishedAt": "2026-06-26T13:02:20Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/bkU_JiVQH3k/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/bkU_JiVQH3k/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/bkU_JiVQH3k/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/bkU_JiVQH3k/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/bkU_JiVQH3k/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT34S",
+          "durationSeconds": 34
+        },
+        {
+          "id": "92yUWJzz9_A",
+          "title": "From Rock Stars to CEOs: The Secret to Real Success #shorts",
+          "publishedAt": "2026-06-26T12:12:20Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/92yUWJzz9_A/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/92yUWJzz9_A/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/92yUWJzz9_A/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/92yUWJzz9_A/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/92yUWJzz9_A/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M3S",
+          "durationSeconds": 63
+        },
+        {
+          "id": "OGyvCdMybh0",
+          "title": "Ramtha | Wacken Metal Battle U.S. Finals | Brick by Brick",
+          "publishedAt": "2026-06-26T04:57:37Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/OGyvCdMybh0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/OGyvCdMybh0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/OGyvCdMybh0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/OGyvCdMybh0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/OGyvCdMybh0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT50S",
+          "durationSeconds": 50
+        },
+        {
+          "id": "eX9q81lfyuE",
+          "title": "Fame is Just the Snow Cap: The Real Driving Force #shorts",
+          "publishedAt": "2026-06-25T20:47:39Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/eX9q81lfyuE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/eX9q81lfyuE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/eX9q81lfyuE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/eX9q81lfyuE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/eX9q81lfyuE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT36S",
+          "durationSeconds": 36
+        },
+        {
+          "id": "JqqcBhrQ4sY",
+          "title": "Entrepreneur vs Victim: Are YOU Truly an Entrepreneur? #shorts",
+          "publishedAt": "2026-06-25T13:26:36Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/JqqcBhrQ4sY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/JqqcBhrQ4sY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/JqqcBhrQ4sY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/JqqcBhrQ4sY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/JqqcBhrQ4sY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT33S",
+          "durationSeconds": 33
+        },
+        {
+          "id": "zhdSpYBH3AE",
+          "title": "Childhood Music Mix: Classical, Country, & Rock Radio Vibes",
+          "publishedAt": "2026-06-24T23:01:23Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/zhdSpYBH3AE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/zhdSpYBH3AE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/zhdSpYBH3AE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/zhdSpYBH3AE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/zhdSpYBH3AE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT20S",
+          "durationSeconds": 20
+        },
+        {
+          "id": "MpovTCySwSw",
+          "title": "Choose Your Circle: Fuel Your Success with Winners! #shorts",
+          "publishedAt": "2026-06-24T20:18:33Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/MpovTCySwSw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/MpovTCySwSw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/MpovTCySwSw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/MpovTCySwSw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/MpovTCySwSw/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT55S",
+          "durationSeconds": 55
+        },
+        {
+          "id": "rvfmjLsuw4g",
+          "title": "Control Your Response: Seize Opportunities When They Appear! #shorts",
+          "publishedAt": "2026-06-24T12:24:23Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/rvfmjLsuw4g/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/rvfmjLsuw4g/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/rvfmjLsuw4g/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/rvfmjLsuw4g/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/rvfmjLsuw4g/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT20S",
+          "durationSeconds": 20
+        },
+        {
+          "id": "eQ35qioapsk",
+          "title": "Beyond Fame: True Artistry Is Building Your Own Authentic Creation #shorts",
+          "publishedAt": "2026-06-23T20:04:30Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/eQ35qioapsk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/eQ35qioapsk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/eQ35qioapsk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/eQ35qioapsk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/eQ35qioapsk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT18S",
+          "durationSeconds": 18
+        },
+        {
+          "id": "rwv-FFuMh1w",
+          "title": "From God's Waiting Room to Global Fame: The Ultimate Transformation #shorts",
+          "publishedAt": "2026-06-23T12:57:38Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/rwv-FFuMh1w/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/rwv-FFuMh1w/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/rwv-FFuMh1w/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/rwv-FFuMh1w/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/rwv-FFuMh1w/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M7S",
+          "durationSeconds": 67
+        },
+        {
+          "id": "gTvU4Qmj7EA",
+          "title": "Beyond Fame: Climbing the Real Mountain with Nicko McBrain #shorts",
+          "publishedAt": "2026-06-22T20:29:23Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/gTvU4Qmj7EA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/gTvU4Qmj7EA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/gTvU4Qmj7EA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/gTvU4Qmj7EA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/gTvU4Qmj7EA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT8S",
+          "durationSeconds": 8
+        },
+        {
+          "id": "zewQ_wCTtM4",
+          "title": "David Allan Coe: The Underground Album & Pantera Collab SHOCKER!",
+          "publishedAt": "2026-06-22T13:00:33Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/zewQ_wCTtM4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/zewQ_wCTtM4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/zewQ_wCTtM4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/zewQ_wCTtM4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/zewQ_wCTtM4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT50S",
+          "durationSeconds": 50
+        },
+        {
+          "id": "iY0cR19snjE",
+          "title": "Fame is a Snow Cap: The REAL Foundation of Success #shorts",
+          "publishedAt": "2026-06-22T12:46:21Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/iY0cR19snjE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/iY0cR19snjE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/iY0cR19snjE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/iY0cR19snjE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/iY0cR19snjE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT24S",
+          "durationSeconds": 24
+        },
+        {
+          "id": "G82Pm2L21dg",
+          "title": "Through The Oculus | Wacken Metal Battle Finals",
+          "publishedAt": "2026-06-22T04:25:25Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT56S",
+          "durationSeconds": 56
+        },
+        {
+          "id": "12c4JroeT8I",
+          "title": "Control Your Surroundings: Master Your Environment & Success! #shorts",
+          "publishedAt": "2026-06-21T21:30:26Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/12c4JroeT8I/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/12c4JroeT8I/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/12c4JroeT8I/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/12c4JroeT8I/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/12c4JroeT8I/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT25S",
+          "durationSeconds": 25
+        },
+        {
+          "id": "k3yDfTqgQCc",
+          "title": "Hanabie | Be The Gal | Japanese metal needs visibility",
+          "publishedAt": "2026-06-21T14:15:31Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT30S",
+          "durationSeconds": 30
+        }
+      ]
+    },
+    "radio": {
+      "handle": "@musiccitiesradio",
+      "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
+      "title": "MusicCitiesRadio",
+      "subscriberCount": 1050,
+      "videoCount": 52,
+      "recentLongform": [
+        {
+          "id": "qn1Z9uskKKQ",
+          "title": "Escape the Fate | Culture Room | Fort Lauderdale",
+          "publishedAt": "2026-06-30T05:36:33Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/qn1Z9uskKKQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/qn1Z9uskKKQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/qn1Z9uskKKQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/qn1Z9uskKKQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/qn1Z9uskKKQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT4M2S",
+          "durationSeconds": 242
+        },
+        {
+          "id": "W90P3C9G6Fk",
+          "title": "Hanabie | Choujigen Galaxy",
+          "publishedAt": "2026-06-26T14:30:36Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/W90P3C9G6Fk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/W90P3C9G6Fk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/W90P3C9G6Fk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/W90P3C9G6Fk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/W90P3C9G6Fk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M38S",
+          "durationSeconds": 98
+        },
+        {
+          "id": "sHI8acqATXM",
+          "title": "Black Label Society | Funeral Bell | Blood for Blood",
+          "publishedAt": "2026-06-26T04:54:45Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/sHI8acqATXM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/sHI8acqATXM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/sHI8acqATXM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/sHI8acqATXM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/sHI8acqATXM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT4M37S",
+          "durationSeconds": 277
+        },
+        {
+          "id": "x_iHtXVidhM",
+          "title": "Crowbar | Blood 4 Blood | Daytona",
+          "publishedAt": "2026-06-24T04:57:15Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/x_iHtXVidhM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/x_iHtXVidhM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/x_iHtXVidhM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/x_iHtXVidhM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/x_iHtXVidhM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT4M18S",
+          "durationSeconds": 258
+        },
+        {
+          "id": "F2fpqq582vg",
+          "title": "Yungblud Pulls a Fan From the Audience to Play Guitar on Fleabag",
+          "publishedAt": "2026-06-23T04:06:32Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/F2fpqq582vg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/F2fpqq582vg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/F2fpqq582vg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/F2fpqq582vg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/F2fpqq582vg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT6M22S",
+          "durationSeconds": 382
+        },
+        {
+          "id": "0UG6Q9O-M6U",
+          "title": "Green Jelly | 3 Little Pigs | Live in Miami 2018",
+          "publishedAt": "2026-06-16T02:46:09Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/0UG6Q9O-M6U/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/0UG6Q9O-M6U/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/0UG6Q9O-M6U/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/0UG6Q9O-M6U/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/0UG6Q9O-M6U/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT4M53S",
+          "durationSeconds": 293
+        },
+        {
+          "id": "gYmaaAl5jXA",
+          "title": "Lovebites | We The United",
+          "publishedAt": "2026-06-05T15:45:03Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/gYmaaAl5jXA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/gYmaaAl5jXA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/gYmaaAl5jXA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/gYmaaAl5jXA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/gYmaaAl5jXA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT4M9S",
+          "durationSeconds": 249
+        },
+        {
+          "id": "JdVReJmAhFc",
+          "title": "Blue Oyster Cult | Don't Fear the Reaper | Extended Solo",
+          "publishedAt": "2026-06-05T03:47:05Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/JdVReJmAhFc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/JdVReJmAhFc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/JdVReJmAhFc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/JdVReJmAhFc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/JdVReJmAhFc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT6M43S",
+          "durationSeconds": 403
+        },
+        {
+          "id": "8fKLOJgK_FE",
+          "title": "Scattered Light | Miami Metal | Miamipalooza",
+          "publishedAt": "2026-05-07T19:28:26Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/8fKLOJgK_FE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/8fKLOJgK_FE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/8fKLOJgK_FE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/8fKLOJgK_FE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/8fKLOJgK_FE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M50S",
+          "durationSeconds": 230
+        },
+        {
+          "id": "72w63UbZISQ",
+          "title": "Medic | Miami Metal | Miamipalooza",
+          "publishedAt": "2026-05-06T01:03:30Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/72w63UbZISQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/72w63UbZISQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/72w63UbZISQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/72w63UbZISQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/72w63UbZISQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M59S",
+          "durationSeconds": 239
+        },
+        {
+          "id": "WE9bbTYs0XE",
+          "title": "Maximum Friction | Miami Metal | Miami Palooza",
+          "publishedAt": "2026-05-05T02:19:08Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/WE9bbTYs0XE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/WE9bbTYs0XE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/WE9bbTYs0XE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/WE9bbTYs0XE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/WE9bbTYs0XE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M12S",
+          "durationSeconds": 132
+        },
+        {
+          "id": "eWLEH33jpk8",
+          "title": "Maximum Friction | Miami Metal | Miamipalooza",
+          "publishedAt": "2026-05-05T02:01:33Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/eWLEH33jpk8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/eWLEH33jpk8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/eWLEH33jpk8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/eWLEH33jpk8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/eWLEH33jpk8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT6M14S",
+          "durationSeconds": 374
+        },
+        {
+          "id": "qy1MJUoPXFc",
+          "title": "Czargard | Miami Metal | Miamipalooza",
+          "publishedAt": "2026-05-03T21:12:25Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/qy1MJUoPXFc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/qy1MJUoPXFc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/qy1MJUoPXFc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/qy1MJUoPXFc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/qy1MJUoPXFc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT4M29S",
+          "durationSeconds": 269
+        }
+      ],
+      "recentShorts": [
+        {
+          "id": "B7VYdaDEgo8",
+          "title": "Mekronium | Live at the Gate | Circa 2018",
+          "publishedAt": "2026-06-21T04:39:26Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/B7VYdaDEgo8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/B7VYdaDEgo8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/B7VYdaDEgo8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/B7VYdaDEgo8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/B7VYdaDEgo8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT42S",
+          "durationSeconds": 42
+        },
+        {
+          "id": "bUWJx9ifYKo",
+          "title": "Hanabie | Be The Gal | 2026",
+          "publishedAt": "2026-06-20T05:38:58Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/bUWJx9ifYKo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/bUWJx9ifYKo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/bUWJx9ifYKo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/bUWJx9ifYKo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/bUWJx9ifYKo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT30S",
+          "durationSeconds": 30
+        },
+        {
+          "id": "KquV8DuMC6k",
+          "title": "Hanabie | Be the Gal",
+          "publishedAt": "2026-06-16T02:48:58Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/KquV8DuMC6k/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/KquV8DuMC6k/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/KquV8DuMC6k/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/KquV8DuMC6k/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/KquV8DuMC6k/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT59S",
+          "durationSeconds": 59
+        },
+        {
+          "id": "9FnF4J6GeNU",
+          "title": "Hanabie | Miso Soup",
+          "publishedAt": "2026-06-05T14:00:05Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/9FnF4J6GeNU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/9FnF4J6GeNU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/9FnF4J6GeNU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/9FnF4J6GeNU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/9FnF4J6GeNU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M",
+          "durationSeconds": 60
+        },
+        {
+          "id": "DSjQKDiQ2U4",
+          "title": "Born Beneath | Miami Metal",
+          "publishedAt": "2026-06-05T03:00:30Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/DSjQKDiQ2U4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/DSjQKDiQ2U4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/DSjQKDiQ2U4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/DSjQKDiQ2U4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/DSjQKDiQ2U4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT32S",
+          "durationSeconds": 32
+        },
+        {
+          "id": "eNIHY8o-kAs",
+          "title": "Hanabie | Be The Gal",
+          "publishedAt": "2026-06-05T02:01:48Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/eNIHY8o-kAs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/eNIHY8o-kAs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/eNIHY8o-kAs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/eNIHY8o-kAs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/eNIHY8o-kAs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M4S",
+          "durationSeconds": 64
+        },
+        {
+          "id": "RUaDbjzrKLU",
+          "title": "The Warning | Hard Rock Live Hollywood",
+          "publishedAt": "2026-06-04T05:19:02Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/RUaDbjzrKLU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/RUaDbjzrKLU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/RUaDbjzrKLU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/RUaDbjzrKLU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/RUaDbjzrKLU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT54S",
+          "durationSeconds": 54
+        },
+        {
+          "id": "W9YjCF4WiiU",
+          "title": "Hanabie | Tousou",
+          "publishedAt": "2026-06-02T04:41:39Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/W9YjCF4WiiU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/W9YjCF4WiiU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/W9YjCF4WiiU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/W9YjCF4WiiU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/W9YjCF4WiiU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M5S",
+          "durationSeconds": 65
+        },
+        {
+          "id": "cNS05veyHBg",
+          "title": "Hanabie | Miso Soup Short",
+          "publishedAt": "2026-05-14T02:26:05Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/cNS05veyHBg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/cNS05veyHBg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/cNS05veyHBg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/cNS05veyHBg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/cNS05veyHBg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT39S",
+          "durationSeconds": 39
+        },
+        {
+          "id": "SQckruVwzKA",
+          "title": "Malevolence | Blood 4 Blood",
+          "publishedAt": "2026-05-09T19:00:52Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/SQckruVwzKA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/SQckruVwzKA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/SQckruVwzKA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/SQckruVwzKA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/SQckruVwzKA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT58S",
+          "durationSeconds": 58
+        },
+        {
+          "id": "Fxj6ea5ZPd0",
+          "title": "Hanabie Otaku Live",
+          "publishedAt": "2026-05-04T13:45:08Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Fxj6ea5ZPd0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Fxj6ea5ZPd0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Fxj6ea5ZPd0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Fxj6ea5ZPd0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Fxj6ea5ZPd0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT48S",
+          "durationSeconds": 48
+        }
+      ]
+    }
+  },
+  "playlists": {
+    "japanese-metal": [],
+    "florida": [],
+    "festivals": [],
+    "wacken": []
+  }
+}
