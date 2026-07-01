@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "prebuild": "node scripts/fetch-youtube-stats.mjs",
+    "prebuild": "node scripts/fetch-youtube-stats.mjs && node scripts/fetch-youtube-content.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
