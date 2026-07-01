@@ -45,6 +45,10 @@ const FILE_PATH = 'concerts.json';
 const BIRTHDAYS_FILE_PATH = 'birthdays.json';
 const YOUTUBE_FILE_PATH = 'public/youtube-stats.json';
 const YOUTUBE_HANDLE = 'themusiccitiespodcast';
+const YOUTUBE_CONTENT_FILE_PATH = 'public/youtube-content.json';
+const YOUTUBE_HANDLES = { tmc: 'themusiccitiespodcast', radio: 'musiccitiesradio' };
+const YOUTUBE_PLAYLIST_MAP = { 'japanese-metal': null, florida: null, festivals: null, wacken: null };
+const YOUTUBE_SHORT_THRESHOLD = 75;
 
 /* ---------- Birthday parser (JS-only mirror of src/lib/parse-birthday.ts) ---------- */
 
@@ -172,6 +176,92 @@ async function fetchYoutubeStats(apiKey) {
         return null;
     }
 }
+
+/* ---------- YouTube content fetcher (mirror of scripts/fetch-youtube-content.mjs) ---------- */
+
+function ytParseIsoDurationSeconds(iso) {
+    if (!iso || typeof iso !== 'string') return 0;
+    const m = iso.match(/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/);
+    if (!m) return 0;
+    return Number(m[1] || 0) * 3600 + Number(m[2] || 0) * 60 + Number(m[3] || 0);
+}
+
+async function ytFetchJson(url) {
+    const res = await fetch(url);
+    if (!res.ok) {
+        const body = await res.text().catch(() => '');
+        throw new Error(`YouTube API ${res.status}: ${body.substring(0, 300)}`);
+    }
+    return res.json();
+}
+
+async function ytHydratePlaylist(playlistId, apiKey, max) {
+    const listUrl = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&playlistId=${encodeURIComponent(playlistId)}&maxResults=${max}&key=${apiKey}`;
+    const listData = await ytFetchJson(listUrl);
+    const ids = (listData.items || []).map((it) => it.contentDetails?.videoId).filter(Boolean);
+    if (!ids.length) return [];
+    const detailUrl = `https://www.googleapis.com/youtube/v3/videos?part=contentDetails,snippet,statistics&id=${ids.join(',')}&key=${apiKey}`;
+    const detailData = await ytFetchJson(detailUrl);
+    const byId = new Map((detailData.items || []).map((d) => [d.id, d]));
+    return ids.map((id) => byId.get(id)).filter(Boolean).map((v) => {
+        const duration = v.contentDetails?.duration || 'PT0S';
+        return {
+            id: v.id,
+            title: v.snippet?.title || '',
+            publishedAt: v.snippet?.publishedAt || '',
+            thumbnails: v.snippet?.thumbnails || {},
+            duration,
+            durationSeconds: ytParseIsoDurationSeconds(duration),
+        };
+    });
+}
+
+async function fetchYoutubeContent(apiKey) {
+    if (!apiKey) {
+        console.warn('[youtube-content] YOUTUBE_API_KEY not set; skipping fetch');
+        return null;
+    }
+    const result = { fetchedAt: new Date().toISOString(), channels: {}, playlists: {} };
+    for (const [key, handle] of Object.entries(YOUTUBE_HANDLES)) {
+        try {
+            const chUrl = `https://www.googleapis.com/youtube/v3/channels?part=statistics,snippet,contentDetails&forHandle=${encodeURIComponent(handle)}&key=${apiKey}`;
+            const chData = await ytFetchJson(chUrl);
+            if (!chData.items || !chData.items.length) throw new Error('no channel for ' + handle);
+            const ch = chData.items[0];
+            const uploads = ch.contentDetails?.relatedPlaylists?.uploads;
+            let recentLongform = [];
+            let recentShorts = [];
+            if (uploads) {
+                const videos = await ytHydratePlaylist(uploads, apiKey, 24);
+                recentLongform = videos.filter((v) => v.durationSeconds >= YOUTUBE_SHORT_THRESHOLD);
+                recentShorts = videos.filter((v) => v.durationSeconds < YOUTUBE_SHORT_THRESHOLD);
+            }
+            result.channels[key] = {
+                handle: '@' + handle,
+                channelId: ch.id,
+                title: ch.snippet?.title || '',
+                subscriberCount: Number(ch.statistics?.subscriberCount || 0),
+                videoCount: Number(ch.statistics?.videoCount || 0),
+                recentLongform,
+                recentShorts,
+            };
+        } catch (err) {
+            console.warn(`[youtube-content] channel ${key} (${handle}) failed:`, err?.message ?? err);
+            result.channels[key] = { handle: '@' + handle, channelId: null, title: '', subscriberCount: 0, videoCount: 0, recentLongform: [], recentShorts: [] };
+        }
+    }
+    for (const [slug, playlistId] of Object.entries(YOUTUBE_PLAYLIST_MAP)) {
+        if (!playlistId) { result.playlists[slug] = []; continue; }
+        try {
+            result.playlists[slug] = await ytHydratePlaylist(playlistId, apiKey, 12);
+        } catch (err) {
+            console.warn(`[youtube-content] playlist ${slug} failed:`, err?.message ?? err);
+            result.playlists[slug] = [];
+        }
+    }
+    return result;
+}
+
 
 /* ---------- GitHub Contents API helpers ---------- */
 
@@ -350,6 +440,54 @@ export default async (req) => {
                   console.error('[nightly-rebuild] youtube step failed:', err?.stack || err?.message || err);
           }
 
+      /* ---- YouTube content (2 channels + bucket playlists) ---- */
+          let youtubeContentError = null;
+          try {
+                  log('Fetching YouTube channel content (tmc + radio)');
+                  const content = await fetchYoutubeContent(youtubeApiKey);
+                  if (!content) {
+                          if (!youtubeApiKey) {
+                                  log('  skipped (YOUTUBE_API_KEY not set)');
+                          } else {
+                                  log('  no content returned; skipping commit (existing youtube-content.json preserved)');
+                          }
+                  } else {
+                          const tmc = content.channels.tmc || {};
+                          const radio = content.channels.radio || {};
+                          const hasAnyChannelData =
+                                  (tmc.channelId && (tmc.recentLongform.length || tmc.recentShorts.length)) ||
+                                  (radio.channelId && (radio.recentLongform.length || radio.recentShorts.length));
+                          const hasAnyPlaylistData = Object.values(content.playlists || {}).some((arr) => Array.isArray(arr) && arr.length);
+                          if (!hasAnyChannelData && !hasAnyPlaylistData) {
+                                  log('  no useful data fetched; existing youtube-content.json preserved');
+                          } else {
+                                  log(`  tmc subs=${tmc.subscriberCount} videos=${tmc.videoCount}; radio subs=${radio.subscriberCount} videos=${radio.videoCount}`);
+
+                                  const ytcJson = JSON.stringify(content, null, 2) + '\n';
+                                  const ytcBase64 = Buffer.from(ytcJson, 'utf8').toString('base64');
+
+                                  log(`Looking up current sha of ${YOUTUBE_CONTENT_FILE_PATH} on ${ghRepo}@${ghBranch}`);
+                                  const ytcSha = await ghGetFileSha({ token: ghToken, repo: ghRepo, branch: ghBranch, path: YOUTUBE_CONTENT_FILE_PATH });
+                                  log(`  sha=${ytcSha ?? '<none -- will create>'}`);
+
+                                  log(`Committing ${YOUTUBE_CONTENT_FILE_PATH}...`);
+                                  await ghPutFile({
+                                                  token: ghToken,
+                                                  repo: ghRepo,
+                                                  branch: ghBranch,
+                                                  path: YOUTUBE_CONTENT_FILE_PATH,
+                                                  contentBase64: ytcBase64,
+                                                  sha: ytcSha ?? undefined,
+                                                  message: `nightly youtube-content rebuild ${dateLabel}`,
+                                  });
+                                  log('youtube-content.json done.');
+                          }
+                  }
+          } catch (err) {
+                  youtubeContentError = String(err?.message || err);
+                  console.error('[nightly-rebuild] youtube-content step failed:', err?.stack || err?.message || err);
+          }
+
       return new Response(
               JSON.stringify({
                         ok: true,
@@ -361,6 +499,7 @@ export default async (req) => {
                         birthdayError,
                         youtubeSubscribers,
                         youtubeError,
+                        youtubeContentError,
               }),
         { status: 200, headers: { 'Content-Type': 'application/json' } },
             );
