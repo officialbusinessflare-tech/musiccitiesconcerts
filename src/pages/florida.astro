@@ -23,6 +23,7 @@ import concertsData from '../../concerts.json';
 import birthdaysData from '../../birthdays.json';
 
 // YouTube content — silent fallback so a missing file doesn't break the build.
+// No Florida-specific Show planned; only the Performance Shorts strip renders.
 let ytData: any = {
   channels: { tmc: { recentLongform: [], recentShorts: [] }, radio: { recentLongform: [], recentShorts: [] } },
   playlists: {},
@@ -30,7 +31,6 @@ let ytData: any = {
 try {
   ytData = (await import('../../public/youtube-content.json')).default ?? ytData;
 } catch (err) {}
-const bucketPlaylist = ytData?.playlists?.['florida'] ?? [];
 const radioShorts = ytData?.channels?.radio?.recentShorts ?? [];
 
 const BUCKET_ID = 'florida-metal-scene';
@@ -73,8 +73,6 @@ const entries = (grouped.get(BUCKET_ID) ?? []).sort((a, b) => a.date.localeCompa
       <p class="bucket-hero__lede">{bucket.description}</p>
     </div>
   </section>
-
-  <VideoStrip title="Recent Florida Episodes" videos={bucketPlaylist} channelBadge="TMC" />
 
   <main class="bucket-page">
     <div class="container">

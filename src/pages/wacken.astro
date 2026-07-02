@@ -185,7 +185,7 @@ let ytData: any = {
 try {
   ytData = (await import("../../public/youtube-content.json")).default ?? ytData;
 } catch (err) {}
-const bucketPlaylist = ytData?.playlists?.["wacken"] ?? [];
+const bucketPlaylist = ytData?.playlists?.["european-metal"] ?? [];
 const radioShorts = ytData?.channels?.radio?.recentShorts ?? [];
 ---
 
@@ -209,7 +209,7 @@ const radioShorts = ytData?.channels?.radio?.recentShorts ?? [];
     </div>
   </section>
 
-  <VideoStrip title="Recent Wacken Episodes" videos={bucketPlaylist} channelBadge="TMC" />
+  <VideoStrip title="Recent European Metal Episodes" videos={bucketPlaylist} channelBadge="TMC" />
 
   <main class="dash-main">
     <div class="container">
