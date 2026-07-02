@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-01T07:08:10.517Z",
+  "fetchedAt": "2026-07-02T07:07:36.112Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
-      "subscriberCount": 119000,
-      "videoCount": 300,
+      "subscriberCount": 120000,
+      "videoCount": 301,
       "recentLongform": [
         {
           "id": "eS-V5Fb9yOQ",
@@ -146,6 +146,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "SSMowOBfwvY",
+          "title": "Lunch with Iron Maiden's Nicko McBrain: More Than Just Fame #shorts",
+          "publishedAt": "2026-07-01T16:47:18Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/SSMowOBfwvY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/SSMowOBfwvY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/SSMowOBfwvY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/SSMowOBfwvY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/SSMowOBfwvY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M8S",
+          "durationSeconds": 68
+        },
         {
           "id": "EAItbTO_7fk",
           "title": "David Allan Coe: The REAL Outlaw Country Legend They Don't Tell You About!",
@@ -791,40 +825,6 @@
           },
           "duration": "PT25S",
           "durationSeconds": 25
-        },
-        {
-          "id": "k3yDfTqgQCc",
-          "title": "Hanabie | Be The Gal | Japanese metal needs visibility",
-          "publishedAt": "2026-06-21T14:15:31Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT30S",
-          "durationSeconds": 30
         }
       ]
     },
