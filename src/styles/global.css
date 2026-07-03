@@ -3584,3 +3584,25 @@ button {
     font-size: 0.9rem;
   }
 }
+
+/* Wacken site map */
+.wkn-map {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  margin: 1rem 0 2rem 0;
+  cursor: zoom-in;
+}
+.wkn-h3 {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.wkn-list {
+  margin: 0.5rem 0 1rem 1.25rem;
+  padding: 0;
+  line-height: 1.6;
+}
+.wkn-list li { margin-bottom: 0.35rem; }
