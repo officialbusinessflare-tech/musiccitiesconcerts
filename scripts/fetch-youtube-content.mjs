@@ -8,16 +8,6 @@
 //
 // Graceful failure: if the API/network errors, the previous
 // public/youtube-content.json (if any) is left in place. Never throws.
-//
-// ─── YouTube Shows note ──────────────────────────────────────────────
-// A YouTube "Show" is built on top of a regular YouTube playlist — the
-// Show is just editorial framing (season/episode UI, "Watch next" logic,
-// discoverability); the underlying data is a playlist with a normal
-// PL-prefixed ID. So to feed a Show into this dashboard, paste the
-// Show's playlist ID into PLAYLIST_MAP below. Format: 'PLxxxxxxxxxxxx...'
-// (34 chars starting with PL). Find it in YouTube Studio > Content >
-// Playlists, or by opening the Show's page and copying the list= param.
-// ─────────────────────────────────────────────────────────────────────
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -34,20 +24,17 @@ const CHANNELS = {
   radio: { handle: '@musiccitiesradio' },
 };
 
-// Two Shows Kevin will create in YouTube Studio tomorrow.
-// Both are non-serial evergreen Shows on The Music Cities channel.
-// Paste the playlist ID (which is what a Show uses under the hood) after creating each Show.
-// Format: 'PLxxxxxxxxxxxxxxxxxxxxxxxxxx' (34 chars starting with PL).
-// null hides the strip (VideoStrip renders nothing for empty arrays).
+// Set a playlist ID (string) for any bucket you want a strip for.
+// null hides that strip (VideoStrip renders nothing for empty arrays).
 const PLAYLIST_MAP = {
-  'european-metal': null,  // Feeds /wacken. Covers Wacken, Metal London, European scene.
-  'japanese-metal': null,  // Feeds /japan. Lovebites, Nemophila, HANABIE., etc.
-  // NOTE: Entrepreneurship / Creator Economy Show intentionally NOT here.
-  // That Show is standalone and does not feed the concerts dashboard.
+  'japanese-metal': null,
+  florida: null,
+  festivals: null,
+  wacken: null,
 };
 
 const SHORT_THRESHOLD_SECONDS = 75;
-const RECENT_ITEMS = 24;
+const RECENT_ITEMS = 50;
 const PLAYLIST_ITEMS = 12;
 
 /** Parse an ISO-8601 duration like PT1H2M3S into seconds. */
