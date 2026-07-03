@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T02:57:13.290Z",
+  "generatedAt": "2026-07-03T03:10:39.931Z",
   "entries": [
     {
       "id": "86bae8yt0",
@@ -522,6 +522,25 @@
       ]
     },
     {
+      "id": "86baqu74e",
+      "name": "LOVEBITES — Free & Easy Festival, Munich DE (Wacken warm-up)",
+      "date": "2026-07-27",
+      "city": "Free & Easy Festival",
+      "country": "Munich DE (Wacken warm-up)",
+      "bands": [
+        "LOVEBITES"
+      ],
+      "description": "Show: LOVEBITES at Free & Easy Festival — Munich, Germany\nDate: Monday 2026-07-27 (FREE show)\nContext: Late-added Wacken warm-up. 2 days before their Wacken Wednesday main-stage slot (July 29, opener of FASTER main stage 16:00–17:00 CEST).\nSource: Surfaced by TMC viewer comment…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqu74e",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
+      ]
+    },
+    {
       "id": "86bammja3",
       "name": "Kittie — Wacken Open Air 2026 (day/stage TBD)",
       "date": "2026-07-29",
@@ -647,6 +666,23 @@
       ]
     },
     {
+      "id": "86baqu73r",
+      "name": "📀 SAKI (solo) — Major Debut Album — RELEASE",
+      "date": "2026-07-31",
+      "venue": "Major Debut Album — RELEASE",
+      "bands": [
+        "SAKI (solo)"
+      ],
+      "description": "Release: SAKI solo — Major debut album\nRelease event: 2026-07-31 at Tower Records Umeda NU Chayamachi\nArtist: SAKI — ex-Mary's Blood, ex-NEMOPHILA lead guitarist; currently in LikeanAngel\nSource: @chakixx X post (bookmark, Jun 23); Tower Records Umeda NU Chayamachi post confirmed",
+      "priority": "normal",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqu73r",
+      "buckets": [
+        "album-releases"
+      ]
+    },
+    {
       "id": "86bammec7",
       "name": "Judas Priest — Wacken Open Air 2026 (Fri Jul 31, Harder Stage headliner)",
       "date": "2026-07-31",
@@ -697,6 +733,26 @@
       "buckets": [
         "florida-metal-scene",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86baqu74q",
+      "name": "Ashes Reign / Open Nerve — West End Trading Co, Sanford FL",
+      "date": "2026-08-01",
+      "venue": "West End Trading Co",
+      "city": "Sanford",
+      "state": "FL",
+      "bands": [
+        "Ashes Reign",
+        "Open Nerve"
+      ],
+      "description": "Show: Ashes Reign + Open Nerve (Distilled Presents)\nDate: 2026-08-01\nVenue: West End Trading Co, Sanford FL\nSource: TMC IG concerts collection (saved)",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqu74q",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -824,6 +880,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365ab",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86baqu77d",
+      "name": "Terminal Nation — Beat The Heat Summer Getaway — Churchill's Pub, Miami FL",
+      "date": "2026-08-07",
+      "venue": "Beat The Heat Summer Getaway — Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Terminal Nation"
+      ],
+      "description": "Show: Terminal Nation / Inside You / Lower — Beat the Heat Summer Get Down tour\nDate: 2026-08-07\nVenue: Churchill's Pub, Miami FL\nTour dates on flyer: Aug 6 Winter Park (Conduit) / Aug 7 Miami (Churchill's) / Aug 8 Pensacola / Aug 9 Jacksonville (Handlebar) / Aug 11 Columbia SC…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqu77d",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -969,6 +1044,23 @@
       "clickupUrl": "https://app.clickup.com/t/86ba365fy",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86baqu721",
+      "name": "📀 Lonesome Blue — Fourth Dimension (2nd Full Album) — RELEASE",
+      "date": "2026-08-26",
+      "venue": "Fourth Dimension (2nd Full Album) — RELEASE",
+      "bands": [
+        "Lonesome Blue"
+      ],
+      "description": "Release: Lonesome Blue — Fourth Dimension\nRelease date: 2026-08-26\nFormat: 2nd Full Album (King Records)\nSource: @Lonesome_BlueJP X post (bookmark, Jun 25)\nKING RECORDS STORE limited edition ships with a 4-piece autographed member acrylic stand set.",
+      "priority": "normal",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqu721",
+      "buckets": [
+        "album-releases"
       ]
     },
     {
@@ -1886,6 +1978,27 @@
       ]
     },
     {
+      "id": "86baqu751",
+      "name": "Tampa Doom & Gloom Fest — Deviant Libation, Tampa FL",
+      "date": "2026-11-13",
+      "venue": "Deviant Libation",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Tampa Doom",
+        "Gloom Fest"
+      ],
+      "description": "Festival: Tampa Doom & Gloom Fest (Terror Bay Distro Presents)\nDates: Fri 2026-11-13, Sat 2026-11-14, Sun 2026-11-15\nVenue: Deviant Libation, 3800 N Nebraska Ave, Tampa FL\nLineup (partial from flyer): Fantoma, Sandcrawler, Palaces, Somnent, Hollow..., Sons of..., Erosions,…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqu751",
+      "buckets": [
+        "florida-metal-scene",
+        "key-festivals"
+      ]
+    },
+    {
       "id": "86bae8x0j",
       "name": "Whitechapel + Chelsea Grin + The Acacia Strain + Netherwalker — HOB, Lake Buena Vista (Orlando) FL",
       "date": "2026-11-13",
@@ -1926,6 +2039,23 @@
       "clickupUrl": "https://app.clickup.com/t/86b93veqt",
       "buckets": [
         "florida-metal-scene",
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86baqu75x",
+      "name": "Hammer and Nail Fest — TBD Florida venue",
+      "date": "2026-11-14",
+      "venue": "TBD Florida venue",
+      "bands": [
+        "Hammer and Nail Fest"
+      ],
+      "description": "Festival: Hammer and Nail Fest MMXXVI\nDate: November 2026 (day TBD — flyer shows lineup only)\nPresented by: Elevated Booking\nPartial lineup: Until Eternity, Strength What Remains, Age of Refuge, Stay Lost, Better Man, The Pennant, The Shotgun Project, Volcano, Actions Speak…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqu75x",
+      "buckets": [
         "key-festivals"
       ]
     },
