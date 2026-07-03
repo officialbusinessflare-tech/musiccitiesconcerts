@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T02:50:14.596Z",
+  "generatedAt": "2026-07-03T02:54:29.525Z",
   "entries": [
     {
       "id": "86bae8yt0",
@@ -1730,6 +1730,26 @@
       ]
     },
     {
+      "id": "86baqty2f",
+      "name": "NEMOPHILA — Ten Fes (天曲 Fes / Tenjō Mugyū Gekion Dōchū) — EX THEATER ROPPONGI, Tokyo JP",
+      "date": "2026-10-12",
+      "venue": "Ten Fes (天曲 Fes / Tenjō Mugyū Gekion Dōchū) — EX THEATER ROPPONGI",
+      "city": "Tokyo",
+      "state": "JP",
+      "bands": [
+        "NEMOPHILA"
+      ],
+      "description": "NEMOPHILA's first-ever all-girls \"split concert\" event — the yin/yang counterpart to last year's Jigoku Fes (\"Hell Fest\"). Short name: Ten Fes.",
+      "ticketUrl": "https://nemophila.tokyo/en/news/a-nemophila-first-all-girls-split-concert-event-tenjo-mugyu-gekion-dochu-confirmed/",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqty2f",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86ba5zfhv",
       "name": "Arch Enemy at Revolution Live, Fort Lauderdale",
       "date": "2026-10-16",
@@ -1805,6 +1825,26 @@
       "clickupUrl": "https://app.clickup.com/t/86b7xwt6n",
       "buckets": [
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86baqty2u",
+      "name": "SiM — Irving Plaza, New York NY",
+      "date": "2026-11-03",
+      "venue": "Irving Plaza",
+      "city": "New York",
+      "state": "NY",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM HOOMAN AFTER ALL World Tour 2026 — Tue 11/3/2026.",
+      "ticketUrl": "https://tix.soundrink.com/tours/sim",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqty2u",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -1948,6 +1988,27 @@
       ]
     },
     {
+      "id": "86baqty2k",
+      "name": "SiM — House of Blues, San Diego CA",
+      "date": "2026-11-21",
+      "venue": "House of Blues",
+      "city": "San Diego",
+      "state": "CA",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM HOOMAN AFTER ALL World Tour 2026 — Sat 11/21/2026.",
+      "ticketUrl": "https://tix.soundrink.com/tours/sim",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqty2k",
+      "buckets": [
+        "florida-metal-scene",
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86baaafa5",
       "name": "DragonForce — The Ritz Ybor, Tampa FL",
       "date": "2026-11-21",
@@ -1980,6 +2041,26 @@
       "clickupUrl": "https://app.clickup.com/t/86ba5zfmv",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86baqty2q",
+      "name": "SiM — The Belasco, Los Angeles CA",
+      "date": "2026-11-22",
+      "venue": "The Belasco",
+      "city": "Los Angeles",
+      "state": "CA",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM HOOMAN AFTER ALL World Tour 2026 — Sun 11/22/2026 (tour finale).",
+      "ticketUrl": "https://tix.soundrink.com/tours/sim",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqty2q",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -2055,6 +2136,22 @@
       "buckets": [
         "florida-metal-scene"
       ]
+    },
+    {
+      "id": "86baqty65",
+      "name": "Yngwie Malmsteen — new solo album (TBD 2026) — verify title/date",
+      "date": "2026-12-31",
+      "venue": "new solo album (TBD 2026) — verify title/date",
+      "bands": [
+        "Yngwie Malmsteen"
+      ],
+      "description": "Yngwie confirmed at Monsters of Rock Brazil (April 2026) that he had just wrapped recording a new solo album. Described as \"very neoclassical,\" 46 min runtime (single vinyl LP), 4 vocal tracks + instrumentals, with current touring band (Nick Marino, Emilio Martinez, Kevin…",
+      "ticketUrl": "https://blabbermouth.net/news/yngwie-malmsteen-has-finished-recording-his-new-solo-album-its-gonna-be-very-neoclassical-he-says",
+      "priority": "low",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqty65",
+      "buckets": []
     },
     {
       "id": "86ban5v9w",
