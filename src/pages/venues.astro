@@ -12,20 +12,18 @@ type GoToVenue = {
   city: string;
   venueName: string;
   address: string;
-  url: string;
   why: string;
   // Substring used to match the venue field in concerts.json (case-insensitive).
   match: string;
 };
 
-// Our go-to venue per city. Manually curated. One per city, the room
+// Kevin's go-to venue per city. Manually curated. One per city, the room
 // his coverage is anchored on.
 const goToVenues: GoToVenue[] = [
   {
     city: 'Tampa, FL',
     venueName: 'Brass Mug',
     address: '1450 Bush Blvd, Tampa, FL 33612',
-    url: 'https://www.thebrassmug.com/',
     why: "Tampa's metal living room. Smash 'Em Up release party HQ; reliable bills, low cover, real crowd.",
     match: 'brass mug',
   },
@@ -33,15 +31,27 @@ const goToVenues: GoToVenue[] = [
     city: 'Orlando, FL',
     venueName: 'Conduit',
     address: '6700 Aloma Ave #200, Winter Park, FL 32792',
-    url: 'https://conduit-fl.com/',
     why: "Orlando's J-metal anchor. Where Nemophila and Lovebites land when they tour the southeast.",
     match: 'conduit',
+  },
+  {
+    city: 'Fort Lauderdale, FL',
+    venueName: 'Culture Room',
+    address: '3045 N Federal Hwy, Fort Lauderdale, FL 33306',
+    why: "South Florida's veteran metal room. Culture Room books hard across metal/hardcore/rock — where the touring bill lands when it hits Broward County.",
+    match: 'culture room',
+  },
+  {
+    city: 'Miami, FL',
+    venueName: 'Las Rosas',
+    address: '2898 NW 7th Ave, Miami, FL 33127',
+    why: "Miami's rock dive. Free shows, local bills, no pretense — the right antidote to South Beach.",
+    match: 'las rosas',
   },
   {
     city: 'Austin, TX',
     venueName: 'Come and Take It Live',
     address: '2015 E Riverside Dr, Austin, TX 78741',
-    url: 'https://www.cometakeitlive.com/',
     why: 'The independent metal room in the Texas capital. Holds 1,000, books hard.',
     match: 'come and take it live',
   },
@@ -49,7 +59,6 @@ const goToVenues: GoToVenue[] = [
     city: 'San Diego, CA',
     venueName: 'Brick by Brick',
     address: '1130 Buenos Ave, San Diego, CA 92110',
-    url: 'https://brickbybrick.com/',
     why: "SoCal's underground metal stronghold. 350-cap, every tour worth catching cycles through.",
     match: 'brick by brick',
   },
@@ -57,30 +66,18 @@ const goToVenues: GoToVenue[] = [
     city: 'West Hollywood, CA',
     venueName: 'Whisky a Go Go',
     address: '8901 Sunset Blvd, West Hollywood, CA 90069',
-    url: 'https://whiskyagogo.com/',
     why: "The Strip's birthplace of metal. Still books real bills six nights a week — history you can walk into.",
     match: 'whisky',
-  },
-  {
-    city: 'Miami, FL',
-    venueName: 'Las Rosas',
-    address: '2898 NW 7th Ave, Miami, FL 33127',
-    url: 'https://lasrosasmiami.com/',
-    why: "Miami's rock dive. Free shows, local bills, no pretense — the right antidote to South Beach.",
-    match: 'las rosas',
   },
 ];
 
 const data = concertsData as ConcertsDataFile;
 const today = new Date().toISOString().slice(0, 10);
 
-// All non-release, future-dated entries with a venue field that have been
-// assigned at least one editorial bucket. The bucket assignment IS the
-// "fits our style" filter — uncategorized entries don't surface on /venues.
+// All non-release, future-dated entries with a venue field.
 const upcoming: ConcertEntry[] = (data.entries ?? []).filter((e) => {
   if (e.isRelease) return false;
   if (!e.venue) return false;
-  if (!e.buckets || e.buckets.length === 0) return false;
   const compareDate = e.endDate ?? e.date;
   return compareDate >= today;
 });
@@ -113,16 +110,16 @@ function formatShowDate(iso: string): string {
 
 <BaseLayout
   title="Go-To Venues | The Music Cities"
-  description="The venues we actually anchor our coverage on. One per city — the next time a band you care about is in town, this is where they're playing."
+  description="The venues Kevin actually anchors his coverage on. One per city — the next time a band you care about is in town, this is where they're playing."
 >
-  <Header title="Go-To Venues" />
+  <Header />
 
   <section class="venues-hero">
     <div class="container">
       <p class="venues-hero__eyebrow">The Rooms</p>
       <h1 class="venues-hero__title">Go-To <em>Venues</em></h1>
       <p class="venues-hero__lede">
-        The venues we actually anchor our coverage on. One per city. The next
+        The venues Kevin actually anchors his coverage on. One per city. The next
         time a band you care about is in town, this is where they're playing.
       </p>
     </div>
@@ -137,9 +134,6 @@ function formatShowDate(iso: string): string {
               <p class="venues-card__city">{card.city}</p>
               <h2 class="venues-card__venue">{card.venueName}</h2>
               <p class="venues-card__address">{card.address}</p>
-              <p class="venues-card__calendar-link">
-                <a href={card.url} target="_blank" rel="noopener noreferrer">Calendar →</a>
-              </p>
             </header>
 
             <p class="venues-card__why">{card.why}</p>
@@ -147,11 +141,7 @@ function formatShowDate(iso: string): string {
             <section class="venues-card__shows">
               <h3 class="venues-card__shows-title">Next 3 shows at this venue</h3>
               {card.shows.length === 0 ? (
-                <p class="venues-card__empty">
-                  Nothing in our calendar yet — check the{' '}
-                  <a href={card.url} target="_blank" rel="noopener noreferrer">venue website</a>
-                  {' '}for their full schedule.
-                </p>
+                <p class="venues-card__empty">No shows currently scheduled — check back.</p>
               ) : (
                 <ul class="venues-card__show-list">
                   {card.shows.map((s) => (
