@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T03:10:39.931Z",
+  "generatedAt": "2026-07-03T03:19:55.765Z",
   "entries": [
     {
       "id": "86bae8yt0",
@@ -1411,23 +1411,6 @@
       "clickupUrl": "https://app.clickup.com/t/86bammf4g",
       "buckets": [
         "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bahh5hz",
-      "name": "📀 Iron Maiden — \"Iron Maiden at 50\" — RELEASE",
-      "date": "2026-09-16",
-      "venue": "\"Iron Maiden at 50\" — RELEASE",
-      "bands": [
-        "Iron Maiden"
-      ],
-      "description": "Iron Maiden — \"Iron Maiden at 50\" 📀",
-      "priority": "high",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bahh5hz",
-      "buckets": [
-        "album-releases"
       ]
     },
     {
