@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-02T07:07:36.112Z",
+  "fetchedAt": "2026-07-03T02:50:18.636Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
-      "subscriberCount": 120000,
-      "videoCount": 301,
+      "subscriberCount": 122000,
+      "videoCount": 302,
       "recentLongform": [
         {
           "id": "eS-V5Fb9yOQ",
@@ -146,6 +146,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "XCjQtLTjJVQ",
+          "title": "Pantera's Secret Country Roots: Texas & Dad's Studio Secrets!",
+          "publishedAt": "2026-07-02T22:55:33Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/XCjQtLTjJVQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/XCjQtLTjJVQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/XCjQtLTjJVQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/XCjQtLTjJVQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/XCjQtLTjJVQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT30S",
+          "durationSeconds": 30
+        },
         {
           "id": "SSMowOBfwvY",
           "title": "Lunch with Iron Maiden's Nicko McBrain: More Than Just Fame #shorts",
@@ -791,40 +825,6 @@
           },
           "duration": "PT56S",
           "durationSeconds": 56
-        },
-        {
-          "id": "12c4JroeT8I",
-          "title": "Control Your Surroundings: Master Your Environment & Success! #shorts",
-          "publishedAt": "2026-06-21T21:30:26Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/12c4JroeT8I/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/12c4JroeT8I/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/12c4JroeT8I/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/12c4JroeT8I/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/12c4JroeT8I/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT25S",
-          "durationSeconds": 25
         }
       ]
     },
