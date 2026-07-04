@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-03T07:06:56.690Z",
+  "fetchedAt": "2026-07-04T07:08:15.332Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
-      "subscriberCount": 123000,
-      "videoCount": 302,
+      "subscriberCount": 125000,
+      "videoCount": 303,
       "recentLongform": [
         {
           "id": "eS-V5Fb9yOQ",
@@ -146,6 +146,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "Hzl2LClqn0w",
+          "title": "Yukina de Hanabie Haciendo Crowdsurf",
+          "publishedAt": "2026-07-03T18:18:01Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Hzl2LClqn0w/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Hzl2LClqn0w/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Hzl2LClqn0w/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Hzl2LClqn0w/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Hzl2LClqn0w/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M",
+          "durationSeconds": 60
+        },
         {
           "id": "XCjQtLTjJVQ",
           "title": "Pantera's Secret Country Roots: Texas & Dad's Studio Secrets!",
@@ -791,40 +825,6 @@
           },
           "duration": "PT24S",
           "durationSeconds": 24
-        },
-        {
-          "id": "G82Pm2L21dg",
-          "title": "Through The Oculus | Wacken Metal Battle Finals",
-          "publishedAt": "2026-06-22T04:25:25Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT56S",
-          "durationSeconds": 56
         }
       ]
     },
