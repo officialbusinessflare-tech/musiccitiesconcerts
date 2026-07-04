@@ -1,36 +1,41 @@
 ---
+/**
+ * Homepage — curated overview.
+ *
+ * Layout, top to bottom:
+ *   - Header
+ *   - SceneNav
+ *   - Hero strip ("Concerts. Releases. The scene.")
+ *   - Field Trips: TWO strips — Wacken (chronologically first), then London
+ *   - Coming Up Next: next 9 entries across ALL buckets
+ *   - The Scenes: bucket teaser tiles
+ *   - Scene Briefs: 2 editorial dashboards
+ *   - Video strips (Latest from TMC, Music Cities Radio, Performance Shorts) — bottom
+ *   - Footer
+ */
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import SceneNav from '../components/SceneNav.astro';
 import Footer from '../components/Footer.astro';
-import BucketSection from '../components/BucketSection.astro';
-import BirthdaySection from '../components/BirthdaySection.astro';
+import ShowCard from '../components/ShowCard.astro';
+import ReleaseCard from '../components/ReleaseCard.astro';
 import VideoStrip from '../components/VideoStrip.astro';
 import type { BucketsConfigFile, ConcertsDataFile, ConcertEntry, BirthdaysDataFile } from '../lib/types';
 import { categorize, groupByBucket } from '../lib/categorize';
 import { collectKnownVenues, reparseEntry } from '../lib/parse-name';
 
-// Astro can import JSON directly at build time. concerts.json is regenerated
-// nightly by the scheduled function committing back to the repo.
 import bucketsConfig from '../../buckets.config.json';
 import concertsData from '../../concerts.json';
 import birthdaysData from '../../birthdays.json';
 
-// YouTube content — fetched at prebuild time by scripts/fetch-youtube-content.mjs.
-// Wrapped in a try/catch so a missing/malformed file never breaks the build.
+// YouTube content — silent fallback so a missing file doesn't break the build.
 let ytData: any = {
-  channels: {
-    tmc: { recentLongform: [], recentShorts: [] },
-    radio: { recentLongform: [], recentShorts: [] },
-  },
+  channels: { tmc: { recentLongform: [], recentShorts: [] }, radio: { recentLongform: [], recentShorts: [] } },
   playlists: {},
 };
 try {
-  // eslint-disable-next-line
   ytData = (await import('../../public/youtube-content.json')).default ?? ytData;
-} catch (err) {
-  // File doesn't exist yet or is malformed — silent degradation.
-}
+} catch (err) {}
 const tmcLongform = ytData?.channels?.tmc?.recentLongform ?? [];
 const radioLongform = ytData?.channels?.radio?.recentLongform ?? [];
 const radioShorts = ytData?.channels?.radio?.recentShorts ?? [];
@@ -38,26 +43,92 @@ const radioShorts = ytData?.channels?.radio?.recentShorts ?? [];
 const buckets = (bucketsConfig as BucketsConfigFile).buckets;
 const data = concertsData as ConcertsDataFile;
 const knownVenues = collectKnownVenues(buckets);
-
 const birthdays = (birthdaysData as BirthdaysDataFile).entries ?? [];
 
-// Defensive: filter out anything in the past, just in case the data file
-// outpaces the nightly rebuild.
 const today = new Date().toISOString().slice(0, 10);
 const upcoming: ConcertEntry[] = (data.entries ?? [])
   .filter((e) => {
     const compareDate = e.endDate ?? e.date;
     return compareDate >= today;
   })
-  // Re-parse the name at build time. The nightly fetch may have run with an
-  // older parser; this lets fixes to parse-name.ts take effect immediately,
-  // including venue-collision rescue for titles like "Nemophila with Conduit".
   .map((e) => reparseEntry(e, knownVenues))
-  // Re-run categorization at build time so changes to the bucket config or
-  // matching logic take effect immediately too.
   .map((e) => ({ ...e, buckets: categorize(e, buckets) }));
 
 const grouped = groupByBucket(upcoming, buckets);
+
+// Coming Up Next — the next 9 entries across the WHOLE calendar, regardless of bucket.
+const comingUp = [...upcoming]
+  .sort((a, b) => a.date.localeCompare(b.date))
+  .slice(0, 9);
+
+const BUCKET_HREFS: Record<string, string> = {
+  'florida-metal-scene': '/florida',
+  'japanese-metal': '/japan',
+  'key-festivals': '/festivals',
+  'interesting-elsewhere': '/elsewhere',
+  'album-releases': '/releases',
+};
+
+const bucketTeasers = buckets.map((b) => ({
+  id: b.id,
+  name: b.name,
+  kanji: b.kanji,
+  description: b.description,
+  count: grouped.get(b.id)?.length ?? 0,
+  href: BUCKET_HREFS[b.id] ?? '/',
+}));
+
+const birthdaysTeaser = {
+  id: 'birthdays',
+  name: 'Birthdays',
+  kanji: undefined as string | undefined,
+  description: 'Artists, players, and the people behind the bands we follow. Sorted by next-up.',
+  count: birthdays.length,
+  href: '/birthdays',
+};
+
+const venuesTeaser = {
+  id: 'venues',
+  name: 'Go-To Venues',
+  kanji: undefined as string | undefined,
+  description: "The rooms we anchor our coverage on. One per city — where the bands you care about actually play.",
+  count: null as number | null,
+  href: '/venues',
+};
+
+const teasers = [...bucketTeasers, birthdaysTeaser, venuesTeaser];
+
+const fieldTrips = [
+  {
+    id: 'wacken',
+    href: '/wacken',
+    titleHtml: 'Wacken <em>2026</em> — 35th Anniversary Pilgrimage',
+    sub: "Wednesday 29 July — Saturday 1 August 2026 · 4 days, ~140 bands, four headliners, our tier-coded schedule + conflict picks",
+    cta: 'View the brief →',
+  },
+  {
+    id: 'london',
+    href: '/london',
+    titleHtml: 'Metal <em>London</em> — A NWOBHM Pilgrimage',
+    sub: "Sunday 2 — Tuesday 4 August 2026 · Lovebites @ O2 Academy Islington + the city's metal stops",
+    cta: 'View the trip plan →',
+  },
+];
+
+const sceneBriefs = [
+  {
+    id: 'japan-scene',
+    name: 'Japan Scene',
+    description: "The in-Japan shows: 14 J-metal bands' Japan dates, recommended trip windows, festivals, and travel intel.",
+    href: '/japan-scene',
+  },
+  {
+    id: 'japan-global',
+    name: 'Japan Global',
+    description: 'Japanese metal bands touring abroad: North America, Europe, Asia/Oceania tour schedules in one view.',
+    href: '/japan-global',
+  },
+];
 
 const lastUpdated = data.generatedAt
   ? new Date(data.generatedAt).toLocaleDateString('en-US', {
@@ -81,7 +152,7 @@ const lastUpdated = data.generatedAt
         Concerts. Releases. <em>The scene.</em>
       </h1>
       <p class="hero-strip__body">
-        Not an aggregator. This is the calendar Kevin actually pays attention to —
+        Not an aggregator. This is the calendar we actually pay attention to —
         Florida's metal venues, the Japanese watch list, marquee festivals, new
         releases, livestreams, and the records on heavy rotation.
         {lastUpdated ? <span>Last updated {lastUpdated}.</span> : null}
@@ -89,17 +160,118 @@ const lastUpdated = data.generatedAt
     </div>
   </section>
 
+  <section class="field-trip-strip">
+    <div class="container">
+      <header class="field-trips__header">
+        <span class="field-trips__eyebrow">Field Trips</span>
+        <p class="field-trips__sub">Where we're actually going. The 2026 post-Wacken arc — four days of Wacken, then Broken By The Scream Sunday and Lovebites Monday in London.</p>
+      </header>
+      <div class="field-trips__stack">
+        {fieldTrips.map((trip) => (
+          <a href={trip.href} class="field-trip-strip__link">
+            <span class="field-trip-strip__eyebrow">Field Trip</span>
+            <h2 class="field-trip-strip__title" set:html={trip.titleHtml}></h2>
+            <p class="field-trip-strip__sub">{trip.sub}</p>
+            <span class="field-trip-strip__cta">{trip.cta}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="coming-up">
+    <div class="container">
+      <header class="coming-up__header">
+        <span class="coming-up__eyebrow">Coming up next</span>
+        <h2 class="coming-up__title">The next nine on the calendar</h2>
+        <p class="coming-up__sub">Across every bucket, soonest first. Use the bucket pages for the full lists.</p>
+      </header>
+      {comingUp.length === 0 ? (
+        <p class="bucket__empty">Nothing on the calendar yet. Check back soon.</p>
+      ) : (
+        <div class="bucket__grid">
+          {comingUp.map((entry) =>
+            entry.isRelease ? <ReleaseCard entry={entry} /> : <ShowCard entry={entry} />,
+          )}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <section class="scenes">
+    <div class="container">
+      <header class="scenes__header">
+        <span class="scenes__eyebrow">The scenes</span>
+        <h2 class="scenes__title">Pick your beat</h2>
+        <p class="scenes__sub">Each tile is its own page — bucket, count, and the editorial scope behind it.</p>
+      </header>
+
+      <div class="bucket-teasers">
+        {teasers.map((t) => (
+          <a href={t.href} class="bucket-teaser">
+            <h3 class="bucket-teaser__name">
+              {t.name}
+              {t.kanji ? <span class="bucket-teaser__kanji" lang="ja">{t.kanji}</span> : null}
+            </h3>
+            {t.count !== null ? <p class="bucket-teaser__count">{t.count} {t.count === 1 ? 'entry' : 'entries'}</p> : null}
+            <p class="bucket-teaser__desc">{t.description}</p>
+            <span class="bucket-teaser__cta">View all →</span>
+          </a>
+        ))}
+      </div>
+
+      <header class="scenes__header scenes__header--briefs">
+        <span class="scenes__eyebrow">Scene briefs</span>
+        <h2 class="scenes__title">Editorial dashboards</h2>
+        <p class="scenes__sub">Deep-dive pages for specific trips and festivals — separate from the ClickUp-driven bucket calendars.</p>
+      </header>
+
+      <div class="bucket-teasers">
+        {sceneBriefs.map((t) => (
+          <a href={t.href} class="bucket-teaser">
+            <h3 class="bucket-teaser__name">{t.name}</h3>
+            <p class="bucket-teaser__desc">{t.description}</p>
+            <span class="bucket-teaser__cta">View briefing →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* Video strips — parked at the bottom for now. The info the visitor came for
+      (Coming Up Next, Scenes) is what leads. Videos are a discovery layer, not
+      a home-page hero. */}
   <VideoStrip title="Latest from The Music Cities" videos={tmcLongform.slice(0, 3)} channelBadge="TMC" />
   <VideoStrip title="Music Cities Radio" videos={radioLongform.slice(0, 3)} channelBadge="Radio" />
   <VideoStrip title="Performance Shorts" videos={radioShorts.slice(0, 6)} channelBadge="Radio" layout="scroll" />
 
-  <main>
-    {buckets.map((bucket) => (
-      <BucketSection bucket={bucket} entries={grouped.get(bucket.id) ?? []} />
-    ))}
-  </main>
-
-  <BirthdaySection entries={birthdays} />
-
   <Footer />
 </BaseLayout>
+
+<style is:global>
+  .field-trips__header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+  }
+  .field-trips__eyebrow {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+  .field-trips__sub {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    margin: 0;
+    max-width: 60ch;
+    line-height: 1.4;
+  }
+  .field-trips__stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+</style>
