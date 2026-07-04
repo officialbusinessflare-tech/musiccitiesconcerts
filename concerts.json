@@ -1,30 +1,6 @@
 {
-  "generatedAt": "2026-07-03T07:06:50.606Z",
+  "generatedAt": "2026-07-04T07:08:10.639Z",
   "entries": [
-    {
-      "id": "86bae8yt0",
-      "name": "NGY / Bobby Peru / Aotte / Zero Pulse / Regarding Waves — Churchill's Pub, Miami FL",
-      "date": "2026-07-03",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "NGY",
-        "Bobby Peru",
-        "Aotte",
-        "Zero Pulse",
-        "Regarding Waves"
-      ],
-      "description": "South Florida Underground — Independence Day Weekend Kickoff",
-      "ticketUrl": "https://shotgun.live/events/ngy-bobby-peru-aotte-zero-pulse-regarding-waves",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bae8yt0",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86bampq5g",
       "name": "HANABIE. — Teatro Estudio Cavaret, Guadalajara MX",
@@ -326,6 +302,25 @@
       "clickupUrl": "https://app.clickup.com/t/86b9b7kfd",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bar0d08",
+      "name": "Buried Alive Festival — Open Nerve + We All Rise + Modern Mimes + Valley Dog + God Kings + Medic @ Las Rosas, Miami — Jul 11 2026",
+      "date": "2026-07-12",
+      "city": "Open Nerve + We All Rise + Modern Mimes + Valley Dog + God Kings + Medic @ Las Rosas",
+      "country": "Miami — Jul 11 2026",
+      "bands": [
+        "Buried Alive Festival"
+      ],
+      "description": "Show: Buried Alive Festival\nHeadliner: Open Nerve (Miami — 4-piece nu metal / metalcore / post-hardcore; Faith No More + Deftones + Glassjaw influences)\nSupports: We All Rise, Modern Mimes, Valley Dog, God Kings, Medic (roster from the flyer — verify supports/times against Open…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bar0d08",
+      "buckets": [
+        "florida-metal-scene",
+        "key-festivals"
       ]
     },
     {
@@ -880,6 +875,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365ab",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86baqzv52",
+      "name": "Frozen Soul + Bodybox + Maul + Eternal @ Churchill's Pub, Miami FL — Aug 7 2026",
+      "date": "2026-08-07",
+      "venue": "Aug 7 2026",
+      "bands": [
+        "Frozen Soul",
+        "Bodybox",
+        "Maul"
+      ],
+      "description": "Show: Frozen Soul (Death Metal, Texas) with Bodybox, Maul, and Eternal\nVenue: Churchill's Pub — 5501 NE 2nd Ave, Miami, FL 33137\nDate / Time: Friday, August 7, 2026 — 7:00 PM (Doors) — 18+\nPresenter: Endoxa x Breakeven Booking\nTickets: TicketWeb — from $27.51",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baqzv52",
       "buckets": [
         "florida-metal-scene"
       ]
