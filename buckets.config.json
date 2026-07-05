@@ -65,7 +65,7 @@
     {
       "id": "japanese-metal",
       "name": "Japanese Metal",
-      "kanji": "音楽都市",
+      "kanji": "\u97f3\u697d\u90fd\u5e02",
       "description": "Japanese women are making the best metal being made today. Watch-list bands from the Japan-led Asian scene, wherever they are playing.",
       "matchRules": {
         "venues": [],
@@ -114,7 +114,8 @@
           "ASTERISM",
           "The Warning",
           "Broken by the Scream",
-          "Edge of Paradise"
+          "Edge of Paradise",
+          "Fathomless Skywalker"
         ]
       }
     },
