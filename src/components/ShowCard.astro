@@ -1,5 +1,6 @@
 ---
 import type { ConcertEntry } from '../lib/types';
+import bucketsConfig from '../../buckets.config.json';
 
 interface Props {
   entry: ConcertEntry;
@@ -20,8 +21,32 @@ function formatDateStamp(iso: string): string {
 const dateStamp = formatDateStamp(entry.date);
 const endStamp = entry.endDate && entry.endDate !== entry.date ? formatDateStamp(entry.endDate) : null;
 
-// Headline: prefer first parsed band, fall back to raw name.
-const headline = entry.bands[0] ?? entry.name;
+// Watch-list set — bands on our follow / friends list from the buckets config.
+// Members of this set are ALWAYS surfaced in the headline even on a busy bill,
+// so friend-band supports (e.g. Ramtha on a Mind Virus night) don't get truncated.
+const watchListBands = new Set<string>();
+for (const b of (bucketsConfig as any).buckets ?? []) {
+  for (const band of b?.matchRules?.bands ?? []) {
+    if (typeof band === 'string') watchListBands.add(band.toLowerCase());
+  }
+}
+
+// Compose the headline. Start from the parsed lineup, fall back to raw name.
+const bands = entry.bands && entry.bands.length > 0 ? entry.bands : [entry.name];
+
+// Ordering: headliner (bands[0]) first, then any remaining watch-list bands,
+// then any other supports. Cap at 3 shown; if more, append "+ N more".
+const headliner = bands[0];
+const supports = bands.slice(1);
+const supportsPrioritized = [
+  ...supports.filter((b) => watchListBands.has(b.toLowerCase())),
+  ...supports.filter((b) => !watchListBands.has(b.toLowerCase())),
+];
+const orderedForDisplay = [headliner, ...supportsPrioritized];
+const DISPLAY_LIMIT = 3;
+const shown = orderedForDisplay.slice(0, DISPLAY_LIMIT);
+const remaining = orderedForDisplay.length - shown.length;
+const headline = shown.join(' + ') + (remaining > 0 ? ` + ${remaining} more` : '');
 
 // Meta line: venue + city + state/country (the dedupe step in venue-collision
 // rescue means venue and city can sometimes be the same string — collapse them).
