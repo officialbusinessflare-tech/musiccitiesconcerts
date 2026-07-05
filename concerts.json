@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-07-04T07:08:10.639Z",
+  "generatedAt": "2026-07-05T05:16:27.142Z",
   "entries": [
+    {
+      "id": "86barcr6h",
+      "name": "NEMOPHILA @ Hangar 1819 — Greensboro, NC — Jul 6 2026",
+      "date": "2026-07-06",
+      "city": "Greensboro",
+      "country": "NC — Jul 6 2026",
+      "bands": [
+        "NEMOPHILA @ Hangar 1819"
+      ],
+      "description": "NEMOPHILA bring their North America Tour 2026 to Hangar 1819 in Greensboro, NC. All-female Japanese heavy metal band on the watch-list rotation. Show date: July 6, 2026. Surfaced from the saved concerts feed and confirmed against NEMOPHILA's official North American tour routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr6h",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcr6n",
+      "name": "NEMOPHILA @ The Masquerade (Hell) — Atlanta, GA — Jul 7 2026",
+      "date": "2026-07-07",
+      "city": "Atlanta",
+      "country": "GA — Jul 7 2026",
+      "bands": [
+        "NEMOPHILA @ The Masquerade (Hell)"
+      ],
+      "description": "NEMOPHILA bring their North America Tour 2026 to The Masquerade (Hell stage) in Atlanta, GA. All-female Japanese heavy metal band on the watch-list rotation. Show date: July 7, 2026. Surfaced from the saved concerts feed and confirmed against NEMOPHILA's official North American…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr6n",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
     {
       "id": "86bampq5g",
       "name": "HANABIE. — Teatro Estudio Cavaret, Guadalajara MX",
@@ -362,6 +398,24 @@
       ]
     },
     {
+      "id": "86barcr0z",
+      "name": "Rolling Quartz @ Granada Theater — Minneapolis, MN — Jul 15 2026",
+      "date": "2026-07-15",
+      "city": "Minneapolis",
+      "country": "MN — Jul 15 2026",
+      "bands": [
+        "Rolling Quartz @ Granada Theater"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to the Granada Theater in Minneapolis, MN. Korean hard-rock five-piece on the watch-list rotation. Show date: July 15, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr0z",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bahh5gf",
       "name": "📀 KOIAI — Starting Over EP — RELEASE",
       "date": "2026-07-15",
@@ -377,6 +431,24 @@
       "buckets": [
         "japanese-metal",
         "album-releases"
+      ]
+    },
+    {
+      "id": "86barcr10",
+      "name": "Rolling Quartz @ Logan Square Auditorium — Chicago, IL — Jul 17 2026",
+      "date": "2026-07-17",
+      "city": "Chicago",
+      "country": "IL — Jul 17 2026",
+      "bands": [
+        "Rolling Quartz @ Logan Square Auditorium"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Logan Square Auditorium in Chicago, IL. Korean hard-rock five-piece on the watch-list rotation. Show date: July 17, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr10",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -415,6 +487,42 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba365d7",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcth2",
+      "name": "Tampa Bay's Hardcore Boom Fest 2026 @ Brass Mug — Tampa, FL — Jul 18 2026",
+      "date": "2026-07-18",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "country": "FL — Jul 18 2026",
+      "bands": [],
+      "description": "Entertainment Alliance presents Tampa Bay's Hardcore Boom Fest 2026 at the legendary Brass Mug (1450 Skipper Rd, Tampa FL 33613) — a favorite-venue all-dayer. Saturday, July 18, 2026, all ages, doors at noon, $15. Featuring Blood of Angels, Rising Up Angry, Ambush, Red Calling,…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcth2",
+      "buckets": [
+        "florida-metal-scene",
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86barcr13",
+      "name": "Rolling Quartz @ Garden Theater at Midtown — Detroit, MI — Jul 18 2026",
+      "date": "2026-07-18",
+      "city": "Detroit",
+      "country": "MI — Jul 18 2026",
+      "bands": [
+        "Rolling Quartz @ Garden Theater at Midtown"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to the Garden Theater at Midtown in Detroit, MI. Korean hard-rock five-piece on the watch-list rotation. Show date: July 18, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr13",
       "buckets": [
         "japanese-metal"
       ]
@@ -460,6 +568,60 @@
       ]
     },
     {
+      "id": "86barcr17",
+      "name": "Rolling Quartz @ Black Circle Brewing Co — Indianapolis, IN — Jul 19 2026",
+      "date": "2026-07-19",
+      "city": "Indianapolis",
+      "country": "IN — Jul 19 2026",
+      "bands": [
+        "Rolling Quartz @ Black Circle Brewing Co"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Black Circle Brewing Co in Indianapolis, IN. Korean hard-rock five-piece on the watch-list rotation. Show date: July 19, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr17",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcr19",
+      "name": "Rolling Quartz @ The King of Clubs — Columbus, OH — Jul 21 2026",
+      "date": "2026-07-21",
+      "city": "Columbus",
+      "country": "OH — Jul 21 2026",
+      "bands": [
+        "Rolling Quartz @ The King of Clubs"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to The King of Clubs in Columbus, OH. Korean hard-rock five-piece on the watch-list rotation. Show date: July 21, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr19",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcr1e",
+      "name": "Rolling Quartz @ Woodward Theater — Cincinnati, OH — Jul 22 2026",
+      "date": "2026-07-22",
+      "city": "Cincinnati",
+      "country": "OH — Jul 22 2026",
+      "bands": [
+        "Rolling Quartz @ Woodward Theater"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to the Woodward Theater in Cincinnati, OH. Korean hard-rock five-piece on the watch-list rotation. Show date: July 22, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr1e",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86ban5v0m",
       "name": "Jiluka — Brick by Brick, San Diego CA",
       "date": "2026-07-23",
@@ -475,6 +637,24 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5v0m",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcr1k",
+      "name": "Rolling Quartz @ Riverside Revival — Nashville, TN — Jul 24 2026",
+      "date": "2026-07-24",
+      "city": "Nashville",
+      "country": "TN — Jul 24 2026",
+      "bands": [
+        "Rolling Quartz @ Riverside Revival"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Riverside Revival in Nashville, TN. Korean hard-rock five-piece on the watch-list rotation. Show date: July 24, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr1k",
       "buckets": [
         "japanese-metal"
       ]
@@ -514,6 +694,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bampq6j",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86barcr1n",
+      "name": "Rolling Quartz @ MadLife Stage & Studios — Woodstock (Atlanta), GA — Jul 27 2026",
+      "date": "2026-07-27",
+      "city": "Woodstock (Atlanta)",
+      "country": "GA — Jul 27 2026",
+      "bands": [
+        "Rolling Quartz @ MadLife Stage",
+        "Studios"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to MadLife Stage & Studios in Woodstock, GA (Atlanta metro). Korean hard-rock five-piece on the watch-list rotation. Show date: July 27, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr1n",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -661,6 +860,24 @@
       ]
     },
     {
+      "id": "86barcr1q",
+      "name": "Rolling Quartz @ Open Chord Stage — Knoxville, TN — Jul 31 2026",
+      "date": "2026-07-31",
+      "city": "Knoxville",
+      "country": "TN — Jul 31 2026",
+      "bands": [
+        "Rolling Quartz @ Open Chord Stage"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Open Chord Stage in Knoxville, TN. Korean hard-rock five-piece on the watch-list rotation. Show date: July 31, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr1q",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86baqu73r",
       "name": "📀 SAKI (solo) — Major Debut Album — RELEASE",
       "date": "2026-07-31",
@@ -728,6 +945,24 @@
       "buckets": [
         "florida-metal-scene",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86barcr1u",
+      "name": "Rolling Quartz @ Heist Brewery and Barrel Arts — Charlotte, NC — Aug 1 2026",
+      "date": "2026-08-01",
+      "city": "Charlotte",
+      "country": "NC — Aug 1 2026",
+      "bands": [
+        "Rolling Quartz @ Heist Brewery and Barrel Arts"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Heist Brewery and Barrel Arts in Charlotte, NC. Korean hard-rock five-piece on the watch-list rotation. Show date: August 1, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr1u",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -822,6 +1057,24 @@
       ]
     },
     {
+      "id": "86barcr29",
+      "name": "Rolling Quartz @ Karma DC Live Music Venue — Washington, DC — Aug 3 2026",
+      "date": "2026-08-03",
+      "city": "Washington",
+      "country": "DC — Aug 3 2026",
+      "bands": [
+        "Rolling Quartz @ Karma DC Live Music Venue"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Karma DC Live Music Venue in Washington, DC. Korean hard-rock five-piece on the watch-list rotation. Show date: August 3, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr29",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86b9ky5n5",
       "name": "LOVEBITES — O2 Academy Islington, London + Meet and Greet (Trip Prep)",
       "date": "2026-08-03",
@@ -835,6 +1088,42 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9ky5n5",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcr2a",
+      "name": "Rolling Quartz @ PhilaMOCA — Philadelphia, PA — Aug 5 2026",
+      "date": "2026-08-05",
+      "city": "Philadelphia",
+      "country": "PA — Aug 5 2026",
+      "bands": [
+        "Rolling Quartz @ PhilaMOCA"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to PhilaMOCA in Philadelphia, PA. Korean hard-rock five-piece on the watch-list rotation. Show date: August 5, 2026. Tickets via Leo Presents / TicketWeb. Surfaced from the saved concerts feed and confirmed against the band's…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr2a",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcr2c",
+      "name": "Rolling Quartz @ Soho Live — New York, NY — Aug 6 2026",
+      "date": "2026-08-06",
+      "city": "New York",
+      "country": "NY — Aug 6 2026",
+      "bands": [
+        "Rolling Quartz @ Soho Live"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Soho Live in New York, NY. Korean hard-rock five-piece on the watch-list rotation. Show date: August 6, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's announced MY…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr2c",
       "buckets": [
         "japanese-metal"
       ]
@@ -937,6 +1226,24 @@
       ]
     },
     {
+      "id": "86barcr2e",
+      "name": "Rolling Quartz @ Sonia — Boston, MA — Aug 8 2026",
+      "date": "2026-08-08",
+      "city": "Boston",
+      "country": "MA — Aug 8 2026",
+      "bands": [
+        "Rolling Quartz @ Sonia"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Sonia in Boston, MA. Korean hard-rock five-piece on the watch-list rotation. Show date: August 8, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's announced MY TURN…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr2e",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86ba365ag",
       "name": "Crows Fest 2026 — Churchill's Pub, Miami FL",
       "date": "2026-08-08",
@@ -989,6 +1296,64 @@
       "clickupUrl": "https://app.clickup.com/t/86b997uw3",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86barcr2j",
+      "name": "Rolling Quartz @ L'ANTI Bar & Spectacles — Quebec City, QC, Canada — Aug 10 2026",
+      "date": "2026-08-10",
+      "venue": "Quebec City",
+      "city": "QC",
+      "country": "Canada — Aug 10 2026",
+      "bands": [
+        "Rolling Quartz @ L'ANTI Bar",
+        "Spectacles"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to L'ANTI Bar & Spectacles in Quebec City, QC, Canada. Korean hard-rock five-piece on the watch-list rotation. Show date: August 10, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr2j",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcr2m",
+      "name": "Rolling Quartz @ Piranha Bar — Montreal, QC, Canada — Aug 11 2026",
+      "date": "2026-08-11",
+      "venue": "Montreal",
+      "city": "QC",
+      "country": "Canada — Aug 11 2026",
+      "bands": [
+        "Rolling Quartz @ Piranha Bar"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Piranha Bar in Montreal, QC, Canada. Korean hard-rock five-piece on the watch-list rotation. Show date: August 11, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr2m",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcr2p",
+      "name": "Rolling Quartz @ El Mocambo (Under the Neon Palms) — Toronto, ON, Canada — Aug 13 2026",
+      "date": "2026-08-13",
+      "venue": "Toronto",
+      "city": "ON",
+      "country": "Canada — Aug 13 2026",
+      "bands": [
+        "Rolling Quartz @ El Mocambo (Under the Neon Palms)"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Under the Neon Palms at the El Mocambo in Toronto, ON, Canada. Korean hard-rock five-piece on the watch-list rotation. Show date: August 13, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcr2p",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -1247,6 +1612,25 @@
       ]
     },
     {
+      "id": "86barcvpu",
+      "name": "Primitive Brutality + guests @ The Griffin — Las Vegas, NV — Sep 5 2026",
+      "date": "2026-09-05",
+      "city": "Las Vegas",
+      "country": "NV — Sep 5 2026",
+      "bands": [
+        "Primitive Brutality",
+        "guests @ The Griffin"
+      ],
+      "description": "Death metal bill at The Griffin (511 E Fremont St, Las Vegas NV), Saturday September 5, 2026, 8pm, 21+. Confirmed on the lineup: Primitive Brutality. The two headlining acts appear in heavily stylized logos on the flyer and were not legible — worth a manual confirm on the lineup…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcvpu",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86b9b8egf",
       "name": "Nicko McBrain's Titanium Tart - Culture Room, Fort Lauderdale FL",
       "date": "2026-09-05",
@@ -1319,6 +1703,79 @@
       ]
     },
     {
+      "id": "86barcrrk",
+      "name": "FATE GEAR @ Legend Club — Milan, Italy — Sep 9 2026",
+      "date": "2026-09-09",
+      "city": "Milan",
+      "country": "Italy — Sep 9 2026",
+      "bands": [
+        "FATE GEAR @ Legend Club"
+      ],
+      "description": "FATE GEAR bring their Frozen Abyss Tour 2026 to Legend Club in Milan, Italy — the band's first-ever Italian performance. All-female Japanese steampunk/gothic metal band on the watch-list rotation. Show date: September 9, 2026. Part of a three-date European run (Milan, Luzern,…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrrk",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcrrr",
+      "name": "FATE GEAR @ Schüür — Luzern, Switzerland — Sep 10 2026",
+      "date": "2026-09-10",
+      "city": "Luzern",
+      "country": "Switzerland — Sep 10 2026",
+      "bands": [
+        "FATE GEAR @ Schüür"
+      ],
+      "description": "FATE GEAR bring their Frozen Abyss Tour 2026 to Schüür in Luzern, Switzerland. All-female Japanese steampunk/gothic metal band on the watch-list rotation. Show date: September 10, 2026. Part of a three-date European run (Milan, Luzern, Cologne). Confirmed against the band's…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrrr",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcrrw",
+      "name": "FATE GEAR @ Garagen Club — Cologne, Germany — Sep 11 2026",
+      "date": "2026-09-11",
+      "city": "Cologne",
+      "country": "Germany — Sep 11 2026",
+      "bands": [
+        "FATE GEAR @ Garagen Club"
+      ],
+      "description": "FATE GEAR bring their Frozen Abyss Tour 2026 to the Garagen Club in Cologne, Germany. All-female Japanese steampunk/gothic metal band on the watch-list rotation. Show date: September 11, 2026. Part of a three-date European run (Milan, Luzern, Cologne). Confirmed against the…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrrw",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcrht",
+      "name": "Rolling Quartz @ Rio Theatre — Vancouver, BC, Canada — Sep 11 2026",
+      "date": "2026-09-11",
+      "venue": "Vancouver",
+      "city": "BC",
+      "country": "Canada — Sep 11 2026",
+      "bands": [
+        "Rolling Quartz @ Rio Theatre"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to the Rio Theatre in Vancouver, BC, Canada. Korean hard-rock five-piece on the watch-list rotation. Show date: September 11, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrht",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86b9b7mh7",
       "name": "LOVEBITES — Outstanding Tour — Zepp Sapporo, Japan",
       "date": "2026-09-11",
@@ -1332,6 +1789,42 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mh7",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcrhx",
+      "name": "Rolling Quartz @ Substation — Seattle, WA — Sep 12 2026",
+      "date": "2026-09-12",
+      "city": "Seattle",
+      "country": "WA — Sep 12 2026",
+      "bands": [
+        "Rolling Quartz @ Substation"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Substation in Seattle, WA. Korean hard-rock five-piece on the watch-list rotation. Show date: September 12, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrhx",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcrj4",
+      "name": "Rolling Quartz @ Star Theater — Portland, OR — Sep 13 2026",
+      "date": "2026-09-13",
+      "city": "Portland",
+      "country": "OR — Sep 13 2026",
+      "bands": [
+        "Rolling Quartz @ Star Theater"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to the Star Theater in Portland, OR. Korean hard-rock five-piece on the watch-list rotation. Show date: September 13, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrj4",
       "buckets": [
         "japanese-metal"
       ]
@@ -1393,6 +1886,24 @@
       ]
     },
     {
+      "id": "86barcrjc",
+      "name": "Rolling Quartz @ The Press Club — Sacramento, CA — Sep 16 2026",
+      "date": "2026-09-16",
+      "city": "Sacramento",
+      "country": "CA — Sep 16 2026",
+      "bands": [
+        "Rolling Quartz @ The Press Club"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to The Press Club in Sacramento, CA. Korean hard-rock five-piece on the watch-list rotation. Show date: September 16, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrjc",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bammf4g",
       "name": "BABYMETAL — Ameris Bank Amphitheatre, Alpharetta GA (Atlanta)",
       "date": "2026-09-16",
@@ -1429,6 +1940,24 @@
       "clickupUrl": "https://app.clickup.com/t/86bae8x0m",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86barcrk5",
+      "name": "Rolling Quartz @ Crybaby — Oakland, CA — Sep 17 2026",
+      "date": "2026-09-17",
+      "city": "Oakland",
+      "country": "CA — Sep 17 2026",
+      "bands": [
+        "Rolling Quartz @ Crybaby"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Crybaby in Oakland, CA. Korean hard-rock five-piece on the watch-list rotation. Show date: September 17, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrk5",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -1546,6 +2075,24 @@
       ]
     },
     {
+      "id": "86barcrk8",
+      "name": "Rolling Quartz @ Music Box — San Diego, CA — Sep 20 2026",
+      "date": "2026-09-20",
+      "city": "San Diego",
+      "country": "CA — Sep 20 2026",
+      "bands": [
+        "Rolling Quartz @ Music Box"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Music Box in San Diego, CA. Korean hard-rock five-piece on the watch-list rotation. Show date: September 20, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrk8",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86b7xwr6f",
       "name": "Ripplefest Texas - Austin",
       "date": "2026-09-20",
@@ -1599,6 +2146,24 @@
       ]
     },
     {
+      "id": "86barcrkd",
+      "name": "Rolling Quartz @ Nile Theater — Mesa, AZ — Sep 23 2026",
+      "date": "2026-09-23",
+      "city": "Mesa",
+      "country": "AZ — Sep 23 2026",
+      "bands": [
+        "Rolling Quartz @ Nile Theater"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to the Nile Theater in Mesa, AZ. Korean hard-rock five-piece on the watch-list rotation. Show date: September 23, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrkd",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86b9b7kg2",
       "name": "KK's Priest + W.A.S.P. — Daytona Beach, FL",
       "date": "2026-09-23",
@@ -1634,6 +2199,24 @@
       "clickupUrl": "https://app.clickup.com/t/86b9b7kgy",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86barcrkg",
+      "name": "Rolling Quartz @ Pearl on Main — Salt Lake City, UT — Sep 25 2026",
+      "date": "2026-09-25",
+      "city": "Salt Lake City",
+      "country": "UT — Sep 25 2026",
+      "bands": [
+        "Rolling Quartz @ Pearl on Main"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Pearl on Main in Salt Lake City, UT. Korean hard-rock five-piece on the watch-list rotation. Show date: September 25, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrkg",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -1686,6 +2269,60 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mpq",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcrkm",
+      "name": "Rolling Quartz @ Cervantes — Denver, CO — Sep 27 2026",
+      "date": "2026-09-27",
+      "city": "Denver",
+      "country": "CO — Sep 27 2026",
+      "bands": [
+        "Rolling Quartz @ Cervantes"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Cervantes in Denver, CO. Korean hard-rock five-piece on the watch-list rotation. Show date: September 27, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrkm",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcrkr",
+      "name": "Rolling Quartz @ 89th Street — Oklahoma City, OK — Sep 29 2026",
+      "date": "2026-09-29",
+      "city": "Oklahoma City",
+      "country": "OK — Sep 29 2026",
+      "bands": [
+        "Rolling Quartz @ 89th Street"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to 89th Street in Oklahoma City, OK. Korean hard-rock five-piece on the watch-list rotation. Show date: September 29, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrkr",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcrkz",
+      "name": "Rolling Quartz @ The Jam Spot — Albuquerque, NM — Oct 1 2026",
+      "date": "2026-10-01",
+      "city": "Albuquerque",
+      "country": "NM — Oct 1 2026",
+      "bands": [
+        "Rolling Quartz @ The Jam Spot"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to The Jam Spot in Albuquerque, NM. Korean hard-rock five-piece on the watch-list rotation. Show date: October 1, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrkz",
       "buckets": [
         "japanese-metal"
       ]
@@ -1749,6 +2386,24 @@
       ]
     },
     {
+      "id": "86barcrmm",
+      "name": "Rolling Quartz @ The Rock Box — San Antonio, TX — Oct 3 2026",
+      "date": "2026-10-03",
+      "city": "San Antonio",
+      "country": "TX — Oct 3 2026",
+      "bands": [
+        "Rolling Quartz @ The Rock Box"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to The Rock Box in San Antonio, TX. Korean hard-rock five-piece on the watch-list rotation. Show date: October 3, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrmm",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bamuujj",
       "name": "Sawed-Off Suffering Tour — Banyan Live, West Palm Beach FL",
       "date": "2026-10-04",
@@ -1780,6 +2435,24 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba9ag36",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86barcrn2",
+      "name": "Rolling Quartz @ Rockefellers — Houston, TX — Oct 6 2026",
+      "date": "2026-10-06",
+      "city": "Houston",
+      "country": "TX — Oct 6 2026",
+      "bands": [
+        "Rolling Quartz @ Rockefellers"
+      ],
+      "description": "Rolling Quartz bring their MY TURN North America tour to Rockefellers in Houston, TX. Korean hard-rock five-piece on the watch-list rotation. Show date: October 6, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcrn2",
       "buckets": [
         "japanese-metal"
       ]
@@ -1835,6 +2508,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba5zfhv",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86barcve9",
+      "name": "Dying Fetus + Crowbar + Left to Suffer @ Jannus Landing — St. Petersburg, FL — Oct 20 2026",
+      "date": "2026-10-20",
+      "city": "St. Petersburg",
+      "country": "FL — Oct 20 2026",
+      "bands": [
+        "Dying Fetus",
+        "Crowbar",
+        "Left to Suffer @ Jannus Landing"
+      ],
+      "description": "Dying Fetus and Crowbar co-headline with Left to Suffer (plus Deterioration) at Jannus Landing in St. Petersburg, FL. Death metal / sludge package tour. Show date: October 20, 2026. Surfaced from the saved concerts feed; Florida stop pulled from the tour's full routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcve9",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -1934,6 +2627,24 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5vf4",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86barcvpd",
+      "name": "Motionless In White — The Sweat and Blood Tour @ Kia Center — Orlando, FL — Nov 5 2026",
+      "date": "2026-11-05",
+      "city": "The Sweat and Blood Tour @ Kia Center — Orlando",
+      "country": "FL — Nov 5 2026",
+      "bands": [
+        "Motionless In White"
+      ],
+      "description": "Motionless In White bring The Sweat and Blood Tour to the Kia Center in Orlando, FL, with support from Dayseeker, The Devil Wears Prada, and Dark Divine. Show date: November 5, 2026. Tickets via Ticketmaster/Live Nation. Surfaced from the saved concerts feed; Florida stop pulled…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86barcvpd",
       "buckets": [
         "florida-metal-scene"
       ]
