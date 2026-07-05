@@ -1,13 +1,81 @@
 {
-  "fetchedAt": "2026-07-04T07:08:15.332Z",
+  "fetchedAt": "2026-07-05T05:16:35.888Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
-      "subscriberCount": 125000,
-      "videoCount": 303,
+      "subscriberCount": 127000,
+      "videoCount": 307,
       "recentLongform": [
+        {
+          "id": "7JlNNXhaYFg",
+          "title": "Pt. 1: 80s Metal Really Lives On While Grunge Only Survives in Tribute Bands | Scenes versus Sounds",
+          "publishedAt": "2026-07-04T23:30:38Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/7JlNNXhaYFg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/7JlNNXhaYFg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/7JlNNXhaYFg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/7JlNNXhaYFg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/7JlNNXhaYFg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT11M",
+          "durationSeconds": 660
+        },
+        {
+          "id": "j7grreoY6J0",
+          "title": "Why Japanese Metal Feels Like the 1st Real \"Scene\" Since the 80s | Scenes vs Sounds Part 2",
+          "publishedAt": "2026-07-04T23:30:01Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/j7grreoY6J0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/j7grreoY6J0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/j7grreoY6J0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/j7grreoY6J0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/j7grreoY6J0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT12M55S",
+          "durationSeconds": 775
+        },
         {
           "id": "eS-V5Fb9yOQ",
           "title": "Cities Chase Fame, Ignoring The Real Builders Of Success! #shorts",
@@ -109,43 +177,77 @@
           },
           "duration": "PT1M16S",
           "durationSeconds": 76
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "1l5AEQJELwk",
-          "title": "Nemesis | Wacken Metal Battle Finals | San Diego",
-          "publishedAt": "2026-06-23T03:37:44Z",
+          "id": "6P5YqZGHXOc",
+          "title": "80s Metal Was FUN! Then Grunge Killed It #shorts",
+          "publishedAt": "2026-07-04T23:01:22Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/default.jpg",
+              "url": "https://i.ytimg.com/vi/6P5YqZGHXOc/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/6P5YqZGHXOc/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/6P5YqZGHXOc/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/6P5YqZGHXOc/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/6P5YqZGHXOc/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT2M53S",
-          "durationSeconds": 173
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT28S",
+          "durationSeconds": 28
+        },
+        {
+          "id": "wGRKvogHHjw",
+          "title": "Cities: Embrace Your Unique DNA & Stay Paranoid!",
+          "publishedAt": "2026-07-04T13:01:33Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/wGRKvogHHjw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/wGRKvogHHjw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/wGRKvogHHjw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/wGRKvogHHjw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/wGRKvogHHjw/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT29S",
+          "durationSeconds": 29
+        },
         {
           "id": "Hzl2LClqn0w",
           "title": "Yukina de Hanabie Haciendo Crowdsurf",
@@ -723,108 +825,6 @@
           },
           "duration": "PT1M7S",
           "durationSeconds": 67
-        },
-        {
-          "id": "gTvU4Qmj7EA",
-          "title": "Beyond Fame: Climbing the Real Mountain with Nicko McBrain #shorts",
-          "publishedAt": "2026-06-22T20:29:23Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/gTvU4Qmj7EA/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/gTvU4Qmj7EA/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/gTvU4Qmj7EA/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/gTvU4Qmj7EA/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/gTvU4Qmj7EA/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT8S",
-          "durationSeconds": 8
-        },
-        {
-          "id": "zewQ_wCTtM4",
-          "title": "David Allan Coe: The Underground Album & Pantera Collab SHOCKER!",
-          "publishedAt": "2026-06-22T13:00:33Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/zewQ_wCTtM4/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/zewQ_wCTtM4/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/zewQ_wCTtM4/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/zewQ_wCTtM4/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/zewQ_wCTtM4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT50S",
-          "durationSeconds": 50
-        },
-        {
-          "id": "iY0cR19snjE",
-          "title": "Fame is a Snow Cap: The REAL Foundation of Success #shorts",
-          "publishedAt": "2026-06-22T12:46:21Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/iY0cR19snjE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/iY0cR19snjE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/iY0cR19snjE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/iY0cR19snjE/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/iY0cR19snjE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT24S",
-          "durationSeconds": 24
         }
       ]
     },
@@ -833,8 +833,42 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1050,
-      "videoCount": 52,
+      "videoCount": 54,
       "recentLongform": [
+        {
+          "id": "c9EMAOdpvYk",
+          "title": "Lacuna Coil live in Fort Lauderdale, 2026",
+          "publishedAt": "2026-07-05T05:10:33Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/c9EMAOdpvYk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/c9EMAOdpvYk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/c9EMAOdpvYk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/c9EMAOdpvYk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/c9EMAOdpvYk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M45S",
+          "durationSeconds": 225
+        },
         {
           "id": "qn1Z9uskKKQ",
           "title": "Escape the Fate | Culture Room | Fort Lauderdale",
@@ -1242,43 +1276,43 @@
           },
           "duration": "PT6M14S",
           "durationSeconds": 374
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "qy1MJUoPXFc",
-          "title": "Czargard | Miami Metal | Miamipalooza",
-          "publishedAt": "2026-05-03T21:12:25Z",
+          "id": "AsAeKbTpqWk",
+          "title": "Raw Brigade (from Bogota) at Gramps in Miami's Wynwood",
+          "publishedAt": "2026-07-05T05:14:57Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/qy1MJUoPXFc/default.jpg",
+              "url": "https://i.ytimg.com/vi/AsAeKbTpqWk/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/qy1MJUoPXFc/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/AsAeKbTpqWk/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/qy1MJUoPXFc/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/AsAeKbTpqWk/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/qy1MJUoPXFc/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/AsAeKbTpqWk/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/qy1MJUoPXFc/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/AsAeKbTpqWk/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT4M29S",
-          "durationSeconds": 269
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT44S",
+          "durationSeconds": 44
+        },
         {
           "id": "B7VYdaDEgo8",
           "title": "Mekronium | Live at the Gate | Circa 2018",
@@ -1618,40 +1652,6 @@
           },
           "duration": "PT58S",
           "durationSeconds": 58
-        },
-        {
-          "id": "Fxj6ea5ZPd0",
-          "title": "Hanabie Otaku Live",
-          "publishedAt": "2026-05-04T13:45:08Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Fxj6ea5ZPd0/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Fxj6ea5ZPd0/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Fxj6ea5ZPd0/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/Fxj6ea5ZPd0/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/Fxj6ea5ZPd0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT48S",
-          "durationSeconds": 48
         }
       ]
     }
