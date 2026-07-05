@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T06:22:41.547Z",
+  "generatedAt": "2026-07-05T06:25:24.243Z",
   "entries": [
     {
       "id": "86barcr6h",
@@ -395,6 +395,23 @@
       "clickupUrl": "https://app.clickup.com/t/86bammf3x",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bard44a",
+      "name": "📀 Vampire Bats — Vampire's Delight — RELEASE",
+      "date": "2026-07-15",
+      "venue": "Vampire's Delight — RELEASE",
+      "bands": [
+        "Vampire Bats"
+      ],
+      "description": "Vampire Bats — Vampire's Delight (debut album) 📀",
+      "priority": "normal",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bard44a",
+      "buckets": [
+        "album-releases"
       ]
     },
     {
