@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-05T07:09:54.214Z",
+  "fetchedAt": "2026-07-06T07:03:44.226Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 128000,
-      "videoCount": 306,
+      "videoCount": 307,
       "recentLongform": [
         {
           "id": "7JlNNXhaYFg",
@@ -143,43 +143,77 @@
           },
           "duration": "PT2M47S",
           "durationSeconds": 167
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "Kyc4F71XJ5Q",
-          "title": "Japanese Metal Queens Building Their Own Mountain! #shorts",
-          "publishedAt": "2026-06-23T20:01:25Z",
+          "id": "ebilP0uMV-4",
+          "title": "Seattle Sound: From Scene to Copied Product, Loyalty Lost #shorts",
+          "publishedAt": "2026-07-05T23:03:12Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/Kyc4F71XJ5Q/default.jpg",
+              "url": "https://i.ytimg.com/vi/ebilP0uMV-4/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/Kyc4F71XJ5Q/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/ebilP0uMV-4/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/Kyc4F71XJ5Q/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/ebilP0uMV-4/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/Kyc4F71XJ5Q/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/ebilP0uMV-4/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/Kyc4F71XJ5Q/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/ebilP0uMV-4/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT1M16S",
-          "durationSeconds": 76
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT56S",
+          "durationSeconds": 56
+        },
+        {
+          "id": "w-GI9Q6TbVQ",
+          "title": "Japanese Metal's Raw Energy: Reliving 80s Music Discovery! #shorts",
+          "publishedAt": "2026-07-05T14:55:28Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/w-GI9Q6TbVQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/w-GI9Q6TbVQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/w-GI9Q6TbVQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/w-GI9Q6TbVQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/w-GI9Q6TbVQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT19S",
+          "durationSeconds": 19
+        },
         {
           "id": "6P5YqZGHXOc",
           "title": "80s Metal Was FUN! Then Grunge Killed It #shorts",
@@ -791,40 +825,6 @@
           },
           "duration": "PT18S",
           "durationSeconds": 18
-        },
-        {
-          "id": "rwv-FFuMh1w",
-          "title": "From God's Waiting Room to Global Fame: The Ultimate Transformation #shorts",
-          "publishedAt": "2026-06-23T12:57:38Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/rwv-FFuMh1w/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/rwv-FFuMh1w/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/rwv-FFuMh1w/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/rwv-FFuMh1w/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/rwv-FFuMh1w/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M7S",
-          "durationSeconds": 67
         }
       ]
     },
