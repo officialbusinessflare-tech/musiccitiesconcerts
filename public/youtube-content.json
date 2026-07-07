@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-06T07:03:44.226Z",
+  "fetchedAt": "2026-07-07T03:18:10.870Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
-      "subscriberCount": 128000,
-      "videoCount": 307,
+      "subscriberCount": 131000,
+      "videoCount": 309,
       "recentLongform": [
         {
           "id": "7JlNNXhaYFg",
@@ -109,43 +109,77 @@
           },
           "duration": "PT1M21S",
           "durationSeconds": 81
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "G1TWg8rEUzQ",
-          "title": "Fate Defined |Wacken Metal Battle Finals | San Diego",
-          "publishedAt": "2026-06-24T04:47:01Z",
+          "id": "VpCzuw5JgcQ",
+          "title": "Your Music Identity: It's Yours, Not The Band's!",
+          "publishedAt": "2026-07-06T22:54:38Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/default.jpg",
+              "url": "https://i.ytimg.com/vi/VpCzuw5JgcQ/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/VpCzuw5JgcQ/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/VpCzuw5JgcQ/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/VpCzuw5JgcQ/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/VpCzuw5JgcQ/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT2M47S",
-          "durationSeconds": 167
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT24S",
+          "durationSeconds": 24
+        },
+        {
+          "id": "TvVpWUgWLwE",
+          "title": "Cities: Scene vs. Sound - What REALLY Matters? #shorts",
+          "publishedAt": "2026-07-06T12:59:26Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/TvVpWUgWLwE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/TvVpWUgWLwE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/TvVpWUgWLwE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/TvVpWUgWLwE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/TvVpWUgWLwE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M3S",
+          "durationSeconds": 63
+        },
         {
           "id": "ebilP0uMV-4",
           "title": "Seattle Sound: From Scene to Copied Product, Loyalty Lost #shorts",
@@ -791,40 +825,6 @@
           },
           "duration": "PT20S",
           "durationSeconds": 20
-        },
-        {
-          "id": "eQ35qioapsk",
-          "title": "Beyond Fame: True Artistry Is Building Your Own Authentic Creation #shorts",
-          "publishedAt": "2026-06-23T20:04:30Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/eQ35qioapsk/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/eQ35qioapsk/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/eQ35qioapsk/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/eQ35qioapsk/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/eQ35qioapsk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT18S",
-          "durationSeconds": 18
         }
       ]
     },
