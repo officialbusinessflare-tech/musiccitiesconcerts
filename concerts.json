@@ -1,43 +1,6 @@
 {
-  "generatedAt": "2026-07-07T07:01:10.295Z",
+  "generatedAt": "2026-07-08T07:10:23.508Z",
   "entries": [
-    {
-      "id": "86barcr6n",
-      "name": "NEMOPHILA @ The Masquerade (Hell) — Atlanta, GA — Jul 7 2026",
-      "date": "2026-07-07",
-      "city": "Atlanta",
-      "country": "GA — Jul 7 2026",
-      "bands": [
-        "NEMOPHILA @ The Masquerade (Hell)"
-      ],
-      "description": "NEMOPHILA bring their North America Tour 2026 to The Masquerade (Hell stage) in Atlanta, GA. All-female Japanese heavy metal band on the watch-list rotation. Show date: July 7, 2026. Surfaced from the saved concerts feed and confirmed against NEMOPHILA's official North American…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcr6n",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bampq5g",
-      "name": "HANABIE. — Teatro Estudio Cavaret, Guadalajara MX",
-      "date": "2026-07-07",
-      "venue": "Teatro Estudio Cavaret",
-      "city": "Guadalajara",
-      "state": "MX",
-      "bands": [
-        "HANABIE."
-      ],
-      "description": "HANABIE. — Live in Mexico 2026 — Guadalajara",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bampq5g",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bahh5fa",
       "name": "📀 FATE GEAR — 冥王と慈愛の天使 (When the Angel Fell for the Devil) — RELEASE",
