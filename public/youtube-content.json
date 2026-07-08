@@ -1,47 +1,13 @@
 {
-  "fetchedAt": "2026-07-07T07:01:15.154Z",
+  "fetchedAt": "2026-07-08T07:10:28.719Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
-      "subscriberCount": 132000,
-      "videoCount": 309,
+      "subscriberCount": 134000,
+      "videoCount": 194,
       "recentLongform": [
-        {
-          "id": "7JlNNXhaYFg",
-          "title": "Pt. 1: 80s Metal Really Lives On While Grunge Only Survives in Tribute Bands | Scenes versus Sounds",
-          "publishedAt": "2026-07-04T23:30:38Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/7JlNNXhaYFg/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/7JlNNXhaYFg/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/7JlNNXhaYFg/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/7JlNNXhaYFg/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/7JlNNXhaYFg/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT11M",
-          "durationSeconds": 660
-        },
         {
           "id": "j7grreoY6J0",
           "title": "Why Japanese Metal Feels Like the 1st Real \"Scene\" Since the 80s | Scenes vs Sounds Part 2",
@@ -77,245 +43,245 @@
           "durationSeconds": 775
         },
         {
-          "id": "eS-V5Fb9yOQ",
-          "title": "Cities Chase Fame, Ignoring The Real Builders Of Success! #shorts",
-          "publishedAt": "2026-06-24T12:48:31Z",
+          "id": "G1TWg8rEUzQ",
+          "title": "Fate Defined |Wacken Metal Battle Finals | San Diego",
+          "publishedAt": "2026-06-24T04:47:01Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/eS-V5Fb9yOQ/default.jpg",
+              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/eS-V5Fb9yOQ/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/eS-V5Fb9yOQ/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/eS-V5Fb9yOQ/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/eS-V5Fb9yOQ/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT1M21S",
-          "durationSeconds": 81
+          "duration": "PT2M47S",
+          "durationSeconds": 167
+        },
+        {
+          "id": "1l5AEQJELwk",
+          "title": "Nemesis | Wacken Metal Battle Finals | San Diego",
+          "publishedAt": "2026-06-23T03:37:44Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M53S",
+          "durationSeconds": 173
+        },
+        {
+          "id": "jCodLDRFNSs",
+          "title": "Lunch with Nicko | It Was Never About the Fame | Metal, Celebrity & Entrepreneurs",
+          "publishedAt": "2026-06-20T05:26:24Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/jCodLDRFNSs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/jCodLDRFNSs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/jCodLDRFNSs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/jCodLDRFNSs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/jCodLDRFNSs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT13M10S",
+          "durationSeconds": 790
+        },
+        {
+          "id": "LTW5SvfZIqA",
+          "title": "Pantera, David Allan Coe, and Babymetal | The Genre Cage Was Always a Lie",
+          "publishedAt": "2026-06-06T23:13:22Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/LTW5SvfZIqA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/LTW5SvfZIqA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/LTW5SvfZIqA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/LTW5SvfZIqA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/LTW5SvfZIqA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT20M14S",
+          "durationSeconds": 1214
+        },
+        {
+          "id": "nd0xX8lgjjk",
+          "title": "Sabaton Turned Forgotten Battles Into a Global Empire | What Your City Throws Away",
+          "publishedAt": "2026-05-24T15:45:08Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/nd0xX8lgjjk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/nd0xX8lgjjk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/nd0xX8lgjjk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/nd0xX8lgjjk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/nd0xX8lgjjk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT7M13S",
+          "durationSeconds": 433
+        },
+        {
+          "id": "ACM3lxBDFVM",
+          "title": "How Different Ears Hear the Same Bands | Babymetal, Hanabie, Priest and More",
+          "publishedAt": "2026-05-19T05:26:30Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ACM3lxBDFVM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ACM3lxBDFVM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ACM3lxBDFVM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/ACM3lxBDFVM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/ACM3lxBDFVM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT11M38S",
+          "durationSeconds": 698
+        },
+        {
+          "id": "cfqZ2omh838",
+          "title": "How Western Metal Got \"Chegg'd\" by Japan",
+          "publishedAt": "2026-05-08T19:17:25Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/cfqZ2omh838/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/cfqZ2omh838/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/cfqZ2omh838/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/cfqZ2omh838/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/cfqZ2omh838/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT20M19S",
+          "durationSeconds": 1219
         }
       ],
       "recentShorts": [
-        {
-          "id": "VpCzuw5JgcQ",
-          "title": "Your Music Identity: It's Yours, Not The Band's!",
-          "publishedAt": "2026-07-06T22:54:38Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/VpCzuw5JgcQ/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/VpCzuw5JgcQ/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/VpCzuw5JgcQ/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/VpCzuw5JgcQ/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/VpCzuw5JgcQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT24S",
-          "durationSeconds": 24
-        },
-        {
-          "id": "TvVpWUgWLwE",
-          "title": "Cities: Scene vs. Sound - What REALLY Matters? #shorts",
-          "publishedAt": "2026-07-06T12:59:26Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/TvVpWUgWLwE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/TvVpWUgWLwE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/TvVpWUgWLwE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/TvVpWUgWLwE/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/TvVpWUgWLwE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M3S",
-          "durationSeconds": 63
-        },
-        {
-          "id": "ebilP0uMV-4",
-          "title": "Seattle Sound: From Scene to Copied Product, Loyalty Lost #shorts",
-          "publishedAt": "2026-07-05T23:03:12Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/ebilP0uMV-4/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/ebilP0uMV-4/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/ebilP0uMV-4/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/ebilP0uMV-4/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/ebilP0uMV-4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT56S",
-          "durationSeconds": 56
-        },
-        {
-          "id": "w-GI9Q6TbVQ",
-          "title": "Japanese Metal's Raw Energy: Reliving 80s Music Discovery! #shorts",
-          "publishedAt": "2026-07-05T14:55:28Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/w-GI9Q6TbVQ/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/w-GI9Q6TbVQ/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/w-GI9Q6TbVQ/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/w-GI9Q6TbVQ/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/w-GI9Q6TbVQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT19S",
-          "durationSeconds": 19
-        },
-        {
-          "id": "6P5YqZGHXOc",
-          "title": "80s Metal Was FUN! Then Grunge Killed It #shorts",
-          "publishedAt": "2026-07-04T23:01:22Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/6P5YqZGHXOc/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/6P5YqZGHXOc/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/6P5YqZGHXOc/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/6P5YqZGHXOc/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/6P5YqZGHXOc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT28S",
-          "durationSeconds": 28
-        },
-        {
-          "id": "wGRKvogHHjw",
-          "title": "Cities: Embrace Your Unique DNA & Stay Paranoid!",
-          "publishedAt": "2026-07-04T13:01:33Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/wGRKvogHHjw/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/wGRKvogHHjw/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/wGRKvogHHjw/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/wGRKvogHHjw/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/wGRKvogHHjw/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT29S",
-          "durationSeconds": 29
-        },
         {
           "id": "Hzl2LClqn0w",
           "title": "Yukina de Hanabie Haciendo Crowdsurf",
@@ -349,108 +315,6 @@
           },
           "duration": "PT1M",
           "durationSeconds": 60
-        },
-        {
-          "id": "XCjQtLTjJVQ",
-          "title": "Pantera's Secret Country Roots: Texas & Dad's Studio Secrets!",
-          "publishedAt": "2026-07-02T22:55:33Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/XCjQtLTjJVQ/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/XCjQtLTjJVQ/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/XCjQtLTjJVQ/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/XCjQtLTjJVQ/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/XCjQtLTjJVQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT30S",
-          "durationSeconds": 30
-        },
-        {
-          "id": "SSMowOBfwvY",
-          "title": "Lunch with Iron Maiden's Nicko McBrain: More Than Just Fame #shorts",
-          "publishedAt": "2026-07-01T16:47:18Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/SSMowOBfwvY/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/SSMowOBfwvY/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/SSMowOBfwvY/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/SSMowOBfwvY/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/SSMowOBfwvY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M8S",
-          "durationSeconds": 68
-        },
-        {
-          "id": "EAItbTO_7fk",
-          "title": "David Allan Coe: The REAL Outlaw Country Legend They Don't Tell You About!",
-          "publishedAt": "2026-06-30T12:58:32Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/EAItbTO_7fk/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/EAItbTO_7fk/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/EAItbTO_7fk/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/EAItbTO_7fk/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/EAItbTO_7fk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT18S",
-          "durationSeconds": 18
         },
         {
           "id": "LXnylUgH9fk",
@@ -487,142 +351,6 @@
           "durationSeconds": 59
         },
         {
-          "id": "5s9RjdiMxJM",
-          "title": "Pantera's Secret: How a Studio Childhood Forged Their Sound",
-          "publishedAt": "2026-06-28T22:56:24Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/5s9RjdiMxJM/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/5s9RjdiMxJM/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/5s9RjdiMxJM/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/5s9RjdiMxJM/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/5s9RjdiMxJM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT35S",
-          "durationSeconds": 35
-        },
-        {
-          "id": "zmiA1uAgL9g",
-          "title": "Build YOUR Mountain: Real City Success vs. Chasing Fame #shorts",
-          "publishedAt": "2026-06-26T20:28:21Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/zmiA1uAgL9g/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/zmiA1uAgL9g/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/zmiA1uAgL9g/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/zmiA1uAgL9g/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/zmiA1uAgL9g/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT17S",
-          "durationSeconds": 17
-        },
-        {
-          "id": "bkU_JiVQH3k",
-          "title": "Miami Band Mix: Metallica to Country, We Played It All!",
-          "publishedAt": "2026-06-26T13:02:20Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/bkU_JiVQH3k/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/bkU_JiVQH3k/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/bkU_JiVQH3k/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/bkU_JiVQH3k/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/bkU_JiVQH3k/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT34S",
-          "durationSeconds": 34
-        },
-        {
-          "id": "92yUWJzz9_A",
-          "title": "From Rock Stars to CEOs: The Secret to Real Success #shorts",
-          "publishedAt": "2026-06-26T12:12:20Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/92yUWJzz9_A/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/92yUWJzz9_A/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/92yUWJzz9_A/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/92yUWJzz9_A/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/92yUWJzz9_A/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M3S",
-          "durationSeconds": 63
-        },
-        {
           "id": "OGyvCdMybh0",
           "title": "Ramtha | Wacken Metal Battle U.S. Finals | Brick by Brick",
           "publishedAt": "2026-06-26T04:57:37Z",
@@ -657,174 +385,441 @@
           "durationSeconds": 50
         },
         {
-          "id": "eX9q81lfyuE",
-          "title": "Fame is Just the Snow Cap: The Real Driving Force #shorts",
-          "publishedAt": "2026-06-25T20:47:39Z",
+          "id": "iY0cR19snjE",
+          "title": "Fame is a Snow Cap: The REAL Foundation of Success #shorts",
+          "publishedAt": "2026-06-22T12:46:21Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/eX9q81lfyuE/default.jpg",
+              "url": "https://i.ytimg.com/vi/iY0cR19snjE/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/eX9q81lfyuE/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/iY0cR19snjE/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/eX9q81lfyuE/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/iY0cR19snjE/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/eX9q81lfyuE/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/iY0cR19snjE/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/eX9q81lfyuE/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/iY0cR19snjE/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT36S",
-          "durationSeconds": 36
+          "duration": "PT24S",
+          "durationSeconds": 24
         },
         {
-          "id": "JqqcBhrQ4sY",
-          "title": "Entrepreneur vs Victim: Are YOU Truly an Entrepreneur? #shorts",
-          "publishedAt": "2026-06-25T13:26:36Z",
+          "id": "G82Pm2L21dg",
+          "title": "Through The Oculus | Wacken Metal Battle Finals",
+          "publishedAt": "2026-06-22T04:25:25Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/JqqcBhrQ4sY/default.jpg",
+              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/JqqcBhrQ4sY/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/JqqcBhrQ4sY/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/JqqcBhrQ4sY/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/JqqcBhrQ4sY/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT33S",
-          "durationSeconds": 33
+          "duration": "PT56S",
+          "durationSeconds": 56
         },
         {
-          "id": "zhdSpYBH3AE",
-          "title": "Childhood Music Mix: Classical, Country, & Rock Radio Vibes",
-          "publishedAt": "2026-06-24T23:01:23Z",
+          "id": "k3yDfTqgQCc",
+          "title": "Hanabie | Be The Gal | Japanese metal needs visibility",
+          "publishedAt": "2026-06-21T14:15:31Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/zhdSpYBH3AE/default.jpg",
+              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/zhdSpYBH3AE/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/zhdSpYBH3AE/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/zhdSpYBH3AE/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/zhdSpYBH3AE/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/k3yDfTqgQCc/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT20S",
-          "durationSeconds": 20
+          "duration": "PT30S",
+          "durationSeconds": 30
         },
         {
-          "id": "MpovTCySwSw",
-          "title": "Choose Your Circle: Fuel Your Success with Winners! #shorts",
-          "publishedAt": "2026-06-24T20:18:33Z",
+          "id": "f6u70-ykn-M",
+          "title": "Hanabie | Be the Gal | This is community belonging",
+          "publishedAt": "2026-06-16T02:53:22Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/MpovTCySwSw/default.jpg",
+              "url": "https://i.ytimg.com/vi/f6u70-ykn-M/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/MpovTCySwSw/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/f6u70-ykn-M/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/MpovTCySwSw/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/f6u70-ykn-M/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/MpovTCySwSw/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/f6u70-ykn-M/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/MpovTCySwSw/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/f6u70-ykn-M/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT55S",
-          "durationSeconds": 55
+          "duration": "PT59S",
+          "durationSeconds": 59
         },
         {
-          "id": "rvfmjLsuw4g",
-          "title": "Control Your Response: Seize Opportunities When They Appear! #shorts",
-          "publishedAt": "2026-06-24T12:24:23Z",
+          "id": "IPuzOE1yQlU",
+          "title": "June 11, 2026",
+          "publishedAt": "2026-06-12T02:32:30Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/rvfmjLsuw4g/default.jpg",
+              "url": "https://i.ytimg.com/vi/IPuzOE1yQlU/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/rvfmjLsuw4g/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/IPuzOE1yQlU/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/rvfmjLsuw4g/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/IPuzOE1yQlU/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/rvfmjLsuw4g/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/IPuzOE1yQlU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          "duration": "PT29S",
+          "durationSeconds": 29
+        },
+        {
+          "id": "KhIdIeMgdvc",
+          "title": "Nemesis | Wacken Metal Battle US Finals",
+          "publishedAt": "2026-06-11T05:03:26Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/KhIdIeMgdvc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/KhIdIeMgdvc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/KhIdIeMgdvc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/KhIdIeMgdvc/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/rvfmjLsuw4g/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/KhIdIeMgdvc/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT20S",
-          "durationSeconds": 20
+          "duration": "PT1M3S",
+          "durationSeconds": 63
+        },
+        {
+          "id": "rAnQH4hxB4w",
+          "title": "Hanabie | Be The Gal",
+          "publishedAt": "2026-06-05T02:00:27Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/rAnQH4hxB4w/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/rAnQH4hxB4w/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/rAnQH4hxB4w/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/rAnQH4hxB4w/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/rAnQH4hxB4w/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M4S",
+          "durationSeconds": 64
+        },
+        {
+          "id": "Z-S5F2nOCvY",
+          "title": "they opened for yungblud and stole the show",
+          "publishedAt": "2026-06-04T05:15:52Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Z-S5F2nOCvY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Z-S5F2nOCvY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Z-S5F2nOCvY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Z-S5F2nOCvY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Z-S5F2nOCvY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT54S",
+          "durationSeconds": 54
+        },
+        {
+          "id": "tTJAJ8HNajM",
+          "title": "Why Music Sounds DIFFERENT To Everyone! #shorts",
+          "publishedAt": "2026-06-02T19:57:22Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/tTJAJ8HNajM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/tTJAJ8HNajM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/tTJAJ8HNajM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/tTJAJ8HNajM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/tTJAJ8HNajM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT17S",
+          "durationSeconds": 17
+        },
+        {
+          "id": "AJxnGIr5dfE",
+          "title": "Why Babymetal Fans Won't Like Hanabie's Music #shorts",
+          "publishedAt": "2026-05-23T23:04:36Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/AJxnGIr5dfE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/AJxnGIr5dfE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/AJxnGIr5dfE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/AJxnGIr5dfE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/AJxnGIr5dfE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT28S",
+          "durationSeconds": 28
+        },
+        {
+          "id": "T2x8AhCQsFM",
+          "title": "Babymetal vs Hanabie: Production vs Pure Energy Authenticity #shorts",
+          "publishedAt": "2026-05-20T23:00:26Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/T2x8AhCQsFM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/T2x8AhCQsFM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/T2x8AhCQsFM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/T2x8AhCQsFM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/T2x8AhCQsFM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT50S",
+          "durationSeconds": 50
+        },
+        {
+          "id": "EUcuWiW6lTw",
+          "title": "Nemophila: Priest-Level Energy & Vocal Power #shorts",
+          "publishedAt": "2026-05-16T12:14:40Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/EUcuWiW6lTw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/EUcuWiW6lTw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/EUcuWiW6lTw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/EUcuWiW6lTw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/EUcuWiW6lTw/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M",
+          "durationSeconds": 60
+        },
+        {
+          "id": "5DfTCc8BWbk",
+          "title": "Lovebites & Hanabie: 80s Metal Bands Compared! #shorts",
+          "publishedAt": "2026-05-08T20:00:23Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/5DfTCc8BWbk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/5DfTCc8BWbk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/5DfTCc8BWbk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/5DfTCc8BWbk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/5DfTCc8BWbk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT21S",
+          "durationSeconds": 21
         }
       ]
     },
