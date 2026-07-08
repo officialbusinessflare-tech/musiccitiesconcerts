@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T07:10:23.508Z",
+  "generatedAt": "2026-07-08T14:38:11.738Z",
   "entries": [
     {
       "id": "86bahh5fa",
@@ -1246,6 +1246,24 @@
       ]
     },
     {
+      "id": "86baubre3",
+      "name": "East of Eden @ LINE CUBE SHIBUYA — Tokyo, Japan — Aug 9 2026",
+      "date": "2026-08-09",
+      "city": "Tokyo",
+      "country": "Japan — Aug 9 2026",
+      "bands": [
+        "East of Eden @ LINE CUBE SHIBUYA"
+      ],
+      "description": "East of Eden — Zepp Tour 2026 〜 Rising 〜 additional show\nVenue: LINE CUBE SHIBUYA (Shibuya Public Hall), Tokyo, Japan\nDate: Sunday, August 9, 2026 — doors 16:00 / show 17:00\nBand: East of Eden (Japanese metal watch-list)",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baubre3",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bampq5w",
       "name": "Frozen Soul — Beat The Heat Summer Getaway — Albatross, Jacksonville FL",
       "date": "2026-08-09",
@@ -1814,6 +1832,22 @@
       "buckets": [
         "japanese-metal"
       ]
+    },
+    {
+      "id": "86baubrfr",
+      "name": "Yngwie Malmsteen — 25th Anniversary Concerto Suite for Electric Guitar & Orchestra @ Pacifico Yokohama — Yokohama, Japan — Sep 13 2026",
+      "date": "2026-09-13",
+      "city": "25th Anniversary Concerto Suite for Electric Guitar & Orchestra @ Pacifico Yokohama — Yokohama",
+      "country": "Japan — Sep 13 2026",
+      "bands": [
+        "Yngwie Malmsteen"
+      ],
+      "description": "Yngwie Malmsteen — 25th Anniversary Performance of Concerto Suite for Electric Guitar and Orchestra in E flat minor, Op. 1\nVenue: Pacifico Yokohama, National Convention Hall — Yokohama (Kanagawa), Japan\nDate: Sunday, September 13, 2026 — doors 16:00 / show 17:00\nWith: Grand…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baubrfr",
+      "buckets": []
     },
     {
       "id": "86barcrj4",
