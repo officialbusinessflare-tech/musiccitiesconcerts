@@ -1,44 +1,6 @@
 {
-  "generatedAt": "2026-07-08T14:38:11.738Z",
+  "generatedAt": "2026-07-09T07:00:53.429Z",
   "entries": [
-    {
-      "id": "86bahh5fa",
-      "name": "📀 FATE GEAR — 冥王と慈愛の天使 (When the Angel Fell for the Devil) — RELEASE",
-      "date": "2026-07-08",
-      "venue": "冥王と慈愛の天使 (When the Angel Fell for the Devil) — RELEASE",
-      "bands": [
-        "FATE GEAR"
-      ],
-      "description": "FATE GEAR — 冥王と慈愛の天使 (When the Angel Fell for the Devil) 📀",
-      "priority": "normal",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bahh5fa",
-      "buckets": [
-        "japanese-metal",
-        "album-releases"
-      ]
-    },
-    {
-      "id": "86ba794d9",
-      "name": "Nemophila — Conduit, Winter Park FL",
-      "date": "2026-07-08",
-      "venue": "Conduit",
-      "city": "Winter Park",
-      "state": "FL",
-      "bands": [
-        "Nemophila"
-      ],
-      "description": "Nemophila at Conduit, Winter Park, Florida. Wednesday July 8, 2026, 7:00 PM. General Admission.",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86ba794d9",
-      "buckets": [
-        "florida-metal-scene",
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bammf4y",
       "name": "📀 HAGANE — EP (TBD title) — RELEASE",
