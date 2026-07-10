@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-07-09T07:00:58.763Z",
+  "fetchedAt": "2026-07-10T07:05:04.262Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 134000,
-      "videoCount": 194,
+      "videoCount": 196,
       "recentLongform": [
+        {
+          "id": "vNicw3GuZG0",
+          "title": "Nemophila | Rise | Orlando Soundcheck",
+          "publishedAt": "2026-07-09T22:57:28Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/vNicw3GuZG0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/vNicw3GuZG0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/vNicw3GuZG0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/vNicw3GuZG0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/vNicw3GuZG0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M40S",
+          "durationSeconds": 100
+        },
         {
           "id": "j7grreoY6J0",
           "title": "Why Japanese Metal Feels Like the 1st Real \"Scene\" Since the 80s | Scenes vs Sounds Part 2",
@@ -245,43 +279,43 @@
           },
           "duration": "PT11M38S",
           "durationSeconds": 698
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "cfqZ2omh838",
-          "title": "How Western Metal Got \"Chegg'd\" by Japan",
-          "publishedAt": "2026-05-08T19:17:25Z",
+          "id": "tR2CHGAHPvw",
+          "title": "Behind the scenes with Nemophila | Orlando",
+          "publishedAt": "2026-07-09T23:11:25Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/cfqZ2omh838/default.jpg",
+              "url": "https://i.ytimg.com/vi/tR2CHGAHPvw/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/cfqZ2omh838/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/tR2CHGAHPvw/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/cfqZ2omh838/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/tR2CHGAHPvw/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/cfqZ2omh838/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/tR2CHGAHPvw/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/cfqZ2omh838/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/tR2CHGAHPvw/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT20M19S",
-          "durationSeconds": 1219
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT31S",
+          "durationSeconds": 31
+        },
         {
           "id": "Hzl2LClqn0w",
           "title": "Yukina de Hanabie Haciendo Crowdsurf",
@@ -786,40 +820,6 @@
           },
           "duration": "PT1M",
           "durationSeconds": 60
-        },
-        {
-          "id": "5DfTCc8BWbk",
-          "title": "Lovebites & Hanabie: 80s Metal Bands Compared! #shorts",
-          "publishedAt": "2026-05-08T20:00:23Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/5DfTCc8BWbk/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/5DfTCc8BWbk/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/5DfTCc8BWbk/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/5DfTCc8BWbk/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/5DfTCc8BWbk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT21S",
-          "durationSeconds": 21
         }
       ]
     },
@@ -828,8 +828,42 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1050,
-      "videoCount": 54,
+      "videoCount": 56,
       "recentLongform": [
+        {
+          "id": "XE-svm778QE",
+          "title": "Nemophila | Adabana | Conduit Orlando",
+          "publishedAt": "2026-07-10T04:42:09Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/XE-svm778QE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/XE-svm778QE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/XE-svm778QE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/XE-svm778QE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/XE-svm778QE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT4M25S",
+          "durationSeconds": 265
+        },
         {
           "id": "c9EMAOdpvYk",
           "title": "Lacuna Coil live in Fort Lauderdale, 2026",
@@ -1203,77 +1237,43 @@
           },
           "duration": "PT3M59S",
           "durationSeconds": 239
-        },
-        {
-          "id": "WE9bbTYs0XE",
-          "title": "Maximum Friction | Miami Metal | Miami Palooza",
-          "publishedAt": "2026-05-05T02:19:08Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/WE9bbTYs0XE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/WE9bbTYs0XE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/WE9bbTYs0XE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/WE9bbTYs0XE/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/WE9bbTYs0XE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT2M12S",
-          "durationSeconds": 132
-        },
-        {
-          "id": "eWLEH33jpk8",
-          "title": "Maximum Friction | Miami Metal | Miamipalooza",
-          "publishedAt": "2026-05-05T02:01:33Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/eWLEH33jpk8/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/eWLEH33jpk8/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/eWLEH33jpk8/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/eWLEH33jpk8/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/eWLEH33jpk8/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT6M14S",
-          "durationSeconds": 374
         }
       ],
       "recentShorts": [
+        {
+          "id": "K8tNG604COU",
+          "title": "Nemophila | Behind the Scenes | Silliness",
+          "publishedAt": "2026-07-10T05:29:43Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/K8tNG604COU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/K8tNG604COU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/K8tNG604COU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/K8tNG604COU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/K8tNG604COU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT31S",
+          "durationSeconds": 31
+        },
         {
           "id": "AsAeKbTpqWk",
           "title": "Raw Brigade (from Bogota) at Gramps in Miami's Wynwood",
