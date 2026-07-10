@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T07:04:57.294Z",
+  "generatedAt": "2026-07-10T13:20:59.599Z",
   "entries": [
     {
       "id": "86bampq5j",
@@ -187,6 +187,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7kej",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bavn8vp",
+      "name": "Lydia Can't Breathe + Fortunate Losers @ Guadalajara Night Club — Fort Pierce, FL — Jul 12 2026",
+      "date": "2026-07-12",
+      "venue": "Guadalajara Night Club",
+      "city": "Fort Pierce",
+      "country": "FL — Jul 12 2026",
+      "bands": [
+        "Lydia Can't Breathe"
+      ],
+      "description": "Deathcore/metal show at Guadalajara Night Club, Fort Pierce FL.\nBands: Lydia Can't Breathe, Fortunate Losers. Date: July 12, 2026.\nPresented by Dead Dreams Booking FL. Part of the venue's Treasure Coast metal calendar.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bavn8vp",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -566,6 +585,24 @@
       ]
     },
     {
+      "id": "86bavn8k0",
+      "name": "LOVEBITES @ OCZKI — Warsaw, Poland — Jul 25 2026",
+      "date": "2026-07-25",
+      "city": "Warsaw",
+      "country": "Poland — Jul 25 2026",
+      "bands": [
+        "LOVEBITES @ OCZKI"
+      ],
+      "description": "LOVEBITES — Outstanding Power European tour, Warsaw stop.\nVenue: OCZKI, Warsaw, Poland. Date: July 25, 2026.\nPart of the band's summer 2026 European run supporting fifth album Outstanding Power. Not previously on the dashboard — only the Wacken, Munich (Free & Easy) and London…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bavn8k0",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bammfq8",
       "name": "Lonesome_Blue — \"Ready for Takeoff\" — Sally's first show — Tokyo GRIT, Shibuya",
       "date": "2026-07-25",
@@ -579,6 +616,24 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bammfq8",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bavn8kw",
+      "name": "LOVEBITES @ Rock Café — Prague, Czech Republic — Jul 26 2026",
+      "date": "2026-07-26",
+      "city": "Prague",
+      "country": "Czech Republic — Jul 26 2026",
+      "bands": [
+        "LOVEBITES @ Rock Café"
+      ],
+      "description": "LOVEBITES — Outstanding Power European tour, Prague stop.\nVenue: Rock Café, Prague, Czech Republic. Date: July 26, 2026.\nSummer 2026 European club run supporting Outstanding Power. New to the dashboard.\nSource: LOVEBITES official / Bandsintown tour routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bavn8kw",
       "buckets": [
         "japanese-metal"
       ]
@@ -766,6 +821,24 @@
       ]
     },
     {
+      "id": "86bavn8mg",
+      "name": "LOVEBITES @ Signature Brew Haggerston — London, UK — Jul 31 2026",
+      "date": "2026-07-31",
+      "city": "London",
+      "country": "UK — Jul 31 2026",
+      "bands": [
+        "LOVEBITES @ Signature Brew Haggerston"
+      ],
+      "description": "LOVEBITES — Outstanding Power European tour, London club show.\nVenue: Signature Brew Haggerston, London, UK. Date: July 31, 2026.\nSeparate from the already-tracked O2 Academy Islington date (Aug 3). New to the dashboard.\nSource: LOVEBITES official / Bandsintown tour routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bavn8mg",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcr1q",
       "name": "Rolling Quartz @ Open Chord Stage — Knoxville, TN — Jul 31 2026",
       "date": "2026-07-31",
@@ -851,6 +924,24 @@
       "buckets": [
         "florida-metal-scene",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bavn8n4",
+      "name": "LOVEBITES @ Backstage By The Mill — Paris, France — Aug 1 2026",
+      "date": "2026-08-01",
+      "city": "Paris",
+      "country": "France — Aug 1 2026",
+      "bands": [
+        "LOVEBITES @ Backstage By The Mill"
+      ],
+      "description": "LOVEBITES — Outstanding Power European tour, Paris stop.\nVenue: Backstage By The Mill, Paris, France. Date: August 1, 2026.\nSummer 2026 European run supporting Outstanding Power. New to the dashboard.\nSource: LOVEBITES official / Bandsintown tour routing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bavn8n4",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -1303,6 +1394,28 @@
       ]
     },
     {
+      "id": "86bavn90g",
+      "name": "Dead By Wednesday + Eyes of Theia + Apostasy + Eastblood + Trench @ The Cellar on Treadwell — Hamden, CT — Aug 15 2026",
+      "date": "2026-08-15",
+      "city": "Hamden",
+      "country": "CT — Aug 15 2026",
+      "bands": [
+        "Dead By Wednesday",
+        "Eyes of Theia",
+        "Apostasy",
+        "Eastblood",
+        "Trench @ The Cellar on Treadwell"
+      ],
+      "description": "Metalcore/metal bill at The Cellar on Treadwell, Hamden CT.\nBands: Dead By Wednesday, Eyes of Theia, Apostasy, Eastblood, Trench. Date: Saturday August 15, 2026. Doors 6PM / music 7PM. 21+.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bavn90g",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bahh7t5",
       "name": "Smash 'Em Up — Ashes to Empires Album Release Party — Brass Mug, Tampa FL",
       "date": "2026-08-15",
@@ -1347,6 +1460,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b85z759",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bavn8wc",
+      "name": "Ancestral Blood + Lord of Horns @ Guadalajara Night Club — Fort Pierce, FL — Aug 22 2026",
+      "date": "2026-08-22",
+      "venue": "Guadalajara Night Club",
+      "city": "Fort Pierce",
+      "country": "FL — Aug 22 2026",
+      "bands": [
+        "Ancestral Blood"
+      ],
+      "description": "Metal show at Guadalajara Night Club, Fort Pierce FL.\nBands: Ancestral Blood, Lord of Horns (w/ Minotaur Booking). Date: August 22, 2026.\nPresented by Dead Dreams Booking FL.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bavn8wc",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -2632,6 +2764,42 @@
       ]
     },
     {
+      "id": "86bavn8wy",
+      "name": "Trapt — 25th Anniversary Tour @ Guadalajara Night Club — Fort Pierce, FL — Nov 6 2026",
+      "date": "2026-11-06",
+      "city": "25th Anniversary Tour @ Guadalajara Night Club — Fort Pierce",
+      "country": "FL — Nov 6 2026",
+      "bands": [
+        "Trapt"
+      ],
+      "description": "Trapt — 25th Anniversary Tour at Guadalajara Night Club, Fort Pierce FL.\nDate: November 6, 2026. Presented by Dead Dreams Booking FL.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bavn8wy",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bavn8zj",
+      "name": "Mosh For Tots 2026 — Evergreen Terrace + Tony Danza Tap Dance Extravaganza + Filth @ District Live — Savannah, GA — Nov 7 2026",
+      "date": "2026-11-07",
+      "city": "Evergreen Terrace + Tony Danza Tap Dance Extravaganza + Filth @ District Live — Savannah",
+      "country": "GA — Nov 7 2026",
+      "bands": [
+        "Mosh For Tots 2026"
+      ],
+      "description": "Mosh For Tots 2026 — hardcore/metal benefit at District Live (Plant Riverside District), Savannah GA.\nLineup: Evergreen Terrace, The Tony Danza Tap Dance Extravaganza, Filth, Heavy Hitter (FL), Endera. Date: November 7, 2026. All ages, doors at 2. Presented by AURA Fest…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bavn8zj",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86ban5vdy",
       "name": "Ace Frehley Band — Whisky a Go Go, West Hollywood CA",
       "date": "2026-11-10",
@@ -2896,6 +3064,42 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b7xw9xz",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bavn8xh",
+      "name": "Green Jelly — 45th Anniversary Tour @ Guadalajara Night Club — Fort Pierce, FL — Dec 17 2026",
+      "date": "2026-12-17",
+      "city": "45th Anniversary Tour @ Guadalajara Night Club — Fort Pierce",
+      "country": "FL — Dec 17 2026",
+      "bands": [
+        "Green Jelly"
+      ],
+      "description": "Green Jelly (Green Jello) — 45th Anniversary Tour at Guadalajara Night Club, Fort Pierce FL.\nDate: December 17, 2026. First of a back-to-back Florida pairing (Sanford the following night). Presented by Dead Dreams Booking FL.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bavn8xh",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bavn8yu",
+      "name": "Green Jelly @ West End Trading Co — Sanford, FL — Dec 18 2026",
+      "date": "2026-12-18",
+      "city": "Sanford",
+      "country": "FL — Dec 18 2026",
+      "bands": [
+        "Green Jelly @ West End Trading Co"
+      ],
+      "description": "Green Jelly (Green Jello) at West End Trading Co, Sanford FL.\nDate: December 18, 2026 (rescheduled date). Second night of Green Jelly's Florida pairing (Fort Pierce Dec 17).",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bavn8yu",
       "buckets": [
         "florida-metal-scene"
       ]
