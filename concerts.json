@@ -1,24 +1,6 @@
 {
-  "generatedAt": "2026-07-09T07:00:53.429Z",
+  "generatedAt": "2026-07-10T07:04:42.218Z",
   "entries": [
-    {
-      "id": "86bammf4y",
-      "name": "📀 HAGANE — EP (TBD title) — RELEASE",
-      "date": "2026-07-09",
-      "venue": "EP (TBD title) — RELEASE",
-      "bands": [
-        "HAGANE"
-      ],
-      "description": "HAGANE — EP 📀",
-      "priority": "normal",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bammf4y",
-      "buckets": [
-        "japanese-metal",
-        "album-releases"
-      ]
-    },
     {
       "id": "86bampq5j",
       "name": "HANABIE. — Velódromo Olímpico, Mexico City MX",
