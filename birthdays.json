@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-07-10T13:20:59.599Z",
+  "generatedAt": "2026-07-11T07:05:00.430Z",
   "entries": [
-    {
-      "id": "86baazewp",
-      "name": "Asami Birthday Lovebites",
-      "person": "Asami",
-      "affiliation": "Lovebites",
-      "rawDate": "2026-07-10",
-      "month": 7,
-      "day": 10,
-      "description": "RECURRING ANNUAL — July 10\n\nFull name: Asami\nStage name: Asami (mononym)\nBand & role: Lovebites — lead vocals\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded (Japanese metal relationship-investment priority)\nSource: Official Lovebites fanpage (lovebites-music.com/band-members) — Birthday Jul 10 (year not published)",
-      "clickupUrl": "https://app.clickup.com/t/86baazewp"
-    },
     {
       "id": "86baazewd",
       "name": "Miho Birthday Lovebites",
@@ -375,6 +364,17 @@
       "day": 4,
       "description": "RECURRING ANNUAL — July 4\n\nFull name: Moa Kikuchi (菊地最愛)\nStage name: Moametal\nBand & role: BABYMETAL — vocals/dance (scream)\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded (Japanese metal relationship-investment priority)\nSource: Wikipedia (Moa Kikuchi) — DOB Jul 4, 1999",
       "clickupUrl": "https://app.clickup.com/t/86baazeu3"
+    },
+    {
+      "id": "86baazewp",
+      "name": "Asami Birthday Lovebites",
+      "person": "Asami",
+      "affiliation": "Lovebites",
+      "rawDate": "2026-07-10",
+      "month": 7,
+      "day": 10,
+      "description": "RECURRING ANNUAL — July 10\n\nFull name: Asami\nStage name: Asami (mononym)\nBand & role: Lovebites — lead vocals\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded (Japanese metal relationship-investment priority)\nSource: Official Lovebites fanpage (lovebites-music.com/band-members) — Birthday Jul 10 (year not published)",
+      "clickupUrl": "https://app.clickup.com/t/86baazewp"
     },
     {
       "id": "86baazexe",
