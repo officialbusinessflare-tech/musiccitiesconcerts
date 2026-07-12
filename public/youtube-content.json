@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-11T07:05:08.167Z",
+  "fetchedAt": "2026-07-12T07:02:13.394Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
@@ -828,8 +828,76 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1050,
-      "videoCount": 56,
+      "videoCount": 58,
       "recentLongform": [
+        {
+          "id": "vskRkKj8R6U",
+          "title": "Pinkfoot  Goliath | Miami Super Summer Jam",
+          "publishedAt": "2026-07-12T00:22:30Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/vskRkKj8R6U/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/vskRkKj8R6U/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/vskRkKj8R6U/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/vskRkKj8R6U/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/vskRkKj8R6U/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M11S",
+          "durationSeconds": 131
+        },
+        {
+          "id": "XxN2ps6Xwc4",
+          "title": "Maximum Friction | Miami Super Summer Jam | Miami Metal",
+          "publishedAt": "2026-07-12T00:18:02Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/XxN2ps6Xwc4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/XxN2ps6Xwc4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/XxN2ps6Xwc4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/XxN2ps6Xwc4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/XxN2ps6Xwc4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT5M28S",
+          "durationSeconds": 328
+        },
         {
           "id": "XE-svm778QE",
           "title": "Nemophila | Adabana | Conduit Orlando",
@@ -1169,74 +1237,6 @@
           },
           "duration": "PT6M43S",
           "durationSeconds": 403
-        },
-        {
-          "id": "8fKLOJgK_FE",
-          "title": "Scattered Light | Miami Metal | Miamipalooza",
-          "publishedAt": "2026-05-07T19:28:26Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/8fKLOJgK_FE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/8fKLOJgK_FE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/8fKLOJgK_FE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/8fKLOJgK_FE/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/8fKLOJgK_FE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT3M50S",
-          "durationSeconds": 230
-        },
-        {
-          "id": "72w63UbZISQ",
-          "title": "Medic | Miami Metal | Miamipalooza",
-          "publishedAt": "2026-05-06T01:03:30Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/72w63UbZISQ/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/72w63UbZISQ/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/72w63UbZISQ/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/72w63UbZISQ/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/72w63UbZISQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT3M59S",
-          "durationSeconds": 239
         }
       ],
       "recentShorts": [
