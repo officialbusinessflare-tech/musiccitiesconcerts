@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T07:04:04.772Z",
+  "generatedAt": "2026-07-13T13:59:03.805Z",
   "entries": [
     {
       "id": "86bammf3e",
@@ -1847,6 +1847,27 @@
       ]
     },
     {
+      "id": "86bawvp4c",
+      "name": "Vader + Jungle Rot + Fleshcrawl + Trash Panda @ The Conduit — Orlando (Winter Park), FL — Sep 18 2026",
+      "date": "2026-09-18",
+      "venue": "Conduit",
+      "city": "Orlando (Winter Park)",
+      "country": "FL — Sep 18 2026",
+      "bands": [
+        "Vader",
+        "Jungle Rot",
+        "Fleshcrawl"
+      ],
+      "description": "Polish death metal legends Vader bring the \"Reign Forever in Kingdom of Blood\" North American tour to Central Florida, with Jungle Rot, German death metal veterans Fleshcrawl, and crossover thrashers Trash Panda.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bawvp4c",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bae8x0q",
       "name": "EyeHateGod + Whores + No/Más — Brass Mug, Tampa FL",
       "date": "2026-09-18",
@@ -1863,6 +1884,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bae8x0q",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bawvp5q",
+      "name": "Vader + Jungle Rot + Fleshcrawl + Trash Panda @ Culture Room — Fort Lauderdale, FL — Sep 19 2026",
+      "date": "2026-09-19",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "country": "FL — Sep 19 2026",
+      "bands": [
+        "Vader",
+        "Jungle Rot",
+        "Fleshcrawl"
+      ],
+      "description": "Vader's \"Reign Forever in Kingdom of Blood\" tour hits South Florida — a Favorite Venue stop at Culture Room — with Jungle Rot, Fleshcrawl, and Trash Panda.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bawvp5q",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -1920,6 +1962,27 @@
       "clickupUrl": "https://app.clickup.com/t/86b80hbu9",
       "buckets": [
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bawvp6z",
+      "name": "Vader + Jungle Rot + Fleshcrawl + Trash Panda @ The Orpheum — Tampa, FL — Sep 20 2026",
+      "date": "2026-09-20",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "country": "FL — Sep 20 2026",
+      "bands": [
+        "Vader",
+        "Jungle Rot",
+        "Fleshcrawl"
+      ],
+      "description": "The Tampa Bay stop of Vader's \"Reign Forever in Kingdom of Blood\" North American tour at The Orpheum, with Jungle Rot, Fleshcrawl, and Trash Panda.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bawvp6z",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2437,6 +2500,25 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b7xwt6n",
       "buckets": [
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bawvp7w",
+      "name": "Sounds Of Brutality Fest 2026 @ Hardlove Company — Jacksonville, FL — Oct 31–Nov 1 2026",
+      "date": "2026-10-31",
+      "city": "Jacksonville",
+      "country": "FL — Oct 31–Nov 1 2026",
+      "bands": [
+        "Sounds Of Brutality Fest 2026 @ Hardlove Company"
+      ],
+      "description": "Two-day, 40-band metal festival at Hardlove Company in Jacksonville — headlined by Maruder (NYC) with Florida's own Longpig among the lineup. Brought to you by Kingside Records.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bawvp7w",
+      "buckets": [
+        "florida-metal-scene",
         "key-festivals"
       ]
     },
