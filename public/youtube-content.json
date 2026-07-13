@@ -1,13 +1,81 @@
 {
-  "fetchedAt": "2026-07-12T07:02:49.939Z",
+  "fetchedAt": "2026-07-13T07:04:11.190Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
-      "subscriberCount": 134000,
-      "videoCount": 194,
+      "subscriberCount": 135000,
+      "videoCount": 199,
       "recentLongform": [
+        {
+          "id": "8uTBXfNcH_c",
+          "title": "God Kings Interview: The Hungarian Metal Band Taking on Miami",
+          "publishedAt": "2026-07-13T00:35:53Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/8uTBXfNcH_c/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/8uTBXfNcH_c/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/8uTBXfNcH_c/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/8uTBXfNcH_c/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/8uTBXfNcH_c/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M39S",
+          "durationSeconds": 159
+        },
+        {
+          "id": "1SP0yocys_U",
+          "title": "God Kings | Metal from Hungary | Buried Alive Festival, Miami",
+          "publishedAt": "2026-07-12T18:01:07Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/1SP0yocys_U/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/1SP0yocys_U/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/1SP0yocys_U/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/1SP0yocys_U/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/1SP0yocys_U/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M34S",
+          "durationSeconds": 154
+        },
         {
           "id": "vNicw3GuZG0",
           "title": "Nemophila | Rise | Orlando Soundcheck",
@@ -245,43 +313,43 @@
           },
           "duration": "PT7M13S",
           "durationSeconds": 433
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "ACM3lxBDFVM",
-          "title": "How Different Ears Hear the Same Bands | Babymetal, Hanabie, Priest and More",
-          "publishedAt": "2026-05-19T05:26:30Z",
+          "id": "moNdDniAFyE",
+          "title": "Tamu and Hazuki Solos | Talent Incubation | Nemophila | Adabana",
+          "publishedAt": "2026-07-12T23:56:44Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/ACM3lxBDFVM/default.jpg",
+              "url": "https://i.ytimg.com/vi/moNdDniAFyE/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/ACM3lxBDFVM/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/moNdDniAFyE/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/ACM3lxBDFVM/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/moNdDniAFyE/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/ACM3lxBDFVM/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/moNdDniAFyE/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/ACM3lxBDFVM/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/moNdDniAFyE/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT11M38S",
-          "durationSeconds": 698
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT1M",
+          "durationSeconds": 60
+        },
         {
           "id": "tR2CHGAHPvw",
           "title": "Behind the scenes with Nemophila | Orlando",
@@ -318,7 +386,7 @@
         },
         {
           "id": "Hzl2LClqn0w",
-          "title": "Yukina de Hanabie Haciendo Crowdsurf",
+          "title": "Hanabie | Yukina Crowdsurfs",
           "publishedAt": "2026-07-03T18:18:01Z",
           "thumbnails": {
             "default": {
@@ -752,74 +820,6 @@
           },
           "duration": "PT28S",
           "durationSeconds": 28
-        },
-        {
-          "id": "T2x8AhCQsFM",
-          "title": "Babymetal vs Hanabie: Production vs Pure Energy Authenticity #shorts",
-          "publishedAt": "2026-05-20T23:00:26Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/T2x8AhCQsFM/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/T2x8AhCQsFM/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/T2x8AhCQsFM/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/T2x8AhCQsFM/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/T2x8AhCQsFM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT50S",
-          "durationSeconds": 50
-        },
-        {
-          "id": "EUcuWiW6lTw",
-          "title": "Nemophila: Priest-Level Energy & Vocal Power #shorts",
-          "publishedAt": "2026-05-16T12:14:40Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/EUcuWiW6lTw/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/EUcuWiW6lTw/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/EUcuWiW6lTw/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/EUcuWiW6lTw/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/EUcuWiW6lTw/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M",
-          "durationSeconds": 60
         }
       ]
     },
@@ -828,8 +828,42 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1050,
-      "videoCount": 58,
+      "videoCount": 60,
       "recentLongform": [
+        {
+          "id": "54p5_VaWAKA",
+          "title": "We All Rise | Buried Alive Festival | Miami Metal",
+          "publishedAt": "2026-07-13T00:29:42Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/54p5_VaWAKA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/54p5_VaWAKA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/54p5_VaWAKA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/54p5_VaWAKA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/54p5_VaWAKA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M34S",
+          "durationSeconds": 214
+        },
         {
           "id": "vskRkKj8R6U",
           "title": "Pinkfoot  Goliath | Miami Super Summer Jam",
@@ -1241,6 +1275,40 @@
       ],
       "recentShorts": [
         {
+          "id": "3Bp9baLPNlM",
+          "title": "Hanabie | Chika with the beat",
+          "publishedAt": "2026-07-12T21:42:15Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/3Bp9baLPNlM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/3Bp9baLPNlM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/3Bp9baLPNlM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/3Bp9baLPNlM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/3Bp9baLPNlM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT38S",
+          "durationSeconds": 38
+        },
+        {
           "id": "K8tNG604COU",
           "title": "Nemophila | Behind the Scenes | Silliness | Their Reaction LoL",
           "publishedAt": "2026-07-10T05:29:43Z",
@@ -1579,74 +1647,6 @@
           },
           "duration": "PT1M5S",
           "durationSeconds": 65
-        },
-        {
-          "id": "cNS05veyHBg",
-          "title": "Hanabie | Miso Soup Short",
-          "publishedAt": "2026-05-14T02:26:05Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/cNS05veyHBg/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/cNS05veyHBg/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/cNS05veyHBg/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/cNS05veyHBg/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/cNS05veyHBg/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT39S",
-          "durationSeconds": 39
-        },
-        {
-          "id": "SQckruVwzKA",
-          "title": "Malevolence | Blood 4 Blood",
-          "publishedAt": "2026-05-09T19:00:52Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/SQckruVwzKA/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/SQckruVwzKA/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/SQckruVwzKA/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/SQckruVwzKA/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/SQckruVwzKA/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT58S",
-          "durationSeconds": 58
         }
       ]
     }
