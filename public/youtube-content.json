@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-13T07:04:11.190Z",
+  "fetchedAt": "2026-07-13T13:59:11.119Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
@@ -828,7 +828,7 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1050,
-      "videoCount": 60,
+      "videoCount": 61,
       "recentLongform": [
         {
           "id": "54p5_VaWAKA",
@@ -1275,6 +1275,40 @@
       ],
       "recentShorts": [
         {
+          "id": "HW8mVkKkuu8",
+          "title": "Nemophila | アナタダレ | Anata Dare",
+          "publishedAt": "2026-07-13T13:30:17Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/HW8mVkKkuu8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/HW8mVkKkuu8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/HW8mVkKkuu8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/HW8mVkKkuu8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/HW8mVkKkuu8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT45S",
+          "durationSeconds": 45
+        },
+        {
           "id": "3Bp9baLPNlM",
           "title": "Hanabie | Chika with the beat",
           "publishedAt": "2026-07-12T21:42:15Z",
@@ -1613,40 +1647,6 @@
           },
           "duration": "PT54S",
           "durationSeconds": 54
-        },
-        {
-          "id": "W9YjCF4WiiU",
-          "title": "Hanabie | Tousou",
-          "publishedAt": "2026-06-02T04:41:39Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/W9YjCF4WiiU/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/W9YjCF4WiiU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/W9YjCF4WiiU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/W9YjCF4WiiU/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/W9YjCF4WiiU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M5S",
-          "durationSeconds": 65
         }
       ]
     }
