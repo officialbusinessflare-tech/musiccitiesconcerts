@@ -1,25 +1,6 @@
 {
-  "generatedAt": "2026-07-13T13:59:03.805Z",
+  "generatedAt": "2026-07-14T04:41:12.542Z",
   "entries": [
-    {
-      "id": "86bammf3e",
-      "name": "NEMOPHILA — Nile Theater, Phoenix AZ",
-      "date": "2026-07-13",
-      "venue": "Nile Theater",
-      "city": "Phoenix",
-      "state": "AZ",
-      "bands": [
-        "NEMOPHILA"
-      ],
-      "description": "NEMOPHILA — North America Tour 2026",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bammf3e",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bammf3x",
       "name": "NEMOPHILA — The Glass House, Los Angeles CA",
@@ -768,6 +749,24 @@
       "clickupUrl": "https://app.clickup.com/t/86baaapqv",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86baxc3yx",
+      "name": "Broken By The Scream @ The Dome — London, UK — Aug 2 2026",
+      "date": "2026-08-02",
+      "city": "London",
+      "country": "UK — Aug 2 2026",
+      "bands": [
+        "Broken By The Scream @ The Dome"
+      ],
+      "description": "Show: Broken By The Scream (Japanese metal-screaming idol act) — Screaming Rebellion UK/EU 2026 tour\nVenue: The Dome, Tufnell Park — 178 Junction Rd, N19 5QQ, London\nDate / Time: Sunday, August 2, 2026 — doors 19:00\nAnchor: Field Trip Sunday-night anchor. Music Cities Tier 1…",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baxc3yx",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
