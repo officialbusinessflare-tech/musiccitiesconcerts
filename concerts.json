@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T04:45:09.359Z",
+  "generatedAt": "2026-07-14T04:47:07.388Z",
   "entries": [
     {
       "id": "86bammf3x",
@@ -753,12 +753,13 @@
     },
     {
       "id": "86baxc3yx",
-      "name": "Broken By The Scream @ The Dome — London, UK — Aug 2 2026",
+      "name": "Broken By The Scream @ The Dome, London UK",
       "date": "2026-08-02",
+      "venue": "The Dome",
       "city": "London",
-      "country": "UK — Aug 2 2026",
+      "state": "UK",
       "bands": [
-        "Broken By The Scream @ The Dome"
+        "Broken By The Scream"
       ],
       "description": "Show: Broken By The Scream (Japanese metal-screaming idol act) — Screaming Rebellion UK/EU 2026 tour\nVenue: The Dome, Tufnell Park — 178 Junction Rd, N19 5QQ, London\nDate / Time: Sunday, August 2, 2026 — doors 19:00\nAnchor: Field Trip Sunday-night anchor. Music Cities Tier 1…",
       "priority": "high",
