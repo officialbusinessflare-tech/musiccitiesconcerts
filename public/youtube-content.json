@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-07-13T13:59:11.119Z",
+  "fetchedAt": "2026-07-14T04:41:18.817Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 135000,
-      "videoCount": 199,
+      "videoCount": 200,
       "recentLongform": [
+        {
+          "id": "zt1Yz3uH-qg",
+          "title": "God Kings Interview Part 2: Buried Alive Festival Miami",
+          "publishedAt": "2026-07-14T03:20:40Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/zt1Yz3uH-qg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/zt1Yz3uH-qg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/zt1Yz3uH-qg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/zt1Yz3uH-qg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/zt1Yz3uH-qg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M56S",
+          "durationSeconds": 176
+        },
         {
           "id": "8uTBXfNcH_c",
           "title": "God Kings Interview: The Hungarian Metal Band Taking on Miami",
@@ -786,40 +820,6 @@
           },
           "duration": "PT17S",
           "durationSeconds": 17
-        },
-        {
-          "id": "AJxnGIr5dfE",
-          "title": "Why Babymetal Fans Won't Like Hanabie's Music #shorts",
-          "publishedAt": "2026-05-23T23:04:36Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/AJxnGIr5dfE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/AJxnGIr5dfE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/AJxnGIr5dfE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/AJxnGIr5dfE/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/AJxnGIr5dfE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT28S",
-          "durationSeconds": 28
         }
       ]
     },
@@ -828,8 +828,76 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1050,
-      "videoCount": 61,
+      "videoCount": 63,
       "recentLongform": [
+        {
+          "id": "JLTksKJtkAk",
+          "title": "Mother Rucker | Miami Super Summer Jam | Miami Scene",
+          "publishedAt": "2026-07-14T03:43:18Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/JLTksKJtkAk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/JLTksKJtkAk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/JLTksKJtkAk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/JLTksKJtkAk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/JLTksKJtkAk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M22S",
+          "durationSeconds": 142
+        },
+        {
+          "id": "Yq7Y5EPVk_0",
+          "title": "Open Nerve | Buried Alive Festival | Miami Metal",
+          "publishedAt": "2026-07-14T03:39:00Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Yq7Y5EPVk_0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Yq7Y5EPVk_0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Yq7Y5EPVk_0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Yq7Y5EPVk_0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Yq7Y5EPVk_0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M21S",
+          "durationSeconds": 201
+        },
         {
           "id": "54p5_VaWAKA",
           "title": "We All Rise | Buried Alive Festival | Miami Metal",
@@ -1579,74 +1647,6 @@
           },
           "duration": "PT32S",
           "durationSeconds": 32
-        },
-        {
-          "id": "eNIHY8o-kAs",
-          "title": "Hanabie | Be The Gal",
-          "publishedAt": "2026-06-05T02:01:48Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/eNIHY8o-kAs/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/eNIHY8o-kAs/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/eNIHY8o-kAs/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/eNIHY8o-kAs/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/eNIHY8o-kAs/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M4S",
-          "durationSeconds": 64
-        },
-        {
-          "id": "RUaDbjzrKLU",
-          "title": "The Warning | Hard Rock Live Hollywood",
-          "publishedAt": "2026-06-04T05:19:02Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/RUaDbjzrKLU/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/RUaDbjzrKLU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/RUaDbjzrKLU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/RUaDbjzrKLU/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/RUaDbjzrKLU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT54S",
-          "durationSeconds": 54
         }
       ]
     }
