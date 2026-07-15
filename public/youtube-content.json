@@ -1,13 +1,81 @@
 {
-  "fetchedAt": "2026-07-14T07:07:18.934Z",
+  "fetchedAt": "2026-07-15T07:03:34.012Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 135000,
-      "videoCount": 200,
+      "videoCount": 203,
       "recentLongform": [
+        {
+          "id": "A2tnhJZnzSE",
+          "title": "What Does God Kings Mean? | Hungarian Metal in Miami",
+          "publishedAt": "2026-07-14T23:58:52Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/A2tnhJZnzSE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/A2tnhJZnzSE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/A2tnhJZnzSE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/A2tnhJZnzSE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/A2tnhJZnzSE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M22S",
+          "durationSeconds": 142
+        },
+        {
+          "id": "pJmFKOQ38e0",
+          "title": "NEMOPHILA: The Samurai Soul of Japanese Metal | The Music Cities Interview",
+          "publishedAt": "2026-07-14T14:55:32Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/pJmFKOQ38e0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/pJmFKOQ38e0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/pJmFKOQ38e0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/pJmFKOQ38e0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/pJmFKOQ38e0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT4M21S",
+          "durationSeconds": 261
+        },
         {
           "id": "zt1Yz3uH-qg",
           "title": "God Kings Interview Part 2: Buried Alive Festival Miami",
@@ -313,43 +381,43 @@
           },
           "duration": "PT20M14S",
           "durationSeconds": 1214
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "nd0xX8lgjjk",
-          "title": "Sabaton Turned Forgotten Battles Into a Global Empire | What Your City Throws Away",
-          "publishedAt": "2026-05-24T15:45:08Z",
+          "id": "nnvrOBWoBOU",
+          "title": "Nemophila | Question # 1 of 4 | Samurai Soul",
+          "publishedAt": "2026-07-14T15:01:48Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/nd0xX8lgjjk/default.jpg",
+              "url": "https://i.ytimg.com/vi/nnvrOBWoBOU/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/nd0xX8lgjjk/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/nnvrOBWoBOU/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/nd0xX8lgjjk/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/nnvrOBWoBOU/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/nd0xX8lgjjk/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/nnvrOBWoBOU/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/nd0xX8lgjjk/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/nnvrOBWoBOU/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT7M13S",
-          "durationSeconds": 433
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT19S",
+          "durationSeconds": 19
+        },
         {
           "id": "moNdDniAFyE",
           "title": "Tamu and Hazuki Solos | Talent Incubation | Nemophila | Adabana",
@@ -752,74 +820,6 @@
           },
           "duration": "PT1M4S",
           "durationSeconds": 64
-        },
-        {
-          "id": "Z-S5F2nOCvY",
-          "title": "they opened for yungblud and stole the show",
-          "publishedAt": "2026-06-04T05:15:52Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Z-S5F2nOCvY/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Z-S5F2nOCvY/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Z-S5F2nOCvY/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/Z-S5F2nOCvY/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/Z-S5F2nOCvY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT54S",
-          "durationSeconds": 54
-        },
-        {
-          "id": "tTJAJ8HNajM",
-          "title": "Why Music Sounds DIFFERENT To Everyone! #shorts",
-          "publishedAt": "2026-06-02T19:57:22Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/tTJAJ8HNajM/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/tTJAJ8HNajM/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/tTJAJ8HNajM/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/tTJAJ8HNajM/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/tTJAJ8HNajM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT17S",
-          "durationSeconds": 17
         }
       ]
     },
@@ -827,9 +827,77 @@
       "handle": "@musiccitiesradio",
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
-      "subscriberCount": 1050,
-      "videoCount": 63,
+      "subscriberCount": 1060,
+      "videoCount": 65,
       "recentLongform": [
+        {
+          "id": "xjbzs_BNbtU",
+          "title": "Modern Mimes | Buried Alive Festival | Miami Metal",
+          "publishedAt": "2026-07-14T23:53:19Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/xjbzs_BNbtU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/xjbzs_BNbtU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/xjbzs_BNbtU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/xjbzs_BNbtU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/xjbzs_BNbtU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M59S",
+          "durationSeconds": 179
+        },
+        {
+          "id": "imU5JsufsxI",
+          "title": "Nemophila | Oiran | Conduit Orlando",
+          "publishedAt": "2026-07-14T23:50:38Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/imU5JsufsxI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/imU5JsufsxI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/imU5JsufsxI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/imU5JsufsxI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/imU5JsufsxI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT5M20S",
+          "durationSeconds": 320
+        },
         {
           "id": "JLTksKJtkAk",
           "title": "Mother Rucker | Miami Super Summer Jam | Miami Scene",
@@ -1305,40 +1373,6 @@
           },
           "duration": "PT4M9S",
           "durationSeconds": 249
-        },
-        {
-          "id": "JdVReJmAhFc",
-          "title": "Blue Oyster Cult | Don't Fear the Reaper | Extended Solo",
-          "publishedAt": "2026-06-05T03:47:05Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/JdVReJmAhFc/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/JdVReJmAhFc/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/JdVReJmAhFc/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/JdVReJmAhFc/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/JdVReJmAhFc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT6M43S",
-          "durationSeconds": 403
         }
       ],
       "recentShorts": [
@@ -1613,40 +1647,6 @@
           },
           "duration": "PT1M",
           "durationSeconds": 60
-        },
-        {
-          "id": "DSjQKDiQ2U4",
-          "title": "Born Beneath | Miami Metal",
-          "publishedAt": "2026-06-05T03:00:30Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/DSjQKDiQ2U4/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/DSjQKDiQ2U4/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/DSjQKDiQ2U4/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/DSjQKDiQ2U4/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/DSjQKDiQ2U4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT32S",
-          "durationSeconds": 32
         }
       ]
     }
