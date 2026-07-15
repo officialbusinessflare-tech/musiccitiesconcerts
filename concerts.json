@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T07:03:27.546Z",
+  "generatedAt": "2026-07-15T16:45:29.529Z",
   "entries": [
     {
       "id": "86bard44a",
@@ -1296,6 +1296,25 @@
       ]
     },
     {
+      "id": "86bay8u7c",
+      "name": "Prophets of the Dark Side + Cry Out For @ Kill Your Idol — Miami Beach, FL — Aug 29 2026",
+      "date": "2026-08-29",
+      "city": "Miami Beach",
+      "country": "FL — Aug 29 2026",
+      "bands": [
+        "Prophets of the Dark Side",
+        "Cry Out For @ Kill Your Idol"
+      ],
+      "description": "Prophets of the Dark Side headline Kill Your Idol in Miami Beach on Saturday, August 29, 2026, 10:00 PM, with special guest Cry Out For. $10 at the door. 222 Española Way, Miami Beach, FL. South Florida underground metal.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bay8u7c",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bahh73t",
       "name": "Nicko McBrain's Titanium Tart + Maximum Friction — The Barn, Sanford FL",
       "date": "2026-08-29",
@@ -1828,6 +1847,24 @@
       ]
     },
     {
+      "id": "86bay8u83",
+      "name": "Out The Ashes @ Kill Your Idol — Miami Beach, FL — Sep 18 2026",
+      "date": "2026-09-18",
+      "city": "Miami Beach",
+      "country": "FL — Sep 18 2026",
+      "bands": [
+        "Out The Ashes @ Kill Your Idol"
+      ],
+      "description": "Out The Ashes live at Kill Your Idol, Miami Beach, on Friday, September 18, 2026 (midnight set). $10. 222 Española Way, Miami Beach, FL. South Florida underground metal. NOTE: band name read from flyer as \"Out The Ashes\" — worth confirming exact spelling before publishing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bay8u83",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bawvp4c",
       "name": "Vader + Jungle Rot + Fleshcrawl + Trash Panda @ The Conduit — Orlando (Winter Park), FL — Sep 18 2026",
       "date": "2026-09-18",
@@ -2347,6 +2384,23 @@
       "clickupUrl": "https://app.clickup.com/t/86barcrn2",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bay8u6g",
+      "name": "Slaughter to Prevail @ Hard Rock Live — Orlando, FL — Oct 9 2026",
+      "date": "2026-10-09",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "country": "FL — Oct 9 2026",
+      "bands": [],
+      "description": "Slaughter to Prevail bring their 2026 North American headline run to Hard Rock Live in Orlando on Friday, October 9, 2026, 8:00 PM. Support from Rev3rent and DJ Paul. The Florida stop on the band's final North American shows of 2026. Tickets on sale July 17. (Announcement via…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bay8u6g",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
