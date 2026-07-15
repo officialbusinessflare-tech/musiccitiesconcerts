@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-15T07:03:34.012Z",
+  "fetchedAt": "2026-07-15T16:45:35.443Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 135000,
-      "videoCount": 203,
+      "videoCount": 204,
       "recentLongform": [
         {
           "id": "A2tnhJZnzSE",
@@ -384,6 +384,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "CHGlH3OEX1s",
+          "title": "How Japanese metal breaks through worldwide | NEMOPHILA #Shorts",
+          "publishedAt": "2026-07-15T15:30:19Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/CHGlH3OEX1s/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/CHGlH3OEX1s/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/CHGlH3OEX1s/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/CHGlH3OEX1s/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/CHGlH3OEX1s/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT34S",
+          "durationSeconds": 34
+        },
         {
           "id": "nnvrOBWoBOU",
           "title": "Nemophila | Question # 1 of 4 | Samurai Soul",
@@ -786,40 +820,6 @@
           },
           "duration": "PT1M3S",
           "durationSeconds": 63
-        },
-        {
-          "id": "rAnQH4hxB4w",
-          "title": "Hanabie | Be The Gal",
-          "publishedAt": "2026-06-05T02:00:27Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/rAnQH4hxB4w/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/rAnQH4hxB4w/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/rAnQH4hxB4w/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/rAnQH4hxB4w/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/rAnQH4hxB4w/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M4S",
-          "durationSeconds": 64
         }
       ]
     },
