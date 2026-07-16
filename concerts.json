@@ -1,59 +1,6 @@
 {
-  "generatedAt": "2026-07-15T16:45:29.529Z",
+  "generatedAt": "2026-07-16T07:05:48.075Z",
   "entries": [
-    {
-      "id": "86bard44a",
-      "name": "📀 Vampire Bats — Vampire's Delight — RELEASE",
-      "date": "2026-07-15",
-      "venue": "Vampire's Delight — RELEASE",
-      "bands": [
-        "Vampire Bats"
-      ],
-      "description": "Vampire Bats — Vampire's Delight (debut album) 📀",
-      "priority": "normal",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bard44a",
-      "buckets": [
-        "album-releases"
-      ]
-    },
-    {
-      "id": "86barcr0z",
-      "name": "Rolling Quartz @ Granada Theater — Minneapolis, MN — Jul 15 2026",
-      "date": "2026-07-15",
-      "city": "Minneapolis",
-      "country": "MN — Jul 15 2026",
-      "bands": [
-        "Rolling Quartz @ Granada Theater"
-      ],
-      "description": "Rolling Quartz bring their MY TURN North America tour to the Granada Theater in Minneapolis, MN. Korean hard-rock five-piece on the watch-list rotation. Show date: July 15, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcr0z",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bahh5gf",
-      "name": "📀 KOIAI — Starting Over EP — RELEASE",
-      "date": "2026-07-15",
-      "venue": "Starting Over EP — RELEASE",
-      "bands": [
-        "KOIAI"
-      ],
-      "description": "KOIAI — Starting Over (4th EP) 📀",
-      "priority": "high",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bahh5gf",
-      "buckets": [
-        "japanese-metal",
-        "album-releases"
-      ]
-    },
     {
       "id": "86barcr10",
       "name": "Rolling Quartz @ Logan Square Auditorium — Chicago, IL — Jul 17 2026",
