@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-15T16:45:35.443Z",
+  "fetchedAt": "2026-07-16T07:05:53.203Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 135000,
-      "videoCount": 204,
+      "videoCount": 205,
       "recentLongform": [
         {
           "id": "A2tnhJZnzSE",
@@ -347,43 +347,43 @@
           },
           "duration": "PT13M10S",
           "durationSeconds": 790
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "LTW5SvfZIqA",
-          "title": "Pantera, David Allan Coe, and Babymetal | The Genre Cage Was Always a Lie",
-          "publishedAt": "2026-06-06T23:13:22Z",
+          "id": "le3GNxRvWFo",
+          "title": "Hanabie | Yukina | Public Engagement LoL",
+          "publishedAt": "2026-07-16T01:45:09Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/LTW5SvfZIqA/default.jpg",
+              "url": "https://i.ytimg.com/vi/le3GNxRvWFo/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/LTW5SvfZIqA/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/le3GNxRvWFo/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/LTW5SvfZIqA/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/le3GNxRvWFo/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/LTW5SvfZIqA/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/le3GNxRvWFo/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/LTW5SvfZIqA/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/le3GNxRvWFo/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT20M14S",
-          "durationSeconds": 1214
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT56S",
+          "durationSeconds": 56
+        },
         {
           "id": "CHGlH3OEX1s",
           "title": "How Japanese metal breaks through worldwide | NEMOPHILA #Shorts",
@@ -828,8 +828,42 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1060,
-      "videoCount": 65,
+      "videoCount": 67,
       "recentLongform": [
+        {
+          "id": "NDyTR4h18to",
+          "title": "Buried Alive Festival | Medic | Miami Metal",
+          "publishedAt": "2026-07-15T21:30:00Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/NDyTR4h18to/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/NDyTR4h18to/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/NDyTR4h18to/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/NDyTR4h18to/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/NDyTR4h18to/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M30S",
+          "durationSeconds": 210
+        },
         {
           "id": "xjbzs_BNbtU",
           "title": "Modern Mimes | Buried Alive Festival | Miami Metal",
@@ -1339,43 +1373,43 @@
           },
           "duration": "PT4M53S",
           "durationSeconds": 293
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "gYmaaAl5jXA",
-          "title": "Lovebites | We The United",
-          "publishedAt": "2026-06-05T15:45:03Z",
+          "id": "nTvmTbAP4KY",
+          "title": "Hanabie | Be The Gal | Japanese Metal",
+          "publishedAt": "2026-07-16T00:09:26Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/gYmaaAl5jXA/default.jpg",
+              "url": "https://i.ytimg.com/vi/nTvmTbAP4KY/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/gYmaaAl5jXA/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/nTvmTbAP4KY/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/gYmaaAl5jXA/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/nTvmTbAP4KY/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/gYmaaAl5jXA/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/nTvmTbAP4KY/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/gYmaaAl5jXA/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/nTvmTbAP4KY/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT4M9S",
-          "durationSeconds": 249
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT53S",
+          "durationSeconds": 53
+        },
         {
           "id": "HW8mVkKkuu8",
           "title": "Nemophila | アナタダレ | Anata Dare",
@@ -1613,40 +1647,6 @@
           },
           "duration": "PT59S",
           "durationSeconds": 59
-        },
-        {
-          "id": "9FnF4J6GeNU",
-          "title": "Hanabie | Miso Soup",
-          "publishedAt": "2026-06-05T14:00:05Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/9FnF4J6GeNU/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/9FnF4J6GeNU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/9FnF4J6GeNU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/9FnF4J6GeNU/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/9FnF4J6GeNU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M",
-          "durationSeconds": 60
         }
       ]
     }
