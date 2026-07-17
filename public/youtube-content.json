@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-16T07:05:53.203Z",
+  "fetchedAt": "2026-07-17T07:03:54.823Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 135000,
-      "videoCount": 205,
+      "videoCount": 206,
       "recentLongform": [
         {
           "id": "A2tnhJZnzSE",
@@ -350,6 +350,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "XKOs6nRPb0g",
+          "title": "Big stage or tiny club, same fire | NEMOPHILA #Shorts",
+          "publishedAt": "2026-07-16T15:30:23Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/XKOs6nRPb0g/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/XKOs6nRPb0g/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/XKOs6nRPb0g/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/XKOs6nRPb0g/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/XKOs6nRPb0g/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT47S",
+          "durationSeconds": 47
+        },
         {
           "id": "le3GNxRvWFo",
           "title": "Hanabie | Yukina | Public Engagement LoL",
@@ -786,40 +820,6 @@
           },
           "duration": "PT29S",
           "durationSeconds": 29
-        },
-        {
-          "id": "KhIdIeMgdvc",
-          "title": "Nemesis | Wacken Metal Battle US Finals",
-          "publishedAt": "2026-06-11T05:03:26Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/KhIdIeMgdvc/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/KhIdIeMgdvc/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/KhIdIeMgdvc/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/KhIdIeMgdvc/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/KhIdIeMgdvc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M3S",
-          "durationSeconds": 63
         }
       ]
     },
