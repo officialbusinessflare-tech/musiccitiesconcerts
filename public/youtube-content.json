@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-07-17T14:19:36.712Z",
+  "fetchedAt": "2026-07-18T07:00:53.600Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 135000,
-      "videoCount": 206,
+      "videoCount": 208,
       "recentLongform": [
+        {
+          "id": "GZUfW-zXfPc",
+          "title": "God Kings | Hungarian metal in Miami #metal #music",
+          "publishedAt": "2026-07-18T00:53:18Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/GZUfW-zXfPc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/GZUfW-zXfPc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/GZUfW-zXfPc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/GZUfW-zXfPc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/GZUfW-zXfPc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M34S",
+          "durationSeconds": 154
+        },
         {
           "id": "A2tnhJZnzSE",
           "title": "What Does God Kings Mean? | Hungarian Metal in Miami",
@@ -350,6 +384,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "AYueJLoXw0Y",
+          "title": "The Japanese soul inside NEMOPHILA's metal #Shorts",
+          "publishedAt": "2026-07-17T15:15:27Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/AYueJLoXw0Y/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/AYueJLoXw0Y/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/AYueJLoXw0Y/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/AYueJLoXw0Y/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/AYueJLoXw0Y/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M14S",
+          "durationSeconds": 74
+        },
         {
           "id": "XKOs6nRPb0g",
           "title": "Big stage or tiny club, same fire | NEMOPHILA #Shorts",
@@ -757,69 +825,6 @@
           },
           "duration": "PT30S",
           "durationSeconds": 30
-        },
-        {
-          "id": "f6u70-ykn-M",
-          "title": "Hanabie | Be the Gal | This is community belonging",
-          "publishedAt": "2026-06-16T02:53:22Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/f6u70-ykn-M/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/f6u70-ykn-M/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/f6u70-ykn-M/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/f6u70-ykn-M/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/f6u70-ykn-M/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT59S",
-          "durationSeconds": 59
-        },
-        {
-          "id": "IPuzOE1yQlU",
-          "title": "June 11, 2026",
-          "publishedAt": "2026-06-12T02:32:30Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/IPuzOE1yQlU/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/IPuzOE1yQlU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/IPuzOE1yQlU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/IPuzOE1yQlU/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            }
-          },
-          "duration": "PT29S",
-          "durationSeconds": 29
         }
       ]
     },
