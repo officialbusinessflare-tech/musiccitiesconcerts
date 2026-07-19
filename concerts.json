@@ -1,82 +1,6 @@
 {
-  "generatedAt": "2026-07-18T07:00:48.652Z",
+  "generatedAt": "2026-07-19T00:33:35.422Z",
   "entries": [
-    {
-      "id": "86barcth2",
-      "name": "Tampa Bay's Hardcore Boom Fest 2026 @ Brass Mug — Tampa, FL — Jul 18 2026",
-      "date": "2026-07-18",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "country": "FL — Jul 18 2026",
-      "bands": [],
-      "description": "Entertainment Alliance presents Tampa Bay's Hardcore Boom Fest 2026 at the legendary Brass Mug (1450 Skipper Rd, Tampa FL 33613) — a favorite-venue all-dayer. Saturday, July 18, 2026, all ages, doors at noon, $15. Featuring Blood of Angels, Rising Up Angry, Ambush, Red Calling,…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcth2",
-      "buckets": [
-        "florida-metal-scene",
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86barcr13",
-      "name": "Rolling Quartz @ Garden Theater at Midtown — Detroit, MI — Jul 18 2026",
-      "date": "2026-07-18",
-      "city": "Detroit",
-      "country": "MI — Jul 18 2026",
-      "bands": [
-        "Rolling Quartz @ Garden Theater at Midtown"
-      ],
-      "description": "Rolling Quartz bring their MY TURN North America tour to the Garden Theater at Midtown in Detroit, MI. Korean hard-rock five-piece on the watch-list rotation. Show date: July 18, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcr13",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86ban5vax",
-      "name": "CRÜEFEST 2026 — Whisky a Go Go, West Hollywood CA",
-      "date": "2026-07-18",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "CRÜEFEST 2026"
-      ],
-      "description": "CRÜEFEST 2026 — Mötley Crüe tribute/celebration bill at the Whisky.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86ban5vax",
-      "buckets": [
-        "florida-metal-scene",
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86ba365hy",
-      "name": "Kataklysm + Wormhole — Culture Room, Fort Lauderdale FL",
-      "date": "2026-07-18",
-      "venue": "Culture Room",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "Kataklysm",
-        "Wormhole"
-      ],
-      "description": "Kataklysm w/ Wormhole",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86ba365hy",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86barcr17",
       "name": "Rolling Quartz @ Black Circle Brewing Co — Indianapolis, IN — Jul 19 2026",
@@ -691,6 +615,25 @@
       "clickupUrl": "https://app.clickup.com/t/86b9ky5n5",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb01hv4",
+      "name": "Collective Dust + Coraline's Collapse @ Arcade 51 — Daytona Beach, FL — Aug 4 2026",
+      "date": "2026-08-04",
+      "city": "Daytona Beach",
+      "country": "FL — Aug 4 2026",
+      "bands": [
+        "Collective Dust",
+        "Coraline's Collapse @ Arcade 51"
+      ],
+      "description": "Collective Dust headline a four-band all-ages bill at Arcade 51, Daytona Beach, presented by SPARK Booking Collective.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb01hv4",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
