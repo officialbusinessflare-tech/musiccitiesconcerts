@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T07:04:08.642Z",
+  "generatedAt": "2026-07-20T20:58:06.686Z",
   "entries": [
     {
       "id": "86barcr19",
@@ -184,6 +184,25 @@
       "buckets": [
         "japanese-metal",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bb0uvqc",
+      "name": "📀 HANABIE. — 命短し対する乙女よ (Life Is Short, O Brave Girl) — RELEASE",
+      "date": "2026-07-29",
+      "city": "命短し対する乙女よ (Life Is Short",
+      "country": "O Brave Girl) — RELEASE",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "Artist: HANABIE.\nRelease: 命短し対する乙女よ / \"Inochi Mijikashi Taisuru Otome yo\" — new single\nRelease date: July 29, 2026 (physical; digital already out)",
+      "priority": "high",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb0uvqc",
+      "buckets": [
+        "japanese-metal",
+        "album-releases"
       ]
     },
     {
@@ -414,6 +433,24 @@
       "clickupUrl": "https://app.clickup.com/t/86ba365f0",
       "buckets": [
         "florida-metal-scene",
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bb0uvr1",
+      "name": "Witches of Wacken panel — Wacken Open Air 2026 (Sat Aug 1, 14:30)",
+      "date": "2026-08-01",
+      "city": "Wacken Open Air 2026 (Sat Aug 1",
+      "country": "14:30)",
+      "bands": [
+        "Witches of Wacken panel"
+      ],
+      "description": "Event: \"Witches of Wacken\" panel — POV: You Are A Woman In Metal\nPanelists include: Alissa White-Gluz (Arch Enemy), Sabina (Holy Moses), Johanna Sadonis (Lucifer), Black Marguerite\nWhere: Welcome to the Jungle stage area, Wacken Open Air\nWhen: Saturday, August 1, 2026 — 14:30",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb0uvr1",
+      "buckets": [
         "key-festivals"
       ]
     },
@@ -904,6 +941,27 @@
       ]
     },
     {
+      "id": "86bb0uvgg",
+      "name": "Nocturnal Dawn + Pariah + RSI + Gnarcoossee @ Conduit — Winter Park (Orlando), FL — Aug 12 2026",
+      "date": "2026-08-12",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "country": "FL — Aug 12 2026",
+      "bands": [
+        "Nocturnal Dawn",
+        "Pariah",
+        "RSI"
+      ],
+      "description": "Bands: Nocturnal Dawn, Pariah (FL), RSI, Gnarcoossee\nVenue: Conduit, Winter Park (Orlando), FL\nDate: Wednesday, August 12, 2026 — doors 7:00 PM\nTickets: $15 advance / $20 day of show — presented by Violent Death Records",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb0uvgg",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86barcr2p",
       "name": "Rolling Quartz @ El Mocambo (Under the Neon Palms) — Toronto, ON, Canada — Aug 13 2026",
       "date": "2026-08-13",
@@ -1240,6 +1298,22 @@
       ]
     },
     {
+      "id": "86bb0uvmc",
+      "name": "A Bloodbath in Florida — Oscura Live, Bradenton FL — Sep 4 2026",
+      "date": "2026-09-04",
+      "city": "Oscura Live",
+      "country": "Bradenton FL — Sep 4 2026",
+      "bands": [
+        "A Bloodbath in Florida"
+      ],
+      "description": "Bands: A Bloodbath in Boston, Peacemaker (FL), Delilah, Necrotizing, Yet Still We Pray\nVenue: Oscura Live, Bradenton, FL\nDate: Friday, September 4, 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb0uvmc",
+      "buckets": []
+    },
+    {
       "id": "86ba365ck",
       "name": "No Raza / Mind Virus / Revenant Curse — Guadalajara Night Club, Fort Pierce FL",
       "date": "2026-09-04",
@@ -1295,6 +1369,22 @@
       ]
     },
     {
+      "id": "86bb0uvmt",
+      "name": "A Bloodbath in Florida — The Abbey, Melbourne FL — Sep 5 2026",
+      "date": "2026-09-05",
+      "city": "The Abbey",
+      "country": "Melbourne FL — Sep 5 2026",
+      "bands": [
+        "A Bloodbath in Florida"
+      ],
+      "description": "Bands: A Bloodbath in Boston, Peacemaker (FL), Delilah, Necrotizing, Yet Still We Pray\nVenue: The Abbey, Melbourne, FL\nDate: Saturday, September 5, 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb0uvmt",
+      "buckets": []
+    },
+    {
       "id": "86barcvpu",
       "name": "Primitive Brutality + guests @ The Griffin — Las Vegas, NV — Sep 5 2026",
       "date": "2026-09-05",
@@ -1348,6 +1438,24 @@
       "buckets": [
         "florida-metal-scene",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bb0uvn6",
+      "name": "A Bloodbath in Florida — Boombox, Miami FL — Sep 6 2026",
+      "date": "2026-09-06",
+      "city": "Boombox",
+      "country": "Miami FL — Sep 6 2026",
+      "bands": [
+        "A Bloodbath in Florida"
+      ],
+      "description": "Bands: A Bloodbath in Boston, Peacemaker (FL), Delilah, Necrotizing, Yet Still We Pray\nVenue: Boombox, Miami, FL\nDate: Sunday, September 6, 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb0uvn6",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -1758,6 +1866,26 @@
       ]
     },
     {
+      "id": "86bb0uvf9",
+      "name": "TURNSTILE + Hatebreed + Cold World @ England Brothers Park — Pinellas Park, FL — Sep 19 2026",
+      "date": "2026-09-19",
+      "city": "Pinellas Park",
+      "country": "FL — Sep 19 2026",
+      "bands": [
+        "TURNSTILE",
+        "Hatebreed",
+        "Cold World @ England Brothers Park"
+      ],
+      "description": "Bands: TURNSTILE, Hatebreed, Cold World\nVenue: England Brothers Park, Pinellas Park, FL\nDate: Saturday, September 19, 2026 — doors 5:00 PM, show 6:30 PM",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb0uvf9",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bazd4q8",
       "name": "The Browning @ The Banyan Live — West Palm Beach, FL — Sep 19 2026",
       "date": "2026-09-19",
@@ -1994,6 +2122,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7kgy",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bb0uvh5",
+      "name": "Dopethrone + Fister + Crud @ Conduit — Winter Park (Orlando), FL — Sep 25 2026",
+      "date": "2026-09-25",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "country": "FL — Sep 25 2026",
+      "bands": [
+        "Dopethrone",
+        "Fister"
+      ],
+      "description": "Bands: Dopethrone, Fister, Crud\nVenue: Conduit, Winter Park (Orlando), FL\nDate: Friday, September 25, 2026 — 7:00 PM\nTickets: TicketWeb, ~$27",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb0uvh5",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -2252,6 +2400,27 @@
       "clickupUrl": "https://app.clickup.com/t/86barcrn2",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb0uvjq",
+      "name": "Spite + Stick To Your Guns + No Cure + Vomit Forth @ Come and Take It Live — Austin, TX — Oct 8 2026",
+      "date": "2026-10-08",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "country": "TX — Oct 8 2026",
+      "bands": [
+        "Spite",
+        "Stick To Your Guns",
+        "No Cure"
+      ],
+      "description": "Bands: Spite, Stick To Your Guns, No Cure, Vomit Forth (Stygoc also on the routing)\nVenue: Come and Take It Live, Austin, TX\nDate: Thursday, October 8, 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb0uvjq",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -2855,6 +3024,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5v88",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bb0uvk0",
+      "name": "Gladio Tempus + Eternal Warrior @ Kelly's Pub — Fort Lauderdale, FL — Dec 22 2026",
+      "date": "2026-12-22",
+      "city": "Fort Lauderdale",
+      "country": "FL — Dec 22 2026",
+      "bands": [
+        "Gladio Tempus",
+        "Eternal Warrior @ Kelly's Pub"
+      ],
+      "description": "Bands: Gladio Tempus (Brazilian thrash metal), Eternal Warrior (South Florida thrash metal)\nVenue: Kelly's Pub, 3045 N Federal Hwy, Fort Lauderdale, FL\nDate: Tuesday, December 22, 2026 — doors 8:00 PM, showtime 9:00 PM\nTickets: $20",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb0uvk0",
       "buckets": [
         "florida-metal-scene"
       ]
