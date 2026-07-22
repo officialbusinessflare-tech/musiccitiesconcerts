@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T07:01:02.574Z",
+  "generatedAt": "2026-07-22T13:24:53.490Z",
   "entries": [
     {
       "id": "86barcr1e",
@@ -1166,6 +1166,22 @@
       "buckets": [
         "florida-metal-scene"
       ]
+    },
+    {
+      "id": "86bb1uzmm",
+      "name": "Nikki's Birthday Massacre II — Foreverless + CryptLord @ Electric Tide Records — Rockledge, FL — Aug 29 2026",
+      "date": "2026-08-29",
+      "city": "Foreverless + CryptLord @ Electric Tide Records — Rockledge",
+      "country": "FL — Aug 29 2026",
+      "bands": [
+        "Nikki's Birthday Massacre II"
+      ],
+      "description": "Brevard County underground bill built around Foreverless, with watch-list act CryptLord on the card plus additional local support.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb1uzmm",
+      "buckets": []
     },
     {
       "id": "86bay8u7c",
@@ -2406,6 +2422,24 @@
       ]
     },
     {
+      "id": "86bb1uzkt",
+      "name": "Mad Pit Fes 2026 (JILUKA presents) @ Club Citta' — Kawasaki, Japan — Oct 9 2026",
+      "date": "2026-10-09",
+      "city": "Kawasaki",
+      "country": "Japan — Oct 9 2026",
+      "bands": [
+        "Mad Pit Fes 2026 (JILUKA presents) @ Club Citta'"
+      ],
+      "description": "JILUKA-curated festival, and the first Mad Pit to run a double-stage format (Mad Stage / Overkill Stage). Deep watch-list presence on the bill.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb1uzkt",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bay8u6g",
       "name": "Slaughter to Prevail @ Hard Rock Live — Orlando, FL — Oct 9 2026",
       "date": "2026-10-09",
@@ -2628,6 +2662,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5vf4",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bb1uzjx",
+      "name": "Trivium + In Flames + Orbit Culture + Fit For An Autopsy + Frozen Soul @ Jannus Live — St. Petersburg, FL — Nov 5 2026",
+      "date": "2026-11-05",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "country": "FL — Nov 5 2026",
+      "bands": [
+        "Trivium",
+        "In Flames",
+        "Orbit Culture",
+        "Fit For An Autopsy"
+      ],
+      "description": "Opening night of Trivium's fall 2026 North American headline tour — and it lands in their home state. Trivium headline, with In Flames, Orbit Culture, Fit For An Autopsy and Frozen Soul in support. Orbit Culture is on the first stretch of dates, this one included.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb1uzjx",
       "buckets": [
         "florida-metal-scene"
       ]
