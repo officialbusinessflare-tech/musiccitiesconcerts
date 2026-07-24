@@ -1,26 +1,6 @@
 {
-  "generatedAt": "2026-07-23T07:10:02.635Z",
+  "generatedAt": "2026-07-24T07:06:01.673Z",
   "entries": [
-    {
-      "id": "86ban5v0m",
-      "name": "Jiluka — Brick by Brick, San Diego CA",
-      "date": "2026-07-23",
-      "venue": "Brick by Brick",
-      "city": "San Diego",
-      "state": "CA",
-      "bands": [
-        "Jiluka"
-      ],
-      "description": "Jiluka — West Coast date at Brick by Brick. Support: What Lies Below, Mirrorcell.",
-      "ticketUrl": "https://www.songkick.com/concerts/43179378-jiluka-at-brick-by-brick",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86ban5v0m",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86barcr1k",
       "name": "Rolling Quartz @ Riverside Revival — Nashville, TN — Jul 24 2026",
