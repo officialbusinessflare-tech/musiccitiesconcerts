@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-23T07:10:11.275Z",
+  "fetchedAt": "2026-07-24T07:06:06.732Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 138000,
-      "videoCount": 209,
+      "videoCount": 211,
       "recentLongform": [
         {
           "id": "cjhBrmSzQ5g",
@@ -384,6 +384,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "er120wRkuhE",
+          "title": "mayu on drums | Nemophila | Conduit Orlando",
+          "publishedAt": "2026-07-24T00:44:21Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/er120wRkuhE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/er120wRkuhE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/er120wRkuhE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/er120wRkuhE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/er120wRkuhE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT38S",
+          "durationSeconds": 38
+        },
         {
           "id": "45jxyF5WEpE",
           "title": "Nemophila Loves The Music Cities! and Texas BBQ",
@@ -791,40 +825,6 @@
           },
           "duration": "PT24S",
           "durationSeconds": 24
-        },
-        {
-          "id": "G82Pm2L21dg",
-          "title": "Through The Oculus | Wacken Metal Battle Finals",
-          "publishedAt": "2026-06-22T04:25:25Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/G82Pm2L21dg/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT56S",
-          "durationSeconds": 56
         }
       ]
     },
