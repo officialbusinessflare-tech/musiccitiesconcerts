@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-07-23T07:10:02.635Z",
+  "generatedAt": "2026-07-24T07:06:01.673Z",
   "entries": [
-    {
-      "id": "86bard4hq",
-      "name": "Hwasa Birthday MAMAMOO",
-      "person": "Hwasa",
-      "affiliation": "MAMAMOO",
-      "rawDate": "2026-07-23",
-      "month": 7,
-      "day": 23,
-      "description": "RECURRING ANNUAL — July 23\n\nFull name: Ahn Hye-jin (안혜진)\nStage name: Hwasa (화사)\nBand & role: MAMAMOO — vocalist / solo artist\nCountry of origin: South Korea (Jeonju, Jeollabuk-do)\nGreeting language: Korean\nBorn: July 23, 1995\nSource: Wikipedia, Kpop Profiles",
-      "clickupUrl": "https://app.clickup.com/t/86bard4hq"
-    },
     {
       "id": "86bard4hx",
       "name": "Buddy Guy Birthday (Blues Legend)",
@@ -375,6 +364,17 @@
       "day": 22,
       "description": "RECURRING ANNUAL — July 22\n\nFull name: Miho\nStage name: Miho (mononym)\nBand & role: Zilqy — bass (current). All-female metal band; debuted with EP \"Vacant Throne\" (Oct 2025), alongside Anna (vocals), Toki/ex-Aldious (guitar), Kano (drums).\nPrior: Lovebites — bass, backing vocals, co-founder (left Aug 2021); before that DESTROSE.\nCountry of origin: Japan\nGreeting language: Japanese\nRotation: ACTIVE — confirmed by Kevin 2026-07-16 (kept for Zilqy; former-member flag cleared).\nLast known interaction with Kevin/TMC: None recorded\nSource: Official Lovebites fanpage — Birthday Jul 22 (year not published). Zilqy affiliation per jrocknews / band coverage 2025.",
       "clickupUrl": "https://app.clickup.com/t/86baazewd"
+    },
+    {
+      "id": "86bard4hq",
+      "name": "Hwasa Birthday MAMAMOO",
+      "person": "Hwasa",
+      "affiliation": "MAMAMOO",
+      "rawDate": "2026-07-23",
+      "month": 7,
+      "day": 23,
+      "description": "RECURRING ANNUAL — July 23\n\nFull name: Ahn Hye-jin (안혜진)\nStage name: Hwasa (화사)\nBand & role: MAMAMOO — vocalist / solo artist\nCountry of origin: South Korea (Jeonju, Jeollabuk-do)\nGreeting language: Korean\nBorn: July 23, 1995\nSource: Wikipedia, Kpop Profiles",
+      "clickupUrl": "https://app.clickup.com/t/86bard4hq"
     },
     {
       "id": "86baazexe",
