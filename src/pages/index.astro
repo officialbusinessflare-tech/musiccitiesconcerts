@@ -61,6 +61,14 @@ const comingUp = [...upcoming]
   .sort((a, b) => a.date.localeCompare(b.date))
   .slice(0, 9);
 
+// Don't-Miss — the next high-priority shows across all buckets, surfaced above
+// the chronological list so a tour flood can't bury marquee must-sees. Up to 6,
+// soonest first. Releases are excluded (they get their own eyebrow treatment).
+const dontMiss = [...upcoming]
+  .filter((e) => (e.priority === 'high' || e.priority === 'urgent') && !e.isRelease)
+  .sort((a, b) => a.date.localeCompare(b.date))
+  .slice(0, 6);
+
 const BUCKET_HREFS: Record<string, string> = {
   'florida-metal-scene': '/florida',
   'japanese-metal': '/japan',
@@ -179,6 +187,21 @@ const lastUpdated = data.generatedAt
     </div>
   </section>
 
+  {dontMiss.length > 0 ? (
+    <section class="dont-miss">
+      <div class="container">
+        <header class="dont-miss__header">
+          <span class="dont-miss__eyebrow">Don't miss</span>
+          <h2 class="dont-miss__title">On our radar right now</h2>
+          <p class="dont-miss__sub">The high-priority shows we're actually building around — marquee acts, confirmed field trips, the ones worth planning your week around.</p>
+        </header>
+        <div class="bucket__grid">
+          {dontMiss.map((entry) => <ShowCard entry={entry} />)}
+        </div>
+      </div>
+    </section>
+  ) : null}
+
   <section class="coming-up">
     <div class="container">
       <header class="coming-up__header">
@@ -274,4 +297,12 @@ const lastUpdated = data.generatedAt
     flex-direction: column;
     gap: var(--space-4);
   }
+  /* ----- Don't-Miss strip: high-priority marquee row above Coming Up Next ----- */
+  .dont-miss { padding: var(--space-6) 0 var(--space-2); }
+  .dont-miss__header { display: flex; flex-direction: column; gap: var(--space-2); margin-bottom: var(--space-4); }
+  .dont-miss__eyebrow {
+    font-size: 0.75rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--color-accent);
+  }
+  .dont-miss__title { margin: 0; }
+  .dont-miss__sub { font-size: 0.95rem; color: var(--color-text-muted); margin: 0; max-width: 60ch; line-height: 1.4; }
 </style>
