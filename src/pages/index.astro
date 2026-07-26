@@ -61,13 +61,32 @@ const comingUp = [...upcoming]
   .sort((a, b) => a.date.localeCompare(b.date))
   .slice(0, 9);
 
-// Don't-Miss — the next high-priority shows across all buckets, surfaced above
-// the chronological list so a tour flood can't bury marquee must-sees. Up to 6,
-// soonest first. Releases are excluded (they get their own eyebrow treatment).
-const dontMiss = [...upcoming]
+// Don't-Miss — high-priority shows surfaced above the chronological list so a
+// tour flood can't bury marquee must-sees. Up to 6, soonest first.
+//
+// CURATION (edit these two to control the strip):
+//   DONT_MISS_HIDE   — predicates for shows to keep OUT of the auto row.
+//   DONT_MISS_PIN    — predicates for shows to PIN at the end, in this order.
+// Auto-fills the remaining slots (to 6) with high/urgent-priority non-release
+// shows, soonest first, excluding hidden + already-pinned.
+const DONT_MISS_HIDE = [
+  (e: ConcertEntry) => /judas priest/i.test(e.name),
+];
+const DONT_MISS_PIN = [
+  // Lovebites London — O2 Academy Islington, Aug 3 (the trip anchor)
+  (e: ConcertEntry) => /lovebites/i.test(e.name) && /(o2 academy|islington)/i.test(e.name),
+];
+
+const dmHidden = (e: ConcertEntry) => DONT_MISS_HIDE.some((fn) => fn(e));
+const dmPinned = DONT_MISS_PIN.map((fn) => upcoming.find(fn)).filter(Boolean) as ConcertEntry[];
+const dmPinnedIds = new Set(dmPinned.map((e) => e.id));
+
+const dmAuto = [...upcoming]
   .filter((e) => (e.priority === 'high' || e.priority === 'urgent') && !e.isRelease)
-  .sort((a, b) => a.date.localeCompare(b.date))
-  .slice(0, 6);
+  .filter((e) => !dmHidden(e) && !dmPinnedIds.has(e.id))
+  .sort((a, b) => a.date.localeCompare(b.date));
+
+const dontMiss = [...dmAuto.slice(0, Math.max(0, 6 - dmPinned.length)), ...dmPinned];
 
 const BUCKET_HREFS: Record<string, string> = {
   'florida-metal-scene': '/florida',
