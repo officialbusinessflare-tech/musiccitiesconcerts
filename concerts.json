@@ -1,42 +1,6 @@
 {
-  "generatedAt": "2026-07-25T07:05:20.825Z",
+  "generatedAt": "2026-07-26T07:01:18.406Z",
   "entries": [
-    {
-      "id": "86bavn8k0",
-      "name": "LOVEBITES @ OCZKI — Warsaw, Poland — Jul 25 2026",
-      "date": "2026-07-25",
-      "city": "Warsaw",
-      "country": "Poland — Jul 25 2026",
-      "bands": [
-        "LOVEBITES @ OCZKI"
-      ],
-      "description": "LOVEBITES — Outstanding Power European tour, Warsaw stop.\nVenue: OCZKI, Warsaw, Poland. Date: July 25, 2026.\nPart of the band's summer 2026 European run supporting fifth album Outstanding Power. Not previously on the dashboard — only the Wacken, Munich (Free & Easy) and London…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bavn8k0",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bammfq8",
-      "name": "Lonesome_Blue — \"Ready for Takeoff\" — Sally's first show — Tokyo GRIT, Shibuya",
-      "date": "2026-07-25",
-      "city": "\"Ready for Takeoff\" — Sally's first show — Tokyo GRIT",
-      "country": "Shibuya",
-      "bands": [
-        "Lonesome_Blue"
-      ],
-      "description": "LonesomeBlue — \"Ready for Takeoff\" — Sally's first show",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bammfq8",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bavn8kw",
       "name": "LOVEBITES @ Rock Café — Prague, Czech Republic — Jul 26 2026",
