@@ -1,43 +1,6 @@
 {
-  "generatedAt": "2026-07-26T07:01:18.406Z",
+  "generatedAt": "2026-07-27T07:05:39.415Z",
   "entries": [
-    {
-      "id": "86bavn8kw",
-      "name": "LOVEBITES @ Rock Café — Prague, Czech Republic — Jul 26 2026",
-      "date": "2026-07-26",
-      "city": "Prague",
-      "country": "Czech Republic — Jul 26 2026",
-      "bands": [
-        "LOVEBITES @ Rock Café"
-      ],
-      "description": "LOVEBITES — Outstanding Power European tour, Prague stop.\nVenue: Rock Café, Prague, Czech Republic. Date: July 26, 2026.\nSummer 2026 European club run supporting Outstanding Power. New to the dashboard.\nSource: LOVEBITES official / Bandsintown tour routing.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bavn8kw",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bampq6j",
-      "name": "A Sunday Hardcore Matinee — The Orpheum, Tampa FL",
-      "date": "2026-07-26",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "A Sunday Hardcore Matinee"
-      ],
-      "description": "Elevated Booking presents A Sunday Hardcore Matinee",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bampq6j",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86barcr1n",
       "name": "Rolling Quartz @ MadLife Stage & Studios — Woodstock (Atlanta), GA — Jul 27 2026",
