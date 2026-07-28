@@ -1,44 +1,6 @@
 {
-  "generatedAt": "2026-07-27T07:05:39.415Z",
+  "generatedAt": "2026-07-28T07:09:12.905Z",
   "entries": [
-    {
-      "id": "86barcr1n",
-      "name": "Rolling Quartz @ MadLife Stage & Studios — Woodstock (Atlanta), GA — Jul 27 2026",
-      "date": "2026-07-27",
-      "city": "Woodstock (Atlanta)",
-      "country": "GA — Jul 27 2026",
-      "bands": [
-        "Rolling Quartz @ MadLife Stage",
-        "Studios"
-      ],
-      "description": "Rolling Quartz bring their MY TURN North America tour to MadLife Stage & Studios in Woodstock, GA (Atlanta metro). Korean hard-rock five-piece on the watch-list rotation. Show date: July 27, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcr1n",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86baqu74e",
-      "name": "LOVEBITES — Free & Easy Festival, Munich DE (Wacken warm-up)",
-      "date": "2026-07-27",
-      "city": "Free & Easy Festival",
-      "country": "Munich DE (Wacken warm-up)",
-      "bands": [
-        "LOVEBITES"
-      ],
-      "description": "Show: LOVEBITES at Free & Easy Festival — Munich, Germany\nDate: Monday 2026-07-27 (FREE show)\nContext: Late-added Wacken warm-up. 2 days before their Wacken Wednesday main-stage slot (July 29, opener of FASTER main stage 16:00–17:00 CEST).\nSource: Surfaced by TMC viewer comment…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86baqu74e",
-      "buckets": [
-        "japanese-metal",
-        "key-festivals"
-      ]
-    },
     {
       "id": "86bb0uvqc",
       "name": "📀 HANABIE. — 命短し対する乙女よ (Life Is Short, O Brave Girl) — RELEASE",
@@ -131,9 +93,10 @@
     },
     {
       "id": "86b9ky5hv",
-      "name": "BROKEN BY THE SCREAM — Wacken Open Air 2026",
+      "name": "BROKEN BY THE SCREAM — Wacken Open Air 2026 (Wed Jul 29, Louder Stage 12:00)",
       "date": "2026-07-29",
-      "venue": "Wacken Open Air 2026",
+      "city": "Wacken Open Air 2026 (Wed Jul 29",
+      "country": "Louder Stage 12:00)",
       "bands": [
         "BROKEN BY THE SCREAM"
       ],
