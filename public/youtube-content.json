@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-07-28T07:09:17.603Z",
+  "fetchedAt": "2026-07-29T07:03:13.669Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 140000,
-      "videoCount": 211,
+      "videoCount": 212,
       "recentLongform": [
+        {
+          "id": "vG_rWsnJGZ4",
+          "title": "Talent Is Just the Cover Charge | What Nemophila Taught Me",
+          "publishedAt": "2026-07-28T09:12:22Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/vG_rWsnJGZ4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/vG_rWsnJGZ4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/vG_rWsnJGZ4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/vG_rWsnJGZ4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/vG_rWsnJGZ4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT19M40S",
+          "durationSeconds": 1180
+        },
         {
           "id": "cjhBrmSzQ5g",
           "title": "Medic | Miami Metal #metal #metalhead",
@@ -791,40 +825,6 @@
           },
           "duration": "PT50S",
           "durationSeconds": 50
-        },
-        {
-          "id": "iY0cR19snjE",
-          "title": "Fame is a Snow Cap: The REAL Foundation of Success #shorts",
-          "publishedAt": "2026-06-22T12:46:21Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/iY0cR19snjE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/iY0cR19snjE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/iY0cR19snjE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/iY0cR19snjE/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/iY0cR19snjE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT24S",
-          "durationSeconds": 24
         }
       ]
     },
