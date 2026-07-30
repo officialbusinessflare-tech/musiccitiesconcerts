@@ -1,13 +1,81 @@
 {
-  "fetchedAt": "2026-07-29T07:03:13.669Z",
+  "fetchedAt": "2026-07-30T07:11:13.342Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 140000,
-      "videoCount": 212,
+      "videoCount": 218,
       "recentLongform": [
+        {
+          "id": "HIBOj1Ff1yA",
+          "title": "El Chivo | Wacken Metal Battle",
+          "publishedAt": "2026-07-29T17:00:10Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/HIBOj1Ff1yA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/HIBOj1Ff1yA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/HIBOj1Ff1yA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/HIBOj1Ff1yA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/HIBOj1Ff1yA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M28S",
+          "durationSeconds": 88
+        },
+        {
+          "id": "28hj27luxQ4",
+          "title": "Human Nebula | Wacken Metal Battle",
+          "publishedAt": "2026-07-29T11:57:50Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/28hj27luxQ4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/28hj27luxQ4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/28hj27luxQ4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/28hj27luxQ4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/28hj27luxQ4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M32S",
+          "durationSeconds": 152
+        },
         {
           "id": "vG_rWsnJGZ4",
           "title": "Talent Is Just the Cover Charge | What Nemophila Taught Me",
@@ -313,111 +381,145 @@
           },
           "duration": "PT1M40S",
           "durationSeconds": 100
-        },
-        {
-          "id": "j7grreoY6J0",
-          "title": "Why Japanese Metal Feels Like the 1st Real \"Scene\" Since the 80s | Scenes vs Sounds Part 2",
-          "publishedAt": "2026-07-04T23:30:01Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/j7grreoY6J0/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/j7grreoY6J0/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/j7grreoY6J0/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/j7grreoY6J0/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/j7grreoY6J0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT12M55S",
-          "durationSeconds": 775
-        },
-        {
-          "id": "G1TWg8rEUzQ",
-          "title": "Fate Defined |Wacken Metal Battle Finals | San Diego",
-          "publishedAt": "2026-06-24T04:47:01Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/G1TWg8rEUzQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT2M47S",
-          "durationSeconds": 167
-        },
-        {
-          "id": "1l5AEQJELwk",
-          "title": "Nemesis | Wacken Metal Battle Finals | San Diego",
-          "publishedAt": "2026-06-23T03:37:44Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/1l5AEQJELwk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT2M53S",
-          "durationSeconds": 173
         }
       ],
       "recentShorts": [
+        {
+          "id": "hvq-yWe3_uY",
+          "title": "Unzucht | Wacken Open Air",
+          "publishedAt": "2026-07-29T23:49:52Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/hvq-yWe3_uY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/hvq-yWe3_uY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/hvq-yWe3_uY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/hvq-yWe3_uY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/hvq-yWe3_uY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M",
+          "durationSeconds": 60
+        },
+        {
+          "id": "pcXt1blbFqo",
+          "title": "Broken by the Scream | Wacken Open Air",
+          "publishedAt": "2026-07-29T22:41:57Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/pcXt1blbFqo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/pcXt1blbFqo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/pcXt1blbFqo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/pcXt1blbFqo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/pcXt1blbFqo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT57S",
+          "durationSeconds": 57
+        },
+        {
+          "id": "P6Oy51tGzJ8",
+          "title": "Lovebites | Raise Some Hell",
+          "publishedAt": "2026-07-29T22:18:19Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/P6Oy51tGzJ8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/P6Oy51tGzJ8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/P6Oy51tGzJ8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/P6Oy51tGzJ8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/P6Oy51tGzJ8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M",
+          "durationSeconds": 60
+        },
+        {
+          "id": "ZGLZROiVslE",
+          "title": "Wacken is open!",
+          "publishedAt": "2026-07-29T18:43:25Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ZGLZROiVslE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ZGLZROiVslE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ZGLZROiVslE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/ZGLZROiVslE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/ZGLZROiVslE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M",
+          "durationSeconds": 60
+        },
         {
           "id": "er120wRkuhE",
           "title": "mayu on drums | Nemophila | Conduit Orlando",
@@ -723,108 +825,6 @@
           },
           "duration": "PT31S",
           "durationSeconds": 31
-        },
-        {
-          "id": "Hzl2LClqn0w",
-          "title": "Hanabie | Yukina Crowdsurfs",
-          "publishedAt": "2026-07-03T18:18:01Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Hzl2LClqn0w/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Hzl2LClqn0w/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Hzl2LClqn0w/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/Hzl2LClqn0w/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/Hzl2LClqn0w/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M",
-          "durationSeconds": 60
-        },
-        {
-          "id": "LXnylUgH9fk",
-          "title": "Lovebites | Glory to the World | San Luis Obispo opening",
-          "publishedAt": "2026-06-30T05:06:48Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/LXnylUgH9fk/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/LXnylUgH9fk/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/LXnylUgH9fk/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/LXnylUgH9fk/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/LXnylUgH9fk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT59S",
-          "durationSeconds": 59
-        },
-        {
-          "id": "OGyvCdMybh0",
-          "title": "Ramtha | Wacken Metal Battle U.S. Finals | Brick by Brick",
-          "publishedAt": "2026-06-26T04:57:37Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/OGyvCdMybh0/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/OGyvCdMybh0/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/OGyvCdMybh0/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/OGyvCdMybh0/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/OGyvCdMybh0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT50S",
-          "durationSeconds": 50
         }
       ]
     },
