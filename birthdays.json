@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-07-30T07:11:07.810Z",
+  "generatedAt": "2026-07-31T07:09:56.113Z",
   "entries": [
-    {
-      "id": "86bard4hx",
-      "name": "Buddy Guy Birthday (Blues Legend)",
-      "person": "Buddy Guy Birthday",
-      "rawDate": "2026-07-30",
-      "month": 7,
-      "day": 30,
-      "description": "RECURRING ANNUAL — July 30\n\nFull name: George \"Buddy\" Guy\nRole: Blues guitarist / Chicago blues legend\nCountry of origin: USA (Lettsworth, Louisiana → Chicago)\nGreeting language: English\nBorn: July 30, 1936\nThis year is his 90th — the Oct 1, 2026 Radio City \"90th Birthday Concert\" is the milestone celebration (10 weeks after the actual birthday, which is July 30).\nSource: Britannica, Wikipedia, Buddy Guy official",
-      "status": "Blues Legend",
-      "clickupUrl": "https://app.clickup.com/t/86bard4hx"
-    },
     {
       "id": "86bard4gy",
       "name": "Rora Birthday BABYMONSTER",
@@ -375,6 +364,17 @@
       "day": 23,
       "description": "RECURRING ANNUAL — July 23\n\nFull name: Ahn Hye-jin (안혜진)\nStage name: Hwasa (화사)\nBand & role: MAMAMOO — vocalist / solo artist\nCountry of origin: South Korea (Jeonju, Jeollabuk-do)\nGreeting language: Korean\nBorn: July 23, 1995\nSource: Wikipedia, Kpop Profiles",
       "clickupUrl": "https://app.clickup.com/t/86bard4hq"
+    },
+    {
+      "id": "86bard4hx",
+      "name": "Buddy Guy Birthday (Blues Legend)",
+      "person": "Buddy Guy Birthday",
+      "rawDate": "2026-07-30",
+      "month": 7,
+      "day": 30,
+      "description": "RECURRING ANNUAL — July 30\n\nFull name: George \"Buddy\" Guy\nRole: Blues guitarist / Chicago blues legend\nCountry of origin: USA (Lettsworth, Louisiana → Chicago)\nGreeting language: English\nBorn: July 30, 1936\nThis year is his 90th — the Oct 1, 2026 Radio City \"90th Birthday Concert\" is the milestone celebration (10 weeks after the actual birthday, which is July 30).\nSource: Britannica, Wikipedia, Buddy Guy official",
+      "status": "Blues Legend",
+      "clickupUrl": "https://app.clickup.com/t/86bard4hx"
     },
     {
       "id": "86baazexe",
