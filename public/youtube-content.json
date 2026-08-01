@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-31T07:10:01.765Z",
+  "fetchedAt": "2026-08-01T07:02:42.862Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 141000,
-      "videoCount": 220,
+      "videoCount": 222,
       "recentLongform": [
         {
           "id": "uJQX76lZyow",
@@ -347,43 +347,77 @@
           },
           "duration": "PT2M39S",
           "durationSeconds": 159
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "1SP0yocys_U",
-          "title": "God Kings | Metal from Hungary | Buried Alive Festival, Miami",
-          "publishedAt": "2026-07-12T18:01:07Z",
+          "id": "vrjRbaRgh3g",
+          "title": "Witchlords | Wacken Metal Battle | Belgium",
+          "publishedAt": "2026-07-31T09:04:34Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/1SP0yocys_U/default.jpg",
+              "url": "https://i.ytimg.com/vi/vrjRbaRgh3g/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/1SP0yocys_U/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/vrjRbaRgh3g/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/1SP0yocys_U/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/vrjRbaRgh3g/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/1SP0yocys_U/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/vrjRbaRgh3g/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/1SP0yocys_U/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/vrjRbaRgh3g/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT2M34S",
-          "durationSeconds": 154
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT1M7S",
+          "durationSeconds": 67
+        },
+        {
+          "id": "VhioWh1GJtM",
+          "title": "Hamatom | Wacken Open Air",
+          "publishedAt": "2026-07-31T08:59:44Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/VhioWh1GJtM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/VhioWh1GJtM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/VhioWh1GJtM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/VhioWh1GJtM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/VhioWh1GJtM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M",
+          "durationSeconds": 60
+        },
         {
           "id": "QEZsrZYky7s",
           "title": "Given by the Flames | Wacken Metal Battle",
@@ -791,40 +825,6 @@
           },
           "duration": "PT19S",
           "durationSeconds": 19
-        },
-        {
-          "id": "moNdDniAFyE",
-          "title": "Tamu and Hazuki Solos | Talent Incubation | Nemophila | Adabana",
-          "publishedAt": "2026-07-12T23:56:44Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/moNdDniAFyE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/moNdDniAFyE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/moNdDniAFyE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/moNdDniAFyE/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/moNdDniAFyE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M",
-          "durationSeconds": 60
         }
       ]
     },
@@ -832,9 +832,43 @@
       "handle": "@musiccitiesradio",
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
-      "subscriberCount": 1080,
-      "videoCount": 70,
+      "subscriberCount": 1090,
+      "videoCount": 72,
       "recentLongform": [
+        {
+          "id": "OCpVrzTiWlM",
+          "title": "Uli Jon Roth | Wacken | All Along The Watchtower",
+          "publishedAt": "2026-07-31T09:19:09Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/OCpVrzTiWlM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/OCpVrzTiWlM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/OCpVrzTiWlM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/OCpVrzTiWlM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/OCpVrzTiWlM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT6M20S",
+          "durationSeconds": 380
+        },
         {
           "id": "tN9B3m8HQkU",
           "title": "Lovebites | Wacken | Soldier Stands Solitarily",
@@ -1412,43 +1446,43 @@
           },
           "duration": "PT4M18S",
           "durationSeconds": 258
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "F2fpqq582vg",
-          "title": "Yungblud Pulls a Fan From the Audience to Play Guitar on Fleabag",
-          "publishedAt": "2026-06-23T04:06:32Z",
+          "id": "x2zaEWvsyGo",
+          "title": "Lacuna Coil | Wacken Open Air",
+          "publishedAt": "2026-07-31T08:55:19Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/F2fpqq582vg/default.jpg",
+              "url": "https://i.ytimg.com/vi/x2zaEWvsyGo/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/F2fpqq582vg/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/x2zaEWvsyGo/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/F2fpqq582vg/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/x2zaEWvsyGo/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/F2fpqq582vg/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/x2zaEWvsyGo/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/F2fpqq582vg/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/x2zaEWvsyGo/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT6M22S",
-          "durationSeconds": 382
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT1M1S",
+          "durationSeconds": 61
+        },
         {
           "id": "nTvmTbAP4KY",
           "title": "Hanabie | Be The Gal | Japanese Metal",
@@ -1618,40 +1652,6 @@
           },
           "duration": "PT44S",
           "durationSeconds": 44
-        },
-        {
-          "id": "B7VYdaDEgo8",
-          "title": "Mekronium | Live at the Gate | Circa 2018",
-          "publishedAt": "2026-06-21T04:39:26Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/B7VYdaDEgo8/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/B7VYdaDEgo8/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/B7VYdaDEgo8/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/B7VYdaDEgo8/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/B7VYdaDEgo8/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT42S",
-          "durationSeconds": 42
         }
       ]
     }
