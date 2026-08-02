@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-08-01T07:02:42.862Z",
+  "fetchedAt": "2026-08-02T07:02:35.051Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 141000,
-      "videoCount": 222,
+      "videoCount": 225,
       "recentLongform": [
+        {
+          "id": "Kj8xk3amirs",
+          "title": "Wacken Open Air Walking Tour | Long Version",
+          "publishedAt": "2026-08-01T08:53:33Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Kj8xk3amirs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Kj8xk3amirs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Kj8xk3amirs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Kj8xk3amirs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Kj8xk3amirs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT13M57S",
+          "durationSeconds": 837
+        },
         {
           "id": "uJQX76lZyow",
           "title": "Force | Wacken Metal Battle",
@@ -245,111 +279,77 @@
           },
           "duration": "PT2M22S",
           "durationSeconds": 142
-        },
-        {
-          "id": "pJmFKOQ38e0",
-          "title": "NEMOPHILA: The Samurai Soul of Japanese Metal | The Music Cities Interview",
-          "publishedAt": "2026-07-14T14:55:32Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/pJmFKOQ38e0/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/pJmFKOQ38e0/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/pJmFKOQ38e0/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/pJmFKOQ38e0/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/pJmFKOQ38e0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT4M21S",
-          "durationSeconds": 261
-        },
-        {
-          "id": "zt1Yz3uH-qg",
-          "title": "God Kings Interview Part 2: Buried Alive Festival Miami",
-          "publishedAt": "2026-07-14T03:20:40Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/zt1Yz3uH-qg/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/zt1Yz3uH-qg/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/zt1Yz3uH-qg/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/zt1Yz3uH-qg/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/zt1Yz3uH-qg/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT2M56S",
-          "durationSeconds": 176
-        },
-        {
-          "id": "8uTBXfNcH_c",
-          "title": "God Kings Interview: The Hungarian Metal Band Taking on Miami",
-          "publishedAt": "2026-07-13T00:35:53Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/8uTBXfNcH_c/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/8uTBXfNcH_c/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/8uTBXfNcH_c/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/8uTBXfNcH_c/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/8uTBXfNcH_c/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT2M39S",
-          "durationSeconds": 159
         }
       ],
       "recentShorts": [
+        {
+          "id": "Lzv9CO7gDR8",
+          "title": "Broken by the Scream | Wacken 2026",
+          "publishedAt": "2026-08-02T04:10:14Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Lzv9CO7gDR8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Lzv9CO7gDR8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Lzv9CO7gDR8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Lzv9CO7gDR8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Lzv9CO7gDR8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT59S",
+          "durationSeconds": 59
+        },
+        {
+          "id": "r2Jt5ul3Mxs",
+          "title": "Blood Command | Wacken 2026",
+          "publishedAt": "2026-08-01T18:03:50Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/r2Jt5ul3Mxs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/r2Jt5ul3Mxs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/r2Jt5ul3Mxs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/r2Jt5ul3Mxs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/r2Jt5ul3Mxs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT59S",
+          "durationSeconds": 59
+        },
         {
           "id": "vrjRbaRgh3g",
           "title": "Witchlords | Wacken Metal Battle | Belgium",
@@ -833,8 +833,42 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1090,
-      "videoCount": 72,
+      "videoCount": 73,
       "recentLongform": [
+        {
+          "id": "8VVK_IV8Kgc",
+          "title": "Savatage | Hall of the Mountain King | Wacken",
+          "publishedAt": "2026-08-01T09:38:04Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/8VVK_IV8Kgc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/8VVK_IV8Kgc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/8VVK_IV8Kgc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/8VVK_IV8Kgc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/8VVK_IV8Kgc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT5M28S",
+          "durationSeconds": 328
+        },
         {
           "id": "OCpVrzTiWlM",
           "title": "Uli Jon Roth | Wacken | All Along The Watchtower",
@@ -1412,40 +1446,6 @@
           },
           "duration": "PT4M37S",
           "durationSeconds": 277
-        },
-        {
-          "id": "x_iHtXVidhM",
-          "title": "Crowbar | Blood 4 Blood | Daytona",
-          "publishedAt": "2026-06-24T04:57:15Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/x_iHtXVidhM/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/x_iHtXVidhM/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/x_iHtXVidhM/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/x_iHtXVidhM/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/x_iHtXVidhM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT4M18S",
-          "durationSeconds": 258
         }
       ],
       "recentShorts": [
