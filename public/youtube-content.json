@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-08-02T07:02:35.051Z",
+  "fetchedAt": "2026-08-03T07:02:18.174Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 141000,
-      "videoCount": 225,
+      "videoCount": 226,
       "recentLongform": [
+        {
+          "id": "8dGEqan6GoQ",
+          "title": "Broken by the Scream | Nemesis | London",
+          "publishedAt": "2026-08-03T00:10:19Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/8dGEqan6GoQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/8dGEqan6GoQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/8dGEqan6GoQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/8dGEqan6GoQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/8dGEqan6GoQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M37S",
+          "durationSeconds": 97
+        },
         {
           "id": "Kj8xk3amirs",
           "title": "Wacken Open Air Walking Tour | Long Version",
@@ -791,40 +825,6 @@
           },
           "duration": "PT34S",
           "durationSeconds": 34
-        },
-        {
-          "id": "nnvrOBWoBOU",
-          "title": "Nemophila | Question # 1 of 4 | Samurai Soul",
-          "publishedAt": "2026-07-14T15:01:48Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/nnvrOBWoBOU/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/nnvrOBWoBOU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/nnvrOBWoBOU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/nnvrOBWoBOU/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/nnvrOBWoBOU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT19S",
-          "durationSeconds": 19
         }
       ]
     },
@@ -833,8 +833,42 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1090,
-      "videoCount": 73,
+      "videoCount": 75,
       "recentLongform": [
+        {
+          "id": "-0U_c3NsrZU",
+          "title": "Judas Priest | Wacken | Painkiller",
+          "publishedAt": "2026-08-02T12:00:36Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/-0U_c3NsrZU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/-0U_c3NsrZU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/-0U_c3NsrZU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/-0U_c3NsrZU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/-0U_c3NsrZU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT7M45S",
+          "durationSeconds": 465
+        },
         {
           "id": "8VVK_IV8Kgc",
           "title": "Savatage | Hall of the Mountain King | Wacken",
@@ -1378,77 +1412,43 @@
           },
           "duration": "PT4M2S",
           "durationSeconds": 242
-        },
-        {
-          "id": "W90P3C9G6Fk",
-          "title": "Hanabie | Choujigen Galaxy",
-          "publishedAt": "2026-06-26T14:30:36Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/W90P3C9G6Fk/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/W90P3C9G6Fk/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/W90P3C9G6Fk/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/W90P3C9G6Fk/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/W90P3C9G6Fk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M38S",
-          "durationSeconds": 98
-        },
-        {
-          "id": "sHI8acqATXM",
-          "title": "Black Label Society | Funeral Bell | Blood for Blood",
-          "publishedAt": "2026-06-26T04:54:45Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/sHI8acqATXM/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/sHI8acqATXM/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/sHI8acqATXM/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/sHI8acqATXM/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/sHI8acqATXM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT4M37S",
-          "durationSeconds": 277
         }
       ],
       "recentShorts": [
+        {
+          "id": "7C2hXkHEVs4",
+          "title": "Yngwie | Wacken 2026",
+          "publishedAt": "2026-08-02T08:00:30Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/7C2hXkHEVs4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/7C2hXkHEVs4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/7C2hXkHEVs4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/7C2hXkHEVs4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/7C2hXkHEVs4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M2S",
+          "durationSeconds": 62
+        },
         {
           "id": "x2zaEWvsyGo",
           "title": "Lacuna Coil | Wacken Open Air",
