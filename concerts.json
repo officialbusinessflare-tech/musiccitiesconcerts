@@ -1,42 +1,6 @@
 {
-  "generatedAt": "2026-08-02T07:02:28.444Z",
+  "generatedAt": "2026-08-03T07:02:13.276Z",
   "entries": [
-    {
-      "id": "86baxc3yx",
-      "name": "Broken By The Scream @ The Dome, London UK",
-      "date": "2026-08-02",
-      "venue": "The Dome",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "Broken By The Scream"
-      ],
-      "description": "Show: Broken By The Scream (Japanese metal-screaming idol act) — Screaming Rebellion UK/EU 2026 tour\nVenue: The Dome, Tufnell Park — 178 Junction Rd, N19 5QQ, London\nDate / Time: Sunday, August 2, 2026 — doors 19:00\nAnchor: Field Trip Sunday-night anchor. Music Cities Tier 1…",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86baxc3yx",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86baaapwa",
-      "name": "Heavy Kawaii Fes 2026 Day 3 — METALVERSE x KOIAI — Meijiza, Tokyo",
-      "date": "2026-08-02",
-      "venue": "Heavy Kawaii Fes",
-      "city": "METALVERSE x KOIAI — Meijiza",
-      "country": "Tokyo",
-      "bands": [],
-      "description": "Heavy Kawaii Fes 2026 — Day 3 — METALVERSE x KOIAI",
-      "priority": "low",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86baaapwa",
-      "buckets": [
-        "key-festivals"
-      ]
-    },
     {
       "id": "86barcr29",
       "name": "Rolling Quartz @ Karma DC Live Music Venue — Washington, DC — Aug 3 2026",
