@@ -1,42 +1,6 @@
 {
-  "generatedAt": "2026-08-03T07:02:13.276Z",
+  "generatedAt": "2026-08-04T07:00:31.222Z",
   "entries": [
-    {
-      "id": "86barcr29",
-      "name": "Rolling Quartz @ Karma DC Live Music Venue — Washington, DC — Aug 3 2026",
-      "date": "2026-08-03",
-      "city": "Washington",
-      "country": "DC — Aug 3 2026",
-      "bands": [
-        "Rolling Quartz @ Karma DC Live Music Venue"
-      ],
-      "description": "Rolling Quartz bring their MY TURN North America tour to Karma DC Live Music Venue in Washington, DC. Korean hard-rock five-piece on the watch-list rotation. Show date: August 3, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcr29",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86b9ky5n5",
-      "name": "LOVEBITES — O2 Academy Islington, London + Meet and Greet (Trip Prep)",
-      "date": "2026-08-03",
-      "city": "O2 Academy Islington",
-      "country": "London + Meet and Greet (Trip Prep)",
-      "bands": [
-        "LOVEBITES"
-      ],
-      "description": "Detailed prep and execution task for the Lovebites O2 Arena show on August 3, 2026.",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b9ky5n5",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bb01hv4",
       "name": "Collective Dust + Coraline's Collapse @ Arcade 51 — Daytona Beach, FL — Aug 4 2026",
