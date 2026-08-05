@@ -1,13 +1,81 @@
 {
-  "fetchedAt": "2026-08-04T07:00:36.119Z",
+  "fetchedAt": "2026-08-05T07:00:46.175Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 141000,
-      "videoCount": 227,
+      "videoCount": 230,
       "recentLongform": [
+        {
+          "id": "yAIDSwAyFIk",
+          "title": "RE:O | London Metal | Part 1 TMC Interview",
+          "publishedAt": "2026-08-04T10:14:13Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/yAIDSwAyFIk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/yAIDSwAyFIk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/yAIDSwAyFIk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/yAIDSwAyFIk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/yAIDSwAyFIk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M",
+          "durationSeconds": 180
+        },
+        {
+          "id": "s2bmmBqkcwM",
+          "title": "Given by the Flames | Wacken Open Air",
+          "publishedAt": "2026-08-04T09:59:34Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/s2bmmBqkcwM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/s2bmmBqkcwM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/s2bmmBqkcwM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/s2bmmBqkcwM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/s2bmmBqkcwM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M6S",
+          "durationSeconds": 126
+        },
         {
           "id": "JauVSFFswGU",
           "title": "Broken by the Scream | TMC Interview | London",
@@ -316,6 +384,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "jFQ2XfISUII",
+          "title": "London Wolf Pack | Lovebites",
+          "publishedAt": "2026-08-04T17:43:44Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/jFQ2XfISUII/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/jFQ2XfISUII/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/jFQ2XfISUII/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/jFQ2XfISUII/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/jFQ2XfISUII/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT32S",
+          "durationSeconds": 32
+        },
         {
           "id": "Lzv9CO7gDR8",
           "title": "Broken by the Scream | Wacken 2026",
@@ -723,108 +825,6 @@
           },
           "duration": "PT1M14S",
           "durationSeconds": 74
-        },
-        {
-          "id": "XKOs6nRPb0g",
-          "title": "Big stage or tiny club, same fire | NEMOPHILA #Shorts",
-          "publishedAt": "2026-07-16T15:30:23Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/XKOs6nRPb0g/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/XKOs6nRPb0g/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/XKOs6nRPb0g/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/XKOs6nRPb0g/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/XKOs6nRPb0g/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT47S",
-          "durationSeconds": 47
-        },
-        {
-          "id": "le3GNxRvWFo",
-          "title": "Hanabie | Yukina | Public Engagement LoL",
-          "publishedAt": "2026-07-16T01:45:09Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/le3GNxRvWFo/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/le3GNxRvWFo/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/le3GNxRvWFo/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/le3GNxRvWFo/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/le3GNxRvWFo/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT56S",
-          "durationSeconds": 56
-        },
-        {
-          "id": "CHGlH3OEX1s",
-          "title": "How Japanese metal breaks through worldwide | NEMOPHILA #Shorts",
-          "publishedAt": "2026-07-15T15:30:19Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/CHGlH3OEX1s/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/CHGlH3OEX1s/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/CHGlH3OEX1s/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/CHGlH3OEX1s/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/CHGlH3OEX1s/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT34S",
-          "durationSeconds": 34
         }
       ]
     },
