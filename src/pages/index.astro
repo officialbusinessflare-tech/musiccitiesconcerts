@@ -123,7 +123,16 @@ const venuesTeaser = {
   href: '/venues',
 };
 
-const teasers = [...bucketTeasers, birthdaysTeaser, venuesTeaser];
+const watchingTeaser = {
+  id: 'watching',
+  name: "Bands We're Watching",
+  kanji: undefined as string | undefined,
+  description: "The artists we track, cover, and drive to see. When one of these shows up on a flyer, it earns a calendar spot.",
+  count: null as number | null,
+  href: '/watching',
+};
+
+const teasers = [...bucketTeasers, birthdaysTeaser, venuesTeaser, watchingTeaser];
 
 const fieldTrips = [
   {
