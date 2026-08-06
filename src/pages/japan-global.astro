@@ -75,6 +75,10 @@ function isVisible(e: ConcertEntry): boolean {
   return e.date >= sevenDaysAgoISO;
 }
 
+function isJapanShow(e: ConcertEntry): boolean {
+  return /japan/i.test(`${e.city || ''} ${e.state || ''} ${e.country || ''} ${e.venue || ''} ${e.name || ''} ${e.description || ''}`);
+}
+
 function entryMatchesBand(entry: ConcertEntry, matchNames: string[]): boolean {
   if (entry.isRelease) return false;
   if (!entry.bands || entry.bands.length === 0) return false;
@@ -121,6 +125,7 @@ const bands: Band[] = bandDefs.map((bd) => {
   const matched = allEntries
     .filter((e) => entryMatchesBand(e, bd.matchNames))
     .filter(isVisible)
+    .filter((e) => !isJapanShow(e))
     .sort((a, b) => a.date.localeCompare(b.date));
   const byRegion = new Map<Region, BandRegionRow[]>();
   for (const e of matched) {
@@ -168,6 +173,7 @@ function buildRegionEvents(region: Region | 'multi-na' | 'multi-eu' | 'multi-asi
     .filter((e) => !e.isRelease)
     .filter(isVisible)
     .filter((e) => bandDefs.some((bd) => entryMatchesBand(e, bd.matchNames)))
+    .filter((e) => !isJapanShow(e))
     .filter((e) => {
       const r = classifyRegion(e);
       if (region === 'multi-na') return r === 'na';
