@@ -96,6 +96,11 @@ const SCENE_BRIEFS: { id: string; name: string; href: string }[] = [
             <span class="scene-nav__name">Venues</span>
           </a>
         </li>
+        <li class="scene-nav__item">
+          <a class={`scene-nav__link${activeBucketId === 'watching' ? ' is-active' : ''}`} href="/watching" aria-current={activeBucketId === 'watching' ? 'page' : undefined}>
+            <span class="scene-nav__name">Watching</span>
+          </a>
+        </li>
       </ul>
     </div>
 
