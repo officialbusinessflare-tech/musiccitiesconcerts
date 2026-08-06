@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "The Music Cities Concerts Dashboard — curated metal shows, releases, festivals.",
+  "description": "The Music Cities Concerts Dashboard \u2014 curated metal shows, releases, festivals.",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "prebuild": "node scripts/fetch-youtube-stats.mjs && node scripts/fetch-youtube-content.mjs",
+    "prebuild": "node scripts/fetch-clickup.js || echo 'clickup fetch skipped (using committed concerts.json)'; node scripts/fetch-youtube-stats.mjs && node scripts/fetch-youtube-content.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
