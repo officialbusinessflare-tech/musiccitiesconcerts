@@ -48,5 +48,6 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://music-citie
   </head>
   <body>
     <slot />
+    <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "19a17510ec284235afcd37bb0a0e4f20"}`}></script><!-- End Cloudflare Web Analytics -->
   </body>
 </html>
