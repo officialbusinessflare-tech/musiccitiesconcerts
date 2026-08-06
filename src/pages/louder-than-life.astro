@@ -1,0 +1,161 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+/**
+ * /louder-than-life — Louder Than Life 2026 THURSDAY field trip.
+ *
+ * Kevin is going Thursday Sept 17 only. Confirmed 2026 Thursday roster below.
+ * Per-band set times are NOT yet published (official running order drops closer
+ * to the festival) — same handling as Wacken pre-running-order. Do NOT paste the
+ * 2025 schedule that floats around some lineup pages.
+ */
+
+type Tier = 'headliner' | 't1' | 't2' | 'gap';
+type PriorityItem = { name: string; pill?: string; pillKind?: 'default' | 'confirmed' | 'farewell' };
+
+const headliners: PriorityItem[] = [
+  { name: 'Iron Maiden', pill: 'Thursday headliner', pillKind: 'confirmed' },
+  { name: 'Pantera', pill: 'Only US show of 2026', pillKind: 'confirmed' },
+  { name: 'Megadeth', pill: 'Farewell run', pillKind: 'farewell' },
+];
+
+const tier1: PriorityItem[] = [
+  { name: 'Alice Cooper' },
+  { name: 'Anthrax' },
+  { name: 'Danzig' },
+];
+
+const tier2: PriorityItem[] = [
+  { name: 'Rise Against' },
+  { name: 'Jimmy Eat World', pill: 'Bleed American 25th' },
+  { name: 'Suicidal Tendencies' },
+  { name: 'Mac Sabbath' },
+  { name: 'GWAR' },
+  { name: 'Skillet', pill: 'Pyro set' },
+];
+
+function pillClass(kind?: string) {
+  switch (kind) {
+    case 'confirmed': return 'wkn-pill wkn-pill--confirmed';
+    case 'farewell': return 'wkn-pill wkn-pill--farewell';
+    default: return 'wkn-pill';
+  }
+}
+---
+
+<BaseLayout
+  title="Louder Than Life 2026 — Thursday | The Music Cities"
+  description="Louder Than Life 2026, Thursday September 17 in Louisville — Iron Maiden, Pantera's only US show of the year, Megadeth's farewell, and the day's full metal roster."
+>
+  <Header />
+
+  <section class="dash-hero">
+    <div class="container">
+      <p class="dash-hero__eyebrow">Field Trip</p>
+      <h1 class="dash-hero__title">Louder Than Life <em>2026</em></h1>
+      <p class="dash-hero__subtitle">Thursday, September 17, 2026 — Highland Festival Grounds, Louisville, Kentucky</p>
+      <p class="dash-hero__lede">
+        America's largest rock and metal festival, and we're in for the Thursday. Iron Maiden headlines
+        a day topped by Pantera's only US show of 2026 and one of Megadeth's farewell performances.
+        Nearly 200 bands across the four-day festival; this is the Thursday you build a trip around.
+      </p>
+      <div class="wkn-countdown" id="ltl-countdown" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <main class="dash-main">
+    <div class="container">
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">The Thursday</h2>
+        <dl class="wkn-meta">
+          <div><dt>Date</dt><dd>Thursday, September 17, 2026 — gates typically around noon</dd></div>
+          <div><dt>Venue</dt><dd>Highland Festival Grounds at Kentucky Exposition Center, Louisville, KY</dd></div>
+          <div><dt>Headliner</dt><dd>Iron Maiden</dd></div>
+          <div><dt>The reason we're here</dt><dd class="wkn-meta__green">Pantera — their only US show of 2026. Plus Megadeth on their farewell run.</dd></div>
+          <div><dt>Set times</dt><dd class="wkn-meta__warn">Not published yet. The official stage-by-stage running order drops closer to the festival — this page updates when it does.</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Priority tiers — Thursday</h2>
+        <div class="wkn-tier-grid">
+          <div class="wkn-tier wkn-tier--headliners">
+            <div class="wkn-tier__label">Headliners / must-see</div>
+            <ul>
+              {headliners.map((b) => (
+                <li>{b.name}{b.pill ? <span class={pillClass(b.pillKind)}>{b.pill}</span> : null}</li>
+              ))}
+            </ul>
+          </div>
+          <div class="wkn-tier wkn-tier--t1">
+            <div class="wkn-tier__label">Tier 1 high interest</div>
+            <ul>
+              {tier1.map((b) => (
+                <li>{b.name}{b.pill ? <span class={pillClass(b.pillKind)}>{b.pill}</span> : null}</li>
+              ))}
+            </ul>
+          </div>
+          <div class="wkn-tier wkn-tier--t2">
+            <div class="wkn-tier__label">Tier 2 worth catching</div>
+            <ul>
+              {tier2.map((b) => (
+                <li>{b.name}{b.pill ? <span class={pillClass(b.pillKind)}>{b.pill}</span> : null}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Why Thursday is the one</h2>
+        <ul class="wkn-notes">
+          <li>Pantera's only United States performance of 2026 lands on this Thursday. If you see Pantera in the US this year, it is here.</li>
+          <li>Megadeth is on a farewell run — Louder Than Life is billed among their final performances.</li>
+          <li>Iron Maiden headlining a US festival Thursday is itself a rare booking; the day is stacked top to bottom.</li>
+          <li>Jimmy Eat World are marking the 25th anniversary of Bleed American; Skillet are billed for a special pyrotechnic set.</li>
+          <li>Once the stage-by-stage running order is published, this page gets the tier-coded schedule with conflict picks — same treatment the Wacken brief got.</li>
+        </ul>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Notes</h2>
+        <ul class="wkn-notes">
+          <li>Four-day festival, Sept 17–20, seven stages, nearly 200 bands. We are focused on Thursday.</li>
+          <li>Passholders get free access to select Kentucky Kingdom amusement rides during the festival.</li>
+          <li>Produced by Danny Wimmer Presents. Single-day Thursday and 4-day passes both available.</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+
+  <script is:inline>
+    (function () {
+      function tick() {
+        var el = document.getElementById('ltl-countdown');
+        if (!el) return;
+        var target = new Date('2026-09-17T12:00:00').getTime();
+        var diff = target - Date.now();
+        if (diff < 0) {
+          el.innerHTML = '<div class="wkn-count-box"><div class="wkn-count-num">LIVE</div><div class="wkn-count-lbl">Thursday underway</div></div>';
+          return;
+        }
+        var days = Math.floor(diff / 86400000);
+        var hours = Math.floor((diff % 86400000) / 3600000);
+        var mins = Math.floor((diff % 3600000) / 60000);
+        el.innerHTML =
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + days + '</div><div class="wkn-count-lbl">Days to gates</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + hours + '</div><div class="wkn-count-lbl">Hours</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + mins + '</div><div class="wkn-count-lbl">Minutes</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">Sep 17</div><div class="wkn-count-lbl">Thursday</div></div>';
+      }
+      tick();
+      setInterval(tick, 60000);
+    })();
+  </script>
+</BaseLayout>
