@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-08-05T07:00:40.860Z",
+  "generatedAt": "2026-08-06T07:00:39.989Z",
   "entries": [
-    {
-      "id": "86bard4gy",
-      "name": "Rora Birthday BABYMONSTER",
-      "person": "Rora",
-      "affiliation": "BABYMONSTER",
-      "rawDate": "2026-08-05",
-      "month": 8,
-      "day": 5,
-      "description": "RECURRING ANNUAL — August 5\n\nFull name: Rora (stage name)\nBand & role: BABYMONSTER — rapper, dancer\nCountry of origin: South Korea\nGreeting language: Korean\nBorn: August 5, 2008\nSource: Kpop Profiles, YG Entertainment official",
-      "clickupUrl": "https://app.clickup.com/t/86bard4gy"
-    },
     {
       "id": "86bard4tx",
       "name": "Hazuki Birthday NEMOPHILA",
@@ -375,6 +364,17 @@
       "description": "RECURRING ANNUAL — July 30\n\nFull name: George \"Buddy\" Guy\nRole: Blues guitarist / Chicago blues legend\nCountry of origin: USA (Lettsworth, Louisiana → Chicago)\nGreeting language: English\nBorn: July 30, 1936\nThis year is his 90th — the Oct 1, 2026 Radio City \"90th Birthday Concert\" is the milestone celebration (10 weeks after the actual birthday, which is July 30).\nSource: Britannica, Wikipedia, Buddy Guy official",
       "status": "Blues Legend",
       "clickupUrl": "https://app.clickup.com/t/86bard4hx"
+    },
+    {
+      "id": "86bard4gy",
+      "name": "Rora Birthday BABYMONSTER",
+      "person": "Rora",
+      "affiliation": "BABYMONSTER",
+      "rawDate": "2026-08-05",
+      "month": 8,
+      "day": 5,
+      "description": "RECURRING ANNUAL — August 5\n\nFull name: Rora (stage name)\nBand & role: BABYMONSTER — rapper, dancer\nCountry of origin: South Korea\nGreeting language: Korean\nBorn: August 5, 2008\nSource: Kpop Profiles, YG Entertainment official",
+      "clickupUrl": "https://app.clickup.com/t/86bard4gy"
     },
     {
       "id": "86baazexe",
