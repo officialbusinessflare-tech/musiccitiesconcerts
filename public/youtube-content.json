@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-05T07:00:46.175Z",
+  "fetchedAt": "2026-08-06T07:00:45.608Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 141000,
-      "videoCount": 230,
+      "videoCount": 231,
       "recentLongform": [
         {
           "id": "yAIDSwAyFIk",
@@ -384,6 +384,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "VN4jlEW6vrk",
+          "title": "Broken by the Scream | Wacken Open Air 2026",
+          "publishedAt": "2026-08-06T04:54:25Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/VN4jlEW6vrk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/VN4jlEW6vrk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/VN4jlEW6vrk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/VN4jlEW6vrk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/VN4jlEW6vrk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT57S",
+          "durationSeconds": 57
+        },
         {
           "id": "jFQ2XfISUII",
           "title": "London Wolf Pack | Lovebites",
@@ -791,40 +825,6 @@
           },
           "duration": "PT35S",
           "durationSeconds": 35
-        },
-        {
-          "id": "AYueJLoXw0Y",
-          "title": "The Japanese soul inside NEMOPHILA's metal #Shorts",
-          "publishedAt": "2026-07-17T15:15:27Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/AYueJLoXw0Y/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/AYueJLoXw0Y/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/AYueJLoXw0Y/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/AYueJLoXw0Y/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/AYueJLoXw0Y/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M14S",
-          "durationSeconds": 74
         }
       ]
     },
@@ -833,8 +833,42 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1090,
-      "videoCount": 76,
+      "videoCount": 77,
       "recentLongform": [
+        {
+          "id": "HN9zC3Ae5q8",
+          "title": "Nemophila | Zen |  Orlando 2026",
+          "publishedAt": "2026-08-06T05:02:42Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M25S",
+          "durationSeconds": 205
+        },
         {
           "id": "Vy4J9nGk_1k",
           "title": "Black Label Society | Wacken 2026",
@@ -1378,40 +1412,6 @@
           },
           "duration": "PT4M25S",
           "durationSeconds": 265
-        },
-        {
-          "id": "c9EMAOdpvYk",
-          "title": "Lacuna Coil live in Fort Lauderdale, 2026",
-          "publishedAt": "2026-07-05T05:10:33Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/c9EMAOdpvYk/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/c9EMAOdpvYk/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/c9EMAOdpvYk/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/c9EMAOdpvYk/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/c9EMAOdpvYk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT3M45S",
-          "durationSeconds": 225
         }
       ],
       "recentShorts": [
