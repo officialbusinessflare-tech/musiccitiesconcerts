@@ -1,0 +1,162 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import type { ConcertsDataFile, ConcertEntry } from '../lib/types';
+
+import concertsData from '../../concerts.json';
+
+/**
+ * /watching — Bands We're Watching. The band equivalent of /venues.
+ *
+ * CURATION: edit the `watching` array below. Each band is a rich card grouped
+ * by scene, with a one-line why and its next show pulled live from
+ * concerts.json (matched on `match`). Add new bands here as we pick them up;
+ * grouping falls out of the `scene` field automatically.
+ */
+
+type WatchBand = {
+  name: string;
+  scene: string;          // section grouping + pill label
+  why: string;
+  // Substring matched against the entry name in concerts.json (case-insensitive)
+  match: string;
+};
+
+const watching: WatchBand[] = [
+  // ---- Japanese / Asian metal ----
+  { name: 'LOVEBITES', scene: 'Japanese Metal', match: 'lovebites',
+    why: "Japanese power metal at the top of the form. Twin-guitar precision, operatic range — the band the whole watch list orbits." },
+  { name: 'NEMOPHILA', scene: 'Japanese Metal', match: 'nemophila',
+    why: "All-women Japanese metal built for the live room — Mayu's roar over relentless riffing. Ten Fes is theirs." },
+  { name: 'HANABIE.', scene: 'Japanese Metal', match: 'hanabie',
+    why: "Harajuku-core: candy-colored, breakdown-heavy, touring the US non-stop. The gateway drug for the whole scene." },
+  { name: 'BAND-MAID', scene: 'Japanese Metal', match: 'band-maid',
+    why: "Maid-café aesthetic, hard-rock chops that silence the doubters the second Kanami solos." },
+  { name: 'BABYMETAL', scene: 'Japanese Metal', match: 'babymetal',
+    why: "The ones who kicked the door in. Kawaii metal as a global stadium act; still the reference point." },
+  { name: 'Rolling Quartz', scene: 'Japanese Metal', match: 'rolling quartz',
+    why: "Korean hard-rock five-piece crisscrossing North America on the MY TURN tour. Loud, tight, relentless." },
+  { name: 'Broken By The Scream', scene: 'Japanese Metal', match: 'broken by the scream',
+    why: "Metal-screaming idol act, Metal Blade signees, Wacken alumni. Caught live at The Dome with a meet and greet." },
+  { name: 'Fathomless Skywalker', scene: 'Japanese Metal', match: 'fathomless skywalker',
+    why: "Tokyo symphonic metalcore led by classically-trained Chihiro. 'Pirates of the Fathomless Sea' hit #4 on Japan iTunes Metal." },
+  { name: 'SiM', scene: 'Japanese Metal', match: 'sim',
+    why: "Japanese reggae-metalcore heavyweights on the HOOMAN AFTER ALL world tour. The heaviest groove on the list." },
+  { name: 'FATE GEAR', scene: 'Japanese Metal', match: 'fate gear',
+    why: "All-women steampunk / gothic power metal. The Frozen Abyss tour took them to Europe for the first time." },
+
+  // ---- Florida metal scene ----
+  { name: 'Open Nerve', scene: 'Florida Metal', match: 'open nerve',
+    why: "Miami nu-metal / post-hardcore four-piece. Faith No More + Deftones + Glassjaw DNA; a Las Rosas headliner." },
+  { name: 'Ramtha', scene: 'Florida Metal', match: 'ramtha',
+    why: "Tampa thrash/death — friends of the channel, always on the Florida DIY bills worth driving for." },
+  { name: 'Mind Virus', scene: 'Florida Metal', match: 'mind virus',
+    why: "Florida underground metal, Big Ear Booking regulars. The Summer Weekender run put them on our radar." },
+];
+
+const data = concertsData as ConcertsDataFile;
+const today = new Date().toISOString().slice(0, 10);
+
+const upcoming: ConcertEntry[] = (data.entries ?? []).filter((e) => {
+  const compareDate = e.endDate ?? e.date;
+  return compareDate >= today;
+});
+
+function nextShows(matchStr: string): ConcertEntry[] {
+  const needle = matchStr.toLowerCase();
+  return upcoming
+    .filter((e) => (e.name ?? '').toLowerCase().includes(needle))
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .slice(0, 2);
+}
+
+function formatShowDate(iso: string): string {
+  const [y, m, d] = iso.split('-').map((n) => parseInt(n, 10));
+  const dt = new Date(Date.UTC(y, m - 1, d));
+  return dt.toLocaleDateString('en-US', {
+    weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC',
+  });
+}
+
+// Group by scene, preserving first-seen order.
+const scenes: string[] = [];
+for (const b of watching) if (!scenes.includes(b.scene)) scenes.push(b.scene);
+const grouped = scenes.map((scene) => ({
+  scene,
+  bands: watching.filter((b) => b.scene === scene).map((b) => ({ ...b, shows: nextShows(b.match) })),
+}));
+---
+
+<BaseLayout
+  title="Bands We're Watching | The Music Cities"
+  description="The bands on our watch list — the artists we track, cover, and drive to see. The band equivalent of our go-to venues."
+>
+  <Header />
+
+  <section class="venues-hero">
+    <div class="container">
+      <p class="venues-hero__eyebrow">The Roster</p>
+      <h1 class="venues-hero__title">Bands We're <em>Watching</em></h1>
+      <p class="venues-hero__lede">
+        The artists we track, cover, and drive to see. When one of these names shows up on a
+        flyer, it earns a spot on the calendar. The band equivalent of our go-to venues.
+      </p>
+    </div>
+  </section>
+
+  <main class="venues-main">
+    <div class="container">
+      {grouped.map((group) => (
+        <section class="watching-scene">
+          <h2 class="venues-hero__eyebrow watching-scene__title">{group.scene}</h2>
+          <div class="venues-grid">
+            {group.bands.map((band) => (
+              <article class="venues-card">
+                <header class="venues-card__head">
+                  <p class="venues-card__city">{band.scene}</p>
+                  <h2 class="venues-card__venue">{band.name}</h2>
+                </header>
+
+                <p class="venues-card__why">{band.why}</p>
+
+                <section class="venues-card__shows">
+                  <h3 class="venues-card__shows-title">Next show</h3>
+                  {band.shows.length === 0 ? (
+                    <p class="venues-card__empty">Nothing on our calendar right now — we're watching.</p>
+                  ) : (
+                    <ul class="venues-card__show-list">
+                      {band.shows.map((s) => (
+                        <li class="venues-card__show">
+                          <span class="venues-card__show-date">{formatShowDate(s.date)}</span>
+                          <span class="venues-card__show-name">
+                            {s.ticketUrl ? (
+                              <a href={s.ticketUrl} rel="noopener noreferrer">{s.name}</a>
+                            ) : (
+                              s.name
+                            )}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </section>
+              </article>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style is:global>
+  .watching-scene { margin-bottom: var(--space-8, 3rem); }
+  .watching-scene__title {
+    margin: 0 0 var(--space-4, 1.5rem);
+    font-size: 1.1rem;
+    letter-spacing: 0.12em;
+  }
+</style>
