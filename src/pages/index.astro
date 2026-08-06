@@ -127,18 +127,25 @@ const teasers = [...bucketTeasers, birthdaysTeaser, venuesTeaser];
 
 const fieldTrips = [
   {
+    id: 'louder-than-life',
+    href: '/louder-than-life',
+    titleHtml: 'Louder Than Life <em>2026</em> — Thursday',
+    sub: "Thursday 17 September 2026 · Louisville · Iron Maiden headlines, Pantera's only US show of the year, Megadeth's farewell — our tier-coded Thursday brief",
+    cta: 'View the brief →',
+  },
+  {
     id: 'wacken',
     href: '/wacken',
     titleHtml: 'Wacken <em>2026</em> — 35th Anniversary Pilgrimage',
-    sub: "Wednesday 29 July — Saturday 1 August 2026 · 4 days, ~140 bands, four headliners, our tier-coded schedule + conflict picks",
-    cta: 'View the brief →',
+    sub: "Recap · 29 July — 1 August 2026 · Four days, four headliners, our Music Cities Challenge — the brief we ran it on. Trip photos and video rolling in.",
+    cta: 'Revisit the brief →',
   },
   {
     id: 'london',
     href: '/london',
     titleHtml: 'Metal <em>London</em> — A NWOBHM Pilgrimage',
-    sub: "Sunday 2 — Tuesday 4 August 2026 · Lovebites @ O2 Academy Islington + the city's metal stops",
-    cta: 'View the trip plan →',
+    sub: "Recap · 2 — 4 August 2026 · Broken By The Scream at The Dome, Lovebites at O2 Academy Islington. Content from the trip rolling in.",
+    cta: 'Revisit the plan →',
   },
 ];
 
@@ -191,7 +198,7 @@ const lastUpdated = data.generatedAt
     <div class="container">
       <header class="field-trips__header">
         <span class="field-trips__eyebrow">Field Trips</span>
-        <p class="field-trips__sub">Where we're actually going. The 2026 post-Wacken arc — four days of Wacken, then Broken By The Scream Sunday and Lovebites Monday in London.</p>
+        <p class="field-trips__sub">Where we go, and where we've been. Next up: Louder Than Life Thursday in Louisville. Below it, the Wacken and London briefs from this summer's run — now filling with photos and video from the trip.</p>
       </header>
       <div class="field-trips__stack">
         {fieldTrips.map((trip) => (
