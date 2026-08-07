@@ -117,6 +117,7 @@ function formatShowDate(iso: string): string {
 // Group by scene, preserving first-seen order.
 const scenes: string[] = [];
 for (const b of watching) if (!scenes.includes(b.scene)) scenes.push(b.scene);
+scenes.sort((a, b) => (a === 'Japanese Metal' ? 1 : 0) - (b === 'Japanese Metal' ? 1 : 0)); // Japanese Metal renders last
 const grouped = scenes.map((scene) => ({
   scene,
   bands: watching.filter((b) => b.scene === scene).map((b) => ({ ...b, shows: nextShows(b.match) })),
