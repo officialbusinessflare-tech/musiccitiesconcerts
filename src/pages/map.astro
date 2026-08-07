@@ -118,7 +118,7 @@ const counts = {
         if (typeof L === 'undefined') { setTimeout(start, 100); return; }
         var el = document.getElementById('show-map');
         if (!el) return;
-        var map = L.map(el, { worldCopyJump: true, scrollWheelZoom: false }).setView([30, -30], 2);
+        var map = L.map(el, { worldCopyJump: true, scrollWheelZoom: true }).setView([30, -30], 2);
         L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
           attribution: '&copy; OpenStreetMap &copy; CARTO', subdomains: 'abcd', maxZoom: 19,
         }).addTo(map);
