@@ -199,6 +199,9 @@ export function parseTaskName(name, knownVenues = new Set()) {
                   }
         }
 
+  const inlineVenue = headlineSegment.match(/^(.+?)\s+(?:@|at|with)\s+(.+)$/i);
+  if (inlineVenue) { headlineSegment = inlineVenue[1].trim(); venuePart = venuePart ? `${inlineVenue[2].trim()}, ${venuePart}` : inlineVenue[2].trim(); }
+
   let bands = parseBandsFromHeadline(headlineSegment, isRelease);
         let loc = parseVenueLocation(venuePart);
 
@@ -284,20 +287,30 @@ function parseVenueLocation(venuePart) {
         return { venue, city, country: last };
 }
 
+const _MONTHS = { jan:'01', feb:'02', mar:'03', apr:'04', may:'05', jun:'06', jul:'07', aug:'08', sep:'09', oct:'10', nov:'11', dec:'12' };
+function stripTrailingDate(name) {
+  const m = name.match(/\s*[\u2014\u2013-]\s*([A-Za-z]{3,})\.?\s+(\d{1,2}),?\s+(\d{4})\s*$/);
+  if (!m) return { cleanName: name, titleDate: null };
+  const mm = _MONTHS[m[1].slice(0,3).toLowerCase()];
+  if (!mm) return { cleanName: name, titleDate: null };
+  const dd = String(m[2]).padStart(2,'0');
+  return { cleanName: name.slice(0, m.index).trim(), titleDate: `${m[3]}-${mm}-${dd}` };
+}
+
 export function taskToEntry(task, opts = {}) {
         if (!task) return null;
         const name = (task.name || '').trim();
         if (!name) return null;
         if (shouldSkipName(name)) return null;
 
-  const date = tsToIsoDate(task.due_date);
+  const { cleanName, titleDate } = stripTrailingDate(name); const date = tsToIsoDate(task.due_date) || titleDate;
         if (!date) return null;
 
   const today = todayIso();
         if (date < today) return null;
 
   const isRelease = name.startsWith('📀');
-        const { bands, venue, city, state, country } = parseTaskName(name, opts.knownVenues);
+        const { bands, venue, city, state, country } = parseTaskName(cleanName, opts.knownVenues);
 
   const rawDescription = task.markdown_description || task.description || '';
         const cleaned = stripMarkdown(rawDescription);
