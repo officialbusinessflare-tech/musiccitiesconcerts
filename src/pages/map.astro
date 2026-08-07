@@ -1,0 +1,162 @@
+---
+/**
+ * /map — interactive world map of every upcoming show, colored by scene.
+ * Geocoded from a hand-authored city table so pins land accurately regardless
+ * of how the ClickUp title parsed. Leaflet + CartoDB dark tiles.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import concertsData from '../../concerts.json';
+
+const COORDS: Record<string, [number, number]> = {
+  // Florida
+  'miami beach': [25.79, -80.13], 'miami': [25.7617, -80.1918], 'tampa': [27.9506, -82.4572],
+  'st. petersburg': [27.7676, -82.6403], 'st petersburg': [27.7676, -82.6403], 'winter park': [28.6, -81.3392],
+  'orlando': [28.5383, -81.3792], 'fort lauderdale': [26.1224, -80.1373], 'hollywood': [26.0112, -80.1495],
+  'west palm beach': [26.7153, -80.0534], 'lake worth': [26.6168, -80.0684], 'daytona beach': [29.2108, -81.0228],
+  'sanford': [28.8003, -81.2731], 'fort pierce': [27.4467, -80.3256], 'jacksonville': [30.3322, -81.6557],
+  'coral springs': [26.2712, -80.2706], 'tallahassee': [30.4383, -84.2807], 'gainesville': [29.6516, -82.3248],
+  'pinellas park': [27.8428, -82.6995], 'rockledge': [28.3225, -80.7256], 'melbourne': [28.0836, -80.6081],
+  'bradenton': [27.4989, -82.5748], 'lake buena vista': [28.385, -81.563], 'lakeland': [28.0395, -81.9498],
+  // US
+  'new york': [40.7128, -74.006], 'boston': [42.3601, -71.0589], 'philadelphia': [39.9526, -75.1652],
+  'washington': [38.9072, -77.0369], 'charlotte': [35.2271, -80.8431], 'raleigh': [35.7796, -78.6382],
+  'alpharetta': [34.0754, -84.2941], 'atlanta': [33.749, -84.388], 'savannah': [32.0809, -81.0912],
+  'chicago': [41.8781, -87.6298], 'detroit': [42.3314, -83.0458], 'cincinnati': [39.1031, -84.512],
+  'columbus': [39.9612, -82.9988], 'indianapolis': [39.7684, -86.1581], 'noblesville': [40.0456, -86.0086],
+  'clarkston': [42.7359, -83.4188], 'nashville': [36.1627, -86.7816], 'knoxville': [35.9606, -83.9207],
+  'minneapolis': [44.9778, -93.265], 'madison': [43.0731, -89.4012], 'maryland heights': [38.7131, -90.4298],
+  'dallas': [32.7767, -96.797], 'fort worth': [32.7555, -97.3308], 'houston': [29.7604, -95.3698],
+  'san antonio': [29.4241, -98.4936], 'austin': [30.2672, -97.7431], 'the woodlands': [30.1658, -95.4613],
+  'oklahoma city': [35.4676, -97.5164], 'denver': [39.7392, -104.9903], 'albuquerque': [35.0844, -106.6504],
+  'salt lake city': [40.7608, -111.891], 'mesa': [33.4152, -111.8315], 'phoenix': [33.4484, -112.074],
+  'las vegas': [36.1699, -115.1398], 'los angeles': [34.0522, -118.2437], 'west hollywood': [34.09, -118.3617],
+  'san diego': [32.7157, -117.1611], 'oakland': [37.8044, -122.2712], 'sacramento': [38.5816, -121.4944],
+  'seattle': [47.6062, -122.3321], 'portland': [45.5152, -122.6784], 'louisville': [38.2527, -85.7585],
+  'hamden': [41.3959, -72.8968], 'bristow': [38.7196, -77.5347], 'holmdel': [40.3665, -74.1735],
+  'mansfield': [42.0334, -71.2181],
+  // Canada / Mexico / LatAm
+  'toronto': [43.6532, -79.3832], 'montreal': [45.5017, -73.5673], 'quebec city': [46.8139, -71.208],
+  'vancouver': [49.2827, -123.1207], 'mexico city': [19.4326, -99.1332], 'sao paulo': [-23.5505, -46.6333],
+  'buenos aires': [-34.6037, -58.3816], 'santiago': [-33.4489, -70.6693], 'lima': [-12.0464, -77.0428],
+  // Japan
+  'tokyo': [35.6762, 139.6503], 'osaka': [34.6937, 135.5023], 'nagoya': [35.1815, 136.9066],
+  'sapporo': [43.0618, 141.3545], 'fukuoka': [33.5904, 130.4017], 'sendai': [38.2682, 140.8694],
+  'hiroshima': [34.3853, 132.4553], 'yokohama': [35.4437, 139.638], 'kanazawa': [36.5613, 136.6562],
+  'niigata': [37.9161, 139.0364], 'chiba': [35.6074, 140.1065], 'kobe': [34.6901, 135.1955],
+  'kawasaki': [35.5308, 139.7029], 'kashiwa': [35.8676, 139.9758], 'tomakomai': [42.6341, 141.6055],
+  'kagoshima': [31.5966, 130.5571], 'morioka': [39.7036, 141.1527], 'koriyama': [37.4006, 140.3597],
+  'mito': [36.3418, 140.4468], 'gifu': [35.4233, 136.7606], 'kochi': [33.5597, 133.5311],
+  'hamamatsu': [34.7108, 137.7261], 'yamaguchi': [34.1785, 131.4737], 'tachikawa': [35.7139, 139.4079],
+  'ina': [35.827, 137.954], 'taipei': [25.033, 121.5654],
+  // Europe
+  'london': [51.5074, -0.1278], 'manchester': [53.4808, -2.2426], 'prague': [50.0755, 14.4378],
+  'krakow': [50.0647, 19.945], 'warsaw': [52.2297, 21.0122], 'berlin': [52.52, 13.405],
+  'munich': [48.1351, 11.582], 'frankfurt': [50.1109, 8.6821], 'cologne': [50.9375, 6.9603],
+  'utrecht': [52.0907, 5.1214], 'budapest': [47.4979, 19.0402], 'vienna': [48.2082, 16.3738],
+  'milan': [45.4642, 9.19], 'lucerne': [47.0502, 8.3093], 'luzern': [47.0502, 8.3093], 'paris': [48.8566, 2.3522],
+};
+const KEYS = Object.keys(COORDS).sort((a, b) => b.length - a.length);
+
+const today = new Date().toISOString().slice(0, 10);
+const upcoming = (concertsData.entries ?? []).filter(
+  (e: any) => !e.isRelease && (e.endDate ?? e.date ?? '') >= today,
+);
+function bucketOf(e: any): string {
+  const b = e.buckets ?? [];
+  if (b.includes('florida-metal-scene')) return 'florida';
+  if (b.includes('japanese-metal')) return 'japanese';
+  return 'global';
+}
+function fmt(iso: string): string {
+  const [y, m, d] = iso.split('-').map((n) => parseInt(n, 10));
+  return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+}
+const markers = upcoming.map((e: any) => {
+  const hay = `${e.city ?? ''} ${e.venue ?? ''} ${e.name ?? ''}`.toLowerCase();
+  const key = KEYS.find((k) => hay.includes(k));
+  if (!key) return null;
+  const [lat, lng] = COORDS[key];
+  const band = (e.bands ?? []).filter(Boolean).join(' / ') || (e.name ?? '');
+  return { lat, lng, band, venue: e.venue ?? '', date: fmt(e.date), bucket: bucketOf(e), ticket: e.ticketUrl ?? '' };
+}).filter(Boolean);
+const counts = {
+  all: markers.length,
+  florida: markers.filter((m: any) => m.bucket === 'florida').length,
+  japanese: markers.filter((m: any) => m.bucket === 'japanese').length,
+  global: markers.filter((m: any) => m.bucket === 'global').length,
+};
+---
+
+<BaseLayout title="Show Map | The Music Cities" description="Every upcoming show on the watch list, plotted on a world map — Florida, Japan, and the global tours, color-coded by scene.">
+  <Header />
+  <section class="dash-hero">
+    <div class="container">
+      <p class="dash-hero__eyebrow">Explore the scene</p>
+      <h1 class="dash-hero__title">The Show <em>Map</em></h1>
+      <p class="dash-hero__subtitle">Every upcoming show we're tracking, plotted worldwide and color-coded by scene.</p>
+    </div>
+  </section>
+  <div class="container">
+    <div class="map-filters" role="group" aria-label="Filter by scene">
+      <button class="map-filter is-active" data-scene="all" type="button">All <span>{counts.all}</span></button>
+      <button class="map-filter" data-scene="florida" type="button"><i style="background:#e11d2a"></i>Florida <span>{counts.florida}</span></button>
+      <button class="map-filter" data-scene="japanese" type="button"><i style="background:#ff2d78"></i>Japanese <span>{counts.japanese}</span></button>
+      <button class="map-filter" data-scene="global" type="button"><i style="background:#22d3ee"></i>Global <span>{counts.global}</span></button>
+    </div>
+    <div id="show-map"></div>
+    <p class="dash-footnote">Pins are placed by city; a city with several shows stacks them at one point — click to page through. Dates and venues pull live from the calendar.</p>
+  </div>
+  <Footer />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+  <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin=""></script>
+  <script is:inline define:vars={{ markers }}>
+    (function () {
+      function start() {
+        if (typeof L === 'undefined') { setTimeout(start, 100); return; }
+        var el = document.getElementById('show-map');
+        if (!el) return;
+        var map = L.map(el, { worldCopyJump: true, scrollWheelZoom: false }).setView([30, -30], 2);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+          attribution: '&copy; OpenStreetMap &copy; CARTO', subdomains: 'abcd', maxZoom: 19,
+        }).addTo(map);
+        var colors = { florida: '#e11d2a', japanese: '#ff2d78', global: '#22d3ee' };
+        var groups = { florida: L.layerGroup(), japanese: L.layerGroup(), global: L.layerGroup() };
+        markers.forEach(function (m) {
+          var mk = L.circleMarker([m.lat + (Math.random() - 0.5) * 0.06, m.lng + (Math.random() - 0.5) * 0.06], {
+            radius: 6, color: '#0a0a0a', weight: 1, fillColor: colors[m.bucket] || '#22d3ee', fillOpacity: 0.9,
+          });
+          var t = m.ticket ? '<br><a href="' + m.ticket + '" target="_blank" rel="noopener">Tickets &rsaquo;</a>' : '';
+          mk.bindPopup('<strong>' + m.band + '</strong><br>' + (m.venue ? m.venue + '<br>' : '') + m.date + t);
+          mk.addTo(groups[m.bucket] || groups.global);
+        });
+        Object.keys(groups).forEach(function (k) { groups[k].addTo(map); });
+        document.querySelectorAll('.map-filter').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            document.querySelectorAll('.map-filter').forEach(function (b) { b.classList.remove('is-active'); });
+            btn.classList.add('is-active');
+            var scene = btn.getAttribute('data-scene');
+            Object.keys(groups).forEach(function (k) {
+              if (scene === 'all' || scene === k) { if (!map.hasLayer(groups[k])) groups[k].addTo(map); }
+              else { map.removeLayer(groups[k]); }
+            });
+          });
+        });
+      }
+      start();
+    })();
+  </script>
+
+  <style is:global>
+    #show-map { height: 68vh; min-height: 460px; width: 100%; border-radius: 12px; border: 1px solid rgba(255,255,255,0.12); margin: 0.5rem 0 0.75rem; }
+    .map-filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0 0.75rem; }
+    .map-filter { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.45rem 0.9rem; border-radius: 999px; border: 1px solid rgba(255,255,255,0.18); background: transparent; color: inherit; font-size: 0.85rem; cursor: pointer; }
+    .map-filter i { width: 0.6rem; height: 0.6rem; border-radius: 50%; display: inline-block; }
+    .map-filter span { opacity: 0.6; font-variant-numeric: tabular-nums; }
+    .map-filter.is-active { background: #e11d2a; border-color: #e11d2a; color: #fff; }
+    .map-filter.is-active span { opacity: 0.85; }
+    .leaflet-popup-content { font-size: 0.85rem; line-height: 1.35; }
+  </style>
+</BaseLayout>
