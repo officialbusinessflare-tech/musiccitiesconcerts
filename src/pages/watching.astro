@@ -21,15 +21,16 @@ type WatchBand = {
   why: string;
   // Substring matched against the entry name in concerts.json (case-insensitive)
   match: string;
+  photos?: string;   // Pinterest board URL
 };
 
 const watching: WatchBand[] = [
   // ---- Japanese / Asian metal ----
-  { name: 'LOVEBITES', scene: 'Japanese Metal', match: 'lovebites',
+  { name: 'LOVEBITES', scene: 'Japanese Metal', match: 'lovebites', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/lovebites-wacken/',
     why: "Japanese power metal at the top of the form. Twin-guitar precision, operatic range — the band the whole watch list orbits." },
   { name: 'NEMOPHILA', scene: 'Japanese Metal', match: 'nemophila',
     why: "All-women Japanese metal built for the live room — Mayu's roar over relentless riffing. Ten Fes is theirs." },
-  { name: 'HANABIE.', scene: 'Japanese Metal', match: 'hanabie',
+  { name: 'HANABIE.', scene: 'Japanese Metal', match: 'hanabie', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/hanabie-orlando-2026/',
     why: "Harajuku-core: candy-colored, breakdown-heavy, touring the US non-stop. The gateway drug for the whole scene." },
   { name: 'BAND-MAID', scene: 'Japanese Metal', match: 'band-maid',
     why: "Maid-café aesthetic, hard-rock chops that silence the doubters the second Kanami solos." },
@@ -37,7 +38,7 @@ const watching: WatchBand[] = [
     why: "The ones who kicked the door in. Kawaii metal as a global stadium act; still the reference point." },
   { name: 'Rolling Quartz', scene: 'Japanese Metal', match: 'rolling quartz',
     why: "Korean hard-rock five-piece crisscrossing North America on the MY TURN tour. Loud, tight, relentless." },
-  { name: 'Broken By The Scream', scene: 'Japanese Metal', match: 'broken by the scream',
+  { name: 'Broken By The Scream', scene: 'Japanese Metal', match: 'broken by the scream', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/broken-by-the-scream-wacken-2026/',
     why: "Metal-screaming idol act, Metal Blade signees, Wacken alumni. Caught live at The Dome with a meet and greet." },
   { name: 'Fathomless Skywalker', scene: 'Japanese Metal', match: 'fathomless skywalker',
     why: "Tokyo symphonic metalcore led by classically-trained Chihiro. 'Pirates of the Fathomless Sea' hit #4 on Japan iTunes Metal." },
@@ -47,7 +48,7 @@ const watching: WatchBand[] = [
     why: "All-women steampunk / gothic power metal. The Frozen Abyss tour took them to Europe for the first time." },
 
   // ---- Florida metal scene ----
-  { name: 'Open Nerve', scene: 'Florida Metal', match: 'open nerve',
+  { name: 'Open Nerve', scene: 'Florida Metal', match: 'open nerve', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/buried-alive-festival-las-rosas-miami/',
     why: "Miami nu-metal / post-hardcore four-piece. Faith No More + Deftones + Glassjaw DNA; a Las Rosas headliner." },
   { name: 'Ramtha', scene: 'Florida Metal', match: 'ramtha',
     why: "Tampa thrash/death — friends of the channel, always on the Florida DIY bills worth driving for." },
@@ -153,6 +154,7 @@ const grouped = scenes.map((scene) => ({
                 </header>
 
                 <p class="venues-card__why">{band.why}</p>
+                {band.photos ? <a class="venues-card__photos" href={band.photos} target="_blank" rel="noopener noreferrer">⭐ Photos from the pit ›</a> : null}
 
                 <section class="venues-card__shows">
                   <h3 class="venues-card__shows-title">Next show</h3>
@@ -187,6 +189,8 @@ const grouped = scenes.map((scene) => ({
 </BaseLayout>
 
 <style is:global>
+  .venues-card__photos { display:inline-block; margin:0 0 0.9rem; font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:#e11d2a; text-decoration:none; border-bottom:1px solid transparent; }
+  .venues-card__photos:hover { border-bottom-color:currentColor; }
   .watching-scene { margin-bottom: var(--space-8, 3rem); }
   .watching-scene__title {
     margin: 0 0 var(--space-4, 1.5rem);
