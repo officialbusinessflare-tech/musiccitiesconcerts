@@ -1,0 +1,95 @@
+---
+/**
+ * /photos — Photo Albums index. Every Pinterest board/section we shoot,
+ * grouped by event. Extend the `groups` array as new boards get added.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const P = 'https://www.pinterest.com/TheMusicCitiesPodcast/';
+type Album = { title: string; pins?: string; url: string };
+type Group = { event: string; note?: string; albums: Album[] };
+
+const groups: Group[] = [
+  {
+    event: 'Wacken Open Air 2026',
+    note: 'Germany · our Music Cities Challenge trip',
+    albums: [
+      { title: 'Broken By The Scream', pins: '71 pins', url: P + 'broken-by-the-scream-wacken-2026/' },
+      { title: 'LOVEBITES', pins: '43 pins', url: P + 'lovebites-wacken/' },
+    ],
+  },
+  {
+    event: 'Buried Alive Festival — Las Rosas, Miami',
+    note: 'The Miami DIY bill, band by band',
+    albums: [
+      { title: 'Open Nerve', url: P + 'buried-alive-festival-las-rosas-miami/open-nerve/' },
+      { title: 'We All Rise', url: P + 'buried-alive-festival-las-rosas-miami/we-all-rise/' },
+      { title: 'Medic', url: P + 'buried-alive-festival-las-rosas-miami/medic/' },
+      { title: 'God Kings', url: P + 'buried-alive-festival-las-rosas-miami/god-kings/' },
+      { title: 'Modern Mimes', url: P + 'buried-alive-festival-las-rosas-miami/modern-mimes/' },
+      { title: 'Full festival board', pins: '56 pins', url: P + 'buried-alive-festival-las-rosas-miami/' },
+    ],
+  },
+  {
+    event: 'HANABIE. — Orlando 2026',
+    albums: [
+      { title: 'HANABIE. in Orlando', pins: '104 pins', url: P + 'hanabie-orlando-2026/' },
+    ],
+  },
+  {
+    event: 'Miami Super Summer Jam',
+    albums: [
+      { title: 'Miami Super Summer Jam', pins: '8 pins', url: P + 'miami-super-summer-jam/' },
+    ],
+  },
+];
+---
+
+<BaseLayout title="Photo Albums | The Music Cities" description="Every photo album we shoot — Wacken, the Miami DIY scene, HANABIE. in Orlando and more — on our Pinterest, organized by event and band.">
+  <Header />
+  <section class="venues-hero">
+    <div class="container">
+      <p class="venues-hero__eyebrow">From the pit</p>
+      <h1 class="venues-hero__title">Photo <em>Albums</em></h1>
+      <p class="venues-hero__lede">
+        Every set we shoot, organized by event and band, on our Pinterest. New boards from Wacken,
+        London, and the Miami scene land here as we post them.
+      </p>
+    </div>
+  </section>
+
+  <main class="venues-main">
+    <div class="container">
+      {groups.map((g) => (
+        <section class="photos-group">
+          <h2 class="venues-hero__eyebrow photos-group__title">{g.event}</h2>
+          {g.note ? <p class="photos-group__note">{g.note}</p> : null}
+          <div class="photos-grid">
+            {g.albums.map((a) => (
+              <a class="photos-card" href={a.url} target="_blank" rel="noopener noreferrer">
+                <span class="photos-card__title">{a.title}</span>
+                {a.pins ? <span class="photos-card__pins">{a.pins} ›</span> : <span class="photos-card__pins">View ›</span>}
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
+      <p class="dash-footnote" style="margin-top:1.5rem;">All albums live on <a href="https://www.pinterest.com/TheMusicCitiesPodcast/" target="_blank" rel="noopener noreferrer">our Pinterest</a>.</p>
+    </div>
+  </main>
+
+  <Footer />
+
+  <style is:global>
+    .photos-group { margin-bottom: 2.25rem; }
+    .photos-group__title { margin: 0 0 0.25rem; font-size: 1.05rem; letter-spacing: 0.1em; }
+    .photos-group__note { margin: 0 0 0.9rem; opacity: 0.6; font-size: 0.85rem; }
+    .photos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem; }
+    .photos-card { display: flex; flex-direction: column; gap: 0.3rem; padding: 1rem 1.1rem; border: 1px solid rgba(255,255,255,0.13); border-radius: 10px; text-decoration: none; color: inherit; transition: border-color 0.15s, transform 0.15s; }
+    .photos-card:hover { border-color: #e11d2a; transform: translateY(-2px); }
+    .photos-card__title { font-weight: 600; }
+    .photos-card__pins { font-size: 0.78rem; letter-spacing: 0.06em; color: #e11d2a; }
+  </style>
+</BaseLayout>
