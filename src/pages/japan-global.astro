@@ -34,6 +34,7 @@ const bandDefs: BandDef[] = [
   { id: 'bt-babymetal', name: 'BABYMETAL', matchNames: ['BABYMETAL'], meta: 'Kawaii Metal · World Tour 2026 · 15th Anniversary · Curating Summer Sonic Metal Stage', countKind: 'pink' },
   { id: 'bt-hanabie', name: 'HANABIE.', matchNames: ['HANABIE.', 'HANABIE', 'Hanabie'], meta: 'Nu-Metal / Metalcore · North America + Japan tours', countKind: 'cyan' },
   { id: 'bt-metalverse', name: 'METALVERSE', matchNames: ['METALVERSE'], meta: 'Kawaii Metal · BABYMETAL universe · "GARDEN OF EDEN" solo show', countKind: 'gold', note: 'METALVERSE likely to appear at Summer Sonic\'s SONIC METAL STAGE (Aug 14-16) curated by BABYMETAL.' },
+  { id: 'bt-bbts', name: 'BROKEN BY THE SCREAM', matchNames: ['BROKEN BY THE SCREAM', 'Broken By The Scream', 'Broken by the Scream'], meta: 'Metal-scream idol act · Metal Blade · Wacken alumni · Japan + Europe legs', countKind: 'cyan' },
   { id: 'bt-nemophila', name: 'NEMOPHILA', matchNames: ['NEMOPHILA', 'Nemophila'], meta: 'Heavy Metal · "MY TURN" NA tour + Japan festivals', countKind: 'green' },
   { id: 'bt-zilqy', name: 'ZILQY', matchNames: ['ZILQY', 'Zilqy'], meta: 'Heavy Metal Supergroup · "Rise to Liberation" Tour · SOLD OUT', countKind: 'gold', note: 'First full-length album expected Fall 2026 — likely to trigger more tour dates.' },
   { id: 'bt-rq', name: 'ROLLING QUARTZ', matchNames: ['ROLLING QUARTZ', 'Rolling Quartz', '✅ Rolling Quartz'], meta: 'Korean Rock/Metal · "MY TURN" NA + EU Tour', countKind: 'cyan', note: 'Korean-based, no Japan or Asia dates confirmed. A Seoul side-trip from Japan is ~2.5 hrs by air.' },
@@ -65,10 +66,12 @@ function classifyRegion(e: ConcertEntry): Region {
   const state = (e.state || '').toUpperCase();
   if (NA_STATES.has(state) || CA_PROVS.has(state) || MX_STATES.has(state)) return 'na';
   const haystack = `${e.venue || ''} ${e.city || ''} ${e.state || ''} ${e.country || ''} ${e.name || ''} ${e.description || ''}`.toLowerCase();
+  const NA_COUNTRIES = ['canada','mexico','brazil','argentina','chile','peru','colombia'];
+  for (const kw of NA_COUNTRIES) { if (haystack.includes(kw)) return 'na'; }
   for (const kw of EU_KEYWORDS) { if (haystack.includes(kw.toLowerCase())) return 'eu'; }
   for (const kw of OCEANIA_KEYWORDS) { if (haystack.includes(kw.toLowerCase())) return 'oceania'; }
   for (const kw of ASIA_KEYWORDS) { if (haystack.includes(kw.toLowerCase())) return 'asia'; }
-  return 'japan'; // default — most J-bucket entries without other markers are JP
+  return 'na'; // default — most J-bucket entries without other markers are JP
 }
 
 function isVisible(e: ConcertEntry): boolean {
@@ -112,7 +115,7 @@ type Band = BandDef & { regions: BandRegionBlock[]; totalCount: number };
 
 const regionLabels: Record<Region, string> = {
   japan: 'JAPAN',
-  na: 'NORTH AMERICA',
+  na: 'AMERICAS',
   eu: 'EUROPE',
   asia: 'ASIA',
   oceania: 'AUSTRALIA / OCEANIA',
