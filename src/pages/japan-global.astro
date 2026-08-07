@@ -57,7 +57,7 @@ const allEntries: ConcertEntry[] = (concertsData as ConcertsDataFile).entries ??
 const NA_STATES = new Set(['AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC']);
 const CA_PROVS = new Set(['ON','QC','BC','AB','MB','SK','NS','NB','NL','PE','YT','NT','NU']);
 const MX_STATES = new Set(['MX']);
-const EU_KEYWORDS = ['UK', 'United Kingdom', 'England', 'London', 'Germany', 'France', 'Italy', 'Spain', 'Netherlands', 'Belgium', 'Sweden', 'Norway', 'Denmark', 'Finland', 'Poland', 'Ireland', 'Scotland', 'Wacken', 'Berlin', 'Paris', 'Munich', 'Frankfurt', 'Amsterdam', 'Cologne', 'Warsaw', 'Donington', 'Solvesborg', 'Solves', 'Oslo', 'Copenhagen', 'Dessel', 'Leipzig', 'Stockholm', 'Helsinki', 'Vienna', 'Zurich', 'Brussels', 'Lisbon', 'Madrid', 'Barcelona', 'Dublin'];
+const EU_KEYWORDS = ['UK', 'United Kingdom', 'England', 'London', 'Germany', 'France', 'Italy', 'Spain', 'Netherlands', 'Belgium', 'Sweden', 'Norway', 'Denmark', 'Finland', 'Poland', 'Ireland', 'Scotland', 'Wacken', 'Berlin', 'Paris', 'Munich', 'Frankfurt', 'Amsterdam', 'Cologne', 'Warsaw', 'Donington', 'Solvesborg', 'Solves', 'Oslo', 'Copenhagen', 'Dessel', 'Leipzig', 'Stockholm', 'Helsinki', 'Vienna', 'Zurich', 'Brussels', 'Lisbon', 'Madrid', 'Barcelona', 'Dublin', 'Hungary', 'Budapest', 'Austria', 'Czech Republic', 'Czech', 'Prague', 'Switzerland', 'Lucerne', 'Luzern', 'Utrecht', 'Krakow', 'Portugal', 'Greece', 'Romania'];
 const ASIA_KEYWORDS = ['Japan', 'Tokyo', 'Osaka', 'Kyoto', 'Nagoya', 'Sapporo', 'Fukuoka', 'Sendai', 'Hiroshima', 'Yokohama', 'Kanazawa', 'Niigata', 'Kumamoto', 'Saitama', 'Kawasaki', 'Korea', 'Seoul', 'Taiwan', 'Kaohsiung', 'Taipei', 'Hong Kong', 'Malaysia', 'Kuala Lumpur', 'Singapore', 'Thailand', 'Bangkok', 'Philippines', 'Manila', 'Indonesia', 'Jakarta'];
 const OCEANIA_KEYWORDS = ['Australia', 'Melbourne', 'Sydney', 'Brisbane', 'Perth', 'Adelaide', 'New Zealand', 'Auckland', 'Wellington'];
 
@@ -71,7 +71,7 @@ function classifyRegion(e: ConcertEntry): Region {
   for (const kw of EU_KEYWORDS) { if (haystack.includes(kw.toLowerCase())) return 'eu'; }
   for (const kw of OCEANIA_KEYWORDS) { if (haystack.includes(kw.toLowerCase())) return 'oceania'; }
   for (const kw of ASIA_KEYWORDS) { if (haystack.includes(kw.toLowerCase())) return 'asia'; }
-  return 'na'; // default — most J-bucket entries without other markers are JP
+  return 'eu'; // default — abroad + unmatched; Americas/Asia/Oceania caught above
 }
 
 function isVisible(e: ConcertEntry): boolean {
@@ -79,7 +79,9 @@ function isVisible(e: ConcertEntry): boolean {
 }
 
 function isJapanShow(e: ConcertEntry): boolean {
-  return /japan/i.test(`${e.city || ''} ${e.state || ''} ${e.country || ''} ${e.venue || ''} ${e.name || ''} ${e.description || ''}`);
+  const JP_TOKENS = ['japan',' jp','tokyo','osaka','kyoto','nagoya','sapporo','fukuoka','sendai','hiroshima','yokohama','kanazawa','niigata','kumamoto','saitama','kawasaki','chiba','kobe','kashiwa','tomakomai','kagoshima','morioka','koriyama','mito','gifu','kochi','hamamatsu','yamaguchi','tachikawa','musashino','shibuya','shinjuku','meguro','roppongi','budokan','nagano'];
+  const h = `${e.city || ''} ${e.state || ''} ${e.country || ''} ${e.venue || ''} ${e.name || ''} ${e.description || ''}`.toLowerCase();
+  return JP_TOKENS.some((k) => h.includes(k));
 }
 
 function entryMatchesBand(entry: ConcertEntry, matchNames: string[]): boolean {
