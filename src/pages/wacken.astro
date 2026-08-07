@@ -152,6 +152,11 @@ const days: DayBlock[] = [
   },
 ];
 
+const pinterestAlbums: { title: string; pins: string; url: string }[] = [
+  { title: 'LOVEBITES — Wacken', pins: '43 pins', url: 'https://www.pinterest.com/TheMusicCitiesPodcast/lovebites-wacken/' },
+  { title: 'Broken By The Scream — Wacken 2026', pins: '71 pins', url: 'https://www.pinterest.com/TheMusicCitiesPodcast/broken-by-the-scream-wacken-2026/' },
+];
+
 const fullLineup: { name: string; tier?: Tier }[] = [
   { name: 'Def Leppard', tier: 'headliner' }, { name: 'Judas Priest', tier: 'headliner' }, { name: 'Powerwolf', tier: 'headliner' }, { name: 'Sabaton', tier: 'headliner' },
   { name: '5th Avenue' }, { name: '9mm Headshot' }, { name: 'Ad Infinitum' }, { name: 'Airbourne' }, { name: 'Alcest' }, { name: 'Alestorm' }, { name: 'Alfahanne' }, { name: 'Alien Ant Farm' }, { name: 'Alien Rockin Explosion' }, { name: 'Allt' }, { name: 'Anaal Nathrakh' },
@@ -397,6 +402,19 @@ const radioShorts = ytData?.channels?.radio?.recentShorts ?? [];
           <a href="https://wacken.click/woa19iOS" target="_blank" rel="noopener">W:O:A iOS app</a> /
           <a href="https://wacken.click/woa19android" target="_blank" rel="noopener">Android app</a>.
         </p>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Photo Albums</h2>
+        <p class="dash-section__intro">Shots from the pit, on our Pinterest — more boards land as we post them.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.75rem;">
+          {pinterestAlbums.map((a) => (
+            <a href={a.url} target="_blank" rel="noopener noreferrer" style="display:inline-flex;flex-direction:column;gap:0.15rem;padding:0.7rem 1rem;border:1px solid rgba(255,255,255,0.15);border-radius:8px;text-decoration:none;color:inherit;">
+              <span style="font-weight:600;">{a.title}</span>
+              <span style="font-size:0.8rem;color:#e11d2a;letter-spacing:0.06em;">{a.pins} ›</span>
+            </a>
+          ))}
+        </div>
       </section>
 
       <section class="dash-section">
