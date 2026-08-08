@@ -58,6 +58,19 @@ const COORDS: Record<string, [number, number]> = {
   'milan': [45.4642, 9.19], 'lucerne': [47.0502, 8.3093], 'luzern': [47.0502, 8.3093], 'paris': [48.8566, 2.3522],
 };
 const KEYS = Object.keys(COORDS).sort((a, b) => b.length - a.length);
+// Precise per-venue coordinates for known rooms, so different venues in the same
+// city land at their real spots instead of stacking on the city centroid.
+const VENUE_COORDS: Record<string, [number, number]> = {
+  'churchill': [25.8253, -80.1918], 'las rosas': [25.8016, -80.2108], 'kill your idol': [25.7877, -80.1306],
+  'culture room': [26.1622, -80.1199], 'brass mug': [28.0286, -82.4529], 'ritz ybor': [27.9605, -82.4372],
+  'the orpheum': [27.9624, -82.4366], 'jannus': [27.7713, -82.6389], 'ferg': [27.7706, -82.6497],
+  'banyan': [26.7126, -80.0554], 'respectable street': [26.7128, -80.0552], 'skatepark of tampa': [27.986, -82.403],
+  'guadalajara night club': [27.4467, -80.3256], 'west end trading': [28.8106, -81.273],
+  'come and take it': [30.2361, -97.7292], 'whisky': [34.0906, -118.3855], 'brick by brick': [32.7659, -117.1995],
+  'the dome': [51.5637, -0.1385], 'nippon budokan': [35.6933, 139.7497], 'budokan': [35.6933, 139.7497],
+  'ex theater': [35.6607, 139.7365], 'makuhari': [35.6479, 140.0347], 'zepp shinjuku': [35.6931, 139.702],
+};
+const VENUE_KEYS = Object.keys(VENUE_COORDS).sort((a, b) => b.length - a.length);
 const FL_CITIES = new Set([
   'miami beach','miami','tampa','st. petersburg','st petersburg','winter park','orlando',
   'fort lauderdale','hollywood','west palm beach','lake worth','daytona beach','sanford',
@@ -82,12 +95,25 @@ function fmt(iso: string): string {
 const ymOf = (iso: string): number => { const [y, m] = iso.split('-').map((n) => parseInt(n, 10)); return y * 12 + (m - 1); };
 let markers = upcoming.map((e: any) => {
   const hay = `${e.city ?? ''} ${e.venue ?? ''} ${e.name ?? ''}`.toLowerCase();
+  const vhay = `${e.venue ?? ''} ${e.name ?? ''}`.toLowerCase();
+  const vkey = VENUE_KEYS.find((k) => vhay.includes(k));
   const key = KEYS.find((k) => hay.includes(k));
-  if (!key) return null;
-  const [lat, lng] = COORDS[key];
+  let lat: number; let lng: number;
+  if (vkey) { [lat, lng] = VENUE_COORDS[vkey]; }
+  else if (key) { [lat, lng] = COORDS[key]; }
+  else { return null; }
   const band = (e.bands ?? []).filter(Boolean).join(' / ') || (e.name ?? '');
-  return { lat, lng, band, venue: e.venue ?? '', date: fmt(e.date), iso: e.date, ym: ymOf(e.date), bucket: bucketOf(e, key), ticket: e.ticketUrl ?? '' };
+  return { lat, lng, band, venue: e.venue ?? '', date: fmt(e.date), iso: e.date, ym: ymOf(e.date), bucket: bucketOf(e, key || ''), ticket: e.ticketUrl ?? '' };
 }).filter(Boolean) as any[];
+
+// Separate shows that resolve to the exact same point with a small deterministic
+// spiral (a few hundred metres) so overlapping pins stay clickable and in-place.
+const _seen: Record<string, number> = {};
+markers.forEach((m: any) => {
+  const k = m.lat.toFixed(4) + ',' + m.lng.toFixed(4);
+  const i = _seen[k] || 0; _seen[k] = i + 1;
+  if (i > 0) { const ang = i * 2.399963; const r = 0.0028 * Math.sqrt(i); m.lat += r * Math.cos(ang); m.lng += r * Math.sin(ang); }
+});
 
 const minYM = markers.length ? Math.min(...markers.map((m: any) => m.ym)) : 0;
 const maxMonth = markers.length ? Math.max(...markers.map((m: any) => m.ym)) - minYM : 0;
@@ -150,7 +176,7 @@ const counts = {
         var colors = { florida: '#e11d2a', japanese: '#ff2d78', global: '#22d3ee' };
         var shown = L.layerGroup().addTo(map);
         var entries = markers.map(function (m) {
-          var mk = L.circleMarker([m.lat + (Math.random() - 0.5) * 0.06, m.lng + (Math.random() - 0.5) * 0.06], {
+          var mk = L.circleMarker([m.lat, m.lng], {
             radius: 6, color: '#0a0a0a', weight: 1, fillColor: colors[m.bucket] || '#22d3ee', fillOpacity: 0.9,
           });
           var tk = m.ticket ? '<br><a href="' + m.ticket + '" target="_blank" rel="noopener">Tickets &rsaquo;</a>' : '';
