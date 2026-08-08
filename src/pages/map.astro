@@ -58,29 +58,45 @@ const COORDS: Record<string, [number, number]> = {
   'milan': [45.4642, 9.19], 'lucerne': [47.0502, 8.3093], 'luzern': [47.0502, 8.3093], 'paris': [48.8566, 2.3522],
 };
 const KEYS = Object.keys(COORDS).sort((a, b) => b.length - a.length);
+const FL_CITIES = new Set([
+  'miami beach','miami','tampa','st. petersburg','st petersburg','winter park','orlando',
+  'fort lauderdale','hollywood','west palm beach','lake worth','daytona beach','sanford',
+  'fort pierce','jacksonville','coral springs','tallahassee','gainesville','pinellas park',
+  'rockledge','melbourne','bradenton','lake buena vista','lakeland',
+]);
 
 const today = new Date().toISOString().slice(0, 10);
 const upcoming = (concertsData.entries ?? []).filter(
   (e: any) => !e.isRelease && (e.endDate ?? e.date ?? '') >= today,
 );
-function bucketOf(e: any): string {
+function bucketOf(e: any, key: string): string {
   const b = e.buckets ?? [];
-  if (b.includes('florida-metal-scene')) return 'florida';
   if (b.includes('japanese-metal')) return 'japanese';
+  if (FL_CITIES.has(key)) return 'florida';
   return 'global';
 }
 function fmt(iso: string): string {
   const [y, m, d] = iso.split('-').map((n) => parseInt(n, 10));
   return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 }
-const markers = upcoming.map((e: any) => {
+const ymOf = (iso: string): number => { const [y, m] = iso.split('-').map((n) => parseInt(n, 10)); return y * 12 + (m - 1); };
+let markers = upcoming.map((e: any) => {
   const hay = `${e.city ?? ''} ${e.venue ?? ''} ${e.name ?? ''}`.toLowerCase();
   const key = KEYS.find((k) => hay.includes(k));
   if (!key) return null;
   const [lat, lng] = COORDS[key];
   const band = (e.bands ?? []).filter(Boolean).join(' / ') || (e.name ?? '');
-  return { lat, lng, band, venue: e.venue ?? '', date: fmt(e.date), bucket: bucketOf(e), ticket: e.ticketUrl ?? '' };
-}).filter(Boolean);
+  return { lat, lng, band, venue: e.venue ?? '', date: fmt(e.date), iso: e.date, ym: ymOf(e.date), bucket: bucketOf(e, key), ticket: e.ticketUrl ?? '' };
+}).filter(Boolean) as any[];
+
+const minYM = markers.length ? Math.min(...markers.map((m: any) => m.ym)) : 0;
+const maxMonth = markers.length ? Math.max(...markers.map((m: any) => m.ym)) - minYM : 0;
+markers.forEach((m: any) => { m.mi = m.ym - minYM; });
+const monthLabels: string[] = [];
+for (let i = 0; i <= maxMonth; i++) {
+  const tt = minYM + i; const y = Math.floor(tt / 12); const mo = tt % 12;
+  monthLabels.push(new Date(Date.UTC(y, mo, 1)).toLocaleDateString('en-US', { month: 'short', timeZone: 'UTC' }) + " '" + String(y).slice(2));
+}
 const counts = {
   all: markers.length,
   florida: markers.filter((m: any) => m.bucket === 'florida').length,
@@ -105,6 +121,15 @@ const counts = {
       <button class="map-filter" data-scene="japanese" type="button"><i style="background:#ff2d78"></i>Japanese <span>{counts.japanese}</span></button>
       <button class="map-filter" data-scene="global" type="button"><i style="background:#22d3ee"></i>Global <span>{counts.global}</span></button>
     </div>
+    <div class="map-daterange">
+      <div class="map-daterange__label">Showing <strong id="dr-from">{monthLabels[0]}</strong> – <strong id="dr-to">{monthLabels[maxMonth]}</strong> <span id="dr-count"></span></div>
+      <div class="map-daterange__track">
+        <div class="rail"></div>
+        <div class="fill" id="dr-fill"></div>
+        <input type="range" id="dr-min" min="0" max={maxMonth} value="0" step="1" aria-label="Range start month" />
+        <input type="range" id="dr-max" min="0" max={maxMonth} value={maxMonth} step="1" aria-label="Range end month" />
+      </div>
+    </div>
     <div id="show-map"></div>
     <p class="dash-footnote">Pins are placed by city; a city with several shows stacks them at one point — click to page through. Dates and venues pull live from the calendar.</p>
   </div>
@@ -112,7 +137,7 @@ const counts = {
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
   <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <script is:inline define:vars={{ markers }}>
+  <script is:inline define:vars={{ markers, monthLabels, maxMonth }}>
     (function () {
       function start() {
         if (typeof L === 'undefined') { setTimeout(start, 100); return; }
@@ -123,27 +148,53 @@ const counts = {
           attribution: '&copy; OpenStreetMap &copy; CARTO', subdomains: 'abcd', maxZoom: 19,
         }).addTo(map);
         var colors = { florida: '#e11d2a', japanese: '#ff2d78', global: '#22d3ee' };
-        var groups = { florida: L.layerGroup(), japanese: L.layerGroup(), global: L.layerGroup() };
-        markers.forEach(function (m) {
+        var shown = L.layerGroup().addTo(map);
+        var entries = markers.map(function (m) {
           var mk = L.circleMarker([m.lat + (Math.random() - 0.5) * 0.06, m.lng + (Math.random() - 0.5) * 0.06], {
             radius: 6, color: '#0a0a0a', weight: 1, fillColor: colors[m.bucket] || '#22d3ee', fillOpacity: 0.9,
           });
-          var t = m.ticket ? '<br><a href="' + m.ticket + '" target="_blank" rel="noopener">Tickets &rsaquo;</a>' : '';
-          mk.bindPopup('<strong>' + m.band + '</strong><br>' + (m.venue ? m.venue + '<br>' : '') + m.date + t);
-          mk.addTo(groups[m.bucket] || groups.global);
+          var tk = m.ticket ? '<br><a href="' + m.ticket + '" target="_blank" rel="noopener">Tickets &rsaquo;</a>' : '';
+          mk.bindPopup('<strong>' + m.band + '</strong><br>' + (m.venue ? m.venue + '<br>' : '') + m.date + tk);
+          return { mk: mk, bucket: m.bucket, mi: m.mi };
         });
-        Object.keys(groups).forEach(function (k) { groups[k].addTo(map); });
+        var scene = 'all';
+        var minEl = document.getElementById('dr-min');
+        var maxEl = document.getElementById('dr-max');
+        var fromLbl = document.getElementById('dr-from');
+        var toLbl = document.getElementById('dr-to');
+        var cntLbl = document.getElementById('dr-count');
+        var fillEl = document.getElementById('dr-fill');
+        function render() {
+          var lo = Math.min(+minEl.value, +maxEl.value);
+          var hi = Math.max(+minEl.value, +maxEl.value);
+          shown.clearLayers();
+          var n = 0;
+          entries.forEach(function (o) {
+            if (scene !== 'all' && o.bucket !== scene) return;
+            if (o.mi < lo || o.mi > hi) return;
+            o.mk.addTo(shown); n++;
+          });
+          fromLbl.textContent = monthLabels[lo];
+          toLbl.textContent = monthLabels[hi];
+          cntLbl.textContent = '\u00b7 ' + n + ' show' + (n === 1 ? '' : 's');
+          var span = maxMonth || 1;
+          var lp = (lo / span) * 100, wp = ((hi - lo) / span) * 100;
+          fillEl.style.left = lp + '%';
+          fillEl.style.width = wp + '%';
+        }
+        function clampMin() { if (+minEl.value > +maxEl.value) minEl.value = maxEl.value; render(); }
+        function clampMax() { if (+maxEl.value < +minEl.value) maxEl.value = minEl.value; render(); }
+        minEl.addEventListener('input', clampMin);
+        maxEl.addEventListener('input', clampMax);
         document.querySelectorAll('.map-filter').forEach(function (btn) {
           btn.addEventListener('click', function () {
             document.querySelectorAll('.map-filter').forEach(function (b) { b.classList.remove('is-active'); });
             btn.classList.add('is-active');
-            var scene = btn.getAttribute('data-scene');
-            Object.keys(groups).forEach(function (k) {
-              if (scene === 'all' || scene === k) { if (!map.hasLayer(groups[k])) groups[k].addTo(map); }
-              else { map.removeLayer(groups[k]); }
-            });
+            scene = btn.getAttribute('data-scene');
+            render();
           });
         });
+        render();
       }
       start();
     })();
@@ -158,5 +209,17 @@ const counts = {
     .map-filter.is-active { background: #e11d2a; border-color: #e11d2a; color: #fff; }
     .map-filter.is-active span { opacity: 0.85; }
     .leaflet-popup-content { font-size: 0.85rem; line-height: 1.35; }
+    .map-daterange { max-width: 560px; margin: 0 0 1rem; }
+    .map-daterange__label { font-size: 0.85rem; opacity: 0.9; margin-bottom: 0.6rem; font-variant-numeric: tabular-nums; }
+    .map-daterange__label strong { color: #fff; }
+    .map-daterange__label #dr-count { opacity: 0.6; }
+    .map-daterange__track { position: relative; height: 28px; }
+    .map-daterange__track .rail { position: absolute; top: 12px; left: 0; right: 0; height: 4px; border-radius: 2px; background: rgba(255,255,255,0.18); }
+    .map-daterange__track .fill { position: absolute; top: 12px; height: 4px; border-radius: 2px; background: #e11d2a; }
+    .map-daterange input[type=range] { position: absolute; top: 0; left: 0; width: 100%; height: 28px; margin: 0; background: none; pointer-events: none; -webkit-appearance: none; appearance: none; }
+    .map-daterange input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; pointer-events: auto; width: 18px; height: 18px; border-radius: 50%; background: #fff; border: 2px solid #e11d2a; cursor: pointer; }
+    .map-daterange input[type=range]::-moz-range-thumb { pointer-events: auto; width: 18px; height: 18px; border-radius: 50%; background: #fff; border: 2px solid #e11d2a; cursor: pointer; }
+    .map-daterange input[type=range]::-webkit-slider-runnable-track { height: 28px; background: none; border: none; }
+    .map-daterange input[type=range]::-moz-range-track { height: 28px; background: none; border: none; }
   </style>
 </BaseLayout>
