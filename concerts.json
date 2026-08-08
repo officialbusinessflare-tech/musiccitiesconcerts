@@ -1,61 +1,23 @@
 {
-  "generatedAt": "2026-08-07T07:00:36.968Z",
+  "generatedAt": "2026-08-08T07:00:46.070Z",
   "entries": [
     {
-      "id": "86baqzv52",
-      "name": "Frozen Soul + Bodybox + Maul + Eternal @ Churchill's Pub, Miami FL — Aug 7 2026",
-      "date": "2026-08-07",
-      "venue": "Aug 7 2026",
+      "id": "86bbabkyu",
+      "name": "Broken By The Scream @ Hybrydy — Warsaw, Poland — Aug 8 2026",
+      "date": "2026-08-08",
+      "venue": "Hybrydy",
+      "city": "Warsaw",
+      "country": "Poland",
       "bands": [
-        "Frozen Soul",
-        "Bodybox",
-        "Maul"
+        "Broken By The Scream"
       ],
-      "description": "Show: Frozen Soul (Death Metal, Texas) with Bodybox, Maul, and Eternal\nVenue: Churchill's Pub — 5501 NE 2nd Ave, Miami, FL 33137\nDate / Time: Friday, August 7, 2026 — 7:00 PM (Doors) — 18+\nPresenter: Endoxa x Breakeven Booking\nTickets: TicketWeb — from $27.51",
+      "description": "Broken By The Scream — Europe tour leg, Warsaw. Hybrydy in Warsaw, Poland. Show date: Aug 8 2026.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86baqzv52",
+      "clickupUrl": "https://app.clickup.com/t/86bbabkyu",
       "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86baqu77d",
-      "name": "Terminal Nation — Beat The Heat Summer Getaway — Churchill's Pub, Miami FL",
-      "date": "2026-08-07",
-      "venue": "Beat The Heat Summer Getaway — Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Terminal Nation"
-      ],
-      "description": "Show: Terminal Nation / Inside You / Lower — Beat the Heat Summer Get Down tour\nDate: 2026-08-07\nVenue: Churchill's Pub, Miami FL\nTour dates on flyer: Aug 6 Winter Park (Conduit) / Aug 7 Miami (Churchill's) / Aug 8 Pensacola / Aug 9 Jacksonville (Handlebar) / Aug 11 Columbia SC…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86baqu77d",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86ba365a1",
-      "name": "Frozen Soul — Churchill's Pub, Miami FL",
-      "date": "2026-08-07",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Frozen Soul"
-      ],
-      "description": "Frozen Soul w/ Bodybox FL, Maul, Eternal",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86ba365a1",
-      "buckets": [
-        "florida-metal-scene"
+        "japanese-metal"
       ]
     },
     {
@@ -64,12 +26,13 @@
       "date": "2026-08-08",
       "venue": "Brass Mug",
       "city": "Tampa",
-      "country": "FL — Aug 8 2026",
+      "state": "FL",
       "bands": [
         "Promethean Horde",
         "Swamp Tooth",
         "Must Not Kill",
-        "Sacrilous"
+        "Sacrilous",
+        "Consume The Wolf"
       ],
       "description": "Tampa black metal act Promethean Horde headlines a full night of Florida swamp metal at The Brass Mug, joined by Swamp Tooth, Must Not Kill, Sacrilous, and Consume The Wolf. Doors 6 PM, Saturday, August 8, 2026. Presented with Swamp Music Records.",
       "priority": "normal",
@@ -84,10 +47,11 @@
       "id": "86barcr2e",
       "name": "Rolling Quartz @ Sonia — Boston, MA — Aug 8 2026",
       "date": "2026-08-08",
+      "venue": "Sonia",
       "city": "Boston",
-      "country": "MA — Aug 8 2026",
+      "state": "MA",
       "bands": [
-        "Rolling Quartz @ Sonia"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to Sonia in Boston, MA. Korean hard-rock five-piece on the watch-list rotation. Show date: August 8, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's announced MY TURN…",
       "priority": "normal",
@@ -117,13 +81,53 @@
       ]
     },
     {
+      "id": "86bb9w63y",
+      "name": "Unlucky Morpheus @ cube garden — Sapporo, Japan — Aug 8 2026",
+      "date": "2026-08-08",
+      "venue": "cube garden",
+      "city": "Sapporo",
+      "country": "Japan",
+      "bands": [
+        "Unlucky Morpheus"
+      ],
+      "description": "Unlucky Morpheus — Japan-domestic show. cube garden in Sapporo, Japan. Show date: Aug 8 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w63y",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bba6ha6",
+      "name": "Venomous Invokation + Desecrated Altar @ Brass Mug — Tampa, FL — Aug 9 2026",
+      "date": "2026-08-09",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Venomous Invokation",
+        "Desecrated Altar"
+      ],
+      "description": "Eclipsing the Sunshine State — Florida run, night two.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6ha6",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86baubre3",
       "name": "East of Eden @ LINE CUBE SHIBUYA — Tokyo, Japan — Aug 9 2026",
       "date": "2026-08-09",
+      "venue": "LINE CUBE SHIBUYA",
       "city": "Tokyo",
-      "country": "Japan — Aug 9 2026",
+      "country": "Japan",
       "bands": [
-        "East of Eden @ LINE CUBE SHIBUYA"
+        "East of Eden"
       ],
       "description": "East of Eden — Zepp Tour 2026 〜 Rising 〜 additional show\nVenue: LINE CUBE SHIBUYA (Shibuya Public Hall), Tokyo, Japan\nDate: Sunday, August 9, 2026 — doors 16:00 / show 17:00\nBand: East of Eden (Japanese metal watch-list)",
       "priority": "normal",
@@ -172,15 +176,51 @@
       ]
     },
     {
+      "id": "86bba6hat",
+      "name": "Venomous Invokation + Desecrated Altar @ The Ox — Gainesville, FL — Aug 10 2026",
+      "date": "2026-08-10",
+      "venue": "The Ox",
+      "city": "Gainesville",
+      "state": "FL",
+      "bands": [
+        "Venomous Invokation",
+        "Desecrated Altar"
+      ],
+      "description": "Eclipsing the Sunshine State — Florida run, closing night.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6hat",
+      "buckets": []
+    },
+    {
+      "id": "86bbabm0r",
+      "name": "Broken By The Scream @ Dürer Kert — Budapest, Hungary — Aug 10 2026",
+      "date": "2026-08-10",
+      "venue": "Dürer Kert",
+      "city": "Budapest",
+      "country": "Hungary",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — Europe tour leg, Budapest. Dürer Kert in Budapest, Hungary. Show date: Aug 10 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbabm0r",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcr2j",
       "name": "Rolling Quartz @ L'ANTI Bar & Spectacles — Quebec City, QC, Canada — Aug 10 2026",
       "date": "2026-08-10",
-      "venue": "Quebec City",
+      "venue": "L'ANTI Bar & Spectacles, Quebec City",
       "city": "QC",
-      "country": "Canada — Aug 10 2026",
+      "country": "Canada",
       "bands": [
-        "Rolling Quartz @ L'ANTI Bar",
-        "Spectacles"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to L'ANTI Bar & Spectacles in Quebec City, QC, Canada. Korean hard-rock five-piece on the watch-list rotation. Show date: August 10, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against…",
       "priority": "normal",
@@ -192,14 +232,33 @@
       ]
     },
     {
+      "id": "86bbabm2f",
+      "name": "Broken By The Scream @ Szene Wien — Vienna, Austria — Aug 11 2026",
+      "date": "2026-08-11",
+      "venue": "Szene Wien",
+      "city": "Vienna",
+      "country": "Austria",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — Europe tour leg, Vienna. Szene Wien in Vienna, Austria. Show date: Aug 11 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbabm2f",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcr2m",
       "name": "Rolling Quartz @ Piranha Bar — Montreal, QC, Canada — Aug 11 2026",
       "date": "2026-08-11",
-      "venue": "Montreal",
+      "venue": "Piranha Bar, Montreal",
       "city": "QC",
-      "country": "Canada — Aug 11 2026",
+      "country": "Canada",
       "bands": [
-        "Rolling Quartz @ Piranha Bar"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to Piranha Bar in Montreal, QC, Canada. Korean hard-rock five-piece on the watch-list rotation. Show date: August 11, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's…",
       "priority": "normal",
@@ -216,11 +275,12 @@
       "date": "2026-08-12",
       "venue": "Conduit",
       "city": "Winter Park (Orlando)",
-      "country": "FL — Aug 12 2026",
+      "state": "FL",
       "bands": [
         "Nocturnal Dawn",
         "Pariah",
-        "RSI"
+        "RSI",
+        "Gnarcoossee"
       ],
       "description": "Bands: Nocturnal Dawn, Pariah (FL), RSI, Gnarcoossee\nVenue: Conduit, Winter Park (Orlando), FL\nDate: Wednesday, August 12, 2026 — doors 7:00 PM\nTickets: $15 advance / $20 day of show — presented by Violent Death Records",
       "priority": "normal",
@@ -235,11 +295,11 @@
       "id": "86barcr2p",
       "name": "Rolling Quartz @ El Mocambo (Under the Neon Palms) — Toronto, ON, Canada — Aug 13 2026",
       "date": "2026-08-13",
-      "venue": "Toronto",
+      "venue": "El Mocambo (Under the Neon Palms), Toronto",
       "city": "ON",
-      "country": "Canada — Aug 13 2026",
+      "country": "Canada",
       "bands": [
-        "Rolling Quartz @ El Mocambo (Under the Neon Palms)"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to Under the Neon Palms at the El Mocambo in Toronto, ON, Canada. Korean hard-rock five-piece on the watch-list rotation. Show date: August 13, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and…",
       "priority": "normal",
@@ -251,17 +311,81 @@
       ]
     },
     {
+      "id": "86bba6gu7",
+      "name": "Malignancy + Anal Stabwound + Mystery Meat + Virulence @ Conduit — Orlando, FL — Aug 14 2026",
+      "date": "2026-08-14",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Malignancy",
+        "Anal Stabwound",
+        "Mystery Meat",
+        "Virulence"
+      ],
+      "description": "Tropical Pathogenesis Tour — night one of a three-date Florida run.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6gu7",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bb9w436",
+      "name": "BABYMETAL @ Summer Sonic (Expo '70 Park) — Osaka, Japan — Aug 14 2026",
+      "date": "2026-08-14",
+      "venue": "Summer Sonic (Expo '70 Park)",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — Summer Sonic 2026 Osaka; curating the SONIC METAL STAGE (15th anniversary). Summer Sonic (Expo '70 Park) in Osaka, Japan. Show date: Aug 14 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w436",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bba6gyb",
+      "name": "Malignancy + Anal Stabwound + Mystery Meat + Virulence @ Skatepark of Tampa — Tampa, FL — Aug 15 2026",
+      "date": "2026-08-15",
+      "venue": "Skatepark of Tampa",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Malignancy",
+        "Anal Stabwound",
+        "Mystery Meat",
+        "Virulence"
+      ],
+      "description": "Tropical Pathogenesis Tour — night two of a three-date Florida run.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6gyb",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bavn90g",
       "name": "Dead By Wednesday + Eyes of Theia + Apostasy + Eastblood + Trench @ The Cellar on Treadwell — Hamden, CT — Aug 15 2026",
       "date": "2026-08-15",
+      "venue": "The Cellar on Treadwell",
       "city": "Hamden",
-      "country": "CT — Aug 15 2026",
+      "state": "CT",
       "bands": [
         "Dead By Wednesday",
         "Eyes of Theia",
         "Apostasy",
         "Eastblood",
-        "Trench @ The Cellar on Treadwell"
+        "Trench"
       ],
       "description": "Metalcore/metal bill at The Cellar on Treadwell, Hamden CT.\nBands: Dead By Wednesday, Eyes of Theia, Apostasy, Eastblood, Trench. Date: Saturday August 15, 2026. Doors 6PM / music 7PM. 21+.",
       "priority": "normal",
@@ -292,19 +416,99 @@
       ]
     },
     {
+      "id": "86bba6gzb",
+      "name": "Malignancy + Anal Stabwound + Mystery Meat + Virulence @ Churchill's Pub — Miami, FL — Aug 16 2026",
+      "date": "2026-08-16",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Malignancy",
+        "Anal Stabwound",
+        "Mystery Meat",
+        "Virulence"
+      ],
+      "description": "Tropical Pathogenesis Tour — closing night of a three-date Florida run.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6gzb",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bazd4pz",
       "name": "ZILQY @ SUMMER SONIC 2026 (Pacific Stage) — Tokyo, Japan — Aug 16 2026",
       "date": "2026-08-16",
+      "venue": "SUMMER SONIC 2026 (Pacific Stage)",
       "city": "Tokyo",
-      "country": "Japan — Aug 16 2026",
+      "country": "Japan",
       "bands": [
-        "ZILQY @ SUMMER SONIC 2026 (Pacific Stage)"
+        "ZILQY"
       ],
       "description": "ZILQY confirmed as an opening act for SUMMER SONIC 2026, Tokyo — Pacific Stage, Sunday August 16.",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bazd4pz",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bba6grp",
+      "name": "Burned at the Stake + Voidrium + Nefarious Grime + Vermination @ Churchill's Pub — Miami, FL — Aug 15 2026",
+      "date": "2026-08-16",
+      "venue": "the Stake + Voidrium + Nefarious Grime + Vermination @ Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Burned"
+      ],
+      "description": "Minotaur Booking presents a four-band doom-and-black-metal bill at Churchill's.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6grp",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bb9w4k2",
+      "name": "BAND-MAID @ Summer Sonic (Makuhari Messe) — Chiba, Japan — Aug 16 2026",
+      "date": "2026-08-16",
+      "venue": "Summer Sonic (Makuhari Messe)",
+      "city": "Chiba",
+      "country": "Japan",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — Summer Sonic Tokyo day. Summer Sonic (Makuhari Messe) in Chiba, Japan. Show date: Aug 16 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4k2",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w442",
+      "name": "BABYMETAL @ Summer Sonic (ZOZO Marine/Makuhari Messe) — Chiba, Japan — Aug 16 2026",
+      "date": "2026-08-16",
+      "venue": "Summer Sonic (ZOZO Marine/Makuhari Messe)",
+      "city": "Chiba",
+      "country": "Japan",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — Summer Sonic 2026 Tokyo; curating the SONIC METAL STAGE. Summer Sonic (ZOZO Marine/Makuhari Messe) in Chiba, Japan. Show date: Aug 16 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w442",
       "buckets": [
         "japanese-metal"
       ]
@@ -345,9 +549,10 @@
       "date": "2026-08-22",
       "venue": "Guadalajara Night Club",
       "city": "Fort Pierce",
-      "country": "FL — Aug 22 2026",
+      "state": "FL",
       "bands": [
-        "Ancestral Blood"
+        "Ancestral Blood",
+        "Lord of Horns"
       ],
       "description": "Metal show at Guadalajara Night Club, Fort Pierce FL.\nBands: Ancestral Blood, Lord of Horns (w/ Minotaur Booking). Date: August 22, 2026.\nPresented by Dead Dreams Booking FL.",
       "priority": "normal",
@@ -376,6 +581,121 @@
       "clickupUrl": "https://app.clickup.com/t/86ba365fy",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bb9w5v6",
+      "name": "Broken By The Scream @ CLUB SEATA — Tokyo, Japan — Aug 22 2026",
+      "date": "2026-08-22",
+      "venue": "CLUB SEATA",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — Japan homecoming show in Musashino. CLUB SEATA in Tokyo, Japan. Show date: Aug 22 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5v6",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5qm",
+      "name": "TRiDENT @ Drop — Osaka, Japan — Aug 22 2026",
+      "date": "2026-08-22",
+      "venue": "Drop",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "TRiDENT"
+      ],
+      "description": "TRiDENT — TRY ME TOUR 2026, Osaka date. Drop in Osaka, Japan. Show date: Aug 22 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5qm",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5gf",
+      "name": "ZILQY @ Spotify O-EAST — Tokyo, Japan — Aug 22 2026",
+      "date": "2026-08-22",
+      "venue": "Spotify O-EAST",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "ZILQY"
+      ],
+      "description": "ZILQY — Live Natalie Zilqy x EMNW two-man show. Spotify O-EAST in Tokyo, Japan. Show date: Aug 22 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5gf",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w64p",
+      "name": "Unlucky Morpheus @ Ebisu The Garden Hall — Tokyo, Japan — Aug 23 2026",
+      "date": "2026-08-23",
+      "venue": "Ebisu The Garden Hall",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Unlucky Morpheus"
+      ],
+      "description": "Unlucky Morpheus — tour finale in Meguro. Ebisu The Garden Hall in Tokyo, Japan. Show date: Aug 23 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w64p",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w60r",
+      "name": "SiM @ WILD BUNCH FEST. 2026 — Yamaguchi, Japan — Aug 23 2026",
+      "date": "2026-08-23",
+      "venue": "WILD BUNCH FEST. 2026",
+      "city": "Yamaguchi",
+      "country": "Japan",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — festival appearance. WILD BUNCH FEST. 2026 in Yamaguchi, Japan. Show date: Aug 23 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w60r",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bb9w5r1",
+      "name": "TRiDENT @ Gramhouse — Ina, Japan — Aug 23 2026",
+      "date": "2026-08-23",
+      "venue": "Gramhouse",
+      "city": "Ina",
+      "country": "Japan",
+      "bands": [
+        "TRiDENT"
+      ],
+      "description": "TRiDENT — TRY ME TOUR 2026, Nagano date. Gramhouse in Ina, Japan. Show date: Aug 23 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5r1",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -417,15 +737,37 @@
       ]
     },
     {
+      "id": "86bba6hfg",
+      "name": "KAMELOT + Visions of Atlantis + Frozen Crown @ Hard Rock Live — Orlando, FL — Aug 28 2026",
+      "date": "2026-08-28",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "KAMELOT",
+        "Visions of Atlantis",
+        "Frozen Crown"
+      ],
+      "description": "Dark Asylum World Tour, North America Part 1 — and it lands on the album's release day.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6hfg",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86batb3u1",
       "name": "The March of Iron and Echoes (Vile Productions) w/ Chironex + Cerebral Desecration @ Brass Mug — Tampa, FL — Aug 28 2026",
       "date": "2026-08-28",
       "venue": "Brass Mug",
       "city": "Tampa",
-      "country": "FL — Aug 28 2026",
+      "state": "FL",
       "bands": [
         "The March of Iron and Echoes (Vile Productions)",
-        "Chironex"
+        "Chironex",
+        "Cerebral Desecration"
       ],
       "description": "Vile Productions presents The March of Iron and Echoes at The Brass Mug, Tampa, with Chironex and Cerebral Desecration. Friday, August 28, 2026, 7 PM.",
       "priority": "normal",
@@ -459,8 +801,8 @@
       "id": "86bb1uzmm",
       "name": "Nikki's Birthday Massacre II — Foreverless + CryptLord @ Electric Tide Records — Rockledge, FL — Aug 29 2026",
       "date": "2026-08-29",
-      "city": "Foreverless + CryptLord @ Electric Tide Records — Rockledge",
-      "country": "FL — Aug 29 2026",
+      "venue": "Foreverless + CryptLord @ Electric Tide Records — Rockledge",
+      "state": "FL",
       "bands": [
         "Nikki's Birthday Massacre II"
       ],
@@ -475,11 +817,12 @@
       "id": "86bay8u7c",
       "name": "Prophets of the Dark Side + Cry Out For @ Kill Your Idol — Miami Beach, FL — Aug 29 2026",
       "date": "2026-08-29",
+      "venue": "Kill Your Idol",
       "city": "Miami Beach",
-      "country": "FL — Aug 29 2026",
+      "state": "FL",
       "bands": [
         "Prophets of the Dark Side",
-        "Cry Out For @ Kill Your Idol"
+        "Cry Out For"
       ],
       "description": "Prophets of the Dark Side headline Kill Your Idol in Miami Beach on Saturday, August 29, 2026, 10:00 PM, with special guest Cry Out For. $10 at the door. 222 Española Way, Miami Beach, FL. South Florida underground metal.",
       "priority": "normal",
@@ -534,9 +877,10 @@
       "date": "2026-08-30",
       "venue": "Conduit",
       "city": "Winter Park (Orlando)",
-      "country": "FL — Aug 30 2026",
+      "state": "FL",
       "bands": [
-        "Profanatica"
+        "Profanatica",
+        "Cloak"
       ],
       "description": "Profanatica and Cloak headline Conduit (Winter Park / Orlando) as part of Profanatica's coast-to-coast summer tour.",
       "priority": "normal",
@@ -566,6 +910,82 @@
       ]
     },
     {
+      "id": "86bb9w60w",
+      "name": "SiM @ RUSH BALL 2026 — Osaka, Japan — Aug 30 2026",
+      "date": "2026-08-30",
+      "venue": "RUSH BALL 2026",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — festival appearance. RUSH BALL 2026 in Osaka, Japan. Show date: Aug 30 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w60w",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w44z",
+      "name": "BABYMETAL @ Petco Park — San Diego, CA — Aug 30 2026",
+      "date": "2026-08-30",
+      "venue": "Petco Park",
+      "city": "San Diego",
+      "state": "CA",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026 NA opener, supporting My Chemical Romance. Petco Park in San Diego, CA. Show date: Aug 30 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w44z",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5wk",
+      "name": "Broken By The Scream @ Antiknock — Tokyo, Japan — Aug 31 2026",
+      "date": "2026-08-31",
+      "venue": "Antiknock",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — Japan-domestic show in Shinjuku. Antiknock in Tokyo, Japan. Show date: Aug 31 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5wk",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4xr",
+      "name": "HANABIE. @ Tokyo Garden Theater — Tokyo, Japan — Aug 31 2026",
+      "date": "2026-08-31",
+      "venue": "Tokyo Garden Theater",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Support for Electric Callboy Tokyo show. Tokyo Garden Theater in Tokyo, Japan. Show date: Aug 31 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4xr",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bammf4u",
       "name": "📀 SiM — HOOMAN AFTER ALL — RELEASE",
       "date": "2026-09-02",
@@ -584,11 +1004,31 @@
       ]
     },
     {
+      "id": "86bb9w45n",
+      "name": "BABYMETAL @ Ball Arena — Denver, CO — Sep 2 2026",
+      "date": "2026-09-02",
+      "venue": "Ball Arena",
+      "city": "Denver",
+      "state": "CO",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026 (Halestorm + Violent Vira). Ball Arena in Denver, CO. Show date: Sep 2 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w45n",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb0uvmc",
       "name": "A Bloodbath in Florida — Oscura Live, Bradenton FL — Sep 4 2026",
       "date": "2026-09-04",
-      "city": "Oscura Live",
-      "country": "Bradenton FL — Sep 4 2026",
+      "venue": "Oscura Live",
+      "city": "Bradenton",
+      "state": "FL",
       "bands": [
         "A Bloodbath in Florida"
       ],
@@ -655,11 +1095,50 @@
       ]
     },
     {
+      "id": "86bb9w61b",
+      "name": "SiM @ Niigata LOTS — Niigata, Japan — Sep 4 2026",
+      "date": "2026-09-04",
+      "venue": "Niigata LOTS",
+      "city": "Niigata",
+      "country": "Japan",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL tour kick-off show. Niigata LOTS in Niigata, Japan. Show date: Sep 4 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w61b",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w45x",
+      "name": "BABYMETAL @ Huntington Bank Pavilion — Chicago, IL — Sep 4 2026",
+      "date": "2026-09-04",
+      "venue": "Huntington Bank Pavilion",
+      "city": "Chicago",
+      "state": "IL",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. Huntington Bank Pavilion in Chicago, IL. Show date: Sep 4 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w45x",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb0uvmt",
       "name": "A Bloodbath in Florida — The Abbey, Melbourne FL — Sep 5 2026",
       "date": "2026-09-05",
-      "city": "The Abbey",
-      "country": "Melbourne FL — Sep 5 2026",
+      "venue": "The Abbey",
+      "city": "Melbourne",
+      "state": "FL",
       "bands": [
         "A Bloodbath in Florida"
       ],
@@ -674,11 +1153,12 @@
       "id": "86barcvpu",
       "name": "Primitive Brutality + guests @ The Griffin — Las Vegas, NV — Sep 5 2026",
       "date": "2026-09-05",
+      "venue": "The Griffin",
       "city": "Las Vegas",
-      "country": "NV — Sep 5 2026",
+      "state": "NV",
       "bands": [
         "Primitive Brutality",
-        "guests @ The Griffin"
+        "guests"
       ],
       "description": "Death metal bill at The Griffin (511 E Fremont St, Las Vegas NV), Saturday September 5, 2026, 8pm, 21+. Confirmed on the lineup: Primitive Brutality. The two headlining acts appear in heavily stylized logos on the flyer and were not legible — worth a manual confirm on the lineup…",
       "priority": "normal",
@@ -727,11 +1207,31 @@
       ]
     },
     {
+      "id": "86bb9w465",
+      "name": "BABYMETAL @ Ruoff Music Center — Noblesville, IN — Sep 5 2026",
+      "date": "2026-09-05",
+      "venue": "Ruoff Music Center",
+      "city": "Noblesville",
+      "state": "IN",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. Ruoff Music Center in Noblesville, IN. Show date: Sep 5 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w465",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb0uvn6",
       "name": "A Bloodbath in Florida — Boombox, Miami FL — Sep 6 2026",
       "date": "2026-09-06",
-      "city": "Boombox",
-      "country": "Miami FL — Sep 6 2026",
+      "venue": "Boombox",
+      "city": "Miami",
+      "state": "FL",
       "bands": [
         "A Bloodbath in Florida"
       ],
@@ -780,13 +1280,52 @@
       ]
     },
     {
+      "id": "86bb9w46m",
+      "name": "BABYMETAL @ Budweiser Stage — Toronto, Canada — Sep 7 2026",
+      "date": "2026-09-07",
+      "venue": "Budweiser Stage",
+      "city": "Toronto",
+      "country": "Canada",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. Budweiser Stage in Toronto, Canada. Show date: Sep 7 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w46m",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5an",
+      "name": "JILUKA @ Academy 2 — Manchester, UK — Sep 8 2026",
+      "date": "2026-09-08",
+      "venue": "Academy 2",
+      "city": "Manchester",
+      "state": "UK",
+      "bands": [
+        "JILUKA"
+      ],
+      "description": "JILUKA — DeViLs World Tour EU/UK leg opener. Academy 2 in Manchester, UK. Show date: Sep 8 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5an",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcrrk",
       "name": "FATE GEAR @ Legend Club — Milan, Italy — Sep 9 2026",
       "date": "2026-09-09",
+      "venue": "Legend Club",
       "city": "Milan",
-      "country": "Italy — Sep 9 2026",
+      "country": "Italy",
       "bands": [
-        "FATE GEAR @ Legend Club"
+        "FATE GEAR"
       ],
       "description": "FATE GEAR bring their Frozen Abyss Tour 2026 to Legend Club in Milan, Italy — the band's first-ever Italian performance. All-female Japanese steampunk/gothic metal band on the watch-list rotation. Show date: September 9, 2026. Part of a three-date European run (Milan, Luzern,…",
       "priority": "normal",
@@ -798,13 +1337,52 @@
       ]
     },
     {
+      "id": "86bb9w5b4",
+      "name": "JILUKA @ O2 Academy Islington — London, UK — Sep 9 2026",
+      "date": "2026-09-09",
+      "venue": "O2 Academy Islington",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "JILUKA"
+      ],
+      "description": "JILUKA — DeViLs World Tour EU/UK leg. O2 Academy Islington in London, UK. Show date: Sep 9 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5b4",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w46w",
+      "name": "BABYMETAL @ PNC Bank Arts Center — Holmdel, NJ — Sep 9 2026",
+      "date": "2026-09-09",
+      "venue": "PNC Bank Arts Center",
+      "city": "Holmdel",
+      "state": "NJ",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. PNC Bank Arts Center in Holmdel, NJ. Show date: Sep 9 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w46w",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcrrr",
       "name": "FATE GEAR @ Schüür — Luzern, Switzerland — Sep 10 2026",
       "date": "2026-09-10",
+      "venue": "Schüür",
       "city": "Luzern",
-      "country": "Switzerland — Sep 10 2026",
+      "country": "Switzerland",
       "bands": [
-        "FATE GEAR @ Schüür"
+        "FATE GEAR"
       ],
       "description": "FATE GEAR bring their Frozen Abyss Tour 2026 to Schüür in Luzern, Switzerland. All-female Japanese steampunk/gothic metal band on the watch-list rotation. Show date: September 10, 2026. Part of a three-date European run (Milan, Luzern, Cologne). Confirmed against the band's…",
       "priority": "normal",
@@ -816,13 +1394,33 @@
       ]
     },
     {
+      "id": "86bb9w47h",
+      "name": "BABYMETAL @ Xfinity Center — Mansfield, MA — Sep 10 2026",
+      "date": "2026-09-10",
+      "venue": "Xfinity Center",
+      "city": "Mansfield",
+      "state": "MA",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. Xfinity Center in Mansfield, MA. Show date: Sep 10 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w47h",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcrrw",
       "name": "FATE GEAR @ Garagen Club — Cologne, Germany — Sep 11 2026",
       "date": "2026-09-11",
+      "venue": "Garagen Club",
       "city": "Cologne",
-      "country": "Germany — Sep 11 2026",
+      "country": "Germany",
       "bands": [
-        "FATE GEAR @ Garagen Club"
+        "FATE GEAR"
       ],
       "description": "FATE GEAR bring their Frozen Abyss Tour 2026 to the Garagen Club in Cologne, Germany. All-female Japanese steampunk/gothic metal band on the watch-list rotation. Show date: September 11, 2026. Part of a three-date European run (Milan, Luzern, Cologne). Confirmed against the…",
       "priority": "normal",
@@ -837,11 +1435,11 @@
       "id": "86barcrht",
       "name": "Rolling Quartz @ Rio Theatre — Vancouver, BC, Canada — Sep 11 2026",
       "date": "2026-09-11",
-      "venue": "Vancouver",
+      "venue": "Rio Theatre, Vancouver",
       "city": "BC",
-      "country": "Canada — Sep 11 2026",
+      "country": "Canada",
       "bands": [
-        "Rolling Quartz @ Rio Theatre"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to the Rio Theatre in Vancouver, BC, Canada. Korean hard-rock five-piece on the watch-list rotation. Show date: September 11, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -871,13 +1469,52 @@
       ]
     },
     {
+      "id": "86bb9w61x",
+      "name": "SiM @ Sendai Rensa — Sendai, Japan — Sep 11 2026",
+      "date": "2026-09-11",
+      "venue": "Sendai Rensa",
+      "city": "Sendai",
+      "country": "Japan",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL tour. Sendai Rensa in Sendai, Japan. Show date: Sep 11 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w61x",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5bn",
+      "name": "JILUKA @ Rock Cafe — Prague, Czech Republic — Sep 11 2026",
+      "date": "2026-09-11",
+      "venue": "Rock Cafe",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "bands": [
+        "JILUKA"
+      ],
+      "description": "JILUKA — DeViLs World Tour EU/UK leg. Rock Cafe in Prague, Czech Republic. Show date: Sep 11 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5bn",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcrhx",
       "name": "Rolling Quartz @ Substation — Seattle, WA — Sep 12 2026",
       "date": "2026-09-12",
+      "venue": "Substation",
       "city": "Seattle",
-      "country": "WA — Sep 12 2026",
+      "state": "WA",
       "bands": [
-        "Rolling Quartz @ Substation"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to Substation in Seattle, WA. Korean hard-rock five-piece on the watch-list rotation. Show date: September 12, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -889,11 +1526,30 @@
       ]
     },
     {
+      "id": "86bb9w48g",
+      "name": "BABYMETAL @ Jiffy Lube Live — Bristow, VA — Sep 12 2026",
+      "date": "2026-09-12",
+      "venue": "Jiffy Lube Live",
+      "city": "Bristow",
+      "state": "VA",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. Jiffy Lube Live in Bristow, VA. Show date: Sep 12 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w48g",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86baubrfr",
       "name": "Yngwie Malmsteen — 25th Anniversary Concerto Suite for Electric Guitar & Orchestra @ Pacifico Yokohama — Yokohama, Japan — Sep 13 2026",
       "date": "2026-09-13",
       "city": "25th Anniversary Concerto Suite for Electric Guitar & Orchestra @ Pacifico Yokohama — Yokohama",
-      "country": "Japan — Sep 13 2026",
+      "country": "Japan",
       "bands": [
         "Yngwie Malmsteen"
       ],
@@ -908,10 +1564,11 @@
       "id": "86barcrj4",
       "name": "Rolling Quartz @ Star Theater — Portland, OR — Sep 13 2026",
       "date": "2026-09-13",
+      "venue": "Star Theater",
       "city": "Portland",
-      "country": "OR — Sep 13 2026",
+      "state": "OR",
       "bands": [
-        "Rolling Quartz @ Star Theater"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to the Star Theater in Portland, OR. Korean hard-rock five-piece on the watch-list rotation. Show date: September 13, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -936,6 +1593,82 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mhk",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5by",
+      "name": "JILUKA @ Kwadrat — Krakow, Poland — Sep 13 2026",
+      "date": "2026-09-13",
+      "venue": "Kwadrat",
+      "city": "Krakow",
+      "country": "Poland",
+      "bands": [
+        "JILUKA"
+      ],
+      "description": "JILUKA — DeViLs World Tour EU/UK leg. Kwadrat in Krakow, Poland. Show date: Sep 13 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5by",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w49g",
+      "name": "BABYMETAL @ Coastal Credit Union Music Park — Raleigh, NC — Sep 13 2026",
+      "date": "2026-09-13",
+      "venue": "Coastal Credit Union Music Park",
+      "city": "Raleigh",
+      "state": "NC",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. Coastal Credit Union Music Park in Raleigh, NC. Show date: Sep 13 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w49g",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w626",
+      "name": "SiM @ CLUB CITTA' — Kawasaki, Japan — Sep 14 2026",
+      "date": "2026-09-14",
+      "venue": "CLUB CITTA'",
+      "city": "Kawasaki",
+      "country": "Japan",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL tour. CLUB CITTA' in Kawasaki, Japan. Show date: Sep 14 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w626",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5cu",
+      "name": "JILUKA @ Niebo — Warsaw, Poland — Sep 14 2026",
+      "date": "2026-09-14",
+      "venue": "Niebo",
+      "city": "Warsaw",
+      "country": "Poland",
+      "bands": [
+        "JILUKA"
+      ],
+      "description": "JILUKA — DeViLs World Tour EU/UK leg. Niebo in Warsaw, Poland. Show date: Sep 14 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5cu",
       "buckets": [
         "japanese-metal"
       ]
@@ -982,10 +1715,11 @@
       "id": "86barcrjc",
       "name": "Rolling Quartz @ The Press Club — Sacramento, CA — Sep 16 2026",
       "date": "2026-09-16",
+      "venue": "The Press Club",
       "city": "Sacramento",
-      "country": "CA — Sep 16 2026",
+      "state": "CA",
       "bands": [
-        "Rolling Quartz @ The Press Club"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to The Press Club in Sacramento, CA. Korean hard-rock five-piece on the watch-list rotation. Show date: September 16, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -1036,13 +1770,33 @@
       ]
     },
     {
+      "id": "86bb9w5d5",
+      "name": "JILUKA @ Hole44 — Berlin, Germany — Sep 16 2026",
+      "date": "2026-09-16",
+      "venue": "Hole44",
+      "city": "Berlin",
+      "country": "Germany",
+      "bands": [
+        "JILUKA"
+      ],
+      "description": "JILUKA — DeViLs World Tour EU/UK leg. Hole44 in Berlin, Germany. Show date: Sep 16 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5d5",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcrk5",
       "name": "Rolling Quartz @ Crybaby — Oakland, CA — Sep 17 2026",
       "date": "2026-09-17",
+      "venue": "Crybaby",
       "city": "Oakland",
-      "country": "CA — Sep 17 2026",
+      "state": "CA",
       "bands": [
-        "Rolling Quartz @ Crybaby"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to Crybaby in Oakland, CA. Korean hard-rock five-piece on the watch-list rotation. Show date: September 17, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -1095,10 +1849,11 @@
       "id": "86bay8u83",
       "name": "Out The Ashes @ Kill Your Idol — Miami Beach, FL — Sep 18 2026",
       "date": "2026-09-18",
+      "venue": "Kill Your Idol",
       "city": "Miami Beach",
-      "country": "FL — Sep 18 2026",
+      "state": "FL",
       "bands": [
-        "Out The Ashes @ Kill Your Idol"
+        "Out The Ashes"
       ],
       "description": "Out The Ashes live at Kill Your Idol, Miami Beach, on Friday, September 18, 2026 (midnight set). $10. 222 Española Way, Miami Beach, FL. South Florida underground metal. NOTE: band name read from flyer as \"Out The Ashes\" — worth confirming exact spelling before publishing.",
       "priority": "normal",
@@ -1113,13 +1868,14 @@
       "id": "86bawvp4c",
       "name": "Vader + Jungle Rot + Fleshcrawl + Trash Panda @ The Conduit — Orlando (Winter Park), FL — Sep 18 2026",
       "date": "2026-09-18",
-      "venue": "Conduit",
+      "venue": "The Conduit",
       "city": "Orlando (Winter Park)",
-      "country": "FL — Sep 18 2026",
+      "state": "FL",
       "bands": [
         "Vader",
         "Jungle Rot",
-        "Fleshcrawl"
+        "Fleshcrawl",
+        "Trash Panda"
       ],
       "description": "Polish death metal legends Vader bring the \"Reign Forever in Kingdom of Blood\" North American tour to Central Florida, with Jungle Rot, German death metal veterans Fleshcrawl, and crossover thrashers Trash Panda.",
       "priority": "normal",
@@ -1152,12 +1908,50 @@
       ]
     },
     {
+      "id": "86bb9w5e0",
+      "name": "JILUKA @ Hansa 39 — Munich, Germany — Sep 18 2026",
+      "date": "2026-09-18",
+      "venue": "Hansa 39",
+      "city": "Munich",
+      "country": "Germany",
+      "bands": [
+        "JILUKA"
+      ],
+      "description": "JILUKA — DeViLs World Tour EU/UK leg. Hansa 39 in Munich, Germany. Show date: Sep 18 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5e0",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4ah",
+      "name": "BABYMETAL @ Pine Knob Music Theatre — Clarkston, MI — Sep 18 2026",
+      "date": "2026-09-18",
+      "venue": "Pine Knob Music Theatre",
+      "city": "Clarkston",
+      "state": "MI",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. Pine Knob Music Theatre in Clarkston, MI. Show date: Sep 18 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4ah",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb8y5p3",
       "name": "The Browning — The Banyan Live, West Palm Beach FL — Sep 19, 2026",
       "date": "2026-09-19",
       "venue": "The Banyan Live",
-      "city": "West Palm Beach FL — Sep 19",
-      "country": "2026",
+      "city": "West Palm Beach",
+      "state": "FL",
       "bands": [
         "The Browning"
       ],
@@ -1174,12 +1968,13 @@
       "id": "86bb0uvf9",
       "name": "TURNSTILE + Hatebreed + Cold World @ England Brothers Park — Pinellas Park, FL — Sep 19 2026",
       "date": "2026-09-19",
+      "venue": "England Brothers Park",
       "city": "Pinellas Park",
-      "country": "FL — Sep 19 2026",
+      "state": "FL",
       "bands": [
         "TURNSTILE",
         "Hatebreed",
-        "Cold World @ England Brothers Park"
+        "Cold World"
       ],
       "description": "Bands: TURNSTILE, Hatebreed, Cold World\nVenue: England Brothers Park, Pinellas Park, FL\nDate: Saturday, September 19, 2026 — doors 5:00 PM, show 6:30 PM",
       "priority": "high",
@@ -1191,33 +1986,17 @@
       ]
     },
     {
-      "id": "86bazd4q8",
-      "name": "The Browning @ The Banyan Live — West Palm Beach, FL — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "Banyan Live",
-      "city": "West Palm Beach",
-      "country": "FL — Sep 19 2026",
-      "bands": [],
-      "description": "The Browning bring the Burn This World [EVOLVED] USA v2 tour to The Banyan Live, West Palm Beach.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bazd4q8",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bawvp5q",
       "name": "Vader + Jungle Rot + Fleshcrawl + Trash Panda @ Culture Room — Fort Lauderdale, FL — Sep 19 2026",
       "date": "2026-09-19",
       "venue": "Culture Room",
       "city": "Fort Lauderdale",
-      "country": "FL — Sep 19 2026",
+      "state": "FL",
       "bands": [
         "Vader",
         "Jungle Rot",
-        "Fleshcrawl"
+        "Fleshcrawl",
+        "Trash Panda"
       ],
       "description": "Vader's \"Reign Forever in Kingdom of Blood\" tour hits South Florida — a Favorite Venue stop at Culture Room — with Jungle Rot, Fleshcrawl, and Trash Panda.",
       "priority": "normal",
@@ -1284,16 +2063,55 @@
       ]
     },
     {
+      "id": "86bb9w5e9",
+      "name": "JILUKA @ Zoom — Frankfurt, Germany — Sep 19 2026",
+      "date": "2026-09-19",
+      "venue": "Zoom",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "bands": [
+        "JILUKA"
+      ],
+      "description": "JILUKA — DeViLs World Tour EU/UK leg. Zoom in Frankfurt, Germany. Show date: Sep 19 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5e9",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4y7",
+      "name": "HANABIE. @ Chiba LOOK — Chiba, Japan — Sep 19 2026",
+      "date": "2026-09-19",
+      "venue": "Chiba LOOK",
+      "city": "Chiba",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026 opener. Chiba LOOK in Chiba, Japan. Show date: Sep 19 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4y7",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bawvp6z",
       "name": "Vader + Jungle Rot + Fleshcrawl + Trash Panda @ The Orpheum — Tampa, FL — Sep 20 2026",
       "date": "2026-09-20",
       "venue": "The Orpheum",
       "city": "Tampa",
-      "country": "FL — Sep 20 2026",
+      "state": "FL",
       "bands": [
         "Vader",
         "Jungle Rot",
-        "Fleshcrawl"
+        "Fleshcrawl",
+        "Trash Panda"
       ],
       "description": "The Tampa Bay stop of Vader's \"Reign Forever in Kingdom of Blood\" North American tour at The Orpheum, with Jungle Rot, Fleshcrawl, and Trash Panda.",
       "priority": "normal",
@@ -1308,10 +2126,11 @@
       "id": "86barcrk8",
       "name": "Rolling Quartz @ Music Box — San Diego, CA — Sep 20 2026",
       "date": "2026-09-20",
+      "venue": "Music Box",
       "city": "San Diego",
-      "country": "CA — Sep 20 2026",
+      "state": "CA",
       "bands": [
-        "Rolling Quartz @ Music Box"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to Music Box in San Diego, CA. Korean hard-rock five-piece on the watch-list rotation. Show date: September 20, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -1339,6 +2158,25 @@
       ]
     },
     {
+      "id": "86bb9w4ku",
+      "name": "BAND-MAID @ Legacy TERA — Taipei, Taiwan — Sep 20 2026",
+      "date": "2026-09-20",
+      "venue": "Legacy TERA",
+      "city": "Taipei",
+      "country": "Taiwan",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — World Tour 2026 Asia date, SOLD OUT. Legacy TERA in Taipei, Taiwan. Show date: Sep 20 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4ku",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86b9b7mkb",
       "name": "LOVEBITES — Outstanding Tour — Niigata Lots, Japan",
       "date": "2026-09-21",
@@ -1353,6 +2191,65 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7mkb",
       "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w62d",
+      "name": "SiM @ ROCK IN JAPAN FESTIVAL 2026 — Chiba, Japan — Sep 21 2026",
+      "date": "2026-09-21",
+      "venue": "ROCK IN JAPAN FESTIVAL 2026",
+      "city": "Chiba",
+      "country": "Japan",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — festival appearance. ROCK IN JAPAN FESTIVAL 2026 in Chiba, Japan. Show date: Sep 21 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w62d",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bb9w5ek",
+      "name": "JILUKA @ Club Bahnhof Ehrenfeld — Cologne, Germany — Sep 21 2026",
+      "date": "2026-09-21",
+      "venue": "Club Bahnhof Ehrenfeld",
+      "city": "Cologne",
+      "country": "Germany",
+      "bands": [
+        "JILUKA"
+      ],
+      "description": "JILUKA — DeViLs World Tour EU/UK leg. Club Bahnhof Ehrenfeld in Cologne, Germany. Show date: Sep 21 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5ek",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4av",
+      "name": "BABYMETAL @ Hollywood Casino Amphitheatre — Maryland Heights, MO — Sep 21 2026",
+      "date": "2026-09-21",
+      "venue": "Hollywood Casino Amphitheatre",
+      "city": "Maryland Heights",
+      "state": "MO",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. Hollywood Casino Amphitheatre in Maryland Heights, MO. Show date: Sep 21 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4av",
+      "buckets": [
+        "florida-metal-scene",
         "japanese-metal"
       ]
     },
@@ -1376,13 +2273,33 @@
       ]
     },
     {
+      "id": "86bb9w5fg",
+      "name": "JILUKA @ TivoliVredenburg — Utrecht, Netherlands — Sep 22 2026",
+      "date": "2026-09-22",
+      "venue": "TivoliVredenburg",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "bands": [
+        "JILUKA"
+      ],
+      "description": "JILUKA — DeViLs World Tour EU/UK leg. TivoliVredenburg in Utrecht, Netherlands. Show date: Sep 22 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5fg",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcrkd",
       "name": "Rolling Quartz @ Nile Theater — Mesa, AZ — Sep 23 2026",
       "date": "2026-09-23",
+      "venue": "Nile Theater",
       "city": "Mesa",
-      "country": "AZ — Sep 23 2026",
+      "state": "AZ",
       "bands": [
-        "Rolling Quartz @ Nile Theater"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to the Nile Theater in Mesa, AZ. Korean hard-rock five-piece on the watch-list rotation. Show date: September 23, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -1413,6 +2330,44 @@
       ]
     },
     {
+      "id": "86bb9w62v",
+      "name": "SiM @ Fukuoka DRUM LOGOS — Fukuoka, Japan — Sep 23 2026",
+      "date": "2026-09-23",
+      "venue": "Fukuoka DRUM LOGOS",
+      "city": "Fukuoka",
+      "country": "Japan",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL tour. Fukuoka DRUM LOGOS in Fukuoka, Japan. Show date: Sep 23 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w62v",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4az",
+      "name": "BABYMETAL @ Dos Equis Pavilion — Dallas, TX — Sep 23 2026",
+      "date": "2026-09-23",
+      "venue": "Dos Equis Pavilion",
+      "city": "Dallas",
+      "state": "TX",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. Dos Equis Pavilion in Dallas, TX. Show date: Sep 23 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4az",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86b9b7kgy",
       "name": "KK's Priest + W.A.S.P. — Jacksonville, FL",
       "date": "2026-09-24",
@@ -1432,12 +2387,31 @@
       ]
     },
     {
+      "id": "86bb9w5xm",
+      "name": "Broken By The Scream @ SHIBUYA CYCLONE — Tokyo, Japan — Sep 24 2026",
+      "date": "2026-09-24",
+      "venue": "SHIBUYA CYCLONE",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — Japan-domestic show in Shibuya. SHIBUYA CYCLONE in Tokyo, Japan. Show date: Sep 24 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5xm",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb8y5mp",
       "name": "All Shall Perish + Carnifex — The Banyan Live, West Palm Beach FL — Sep 25, 2026",
       "date": "2026-09-25",
       "venue": "The Banyan Live",
-      "city": "West Palm Beach FL — Sep 25",
-      "country": "2026",
+      "city": "West Palm Beach",
+      "state": "FL",
       "bands": [
         "All Shall Perish",
         "Carnifex"
@@ -1457,10 +2431,11 @@
       "date": "2026-09-25",
       "venue": "Conduit",
       "city": "Winter Park (Orlando)",
-      "country": "FL — Sep 25 2026",
+      "state": "FL",
       "bands": [
         "Dopethrone",
-        "Fister"
+        "Fister",
+        "Crud"
       ],
       "description": "Bands: Dopethrone, Fister, Crud\nVenue: Conduit, Winter Park (Orlando), FL\nDate: Friday, September 25, 2026 — 7:00 PM\nTickets: TicketWeb, ~$27",
       "priority": "normal",
@@ -1475,10 +2450,11 @@
       "id": "86barcrkg",
       "name": "Rolling Quartz @ Pearl on Main — Salt Lake City, UT — Sep 25 2026",
       "date": "2026-09-25",
+      "venue": "Pearl on Main",
       "city": "Salt Lake City",
-      "country": "UT — Sep 25 2026",
+      "state": "UT",
       "bands": [
-        "Rolling Quartz @ Pearl on Main"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to Pearl on Main in Salt Lake City, UT. Korean hard-rock five-piece on the watch-list rotation. Show date: September 25, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -1508,12 +2484,69 @@
       ]
     },
     {
+      "id": "86bb9w630",
+      "name": "SiM @ Nagoya Diamond Hall — Nagoya, Japan — Sep 25 2026",
+      "date": "2026-09-25",
+      "venue": "Nagoya Diamond Hall",
+      "city": "Nagoya",
+      "country": "Japan",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL tour. Nagoya Diamond Hall in Nagoya, Japan. Show date: Sep 25 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w630",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4yn",
+      "name": "HANABIE. @ CLUB RIVERST — Niigata, Japan — Sep 25 2026",
+      "date": "2026-09-25",
+      "venue": "CLUB RIVERST",
+      "city": "Niigata",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. CLUB RIVERST in Niigata, Japan. Show date: Sep 25 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4yn",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4b9",
+      "name": "BABYMETAL @ Cynthia Woods Mitchell Pavilion — The Woodlands, TX — Sep 25 2026",
+      "date": "2026-09-25",
+      "venue": "Cynthia Woods Mitchell Pavilion",
+      "city": "The Woodlands",
+      "state": "TX",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. Cynthia Woods Mitchell Pavilion in The Woodlands, TX. Show date: Sep 25 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4b9",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb8y5qb",
       "name": "Volumes + Until I Wake — The Banyan Live, West Palm Beach FL — Sep 26, 2026",
       "date": "2026-09-26",
       "venue": "The Banyan Live",
-      "city": "West Palm Beach FL — Sep 26",
-      "country": "2026",
+      "city": "West Palm Beach",
+      "state": "FL",
       "bands": [
         "Volumes",
         "Until I Wake"
@@ -1564,13 +2597,52 @@
       ]
     },
     {
+      "id": "86bb9w4z9",
+      "name": "HANABIE. @ Hip Shot Japan — Koriyama, Japan — Sep 26 2026",
+      "date": "2026-09-26",
+      "venue": "Hip Shot Japan",
+      "city": "Koriyama",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. Hip Shot Japan in Koriyama, Japan. Show date: Sep 26 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4z9",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4br",
+      "name": "BABYMETAL @ Germania Insurance Amphitheater — Austin, TX — Sep 26 2026",
+      "date": "2026-09-26",
+      "venue": "Germania Insurance Amphitheater",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. Germania Insurance Amphitheater in Austin, TX. Show date: Sep 26 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4br",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcrkm",
       "name": "Rolling Quartz @ Cervantes — Denver, CO — Sep 27 2026",
       "date": "2026-09-27",
+      "venue": "Cervantes",
       "city": "Denver",
-      "country": "CO — Sep 27 2026",
+      "state": "CO",
       "bands": [
-        "Rolling Quartz @ Cervantes"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to Cervantes in Denver, CO. Korean hard-rock five-piece on the watch-list rotation. Show date: September 27, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -1582,13 +2654,33 @@
       ]
     },
     {
+      "id": "86bb9w63g",
+      "name": "SiM @ GORILLA HALL OSAKA — Osaka, Japan — Sep 28 2026",
+      "date": "2026-09-28",
+      "venue": "GORILLA HALL OSAKA",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL tour. GORILLA HALL OSAKA in Osaka, Japan. Show date: Sep 28 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w63g",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcrkr",
       "name": "Rolling Quartz @ 89th Street — Oklahoma City, OK — Sep 29 2026",
       "date": "2026-09-29",
+      "venue": "89th Street",
       "city": "Oklahoma City",
-      "country": "OK — Sep 29 2026",
+      "state": "OK",
       "bands": [
-        "Rolling Quartz @ 89th Street"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to 89th Street in Oklahoma City, OK. Korean hard-rock five-piece on the watch-list rotation. Show date: September 29, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -1600,13 +2692,33 @@
       ]
     },
     {
+      "id": "86bb9w4fr",
+      "name": "BABYMETAL @ Isleta Amphitheater — Albuquerque, NM — Sep 29 2026",
+      "date": "2026-09-29",
+      "venue": "Isleta Amphitheater",
+      "city": "Albuquerque",
+      "state": "NM",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — World Tour 2026. Isleta Amphitheater in Albuquerque, NM. Show date: Sep 29 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4fr",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcrkz",
       "name": "Rolling Quartz @ The Jam Spot — Albuquerque, NM — Oct 1 2026",
       "date": "2026-10-01",
+      "venue": "The Jam Spot",
       "city": "Albuquerque",
-      "country": "NM — Oct 1 2026",
+      "state": "NM",
       "bands": [
-        "Rolling Quartz @ The Jam Spot"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to The Jam Spot in Albuquerque, NM. Korean hard-rock five-piece on the watch-list rotation. Show date: October 1, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -1656,6 +2768,24 @@
       ]
     },
     {
+      "id": "86bba6hu7",
+      "name": "LOVEBITES @ Esplanade Annexe Studio — Singapore — Oct 2 2026",
+      "date": "2026-10-02",
+      "city": "Esplanade Annexe Studio",
+      "country": "Singapore",
+      "bands": [
+        "LOVEBITES"
+      ],
+      "description": "Outstanding Tour 2026 — Singapore. The first date after the Japan leg wraps at Zepp Haneda on Sep 26.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6hu7",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86ban5v5q",
       "name": "Hammerfall w/ Evergrey, Elvenking — Whisky a Go Go, West Hollywood CA",
       "date": "2026-10-02",
@@ -1676,13 +2806,33 @@
       ]
     },
     {
+      "id": "86bb9w4zz",
+      "name": "HANABIE. @ Mito LIGHT HOUSE — Mito, Japan — Oct 2 2026",
+      "date": "2026-10-02",
+      "venue": "Mito LIGHT HOUSE",
+      "city": "Mito",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. Mito LIGHT HOUSE in Mito, Japan. Show date: Oct 2 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4zz",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcrmm",
       "name": "Rolling Quartz @ The Rock Box — San Antonio, TX — Oct 3 2026",
       "date": "2026-10-03",
+      "venue": "The Rock Box",
       "city": "San Antonio",
-      "country": "TX — Oct 3 2026",
+      "state": "TX",
       "bands": [
-        "Rolling Quartz @ The Rock Box"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to The Rock Box in San Antonio, TX. Korean hard-rock five-piece on the watch-list rotation. Show date: October 3, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -1691,6 +2841,83 @@
       "clickupUrl": "https://app.clickup.com/t/86barcrmm",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5xz",
+      "name": "Broken By The Scream @ THE GAME — Tokyo, Japan — Oct 3 2026",
+      "date": "2026-10-03",
+      "venue": "THE GAME",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — Japan-domestic show in Shibuya. THE GAME in Tokyo, Japan. Show date: Oct 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5xz",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5t2",
+      "name": "TRiDENT @ UNIT — Tokyo, Japan — Oct 3 2026",
+      "date": "2026-10-03",
+      "venue": "UNIT",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "TRiDENT"
+      ],
+      "description": "TRiDENT — TRiDENT x NEK! KYOZON show in Shibuya. UNIT in Tokyo, Japan. Show date: Oct 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5t2",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4mk",
+      "name": "BAND-MAID @ The Vic Theatre — Chicago, IL — Oct 3 2026",
+      "date": "2026-10-03",
+      "venue": "The Vic Theatre",
+      "city": "Chicago",
+      "state": "IL",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — World Tour 2026 NA leg opener. The Vic Theatre in Chicago, IL. Show date: Oct 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4mk",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4g7",
+      "name": "BABYMETAL @ Aftershock Festival (Discovery Park) — Sacramento, CA — Oct 3 2026",
+      "date": "2026-10-03",
+      "venue": "Aftershock Festival (Discovery Park)",
+      "city": "Sacramento",
+      "state": "CA",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — NA leg finale; festival set. Aftershock Festival (Discovery Park) in Sacramento, CA. Show date: Oct 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4g7",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
       ]
     },
     {
@@ -1730,13 +2957,33 @@
       ]
     },
     {
+      "id": "86bb9w4n2",
+      "name": "BAND-MAID @ The Paramount — Huntington, NY — Oct 5 2026",
+      "date": "2026-10-05",
+      "venue": "The Paramount",
+      "city": "Huntington",
+      "state": "NY",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — World Tour 2026 NA leg. The Paramount in Huntington, NY. Show date: Oct 5 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4n2",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcrn2",
       "name": "Rolling Quartz @ Rockefellers — Houston, TX — Oct 6 2026",
       "date": "2026-10-06",
+      "venue": "Rockefellers",
       "city": "Houston",
-      "country": "TX — Oct 6 2026",
+      "state": "TX",
       "bands": [
-        "Rolling Quartz @ Rockefellers"
+        "Rolling Quartz"
       ],
       "description": "Rolling Quartz bring their MY TURN North America tour to Rockefellers in Houston, TX. Korean hard-rock five-piece on the watch-list rotation. Show date: October 6, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
       "priority": "normal",
@@ -1748,16 +2995,36 @@
       ]
     },
     {
+      "id": "86bb9w4nb",
+      "name": "BAND-MAID @ Buckhead Theatre — Atlanta, GA — Oct 7 2026",
+      "date": "2026-10-07",
+      "venue": "Buckhead Theatre",
+      "city": "Atlanta",
+      "state": "GA",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — World Tour 2026 NA leg. Buckhead Theatre in Atlanta, GA. Show date: Oct 7 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4nb",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb0uvjq",
       "name": "Spite + Stick To Your Guns + No Cure + Vomit Forth @ Come and Take It Live — Austin, TX — Oct 8 2026",
       "date": "2026-10-08",
       "venue": "Come and Take It Live",
       "city": "Austin",
-      "country": "TX — Oct 8 2026",
+      "state": "TX",
       "bands": [
         "Spite",
         "Stick To Your Guns",
-        "No Cure"
+        "No Cure",
+        "Vomit Forth"
       ],
       "description": "Bands: Spite, Stick To Your Guns, No Cure, Vomit Forth (Stygoc also on the routing)\nVenue: Come and Take It Live, Austin, TX\nDate: Thursday, October 8, 2026",
       "priority": "normal",
@@ -1772,10 +3039,11 @@
       "id": "86bb1uzkt",
       "name": "Mad Pit Fes 2026 (JILUKA presents) @ Club Citta' — Kawasaki, Japan — Oct 9 2026",
       "date": "2026-10-09",
+      "venue": "Club Citta'",
       "city": "Kawasaki",
-      "country": "Japan — Oct 9 2026",
+      "country": "Japan",
       "bands": [
-        "Mad Pit Fes 2026 (JILUKA presents) @ Club Citta'"
+        "Mad Pit Fes 2026 (JILUKA presents)"
       ],
       "description": "JILUKA-curated festival, and the first Mad Pit to run a double-stage format (Mad Stage / Overkill Stage). Deep watch-list presence on the bill.",
       "priority": "normal",
@@ -1792,8 +3060,10 @@
       "date": "2026-10-09",
       "venue": "Hard Rock Live",
       "city": "Orlando",
-      "country": "FL — Oct 9 2026",
-      "bands": [],
+      "state": "FL",
+      "bands": [
+        "Slaughter to Prevail"
+      ],
       "description": "Slaughter to Prevail bring their 2026 North American headline run to Hard Rock Live in Orlando on Friday, October 9, 2026, 8:00 PM. Support from Rev3rent and DJ Paul. The Florida stop on the band's final North American shows of 2026. Tickets on sale July 17. (Announcement via…",
       "priority": "normal",
       "isRelease": false,
@@ -1821,20 +3091,97 @@
       ]
     },
     {
-      "id": "86bb8y5ur",
-      "name": "NEMOPHILA — \"Ten Fes\" (天壌無窮極音道中) — EX Theater Roppongi, Tokyo — Oct 12, 2026",
-      "date": "2026-10-12",
-      "venue": "\"Ten Fes\" (天壌無窮極音道中) — EX Theater Roppongi",
-      "city": "Tokyo — Oct 12",
-      "country": "2026",
+      "id": "86bb9w50k",
+      "name": "HANABIE. @ Cave-Be — Hiroshima, Japan — Oct 9 2026",
+      "date": "2026-10-09",
+      "venue": "Cave-Be",
+      "city": "Hiroshima",
+      "country": "Japan",
       "bands": [
-        "NEMOPHILA"
+        "HANABIE."
       ],
-      "description": "NEMOPHILA host their first-ever all-female band taiban, \"Ten Fes\" (天壌無窮極音道中), at EX Theater Roppongi in Tokyo — Monday, Oct 12, 2026. The event is built entirely around female-fronted and all-female bands in Japan's heavy scene. Confirmed lineup: NEMOPHILA, East Of Eden, NEK!,…",
-      "priority": "high",
+      "description": "HANABIE. — Japan 2MAN Tour 2026. Cave-Be in Hiroshima, Japan. Show date: Oct 9 2026.",
+      "priority": "normal",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb8y5ur",
+      "clickupUrl": "https://app.clickup.com/t/86bb9w50k",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4nn",
+      "name": "BAND-MAID @ House of Blues — Dallas, TX — Oct 9 2026",
+      "date": "2026-10-09",
+      "venue": "House of Blues",
+      "city": "Dallas",
+      "state": "TX",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — World Tour 2026 NA leg. House of Blues in Dallas, TX. Show date: Oct 9 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4nn",
+      "buckets": [
+        "florida-metal-scene",
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w50y",
+      "name": "HANABIE. @ X-pt — Kochi, Japan — Oct 10 2026",
+      "date": "2026-10-10",
+      "venue": "X-pt",
+      "city": "Kochi",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. X-pt in Kochi, Japan. Show date: Oct 10 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w50y",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5gv",
+      "name": "ZILQY @ Kashiwa PALOOZA — Kashiwa, Japan — Oct 11 2026",
+      "date": "2026-10-11",
+      "venue": "Kashiwa PALOOZA",
+      "city": "Kashiwa",
+      "country": "Japan",
+      "bands": [
+        "ZILQY"
+      ],
+      "description": "ZILQY — Birth of Riot tour opener. Kashiwa PALOOZA in Kashiwa, Japan. Show date: Oct 11 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5gv",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbabm3n",
+      "name": "TRiDENT @ EX THEATER ROPPONGI (NEMOPHILA Ten-Fes) — Tokyo, Japan — Oct 12 2026",
+      "date": "2026-10-12",
+      "venue": "EX THEATER ROPPONGI (NEMOPHILA Ten-Fes)",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "TRiDENT"
+      ],
+      "description": "TRiDENT — playing NEMOPHILA's hosted Ten-Fes alongside East Of Eden and NEK!. EX THEATER ROPPONGI in Tokyo, Japan. Show date: Oct 12 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbabm3n",
       "buckets": [
         "japanese-metal"
       ]
@@ -1860,12 +3207,69 @@
       ]
     },
     {
+      "id": "86bb9w5ze",
+      "name": "FATE GEAR @ Tachikawa Bakuon-sai — Tachikawa, Japan — Oct 12 2026",
+      "date": "2026-10-12",
+      "venue": "Tachikawa Bakuon-sai",
+      "city": "Tachikawa",
+      "country": "Japan",
+      "bands": [
+        "FATE GEAR"
+      ],
+      "description": "FATE GEAR — Japan-domestic festival date. Tachikawa Bakuon-sai in Tachikawa, Japan. Show date: Oct 12 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5ze",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5h8",
+      "name": "ZILQY @ Sendai LIVE & CLUB MACANA — Sendai, Japan — Oct 12 2026",
+      "date": "2026-10-12",
+      "venue": "Sendai LIVE & CLUB MACANA",
+      "city": "Sendai",
+      "country": "Japan",
+      "bands": [
+        "ZILQY"
+      ],
+      "description": "ZILQY — Birth of Riot tour. Sendai LIVE & CLUB MACANA in Sendai, Japan. Show date: Oct 12 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5h8",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4pp",
+      "name": "BAND-MAID @ The Wiltern — Los Angeles, CA — Oct 12 2026",
+      "date": "2026-10-12",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — World Tour 2026 NA leg. The Wiltern in Los Angeles, CA. Show date: Oct 12 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4pp",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb8y5rq",
       "name": "Spite + Stygoc — The Banyan Live, West Palm Beach FL — Oct 13, 2026",
       "date": "2026-10-13",
       "venue": "The Banyan Live",
-      "city": "West Palm Beach FL — Oct 13",
-      "country": "2026",
+      "city": "West Palm Beach",
+      "state": "FL",
       "bands": [
         "Spite",
         "Stygoc"
@@ -1880,20 +3284,42 @@
       ]
     },
     {
-      "id": "86bazd4r9",
-      "name": "Spite @ The Banyan Live — West Palm Beach, FL — Oct 13 2026",
-      "date": "2026-10-13",
-      "venue": "Banyan Live",
-      "city": "West Palm Beach",
-      "country": "FL — Oct 13 2026",
-      "bands": [],
-      "description": "Spite headline The Banyan Live, West Palm Beach, on their US fall run.",
+      "id": "86bba6hge",
+      "name": "Voivod + BAT @ The Abbey — Orlando, FL — Oct 14 2026",
+      "date": "2026-10-14",
+      "venue": "The Abbey",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Voivod",
+        "BAT"
+      ],
+      "description": "American Tour 2026 Part 2.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bazd4r9",
+      "clickupUrl": "https://app.clickup.com/t/86bba6hge",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bb9w4q1",
+      "name": "BAND-MAID @ The Van Buren — Phoenix, AZ — Oct 14 2026",
+      "date": "2026-10-14",
+      "venue": "The Van Buren",
+      "city": "Phoenix",
+      "state": "AZ",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — World Tour 2026 NA leg. The Van Buren in Phoenix, AZ. Show date: Oct 14 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4q1",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -1915,15 +3341,73 @@
       ]
     },
     {
+      "id": "86bb9w51b",
+      "name": "HANABIE. @ CLUB ROOTS — Gifu, Japan — Oct 17 2026",
+      "date": "2026-10-17",
+      "venue": "CLUB ROOTS",
+      "city": "Gifu",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. CLUB ROOTS in Gifu, Japan. Show date: Oct 17 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w51b",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4qd",
+      "name": "BAND-MAID @ Pabellon Oeste — Mexico City, Mexico — Oct 17 2026",
+      "date": "2026-10-17",
+      "venue": "Pabellon Oeste",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — World Tour 2026 NA leg finale. Pabellon Oeste in Mexico City, Mexico. Show date: Oct 17 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4qd",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w51q",
+      "name": "HANABIE. @ Nagoya ReNY limited — Nagoya, Japan — Oct 18 2026",
+      "date": "2026-10-18",
+      "venue": "Nagoya ReNY limited",
+      "city": "Nagoya",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. Nagoya ReNY limited in Nagoya, Japan. Show date: Oct 18 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w51q",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86barcve9",
       "name": "Dying Fetus + Crowbar + Left to Suffer @ Jannus Landing — St. Petersburg, FL — Oct 20 2026",
       "date": "2026-10-20",
+      "venue": "Jannus Landing",
       "city": "St. Petersburg",
-      "country": "FL — Oct 20 2026",
+      "state": "FL",
       "bands": [
         "Dying Fetus",
         "Crowbar",
-        "Left to Suffer @ Jannus Landing"
+        "Left to Suffer"
       ],
       "description": "Dying Fetus and Crowbar co-headline with Left to Suffer (plus Deterioration) at Jannus Landing in St. Petersburg, FL. Death metal / sludge package tour. Show date: October 20, 2026. Surfaced from the saved concerts feed; Florida stop pulled from the tour's full routing.",
       "priority": "normal",
@@ -1995,13 +3479,113 @@
       ]
     },
     {
+      "id": "86bb9w5j8",
+      "name": "ZILQY @ Kobe VARIT. — Kobe, Japan — Oct 24 2026",
+      "date": "2026-10-24",
+      "venue": "Kobe VARIT.",
+      "city": "Kobe",
+      "country": "Japan",
+      "bands": [
+        "ZILQY"
+      ],
+      "description": "ZILQY — Birth of Riot tour. Kobe VARIT. in Kobe, Japan. Show date: Oct 24 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5j8",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4wx",
+      "name": "LOVEBITES @ Pia Arena MM — Yokohama, Japan — Oct 24 2026",
+      "date": "2026-10-24",
+      "venue": "Pia Arena MM",
+      "city": "Yokohama",
+      "country": "Japan",
+      "bands": [
+        "LOVEBITES"
+      ],
+      "description": "LOVEBITES — Full Metal Japan 2026 (the Wacken-affiliated festival), Day 1. Pia Arena MM in Yokohama, Japan. Show date: Oct 24 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4wx",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5jm",
+      "name": "ZILQY @ Nagoya ell.FITS ALL — Nagoya, Japan — Oct 25 2026",
+      "date": "2026-10-25",
+      "venue": "Nagoya ell.FITS ALL",
+      "city": "Nagoya",
+      "country": "Japan",
+      "bands": [
+        "ZILQY"
+      ],
+      "description": "ZILQY — Birth of Riot tour. Nagoya ell.FITS ALL in Nagoya, Japan. Show date: Oct 25 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5jm",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bba6hmx",
+      "name": "Peeling Flesh + Gridiron + Final Resting Place + Two Piece + Grounds for Assault @ The Banyan Live — West Palm Beach, FL — Oct 29 2026",
+      "date": "2026-10-29",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Peeling Flesh",
+        "Gridiron",
+        "Final Resting Place",
+        "Two Piece",
+        "Grounds for Assault"
+      ],
+      "description": "Peeling Flesh brings a five-deep hardcore and slam bill to South Florida.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6hmx",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bb9w526",
+      "name": "HANABIE. @ BIG CAT — Osaka, Japan — Oct 30 2026",
+      "date": "2026-10-30",
+      "venue": "BIG CAT",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. BIG CAT in Osaka, Japan. Show date: Oct 30 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w526",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bawvp7w",
       "name": "Sounds Of Brutality Fest 2026 @ Hardlove Company — Jacksonville, FL — Oct 31–Nov 1 2026",
       "date": "2026-10-31",
+      "venue": "Hardlove Company",
       "city": "Jacksonville",
-      "country": "FL — Oct 31–Nov 1 2026",
+      "country": "FL — Oct 31",
       "bands": [
-        "Sounds Of Brutality Fest 2026 @ Hardlove Company"
+        "Sounds Of Brutality Fest 2026"
       ],
       "description": "Two-day, 40-band metal festival at Hardlove Company in Jacksonville — headlined by Maruder (NYC) with Florida's own Longpig among the lineup. Brought to you by Kingside Records.",
       "priority": "normal",
@@ -2011,6 +3595,44 @@
       "buckets": [
         "florida-metal-scene",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bb9w52r",
+      "name": "HANABIE. @ Hamamatsu FORCE — Hamamatsu, Japan — Nov 1 2026",
+      "date": "2026-11-01",
+      "venue": "Hamamatsu FORCE",
+      "city": "Hamamatsu",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. Hamamatsu FORCE in Hamamatsu, Japan. Show date: Nov 1 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w52r",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4r4",
+      "name": "BAND-MAID @ COMTEC PORTBASE — Nagoya, Japan — Nov 1 2026",
+      "date": "2026-11-01",
+      "venue": "COMTEC PORTBASE",
+      "city": "Nagoya",
+      "country": "Japan",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — Japan show after US tour, before Budokan. COMTEC PORTBASE in Nagoya, Japan. Show date: Nov 1 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4r4",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -2029,6 +3651,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baqty2u",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4t0",
+      "name": "BAND-MAID @ Namba Hatch — Osaka, Japan — Nov 3 2026",
+      "date": "2026-11-03",
+      "venue": "Namba Hatch",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — Japan show; presale nearly sold out. Namba Hatch in Osaka, Japan. Show date: Nov 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4t0",
       "buckets": [
         "japanese-metal"
       ]
@@ -2053,38 +3694,18 @@
       ]
     },
     {
-      "id": "86bb8y5k9",
-      "name": "Trivium + In Flames — Jannus Live, St. Petersburg FL — Nov 5, 2026",
-      "date": "2026-11-05",
-      "venue": "Jannus Live",
-      "city": "St. Petersburg FL — Nov 5",
-      "country": "2026",
-      "bands": [
-        "Trivium",
-        "In Flames"
-      ],
-      "description": "Trivium bring the Crown in the Grave World Tour to Jannus Live in St. Petersburg, with In Flames co-headlining — Thursday, Nov 5, 2026, doors 5:30 PM. Two heavyweight names on one Florida stage; VIP, Crown in the Grave, and meet-and-greet packages available (both Trivium and In…",
-      "ticketUrl": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-st-petersburg-florida-11-05-2026/event/0D0064EE9B1C73B2",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb8y5k9",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bb1uzjx",
       "name": "Trivium + In Flames + Orbit Culture + Fit For An Autopsy + Frozen Soul @ Jannus Live — St. Petersburg, FL — Nov 5 2026",
       "date": "2026-11-05",
       "venue": "Jannus Live",
       "city": "St. Petersburg",
-      "country": "FL — Nov 5 2026",
+      "state": "FL",
       "bands": [
         "Trivium",
         "In Flames",
         "Orbit Culture",
-        "Fit For An Autopsy"
+        "Fit For An Autopsy",
+        "Frozen Soul"
       ],
       "description": "Opening night of Trivium's fall 2026 North American headline tour — and it lands in their home state. Trivium headline, with In Flames, Orbit Culture, Fit For An Autopsy and Frozen Soul in support. Orbit Culture is on the first stretch of dates, this one included.",
       "priority": "normal",
@@ -2099,8 +3720,8 @@
       "id": "86barcvpd",
       "name": "Motionless In White — The Sweat and Blood Tour @ Kia Center — Orlando, FL — Nov 5 2026",
       "date": "2026-11-05",
-      "city": "The Sweat and Blood Tour @ Kia Center — Orlando",
-      "country": "FL — Nov 5 2026",
+      "venue": "The Sweat and Blood Tour @ Kia Center — Orlando",
+      "state": "FL",
       "bands": [
         "Motionless In White"
       ],
@@ -2117,8 +3738,8 @@
       "id": "86bavn8wy",
       "name": "Trapt — 25th Anniversary Tour @ Guadalajara Night Club — Fort Pierce, FL — Nov 6 2026",
       "date": "2026-11-06",
-      "city": "25th Anniversary Tour @ Guadalajara Night Club — Fort Pierce",
-      "country": "FL — Nov 6 2026",
+      "venue": "25th Anniversary Tour @ Guadalajara Night Club — Fort Pierce",
+      "state": "FL",
       "bands": [
         "Trapt"
       ],
@@ -2135,8 +3756,8 @@
       "id": "86bavn8zj",
       "name": "Mosh For Tots 2026 — Evergreen Terrace + Tony Danza Tap Dance Extravaganza + Filth @ District Live — Savannah, GA — Nov 7 2026",
       "date": "2026-11-07",
-      "city": "Evergreen Terrace + Tony Danza Tap Dance Extravaganza + Filth @ District Live — Savannah",
-      "country": "GA — Nov 7 2026",
+      "venue": "Evergreen Terrace + Tony Danza Tap Dance Extravaganza + Filth @ District Live — Savannah",
+      "state": "GA",
       "bands": [
         "Mosh For Tots 2026"
       ],
@@ -2147,6 +3768,44 @@
       "clickupUrl": "https://app.clickup.com/t/86bavn8zj",
       "buckets": [
         "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bb9w53a",
+      "name": "HANABIE. @ BESSIE HALL — Sapporo, Japan — Nov 7 2026",
+      "date": "2026-11-07",
+      "venue": "BESSIE HALL",
+      "city": "Sapporo",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. BESSIE HALL in Sapporo, Japan. Show date: Nov 7 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w53a",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w546",
+      "name": "HANABIE. @ ELLCUBE — Tomakomai, Japan — Nov 8 2026",
+      "date": "2026-11-08",
+      "venue": "ELLCUBE",
+      "city": "Tomakomai",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. ELLCUBE in Tomakomai, Japan. Show date: Nov 8 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w546",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -2213,6 +3872,44 @@
       ]
     },
     {
+      "id": "86bb9w555",
+      "name": "HANABIE. @ SR-HALL — Kagoshima, Japan — Nov 13 2026",
+      "date": "2026-11-13",
+      "venue": "SR-HALL",
+      "city": "Kagoshima",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. SR-HALL in Kagoshima, Japan. Show date: Nov 13 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w555",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4td",
+      "name": "BAND-MAID @ Nippon Budokan — Tokyo, Japan — Nov 13 2026",
+      "date": "2026-11-13",
+      "venue": "Nippon Budokan",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — World Tour 2026 FINAL night 1 (opener NEK!). Nippon Budokan in Tokyo, Japan. Show date: Nov 13 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4td",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86baqu75x",
       "name": "Hammer and Nail Fest — TBD Florida venue",
       "date": "2026-11-14",
@@ -2246,6 +3943,124 @@
       "clickupUrl": "https://app.clickup.com/t/86bammf4p",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5yt",
+      "name": "Broken By The Scream @ HOLIDAYNEXT — Nagoya, Japan — Nov 14 2026",
+      "date": "2026-11-14",
+      "venue": "HOLIDAYNEXT",
+      "city": "Nagoya",
+      "country": "Japan",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — tour closer. HOLIDAYNEXT in Nagoya, Japan. Show date: Nov 14 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5yt",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5jz",
+      "name": "ZILQY @ Fukuoka INSA — Fukuoka, Japan — Nov 14 2026",
+      "date": "2026-11-14",
+      "venue": "Fukuoka INSA",
+      "city": "Fukuoka",
+      "country": "Japan",
+      "bands": [
+        "ZILQY"
+      ],
+      "description": "ZILQY — Birth of Riot tour night 1. Fukuoka INSA in Fukuoka, Japan. Show date: Nov 14 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5jz",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w55v",
+      "name": "HANABIE. @ OP's — Fukuoka, Japan — Nov 14 2026",
+      "date": "2026-11-14",
+      "venue": "OP's",
+      "city": "Fukuoka",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. OP's in Fukuoka, Japan. Show date: Nov 14 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w55v",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4tx",
+      "name": "BAND-MAID @ Nippon Budokan — Tokyo, Japan — Nov 14 2026",
+      "date": "2026-11-14",
+      "venue": "Nippon Budokan",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID — World Tour 2026 FINAL night 2, last show before hiatus (returns for 15th anniversary 2028). Nippon Budokan in Tokyo, Japan. Show date: Nov 14 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4tx",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5kk",
+      "name": "ZILQY @ Fukuoka INSA — Fukuoka, Japan — Nov 15 2026",
+      "date": "2026-11-15",
+      "venue": "Fukuoka INSA",
+      "city": "Fukuoka",
+      "country": "Japan",
+      "bands": [
+        "ZILQY"
+      ],
+      "description": "ZILQY — Birth of Riot tour night 2. Fukuoka INSA in Fukuoka, Japan. Show date: Nov 15 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5kk",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bba6hpj",
+      "name": "Pain of Truth + Madball + Rotting Out + Contention + xForever Warx @ Lincoln's Beard Brewing — Miami, FL — Nov 16 2026",
+      "date": "2026-11-16",
+      "venue": "Lincoln's Beard Brewing",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Pain of Truth",
+        "Madball",
+        "Rotting Out",
+        "Contention",
+        "xForever Warx"
+      ],
+      "description": "Pain of Truth's North America 2026 run hits Miami with a stacked hardcore support bill.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6hpj",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2328,22 +4143,6 @@
       ]
     },
     {
-      "id": "86ba5zfmv",
-      "name": "DragonForce in Tampa",
-      "date": "2026-11-21",
-      "bands": [
-        "DragonForce in Tampa"
-      ],
-      "description": "DragonForce concert in Tampa. Saturday November 21, 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86ba5zfmv",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86baqty2q",
       "name": "SiM — The Belasco, Los Angeles CA",
       "date": "2026-11-22",
@@ -2383,6 +4182,139 @@
       ]
     },
     {
+      "id": "86bb9w5m5",
+      "name": "ZILQY @ OSAKA MUSE — Osaka, Japan — Nov 28 2026",
+      "date": "2026-11-28",
+      "venue": "OSAKA MUSE",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "ZILQY"
+      ],
+      "description": "ZILQY — Birth of Riot tour. OSAKA MUSE in Osaka, Japan. Show date: Nov 28 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5m5",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w56v",
+      "name": "HANABIE. @ Rensa — Sendai, Japan — Nov 28 2026",
+      "date": "2026-11-28",
+      "venue": "Rensa",
+      "city": "Sendai",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. Rensa in Sendai, Japan. Show date: Nov 28 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w56v",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4gn",
+      "name": "BABYMETAL @ Espaco Unimed — Sao Paulo, Brazil — Nov 28 2026",
+      "date": "2026-11-28",
+      "venue": "Espaco Unimed",
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — Latin American leg opener. Espaco Unimed in Sao Paulo, Brazil. Show date: Nov 28 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4gn",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w57m",
+      "name": "HANABIE. @ the five morioka — Morioka, Japan — Nov 29 2026",
+      "date": "2026-11-29",
+      "venue": "the five morioka",
+      "city": "Morioka",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026. the five morioka in Morioka, Japan. Show date: Nov 29 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w57m",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4gy",
+      "name": "BABYMETAL @ Movistar Arena — Buenos Aires, Argentina — Dec 1 2026",
+      "date": "2026-12-01",
+      "venue": "Movistar Arena",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — Latin American leg. Movistar Arena in Buenos Aires, Argentina. Show date: Dec 1 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4gy",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4h8",
+      "name": "BABYMETAL @ Movistar Arena — Santiago, Chile — Dec 3 2026",
+      "date": "2026-12-03",
+      "venue": "Movistar Arena",
+      "city": "Santiago",
+      "country": "Chile",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — Latin American leg. Movistar Arena in Santiago, Chile. Show date: Dec 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4h8",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4j1",
+      "name": "BABYMETAL @ Costa 21 — Lima, Peru — Dec 7 2026",
+      "date": "2026-12-07",
+      "venue": "Costa 21",
+      "city": "Lima",
+      "country": "Peru",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — Latin American leg. Costa 21 in Lima, Peru. Show date: Dec 7 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4j1",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86b9b7q2u",
       "name": "Metallica — M72 World Tour 2026 — Miami, FL",
       "date": "2026-12-08",
@@ -2419,11 +4351,68 @@
       ]
     },
     {
+      "id": "86bb9w585",
+      "name": "HANABIE. @ Zepp Shinjuku — Tokyo, Japan — Dec 12 2026",
+      "date": "2026-12-12",
+      "venue": "Zepp Shinjuku",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. — Japan 2MAN Tour 2026 finale. Zepp Shinjuku in Tokyo, Japan. Show date: Dec 12 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w585",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w4je",
+      "name": "BABYMETAL @ Estadio Fray Nano — Mexico City, Mexico — Dec 12 2026",
+      "date": "2026-12-12",
+      "venue": "Estadio Fray Nano",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "bands": [
+        "BABYMETAL"
+      ],
+      "description": "BABYMETAL — Latin American leg finale. Estadio Fray Nano in Mexico City, Mexico. Show date: Dec 12 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w4je",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5n1",
+      "name": "ZILQY @ Zepp Shinjuku — Tokyo, Japan — Dec 16 2026",
+      "date": "2026-12-16",
+      "venue": "Zepp Shinjuku",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "ZILQY"
+      ],
+      "description": "ZILQY — Birth of Riot tour finale. Zepp Shinjuku in Tokyo, Japan. Show date: Dec 16 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5n1",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bavn8xh",
       "name": "Green Jelly — 45th Anniversary Tour @ Guadalajara Night Club — Fort Pierce, FL — Dec 17 2026",
       "date": "2026-12-17",
-      "city": "45th Anniversary Tour @ Guadalajara Night Club — Fort Pierce",
-      "country": "FL — Dec 17 2026",
+      "venue": "45th Anniversary Tour @ Guadalajara Night Club — Fort Pierce",
+      "state": "FL",
       "bands": [
         "Green Jelly"
       ],
@@ -2440,10 +4429,11 @@
       "id": "86bavn8yu",
       "name": "Green Jelly @ West End Trading Co — Sanford, FL — Dec 18 2026",
       "date": "2026-12-18",
+      "venue": "West End Trading Co",
       "city": "Sanford",
-      "country": "FL — Dec 18 2026",
+      "state": "FL",
       "bands": [
-        "Green Jelly @ West End Trading Co"
+        "Green Jelly"
       ],
       "description": "Green Jelly (Green Jello) at West End Trading Co, Sanford FL.\nDate: December 18, 2026 (rescheduled date). Second night of Green Jelly's Florida pairing (Fort Pierce Dec 17).",
       "priority": "normal",
@@ -2477,11 +4467,12 @@
       "id": "86bb0uvk0",
       "name": "Gladio Tempus + Eternal Warrior @ Kelly's Pub — Fort Lauderdale, FL — Dec 22 2026",
       "date": "2026-12-22",
+      "venue": "Kelly's Pub",
       "city": "Fort Lauderdale",
-      "country": "FL — Dec 22 2026",
+      "state": "FL",
       "bands": [
         "Gladio Tempus",
-        "Eternal Warrior @ Kelly's Pub"
+        "Eternal Warrior"
       ],
       "description": "Bands: Gladio Tempus (Brazilian thrash metal), Eternal Warrior (South Florida thrash metal)\nVenue: Kelly's Pub, 3045 N Federal Hwy, Fort Lauderdale, FL\nDate: Tuesday, December 22, 2026 — doors 8:00 PM, showtime 9:00 PM\nTickets: $20",
       "priority": "normal",
@@ -2527,6 +4518,25 @@
       ]
     },
     {
+      "id": "86bb9w5u7",
+      "name": "TRiDENT @ Nagoya Jammin' — Nagoya, Japan — Jan 9 2027",
+      "date": "2027-01-09",
+      "venue": "Nagoya Jammin'",
+      "city": "Nagoya",
+      "country": "Japan",
+      "bands": [
+        "TRiDENT"
+      ],
+      "description": "TRiDENT — Yeeet! TOUR 2027, Aichi date. Nagoya Jammin' in Nagoya, Japan. Show date: Jan 9 2027.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5u7",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86baaae1w",
       "name": "Yo-Yo Ma + Solon Gordon — Knight Concert Hall, Arsht Center, Miami FL",
       "date": "2027-01-10",
@@ -2544,6 +4554,44 @@
       "clickupUrl": "https://app.clickup.com/t/86baaae1w",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bb9w5uk",
+      "name": "TRiDENT @ Muse Box — Osaka, Japan — Jan 16 2027",
+      "date": "2027-01-16",
+      "venue": "Muse Box",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "TRiDENT"
+      ],
+      "description": "TRiDENT — Yeeet! TOUR 2027, Osaka date. Muse Box in Osaka, Japan. Show date: Jan 16 2027.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5uk",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bb9w5uz",
+      "name": "TRiDENT @ LIQUIDROOM — Tokyo, Japan — Feb 13 2027",
+      "date": "2027-02-13",
+      "venue": "LIQUIDROOM",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "TRiDENT"
+      ],
+      "description": "TRiDENT — Yeeet! TOUR 2027, Tokyo date (Shibuya). LIQUIDROOM in Tokyo, Japan. Show date: Feb 13 2027.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bb9w5uz",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -2596,6 +4644,54 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb0y3ah",
       "buckets": []
+    },
+    {
+      "id": "86bba6hve",
+      "name": "Keiko Terada Birthday SHOW-YA",
+      "date": "2027-07-27",
+      "bands": [
+        "Keiko Terada Birthday SHOW-YA"
+      ],
+      "description": "RECURRING ANNUAL — July 27",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6hve",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bba6j01",
+      "name": "Haruna Birthday PARADOXX",
+      "date": "2027-07-28",
+      "bands": [
+        "Haruna Birthday PARADOXX"
+      ],
+      "description": "RECURRING ANNUAL — July 28",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6j01",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bba6j16",
+      "name": "Yayoi Birthday Broken by the Scream",
+      "date": "2027-08-07",
+      "bands": [
+        "Yayoi Birthday Broken by the Scream"
+      ],
+      "description": "RECURRING ANNUAL — August 7",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bba6j16",
+      "buckets": [
+        "japanese-metal"
+      ]
     }
   ]
 }
