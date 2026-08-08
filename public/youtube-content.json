@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-08-07T07:00:42.342Z",
+  "fetchedAt": "2026-08-08T07:00:51.687Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 141000,
-      "videoCount": 232,
+      "videoCount": 234,
       "recentLongform": [
+        {
+          "id": "LBYXZyPJcoI",
+          "title": "Broken by the Scream | Question #2 | The TMC Interview",
+          "publishedAt": "2026-08-08T02:46:36Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/LBYXZyPJcoI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/LBYXZyPJcoI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/LBYXZyPJcoI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/LBYXZyPJcoI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/LBYXZyPJcoI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M18S",
+          "durationSeconds": 78
+        },
         {
           "id": "yAIDSwAyFIk",
           "title": "RE:O | London Metal | Part 1 TMC Interview",
@@ -313,43 +347,43 @@
           },
           "duration": "PT19M40S",
           "durationSeconds": 1180
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "cjhBrmSzQ5g",
-          "title": "Medic | Miami Metal #metal #metalhead",
-          "publishedAt": "2026-07-20T21:39:17Z",
+          "id": "EHNpEqIHMqk",
+          "title": "Nemophila News | Send Your Love",
+          "publishedAt": "2026-08-08T01:06:19Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/cjhBrmSzQ5g/default.jpg",
+              "url": "https://i.ytimg.com/vi/EHNpEqIHMqk/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/cjhBrmSzQ5g/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/EHNpEqIHMqk/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/cjhBrmSzQ5g/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/EHNpEqIHMqk/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/cjhBrmSzQ5g/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/EHNpEqIHMqk/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/cjhBrmSzQ5g/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/EHNpEqIHMqk/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT2M10S",
-          "durationSeconds": 130
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT49S",
+          "durationSeconds": 49
+        },
         {
           "id": "HxMyRXqwna0",
           "title": "Nemophila | Zen | Best Metal Song",
@@ -791,40 +825,6 @@
           },
           "duration": "PT38S",
           "durationSeconds": 38
-        },
-        {
-          "id": "45jxyF5WEpE",
-          "title": "Nemophila Loves The Music Cities! and Texas BBQ",
-          "publishedAt": "2026-07-21T01:36:15Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/45jxyF5WEpE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/45jxyF5WEpE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/45jxyF5WEpE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/45jxyF5WEpE/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/45jxyF5WEpE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT35S",
-          "durationSeconds": 35
         }
       ]
     },
@@ -833,8 +833,42 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1090,
-      "videoCount": 77,
+      "videoCount": 79,
       "recentLongform": [
+        {
+          "id": "vwSk5hy0Psc",
+          "title": "Blood Command | Wacken | Forever Soldiers of Esther",
+          "publishedAt": "2026-08-08T03:37:01Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/vwSk5hy0Psc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/vwSk5hy0Psc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/vwSk5hy0Psc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/vwSk5hy0Psc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/vwSk5hy0Psc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT6M5S",
+          "durationSeconds": 365
+        },
         {
           "id": "HN9zC3Ae5q8",
           "title": "Nemophila | Zen |  Orlando 2026",
@@ -1378,43 +1412,43 @@
           },
           "duration": "PT5M28S",
           "durationSeconds": 328
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "XE-svm778QE",
-          "title": "Nemophila | Adabana | Conduit Orlando",
-          "publishedAt": "2026-07-10T04:42:09Z",
+          "id": "qMKkOhp1Yh4",
+          "title": "Hatebreed | Wacken | Ball of Death",
+          "publishedAt": "2026-08-08T03:23:59Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/XE-svm778QE/default.jpg",
+              "url": "https://i.ytimg.com/vi/qMKkOhp1Yh4/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/XE-svm778QE/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/qMKkOhp1Yh4/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/XE-svm778QE/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/qMKkOhp1Yh4/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/XE-svm778QE/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/qMKkOhp1Yh4/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/XE-svm778QE/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/qMKkOhp1Yh4/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT4M25S",
-          "durationSeconds": 265
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT1M9S",
+          "durationSeconds": 69
+        },
         {
           "id": "7C2hXkHEVs4",
           "title": "Yngwie | Wacken 2026",
@@ -1618,40 +1652,6 @@
           },
           "duration": "PT31S",
           "durationSeconds": 31
-        },
-        {
-          "id": "AsAeKbTpqWk",
-          "title": "Raw Brigade (from Bogota) at Gramps in Miami's Wynwood",
-          "publishedAt": "2026-07-05T05:14:57Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/AsAeKbTpqWk/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/AsAeKbTpqWk/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/AsAeKbTpqWk/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/AsAeKbTpqWk/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/AsAeKbTpqWk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT44S",
-          "durationSeconds": 44
         }
       ]
     }
