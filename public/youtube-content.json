@@ -1,13 +1,81 @@
 {
-  "fetchedAt": "2026-08-08T07:00:51.687Z",
+  "fetchedAt": "2026-08-09T07:00:48.147Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 141000,
-      "videoCount": 234,
+      "videoCount": 237,
       "recentLongform": [
+        {
+          "id": "EKX7KpKboUA",
+          "title": "RE:O | Broken by the Scream | London",
+          "publishedAt": "2026-08-09T04:53:53Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/EKX7KpKboUA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/EKX7KpKboUA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/EKX7KpKboUA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/EKX7KpKboUA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/EKX7KpKboUA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M21S",
+          "durationSeconds": 81
+        },
+        {
+          "id": "RQWW9o_DQxA",
+          "title": "Given by the Flames | Interview | Wacken",
+          "publishedAt": "2026-08-08T23:17:26Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/RQWW9o_DQxA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/RQWW9o_DQxA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/RQWW9o_DQxA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/RQWW9o_DQxA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/RQWW9o_DQxA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M52S",
+          "durationSeconds": 172
+        },
         {
           "id": "LBYXZyPJcoI",
           "title": "Broken by the Scream | Question #2 | The TMC Interview",
@@ -279,77 +347,43 @@
           },
           "duration": "PT1M28S",
           "durationSeconds": 88
-        },
-        {
-          "id": "28hj27luxQ4",
-          "title": "Human Nebula | Wacken Metal Battle",
-          "publishedAt": "2026-07-29T11:57:50Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/28hj27luxQ4/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/28hj27luxQ4/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/28hj27luxQ4/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/28hj27luxQ4/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/28hj27luxQ4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT2M32S",
-          "durationSeconds": 152
-        },
-        {
-          "id": "vG_rWsnJGZ4",
-          "title": "Talent Is Just the Cover Charge | What Nemophila Taught Me",
-          "publishedAt": "2026-07-28T09:12:22Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/vG_rWsnJGZ4/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/vG_rWsnJGZ4/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/vG_rWsnJGZ4/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/vG_rWsnJGZ4/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/vG_rWsnJGZ4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT19M40S",
-          "durationSeconds": 1180
         }
       ],
       "recentShorts": [
+        {
+          "id": "yckewPixZMs",
+          "title": "RE:O | Downstairs at the Dome",
+          "publishedAt": "2026-08-08T23:04:21Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/yckewPixZMs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/yckewPixZMs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/yckewPixZMs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/yckewPixZMs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/yckewPixZMs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT59S",
+          "durationSeconds": 59
+        },
         {
           "id": "EHNpEqIHMqk",
           "title": "Nemophila News | Send Your Love",
@@ -791,40 +825,6 @@
           },
           "duration": "PT1M",
           "durationSeconds": 60
-        },
-        {
-          "id": "er120wRkuhE",
-          "title": "mayu on drums | Nemophila | Conduit Orlando",
-          "publishedAt": "2026-07-24T00:44:21Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/er120wRkuhE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/er120wRkuhE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/er120wRkuhE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/er120wRkuhE/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/er120wRkuhE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT38S",
-          "durationSeconds": 38
         }
       ]
     },
@@ -832,9 +832,43 @@
       "handle": "@musiccitiesradio",
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
-      "subscriberCount": 1090,
-      "videoCount": 79,
+      "subscriberCount": 1100,
+      "videoCount": 81,
       "recentLongform": [
+        {
+          "id": "zqnfvipftwM",
+          "title": "RE:O | Crimson Desire | 8/2/26",
+          "publishedAt": "2026-08-08T22:32:28Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/zqnfvipftwM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/zqnfvipftwM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/zqnfvipftwM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/zqnfvipftwM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/zqnfvipftwM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT4M5S",
+          "durationSeconds": 245
+        },
         {
           "id": "vwSk5hy0Psc",
           "title": "Blood Command | Wacken | Forever Soldiers of Esther",
@@ -1378,43 +1412,43 @@
           },
           "duration": "PT2M11S",
           "durationSeconds": 131
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "XxN2ps6Xwc4",
-          "title": "Maximum Friction | Miami Super Summer Jam | Miami Metal",
-          "publishedAt": "2026-07-12T00:18:02Z",
+          "id": "tO78V5Scj4E",
+          "title": "Nemophila | Sorai | US Tour 2026",
+          "publishedAt": "2026-08-08T22:49:11Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/XxN2ps6Xwc4/default.jpg",
+              "url": "https://i.ytimg.com/vi/tO78V5Scj4E/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/XxN2ps6Xwc4/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/tO78V5Scj4E/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/XxN2ps6Xwc4/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/tO78V5Scj4E/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/XxN2ps6Xwc4/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/tO78V5Scj4E/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/XxN2ps6Xwc4/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/tO78V5Scj4E/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT5M28S",
-          "durationSeconds": 328
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT54S",
+          "durationSeconds": 54
+        },
         {
           "id": "qMKkOhp1Yh4",
           "title": "Hatebreed | Wacken | Ball of Death",
@@ -1618,40 +1652,6 @@
           },
           "duration": "PT38S",
           "durationSeconds": 38
-        },
-        {
-          "id": "K8tNG604COU",
-          "title": "Nemophila | Behind the Scenes | Silliness | Their Reaction LoL",
-          "publishedAt": "2026-07-10T05:29:43Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/K8tNG604COU/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/K8tNG604COU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/K8tNG604COU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/K8tNG604COU/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/K8tNG604COU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT31S",
-          "durationSeconds": 31
         }
       ]
     }
