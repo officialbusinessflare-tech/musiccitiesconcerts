@@ -1,62 +1,6 @@
 {
-  "generatedAt": "2026-08-10T07:00:48.236Z",
+  "generatedAt": "2026-08-11T07:00:39.203Z",
   "entries": [
-    {
-      "id": "86bba6hat",
-      "name": "Venomous Invokation + Desecrated Altar @ The Ox — Gainesville, FL — Aug 10 2026",
-      "date": "2026-08-10",
-      "venue": "The Ox",
-      "city": "Gainesville",
-      "state": "FL",
-      "bands": [
-        "Venomous Invokation",
-        "Desecrated Altar"
-      ],
-      "description": "Eclipsing the Sunshine State — Florida run, closing night.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bba6hat",
-      "buckets": []
-    },
-    {
-      "id": "86bbabm0r",
-      "name": "Broken By The Scream @ Dürer Kert — Budapest, Hungary — Aug 10 2026",
-      "date": "2026-08-10",
-      "venue": "Dürer Kert",
-      "city": "Budapest",
-      "country": "Hungary",
-      "bands": [
-        "Broken By The Scream"
-      ],
-      "description": "Broken By The Scream — Europe tour leg, Budapest. Dürer Kert in Budapest, Hungary. Show date: Aug 10 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbabm0r",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86barcr2j",
-      "name": "Rolling Quartz @ L'ANTI Bar & Spectacles — Quebec City, QC, Canada — Aug 10 2026",
-      "date": "2026-08-10",
-      "venue": "L'ANTI Bar & Spectacles, Quebec City",
-      "city": "QC",
-      "country": "Canada",
-      "bands": [
-        "Rolling Quartz"
-      ],
-      "description": "Rolling Quartz bring their MY TURN North America tour to L'ANTI Bar & Spectacles in Quebec City, QC, Canada. Korean hard-rock five-piece on the watch-list rotation. Show date: August 10, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcr2j",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbabm2f",
       "name": "Broken By The Scream @ Szene Wien — Vienna, Austria — Aug 11 2026",
@@ -195,6 +139,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bba6gyb",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbbdut3",
+      "name": "Burned at the Stake + Voidrium + Vermination + Nefarious Grime @ Churchill's Pub — Miami, FL — Aug 15 2026",
+      "date": "2026-08-15",
+      "venue": "the Stake + Voidrium + Vermination + Nefarious Grime @ Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Burned"
+      ],
+      "description": "Minotaur Booking presents a four-band black/death bill at Churchill's Pub in Little Haiti.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbbdut3",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -600,6 +563,29 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5vcu",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbbdux0",
+      "name": "Ramtha + Walled City + Humanband + Nocturnal Dawn + Dead Reef @ Moontower — Dunedin, FL — Aug 29 2026",
+      "date": "2026-08-29",
+      "venue": "Moontower",
+      "city": "Dunedin",
+      "state": "FL",
+      "bands": [
+        "Ramtha",
+        "Walled City",
+        "Humanband",
+        "Nocturnal Dawn",
+        "Dead Reef"
+      ],
+      "description": "Five-band Tampa Bay bill at Moontower in Dunedin.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbbdux0",
       "buckets": [
         "florida-metal-scene"
       ]
