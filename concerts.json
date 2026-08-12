@@ -1,44 +1,6 @@
 {
-  "generatedAt": "2026-08-11T07:00:39.203Z",
+  "generatedAt": "2026-08-12T07:01:02.358Z",
   "entries": [
-    {
-      "id": "86bbabm2f",
-      "name": "Broken By The Scream @ Szene Wien — Vienna, Austria — Aug 11 2026",
-      "date": "2026-08-11",
-      "venue": "Szene Wien",
-      "city": "Vienna",
-      "country": "Austria",
-      "bands": [
-        "Broken By The Scream"
-      ],
-      "description": "Broken By The Scream — Europe tour leg, Vienna. Szene Wien in Vienna, Austria. Show date: Aug 11 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbabm2f",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86barcr2m",
-      "name": "Rolling Quartz @ Piranha Bar — Montreal, QC, Canada — Aug 11 2026",
-      "date": "2026-08-11",
-      "venue": "Piranha Bar, Montreal",
-      "city": "QC",
-      "country": "Canada",
-      "bands": [
-        "Rolling Quartz"
-      ],
-      "description": "Rolling Quartz bring their MY TURN North America tour to Piranha Bar in Montreal, QC, Canada. Korean hard-rock five-piece on the watch-list rotation. Show date: August 11, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and confirmed against the band's…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcr2m",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bb0uvgg",
       "name": "Nocturnal Dawn + Pariah + RSI + Gnarcoossee @ Conduit — Winter Park (Orlando), FL — Aug 12 2026",
@@ -139,6 +101,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bba6gyb",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbchpgu",
+      "name": "Black Heart Society + Mother Rucker + 30 Round Mag @ The Banyan Live — West Palm Beach, FL — Aug 15, 2026",
+      "date": "2026-08-15",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Black Heart Society",
+        "Mother Rucker",
+        "30 Round Mag"
+      ],
+      "description": "South Florida rock/metal bill at The Banyan Live (AJDUB). Full lineup: Black Heart Society, Mother Rucker, 30 Round Mag, Derit. Doors 7pm / show 8pm, 18+. Tickets:…",
+      "ticketUrl": "https://www.etix.com/ticket/p/30792323/black-heart-society-mother-rucker-30-round-magderit-west-palm-beach-the-banyan-live?partner_id=100",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbchpgu",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -284,6 +268,26 @@
       ]
     },
     {
+      "id": "86bbchphu",
+      "name": "Evil Pony @ The Banyan Live — West Palm Beach, FL — Aug 20, 2026",
+      "date": "2026-08-20",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Evil Pony"
+      ],
+      "description": "Evil Pony — A Nu Metal After Party at The Banyan Live. Show 10:30pm, 18+. Tickets: https://www.etix.com/ticket/p/95138495/evil-pony-a-nu-metal-after-party-west-palm-beach-the-banyan-live?partner_id=100",
+      "ticketUrl": "https://www.etix.com/ticket/p/95138495/evil-pony-a-nu-metal-after-party-west-palm-beach-the-banyan-live?partner_id=100",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbchphu",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86b85z6yz",
       "name": "Rob Zombie Manson WPB",
       "date": "2026-08-20",
@@ -355,15 +359,17 @@
     },
     {
       "id": "86bb9w5v6",
-      "name": "Broken By The Scream @ CLUB SEATA — Tokyo, Japan — Aug 22 2026",
+      "name": "Broken By The Scream + LADYBABY + NEON ONI @ CLUB SEATA — Tokyo, Japan — Aug 22 2026",
       "date": "2026-08-22",
       "venue": "CLUB SEATA",
       "city": "Tokyo",
       "country": "Japan",
       "bands": [
-        "Broken By The Scream"
+        "Broken By The Scream",
+        "LADYBABY",
+        "NEON ONI"
       ],
-      "description": "Broken By The Scream — Japan homecoming show in Musashino. CLUB SEATA in Tokyo, Japan. Show date: Aug 22 2026.",
+      "description": "Broken By The Scream's Aug 22 CLUB SEATA date is not a solo billing — it's ズマズマズマ vol.3 (Zuma Zuma Zuma vol.3), an all-day festival at Kichijoji CLUB SEATA in Musashino, Tokyo.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
@@ -484,6 +490,26 @@
       "buckets": [
         "japanese-metal",
         "album-releases"
+      ]
+    },
+    {
+      "id": "86bbchpjp",
+      "name": "Emarosa @ The Banyan Live — West Palm Beach, FL — Aug 27, 2026",
+      "date": "2026-08-27",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Emarosa"
+      ],
+      "description": "Emarosa — High Horse Heaven Tour at The Banyan Live. Post-hardcore/rock. Doors 6:30pm / show 7pm, 18+. Tickets: https://www.etix.com/ticket/p/70970494/emarosa-presentshigh-horse-heaven-tour-west-palm-beach-the-banyan-live?partner_id=100",
+      "ticketUrl": "https://www.etix.com/ticket/p/70970494/emarosa-presentshigh-horse-heaven-tour-west-palm-beach-the-banyan-live?partner_id=100",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbchpjp",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -662,6 +688,26 @@
       "clickupUrl": "https://app.clickup.com/t/86b9b7meq",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbchpm7",
+      "name": "SOFL Heavy @ The Banyan Live — West Palm Beach, FL — Aug 30, 2026",
+      "date": "2026-08-30",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "SOFL Heavy"
+      ],
+      "description": "SOFL HEAVY — South Florida heavy showcase at The Banyan Live. Doors 6pm / show 7pm, 18+. Tickets: https://www.etix.com/ticket/p/45096818/sofl-heavy-west-palm-beach-the-banyan-live?partner_id=100",
+      "ticketUrl": "https://www.etix.com/ticket/p/45096818/sofl-heavy-west-palm-beach-the-banyan-live?partner_id=100",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbchpm7",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2942,6 +2988,27 @@
       ]
     },
     {
+      "id": "86bbchpng",
+      "name": "Aversed + Pathogenic @ Churchill's Pub — Miami, FL — Oct 11, 2026",
+      "date": "2026-10-11",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Aversed",
+        "Pathogenic"
+      ],
+      "description": "Minotaur Booking presents a death metal bill at Churchill's Pub: Aversed (MA), Pathogenic (MA) and more. Two-day run Oct 11-12. Details: https://churchillspub.com/events/",
+      "ticketUrl": "https://churchillspub.com/events/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbchpng",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bb9w5gv",
       "name": "ZILQY @ Kashiwa PALOOZA — Kashiwa, Japan — Oct 11 2026",
       "date": "2026-10-11",
@@ -4369,6 +4436,27 @@
       ]
     },
     {
+      "id": "86bbchppg",
+      "name": "Dead Boys + Blacklist Union @ Churchill's Pub — Miami, FL — Feb 4, 2027",
+      "date": "2027-02-04",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Dead Boys",
+        "Blacklist Union"
+      ],
+      "description": "Dead Boys with Blacklist Union and local support at Churchill's Pub. Punk / hard rock. Show 8pm. Details: https://churchillspub.com/events/",
+      "ticketUrl": "https://churchillspub.com/events/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbchppg",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bb9w5uz",
       "name": "TRiDENT @ LIQUIDROOM — Tokyo, Japan — Feb 13 2027",
       "date": "2027-02-13",
@@ -4482,6 +4570,22 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bba6j16",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbc299v",
+      "name": "🎂 Shono Birthday PARADOXX",
+      "date": "2027-08-10",
+      "bands": [
+        "🎂 Shono Birthday PARADOXX"
+      ],
+      "description": "RECURRING ANNUAL — August 10",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbc299v",
       "buckets": [
         "japanese-metal"
       ]
