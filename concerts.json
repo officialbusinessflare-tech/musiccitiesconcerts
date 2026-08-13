@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-08-12T07:02:16.574Z",
+  "generatedAt": "2026-08-13T07:00:47.927Z",
   "entries": [
-    {
-      "id": "86bb0uvgg",
-      "name": "Nocturnal Dawn + Pariah + RSI + Gnarcoossee @ Conduit — Winter Park (Orlando), FL — Aug 12 2026",
-      "date": "2026-08-12",
-      "venue": "Conduit",
-      "city": "Winter Park (Orlando)",
-      "state": "FL",
-      "bands": [
-        "Nocturnal Dawn",
-        "Pariah",
-        "RSI",
-        "Gnarcoossee"
-      ],
-      "description": "Bands: Nocturnal Dawn, Pariah (FL), RSI, Gnarcoossee\nVenue: Conduit, Winter Park (Orlando), FL\nDate: Wednesday, August 12, 2026 — doors 7:00 PM\nTickets: $15 advance / $20 day of show — presented by Violent Death Records",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb0uvgg",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86barcr2p",
       "name": "Rolling Quartz @ El Mocambo (Under the Neon Palms) — Toronto, ON, Canada — Aug 13 2026",
@@ -101,6 +79,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bba6gyb",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbct2m6",
+      "name": "Wicked Playground + Paradies + Achroite @ Las Rosas — Miami, FL — Aug 15 2026",
+      "date": "2026-08-15",
+      "venue": "Las Rosas",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Wicked Playground",
+        "Paradies",
+        "Achroite"
+      ],
+      "description": "Bands: Wicked Playground, Paradies, Achroite, Maximum Friction. DJ Blood Orchid spinning between sets.\nVenue: Las Rosas, 2898 NW 7th Ave, Miami, FL\nDate: Saturday, August 15, 2026 — 9:00 PM\nAdmission: No cover, 21+\nPresented by Antiheroine Productions.\nMaximum Friction's Las…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct2m6",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -268,6 +267,25 @@
       ]
     },
     {
+      "id": "86bbct2n1",
+      "name": "Vember @ Kill Your Idol — Miami Beach, FL — Aug 19 2026",
+      "date": "2026-08-19",
+      "venue": "Kill Your Idol",
+      "city": "Miami Beach",
+      "state": "FL",
+      "bands": [
+        "Vember"
+      ],
+      "description": "Band: Vember — original heavy metal out of South Florida.\nVenue: Kill Your Idol, 222 Espanola Way, Miami Beach, FL\nDate: Wednesday, August 19, 2026 — 10:00 PM\n21+ only.\nMid-week South Florida metal on a Favorite Venue stage.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct2n1",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbchphu",
       "name": "Evil Pony @ The Banyan Live — West Palm Beach, FL — Aug 20, 2026",
       "date": "2026-08-20",
@@ -316,6 +334,25 @@
       "buckets": [
         "florida-metal-scene"
       ]
+    },
+    {
+      "id": "86bbct2rz",
+      "name": "Lesion + Murderous Cult + Shraad @ The Ox — Gainesville, FL — Aug 22 2026",
+      "date": "2026-08-22",
+      "venue": "The Ox",
+      "city": "Gainesville",
+      "state": "FL",
+      "bands": [
+        "Lesion",
+        "Murderous Cult",
+        "Shraad"
+      ],
+      "description": "Bands: LESION (Pensacola swamp metal), Murderous Cult (Gainesville death metal), SHRAAD (Tallahassee death metal — debut show).\nVenue: The Ox, 920 NW 2nd St, Gainesville, FL\nDate: Saturday, August 22, 2026 — doors 7 PM, music 8 PM\nAdmission: $10\nPresented by Respite Events x…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct2rz",
+      "buckets": []
     },
     {
       "id": "86bavn8wc",
@@ -417,6 +454,27 @@
       ]
     },
     {
+      "id": "86bbct2tv",
+      "name": "Lord of Horns + Ancestral Blood + Pontifex @ Kelly's Pub — Fort Lauderdale, FL — Aug 23 2026",
+      "date": "2026-08-23",
+      "venue": "Kelly's Pub",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Lord of Horns",
+        "Ancestral Blood",
+        "Pontifex"
+      ],
+      "description": "Bands: Lord of Horns, Ancestral Blood, Pontifex.\nVenue: Kelly's Pub, 3045 N Federal Hwy, Fort Lauderdale, FL\nDate: Sunday, August 23, 2026 — gates 5 PM\nAdmission: $10, 18+\nBilled as a night of epic and horrifying black metal. Lord of Horns and Ancestral Blood run this back the…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct2tv",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bb9w64p",
       "name": "Unlucky Morpheus @ Ebisu The Garden Hall — Tokyo, Japan — Aug 23 2026",
       "date": "2026-08-23",
@@ -493,6 +551,26 @@
       ]
     },
     {
+      "id": "86bbct2vv",
+      "name": "Butterbrain + Fuakata @ Propaganda — Lake Worth, FL — Aug 27 2026",
+      "date": "2026-08-27",
+      "venue": "Propaganda",
+      "city": "Lake Worth",
+      "state": "FL",
+      "bands": [
+        "Butterbrain",
+        "Fuakata"
+      ],
+      "description": "Bands: Butterbrain (NYC), ¡Fuakata!\nVenue: Propaganda, Lake Worth, FL\nDate: Thursday, August 27, 2026\nOpening night of Butterbrain's \"Back From NYC To Florida\" run — four Florida rooms in four nights, with ¡Fuakata! riding along.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct2vv",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbchpjp",
       "name": "Emarosa @ The Banyan Live — West Palm Beach, FL — Aug 27, 2026",
       "date": "2026-08-27",
@@ -554,6 +632,26 @@
       ]
     },
     {
+      "id": "86bbct2wk",
+      "name": "Butterbrain + Fuakata @ Kill Your Idol — Miami Beach, FL — Aug 28 2026",
+      "date": "2026-08-28",
+      "venue": "Kill Your Idol",
+      "city": "Miami Beach",
+      "state": "FL",
+      "bands": [
+        "Butterbrain",
+        "Fuakata"
+      ],
+      "description": "Bands: Butterbrain (NYC), ¡Fuakata!\nVenue: Kill Your Idol, 222 Espanola Way, Miami Beach, FL\nDate: Friday, August 28, 2026\nNight two of Butterbrain's \"Back From NYC To Florida\" run.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct2wk",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86batb3u1",
       "name": "The March of Iron and Echoes (Vile Productions) w/ Chironex + Cerebral Desecration @ Brass Mug — Tampa, FL — Aug 28 2026",
       "date": "2026-08-28",
@@ -589,6 +687,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5vcu",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbct2zh",
+      "name": "Butterbrain + Fuakata @ Grand Central Brewhouse — St. Petersburg, FL — Aug 29 2026",
+      "date": "2026-08-29",
+      "venue": "Grand Central Brewhouse",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Butterbrain",
+        "Fuakata"
+      ],
+      "description": "Bands: Butterbrain (NYC), ¡Fuakata!\nVenue: Grand Central Brewhouse, St. Petersburg, FL\nDate: Saturday, August 29, 2026\nNight three of Butterbrain's \"Back From NYC To Florida\" run.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct2zh",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -688,6 +806,26 @@
       "clickupUrl": "https://app.clickup.com/t/86b9b7meq",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbct30e",
+      "name": "Butterbrain + Fuakata @ Wills Pub — Orlando, FL — Aug 30 2026",
+      "date": "2026-08-30",
+      "venue": "Wills Pub",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Butterbrain",
+        "Fuakata"
+      ],
+      "description": "Bands: Butterbrain (NYC), ¡Fuakata!\nVenue: Wills Pub, Orlando, FL\nDate: Sunday, August 30, 2026\nClosing night of Butterbrain's \"Back From NYC To Florida\" run.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct30e",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -862,6 +1000,26 @@
       ]
     },
     {
+      "id": "86bbct34n",
+      "name": "Tampa Death Fest Night 1 @ Brass Mug — Tampa, FL — Sep 4 2026",
+      "date": "2026-09-04",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Tampa Death Fest Night 1"
+      ],
+      "description": "Event: Tampa Death Fest — Night 1 of two (Night 2 falls Sep 5).\nLineup includes Viogression, Sabbat Savage and a deep card of Florida and touring death metal.\nVenue: The Brass Mug, Tampa, FL\nDate: Friday, September 4, 2026 — show 5:00 PM\nTickets: ticketbud (Friday and Saturday…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct34n",
+      "buckets": [
+        "florida-metal-scene",
+        "key-festivals"
+      ]
+    },
+    {
       "id": "86bb0uvmc",
       "name": "A Bloodbath in Florida — Oscura Live, Bradenton FL — Sep 4 2026",
       "date": "2026-09-04",
@@ -969,6 +1127,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w45x",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbct36f",
+      "name": "No Raza + Ejecutador + Vember @ Klub Kutters — Fort Lauderdale, FL — Sep 5 2026",
+      "date": "2026-09-05",
+      "venue": "Klub Kutters",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "No Raza",
+        "Ejecutador",
+        "Vember"
+      ],
+      "description": "Event: Ruins of the First World\nFull lineup: No Raza, Ejecutador, We All Rise, Medicine Room, Vermination, Vember, Shinkaza, S.I.C.\nVenue: Klub Kutters, 215 SW 27th Ave, Fort Lauderdale, FL\nDate: Saturday, September 5, 2026 — 6:00 PM\nTickets via Xranked Agency.\nEight-band South…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct36f",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -1157,6 +1336,26 @@
       ]
     },
     {
+      "id": "86bbct3bd",
+      "name": "The Suicide Machines + Bad Operation @ Churchill's Pub — Miami, FL — Sep 9 2026",
+      "date": "2026-09-09",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "The Suicide Machines",
+        "Bad Operation"
+      ],
+      "description": "Bands: The Suicide Machines, Bad Operation\nVenue: Churchill's Pub, 5501 NE 2nd Ave, Miami, FL\nDate: Wednesday, September 9, 2026\nThe Suicide Machines are playing \"Destruction By Definition\" front to back on this run. Miami is the closing date of the Southeast leg after Nashville…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct3bd",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86barcrrk",
       "name": "FATE GEAR @ Legend Club — Milan, Italy — Sep 9 2026",
       "date": "2026-09-09",
@@ -1252,6 +1451,25 @@
       ]
     },
     {
+      "id": "86bbct3cm",
+      "name": "Party of Four + Achroite + Vypus @ Tribe Tea Lounge — Margate, FL — Sep 11 2026",
+      "date": "2026-09-11",
+      "venue": "Tribe Tea Lounge",
+      "city": "Margate",
+      "state": "FL",
+      "bands": [
+        "Party of Four",
+        "Achroite",
+        "Vypus"
+      ],
+      "description": "Event: Rulers of the Night\nBands: Party of Four, Achroite, Vypus, Medic\nVenue: Tribe Tea Lounge, 1449 N State Rd 7, Margate, FL\nDate: Friday, September 11, 2026 — doors 8:30 PM, music 9:30 PM\nAchroite and Medic both turn up repeatedly on South Florida bills this cycle.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct3cm",
+      "buckets": []
+    },
+    {
       "id": "86barcrrw",
       "name": "FATE GEAR @ Garagen Club — Cologne, Germany — Sep 11 2026",
       "date": "2026-09-11",
@@ -1343,6 +1561,24 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w5bn",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbct3j6",
+      "name": "Skate Jam — Billy Doom + Trip The Monkey + Fuakata @ Langford Park — Jensen Beach, FL — Sep 12 2026",
+      "date": "2026-09-12",
+      "venue": "Billy Doom + Trip The Monkey + Fuakata @ Langford Park — Jensen Beach",
+      "state": "FL",
+      "bands": [
+        "Skate Jam"
+      ],
+      "description": "Event: Skate Jam — come, skate, rock, support\nFirst four bands announced: Billy Doom, Trip The Monkey, ¡Fuakata!, Goat Rope. Four more bands to be announced.\nVenue: Langford Park, Jensen Beach, FL\nDate: Saturday, September 12, 2026 — 12 PM to 6 PM\nAll ages, free…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct3j6",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -1472,6 +1708,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w49g",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbct3m5",
+      "name": "EyeHateGod + Embittered + Bite Marks @ The Bark — Tallahassee, FL — Sep 14 2026",
+      "date": "2026-09-14",
+      "venue": "The Bark",
+      "city": "Tallahassee",
+      "state": "FL",
+      "bands": [
+        "EyeHateGod",
+        "Embittered",
+        "Bite Marks"
+      ],
+      "description": "Bands: EyeHateGod, Embittered, Bite Marks, Piston, Brass Wizard\nVenue: The Bark, 1817 Thomasville Rd, Tallahassee, FL\nDate: Monday, September 14, 2026 — night 1 of two\nTickets: $25\nEyeHateGod are playing two consecutive nights at The Bark (Sep 14 and Sep 15) with different…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct3m5",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -2380,6 +2637,26 @@
       ]
     },
     {
+      "id": "86bbct3r4",
+      "name": "All Shall Perish + Carnifex @ The Orpheum — Tampa, FL — Sep 26 2026",
+      "date": "2026-09-26",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "All Shall Perish",
+        "Carnifex"
+      ],
+      "description": "Bands: All Shall Perish, Carnifex, Dismemberment\nVenue: The Orpheum, Ybor City, Tampa, FL\nDate: Saturday, September 26, 2026\nAll Shall Perish are playing \"The Price of Existence\" front to back for the record's 20th anniversary. Tampa follows the West Palm Beach date the night…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct3r4",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bb8y5qb",
       "name": "Volumes + Until I Wake — The Banyan Live, West Palm Beach FL — Sep 26, 2026",
       "date": "2026-09-26",
@@ -2873,6 +3150,25 @@
       "buckets": [
         "interesting-elsewhere"
       ]
+    },
+    {
+      "id": "86bbct3zj",
+      "name": "shioRi Birthday Oneman + Sally + MARI @ SHOCK ON — Kawaguchi, Japan — Oct 9 2026",
+      "date": "2026-10-09",
+      "venue": "SHOCK ON",
+      "city": "Kawaguchi",
+      "country": "Japan",
+      "bands": [
+        "shioRi Birthday Oneman",
+        "Sally",
+        "MARI"
+      ],
+      "description": "Artist: shioRi (bass) — first solo one-man show.\nSupport members: Sally (guitar), MARI (drums — Mary's Blood / HMPA)\nVenue: Kawaguchi SHOCK ON, Kawaguchi, Japan\nDate: Friday, October 9, 2026 — start 19:30\nTickets: LivePocket, on sale from August 9.\nBilled as a heavy setlist for…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct3zj",
+      "buckets": []
     },
     {
       "id": "86bb1uzkt",
@@ -3882,6 +4178,22 @@
       ]
     },
     {
+      "id": "86bbct405",
+      "name": "Mayto — Load The World @ Shibuya Cyclone — Tokyo, Japan — Nov 15 2026",
+      "date": "2026-11-15",
+      "city": "Load The World @ Shibuya Cyclone — Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Mayto"
+      ],
+      "description": "Artist: Mayto (guitar) — former HAGANE guitarist, now with HIZAKI's band and supporting Little Lilith, plus her own solo shows.\nEvent: LOAD THE WORLD\nVenue: Shibuya CYCLONE, Tokyo, Japan\nDate: Sunday, November 15, 2026 — open 12:00, start 12:30\nTickets: VIP ¥10,000 / general…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct405",
+      "buckets": []
+    },
+    {
       "id": "86bb9w5kk",
       "name": "ZILQY @ Fukuoka INSA — Fukuoka, Japan — Nov 15 2026",
       "date": "2026-11-15",
@@ -3958,6 +4270,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baaaf87",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbct3ta",
+      "name": "Born of Osiris + Miss May I @ The Banyan Live — West Palm Beach, FL — Nov 21 2026",
+      "date": "2026-11-21",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Born of Osiris",
+        "Miss May I"
+      ],
+      "description": "Bands: Born of Osiris, Miss May I, Convictions, Downswing\nVenue: The Banyan Live, 8199 Southern Blvd Suite B, West Palm Beach, FL\nDate: Saturday, November 21, 2026\nThe Perpetual Iron Tour, North America 2026. Presented by The Limitless Agency — tickets at limitlessagencyfl.com,…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct3ta",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -4154,6 +4486,23 @@
       "buckets": [
         "japanese-metal"
       ]
+    },
+    {
+      "id": "86bbct3we",
+      "name": "Blue Oyster Cult @ Seminole Brighton Bay Casino — Okeechobee, FL — Dec 5 2026",
+      "date": "2026-12-05",
+      "venue": "Seminole Brighton Bay Casino",
+      "city": "Okeechobee",
+      "state": "FL",
+      "bands": [
+        "Blue Oyster Cult"
+      ],
+      "description": "Band: Blue Öyster Cult — \"Don't Fear the Reaper\" 50th anniversary, On Tour Forever.\nVenue: Event Center, Seminole Brighton Bay Hotel & Casino, Okeechobee, FL\nDate: Saturday, December 5, 2026 — doors 7 PM, show 8 PM\nTickets: Ticketmaster\nPart of a Florida casino pair — BÖC also…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct3we",
+      "buckets": []
     },
     {
       "id": "86bb9w4j1",
@@ -4375,6 +4724,26 @@
       "clickupUrl": "https://app.clickup.com/t/86ban5v9w",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbct3x7",
+      "name": "Florida Underground Fest 7 @ Downtown Sanford — Sanford, FL — Jan 8 2027",
+      "date": "2027-01-08",
+      "venue": "Downtown Sanford",
+      "city": "Sanford",
+      "state": "FL",
+      "bands": [
+        "Florida Underground Fest 7"
+      ],
+      "description": "Event: Florida Underground Fest 7 — three-day event, Friday January 8 through Sunday January 10, 2027.\n50+ bands across multiple stages in Downtown Sanford, FL — West End Trading Co, Tuffy's Music Box and Celery City.\nPresented by Havoc Underground.\nThe biggest single gathering…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbct3x7",
+      "buckets": [
+        "florida-metal-scene",
+        "key-festivals"
       ]
     },
     {
