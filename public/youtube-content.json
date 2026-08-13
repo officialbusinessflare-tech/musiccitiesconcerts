@@ -1,13 +1,115 @@
 {
-  "fetchedAt": "2026-08-12T07:02:21.920Z",
+  "fetchedAt": "2026-08-13T07:00:54.501Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 142000,
-      "videoCount": 246,
+      "videoCount": 248,
       "recentLongform": [
+        {
+          "id": "-tIGgGFhNBg",
+          "title": "Nemophila | Oiran | Orlando Soundcheck",
+          "publishedAt": "2026-08-13T02:51:33Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M30S",
+          "durationSeconds": 210
+        },
+        {
+          "id": "Sky1HWb5cP8",
+          "title": "Broken by the Scream | TMC Interview | London 2026",
+          "publishedAt": "2026-08-13T01:51:48Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Sky1HWb5cP8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Sky1HWb5cP8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Sky1HWb5cP8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Sky1HWb5cP8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Sky1HWb5cP8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT9M4S",
+          "durationSeconds": 544
+        },
+        {
+          "id": "LCUgnSCJwOQ",
+          "title": "Re:O | London Metal | 3 Questions",
+          "publishedAt": "2026-08-12T17:00:06Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT13M51S",
+          "durationSeconds": 831
+        },
         {
           "id": "RIORjQiFGwg",
           "title": "Wacken Open Air 2026 Recap",
@@ -449,77 +551,9 @@
           },
           "duration": "PT1M37S",
           "durationSeconds": 97
-        },
-        {
-          "id": "Kj8xk3amirs",
-          "title": "Wacken Open Air Walking Tour | Long Version",
-          "publishedAt": "2026-08-01T08:53:33Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Kj8xk3amirs/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Kj8xk3amirs/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Kj8xk3amirs/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/Kj8xk3amirs/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/Kj8xk3amirs/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT13M57S",
-          "durationSeconds": 837
         }
       ],
       "recentShorts": [
-        {
-          "id": "LCUgnSCJwOQ",
-          "title": "Re:O: From a Solo Project in Japan to a Band in London | 3 Questions",
-          "publishedAt": "2026-08-11T03:24:16Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT0S",
-          "durationSeconds": 0
-        },
         {
           "id": "Ia4EPwphRro",
           "title": "Nemophila | Oiran Chorus | Soundcheck",
@@ -791,40 +825,6 @@
           },
           "duration": "PT59S",
           "durationSeconds": 59
-        },
-        {
-          "id": "r2Jt5ul3Mxs",
-          "title": "Blood Command | Wacken 2026",
-          "publishedAt": "2026-08-01T18:03:50Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/r2Jt5ul3Mxs/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/r2Jt5ul3Mxs/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/r2Jt5ul3Mxs/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/r2Jt5ul3Mxs/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/r2Jt5ul3Mxs/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT59S",
-          "durationSeconds": 59
         }
       ]
     },
@@ -832,9 +832,77 @@
       "handle": "@musiccitiesradio",
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
-      "subscriberCount": 1100,
-      "videoCount": 87,
+      "subscriberCount": 1110,
+      "videoCount": 89,
       "recentLongform": [
+        {
+          "id": "uCqCPZm8M1A",
+          "title": "Hanabie | Iconic | House of Blues Orlando 2026",
+          "publishedAt": "2026-08-13T02:33:22Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/uCqCPZm8M1A/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/uCqCPZm8M1A/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/uCqCPZm8M1A/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/uCqCPZm8M1A/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/uCqCPZm8M1A/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M",
+          "durationSeconds": 180
+        },
+        {
+          "id": "Z53BfStY34I",
+          "title": "Black Label Society | Wacken 2026 | No More Tears",
+          "publishedAt": "2026-08-13T02:11:31Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Z53BfStY34I/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Z53BfStY34I/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Z53BfStY34I/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Z53BfStY34I/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Z53BfStY34I/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M12S",
+          "durationSeconds": 192
+        },
         {
           "id": "-OUuSPs_fXw",
           "title": "Deep Purple | Highway Star | Hard Rock Live 2026",
@@ -1276,74 +1344,6 @@
           },
           "duration": "PT3M30S",
           "durationSeconds": 210
-        },
-        {
-          "id": "xjbzs_BNbtU",
-          "title": "Modern Mimes | Buried Alive Festival | Miami Metal",
-          "publishedAt": "2026-07-14T23:53:19Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/xjbzs_BNbtU/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/xjbzs_BNbtU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/xjbzs_BNbtU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/xjbzs_BNbtU/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/xjbzs_BNbtU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT2M59S",
-          "durationSeconds": 179
-        },
-        {
-          "id": "imU5JsufsxI",
-          "title": "Nemophila | Oiran | Conduit Orlando",
-          "publishedAt": "2026-07-14T23:50:38Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/imU5JsufsxI/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/imU5JsufsxI/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/imU5JsufsxI/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/imU5JsufsxI/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/imU5JsufsxI/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT5M20S",
-          "durationSeconds": 320
         }
       ],
       "recentShorts": [
