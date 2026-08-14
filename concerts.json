@@ -1,25 +1,6 @@
 {
-  "generatedAt": "2026-08-13T07:00:47.927Z",
+  "generatedAt": "2026-08-14T07:01:04.981Z",
   "entries": [
-    {
-      "id": "86barcr2p",
-      "name": "Rolling Quartz @ El Mocambo (Under the Neon Palms) — Toronto, ON, Canada — Aug 13 2026",
-      "date": "2026-08-13",
-      "venue": "El Mocambo (Under the Neon Palms), Toronto",
-      "city": "ON",
-      "country": "Canada",
-      "bands": [
-        "Rolling Quartz"
-      ],
-      "description": "Rolling Quartz bring their MY TURN North America tour to Under the Neon Palms at the El Mocambo in Toronto, ON, Canada. Korean hard-rock five-piece on the watch-list rotation. Show date: August 13, 2026. Tickets via Leo Presents. Surfaced from the saved concerts feed and…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcr2p",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bba6gu7",
       "name": "Malignancy + Anal Stabwound + Mystery Meat + Virulence @ Conduit — Orlando, FL — Aug 14 2026",
@@ -687,6 +668,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5vcu",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbe1bbh",
+      "name": "Cancerslug @ Whisky a Go Go — West Hollywood, CA — Aug 29, 2026",
+      "date": "2026-08-29",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Cancerslug"
+      ],
+      "description": "Cancerslug — cult horror-punk out of Alabama — at the Whisky a Go Go on the Sunset Strip. Show 6pm. Tickets: https://concertfix.com/tickets/8024274?p=cancerslug&v=whisky-a-go-go&c=west-hollywood-ca",
+      "ticketUrl": "https://concertfix.com/tickets/8024274?p=cancerslug&v=whisky-a-go-go&c=west-hollywood-ca",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbe1bbh",
       "buckets": [
         "florida-metal-scene"
       ]
