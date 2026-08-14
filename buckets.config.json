@@ -64,7 +64,7 @@
     {
       "id": "japanese-metal",
       "name": "Japanese Metal",
-      "kanji": "\u97f3\u697d\u90fd\u5e02",
+      "kanji": "音楽都市",
       "description": "Japanese women are making the best metal being made today. Watch-list bands from the Japan-led Asian scene, wherever they are playing.",
       "matchRules": {
         "venues": [],
@@ -185,6 +185,7 @@
           "Hamburg"
         ],
         "bands": [
+          "Cancerslug",
           "Scorpions",
           "Accept",
           "Sabaton",
