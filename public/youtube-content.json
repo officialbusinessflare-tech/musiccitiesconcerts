@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-15T07:00:40.513Z",
+  "fetchedAt": "2026-08-16T07:00:38.268Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
@@ -833,8 +833,42 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1110,
-      "videoCount": 91,
+      "videoCount": 92,
       "recentLongform": [
+        {
+          "id": "0egzv_C7WUM",
+          "title": "Hanabie | Iconic | 2026 Tour",
+          "publishedAt": "2026-08-15T20:54:02Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/0egzv_C7WUM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/0egzv_C7WUM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/0egzv_C7WUM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/0egzv_C7WUM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/0egzv_C7WUM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M2S",
+          "durationSeconds": 182
+        },
         {
           "id": "a66pbMPlido",
           "title": "Lovebites | Castaway | London",
@@ -1310,40 +1344,6 @@
           },
           "duration": "PT1M48S",
           "durationSeconds": 108
-        },
-        {
-          "id": "F4EYkdfvE6w",
-          "title": "Nemophila | 開花宣言 | Conduit 2026",
-          "publishedAt": "2026-07-21T05:02:10Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/F4EYkdfvE6w/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/F4EYkdfvE6w/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/F4EYkdfvE6w/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/F4EYkdfvE6w/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/F4EYkdfvE6w/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT3M6S",
-          "durationSeconds": 186
         }
       ],
       "recentShorts": [
