@@ -12,14 +12,18 @@ type Album = { title: string; pins?: string; url: string };
 type Group = { event: string; note?: string; albums: Album[] };
 
 const groups: Group[] = [
+{ event: 'London 2026', note: 'Two nights at Downstairs at The Dome — band by band', albums: [ { title: 'LOVEBITES', pins: '50 pins', url: P + 'lovebites-london-2026/' }, { title: 'Broken By The Scream', pins: '128 pins', url: P + 'broken-by-the-scream-london/' }, { title: 'RE:O', pins: '17 pins', url: P + 'reo-at-downstairs-at-the-dome-london-822026/' } ] },
   {
     event: 'Wacken Open Air 2026',
     note: 'Germany · our Music Cities Challenge trip',
     albums: [
       { title: 'Broken By The Scream', pins: '71 pins', url: P + 'broken-by-the-scream-wacken-2026/' },
-      { title: 'LOVEBITES', pins: '43 pins', url: P + 'lovebites-wacken/' },
+      { title: 'LOVEBITES', pins: '50 pins', url: P + 'lovebites-wacken/' },
+{ title: 'The festival itself', pins: '141 pins', url: P + 'wacken-2026/' },
+{ title: 'The people of Wacken', pins: '7 pins', url: P + 'wacken-2026-peeps/' },
     ],
   },
+{ event: 'NEMOPHILA — Conduit, Orlando', note: 'The Orlando stop, front to back', albums: [ { title: 'NEMOPHILA at Conduit', pins: '76 pins', url: P + 'nemophila-conduit-orlando/' } ] },
   {
     event: 'Buried Alive Festival — Las Rosas, Miami',
     note: 'The Miami DIY bill, band by band',
