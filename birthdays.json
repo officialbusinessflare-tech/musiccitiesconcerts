@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-08-16T07:00:31.195Z",
+  "generatedAt": "2026-08-17T07:00:33.590Z",
   "entries": [
-    {
-      "id": "86bard4tx",
-      "name": "Hazuki Birthday NEMOPHILA",
-      "person": "Hazuki",
-      "affiliation": "NEMOPHILA",
-      "rawDate": "2026-08-16",
-      "month": 8,
-      "day": 16,
-      "description": "RECURRING ANNUAL — August 16\n\nBand & role: NEMOPHILA — guitar\nCountry of origin: Japan\nSource: Kpop Profiles, Jpop Wiki, NEMOPHILA official",
-      "clickupUrl": "https://app.clickup.com/t/86bard4tx"
-    },
     {
       "id": "86bard4fb",
       "name": "Pharita Birthday BABYMONSTER",
@@ -375,6 +364,17 @@
       "day": 5,
       "description": "RECURRING ANNUAL — August 5\n\nFull name: Rora (stage name)\nBand & role: BABYMONSTER — rapper, dancer\nCountry of origin: South Korea\nGreeting language: Korean\nBorn: August 5, 2008\nSource: Kpop Profiles, YG Entertainment official",
       "clickupUrl": "https://app.clickup.com/t/86bard4gy"
+    },
+    {
+      "id": "86bard4tx",
+      "name": "Hazuki Birthday NEMOPHILA",
+      "person": "Hazuki",
+      "affiliation": "NEMOPHILA",
+      "rawDate": "2026-08-16",
+      "month": 8,
+      "day": 16,
+      "description": "RECURRING ANNUAL — August 16\n\nBand & role: NEMOPHILA — guitar\nCountry of origin: Japan\nSource: Kpop Profiles, Jpop Wiki, NEMOPHILA official",
+      "clickupUrl": "https://app.clickup.com/t/86bard4tx"
     },
     {
       "id": "86baazexe",
