@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-08-19T07:00:40.883Z",
+  "fetchedAt": "2026-08-20T07:00:35.763Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 144000,
-      "videoCount": 251,
+      "videoCount": 252,
       "recentLongform": [
+        {
+          "id": "xOsV-Wu-iAA",
+          "title": "The Music Cities is 1 Year Old | Or, How J-Metal's Big 4 Got Our T-Shirts",
+          "publishedAt": "2026-08-20T04:40:14Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/xOsV-Wu-iAA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/xOsV-Wu-iAA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/xOsV-Wu-iAA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/xOsV-Wu-iAA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/xOsV-Wu-iAA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT7M52S",
+          "durationSeconds": 472
+        },
         {
           "id": "ZiBVL_0k8NA",
           "title": "Lovebites | \"Liar\" | London O2 Academy Islington 2026",
@@ -483,40 +517,6 @@
           },
           "duration": "PT3M",
           "durationSeconds": 180
-        },
-        {
-          "id": "s2bmmBqkcwM",
-          "title": "Given by the Flames | Wacken Open Air",
-          "publishedAt": "2026-08-04T09:59:34Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/s2bmmBqkcwM/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/s2bmmBqkcwM/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/s2bmmBqkcwM/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/s2bmmBqkcwM/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/s2bmmBqkcwM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT2M6S",
-          "durationSeconds": 126
         }
       ],
       "recentShorts": [
