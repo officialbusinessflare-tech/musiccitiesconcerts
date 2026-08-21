@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-08-20T07:00:35.763Z",
+  "fetchedAt": "2026-08-21T07:00:50.160Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 144000,
-      "videoCount": 252,
+      "videoCount": 253,
       "recentLongform": [
+        {
+          "id": "TqjVSoYj58I",
+          "title": "Broken by the Scream | Question #4, London",
+          "publishedAt": "2026-08-20T19:14:59Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/TqjVSoYj58I/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/TqjVSoYj58I/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/TqjVSoYj58I/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/TqjVSoYj58I/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/TqjVSoYj58I/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M30S",
+          "durationSeconds": 90
+        },
         {
           "id": "xOsV-Wu-iAA",
           "title": "The Music Cities is 1 Year Old | Or, How J-Metal's Big 4 Got Our T-Shirts",
@@ -483,40 +517,6 @@
           },
           "duration": "PT1M18S",
           "durationSeconds": 78
-        },
-        {
-          "id": "yAIDSwAyFIk",
-          "title": "RE:O | London Metal | Part 1 TMC Interview",
-          "publishedAt": "2026-08-04T10:14:13Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/yAIDSwAyFIk/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/yAIDSwAyFIk/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/yAIDSwAyFIk/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/yAIDSwAyFIk/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/yAIDSwAyFIk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT3M",
-          "durationSeconds": 180
         }
       ],
       "recentShorts": [
