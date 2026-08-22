@@ -1,21 +1,6 @@
 {
-  "generatedAt": "2026-08-21T07:00:41.452Z",
+  "generatedAt": "2026-08-22T07:00:32.720Z",
   "entries": [
-    {
-      "id": "86b85z759",
-      "name": "Rob Zombie Manson Tampa",
-      "date": "2026-08-21",
-      "bands": [
-        "Rob Zombie Manson Tampa"
-      ],
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b85z759",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86bbeb5t4",
       "name": "Buckcherry + Tyler Bryant and the Shakedown @ Culture Room — Fort Lauderdale, FL — Aug 22 2026",
@@ -155,6 +140,25 @@
       ]
     },
     {
+      "id": "86bbj3vzb",
+      "name": "HAGANE @ darwin — Sendai, Japan — Aug 23 2026",
+      "date": "2026-08-23",
+      "venue": "darwin",
+      "city": "Sendai",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE EP Release Tour \"METAL QUEST\" — Sendai stop.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbj3vzb",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbct2tv",
       "name": "Lord of Horns + Ancestral Blood + Pontifex @ Kelly's Pub — Fort Lauderdale, FL — Aug 23 2026",
       "date": "2026-08-23",
@@ -231,6 +235,24 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w5r1",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbj3w62",
+      "name": "📀 SAKI — PLUVIA — RELEASE — Aug 26 2026",
+      "date": "2026-08-26",
+      "venue": "PLUVIA — RELEASE",
+      "bands": [
+        "SAKI"
+      ],
+      "description": "SAKI — PLUVIA (international CD release, JPU Records)",
+      "ticketUrl": "https://jpurecords.com/products/saki-pluvia-cd",
+      "priority": "normal",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbj3w62",
+      "buckets": [
+        "album-releases"
       ]
     },
     {
@@ -425,6 +447,26 @@
       "clickupUrl": "https://app.clickup.com/t/86ban5vcu",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbj3w03",
+      "name": "HAGANE @ EX THEATER ROPPONGI — Tokyo, Japan — Aug 29 2026",
+      "date": "2026-08-29",
+      "venue": "EX THEATER ROPPONGI",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "Tour final of the HAGANE EP Release Tour \"METAL QUEST\" — and it is being broadcast live.",
+      "ticketUrl": "https://prtimes.jp/main/html/rd/p/000001385.000056982.html",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbj3w03",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -883,6 +925,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w45x",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbj3vwd",
+      "name": "Kill the Robot @ Mac's Club Deuce — Miami Beach, FL — Sep 5 2026",
+      "date": "2026-09-05",
+      "venue": "Mac's Club Deuce",
+      "city": "Miami Beach",
+      "state": "FL",
+      "bands": [
+        "Kill the Robot"
+      ],
+      "description": "Miami hard rock band Kill the Robot plays the 100-year anniversary block party for Mac's Club Deuce, Miami Beach's oldest bar (est. 1926) — the one Miami Vice filmed inside and left the neon behind.",
+      "ticketUrl": "https://www.eventbrite.com/e/macs-club-deuce-100-year-anniversary-block-party-miami-beach--tickets-1993276916916",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbj3vwd",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3095,6 +3157,48 @@
       ]
     },
     {
+      "id": "86bbj3w30",
+      "name": "SHOW-YA @ LIVE HOUSE Hakobune — Matsumoto, Japan — Oct 3 2026",
+      "date": "2026-10-03",
+      "venue": "LIVE HOUSE Hakobune",
+      "city": "Matsumoto",
+      "country": "Japan",
+      "bands": [
+        "SHOW-YA"
+      ],
+      "description": "SHOW-YA \"100 LIVE AGAIN\" — Matsumoto, Nagano.",
+      "ticketUrl": "https://show-ya.jp/post-0005949/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbj3w30",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbj3vxf",
+      "name": "LiveKill + MRSA + Mind Virus @ The Banyan Live — West Palm Beach, FL — Oct 3 2026",
+      "date": "2026-10-03",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "LiveKill",
+        "MRSA",
+        "Mind Virus"
+      ],
+      "description": "Full lineup: LiveKill, MRSA, Death of a Deity, Shinkaza, Mind Virus.",
+      "ticketUrl": "https://www.etix.com/ticket/p/95770830/livekillmrsadeath-of-a-deityshinkazamind-virus-west-palm-beach-the-banyan-live?partner_id=100",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbj3vxf",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbeb7mw",
       "name": "BRIDEAR @ In The Family FEST 2026 — Shibuya, Japan — Oct 3 2026",
       "date": "2026-10-03",
@@ -3667,6 +3771,26 @@
       ]
     },
     {
+      "id": "86bbj3w3a",
+      "name": "SHOW-YA @ WstudioRED — Matsuyama, Japan — Oct 11 2026",
+      "date": "2026-10-11",
+      "venue": "WstudioRED",
+      "city": "Matsuyama",
+      "country": "Japan",
+      "bands": [
+        "SHOW-YA"
+      ],
+      "description": "SHOW-YA \"100 LIVE AGAIN\" — Matsuyama, Ehime.",
+      "ticketUrl": "https://show-ya.jp/post-0005949/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbj3w3a",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb7nk",
       "name": "Gacharic Spin @ EX THEATER ROPPONGI — Tokyo, Japan — Oct 11 2026",
       "date": "2026-10-11",
@@ -3742,6 +3866,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w5gv",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbj3w3u",
+      "name": "SHOW-YA @ DIME — Takamatsu, Japan — Oct 12 2026",
+      "date": "2026-10-12",
+      "venue": "DIME",
+      "city": "Takamatsu",
+      "country": "Japan",
+      "bands": [
+        "SHOW-YA"
+      ],
+      "description": "SHOW-YA \"100 LIVE AGAIN\" — Takamatsu, Kagawa.",
+      "ticketUrl": "https://show-ya.jp/post-0005954/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbj3w3u",
       "buckets": [
         "japanese-metal"
       ]
@@ -4216,6 +4360,26 @@
       ]
     },
     {
+      "id": "86bbj3w1f",
+      "name": "AVE MUJICA @ Keio Arena TOKYO — Tokyo, Japan — Oct 24 2026",
+      "date": "2026-10-24",
+      "venue": "Keio Arena TOKYO",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "AVE MUJICA"
+      ],
+      "description": "Ave Mujica 7th LIVE \"Virtus\" — Day 1.",
+      "ticketUrl": "https://bang-dream.com/events/avemujica_7th/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbj3w1f",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb6bh",
       "name": "Jon Snodgrass + Chad Price Peace Coalition @ Kill Your Idol — Miami Beach, FL — Oct 24 2026",
       "date": "2026-10-24",
@@ -4345,6 +4509,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w4wx",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbj3w1u",
+      "name": "AVE MUJICA @ Keio Arena TOKYO — Tokyo, Japan — Oct 25 2026",
+      "date": "2026-10-25",
+      "venue": "Keio Arena TOKYO",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "AVE MUJICA"
+      ],
+      "description": "Ave Mujica 7th LIVE \"Virtus\" — Day 2.",
+      "ticketUrl": "https://bang-dream.com/events/avemujica_7th/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbj3w1u",
       "buckets": [
         "japanese-metal"
       ]
