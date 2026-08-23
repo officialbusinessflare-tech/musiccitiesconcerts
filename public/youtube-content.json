@@ -1,13 +1,81 @@
 {
-  "fetchedAt": "2026-08-22T07:00:39.154Z",
+  "fetchedAt": "2026-08-23T07:00:46.538Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
-      "subscriberCount": 144000,
-      "videoCount": 253,
+      "subscriberCount": 146000,
+      "videoCount": 256,
       "recentLongform": [
+        {
+          "id": "yzjiwggcsp8",
+          "title": "The S.E.T.",
+          "publishedAt": "2026-08-23T04:13:13Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/yzjiwggcsp8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/yzjiwggcsp8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/yzjiwggcsp8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/yzjiwggcsp8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/yzjiwggcsp8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M22S",
+          "durationSeconds": 82
+        },
+        {
+          "id": "i7N5CB6oufc",
+          "title": "Out of the Ashes | Churchill's Miami",
+          "publishedAt": "2026-08-22T21:38:30Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/i7N5CB6oufc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/i7N5CB6oufc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/i7N5CB6oufc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/i7N5CB6oufc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/i7N5CB6oufc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M20S",
+          "durationSeconds": 80
+        },
         {
           "id": "TqjVSoYj58I",
           "title": "Broken by the Scream | Question #4, London",
@@ -521,6 +589,40 @@
       ],
       "recentShorts": [
         {
+          "id": "lpFieprNgv0",
+          "title": "Pinkfoot Goliath | Churchill's Miami",
+          "publishedAt": "2026-08-22T21:29:00Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/lpFieprNgv0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/lpFieprNgv0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/lpFieprNgv0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/lpFieprNgv0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/lpFieprNgv0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M1S",
+          "durationSeconds": 61
+        },
+        {
           "id": "2mzi2zNTikY",
           "title": "Lovebites | Castaway | Midori & Miyako",
           "publishedAt": "2026-08-14T17:00:22Z",
@@ -723,108 +825,6 @@
           },
           "duration": "PT49S",
           "durationSeconds": 49
-        },
-        {
-          "id": "HxMyRXqwna0",
-          "title": "Nemophila | Zen | Best Metal Song",
-          "publishedAt": "2026-08-06T18:58:43Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/HxMyRXqwna0/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/HxMyRXqwna0/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/HxMyRXqwna0/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/HxMyRXqwna0/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/HxMyRXqwna0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M",
-          "durationSeconds": 60
-        },
-        {
-          "id": "VN4jlEW6vrk",
-          "title": "Broken by the Scream | Wacken Open Air 2026",
-          "publishedAt": "2026-08-06T04:54:25Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/VN4jlEW6vrk/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/VN4jlEW6vrk/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/VN4jlEW6vrk/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/VN4jlEW6vrk/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/VN4jlEW6vrk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT57S",
-          "durationSeconds": 57
-        },
-        {
-          "id": "jFQ2XfISUII",
-          "title": "London Wolf Pack | Lovebites",
-          "publishedAt": "2026-08-04T17:43:44Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/jFQ2XfISUII/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/jFQ2XfISUII/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/jFQ2XfISUII/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/jFQ2XfISUII/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/jFQ2XfISUII/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT32S",
-          "durationSeconds": 32
         }
       ]
     },
@@ -832,9 +832,111 @@
       "handle": "@musiccitiesradio",
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
-      "subscriberCount": 1110,
-      "videoCount": 93,
+      "subscriberCount": 1120,
+      "videoCount": 98,
       "recentLongform": [
+        {
+          "id": "frro5w1ZoJo",
+          "title": "Out of the Ashes | Churchill's Miami",
+          "publishedAt": "2026-08-22T21:36:43Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/frro5w1ZoJo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/frro5w1ZoJo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/frro5w1ZoJo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/frro5w1ZoJo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/frro5w1ZoJo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT5M6S",
+          "durationSeconds": 306
+        },
+        {
+          "id": "wMo5lRpKaZc",
+          "title": "Pinkfoot Goliath | \"Riot | Churchill's Miami",
+          "publishedAt": "2026-08-22T21:26:26Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/wMo5lRpKaZc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/wMo5lRpKaZc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/wMo5lRpKaZc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/wMo5lRpKaZc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/wMo5lRpKaZc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M57S",
+          "durationSeconds": 237
+        },
+        {
+          "id": "nvbn0WXhNE8",
+          "title": "Sunset Rebellion | Churchill's Miami",
+          "publishedAt": "2026-08-22T21:19:51Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/nvbn0WXhNE8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/nvbn0WXhNE8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/nvbn0WXhNE8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/nvbn0WXhNE8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/nvbn0WXhNE8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M36S",
+          "durationSeconds": 216
+        },
         {
           "id": "0egzv_C7WUM",
           "title": "Hanabie | Iconic | 2026 Tour",
@@ -1208,111 +1310,77 @@
           },
           "duration": "PT7M45S",
           "durationSeconds": 465
-        },
-        {
-          "id": "8VVK_IV8Kgc",
-          "title": "Savatage | Hall of the Mountain King | Wacken",
-          "publishedAt": "2026-08-01T09:38:04Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/8VVK_IV8Kgc/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/8VVK_IV8Kgc/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/8VVK_IV8Kgc/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/8VVK_IV8Kgc/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/8VVK_IV8Kgc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT5M28S",
-          "durationSeconds": 328
-        },
-        {
-          "id": "OCpVrzTiWlM",
-          "title": "Uli Jon Roth | Wacken | All Along The Watchtower",
-          "publishedAt": "2026-07-31T09:19:09Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/OCpVrzTiWlM/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/OCpVrzTiWlM/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/OCpVrzTiWlM/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/OCpVrzTiWlM/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/OCpVrzTiWlM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT6M20S",
-          "durationSeconds": 380
-        },
-        {
-          "id": "tN9B3m8HQkU",
-          "title": "Lovebites | Wacken | Soldier Stands Solitarily",
-          "publishedAt": "2026-07-30T13:52:41Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/tN9B3m8HQkU/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/tN9B3m8HQkU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/tN9B3m8HQkU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/tN9B3m8HQkU/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/tN9B3m8HQkU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT4M44S",
-          "durationSeconds": 284
         }
       ],
       "recentShorts": [
+        {
+          "id": "UVXHlLhyYPQ",
+          "title": "Inscribed | Miami Music",
+          "publishedAt": "2026-08-23T02:03:33Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/UVXHlLhyYPQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/UVXHlLhyYPQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/UVXHlLhyYPQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/UVXHlLhyYPQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/UVXHlLhyYPQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT59S",
+          "durationSeconds": 59
+        },
+        {
+          "id": "Q2emEThtlIg",
+          "title": "Hanabie | Be The Gal | Orlando",
+          "publishedAt": "2026-08-23T00:04:40Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Q2emEThtlIg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Q2emEThtlIg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Q2emEThtlIg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Q2emEThtlIg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Q2emEThtlIg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT53S",
+          "durationSeconds": 53
+        },
         {
           "id": "d7uCPa4N5Co",
           "title": "Broken by the Scream | London 2026",
@@ -1584,74 +1652,6 @@
           },
           "duration": "PT1M9S",
           "durationSeconds": 69
-        },
-        {
-          "id": "7C2hXkHEVs4",
-          "title": "Yngwie | Wacken 2026",
-          "publishedAt": "2026-08-02T08:00:30Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/7C2hXkHEVs4/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/7C2hXkHEVs4/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/7C2hXkHEVs4/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/7C2hXkHEVs4/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/7C2hXkHEVs4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M2S",
-          "durationSeconds": 62
-        },
-        {
-          "id": "x2zaEWvsyGo",
-          "title": "Lacuna Coil | Wacken Open Air",
-          "publishedAt": "2026-07-31T08:55:19Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/x2zaEWvsyGo/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/x2zaEWvsyGo/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/x2zaEWvsyGo/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/x2zaEWvsyGo/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/x2zaEWvsyGo/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M1S",
-          "durationSeconds": 61
         }
       ]
     }
