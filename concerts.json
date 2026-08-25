@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-08-24T07:00:39.768Z",
+  "generatedAt": "2026-08-25T07:00:32.983Z",
   "entries": [
+    {
+      "id": "86bbkeb59",
+      "name": "Cheerleader Roadkill + Appleseed + Diva Bleach @ Conduit — Orlando, FL — Aug 26 2026",
+      "date": "2026-08-26",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Cheerleader Roadkill",
+        "Appleseed",
+        "Diva Bleach"
+      ],
+      "description": "Local Orlando bill: Cheerleader Roadkill, Appleseed, Diva Bleach.",
+      "ticketUrl": "https://www.ticketweb.com/event/cheerleader-roadkill-appleseed-and-diva-conduit-tickets/15026873",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkeb59",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
     {
       "id": "86bbj3w62",
       "name": "📀 SAKI — PLUVIA — RELEASE — Aug 26 2026",
@@ -214,6 +236,24 @@
       ]
     },
     {
+      "id": "86bbke7zg",
+      "name": "ZILQY — CAVEAT — RELEASE — Aug 29 2026",
+      "date": "2026-08-29",
+      "venue": "CAVEAT — RELEASE",
+      "bands": [
+        "ZILQY"
+      ],
+      "description": "ZILQY — \"CAVEAT\" digital single. Debuted live at SUMMER SONIC 2026 before release. Label: Maverick DC / BLOOD BLAST. Precedes the band's first full album Birth of Riot (Oct 7).",
+      "ticketUrl": "https://spice.eplus.jp/articles/348289",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke7zg",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbj3w03",
       "name": "HAGANE @ EX THEATER ROPPONGI — Tokyo, Japan — Aug 29 2026",
       "date": "2026-08-29",
@@ -366,6 +406,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b9b7meq",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbke8xx",
+      "name": "KOIAI @ JAMMIN' — Nagoya, Japan — Aug 30 2026",
+      "date": "2026-08-30",
+      "venue": "JAMMIN'",
+      "city": "Nagoya",
+      "country": "Japan",
+      "bands": [
+        "KOIAI"
+      ],
+      "description": "KOIAI at JAMMIN', Nagoya.",
+      "ticketUrl": "https://koiai.fanpla.jp/news/detail/80563",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke8xx",
       "buckets": [
         "japanese-metal"
       ]
@@ -559,6 +619,88 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w45n",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbked8f",
+      "name": "Nonpoint @ Come and Take It Live — Austin, TX — Sep 3 2026",
+      "date": "2026-09-03",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Nonpoint"
+      ],
+      "description": "Nonpoint — the Fort Lauderdale band's Austin date.",
+      "ticketUrl": "https://www.etix.com/ticket/p/77405761",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbked8f",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bbkeamd",
+      "name": "Silence equals Death @ Brass Mug — Tampa, FL — Sep 3 2026",
+      "date": "2026-09-03",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Silence equals Death"
+      ],
+      "description": "Silence equals Death at the Brass Mug.",
+      "ticketUrl": "https://www.bandsintown.com/e/1039981867",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkeamd",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbkecn5",
+      "name": "Vain + Jetboy @ Whisky a Go Go — West Hollywood, CA — Sep 4 2026",
+      "date": "2026-09-04",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Vain",
+        "Jetboy"
+      ],
+      "description": "Vain and Jetboy co-headline, with Sweet Corvette, Beyond the Betrayal, Devolution, Armagelion, Punked Out Pretty, Terminous and Tanz Der Vampur. A Sunset Strip glam bill on the room that made the genre.",
+      "ticketUrl": "https://www.ticketweb.com/event/vain-jetboy-sweet-corvette-beyond-whisky-a-go-go-tickets/14132604",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkecn5",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbkeb77",
+      "name": "Not Enough Space + Lilith's Demise @ Conduit — Orlando, FL — Sep 4 2026",
+      "date": "2026-09-04",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Not Enough Space",
+        "Lilith's Demise"
+      ],
+      "description": "Full bill: Not Enough Space, Lilith's Demise, No One Road, Almost Mine. Florida scene night at Conduit.",
+      "ticketUrl": "https://www.ticketweb.com/event/not-enough-space-weaponize-your-conduit-tickets/14994583",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkeb77",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -845,6 +987,27 @@
       ]
     },
     {
+      "id": "86bbke8ny",
+      "name": "ASTERISM @ Sound Planet Festival — Incheon, South Korea — Sep 6 2026",
+      "date": "2026-09-06",
+      "venue": "Sound Planet Festival",
+      "city": "Incheon",
+      "country": "South Korea",
+      "bands": [
+        "ASTERISM"
+      ],
+      "description": "ASTERISM on the CHROMA STAGE at Sound Planet Festival, PARADISE CITY, Incheon.",
+      "ticketUrl": "https://soundplanetfestival.co.kr/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke8ny",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
+      ]
+    },
+    {
       "id": "86bbeb7mg",
       "name": "NEMOPHILA @ Paradise City (SOUND PLANET FEST) — Incheon, South Korea — Sep 6 2026",
       "date": "2026-09-06",
@@ -996,6 +1159,28 @@
       ]
     },
     {
+      "id": "86bbkebe5",
+      "name": "Blue Spirit + Magi + Evershock @ Conduit — Orlando, FL — Sep 9 2026",
+      "date": "2026-09-09",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Blue Spirit",
+        "Magi",
+        "Evershock"
+      ],
+      "description": "Full bill: Blue Spirit, Magi, Evershock, Palace Rats. Magi turns up twice on Conduit's fall calendar (also Sep 26) — worth watching as a room regular.",
+      "ticketUrl": "https://www.ticketweb.com/event/blue-spirit-magi-evershock-and-conduit-tickets/15041033",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkebe5",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbeb7u3",
       "name": "The Warning @ The Fonda Theatre — Los Angeles, CA — Sep 9 2026",
       "date": "2026-09-09",
@@ -1092,6 +1277,26 @@
       ]
     },
     {
+      "id": "86bbke894",
+      "name": "The Warning @ The Fonda Theatre — Los Angeles, CA — Sep 10 2026",
+      "date": "2026-09-10",
+      "venue": "The Fonda Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "bands": [
+        "The Warning"
+      ],
+      "description": "The Warning — second of a three-night Fonda Theatre run in Los Angeles (Sep 9, 10, 11), supporting Everything's Falling.",
+      "ticketUrl": "https://www.bandsintown.com/e/108577872",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke894",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb7z6",
       "name": "🎂 ASAKA Birthday (TRiDENT) — Sep 10",
       "date": "2026-09-10",
@@ -1159,6 +1364,66 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w47h",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbkecqz",
+      "name": "Gilby Clarke @ Whisky a Go Go — West Hollywood, CA — Sep 11 2026",
+      "date": "2026-09-11",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Gilby Clarke"
+      ],
+      "description": "Gilby Clarke (ex-Guns N' Roses) headlining, with Rusted Stone, Whiskey Revelation, Sunset Sinners, Philthy Rych, Young/Silva and Greg Brown.",
+      "ticketUrl": "https://www.ticketweb.com/event/gilby-clarke-rusted-stone-whiskey-whisky-a-go-go-tickets/14683263",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkecqz",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbke8ac",
+      "name": "The Warning @ The Fonda Theatre — Los Angeles, CA — Sep 11 2026",
+      "date": "2026-09-11",
+      "venue": "The Fonda Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "bands": [
+        "The Warning"
+      ],
+      "description": "The Warning — third and final night of the Fonda Theatre run in Los Angeles (Sep 9, 10, 11), supporting Everything's Falling.",
+      "ticketUrl": "https://www.bandsintown.com/e/108583193",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke8ac",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbke819",
+      "name": "Lonesome_Blue @ ell.FITS ALL — Nagoya, Japan — Sep 11 2026",
+      "date": "2026-09-11",
+      "venue": "ell.FITS ALL",
+      "city": "Nagoya",
+      "country": "Japan",
+      "bands": [
+        "Lonesome_Blue"
+      ],
+      "description": "Lonesome_Blue — FOURTH DIMENSION release tour, Nagoya leg.",
+      "ticketUrl": "https://lonesomeblue.jp/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke819",
       "buckets": [
         "japanese-metal"
       ]
@@ -1297,6 +1562,66 @@
       ]
     },
     {
+      "id": "86bbkeazw",
+      "name": "Spike Hellis @ Las Rosas — Miami, FL — Sep 12 2026",
+      "date": "2026-09-12",
+      "venue": "Las Rosas",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Spike Hellis"
+      ],
+      "description": "Spike Hellis at Las Rosas — LA industrial/EBM duo. Part of a run of darkwave bookings Las Rosas is stacking this fall alongside ULTRA SUNN (Oct 9).",
+      "ticketUrl": "https://www.bandsintown.com/e/1038802355",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkeazw",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbke8kb",
+      "name": "TRiDENT @ Spotify O-WEST — Tokyo, Japan — Sep 12 2026",
+      "date": "2026-09-12",
+      "venue": "Spotify O-WEST",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "TRiDENT"
+      ],
+      "description": "TRiDENT — カチコミ対バンツアー (Kachikomi co-headline tour), Tokyo date at Spotify O-WEST.",
+      "ticketUrl": "https://trident-japan.com/live_information/detail/43209",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke8kb",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbke8dt",
+      "name": "Unlucky Morpheus @ OSAKA MUSE — Osaka, Japan — Sep 12 2026",
+      "date": "2026-09-12",
+      "venue": "OSAKA MUSE",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "Unlucky Morpheus"
+      ],
+      "description": "Unlucky Morpheus — \"HELL or HEAVEN\" 暴れん坊限定 (mosh-pit-only) show, Osaka leg.",
+      "ticketUrl": "https://www.udo.jp/shows/UM_hellorheaven_abare",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke8dt",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbct3j6",
       "name": "Skate Jam — Billy Doom + Trip The Monkey + Fuakata @ Langford Park — Jensen Beach, FL — Sep 12 2026",
       "date": "2026-09-12",
@@ -1348,6 +1673,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w48g",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbke8za",
+      "name": "Broken by the Scream @ Shinjuku ANTIKNOCK — Tokyo, Japan — Sep 13 2026",
+      "date": "2026-09-13",
+      "venue": "Shinjuku ANTIKNOCK",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Broken by the Scream"
+      ],
+      "description": "Broken by the Scream at Shinjuku ANTIKNOCK — DirtyDeedsDoneDirtCheap event.",
+      "ticketUrl": "https://www.brokenbythescream.jp/contents/1098068",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke8za",
       "buckets": [
         "japanese-metal"
       ]
@@ -1545,6 +1890,28 @@
       ]
     },
     {
+      "id": "86bbkea94",
+      "name": "Glitterer + Bleary Eyed + Guttered @ Conduit — Orlando, FL — Sep 15 2026",
+      "date": "2026-09-15",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Glitterer",
+        "Bleary Eyed",
+        "Guttered"
+      ],
+      "description": "Glitterer (Ned Russin, ex-Title Fight) with Bleary Eyed and Guttered.",
+      "ticketUrl": "https://www.ticketweb.com/event/glitterer-bleary-eyed-and-guttered-conduit-tickets/15027003",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkea94",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bampq61",
       "name": "EyeHateGod — The Bark, Tallahassee FL",
       "date": "2026-09-15",
@@ -1660,6 +2027,28 @@
       ]
     },
     {
+      "id": "86bbkeaj5",
+      "name": "Jutes + Mothica + Wilt @ Culture Room — Fort Lauderdale, FL — Sep 17 2026",
+      "date": "2026-09-17",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Jutes",
+        "Mothica",
+        "Wilt"
+      ],
+      "description": "Jutes with Mothica and Wilt at Culture Room.",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D006483343E3E90",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkeaj5",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbeb5vr",
       "name": "156/Silence + Aviana @ Conduit — Winter Park (Orlando), FL — Sep 17 2026",
       "date": "2026-09-17",
@@ -1735,6 +2124,48 @@
       "clickupUrl": "https://app.clickup.com/t/86b7xwt2u",
       "buckets": [
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bbkea4q",
+      "name": "Vader + Jungle Rot + Fleshcrawl @ Conduit — Orlando, FL — Sep 18 2026",
+      "date": "2026-09-18",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Vader",
+        "Jungle Rot",
+        "Fleshcrawl"
+      ],
+      "description": "Full bill: Vader, Jungle Rot, Fleshcrawl, Trash Panda. Orlando stop on the Polish death metal veterans' US run — the same package hits Culture Room the following night (Sep 19) and The Orpheum Sep 20, so this is a three-night Florida sweep.",
+      "ticketUrl": "https://www.ticketweb.com/event/vader-jungle-rot-fleshcrawl-and-conduit-tickets/14247734",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkea4q",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbke82v",
+      "name": "Lonesome_Blue @ Daikanyama UNIT — Tokyo, Japan — Sep 18 2026",
+      "date": "2026-09-18",
+      "venue": "Daikanyama UNIT",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Lonesome_Blue"
+      ],
+      "description": "Lonesome_Blue — FOURTH DIMENSION release tour, Tokyo leg at Daikanyama UNIT.",
+      "ticketUrl": "https://lonesomeblue.jp/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke82v",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -1854,6 +2285,108 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w4ah",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbkedwv",
+      "name": "King 810 @ Come and Take It Live — Austin, TX — Sep 19 2026",
+      "date": "2026-09-19",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "King 810"
+      ],
+      "description": "King 810, Austin date.",
+      "ticketUrl": "https://www.etix.com/ticket/p/45193836",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkedwv",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bbkebpz",
+      "name": "Rolling Quartz @ Whisky a Go Go — West Hollywood, CA — Sep 19 2026",
+      "date": "2026-09-19",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Rolling Quartz"
+      ],
+      "description": "Rolling Quartz — MY TURN 2026 North America tour, Sunset Strip date at the Whisky a Go Go.",
+      "ticketUrl": "https://www.ticketweb.com/event/rolling-quartz-my-turn-2026-whisky-a-go-go-tickets/14947483",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkebpz",
+      "buckets": [
+        "florida-metal-scene",
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbkeaaw",
+      "name": "Remo Drive + sports. @ Conduit — Orlando, FL — Sep 19 2026",
+      "date": "2026-09-19",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Remo Drive",
+        "sports."
+      ],
+      "description": "Full bill: Remo Drive, sports., Computer, Dear Cincinnati. Co-headline emo/indie rock run.",
+      "ticketUrl": "https://www.ticketweb.com/event/remo-drive-x-sports-conduit-tickets/14220004",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkeaaw",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbke8fg",
+      "name": "Unlucky Morpheus @ Shibuya WWW X — Tokyo, Japan — Sep 19 2026",
+      "date": "2026-09-19",
+      "venue": "Shibuya WWW X",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Unlucky Morpheus"
+      ],
+      "description": "Unlucky Morpheus — \"HELL or HEAVEN\" 暴れん坊限定 (mosh-pit-only) show, Tokyo leg at Shibuya WWW X.",
+      "ticketUrl": "https://www.udo.jp/shows/UM_hellorheaven_abare",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke8fg",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbke8c0",
+      "name": "The Warning @ Tingley Coliseum — Albuquerque, NM — Sep 19 2026",
+      "date": "2026-09-19",
+      "venue": "Tingley Coliseum",
+      "city": "Albuquerque",
+      "state": "NM",
+      "bands": [
+        "The Warning"
+      ],
+      "description": "The Warning at the New Mexico State Fair, Tingley Coliseum.",
+      "ticketUrl": "https://www.bandsintown.com/e/107917739",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke8c0",
       "buckets": [
         "japanese-metal"
       ]
@@ -2033,6 +2566,28 @@
       ]
     },
     {
+      "id": "86bbkea6v",
+      "name": "In Gloom + Blown Apart + Hollow God @ Conduit — Orlando, FL — Sep 20 2026",
+      "date": "2026-09-20",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "In Gloom",
+        "Blown Apart",
+        "Hollow God"
+      ],
+      "description": "Full bill: In Gloom, Blown Apart, Hollow God, Unwithered, Double Crossed, Black Hills. Six-band Florida metalcore/hardcore stack billed as a record release show.",
+      "ticketUrl": "https://www.ticketweb.com/event/in-gloom-the-swamp-record-conduit-tickets/15024373",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkea6v",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bawvp6z",
       "name": "Vader + Jungle Rot + Fleshcrawl + Trash Panda @ The Orpheum — Tampa, FL — Sep 20 2026",
       "date": "2026-09-20",
@@ -2207,6 +2762,46 @@
       ]
     },
     {
+      "id": "86bbkedap",
+      "name": "Vader @ Come and Take It Live — Austin, TX — Sep 22 2026",
+      "date": "2026-09-22",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Vader"
+      ],
+      "description": "Vader's Austin date, two days after the Florida leg wraps at The Orpheum.",
+      "ticketUrl": "https://www.etix.com/ticket/p/95979354",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkedap",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bbke8mj",
+      "name": "TRiDENT @ Daikanyama SPACE ODD — Tokyo, Japan — Sep 22 2026",
+      "date": "2026-09-22",
+      "venue": "Daikanyama SPACE ODD",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "TRiDENT"
+      ],
+      "description": "TRiDENT at おじ祭り2026 (Oji Matsuri), Daikanyama SPACE ODD.",
+      "ticketUrl": "https://w.pia.jp/t/trident-t/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke8mj",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb5zb",
       "name": "Death Lens @ Churchill's Pub — Miami, FL — Sep 22 2026",
       "date": "2026-09-22",
@@ -2357,6 +2952,26 @@
       ]
     },
     {
+      "id": "86bbkedqd",
+      "name": "The Obsessed @ Come and Take It Live — Austin, TX — Sep 24 2026",
+      "date": "2026-09-24",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "The Obsessed"
+      ],
+      "description": "The Obsessed — Wino's doom institution, Austin date.",
+      "ticketUrl": "https://www.etix.com/ticket/p/89050915",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkedqd",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbeb5zw",
       "name": "Volumes @ Conduit — Winter Park (Orlando), FL — Sep 24 2026",
       "date": "2026-09-24",
@@ -2411,6 +3026,66 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w5xm",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbkedu8",
+      "name": "The Rasmus @ Come and Take It Live — Austin, TX — Sep 25 2026",
+      "date": "2026-09-25",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "The Rasmus"
+      ],
+      "description": "The Rasmus — Finnish rock band's Austin date.",
+      "ticketUrl": "https://comeandtakeitproductions.com/event/the-rasmus/come-and-take-it-live/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkedu8",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bbkechz",
+      "name": "The Dickies @ Whisky a Go Go — West Hollywood, CA — Sep 25 2026",
+      "date": "2026-09-25",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "The Dickies"
+      ],
+      "description": "The Dickies headlining the Whisky, with VFMS, Chemical Control, Unlevel, Seven40Seven, Something Outrageous, Pink Lemon and Decent Times.",
+      "ticketUrl": "https://www.ticketweb.com/event/the-dickies-vfms-chemical-control-whisky-a-go-go-tickets/14132334",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkechz",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbkeant",
+      "name": "Red Calling @ Brass Mug — Tampa, FL — Sep 25 2026",
+      "date": "2026-09-25",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Red Calling"
+      ],
+      "description": "Red Calling at the Brass Mug. Support acts not yet confirmed — headliner only.",
+      "ticketUrl": "https://www.bandsintown.com/e/1039907608",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkeant",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2566,6 +3241,108 @@
       ]
     },
     {
+      "id": "86bbkedzk",
+      "name": "Trapt @ Whisky a Go Go — West Hollywood, CA — Sep 26 2026",
+      "date": "2026-09-26",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Trapt"
+      ],
+      "description": "Trapt headlining the Whisky, with TwoFew, Cali Three, This Fire Burns, Tantalus and Karma Hitlist.",
+      "ticketUrl": "https://www.ticketweb.com/event/trapt-twofew-cali-three-this-whisky-a-go-go-tickets/14796663",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkedzk",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbkebm5",
+      "name": "The Disorderly @ Brass Mug — Tampa, FL — Sep 26 2026",
+      "date": "2026-09-26",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "The Disorderly"
+      ],
+      "description": "The Disorderly at the Brass Mug. Support acts not yet confirmed — headliner only.",
+      "ticketUrl": "https://www.bandsintown.com/e/1039788785",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkebm5",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbkebhn",
+      "name": "Cinema Stereo + Sweet Cambodia + Magi @ Conduit — Orlando, FL — Sep 26 2026",
+      "date": "2026-09-26",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Cinema Stereo",
+        "Sweet Cambodia",
+        "Magi"
+      ],
+      "description": "Full bill: Cinema Stereo, Sweet Cambodia, The Fraternals, Magi.",
+      "ticketUrl": "https://www.ticketweb.com/event/cinema-stereo-sweet-cambodia-the-conduit-tickets/15012733",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkebhn",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbke92u",
+      "name": "HAGANE @ JUNNA 生誕祭 oneman — Yokohama, Japan — Sep 26 2026",
+      "date": "2026-09-26",
+      "venue": "JUNNA 生誕祭 oneman",
+      "city": "Yokohama",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE oneman staged as JUNNA's 生誕祭 (birthday celebration show) in Yokohama. Unlike most 生誕祭 lives, this one lands on the actual birthday — JUNNA was born September 26.",
+      "ticketUrl": "https://www.hagane-official.com/contents/1087874",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke92u",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbke8qk",
+      "name": "ASTERISM @ TOKYO CALLING 2026 — Tokyo, Japan — Sep 26 2026",
+      "date": "2026-09-26",
+      "venue": "TOKYO CALLING 2026",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "ASTERISM"
+      ],
+      "description": "ASTERISM at TOKYO CALLING 2026, the Shinjuku multi-venue circuit festival. Stage venue TBA.",
+      "ticketUrl": "https://eplus.jp/tkc26/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke8qk",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb80z",
       "name": "🎂 JUNNA Birthday (HAGANE) — Sep 26",
       "date": "2026-09-26",
@@ -2697,6 +3474,26 @@
       ]
     },
     {
+      "id": "86bbke842",
+      "name": "Lonesome_Blue @ LIVEHOUSE enn 3rd — Sendai, Japan — Sep 27 2026",
+      "date": "2026-09-27",
+      "venue": "LIVEHOUSE enn 3rd",
+      "city": "Sendai",
+      "country": "Japan",
+      "bands": [
+        "Lonesome_Blue"
+      ],
+      "description": "Lonesome_Blue — FOURTH DIMENSION release tour, Sendai leg.",
+      "ticketUrl": "https://lonesomeblue.jp/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke842",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb822",
       "name": "🎂 Miki Nakamura Birthday (SHOW-YA) — Sep 27",
       "date": "2026-09-27",
@@ -2804,6 +3601,66 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4fr",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbkecuv",
+      "name": "Alesana @ Whisky a Go Go — West Hollywood, CA — Sep 30 2026",
+      "date": "2026-09-30",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Alesana"
+      ],
+      "description": "Alesana, night one of a two-night Whisky stand (Sep 30 and Oct 1). Sep 30 bill: In Parallel With You, Glass Portrait, moviedates, Willow Pond Massacre.",
+      "ticketUrl": "https://www.ticketweb.com/event/alesana-in-parallel-with-you-whisky-a-go-go-tickets/15020263",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkecuv",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbked2f",
+      "name": "Alesana @ Whisky a Go Go — West Hollywood, CA — Oct 1 2026",
+      "date": "2026-10-01",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Alesana"
+      ],
+      "description": "Alesana, night two of a two-night Whisky stand (Sep 30 and Oct 1). Oct 1 bill: Deadbeat Nightlife, IWPLMFM, Halfway Ghost.",
+      "ticketUrl": "https://www.ticketweb.com/event/alesana-deadbeat-nightlife-iwplmfm-whisky-a-go-go-tickets/15020283",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbked2f",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbkear3",
+      "name": "Nogu Svelo! @ Brass Mug — Tampa, FL — Oct 1 2026",
+      "date": "2026-10-01",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Nogu Svelo!"
+      ],
+      "description": "Nogu Svelo! at the Brass Mug — the Russian rock band's Tampa stop. They also play Conduit Orlando the following night (Oct 2), so this is a two-city Florida run.",
+      "ticketUrl": "https://www.bandsintown.com/e/1039232510",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkear3",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2918,6 +3775,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4zz",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbke8rv",
+      "name": "ASTERISM + KOIAI @ In The Family FEST 2026 — Tokyo, Japan — Oct 3 2026",
+      "date": "2026-10-03",
+      "venue": "In The Family FEST 2026",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "ASTERISM",
+        "KOIAI"
+      ],
+      "description": "In The Family FEST 2026 — Shibuya seven-venue circuit festival. Adds ASTERISM and KOIAI to the day, alongside BRIDEAR and Broken by the Scream already on the bill. Multi-venue circuit event, so several watch-list acts run across different rooms the same day.",
+      "ticketUrl": "https://livepocket.jp/e/itff2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke8rv",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
       ]
     },
     {
@@ -3099,6 +3978,46 @@
       ]
     },
     {
+      "id": "86bbke943",
+      "name": "LOVEBITES @ Zepp KL — Kuala Lumpur, Malaysia — Oct 4 2026",
+      "date": "2026-10-04",
+      "venue": "Zepp KL",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "bands": [
+        "LOVEBITES"
+      ],
+      "description": "LOVEBITES — OUTSTANDING Tour, Kuala Lumpur date at Zepp KL. Part of the Southeast Asia leg following Singapore (Oct 2).",
+      "ticketUrl": "https://www.myticketempire.com/lovebiteskl",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke943",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbke855",
+      "name": "Lonesome_Blue @ OSAKA MUSE — Osaka, Japan — Oct 4 2026",
+      "date": "2026-10-04",
+      "venue": "OSAKA MUSE",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "Lonesome_Blue"
+      ],
+      "description": "Lonesome_Blue — FOURTH DIMENSION release tour, Osaka leg.",
+      "ticketUrl": "https://lonesomeblue.jp/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke855",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb82g",
       "name": "🎂 SAKI Birthday (Mary's Blood) — Oct 4",
       "date": "2026-10-04",
@@ -3248,6 +4167,47 @@
       ]
     },
     {
+      "id": "86bbked6h",
+      "name": "Plush @ Whisky a Go Go — West Hollywood, CA — Oct 7 2026",
+      "date": "2026-10-07",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Plush"
+      ],
+      "description": "Plush headlining the Whisky, with Tomorrow's Anthem, Sugar Fix, Madison Violett, Madam Bombs, Taylor Jules and Heather to the Max. The all-female band also plays Brass Mug Tampa on Sep 19.",
+      "ticketUrl": "https://www.ticketweb.com/event/plush-tomorrows-anthem-sugar-whisky-a-go-go-tickets/14829813",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbked6h",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbkebuw",
+      "name": "To The Grave + Crown Magnetar @ Come and Take It Live — Austin, TX — Oct 7 2026",
+      "date": "2026-10-07",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "To The Grave",
+        "Crown Magnetar"
+      ],
+      "description": "To The Grave and Crown Magnetar — Sawed Off Suffering Tour, Austin date. The same package plays Banyan Live in West Palm Beach on Oct 4.",
+      "ticketUrl": "https://comeandtakeitproductions.com/event/to-the-grave-and-crown-magnetar-the-sawed-off-suffering-tour/come-and-take-it-live/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkebuw",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbeb7rh",
       "name": "📀 ZILQY — Birth of Riot — RELEASE — Oct 7 2026",
       "date": "2026-10-07",
@@ -3384,6 +4344,66 @@
       ]
     },
     {
+      "id": "86bbkedct",
+      "name": "Carnifex @ Come and Take It Live — Austin, TX — Oct 9 2026",
+      "date": "2026-10-09",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Carnifex"
+      ],
+      "description": "Carnifex headlining Austin. The band is also on the All Shall Perish bill at Banyan Live, West Palm Beach on Sep 25.",
+      "ticketUrl": "https://comeandtakeitproductions.com/event/carnifex/come-and-take-it-live/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkedct",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bbkeb1q",
+      "name": "ULTRA SUNN @ Las Rosas — Miami, FL — Oct 9 2026",
+      "date": "2026-10-09",
+      "venue": "Las Rosas",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "ULTRA SUNN"
+      ],
+      "description": "ULTRA SUNN at Las Rosas — Belgian EBM duo, Miami stop.",
+      "ticketUrl": "https://www.bandsintown.com/e/1039983906",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkeb1q",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbkeau2",
+      "name": "Pathogenic @ Brass Mug — Tampa, FL — Oct 9 2026",
+      "date": "2026-10-09",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Pathogenic"
+      ],
+      "description": "Pathogenic at the Brass Mug. The band also plays Churchill's Pub in Miami on Oct 11 with Aversed, so this is a Florida run rather than a one-off.",
+      "ticketUrl": "https://www.bandsintown.com/e/1039901203",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkeau2",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbct3zj",
       "name": "shioRi Birthday Oneman + Sally + MARI @ SHOCK ON — Kawaguchi, Japan — Oct 9 2026",
       "date": "2026-10-09",
@@ -3493,6 +4513,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4nn",
       "buckets": [
         "florida-metal-scene",
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbke8wk",
+      "name": "ASTERISM @ MINAMI WHEEL 2026 — Osaka, Japan — Oct 10 2026",
+      "date": "2026-10-10",
+      "venue": "MINAMI WHEEL 2026",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "ASTERISM"
+      ],
+      "description": "ASTERISM at MINAMI WHEEL 2026, the Osaka multi-venue circuit festival. Stage venue TBA.",
+      "ticketUrl": "https://w.pia.jp/t/mw26-431/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbke8wk",
+      "buckets": [
         "japanese-metal"
       ]
     },
@@ -3810,6 +4850,27 @@
       ]
     },
     {
+      "id": "86bbkeacc",
+      "name": "Ludovico Technique + Pressure Kitten @ Conduit — Orlando, FL — Oct 15 2026",
+      "date": "2026-10-15",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Ludovico Technique",
+        "Pressure Kitten"
+      ],
+      "description": "Full bill: Ludovico Technique, Pressure Kitten, Layne Lyre. Industrial/darkwave night in Orlando.",
+      "ticketUrl": "https://www.ticketweb.com/event/ludovico-technique-pressure-kitten-and-conduit-tickets/14232214",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkeacc",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbeb6py",
       "name": "SiM @ August Hall — San Francisco, CA — Oct 15 2026",
       "date": "2026-10-15",
@@ -3830,6 +4891,46 @@
       ]
     },
     {
+      "id": "86bbkecf1",
+      "name": "Quiet Riot @ Whisky a Go Go — West Hollywood, CA — Oct 16 2026",
+      "date": "2026-10-16",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Quiet Riot"
+      ],
+      "description": "Quiet Riot headlining the Whisky, with DÅZR, Rude & Reckless, House Of Dawn, Makers AD, YAS33 and Rapid Fire.",
+      "ticketUrl": "https://www.ticketweb.com/event/quiet-riot-dzr-rude-whisky-a-go-go-tickets/14772243",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkecf1",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbkeb38",
+      "name": "DONEFOR @ Las Rosas — Miami, FL — Oct 16 2026",
+      "date": "2026-10-16",
+      "venue": "Las Rosas",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "DONEFOR"
+      ],
+      "description": "DONEFOR at Las Rosas.",
+      "ticketUrl": "https://www.bandsintown.com/e/1039913224",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkeb38",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86ba5zfhv",
       "name": "Arch Enemy at Revolution Live, Fort Lauderdale",
       "date": "2026-10-16",
@@ -3845,6 +4946,26 @@
       "clickupUrl": "https://app.clickup.com/t/86ba5zfhv",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbkedn1",
+      "name": "Eyehategod @ Come and Take It Live — Austin, TX — Oct 17 2026",
+      "date": "2026-10-17",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Eyehategod"
+      ],
+      "description": "Eyehategod's Austin date, closing out the run that swept Florida in mid-September (Tallahassee, Orlando, West Palm Beach, Tampa).",
+      "ticketUrl": "https://comeandtakeitproductions.com/event/eyehategod-austin/come-and-take-it-live/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbkedn1",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
