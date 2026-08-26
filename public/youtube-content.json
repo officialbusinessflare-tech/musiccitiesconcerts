@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-08-25T07:00:41.983Z",
+  "fetchedAt": "2026-08-26T07:00:38.712Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 150000,
-      "videoCount": 258,
+      "videoCount": 264,
       "recentLongform": [
+        {
+          "id": "pIrZgvb8uQQ",
+          "title": "BRIDEAR: The Problem Was Never the Music | Economics of Being Heard | 問題は音楽ではなかった｜日本のメタルと、音楽が届くまでの経済",
+          "publishedAt": "2026-08-25T16:52:18Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/pIrZgvb8uQQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/pIrZgvb8uQQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/pIrZgvb8uQQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/pIrZgvb8uQQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/pIrZgvb8uQQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT7M43S",
+          "durationSeconds": 463
+        },
         {
           "id": "kDJjh_X1DQc",
           "title": "Out of the Ashes | Female Fronted Rock from Miami | The TMC Interview",
@@ -517,77 +551,145 @@
           },
           "duration": "PT2M7S",
           "durationSeconds": 127
-        },
-        {
-          "id": "EKX7KpKboUA",
-          "title": "RE:O | Broken by the Scream | London",
-          "publishedAt": "2026-08-09T04:53:53Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/EKX7KpKboUA/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/EKX7KpKboUA/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/EKX7KpKboUA/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/EKX7KpKboUA/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/EKX7KpKboUA/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M21S",
-          "durationSeconds": 81
-        },
-        {
-          "id": "RQWW9o_DQxA",
-          "title": "Given by the Flames | Interview | Wacken",
-          "publishedAt": "2026-08-08T23:17:26Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/RQWW9o_DQxA/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/RQWW9o_DQxA/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/RQWW9o_DQxA/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/RQWW9o_DQxA/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/RQWW9o_DQxA/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT2M52S",
-          "durationSeconds": 172
         }
       ],
       "recentShorts": [
+        {
+          "id": "9KUGo3Eltpk",
+          "title": "Lovebites | Wacken 2026 | Soldier Stands Solitarily",
+          "publishedAt": "2026-08-26T04:07:11Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/9KUGo3Eltpk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/9KUGo3Eltpk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/9KUGo3Eltpk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/9KUGo3Eltpk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/9KUGo3Eltpk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT55S",
+          "durationSeconds": 55
+        },
+        {
+          "id": "dEI8o-XRPbI",
+          "title": "RE:O live in London, 2026",
+          "publishedAt": "2026-08-26T03:18:08Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/dEI8o-XRPbI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/dEI8o-XRPbI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/dEI8o-XRPbI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/dEI8o-XRPbI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/dEI8o-XRPbI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT59S",
+          "durationSeconds": 59
+        },
+        {
+          "id": "VYfN-2wArIU",
+          "title": "The Problem was Never the Music",
+          "publishedAt": "2026-08-26T00:32:56Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/VYfN-2wArIU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/VYfN-2wArIU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/VYfN-2wArIU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/VYfN-2wArIU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/VYfN-2wArIU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT25S",
+          "durationSeconds": 25
+        },
+        {
+          "id": "6RrfnpkGFNk",
+          "title": "BRIDEAR - The problem was never the music",
+          "publishedAt": "2026-08-25T19:40:11Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/6RrfnpkGFNk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6RrfnpkGFNk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6RrfnpkGFNk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/6RrfnpkGFNk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/6RrfnpkGFNk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT53S",
+          "durationSeconds": 53
+        },
         {
           "id": "nr1BgILCwag",
           "title": "Broken by the Scream | London Soundcheck | 2026",
@@ -723,108 +825,6 @@
           },
           "duration": "PT57S",
           "durationSeconds": 57
-        },
-        {
-          "id": "Ia4EPwphRro",
-          "title": "Nemophila | Oiran Chorus | Soundcheck",
-          "publishedAt": "2026-08-09T20:45:27Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT42S",
-          "durationSeconds": 42
-        },
-        {
-          "id": "j6GmyAaSGT8",
-          "title": "Lovebites | Reaper's Lullaby | London",
-          "publishedAt": "2026-08-09T18:27:21Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/j6GmyAaSGT8/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/j6GmyAaSGT8/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/j6GmyAaSGT8/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/j6GmyAaSGT8/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/j6GmyAaSGT8/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M",
-          "durationSeconds": 60
-        },
-        {
-          "id": "yckewPixZMs",
-          "title": "RE:O | Downstairs at the Dome",
-          "publishedAt": "2026-08-08T23:04:21Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/yckewPixZMs/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/yckewPixZMs/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/yckewPixZMs/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/yckewPixZMs/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/yckewPixZMs/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT59S",
-          "durationSeconds": 59
         }
       ]
     },
@@ -833,8 +833,42 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1120,
-      "videoCount": 98,
+      "videoCount": 99,
       "recentLongform": [
+        {
+          "id": "E0gERvgyeec",
+          "title": "Nemophila | Good as Hell Quartet | Orlando 2026",
+          "publishedAt": "2026-08-26T03:46:26Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/E0gERvgyeec/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/E0gERvgyeec/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/E0gERvgyeec/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/E0gERvgyeec/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/E0gERvgyeec/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M59S",
+          "durationSeconds": 239
+        },
         {
           "id": "frro5w1ZoJo",
           "title": "Out of the Ashes | Churchill's Miami",
@@ -1276,40 +1310,6 @@
           },
           "duration": "PT1M49S",
           "durationSeconds": 109
-        },
-        {
-          "id": "-0U_c3NsrZU",
-          "title": "Judas Priest | Wacken | Painkiller",
-          "publishedAt": "2026-08-02T12:00:36Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/-0U_c3NsrZU/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/-0U_c3NsrZU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/-0U_c3NsrZU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/-0U_c3NsrZU/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/-0U_c3NsrZU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT7M45S",
-          "durationSeconds": 465
         }
       ],
       "recentShorts": [
