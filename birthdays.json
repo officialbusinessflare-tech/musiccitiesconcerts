@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-08-26T07:00:31.053Z",
+  "generatedAt": "2026-08-27T07:00:40.529Z",
   "entries": [
-    {
-      "id": "86bard4fb",
-      "name": "Pharita Birthday BABYMONSTER",
-      "person": "Pharita",
-      "affiliation": "BABYMONSTER",
-      "rawDate": "2026-08-26",
-      "month": 8,
-      "day": 26,
-      "description": "RECURRING ANNUAL — August 26\n\nFull name: Pharita (stage name)\nBand & role: BABYMONSTER — vocalist\nCountry of origin: Thailand\nGreeting language: Thai / English\nBorn: August 26, 2005\nSource: Kpop Profiles, YG Entertainment official",
-      "clickupUrl": "https://app.clickup.com/t/86bard4fb"
-    },
     {
       "id": "86bard4ue",
       "name": "Tamu Murata Birthday NEMOPHILA",
@@ -375,6 +364,17 @@
       "day": 16,
       "description": "RECURRING ANNUAL — August 16\n\nBand & role: NEMOPHILA — guitar\nCountry of origin: Japan\nSource: Kpop Profiles, Jpop Wiki, NEMOPHILA official",
       "clickupUrl": "https://app.clickup.com/t/86bard4tx"
+    },
+    {
+      "id": "86bard4fb",
+      "name": "Pharita Birthday BABYMONSTER",
+      "person": "Pharita",
+      "affiliation": "BABYMONSTER",
+      "rawDate": "2026-08-26",
+      "month": 8,
+      "day": 26,
+      "description": "RECURRING ANNUAL — August 26\n\nFull name: Pharita (stage name)\nBand & role: BABYMONSTER — vocalist\nCountry of origin: Thailand\nGreeting language: Thai / English\nBorn: August 26, 2005\nSource: Kpop Profiles, YG Entertainment official",
+      "clickupUrl": "https://app.clickup.com/t/86bard4fb"
     },
     {
       "id": "86baazexe",
