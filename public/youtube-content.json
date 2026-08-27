@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-26T07:00:38.712Z",
+  "fetchedAt": "2026-08-27T07:00:48.099Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 150000,
-      "videoCount": 264,
+      "videoCount": 263,
       "recentLongform": [
         {
           "id": "pIrZgvb8uQQ",
@@ -623,40 +623,6 @@
           "durationSeconds": 59
         },
         {
-          "id": "VYfN-2wArIU",
-          "title": "The Problem was Never the Music",
-          "publishedAt": "2026-08-26T00:32:56Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/VYfN-2wArIU/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/VYfN-2wArIU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/VYfN-2wArIU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/VYfN-2wArIU/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/VYfN-2wArIU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT25S",
-          "durationSeconds": 25
-        },
-        {
           "id": "6RrfnpkGFNk",
           "title": "BRIDEAR - The problem was never the music",
           "publishedAt": "2026-08-25T19:40:11Z",
@@ -825,6 +791,40 @@
           },
           "duration": "PT57S",
           "durationSeconds": 57
+        },
+        {
+          "id": "Ia4EPwphRro",
+          "title": "Nemophila | Oiran Chorus | Soundcheck",
+          "publishedAt": "2026-08-09T20:45:27Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT42S",
+          "durationSeconds": 42
         }
       ]
     },
