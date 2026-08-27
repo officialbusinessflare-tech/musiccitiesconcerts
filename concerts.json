@@ -1,62 +1,23 @@
 {
-  "generatedAt": "2026-08-26T07:00:31.053Z",
+  "generatedAt": "2026-08-27T07:00:40.529Z",
   "entries": [
     {
-      "id": "86bbkeb59",
-      "name": "Cheerleader Roadkill + Appleseed + Diva Bleach @ Conduit — Orlando, FL — Aug 26 2026",
-      "date": "2026-08-26",
-      "venue": "Conduit",
-      "city": "Orlando",
+      "id": "86bbmte1e",
+      "name": "Not A Phase Magazine showcase @ Churchill's Pub — Miami, FL — Aug 27 2026",
+      "date": "2026-08-27",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
       "state": "FL",
       "bands": [
-        "Cheerleader Roadkill",
-        "Appleseed",
-        "Diva Bleach"
+        "Not A Phase Magazine showcase"
       ],
-      "description": "Local Orlando bill: Cheerleader Roadkill, Appleseed, Diva Bleach.",
-      "ticketUrl": "https://www.ticketweb.com/event/cheerleader-roadkill-appleseed-and-diva-conduit-tickets/15026873",
+      "description": "Venue: Churchill's Pub, 5501 NE 2nd Ave, Miami FL\nDate/time: Thu Aug 27 2026, 9:00 PM\nGenres: rock / punk / post-punk",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkeb59",
+      "clickupUrl": "https://app.clickup.com/t/86bbmte1e",
       "buckets": [
         "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbj3w62",
-      "name": "📀 SAKI — PLUVIA — RELEASE — Aug 26 2026",
-      "date": "2026-08-26",
-      "venue": "PLUVIA — RELEASE",
-      "bands": [
-        "SAKI"
-      ],
-      "description": "SAKI — PLUVIA (international CD release, JPU Records)",
-      "ticketUrl": "https://jpurecords.com/products/saki-pluvia-cd",
-      "priority": "normal",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbj3w62",
-      "buckets": [
-        "album-releases"
-      ]
-    },
-    {
-      "id": "86bammf50",
-      "name": "📀 Lonesome_Blue — FOURTH DIMENSION — RELEASE",
-      "date": "2026-08-26",
-      "venue": "FOURTH DIMENSION — RELEASE",
-      "bands": [
-        "Lonesome_Blue"
-      ],
-      "description": "LonesomeBlue — FOURTH DIMENSION (2nd album) 📀",
-      "priority": "normal",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bammf50",
-      "buckets": [
-        "japanese-metal",
-        "album-releases"
       ]
     },
     {
@@ -622,6 +583,27 @@
       ]
     },
     {
+      "id": "86bbmte2t",
+      "name": "Cheekface + Catbite @ The Banyan Live — West Palm Beach, FL — Sep 3 2026",
+      "date": "2026-09-03",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Cheekface",
+        "Catbite"
+      ],
+      "description": "Bands: Cheekface, with special guest Catbite\nVenue: The Banyan Live, 8199 Southern Blvd, West Palm Beach FL\nDate/time: Thu Sep 3 2026, 7:00 PM · 18+\nTickets: https://www.etix.com/ticket/p/64578227/cheekface-wspecial-guest-catbite-in-west-palm-beach-west-palm-beach-the-banyan-live",
+      "ticketUrl": "https://www.etix.com/ticket/p/64578227/cheekface-wspecial-guest-catbite-in-west-palm-beach-west-palm-beach-the-banyan-live",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmte2t",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbked8f",
       "name": "Nonpoint @ Come and Take It Live — Austin, TX — Sep 3 2026",
       "date": "2026-09-03",
@@ -834,6 +816,25 @@
       ]
     },
     {
+      "id": "86bbmtebr",
+      "name": "FATE GEAR @ Connichi 2026 — Wiesbaden, Germany — Sep 5 2026",
+      "date": "2026-09-05",
+      "venue": "Connichi 2026",
+      "city": "Wiesbaden",
+      "country": "Germany",
+      "bands": [
+        "FATE GEAR"
+      ],
+      "description": "Band: FATE GEAR — Captain Mina + Hime Hashimura duo sets\nEvent: Connichi 2026 (Sep 5–6)\nVenue: Wiesbaden, Germany\nDate: Sat Sep 5 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmtebr",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbj3vwd",
       "name": "Kill the Robot @ Mac's Club Deuce — Miami Beach, FL — Sep 5 2026",
       "date": "2026-09-05",
@@ -984,6 +985,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w465",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbmte47",
+      "name": "No Raza + CryptLord + Foreverless @ The Atlantic — Gainesville, FL — Sep 6 2026",
+      "date": "2026-09-06",
+      "venue": "The Atlantic",
+      "city": "Gainesville",
+      "state": "FL",
+      "bands": [
+        "No Raza",
+        "CryptLord",
+        "Foreverless"
+      ],
+      "description": "Bands: No Raza (Ruins of the First World Tour), w/ CryptLord, Foreverless, Nibiru\nVenue: The Atlantic, Gainesville FL\nDate: Sun Sep 6 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmte47",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2127,6 +2149,27 @@
       ]
     },
     {
+      "id": "86bbmte56",
+      "name": "The Browning + Deadlands + Extortionist @ The Orpheum — Tampa, FL — Sep 18 2026",
+      "date": "2026-09-18",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "The Browning",
+        "Deadlands",
+        "Extortionist"
+      ],
+      "description": "Bands: The Browning, w/ Deadlands, Extortionist, Blind Equation\nTour: Burn This World [Evolved] USA V2\nVenue: The Orpheum, Tampa FL\nDate: Fri Sep 18 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmte56",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbkea4q",
       "name": "Vader + Jungle Rot + Fleshcrawl @ Conduit — Orlando, FL — Sep 18 2026",
       "date": "2026-09-18",
@@ -2563,6 +2606,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4y7",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbmte5f",
+      "name": "The Browning + Deadlands + Extortionist @ The Albatross — Jacksonville, FL — Sep 20 2026",
+      "date": "2026-09-20",
+      "venue": "The Albatross",
+      "city": "Jacksonville",
+      "state": "FL",
+      "bands": [
+        "The Browning",
+        "Deadlands",
+        "Extortionist"
+      ],
+      "description": "Bands: The Browning, w/ Deadlands, Extortionist, Blind Equation\nTour: Burn This World [Evolved] USA V2\nVenue: The Albatross, Jacksonville FL\nDate: Sun Sep 20 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmte5f",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3619,6 +3683,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbkecuv",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbmte6a",
+      "name": "Nocturne Underground @ The Banyan Live — West Palm Beach, FL — Oct 1 2026",
+      "date": "2026-10-01",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Nocturne Underground"
+      ],
+      "description": "Event: Nocturne Underground (Respiromalo presents)\nVenue: The Banyan Live, West Palm Beach FL\nDate/time: Thu Oct 1 2026, doors 6 PM / show 7 PM · 18+\nTickets: https://www.etix.com/ticket/p/78838037/nocturne-underground-west-palm-beach-the-banyan-live",
+      "ticketUrl": "https://www.etix.com/ticket/p/78838037/nocturne-underground-west-palm-beach-the-banyan-live",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmte6a",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -4850,6 +4934,26 @@
       ]
     },
     {
+      "id": "86bbmte7e",
+      "name": "Halloween House Riot @ The Banyan Live — West Palm Beach, FL — Oct 15 2026",
+      "date": "2026-10-15",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Halloween House Riot"
+      ],
+      "description": "Event: Halloween House Riot\nVenue: The Banyan Live, West Palm Beach FL\nDate/time: Thu Oct 15 2026, doors 7 PM / show 8 PM · 18+\nTickets: https://www.etix.com/ticket/p/56978262/halloween-house-riot-west-palm-beach-the-banyan-live",
+      "ticketUrl": "https://www.etix.com/ticket/p/56978262/halloween-house-riot-west-palm-beach-the-banyan-live",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmte7e",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbkeacc",
       "name": "Ludovico Technique + Pressure Kitten @ Conduit — Orlando, FL — Oct 15 2026",
       "date": "2026-10-15",
@@ -5458,6 +5562,25 @@
       ]
     },
     {
+      "id": "86bbmtebz",
+      "name": "HAGANE Halloween Live 2026 @ Shibuya — Tokyo, Japan — Oct 27 2026",
+      "date": "2026-10-27",
+      "venue": "Shibuya",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "HAGANE Halloween Live 2026"
+      ],
+      "description": "Band: HAGANE\nEvent: HAGANE HALLOWEEN LIVE 2026\nVenue: Shibuya, Tokyo\nDate: Tue Oct 27 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmtebz",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb704",
       "name": "SiM @ House of Blues — Chicago, IL — Oct 27 2026",
       "date": "2026-10-27",
@@ -5950,6 +6073,26 @@
       ]
     },
     {
+      "id": "86bbmte7n",
+      "name": "Gunshine @ The Banyan Live — West Palm Beach, FL — Nov 10 2026",
+      "date": "2026-11-10",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Gunshine"
+      ],
+      "description": "Band: Gunshine\nVenue: The Banyan Live, West Palm Beach FL\nDate/time: Tue Nov 10 2026, doors 5 PM / show 5:30 PM · 18+\nTickets: https://www.etix.com/ticket/p/43473171/gunshine-west-palm-beach-the-banyan-live",
+      "ticketUrl": "https://www.etix.com/ticket/p/43473171/gunshine-west-palm-beach-the-banyan-live",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmte7n",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbeb7e8",
       "name": "SiM @ The Basement East — Nashville, TN — Nov 10 2026",
       "date": "2026-11-10",
@@ -5984,6 +6127,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5vdy",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbmte7x",
+      "name": "Tantric + Revis @ The Banyan Live — West Palm Beach, FL — Nov 12 2026",
+      "date": "2026-11-12",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Tantric",
+        "Revis"
+      ],
+      "description": "Bands: Tantric, Revis\nVenue: The Banyan Live, West Palm Beach FL\nDate/time: Thu Nov 12 2026, doors 5 PM / show 5:30 PM · 18+\nTickets: on-sale pending — https://www.etix.com/ticket/p/88786689/tantric-and-revis-west-palm-beach-the-banyan-live",
+      "ticketUrl": "https://www.etix.com/ticket/p/88786689/tantric-and-revis-west-palm-beach-the-banyan-live",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmte7x",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -6281,6 +6445,25 @@
       ]
     },
     {
+      "id": "86bbmtecr",
+      "name": "Unlucky Morpheus @ Kichijoji CLUB SEATA — Tokyo, Japan — Nov 17 2026",
+      "date": "2026-11-17",
+      "venue": "Kichijoji CLUB SEATA",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Unlucky Morpheus"
+      ],
+      "description": "Band: Unlucky Morpheus\nVenue: Kichijoji CLUB SEATA, Tokyo\nDate: Tue Nov 17 2026 — one-man tour date",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmtecr",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb7kc",
       "name": "SiM @ The Echo Lounge and Music Hall — Dallas, TX — Nov 17 2026",
       "date": "2026-11-17",
@@ -6298,6 +6481,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbeb7kc",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbmte83",
+      "name": "Earshot + The Lonely Ones @ The Banyan Live — West Palm Beach, FL — Nov 19 2026",
+      "date": "2026-11-19",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Earshot",
+        "The Lonely Ones"
+      ],
+      "description": "Bands: Earshot, The Lonely Ones\nVenue: The Banyan Live, West Palm Beach FL\nDate/time: Thu Nov 19 2026, doors 5 PM / show 5:30 PM · 18+\nTickets: on-sale pending — https://www.etix.com/ticket/p/71203615/earshot-and-the-lonely-ones-west-palm-beach-the-banyan-live",
+      "ticketUrl": "https://www.etix.com/ticket/p/71203615/earshot-and-the-lonely-ones-west-palm-beach-the-banyan-live",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmte83",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -6336,6 +6540,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5v76",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbmte98",
+      "name": "Miss May I + Born of Osiris @ The Orpheum — Tampa, FL — Nov 20 2026",
+      "date": "2026-11-20",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Miss May I",
+        "Born of Osiris"
+      ],
+      "description": "Bands: Miss May I, Born of Osiris, w/ Convictions, Downswing\nTour: The Perpetual Iron Tour\nVenue: The Orpheum, Tampa FL\nDate: Fri Nov 20 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmte98",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -6420,6 +6644,26 @@
       ]
     },
     {
+      "id": "86bbmte9h",
+      "name": "Miss May I + Born of Osiris @ The Albatross — Jacksonville, FL — Nov 22 2026",
+      "date": "2026-11-22",
+      "venue": "The Albatross",
+      "city": "Jacksonville",
+      "state": "FL",
+      "bands": [
+        "Miss May I",
+        "Born of Osiris"
+      ],
+      "description": "Bands: Miss May I, Born of Osiris, w/ Convictions, Downswing\nTour: The Perpetual Iron Tour\nVenue: The Albatross, Jacksonville FL\nDate: Sun Nov 22 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmte9h",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbeb7p1",
       "name": "FATE GEAR + KOKOMI @ Kichijoji SHUFFLE (MYTHIC DUEL) — Tokyo, Japan — Nov 22 2026",
       "date": "2026-11-22",
@@ -6457,6 +6701,26 @@
       "clickupUrl": "https://app.clickup.com/t/86baqty2q",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbmte9q",
+      "name": "Miss May I + Born of Osiris @ Club LA — Destin, FL — Nov 24 2026",
+      "date": "2026-11-24",
+      "venue": "Club LA",
+      "city": "Destin",
+      "state": "FL",
+      "bands": [
+        "Miss May I",
+        "Born of Osiris"
+      ],
+      "description": "Bands: Miss May I, Born of Osiris, w/ Convictions, Downswing\nTour: The Perpetual Iron Tour\nVenue: Club LA, Destin FL\nDate: Tue Nov 24 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmte9q",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -6666,6 +6930,26 @@
       ]
     },
     {
+      "id": "86bbmtea7",
+      "name": "Jeffrey Nothing @ The Banyan Live — West Palm Beach, FL — Dec 10 2026",
+      "date": "2026-12-10",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Jeffrey Nothing"
+      ],
+      "description": "Band: Jeffrey Nothing (founder and original singer of Mushroomhead)\nVenue: The Banyan Live, West Palm Beach FL\nDate/time: Thu Dec 10 2026, doors 5 PM / show 5:30 PM · 18+\nTickets: on-sale pending —…",
+      "ticketUrl": "https://www.etix.com/ticket/p/65022808/jeffrey-nothing-founder-and-original-singer-of-mushroomhead-west-palm-beach-the-banyan-live",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmtea7",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86b7xw9xz",
       "name": "Sabaton — Hard Rock Live, Hollywood FL",
       "date": "2026-12-12",
@@ -6719,6 +7003,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4je",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbmteay",
+      "name": "Paralandra + Major Moment @ The Banyan Live — West Palm Beach, FL — Dec 13 2026",
+      "date": "2026-12-13",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Paralandra",
+        "Major Moment"
+      ],
+      "description": "Bands: Paralandra, Major Moment\nVenue: The Banyan Live, West Palm Beach FL\nDate/time: Sun Dec 13 2026, doors 5 PM / show 5:30 PM · 18+\nTickets: on-sale pending — https://www.etix.com/ticket/p/88535726/paralandra-and-major-moment-west-palm-beach-the-banyan-live",
+      "ticketUrl": "https://www.etix.com/ticket/p/88535726/paralandra-and-major-moment-west-palm-beach-the-banyan-live",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmteay",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -7026,6 +7331,25 @@
       ]
     },
     {
+      "id": "86bbmted9",
+      "name": "Hell's Heroes IX @ White Oak Music Hall — Houston, TX — Mar 18 2027",
+      "date": "2027-03-18",
+      "venue": "White Oak Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "bands": [
+        "Hell's Heroes IX"
+      ],
+      "description": "Festival: Hell's Heroes IX — March 18–20, 2027\nLocation: Houston, TX\nAnnounced lineup: Overkill (old-school set, with special guests), Beherit, Armored Saint, Metal Church, Bulldozer, Omen (final US show), Exhumer and more — a couple of bands still to be named.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmted9",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86baaae33",
       "name": "Yuja Wang (piano) — Knight Concert Hall, Arsht Center, Miami FL",
       "date": "2027-03-23",
@@ -7136,6 +7460,57 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbc299v",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbmtee9",
+      "name": "🎂 Naho Birthday (Dimrays) — Aug 18",
+      "date": "2027-08-18",
+      "venue": "Aug 18",
+      "bands": [
+        "🎂 Naho Birthday (Dimrays)"
+      ],
+      "description": "RECURRING ANNUAL — August 18",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmtee9",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbmtee0",
+      "name": "🎂 Nagisa Birthday (TRiDENT) — Aug 18",
+      "date": "2027-08-18",
+      "venue": "Aug 18",
+      "bands": [
+        "🎂 Nagisa Birthday (TRiDENT)"
+      ],
+      "description": "RECURRING ANNUAL — August 18",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmtee0",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbmteeq",
+      "name": "🎂 Sena Birthday (JILUKA) — Aug 25",
+      "date": "2027-08-25",
+      "venue": "Aug 25",
+      "bands": [
+        "🎂 Sena Birthday (JILUKA)"
+      ],
+      "description": "RECURRING ANNUAL — August 25",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbmteeq",
       "buckets": [
         "japanese-metal"
       ]
