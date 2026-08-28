@@ -56,6 +56,7 @@ const COORDS: Record<string, [number, number]> = {
   'munich': [48.1351, 11.582], 'frankfurt': [50.1109, 8.6821], 'cologne': [50.9375, 6.9603],
   'utrecht': [52.0907, 5.1214], 'budapest': [47.4979, 19.0402], 'vienna': [48.2082, 16.3738],
   'milan': [45.4642, 9.19], 'lucerne': [47.0502, 8.3093], 'luzern': [47.0502, 8.3093], 'paris': [48.8566, 2.3522],
+  'stockholm': [59.3293, 18.0686], 'johanneshov': [59.2986, 18.0878],
 };
 const KEYS = Object.keys(COORDS).sort((a, b) => b.length - a.length);
 // Precise per-venue coordinates for known rooms, so different venues in the same
@@ -69,6 +70,7 @@ const VENUE_COORDS: Record<string, [number, number]> = {
   'come and take it': [30.2361, -97.7292], 'whisky': [34.0906, -118.3855], 'brick by brick': [32.7659, -117.1995],
   'the dome': [51.5637, -0.1385], 'nippon budokan': [35.6933, 139.7497], 'budokan': [35.6933, 139.7497],
   'ex theater': [35.6607, 139.7365], 'makuhari': [35.6479, 140.0347], 'zepp shinjuku': [35.6931, 139.702],
+  'slaktkyrkan': [59.2939, 18.0785],
 };
 const VENUE_KEYS = Object.keys(VENUE_COORDS).sort((a, b) => b.length - a.length);
 const FL_CITIES = new Set([
