@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-08-27T07:00:48.099Z",
+  "fetchedAt": "2026-08-28T07:00:52.847Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 150000,
-      "videoCount": 263,
+      "videoCount": 266,
       "recentLongform": [
+        {
+          "id": "z6S481shvTs",
+          "title": "Nemophila | Orlando Soundcheck | \"Rise\"",
+          "publishedAt": "2026-08-28T03:26:05Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/z6S481shvTs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/z6S481shvTs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/z6S481shvTs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/z6S481shvTs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/z6S481shvTs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT3M50S",
+          "durationSeconds": 230
+        },
         {
           "id": "pIrZgvb8uQQ",
           "title": "BRIDEAR: The Problem Was Never the Music | Economics of Being Heard | 問題は音楽ではなかった｜日本のメタルと、音楽が届くまでの経済",
@@ -37,6 +71,11 @@
               "url": "https://i.ytimg.com/vi/pIrZgvb8uQQ/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/pIrZgvb8uQQ/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT7M43S",
@@ -71,6 +110,11 @@
               "url": "https://i.ytimg.com/vi/kDJjh_X1DQc/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/kDJjh_X1DQc/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT10M35S",
@@ -207,6 +251,11 @@
               "url": "https://i.ytimg.com/vi/xOsV-Wu-iAA/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/xOsV-Wu-iAA/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT7M52S",
@@ -241,6 +290,11 @@
               "url": "https://i.ytimg.com/vi/ZiBVL_0k8NA/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/ZiBVL_0k8NA/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT5M55S",
@@ -275,6 +329,11 @@
               "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT3M30S",
@@ -343,6 +402,11 @@
               "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT13M51S",
@@ -377,6 +441,11 @@
               "url": "https://i.ytimg.com/vi/RIORjQiFGwg/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/RIORjQiFGwg/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT13M43S",
@@ -445,6 +514,11 @@
               "url": "https://i.ytimg.com/vi/4GnvOdPDA3M/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/4GnvOdPDA3M/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT4M49S",
@@ -483,77 +557,77 @@
           },
           "duration": "PT1M57S",
           "durationSeconds": 117
-        },
-        {
-          "id": "udctwAH6o9c",
-          "title": "Broken by the Scream | 花鏑 Hanakabura | Latest Single",
-          "publishedAt": "2026-08-10T05:56:20Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/udctwAH6o9c/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/udctwAH6o9c/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/udctwAH6o9c/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/udctwAH6o9c/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/udctwAH6o9c/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT4M50S",
-          "durationSeconds": 290
-        },
-        {
-          "id": "UFwsBTd-lN4",
-          "title": "Broken by the Scream | Question 3 | TMC Interview",
-          "publishedAt": "2026-08-10T05:22:43Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/UFwsBTd-lN4/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/UFwsBTd-lN4/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/UFwsBTd-lN4/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/UFwsBTd-lN4/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/UFwsBTd-lN4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT2M7S",
-          "durationSeconds": 127
         }
       ],
       "recentShorts": [
+        {
+          "id": "PVPx5oO5nbs",
+          "title": "The Problem Was Never the Music",
+          "publishedAt": "2026-08-27T13:34:52Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/PVPx5oO5nbs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/PVPx5oO5nbs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/PVPx5oO5nbs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/PVPx5oO5nbs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/PVPx5oO5nbs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT48S",
+          "durationSeconds": 48
+        },
+        {
+          "id": "uRewCSiLGGE",
+          "title": "BRIDEAR - Go Listen to Born Again, Again",
+          "publishedAt": "2026-08-27T07:04:40Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/uRewCSiLGGE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/uRewCSiLGGE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/uRewCSiLGGE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/uRewCSiLGGE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/uRewCSiLGGE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT14S",
+          "durationSeconds": 14
+        },
         {
           "id": "9KUGo3Eltpk",
           "title": "Lovebites | Wacken 2026 | Soldier Stands Solitarily",
@@ -791,40 +865,6 @@
           },
           "duration": "PT57S",
           "durationSeconds": 57
-        },
-        {
-          "id": "Ia4EPwphRro",
-          "title": "Nemophila | Oiran Chorus | Soundcheck",
-          "publishedAt": "2026-08-09T20:45:27Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/Ia4EPwphRro/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT42S",
-          "durationSeconds": 42
         }
       ]
     },
@@ -864,6 +904,11 @@
               "url": "https://i.ytimg.com/vi/E0gERvgyeec/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/E0gERvgyeec/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT3M59S",
@@ -898,6 +943,11 @@
               "url": "https://i.ytimg.com/vi/frro5w1ZoJo/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/frro5w1ZoJo/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT5M6S",
@@ -932,6 +982,11 @@
               "url": "https://i.ytimg.com/vi/wMo5lRpKaZc/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/wMo5lRpKaZc/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT3M57S",
@@ -966,6 +1021,11 @@
               "url": "https://i.ytimg.com/vi/nvbn0WXhNE8/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/nvbn0WXhNE8/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT3M36S",
@@ -1000,6 +1060,11 @@
               "url": "https://i.ytimg.com/vi/0egzv_C7WUM/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/0egzv_C7WUM/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT3M2S",
@@ -1034,6 +1099,11 @@
               "url": "https://i.ytimg.com/vi/a66pbMPlido/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/a66pbMPlido/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT6M10S",
@@ -1102,6 +1172,11 @@
               "url": "https://i.ytimg.com/vi/Z53BfStY34I/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/Z53BfStY34I/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT3M12S",
@@ -1136,6 +1211,11 @@
               "url": "https://i.ytimg.com/vi/-OUuSPs_fXw/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/-OUuSPs_fXw/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT8M31S",
@@ -1170,6 +1250,11 @@
               "url": "https://i.ytimg.com/vi/BP84ftgeT_w/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/BP84ftgeT_w/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT5M46S",
@@ -1204,6 +1289,11 @@
               "url": "https://i.ytimg.com/vi/zqnfvipftwM/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/zqnfvipftwM/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT4M5S",
@@ -1238,6 +1328,11 @@
               "url": "https://i.ytimg.com/vi/vwSk5hy0Psc/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/vwSk5hy0Psc/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT6M5S",
@@ -1272,6 +1367,11 @@
               "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/maxresdefault.jpg",
               "width": 1280,
               "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
             }
           },
           "duration": "PT3M25S",
