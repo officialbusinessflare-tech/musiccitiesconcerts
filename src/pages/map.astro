@@ -19,6 +19,7 @@ const COORDS: Record<string, [number, number]> = {
   'coral springs': [26.2712, -80.2706], 'tallahassee': [30.4383, -84.2807], 'gainesville': [29.6516, -82.3248],
   'pinellas park': [27.8428, -82.6995], 'rockledge': [28.3225, -80.7256], 'melbourne': [28.0836, -80.6081],
   'bradenton': [27.4989, -82.5748], 'lake buena vista': [28.385, -81.563], 'lakeland': [28.0395, -81.9498],
+  'fort myers': [26.6406, -81.8723],
   // US
   'new york': [40.7128, -74.006], 'boston': [42.3601, -71.0589], 'philadelphia': [39.9526, -75.1652],
   'washington': [38.9072, -77.0369], 'charlotte': [35.2271, -80.8431], 'raleigh': [35.7796, -78.6382],
@@ -77,7 +78,7 @@ const FL_CITIES = new Set([
   'miami beach','miami','tampa','st. petersburg','st petersburg','winter park','orlando',
   'fort lauderdale','hollywood','west palm beach','lake worth','daytona beach','sanford',
   'fort pierce','jacksonville','coral springs','tallahassee','gainesville','pinellas park',
-  'rockledge','melbourne','bradenton','lake buena vista','lakeland',
+  'rockledge','melbourne','bradenton','lake buena vista','lakeland','fort myers',
 ]);
 
 const today = new Date().toISOString().slice(0, 10);
