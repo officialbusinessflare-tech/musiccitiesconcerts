@@ -1,122 +1,6 @@
 {
-  "generatedAt": "2026-08-28T07:00:45.851Z",
+  "generatedAt": "2026-08-29T07:00:35.191Z",
   "entries": [
-    {
-      "id": "86bba6hfg",
-      "name": "KAMELOT + Visions of Atlantis + Frozen Crown @ Hard Rock Live — Orlando, FL — Aug 28 2026",
-      "date": "2026-08-28",
-      "venue": "Hard Rock Live",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "KAMELOT",
-        "Visions of Atlantis",
-        "Frozen Crown"
-      ],
-      "description": "Dark Asylum World Tour, North America Part 1 — and it lands on the album's release day.",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bba6hfg",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbeb7ww",
-      "name": "🎂 Satomi Senba Birthday (SHOW-YA) — Aug 28",
-      "date": "2026-08-28",
-      "venue": "Aug 28",
-      "bands": [
-        "🎂 Satomi Senba Birthday (SHOW-YA)"
-      ],
-      "description": "Bassist, SHOW-YA. Birthday Aug 28 per Oricon artist profile. Holding entry for the birthdays pipeline.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7ww",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbeb7qu",
-      "name": "📀 The Warning — Everything's Falling — RELEASE — Aug 28 2026",
-      "date": "2026-08-28",
-      "venue": "Everything's Falling — RELEASE",
-      "bands": [
-        "The Warning"
-      ],
-      "description": "The Warning's fifth album, Everything's Falling, out on Lava/Republic. Lead single Ritual already out. Source: Blabbermouth announcement.",
-      "priority": "normal",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7qu",
-      "buckets": [
-        "interesting-elsewhere",
-        "album-releases"
-      ]
-    },
-    {
-      "id": "86bbct2wk",
-      "name": "Butterbrain + Fuakata @ Kill Your Idol — Miami Beach, FL — Aug 28 2026",
-      "date": "2026-08-28",
-      "venue": "Kill Your Idol",
-      "city": "Miami Beach",
-      "state": "FL",
-      "bands": [
-        "Butterbrain",
-        "Fuakata"
-      ],
-      "description": "Bands: Butterbrain (NYC), ¡Fuakata!\nVenue: Kill Your Idol, 222 Espanola Way, Miami Beach, FL\nDate: Friday, August 28, 2026\nNight two of Butterbrain's \"Back From NYC To Florida\" run.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbct2wk",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86batb3u1",
-      "name": "The March of Iron and Echoes (Vile Productions) w/ Chironex + Cerebral Desecration @ Brass Mug — Tampa, FL — Aug 28 2026",
-      "date": "2026-08-28",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "The March of Iron and Echoes (Vile Productions)",
-        "Chironex",
-        "Cerebral Desecration"
-      ],
-      "description": "Vile Productions presents The March of Iron and Echoes at The Brass Mug, Tampa, with Chironex and Cerebral Desecration. Friday, August 28, 2026, 7 PM.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86batb3u1",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86ban5vcu",
-      "name": "Slaughter — Whisky a Go Go, West Hollywood CA",
-      "date": "2026-08-28",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "Slaughter"
-      ],
-      "description": "Slaughter — Late-80s hard rock.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86ban5vcu",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
     {
       "id": "86bbke7zg",
       "name": "ZILQY — CAVEAT — RELEASE — Aug 29 2026",
@@ -732,6 +616,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w45x",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbpafm3",
+      "name": "Tampa Death Fest Night 2 @ Brass Mug — Tampa, FL — Sep 5 2026",
+      "date": "2026-09-05",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Tampa Death Fest Night 2"
+      ],
+      "description": "Tampa Death Fest — Night 2 of 2. The Brass Mug, 1450 Skipper Rd, Tampa FL. Sat Sep 5 2026, doors 4:00, show 5:00.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpafm3",
+      "buckets": [
+        "florida-metal-scene",
+        "key-festivals"
       ]
     },
     {
@@ -4835,6 +4739,25 @@
       ]
     },
     {
+      "id": "86bbpafbh",
+      "name": "Polyphia @ War Memorial Auditorium — Fort Lauderdale, FL — Oct 15 2026",
+      "date": "2026-10-15",
+      "venue": "War Memorial Auditorium",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Polyphia"
+      ],
+      "description": "Polyphia — TOUR MMXXVI, with Ladrones and RJ Pasin. FTL War Memorial Auditorium, Fort Lauderdale FL. Thu Oct 15 2026, 7:30 PM.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpafbh",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbmte7e",
       "name": "Halloween House Riot @ The Banyan Live — West Palm Beach, FL — Oct 15 2026",
       "date": "2026-10-15",
@@ -4947,6 +4870,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba5zfhv",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbpafeh",
+      "name": "Knocked Loose + Denzel Curry @ War Memorial Auditorium — Fort Lauderdale, FL — Oct 17 2026",
+      "date": "2026-10-17",
+      "venue": "War Memorial Auditorium",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Knocked Loose",
+        "Denzel Curry"
+      ],
+      "description": "Knocked Loose & Denzel Curry, with Superheaven and Boundaries. FTL War Memorial Auditorium, Fort Lauderdale FL. Sat Oct 17 2026, 7:00 PM.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpafeh",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -5124,6 +5067,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbeb6hy",
       "buckets": [
         "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bbpafan",
+      "name": "CLUTCH @ The Ritz Ybor — Tampa, FL — Oct 20 2026",
+      "date": "2026-10-20",
+      "venue": "The Ritz Ybor",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "CLUTCH"
+      ],
+      "description": "CLUTCH — US Fall Tour. The Ritz Ybor, Tampa FL. Tue Oct 20 2026, 6:30 PM.",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D006495A42590B0",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpafan",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -5539,6 +5502,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bba6hmx",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbpaffc",
+      "name": "Black Label Society @ War Memorial Auditorium — Fort Lauderdale, FL — Oct 29 2026",
+      "date": "2026-10-29",
+      "venue": "War Memorial Auditorium",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Black Label Society"
+      ],
+      "description": "Black Label Society, with Zakk Sabbath and Dark Chapel. FTL War Memorial Auditorium, Fort Lauderdale FL. Thu Oct 29 2026, 7:30 PM.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpaffc",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -6148,6 +6130,27 @@
       ]
     },
     {
+      "id": "86bbpafhq",
+      "name": "Pain of Truth + Madball + Rotting Out @ The Orpheum — Tampa, FL — Nov 14 2026",
+      "date": "2026-11-14",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Pain of Truth",
+        "Madball",
+        "Rotting Out"
+      ],
+      "description": "Pain of Truth headlining North America 2026, with Madball, Rotting Out, Contention, Mizery, Locked Shut and xFOREVER WARx. The Orpheum, Ybor City, Tampa FL. Sat Nov 14 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpafhq",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86baqu75x",
       "name": "Hammer and Nail Fest — TBD Florida venue",
       "date": "2026-11-14",
@@ -6257,6 +6260,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4tx",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbpafkc",
+      "name": "Pain of Truth + Madball @ Vans Warped Tour — Orlando, FL — Nov 15 2026",
+      "date": "2026-11-15",
+      "venue": "Vans Warped Tour",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Pain of Truth",
+        "Madball"
+      ],
+      "description": "Pain of Truth and Madball on the Vans Warped Tour Orlando bill, Camping World Stadium campus. Sun Nov 15 2026 (festival runs Nov 14–15).",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpafkc",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -6808,6 +6831,26 @@
       ]
     },
     {
+      "id": "86bbpafgq",
+      "name": "Beartooth + Don Broco @ War Memorial Auditorium — Fort Lauderdale, FL — Dec 5 2026",
+      "date": "2026-12-05",
+      "venue": "War Memorial Auditorium",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Beartooth",
+        "Don Broco"
+      ],
+      "description": "Beartooth, with Don Broco, Magnolia Park and Windwaker. FTL War Memorial Auditorium, Fort Lauderdale FL. Sat Dec 5 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpafgq",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbct3we",
       "name": "Blue Oyster Cult @ Seminole Brighton Bay Casino — Okeechobee, FL — Dec 5 2026",
       "date": "2026-12-05",
@@ -7261,6 +7304,25 @@
       ]
     },
     {
+      "id": "86bbpafnj",
+      "name": "Yamato The Drummers of Japan @ Lillian S. Wells Hall — Fort Lauderdale, FL — Feb 25 2027",
+      "date": "2027-02-25",
+      "venue": "Lillian S. Wells Hall",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Yamato The Drummers of Japan"
+      ],
+      "description": "Yamato — The Drummers of Japan. Lillian S. Wells Hall at The Parker, Fort Lauderdale FL. Thu Feb 25 2027.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpafnj",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbmted9",
       "name": "Hell's Heroes IX @ White Oak Music Hall — Houston, TX — Mar 18 2027",
       "date": "2027-03-18",
@@ -7331,6 +7393,22 @@
       "buckets": []
     },
     {
+      "id": "86bbpafvp",
+      "name": "Keiko Terada Birthday SHOW-YA",
+      "date": "2027-07-27",
+      "bands": [
+        "Keiko Terada Birthday SHOW-YA"
+      ],
+      "description": "RECURRING ANNUAL — July 27",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpafvp",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bba6hve",
       "name": "Keiko Terada Birthday SHOW-YA",
       "date": "2027-07-27",
@@ -7379,6 +7457,22 @@
       ]
     },
     {
+      "id": "86bbpafz3",
+      "name": "Shono Birthday Paradoxx",
+      "date": "2027-08-10",
+      "bands": [
+        "Shono Birthday Paradoxx"
+      ],
+      "description": "RECURRING ANNUAL — August 10",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpafz3",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbc299v",
       "name": "🎂 Shono Birthday PARADOXX",
       "date": "2027-08-10",
@@ -7390,6 +7484,38 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbc299v",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbpafxe",
+      "name": "Naho Birthday Dimrays",
+      "date": "2027-08-18",
+      "bands": [
+        "Naho Birthday Dimrays"
+      ],
+      "description": "RECURRING ANNUAL — August 18",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpafxe",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbpafx7",
+      "name": "Nagisa Birthday TRiDENT",
+      "date": "2027-08-18",
+      "bands": [
+        "Nagisa Birthday TRiDENT"
+      ],
+      "description": "RECURRING ANNUAL — August 18",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbpafx7",
       "buckets": [
         "japanese-metal"
       ]
