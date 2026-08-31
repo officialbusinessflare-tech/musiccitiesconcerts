@@ -6,6 +6,7 @@ import { writeFile, mkdir } from 'node:fs/promises';
 
 const USER = 'TheMusicCitiesPodcast';
 const FEED = `https://www.pinterest.com/${USER}/feed.rss`;
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 const MAX = 30;
 
 async function writeStatus(obj) {
@@ -27,13 +28,27 @@ function parse(xml) {
   return items;
 }
 
+async function tryFeed(url) {
+  const res = await fetch(url, { headers: { 'User-Agent': UA, 'Accept': 'application/rss+xml, application/xml, text/xml, */*', 'Accept-Language': 'en-US,en;q=0.9' }, redirect: 'follow' });
+  const xml = await res.text();
+  return { status: res.status, ct: res.headers.get('content-type'), xml };
+}
+
 async function run() {
   try {
-    const res = await fetch(FEED, { headers: { 'User-Agent': 'MusicCitiesBot/1.0' } });
-    if (!res.ok) throw new Error(`feed ${res.status}`);
-    const xml = await res.text();
-    const latest = parse(xml);
-    if (!latest.length) throw new Error('no items parsed from feed');
+    let r = await tryFeed(FEED);
+    let latest = parse(r.xml);
+    if (!latest.length) {
+      // retry once against the non-www host
+      const alt = await tryFeed(`https://pinterest.com/${USER}/feed.rss`);
+      const alt2 = parse(alt.xml);
+      if (alt2.length) { latest = alt2; r = alt; }
+    }
+    if (!latest.length) {
+      await writeStatus({ ok: false, error: 'no items parsed', httpStatus: r.status, contentType: r.ct, xmlLen: r.xml.length, hasItemTag: r.xml.includes('<item>'), snippet: r.xml.slice(0, 220) });
+      console.error('[pinterest] no items parsed; status', r.status, 'len', r.xml.length);
+      return;
+    }
     await writeFile('photos.json', JSON.stringify({ generatedAt: new Date().toISOString(), source: 'pinterest-rss', count: latest.length, latest }, null, 2));
     await writeStatus({ ok: true, count: latest.length, sample: latest[0] });
     console.log(`[pinterest] wrote photos.json with ${latest.length} pins from RSS.`);
