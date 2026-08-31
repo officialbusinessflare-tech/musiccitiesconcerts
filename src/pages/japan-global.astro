@@ -256,9 +256,9 @@ const fests: FestivalCard[] = [
 
       <section id="jmg-byband" class="dash-tabpanel is-active">
         <h2 class="dash-section__title">Full Tour Schedules by Band</h2>
-        <p class="dash-section__intro">Click any band to expand their complete 2026 worldwide itinerary. Dates pull live from concerts.json.</p>
+        <p class="dash-section__intro">Every band's full 2026 itinerary, worldwide, updated live from concerts.json. Tap a band header to collapse it.</p>
         {bands.map((b) => (
-          <article class={b.open ? 'jmg-band is-open' : 'jmg-band'} id={b.id}>
+          <article class={(b.open || b.totalCount > 0) ? 'jmg-band is-open' : 'jmg-band'} id={b.id}>
             <header class="jmg-band__head" data-toggle={b.id}>
               <div class="jmg-band__title">
                 <div class="jmg-band__name">{b.name}</div>
