@@ -80,7 +80,7 @@ function isVisible(e: ConcertEntry): boolean {
 
 function isJapanShow(e: ConcertEntry): boolean {
   const JP_TOKENS = ['japan',' jp','tokyo','osaka','kyoto','nagoya','sapporo','fukuoka','sendai','hiroshima','yokohama','kanazawa','niigata','kumamoto','saitama','kawasaki','chiba','kobe','kashiwa','tomakomai','kagoshima','morioka','koriyama','mito','gifu','kochi','hamamatsu','yamaguchi','tachikawa','musashino','shibuya','shinjuku','meguro','roppongi','budokan','nagano'];
-  const h = `${e.city || ''} ${e.state || ''} ${e.country || ''} ${e.venue || ''} ${e.name || ''} ${e.description || ''}`.toLowerCase();
+  const h = `${e.city || ''} ${e.state || ''} ${e.country || ''} ${e.venue || ''} ${e.name || ''}`.toLowerCase();
   return JP_TOKENS.some((k) => h.includes(k));
 }
 
