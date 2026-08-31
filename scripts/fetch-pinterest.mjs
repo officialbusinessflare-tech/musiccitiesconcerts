@@ -4,7 +4,7 @@
 // Safe no-op if PINTEREST_ACCESS_TOKEN is missing or the API errors.
 import { writeFile } from 'node:fs/promises';
 
-const TOKEN = process.env.PINTEREST_ACCESS_TOKEN;
+const TOKEN = process.env.PINTEREST_ACCESS_TOKEN || process.env.Pinterest_Access_Token || (Object.entries(process.env).find(([k]) => /pinterest.*token/i.test(k)) || [])[1];
 const USER = 'TheMusicCitiesPodcast';
 const BASE = 'https://api.pinterest.com/v5';
 
