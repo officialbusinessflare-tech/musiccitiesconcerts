@@ -62,6 +62,10 @@ const groups: Group[] = [
     ],
   },
 ];
+
+import pinterestBoards from '../../photos.json';
+const _seenPinUrls = new Set(groups.flatMap((g) => g.albums.map((a) => a.url)));
+const extraBoards = (((pinterestBoards as any).albums) || []).filter((a) => a && a.url && !_seenPinUrls.has(a.url));
 ---
 
 <BaseLayout title="Photo Albums | The Music Cities" description="Every photo album we shoot — Wacken, the Miami DIY scene, HANABIE. in Orlando and more — on our Pinterest, organized by event and band.">
@@ -95,6 +99,20 @@ const groups: Group[] = [
       ))}
       <p class="dash-footnote" style="margin-top:1.5rem;">All albums live on <a href="https://www.pinterest.com/TheMusicCitiesPodcast/" target="_blank" rel="noopener noreferrer">our Pinterest</a>.</p>
     </div>
+    {extraBoards.length > 0 && (
+      <section class="photos-group">
+        <h2 class="photos-group__title">MORE FROM OUR PINTEREST</h2>
+        <p class="photos-group__note">Fresh boards, synced automatically from our Pinterest.</p>
+        <div class="photos-grid">
+          {extraBoards.map((a) => (
+            <a class="photos-card" href={a.url} target="_blank" rel="noopener">
+              <strong>{a.title}</strong>
+              {a.pins && <span class="photos-group__note" style="margin:0">{a.pins}</span>}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
   </main>
 
   <Footer />
