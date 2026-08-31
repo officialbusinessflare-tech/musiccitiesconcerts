@@ -62,9 +62,9 @@
     },
     {
       "id": "japanese-metal",
-      "name": "Japanese Metal",
+      "name": "Japanese & Asian Metal",
       "kanji": "音楽都市",
-      "description": "Japanese women are making the best metal being made today. Watch-list bands from the Japan-led Asian scene, wherever they are playing.",
+      "description": "Japanese women are making the best metal being made today, and the wave is Asia-wide. Watch-list bands from Japan, Korea, Taiwan, and the broader Asian scene, wherever they are playing.",
       "matchRules": {
         "venues": [],
         "cities": [],
@@ -114,7 +114,8 @@
           "Edge of Paradise",
           "Yellow Machinegun",
           "Flagitious Idiosyncrasy In The Dilapidation",
-          "Gallhammer"
+          "Gallhammer",
+          "Nini Music"
         ]
       }
     },
