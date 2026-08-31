@@ -13,12 +13,18 @@ async function writeStatus(obj) {
   try { await mkdir('public', { recursive: true }); await writeFile('public/pinterest-status.json', JSON.stringify({ ...obj, at: new Date().toISOString() }, null, 2)); } catch {}
 }
 
+function decode(s) {
+  return String(s || '').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/&apos;/g, "'").replace(/&amp;/g, '&');
+}
+
 function parse(xml) {
   const items = [];
   const blocks = xml.split('<item>').slice(1);
   for (const b of blocks) {
     const link = (b.match(/<link>([\s\S]*?)<\/link>/) || [])[1];
-    let img = (b.match(/<img[^>]*src="([^"]+)"/) || [])[1];
+    const descRaw = (b.match(/<description>([\s\S]*?)<\/description>/) || [])[1] || '';
+    const desc = decode(descRaw);
+    let img = (desc.match(/<img[^>]*src="([^"]+)"/) || [])[1] || (b.match(/<img[^>]*src="([^"]+)"/) || [])[1];
     const date = (b.match(/<pubDate>([\s\S]*?)<\/pubDate>/) || [])[1];
     if (!link || !img) continue;
     img = img.replace(/\/(60x60_RS|75x75_RS|136x136|170x|236x|474x)\//, '/736x/');
