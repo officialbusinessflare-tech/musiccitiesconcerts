@@ -59,7 +59,7 @@ const entries = (grouped.get(BUCKET_ID) ?? []).sort((a, b) => a.date.localeCompa
   title={`${bucket.name} | The Music Cities`}
   description={bucket.description}
 >
-  <Header title="Japanese Metal" />
+  <Header title="Japanese & Asian Metal" />
   <SceneNav buckets={buckets} grouped={grouped} birthdaysCount={birthdays.length} activeBucketId={BUCKET_ID} />
 
   <section class="bucket-hero">
@@ -74,7 +74,7 @@ const entries = (grouped.get(BUCKET_ID) ?? []).sort((a, b) => a.date.localeCompa
     </div>
   </section>
 
-  <VideoStrip title="Recent Japanese Metal Episodes" videos={bucketPlaylist} channelBadge="TMC" />
+  <VideoStrip title="Recent Japanese & Asian Metal Episodes" videos={bucketPlaylist} channelBadge="TMC" />
 
   <main class="bucket-page">
     <div class="container">
