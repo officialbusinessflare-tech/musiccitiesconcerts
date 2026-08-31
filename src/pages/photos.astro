@@ -65,7 +65,7 @@ const groups: Group[] = [
 
 import pinterestBoards from '../../photos.json';
 const _seenPinUrls = new Set(groups.flatMap((g) => g.albums.map((a) => a.url)));
-const extraBoards = (((pinterestBoards as any).albums) || []).filter((a) => a && a.url && !_seenPinUrls.has(a.url));
+const latestPins = (((pinterestBoards as any).latest) || []);
 ---
 
 <BaseLayout title="Photo Albums | The Music Cities" description="Every photo album we shoot — Wacken, the Miami DIY scene, HANABIE. in Orlando and more — on our Pinterest, organized by event and band.">
@@ -99,15 +99,14 @@ const extraBoards = (((pinterestBoards as any).albums) || []).filter((a) => a &&
       ))}
       <p class="dash-footnote" style="margin-top:1.5rem;">All albums live on <a href="https://www.pinterest.com/TheMusicCitiesPodcast/" target="_blank" rel="noopener noreferrer">our Pinterest</a>.</p>
     </div>
-    {extraBoards.length > 0 && (
+    {latestPins.length > 0 && (
       <section class="photos-group">
-        <h2 class="photos-group__title">MORE FROM OUR PINTEREST</h2>
-        <p class="photos-group__note">Fresh boards, synced automatically from our Pinterest.</p>
+        <h2 class="photos-group__title">LATEST FROM OUR PINTEREST</h2>
+        <p class="photos-group__note">Real shots, pulled live from our Pinterest. CC BY 4.0 — free to use with credit to The Music Cities.</p>
         <div class="photos-grid">
-          {extraBoards.map((a) => (
-            <a class="photos-card" href={a.url} target="_blank" rel="noopener">
-              <strong>{a.title}</strong>
-              {a.pins && <span class="photos-group__note" style="margin:0">{a.pins}</span>}
+          {latestPins.map((p) => (
+            <a class="photos-thumb" href={p.link} target="_blank" rel="noopener">
+              <img src={p.img} loading="lazy" alt="Music Cities Pinterest photo" />
             </a>
           ))}
         </div>
@@ -126,5 +125,8 @@ const extraBoards = (((pinterestBoards as any).albums) || []).filter((a) => a &&
     .photos-card:hover { border-color: #e11d2a; transform: translateY(-2px); }
     .photos-card__title { font-weight: 600; }
     .photos-card__pins { font-size: 0.78rem; letter-spacing: 0.06em; color: #e11d2a; }
-  </style>
+      .photos-thumb { display: block; border-radius: 10px; overflow: hidden; border: 1px solid rgba(255,255,255,0.13); aspect-ratio: 1 / 1; transition: border-color 0.15s, transform 0.15s; }
+    .photos-thumb:hover { border-color: #e11d2a; transform: translateY(-2px); }
+    .photos-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+</style>
 </BaseLayout>
