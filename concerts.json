@@ -1,42 +1,40 @@
 {
-  "generatedAt": "2026-08-31T07:00:35.085Z",
+  "generatedAt": "2026-09-01T07:00:45.408Z",
   "entries": [
     {
-      "id": "86bb9w5wk",
-      "name": "Broken By The Scream @ Antiknock — Tokyo, Japan — Aug 31 2026",
-      "date": "2026-08-31",
-      "venue": "Antiknock",
-      "city": "Tokyo",
-      "country": "Japan",
+      "id": "86bbr53b8",
+      "name": "Metal Blade Florida dates — walk all 27 bands, identify local coverage targets",
+      "date": "2026-09-02",
+      "city": "walk all 27 bands",
+      "country": "identify local coverage targets",
       "bands": [
-        "Broken By The Scream"
+        "Metal Blade Florida dates"
       ],
-      "description": "Broken By The Scream — Japan-domestic show in Shinjuku. Antiknock in Tokyo, Japan. Show date: Aug 31 2026.",
-      "priority": "normal",
+      "description": "Same walk as the UK task, filtered for Florida — these are shows TMC can cover without travel.",
+      "priority": "high",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5wk",
+      "clickupUrl": "https://app.clickup.com/t/86bbr53b8",
       "buckets": [
-        "japanese-metal"
+        "interesting-elsewhere"
       ]
     },
     {
-      "id": "86bb9w4xr",
-      "name": "HANABIE. @ Tokyo Garden Theater — Tokyo, Japan — Aug 31 2026",
-      "date": "2026-08-31",
-      "venue": "Tokyo Garden Theater",
-      "city": "Tokyo",
-      "country": "Japan",
+      "id": "86bbr53ay",
+      "name": "Metal Blade UK dates — walk all 27 bands, build Field Trip options",
+      "date": "2026-09-02",
+      "city": "walk all 27 bands",
+      "country": "build Field Trip options",
       "bands": [
-        "HANABIE."
+        "Metal Blade UK dates"
       ],
-      "description": "HANABIE. — Support for Electric Callboy Tokyo show. Tokyo Garden Theater in Tokyo, Japan. Show date: Aug 31 2026.",
-      "priority": "normal",
+      "description": "Pull every UK date from Metal Blade's tour page and see whether any of them cluster into a trip worth taking.",
+      "priority": "high",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w4xr",
+      "clickupUrl": "https://app.clickup.com/t/86bbr53ay",
       "buckets": [
-        "japanese-metal"
+        "interesting-elsewhere"
       ]
     },
     {
@@ -305,6 +303,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w45x",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbqec0a",
+      "name": "Otto Von Schirach + Black Wick @ Conduit — Winter Park (Orlando), FL — Sep 5 2026",
+      "date": "2026-09-05",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Otto Von Schirach",
+        "Black Wick"
+      ],
+      "description": "Full bill: Otto Von Schirach, Pressurewave, Plurbal, Polar Boys, Etiosynthesis, Black Wick.\nConduit, 6700 Aloma Ave, Winter Park (Orlando), FL. Doors/show 7:00 PM, 18+. $19.90.\nTickets:…",
+      "ticketUrl": "https://www.ticketweb.com/event/otto-von-schirach-pressurewave-plurbal-conduit-tickets/14998913",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbqec0a",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3323,6 +3342,25 @@
       ]
     },
     {
+      "id": "86bbqec0y",
+      "name": "Nogu Svelo! @ Conduit — Winter Park (Orlando), FL — Oct 2 2026",
+      "date": "2026-10-02",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Nogu Svelo!"
+      ],
+      "description": "Nogu Svelo! — Conduit, 6700 Aloma Ave, Winter Park (Orlando), FL. Show 7:00 PM.\nThe Orlando stop, one night after the Tampa date at the Brass Mug. Russian rock institution working a rare Florida run.\nSource: Conduit venue calendar sweep.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbqec0y",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86ban5v5q",
       "name": "Hammerfall w/ Evergrey, Elvenking — Whisky a Go Go, West Hollywood CA",
       "date": "2026-10-02",
@@ -4116,21 +4154,24 @@
     },
     {
       "id": "86bbeb665",
-      "name": "Seven Kingdoms @ Conduit — Winter Park (Orlando), FL — Oct 10 2026",
+      "name": "NINI + Seven Kingdoms @ Conduit — Winter Park (Orlando), FL — Oct 10 2026",
       "date": "2026-10-10",
       "venue": "Conduit",
       "city": "Winter Park (Orlando)",
       "state": "FL",
       "bands": [
+        "NINI",
         "Seven Kingdoms"
       ],
-      "description": "Florida's own power metal band Seven Kingdoms playing a hometown-adjacent room. Source: Conduit / JamBase calendar sweep.",
+      "description": "NINI Music headlining, with Florida power metal band Seven Kingdoms supporting. Billed at the venue as \"NINI, Seven Kingdoms, and More.\"",
+      "ticketUrl": "https://www.ticketweb.com/event/nini-seven-kingdoms-and-more-conduit-tickets/14996393",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbeb665",
       "buckets": [
-        "florida-metal-scene"
+        "florida-metal-scene",
+        "japanese-metal"
       ]
     },
     {
@@ -4149,6 +4190,27 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w50y",
       "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbr504j",
+      "name": "NINI + Seven Kingdoms @ The Orpheum — Tampa, FL — Oct 11 2026",
+      "date": "2026-10-11",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "NINI",
+        "Seven Kingdoms"
+      ],
+      "description": "NINI Music headlining, Seven Kingdoms supporting.\nThe Orpheum, Ybor City, Tampa, FL.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr504j",
+      "buckets": [
+        "florida-metal-scene",
         "japanese-metal"
       ]
     },
@@ -4273,36 +4335,19 @@
       ]
     },
     {
-      "id": "86bbabm3n",
-      "name": "TRiDENT @ EX THEATER ROPPONGI (NEMOPHILA Ten-Fes) — Tokyo, Japan — Oct 12 2026",
+      "id": "86baqty2f",
+      "name": "NEMOPHILA + TRiDENT + East Of Eden + NEK! @ EX THEATER ROPPONGI (Ten-Fes) — Tokyo, Japan — Oct 12 2026",
       "date": "2026-10-12",
-      "venue": "EX THEATER ROPPONGI (NEMOPHILA Ten-Fes)",
+      "venue": "EX THEATER ROPPONGI (Ten-Fes)",
       "city": "Tokyo",
       "country": "Japan",
       "bands": [
-        "TRiDENT"
+        "NEMOPHILA",
+        "TRiDENT",
+        "East Of Eden",
+        "NEK!"
       ],
-      "description": "TRiDENT — playing NEMOPHILA's hosted Ten-Fes alongside East Of Eden and NEK!. EX THEATER ROPPONGI in Tokyo, Japan. Show date: Oct 12 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbabm3n",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86baqty2f",
-      "name": "NEMOPHILA — Ten Fes (天曲 Fes / Tenjō Mugyū Gekion Dōchū) — EX THEATER ROPPONGI, Tokyo JP",
-      "date": "2026-10-12",
-      "venue": "Ten Fes (天曲 Fes / Tenjō Mugyū Gekion Dōchū) — EX THEATER ROPPONGI",
-      "city": "Tokyo",
-      "state": "JP",
-      "bands": [
-        "NEMOPHILA"
-      ],
-      "description": "NEMOPHILA's first-ever all-girls \"split concert\" event — the yin/yang counterpart to last year's Jigoku Fes (\"Hell Fest\"). Short name: Ten Fes.",
-      "ticketUrl": "https://nemophila.tokyo/en/news/a-nemophila-first-all-girls-split-concert-event-tenjo-mugyu-gekion-dochu-confirmed/",
+      "description": "Ten Fes — 天上無窮激音道中 / Tenjō Mugyū Gekion Dōchū. NEMOPHILA's hosted all-women \"split concert\" event, the yin/yang counterpart to last year's Jigoku Fes (\"Hell Fest\").",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
@@ -4369,6 +4414,26 @@
       ]
     },
     {
+      "id": "86bbr5066",
+      "name": "NINI + Seven Kingdoms @ Hanger 1819 — Greensboro, NC — Oct 13 2026",
+      "date": "2026-10-13",
+      "venue": "Hanger 1819",
+      "city": "Greensboro",
+      "state": "NC",
+      "bands": [
+        "NINI",
+        "Seven Kingdoms"
+      ],
+      "description": "NINI Music headlining, Seven Kingdoms supporting. Hanger 1819, Greensboro, NC. NINI / Seven Kingdoms US fall tour.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr5066",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb8y5rq",
       "name": "Spite + Stygoc — The Banyan Live, West Palm Beach FL — Oct 13, 2026",
       "date": "2026-10-13",
@@ -4409,6 +4474,26 @@
       ]
     },
     {
+      "id": "86bbr506q",
+      "name": "NINI + Seven Kingdoms @ Canal Club — Richmond, VA — Oct 14 2026",
+      "date": "2026-10-14",
+      "venue": "Canal Club",
+      "city": "Richmond",
+      "state": "VA",
+      "bands": [
+        "NINI",
+        "Seven Kingdoms"
+      ],
+      "description": "NINI Music headlining, Seven Kingdoms supporting. Canal Club, Richmond, VA. NINI / Seven Kingdoms US fall tour.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr506q",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb9w4q1",
       "name": "BAND-MAID @ The Van Buren — Phoenix, AZ — Oct 14 2026",
       "date": "2026-10-14",
@@ -4423,6 +4508,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w4q1",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbr508g",
+      "name": "NINI + Seven Kingdoms @ Woodshop — New York, NY — Oct 15 2026",
+      "date": "2026-10-15",
+      "venue": "Woodshop",
+      "city": "New York",
+      "state": "NY",
+      "bands": [
+        "NINI",
+        "Seven Kingdoms"
+      ],
+      "description": "NINI Music headlining, Seven Kingdoms supporting. Woodshop, New York, NY. NINI / Seven Kingdoms US fall tour.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr508g",
       "buckets": [
         "japanese-metal"
       ]
@@ -4508,6 +4613,26 @@
       ]
     },
     {
+      "id": "86bbr5092",
+      "name": "NINI + Seven Kingdoms @ Mohawk Place — Buffalo, NY — Oct 16 2026",
+      "date": "2026-10-16",
+      "venue": "Mohawk Place",
+      "city": "Buffalo",
+      "state": "NY",
+      "bands": [
+        "NINI",
+        "Seven Kingdoms"
+      ],
+      "description": "NINI Music headlining, Seven Kingdoms supporting. Mohawk Place, Buffalo, NY. NINI / Seven Kingdoms US fall tour.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr5092",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbkecf1",
       "name": "Quiet Riot @ Whisky a Go Go — West Hollywood, CA — Oct 16 2026",
       "date": "2026-10-16",
@@ -4561,6 +4686,26 @@
       "clickupUrl": "https://app.clickup.com/t/86ba5zfhv",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbr50b0",
+      "name": "NINI + Seven Kingdoms @ The Lost Horizon — Syracuse, NY — Oct 17 2026",
+      "date": "2026-10-17",
+      "venue": "The Lost Horizon",
+      "city": "Syracuse",
+      "state": "NY",
+      "bands": [
+        "NINI",
+        "Seven Kingdoms"
+      ],
+      "description": "NINI Music headlining, Seven Kingdoms supporting. The Lost Horizon, Syracuse, NY. NINI / Seven Kingdoms US fall tour.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr50b0",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4657,6 +4802,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w4qd",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbr50bp",
+      "name": "NINI + Seven Kingdoms @ Phantom Power — Millersville, PA — Oct 18 2026",
+      "date": "2026-10-18",
+      "venue": "Phantom Power",
+      "city": "Millersville",
+      "state": "PA",
+      "bands": [
+        "NINI",
+        "Seven Kingdoms"
+      ],
+      "description": "NINI Music headlining, Seven Kingdoms supporting. Phantom Power, Millersville, PA. NINI / Seven Kingdoms US fall tour.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr50bp",
       "buckets": [
         "japanese-metal"
       ]
@@ -4759,6 +4924,26 @@
       ]
     },
     {
+      "id": "86bbr50dq",
+      "name": "NINI + Seven Kingdoms @ Preserving Underground — Pittsburgh, PA — Oct 20 2026",
+      "date": "2026-10-20",
+      "venue": "Preserving Underground",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "bands": [
+        "NINI",
+        "Seven Kingdoms"
+      ],
+      "description": "NINI Music headlining, Seven Kingdoms supporting. Preserving Underground, Pittsburgh, PA. NINI / Seven Kingdoms US fall tour.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr50dq",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbpafan",
       "name": "CLUTCH @ The Ritz Ybor — Tampa, FL — Oct 20 2026",
       "date": "2026-10-20",
@@ -4800,6 +4985,26 @@
       ]
     },
     {
+      "id": "86bbr50e8",
+      "name": "NINI + Seven Kingdoms @ The Foundry — Cleveland, OH — Oct 21 2026",
+      "date": "2026-10-21",
+      "venue": "The Foundry",
+      "city": "Cleveland",
+      "state": "OH",
+      "bands": [
+        "NINI",
+        "Seven Kingdoms"
+      ],
+      "description": "NINI Music headlining, Seven Kingdoms supporting. The Foundry, Cleveland, OH. NINI / Seven Kingdoms US fall tour.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr50e8",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb7t2",
       "name": "📀 AVE MUJICA — Kami no Na wo — RELEASE — Oct 21 2026",
       "date": "2026-10-21",
@@ -4815,6 +5020,26 @@
       "buckets": [
         "japanese-metal",
         "album-releases"
+      ]
+    },
+    {
+      "id": "86bbr50fx",
+      "name": "NINI + Seven Kingdoms @ Summit Music Hall — Columbus, OH — Oct 22 2026",
+      "date": "2026-10-22",
+      "venue": "Summit Music Hall",
+      "city": "Columbus",
+      "state": "OH",
+      "bands": [
+        "NINI",
+        "Seven Kingdoms"
+      ],
+      "description": "NINI Music headlining, Seven Kingdoms supporting. Summit Music Hall, Columbus, OH. NINI / Seven Kingdoms US fall tour.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr50fx",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4853,6 +5078,48 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbeb681",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbr50gd",
+      "name": "NINI + Seven Kingdoms @ Black Circle — Indianapolis, IN — Oct 23 2026",
+      "date": "2026-10-23",
+      "venue": "Black Circle",
+      "city": "Indianapolis",
+      "state": "IN",
+      "bands": [
+        "NINI",
+        "Seven Kingdoms"
+      ],
+      "description": "NINI Music headlining, Seven Kingdoms supporting. Black Circle Brewing, Indianapolis, IN. NINI / Seven Kingdoms US fall tour.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr50gd",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbqbpd5",
+      "name": "Torche + Bleeth + Daniel Zebulon @ Churchill's Pub — Miami, FL — Oct 23 2026",
+      "date": "2026-10-23",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Torche",
+        "Bleeth",
+        "Daniel Zebulon"
+      ],
+      "description": "Full bill: Torche, Bleeth, Daniel Zebulon, Orbiter, Wastelands, Inscribed.",
+      "ticketUrl": "https://www.ticketweb.com/event/torche-bleeth-daniel-zebulon-orbiter-churchills-pub-tickets/14866513",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbqbpd5",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -4897,6 +5164,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bamuujm",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbr50j8",
+      "name": "NINI + Seven Kingdoms @ Cobra Lounge — Chicago, IL — Oct 24 2026",
+      "date": "2026-10-24",
+      "venue": "Cobra Lounge",
+      "city": "Chicago",
+      "state": "IL",
+      "bands": [
+        "NINI",
+        "Seven Kingdoms"
+      ],
+      "description": "NINI Music headlining, Seven Kingdoms supporting. Cobra Lounge, Chicago, IL. Closing night of the NINI / Seven Kingdoms US fall tour.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr50j8",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -5291,6 +5578,25 @@
       ]
     },
     {
+      "id": "86bbqec3n",
+      "name": "Genitorturers @ Conduit — Winter Park (Orlando), FL — Oct 31 2026",
+      "date": "2026-10-31",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Genitorturers"
+      ],
+      "description": "Genitorturers — \"Live and Lewd\" Tour, with support from Nathan James.\nConduit, 6700 Aloma Ave, Winter Park (Orlando), FL. Show 7:00 PM.\nHalloween night with the Orlando-founded industrial shock-rock band on home turf. As on-brand a Florida Halloween booking as exists.\nSource:…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbqec3n",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bawvp7w",
       "name": "Sounds Of Brutality Fest 2026 @ Hardlove Company — Jacksonville, FL — Oct 31–Nov 1 2026",
       "date": "2026-10-31",
@@ -5366,6 +5672,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4r4",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbqec4c",
+      "name": "OK Goodnight + Lux Terminus @ Conduit — Winter Park (Orlando), FL — Nov 3 2026",
+      "date": "2026-11-03",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "OK Goodnight",
+        "Lux Terminus"
+      ],
+      "description": "Full bill: OK Goodnight, Lux Terminus, Eve.\nConduit, 6700 Aloma Ave, Winter Park (Orlando), FL. Show 7:00 PM.\nProgressive-metal triple bill — OK Goodnight are a Florida band, so this is a hometown-adjacent date worth watching.\nSource: Conduit venue calendar sweep.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbqec4c",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -5694,6 +6020,44 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5vdy",
       "buckets": []
+    },
+    {
+      "id": "86bbqec63",
+      "name": "Wolf and Bear @ Conduit — Winter Park (Orlando), FL — Nov 11 2026",
+      "date": "2026-11-11",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Wolf and Bear"
+      ],
+      "description": "Wolf and Bear — \"A Hill to Die On\" Tour in Orlando.\nConduit, 6700 Aloma Ave, Winter Park (Orlando), FL. Show 7:00 PM.\nSource: Conduit venue calendar sweep.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbqec63",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbqec6x",
+      "name": "Forbidden @ Conduit — Winter Park (Orlando), FL — Nov 12 2026",
+      "date": "2026-11-12",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Forbidden"
+      ],
+      "description": "Forbidden — \"Chaos By Design\" Tour.\nConduit, 6700 Aloma Ave, Winter Park (Orlando), FL. Show 6:00 PM.\nBay Area thrash originals in a 400-cap room. Forbidden almost never route this far south, and Conduit is a fraction of the size of the rooms they play elsewhere on this…",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbqec6x",
+      "buckets": [
+        "florida-metal-scene"
+      ]
     },
     {
       "id": "86bbmte7x",
@@ -6148,6 +6512,27 @@
       "buckets": []
     },
     {
+      "id": "86bbqbpd8",
+      "name": "Ho99o9 + N8NOFACE @ Churchill's Pub — Miami, FL — Nov 20 2026",
+      "date": "2026-11-20",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Ho99o9",
+        "N8NOFACE"
+      ],
+      "description": "Ho99o9 with N8NOFACE — Sincerely___ The Void Tour.",
+      "ticketUrl": "https://www.ticketweb.com/event/ho99o9-n8noface-churchills-pub-tickets/14235244",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbqbpd8",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbmte98",
       "name": "Miss May I + Born of Osiris @ The Orpheum — Tampa, FL — Nov 20 2026",
       "date": "2026-11-20",
@@ -6182,6 +6567,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baaaf87",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbqec9n",
+      "name": "Ho99o9 + N8NOFACE @ Conduit — Winter Park (Orlando), FL — Nov 21 2026",
+      "date": "2026-11-21",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Ho99o9",
+        "N8NOFACE"
+      ],
+      "description": "Ho99o9 & N8NOFACE — \"Sincerely___ The Void\" Tour.\nConduit, 6700 Aloma Ave, Winter Park (Orlando), FL. Show 7:00 PM.\nThe Orlando leg of the same run that hits Churchill's in Miami the night before — two Florida shots at this bill in 48 hours.\nSource: Conduit venue calendar sweep.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbqec9n",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -6304,6 +6709,25 @@
       "clickupUrl": "https://app.clickup.com/t/86baqty2q",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbqeca8",
+      "name": "Blitzkid @ Conduit — Winter Park (Orlando), FL — Nov 24 2026",
+      "date": "2026-11-24",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Blitzkid"
+      ],
+      "description": "Blitzkid — Conduit, 6700 Aloma Ave, Winter Park (Orlando), FL. Show 7:00 PM.\nHorrorpunk mainstays back through Central Florida.\nSource: Conduit venue calendar sweep.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbqeca8",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -7007,6 +7431,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbpafnj",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbqbpde",
+      "name": "VNV Nation @ Culture Room — Fort Lauderdale, FL — Mar 12 2027",
+      "date": "2027-03-12",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "VNV Nation"
+      ],
+      "description": "VNV Nation — \"An Evening With.\"",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D00634ED44B687E",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbqbpde",
       "buckets": [
         "florida-metal-scene"
       ]
