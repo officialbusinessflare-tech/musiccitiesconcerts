@@ -68,6 +68,10 @@ function classifyRegion(e: ConcertEntry): Region {
   const haystack = `${e.venue || ''} ${e.city || ''} ${e.state || ''} ${e.country || ''} ${e.name || ''} ${e.description || ''}`.toLowerCase();
   const NA_COUNTRIES = ['canada','mexico','brazil','argentina','chile','peru','colombia'];
   for (const kw of NA_COUNTRIES) { if (haystack.includes(kw)) return 'na'; }
+    // US shows whose state code lives in the venue/name (no structured e.state) — e.g. "Austin TX (...)"
+    const usLoc = `${e.venue || ''} ${e.city || ''} ${e.state || ''} ${e.country || ''} ${e.name || ''}`.toLowerCase();
+    if (usLoc.includes('usa') || usLoc.includes('united states')) return 'na';
+    for (const st of NA_STATES) { if (new RegExp('\\b' + st.toLowerCase() + '\\b').test(usLoc)) return 'na'; }
   for (const kw of EU_KEYWORDS) { if (haystack.includes(kw.toLowerCase())) return 'eu'; }
   for (const kw of OCEANIA_KEYWORDS) { if (haystack.includes(kw.toLowerCase())) return 'oceania'; }
   for (const kw of ASIA_KEYWORDS) { if (haystack.includes(kw.toLowerCase())) return 'asia'; }
