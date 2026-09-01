@@ -12,6 +12,9 @@ const PER_BOARD = 3;   // pins pulled from each board
 const MAX = 36;        // total pins shown in the grid
 
 // Board slugs, in the order they should lead the grid (metal / J-metal first).
+// STANDING RULE (Kevin): always keep HANABIE (hanabie-orlando-2026) and LOVEBITES
+// boards near the top — they have the strongest shots. As new boards get added,
+// preserve that mix; bump PER_BOARD weighting for them before burying them.
 const BOARDS = [
   'lovebites-wacken',
   'nemophila-conduit-orlando',
