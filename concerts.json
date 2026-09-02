@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T07:00:45.408Z",
+  "generatedAt": "2026-09-02T07:00:39.865Z",
   "entries": [
     {
       "id": "86bbr53b8",
@@ -235,9 +235,10 @@
     },
     {
       "id": "86b9b7mf1",
-      "name": "LOVEBITES — Outstanding Tour — Zepp Nagoya, Japan",
+      "name": "LOVEBITES @ Zepp Nagoya — Nagoya, Japan",
       "date": "2026-09-04",
-      "city": "Outstanding Tour — Zepp Nagoya",
+      "venue": "Zepp Nagoya",
+      "city": "Nagoya",
       "country": "Japan",
       "bands": [
         "LOVEBITES"
@@ -482,24 +483,6 @@
       ]
     },
     {
-      "id": "86b7xwhgu",
-      "name": "Deathfest - Tampa, Brass Mug",
-      "date": "2026-09-05",
-      "city": "Tampa",
-      "country": "Brass Mug",
-      "bands": [
-        "Deathfest"
-      ],
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b7xwhgu",
-      "buckets": [
-        "florida-metal-scene",
-        "key-festivals"
-      ]
-    },
-    {
       "id": "86bb9w465",
       "name": "BABYMETAL @ Ruoff Music Center — Noblesville, IN — Sep 5 2026",
       "date": "2026-09-05",
@@ -620,9 +603,10 @@
     },
     {
       "id": "86b9b7mgn",
-      "name": "LOVEBITES — Outstanding Tour — Zepp Osaka Bayside, Japan",
+      "name": "LOVEBITES @ Zepp Osaka Bayside — Osaka, Japan",
       "date": "2026-09-06",
-      "city": "Outstanding Tour — Zepp Osaka Bayside",
+      "venue": "Zepp Osaka Bayside",
+      "city": "Osaka",
       "country": "Japan",
       "bands": [
         "LOVEBITES"
@@ -638,9 +622,9 @@
     },
     {
       "id": "86b840zp0",
-      "name": "Velocity Fest — Dyersville IA",
+      "name": "Velocity Fest — Dyersville, IA",
       "date": "2026-09-06",
-      "city": "Dyersville",
+      "venue": "Dyersville",
       "state": "IA",
       "bands": [
         "Velocity Fest"
@@ -670,6 +654,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w46m",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbr72tq",
+      "name": "REZN + Lockstep @ The Orpheum — Tampa, FL — Sep 8 2026",
+      "date": "2026-09-08",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "REZN",
+        "Lockstep"
+      ],
+      "description": "Chicago psych-doom outfit REZN brings the Cycles in the Infinite Dream tour to Ybor two nights after the Orlando stop, with Lockstep opening. The Orpheum is the Tampa half of a two-city Florida swing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr72tq",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -709,6 +713,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w5an",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbr72tw",
+      "name": "Icon For Hire @ The Orpheum — Tampa, FL — Sep 9 2026",
+      "date": "2026-09-09",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Icon For Hire"
+      ],
+      "description": "The Scripted 15 Year Anniversary tour hits Tampa the night after the Orlando date — Ariel Bloomer running the full record for a room that has followed the band since the Tooth and Nail years.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr72tw",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -1060,9 +1083,10 @@
     },
     {
       "id": "86b9b7mh7",
-      "name": "LOVEBITES — Outstanding Tour — Zepp Sapporo, Japan",
+      "name": "LOVEBITES @ Zepp Sapporo — Sapporo, Japan",
       "date": "2026-09-11",
-      "city": "Outstanding Tour — Zepp Sapporo",
+      "venue": "Zepp Sapporo",
+      "city": "Sapporo",
       "country": "Japan",
       "bands": [
         "LOVEBITES"
@@ -1273,9 +1297,10 @@
     },
     {
       "id": "86baubrfr",
-      "name": "Yngwie Malmsteen — 25th Anniversary Concerto Suite for Electric Guitar & Orchestra @ Pacifico Yokohama — Yokohama, Japan — Sep 13 2026",
+      "name": "Yngwie Malmsteen @ Pacifico Yokohama — Yokohama, Japan",
       "date": "2026-09-13",
-      "city": "25th Anniversary Concerto Suite for Electric Guitar & Orchestra @ Pacifico Yokohama — Yokohama",
+      "venue": "Pacifico Yokohama",
+      "city": "Yokohama",
       "country": "Japan",
       "bands": [
         "Yngwie Malmsteen"
@@ -1308,9 +1333,10 @@
     },
     {
       "id": "86b9b7mhk",
-      "name": "LOVEBITES — Outstanding Tour — Sendai Gigs, Japan",
+      "name": "LOVEBITES @ Sendai Gigs — Sendai, Japan",
       "date": "2026-09-13",
-      "city": "Outstanding Tour — Sendai Gigs",
+      "venue": "Sendai Gigs",
+      "city": "Sendai",
       "country": "Japan",
       "bands": [
         "LOVEBITES"
@@ -1523,10 +1549,11 @@
     },
     {
       "id": "86bammf4g",
-      "name": "BABYMETAL — Ameris Bank Amphitheatre, Alpharetta GA (Atlanta)",
+      "name": "BABYMETAL @ Ameris Bank Amphitheatre — Alpharetta, GA",
       "date": "2026-09-16",
-      "city": "Ameris Bank Amphitheatre",
-      "country": "Alpharetta GA (Atlanta)",
+      "venue": "Ameris Bank Amphitheatre",
+      "city": "Alpharetta",
+      "state": "GA",
       "bands": [
         "BABYMETAL"
       ],
@@ -2045,29 +2072,11 @@
       ]
     },
     {
-      "id": "86ban5v2r",
-      "name": "Rolling Quartz — Whisky a Go Go, West Hollywood CA (MY TURN 2026 Tour)",
-      "date": "2026-09-19",
-      "city": "Whisky a Go Go",
-      "country": "West Hollywood CA (MY TURN 2026 Tour)",
-      "bands": [
-        "Rolling Quartz"
-      ],
-      "description": "Rolling Quartz — MY TURN 2026 Tour. West Hollywood date at the Whisky.",
-      "ticketUrl": "https://www.ticketweb.com/event/rolling-quartz-my-turn-2026-whisky-a-go-go-tickets/14947483",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86ban5v2r",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
       "id": "86b9b7mjx",
-      "name": "LOVEBITES — Outstanding Tour — Kanazawa Redsun, Japan",
+      "name": "LOVEBITES @ Kanazawa Redsun — Kanazawa, Japan",
       "date": "2026-09-19",
-      "city": "Outstanding Tour — Kanazawa Redsun",
+      "venue": "Kanazawa Redsun",
+      "city": "Kanazawa",
       "country": "Japan",
       "bands": [
         "LOVEBITES"
@@ -2083,9 +2092,9 @@
     },
     {
       "id": "86b80hbu9",
-      "name": "Blades of Steel Metalfest - Madison WI",
+      "name": "Blades of Steel Metalfest — Madison, WI",
       "date": "2026-09-19",
-      "city": "Madison",
+      "venue": "Madison",
       "state": "WI",
       "bands": [
         "Blades of Steel Metalfest"
@@ -2278,9 +2287,10 @@
     },
     {
       "id": "86b9b7mkb",
-      "name": "LOVEBITES — Outstanding Tour — Niigata Lots, Japan",
+      "name": "LOVEBITES @ Niigata Lots — Niigata, Japan",
       "date": "2026-09-21",
-      "city": "Outstanding Tour — Niigata Lots",
+      "venue": "Niigata Lots",
+      "city": "Niigata",
       "country": "Japan",
       "bands": [
         "LOVEBITES"
@@ -2620,6 +2630,27 @@
       ]
     },
     {
+      "id": "86bbr72tz",
+      "name": "Jarhead Fertilizer + Devilmaster + Implosive Disgorgence @ Churchill's Pub — Miami, FL — Sep 25 2026",
+      "date": "2026-09-25",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Jarhead Fertilizer",
+        "Devilmaster",
+        "Implosive Disgorgence"
+      ],
+      "description": "Five-band death metal and powerviolence bill at Churchill's. Full lineup: Jarhead Fertilizer, Devilmaster, Implosive Disgorgence, Humanfluidrot, Undercrypt. Jarhead Fertilizer carries the Full of Hell lineage; the undercard is deep Florida underground. Doors 7:00 PM.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr72tz",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbkedu8",
       "name": "The Rasmus @ Come and Take It Live — Austin, TX — Sep 25 2026",
       "date": "2026-09-25",
@@ -2756,10 +2787,11 @@
     },
     {
       "id": "86b9b7mm1",
-      "name": "LOVEBITES — Outstanding Tour — Zepp Haneda Night 1, Tokyo",
+      "name": "LOVEBITES @ Zepp Haneda Night 1 — Tokyo, Japan",
       "date": "2026-09-25",
-      "city": "Outstanding Tour — Zepp Haneda Night 1",
-      "country": "Tokyo",
+      "venue": "Zepp Haneda Night 1",
+      "city": "Tokyo",
+      "country": "Japan",
       "bands": [
         "LOVEBITES"
       ],
@@ -3006,10 +3038,11 @@
     },
     {
       "id": "86b9b7mpq",
-      "name": "LOVEBITES — Outstanding Tour FINALE — Zepp Haneda Night 2, Tokyo",
+      "name": "LOVEBITES @ Zepp Haneda Night 2 — Tokyo, Japan",
       "date": "2026-09-26",
-      "city": "Outstanding Tour FINALE — Zepp Haneda Night 2",
-      "country": "Tokyo",
+      "venue": "Zepp Haneda Night 2",
+      "city": "Tokyo",
+      "country": "Japan",
       "bands": [
         "LOVEBITES"
       ],
@@ -3287,10 +3320,11 @@
     },
     {
       "id": "86bangtgg",
-      "name": "Buddy Guy 90th Birthday Concert — Radio City Music Hall, NYC",
+      "name": "Buddy Guy 90th Birthday Concert @ Radio City Music Hall — New York, NY",
       "date": "2026-10-01",
-      "city": "Radio City Music Hall",
-      "country": "NYC",
+      "venue": "Radio City Music Hall",
+      "city": "New York",
+      "state": "NY",
       "bands": [
         "Buddy Guy 90th Birthday Concert"
       ],
@@ -3325,9 +3359,10 @@
     },
     {
       "id": "86bba6hu7",
-      "name": "LOVEBITES @ Esplanade Annexe Studio — Singapore — Oct 2 2026",
+      "name": "LOVEBITES @ Esplanade Annexe Studio — Singapore, Singapore",
       "date": "2026-10-02",
-      "city": "Esplanade Annexe Studio",
+      "venue": "Esplanade Annexe Studio",
+      "city": "Singapore",
       "country": "Singapore",
       "bands": [
         "LOVEBITES"
@@ -4133,6 +4168,27 @@
       ]
     },
     {
+      "id": "86bbr72u7",
+      "name": "Five Finger Death Punch + Cody Jinks + Eva Under Fire @ MIDFLORIDA Credit Union Amphitheatre — Tampa, FL — Oct 10 2026",
+      "date": "2026-10-10",
+      "venue": "MIDFLORIDA Credit Union Amphitheatre",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Five Finger Death Punch",
+        "Cody Jinks",
+        "Eva Under Fire"
+      ],
+      "description": "Arena-scale metal routing through Tampa, with an unusual country crossover in Cody Jinks and Eva Under Fire opening. Amphitheatre show — worth watching as a read on how big the Tampa metal draw still is.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr72u7",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbke8wk",
       "name": "ASTERISM @ MINAMI WHEEL 2026 — Osaka, Japan — Oct 10 2026",
       "date": "2026-10-10",
@@ -4474,6 +4530,27 @@
       ]
     },
     {
+      "id": "86bbr72uc",
+      "name": "Thrown + Norma Jean + Half Me @ The Orpheum — Tampa, FL — Oct 14 2026",
+      "date": "2026-10-14",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Thrown",
+        "Norma Jean",
+        "Half Me"
+      ],
+      "description": "Swedish hardcore act Thrown co-headlines with Norma Jean, plus Half Me and Boltcutter. A strong European-into-Florida metalcore bill at a tracked room.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr72uc",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbr506q",
       "name": "NINI + Seven Kingdoms @ Canal Club — Richmond, VA — Oct 14 2026",
       "date": "2026-10-14",
@@ -4672,10 +4749,11 @@
     },
     {
       "id": "86ba5zfhv",
-      "name": "Arch Enemy at Revolution Live, Fort Lauderdale",
+      "name": "Arch Enemy @ Revolution Live — Fort Lauderdale, FL",
       "date": "2026-10-16",
-      "city": "Revolution Live",
-      "country": "Fort Lauderdale",
+      "venue": "Revolution Live",
+      "city": "Fort Lauderdale",
+      "state": "FL",
       "bands": [
         "Arch Enemy"
       ],
@@ -4882,6 +4960,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w51q",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbr72uj",
+      "name": "Breaking Benjamin + Chevelle + Starset @ MIDFLORIDA Credit Union Amphitheatre — Tampa, FL — Oct 19 2026",
+      "date": "2026-10-19",
+      "venue": "MIDFLORIDA Credit Union Amphitheatre",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Breaking Benjamin",
+        "Chevelle",
+        "Starset"
+      ],
+      "description": "Second big amphitheatre hard rock night in Tampa inside ten days, with Kami Kehoe opening. Pairs with the Oct 10 date as a market signal.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr72uj",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -5598,11 +5697,11 @@
     },
     {
       "id": "86bawvp7w",
-      "name": "Sounds Of Brutality Fest 2026 @ Hardlove Company — Jacksonville, FL — Oct 31–Nov 1 2026",
+      "name": "Sounds Of Brutality Fest 2026 @ Hardlove Company — Jacksonville, FL",
       "date": "2026-10-31",
       "venue": "Hardlove Company",
       "city": "Jacksonville",
-      "country": "FL — Oct 31",
+      "state": "FL",
       "bands": [
         "Sounds Of Brutality Fest 2026"
       ],
@@ -6357,9 +6456,10 @@
     },
     {
       "id": "86bbct405",
-      "name": "Mayto — Load The World @ Shibuya Cyclone — Tokyo, Japan — Nov 15 2026",
+      "name": "Mayto @ Shibuya Cyclone — Tokyo, Japan",
       "date": "2026-11-15",
-      "city": "Load The World @ Shibuya Cyclone — Tokyo",
+      "venue": "Shibuya Cyclone",
+      "city": "Tokyo",
       "country": "Japan",
       "bands": [
         "Mayto"
@@ -7152,6 +7252,27 @@
       ]
     },
     {
+      "id": "86bbr72um",
+      "name": "Underoath + Atreyu + August Burns Red @ Yuengling Center — Tampa, FL — Dec 18 2026",
+      "date": "2026-12-18",
+      "venue": "Yuengling Center",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Underoath",
+        "Atreyu",
+        "August Burns Red"
+      ],
+      "description": "Underoath playing an arena in their own hometown, with Emery, Atreyu and August Burns Red. A Tampa-band-made-good story as much as a show.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr72um",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bavn8yu",
       "name": "Green Jelly @ West End Trading Co — Sanford, FL — Dec 18 2026",
       "date": "2026-12-18",
@@ -7225,10 +7346,11 @@
     },
     {
       "id": "86ban5v9w",
-      "name": "L.A. Guns — Whisky a Go Go, West Hollywood CA (NYE 2026)",
+      "name": "L.A. Guns @ Whisky a Go Go — West Hollywood, CA",
       "date": "2026-12-31",
-      "city": "Whisky a Go Go",
-      "country": "West Hollywood CA (NYE 2026)",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
       "bands": [
         "L.A. Guns"
       ],
@@ -7237,9 +7359,7 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5v9w",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
+      "buckets": []
     },
     {
       "id": "86bbct3x7",
@@ -7355,6 +7475,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbeb6gk",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbr72up",
+      "name": "Nervosa @ The Orpheum — Tampa, FL — Feb 11 2027",
+      "date": "2027-02-11",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Nervosa"
+      ],
+      "description": "Opens the Brazilian thrash trio's three-night Florida run — Tampa Feb 11, Miami Feb 12 (Churchill's), Orlando Feb 13 (Conduit). All three now tracked.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr72up",
       "buckets": [
         "florida-metal-scene"
       ]
