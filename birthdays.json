@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-09-02T07:00:39.865Z",
+  "generatedAt": "2026-09-04T07:00:35.744Z",
   "entries": [
+    {
+      "id": "86bbeb7z6",
+      "name": "🎂 ASAKA Birthday (TRiDENT) — Sep 10",
+      "person": "🎂 ASAKA",
+      "affiliation": "(TRiDENT) — Sep 10",
+      "rawDate": "2026-09-10",
+      "month": 9,
+      "day": 10,
+      "description": "TRiDENT. Birthday Sep 10 per Girls Band Encyclopedia. Holding entry for the birthdays pipeline — verify against an official source before it goes on a card.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb7z6"
+    },
+    {
+      "id": "86bbeb7yk",
+      "name": "🎂 TOMO-ZO Birthday (Gacharic Spin) — Sep 10",
+      "person": "🎂 TOMO-ZO",
+      "affiliation": "(Gacharic Spin) — Sep 10",
+      "rawDate": "2026-09-10",
+      "month": 9,
+      "day": 10,
+      "description": "Guitarist, Gacharic Spin. Birthday Sep 10, confirmed by the band's own annual birthday event page. Holding entry for the birthdays pipeline.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb7yk"
+    },
+    {
+      "id": "86bbeb7zx",
+      "name": "🎂 Syu Birthday (Galneryus) — Sep 23",
+      "person": "🎂 Syu",
+      "affiliation": "(Galneryus) — Sep 23",
+      "rawDate": "2026-09-23",
+      "month": 9,
+      "day": 23,
+      "description": "Guitarist and founder, Galneryus. Birthday Sep 23 per the band's official member page. Holding entry for the birthdays pipeline.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb7zx"
+    },
     {
       "id": "86bard4ue",
       "name": "Tamu Murata Birthday NEMOPHILA",
@@ -13,6 +46,39 @@
       "clickupUrl": "https://app.clickup.com/t/86bard4ue"
     },
     {
+      "id": "86bbeb80z",
+      "name": "🎂 JUNNA Birthday (HAGANE) — Sep 26",
+      "person": "🎂 JUNNA",
+      "affiliation": "(HAGANE) — Sep 26",
+      "rawDate": "2026-09-26",
+      "month": 9,
+      "day": 26,
+      "description": "HAGANE. Birthday Sep 26, confirmed by the band's official birthday oneman announcement. Holding entry for the birthdays pipeline.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb80z"
+    },
+    {
+      "id": "86bbeb822",
+      "name": "🎂 Miki Nakamura Birthday (SHOW-YA) — Sep 27",
+      "person": "🎂 Miki Nakamura",
+      "affiliation": "(SHOW-YA) — Sep 27",
+      "rawDate": "2026-09-27",
+      "month": 9,
+      "day": 27,
+      "description": "Keyboardist, SHOW-YA. Birthday Sep 27 per Oricon artist profile. Holding entry for the birthdays pipeline.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb822"
+    },
+    {
+      "id": "86bbeb81g",
+      "name": "🎂 Arem Birthday (Rolling Quartz) — Sep 27",
+      "person": "🎂 Arem",
+      "affiliation": "(Rolling Quartz) — Sep 27",
+      "rawDate": "2026-09-27",
+      "month": 9,
+      "day": 27,
+      "description": "Vocalist, Rolling Quartz. Birthday Sep 27. Holding entry for the birthdays pipeline — verify against an official source before it goes on a card.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb81g"
+    },
+    {
       "id": "86bard4w3",
       "name": "Kanami Birthday BAND-MAID",
       "person": "Kanami",
@@ -22,6 +88,17 @@
       "day": 28,
       "description": "RECURRING ANNUAL — September 28\n\nBand & role: BAND-MAID — guitar\nCountry of origin: Japan\nBorn: September 28, 1991\nSource: Kpop Profiles, Famous Birthdays, Wikipedia",
       "clickupUrl": "https://app.clickup.com/t/86bard4w3"
+    },
+    {
+      "id": "86bbeb82g",
+      "name": "🎂 SAKI Birthday (Mary's Blood) — Oct 4",
+      "person": "🎂 SAKI",
+      "affiliation": "(Mary's Blood) — Oct 4",
+      "rawDate": "2026-10-04",
+      "month": 10,
+      "day": 4,
+      "description": "Guitarist, Mary's Blood. Birthday Oct 4. Band is on indefinite hiatus; SAKI remains active solo. Holding entry for the birthdays pipeline.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb82g"
     },
     {
       "id": "86baazex2",
@@ -300,6 +377,17 @@
       "clickupUrl": "https://app.clickup.com/t/86baazeu3"
     },
     {
+      "id": "86bb0y3aq",
+      "name": "🎂 Im Yeong-Eun (Rolling Quartz) — Birthday July 8 (RECURRING ANNUAL) — pending handoff to birthdays pipeline",
+      "person": "🎂 Im Yeong-Eun (Rolling Quartz) —",
+      "affiliation": "July 8 (RECURRING ANNUAL) — pending handoff to birthdays pipeline",
+      "rawDate": "2027-07-08",
+      "month": 7,
+      "day": 8,
+      "description": "Person: Im Yeong-Eun (임영은)\nAffiliation: Rolling Quartz — drums\nBirthday: July 8 — RECURRING ANNUAL\nGreeting language: Korean\n\nDrummer for the Korean hard-rock five-piece currently deep in the MY TURN North America run — a band already in heavy rotation on the board.\n\nStatus: Not currently in the birthdays list. Holding here until it moves into the birthdays pipeline for the website.\nSource: Facebook saved concerts collection — Per Vangtoft post, July 8 2026.",
+      "clickupUrl": "https://app.clickup.com/t/86bb0y3aq"
+    },
+    {
       "id": "86baazewp",
       "name": "Asami Birthday Lovebites",
       "person": "Asami",
@@ -309,6 +397,17 @@
       "day": 10,
       "description": "RECURRING ANNUAL — July 10\n\nFull name: Asami\nStage name: Asami (mononym)\nBand & role: Lovebites — lead vocals\nCountry of origin: Japan\nGreeting language: Japanese\nLast known interaction with Kevin/TMC: None recorded (Japanese metal relationship-investment priority)\nSource: Official Lovebites fanpage (lovebites-music.com/band-members) — Birthday Jul 10 (year not published)",
       "clickupUrl": "https://app.clickup.com/t/86baazewp"
+    },
+    {
+      "id": "86bb0y3ah",
+      "name": "🎂 Mari Hamada — Birthday July 18 (RECURRING ANNUAL) — pending handoff to birthdays pipeline",
+      "person": "🎂 Mari Hamada —",
+      "affiliation": "July 18 (RECURRING ANNUAL) — pending handoff to birthdays pipeline",
+      "rawDate": "2027-07-18",
+      "month": 7,
+      "day": 18,
+      "description": "Person: Mari Hamada (浜田麻里)\nAffiliation: Solo vocalist — Japan\nBirthday: July 18 — RECURRING ANNUAL\nGreeting language: Japanese\n\nFoundational figure in Japanese hard rock and metal vocals; decades-long solo career and a direct ancestor to most of the Japanese watch-list roster.\n\nStatus: Not currently in the birthdays list. Holding here until it moves into the birthdays pipeline for the website.\nSource: Facebook saved concerts collection — Brett Korvola post, July 18 2026.",
+      "clickupUrl": "https://app.clickup.com/t/86bb0y3ah"
     },
     {
       "id": "86baazewd",
@@ -333,6 +432,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bard4hq"
     },
     {
+      "id": "86bbpafvp",
+      "name": "Keiko Terada Birthday SHOW-YA",
+      "person": "Keiko Terada",
+      "affiliation": "SHOW-YA",
+      "rawDate": "2027-07-27",
+      "month": 7,
+      "day": 27,
+      "description": "RECURRING ANNUAL — July 27\n\nBand & role: SHOW-YA — vocals; also founder of the naon no yaon all-female rock festival\nCountry of origin: Japan\nSource: fan community birthday posts, July 2026\n\nNeeds verification against an official source before it goes on a card.",
+      "clickupUrl": "https://app.clickup.com/t/86bbpafvp"
+    },
+    {
+      "id": "86bba6j01",
+      "name": "Haruna Birthday PARADOXX",
+      "person": "Haruna",
+      "affiliation": "PARADOXX",
+      "rawDate": "2027-07-28",
+      "month": 7,
+      "day": 28,
+      "description": "RECURRING ANNUAL — July 28\n\nBand and role: PARADOXX — bass\nCountry of origin: Japan\nHandles: X @Haaruna_Ba, Instagram @bass_haruna\nSource: PARADOXX official X announcement\n\nNote: distinct from Haruna of LOVEBITES (drums, December 30). Two different people, same first name.",
+      "clickupUrl": "https://app.clickup.com/t/86bba6j01"
+    },
+    {
       "id": "86bard4hx",
       "name": "Buddy Guy Birthday (Blues Legend)",
       "person": "Buddy Guy Birthday",
@@ -355,6 +476,38 @@
       "clickupUrl": "https://app.clickup.com/t/86bard4gy"
     },
     {
+      "id": "86bba6j16",
+      "name": "Yayoi Birthday Broken by the Scream",
+      "person": "Yayoi",
+      "affiliation": "Broken by the Scream",
+      "rawDate": "2027-08-07",
+      "month": 8,
+      "day": 7,
+      "description": "RECURRING ANNUAL — August 7\n\nBand and role: Broken by the Scream — vocals\nCountry of origin: Japan\nHandle: Instagram @yayoi_bbts\nSource: verified against her official Instagram",
+      "clickupUrl": "https://app.clickup.com/t/86bba6j16"
+    },
+    {
+      "id": "86bbc299v",
+      "name": "🎂 Shono Birthday PARADOXX",
+      "person": "🎂 Shono",
+      "affiliation": "PARADOXX",
+      "rawDate": "2027-08-10",
+      "month": 8,
+      "day": 10,
+      "description": "RECURRING ANNUAL — August 10\n\nBand & role: PARADOXX — drums\nCountry of origin: Japan\nSource: Kings And Queens Of Asian Metal And Rock community post, Aug 10 2026\n\nSecond PARADOXX member on the birthday board alongside bassist Haruna (July 28). Birth year not established — holding entry pending verification against an official source.",
+      "clickupUrl": "https://app.clickup.com/t/86bbc299v"
+    },
+    {
+      "id": "86bbct432",
+      "name": "Birthday — Ichinose (Damian Hamada's Creatures, bass) — Aug 12",
+      "person": "Birthday — Ichinose (Damian Hamada's Creatures, bass) — Aug 12",
+      "rawDate": "2026-08-12",
+      "month": 8,
+      "day": 12,
+      "description": "Artist: Ichinose — support bassist, Damian Hamada's Creatures\nBirthday: August 12\nHolding entry — not yet in the site birthdays file. Needs handle verification, and a call on whether Damian Hamada's Creatures belongs on the watch list.\nSource: Kings And Queens Of Asian Metal And Rock, August 11 2026.",
+      "clickupUrl": "https://app.clickup.com/t/86bbct432"
+    },
+    {
       "id": "86bard4tx",
       "name": "Hazuki Birthday NEMOPHILA",
       "person": "Hazuki",
@@ -366,6 +519,39 @@
       "clickupUrl": "https://app.clickup.com/t/86bard4tx"
     },
     {
+      "id": "86bbmtee9",
+      "name": "🎂 Naho Birthday (Dimrays) — Aug 18",
+      "person": "🎂 Naho",
+      "affiliation": "(Dimrays) — Aug 18",
+      "rawDate": "2027-08-18",
+      "month": 8,
+      "day": 18,
+      "description": "RECURRING ANNUAL — August 18\n\nName: Naho\nBand & role: Dimrays — bass\nCountry of origin: Japan\nGreeting language: Japanese\nX: @naho_dimrays\n\nVerified against her own dated X posts on August 18. Not currently in the birthdays roster — holding entry pending backfill.",
+      "clickupUrl": "https://app.clickup.com/t/86bbmtee9"
+    },
+    {
+      "id": "86bbmtee0",
+      "name": "🎂 Nagisa Birthday (TRiDENT) — Aug 18",
+      "person": "🎂 Nagisa",
+      "affiliation": "(TRiDENT) — Aug 18",
+      "rawDate": "2027-08-18",
+      "month": 8,
+      "day": 18,
+      "description": "RECURRING ANNUAL — August 18\n\nName: Nagisa\nBand & role: TRiDENT — drums\nCountry of origin: Japan\nGreeting language: Japanese\nX: @ngk725\n\nVerified against her own dated X post on August 18. Not currently in the birthdays roster — holding entry pending backfill.",
+      "clickupUrl": "https://app.clickup.com/t/86bbmtee0"
+    },
+    {
+      "id": "86bbmteeq",
+      "name": "🎂 Sena Birthday (JILUKA) — Aug 25",
+      "person": "🎂 Sena",
+      "affiliation": "(JILUKA) — Aug 25",
+      "rawDate": "2027-08-25",
+      "month": 8,
+      "day": 25,
+      "description": "RECURRING ANNUAL — August 25\n\nName: Sena\nBand & role: JILUKA — guitar\nCountry of origin: Japan\nGreeting language: Japanese\n\nNote: his 生誕祭 fan event runs on the nearest weekend, not the birthday itself — do not derive the date from the event listing. August 25 is the actual date. Not currently in the birthdays roster — holding entry pending backfill.",
+      "clickupUrl": "https://app.clickup.com/t/86bbmteeq"
+    },
+    {
       "id": "86bard4fb",
       "name": "Pharita Birthday BABYMONSTER",
       "person": "Pharita",
@@ -375,6 +561,26 @@
       "day": 26,
       "description": "RECURRING ANNUAL — August 26\n\nFull name: Pharita (stage name)\nBand & role: BABYMONSTER — vocalist\nCountry of origin: Thailand\nGreeting language: Thai / English\nBorn: August 26, 2005\nSource: Kpop Profiles, YG Entertainment official",
       "clickupUrl": "https://app.clickup.com/t/86bard4fb"
+    },
+    {
+      "id": "86bbeb7ww",
+      "name": "🎂 Satomi Senba Birthday (SHOW-YA) — Aug 28",
+      "person": "🎂 Satomi Senba",
+      "affiliation": "(SHOW-YA) — Aug 28",
+      "rawDate": "2026-08-28",
+      "month": 8,
+      "day": 28,
+      "description": "Bassist, SHOW-YA. Birthday Aug 28 per Oricon artist profile. Holding entry for the birthdays pipeline.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb7ww"
+    },
+    {
+      "id": "86bba6j59",
+      "name": "Mina Birthday FATE GEAR (UNVERIFIED — needs date confirmation)",
+      "person": "Mina",
+      "affiliation": "FATE GEAR",
+      "description": "HOLDING ENTRY — date not yet confirmed, do not publish until verified.\n\nBand and role: FATE GEAR — guitar, founder. Also founded Destrose.\nCountry of origin: Japan\n\nInferred date: July 22. A fan post noted that two Destrose members share a birthday — Miho and Captain Mina — and Miho's is already logged as July 22. That inference has not been confirmed against an official source, so the date is being held rather than published.\n\nNeeds: confirmation from FATE GEAR or Mina's own channels before this goes on the board.",
+      "status": "UNVERIFIED — needs date confirmation",
+      "clickupUrl": "https://app.clickup.com/t/86bba6j59"
     },
     {
       "id": "86baazexe",
