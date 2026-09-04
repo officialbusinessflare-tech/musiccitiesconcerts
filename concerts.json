@@ -1,136 +1,43 @@
 {
-  "generatedAt": "2026-09-02T07:00:39.865Z",
+  "generatedAt": "2026-09-04T07:00:35.744Z",
   "entries": [
     {
-      "id": "86bbr53b8",
-      "name": "Metal Blade Florida dates — walk all 27 bands, identify local coverage targets",
-      "date": "2026-09-02",
-      "city": "walk all 27 bands",
-      "country": "identify local coverage targets",
-      "bands": [
-        "Metal Blade Florida dates"
-      ],
-      "description": "Same walk as the UK task, filtered for Florida — these are shows TMC can cover without travel.",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr53b8",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbr53ay",
-      "name": "Metal Blade UK dates — walk all 27 bands, build Field Trip options",
-      "date": "2026-09-02",
-      "city": "walk all 27 bands",
-      "country": "build Field Trip options",
-      "bands": [
-        "Metal Blade UK dates"
-      ],
-      "description": "Pull every UK date from Metal Blade's tour page and see whether any of them cluster into a trip worth taking.",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr53ay",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bammf4u",
-      "name": "📀 SiM — HOOMAN AFTER ALL — RELEASE",
-      "date": "2026-09-02",
-      "venue": "HOOMAN AFTER ALL — RELEASE",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL (7th album) 📀",
-      "priority": "high",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bammf4u",
-      "buckets": [
-        "japanese-metal",
-        "album-releases"
-      ]
-    },
-    {
-      "id": "86bb9w45n",
-      "name": "BABYMETAL @ Ball Arena — Denver, CO — Sep 2 2026",
-      "date": "2026-09-02",
-      "venue": "Ball Arena",
-      "city": "Denver",
-      "state": "CO",
-      "bands": [
-        "BABYMETAL"
-      ],
-      "description": "BABYMETAL — World Tour 2026 (Halestorm + Violent Vira). Ball Arena in Denver, CO. Show date: Sep 2 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w45n",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbmte2t",
-      "name": "Cheekface + Catbite @ The Banyan Live — West Palm Beach, FL — Sep 3 2026",
-      "date": "2026-09-03",
-      "venue": "The Banyan Live",
-      "city": "West Palm Beach",
+      "id": "86bbu78kp",
+      "name": "Bilmuri + Knuckle Puck @ Hard Rock Live — Orlando, FL — Sep 4 2026",
+      "date": "2026-09-04",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
       "state": "FL",
       "bands": [
-        "Cheekface",
-        "Catbite"
+        "Bilmuri",
+        "Knuckle Puck"
       ],
-      "description": "Bands: Cheekface, with special guest Catbite\nVenue: The Banyan Live, 8199 Southern Blvd, West Palm Beach FL\nDate/time: Thu Sep 3 2026, 7:00 PM · 18+\nTickets: https://www.etix.com/ticket/p/64578227/cheekface-wspecial-guest-catbite-in-west-palm-beach-west-palm-beach-the-banyan-live",
-      "ticketUrl": "https://www.etix.com/ticket/p/64578227/cheekface-wspecial-guest-catbite-in-west-palm-beach-west-palm-beach-the-banyan-live",
+      "description": "Bilmuri headlining with Knuckle Puck.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbmte2t",
+      "clickupUrl": "https://app.clickup.com/t/86bbu78kp",
       "buckets": [
         "florida-metal-scene"
       ]
     },
     {
-      "id": "86bbked8f",
-      "name": "Nonpoint @ Come and Take It Live — Austin, TX — Sep 3 2026",
-      "date": "2026-09-03",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "bands": [
-        "Nonpoint"
-      ],
-      "description": "Nonpoint — the Fort Lauderdale band's Austin date.",
-      "ticketUrl": "https://www.etix.com/ticket/p/77405761",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbked8f",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbkeamd",
-      "name": "Silence equals Death @ Brass Mug — Tampa, FL — Sep 3 2026",
-      "date": "2026-09-03",
-      "venue": "Brass Mug",
-      "city": "Tampa",
+      "id": "86bbu789g",
+      "name": "Citizen + Hotline TNT + Anxious @ Jannus Live — St. Petersburg, FL — Sep 4 2026",
+      "date": "2026-09-04",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
       "state": "FL",
       "bands": [
-        "Silence equals Death"
+        "Citizen",
+        "Hotline TNT",
+        "Anxious"
       ],
-      "description": "Silence equals Death at the Brass Mug.",
-      "ticketUrl": "https://www.bandsintown.com/e/1039981867",
+      "description": "Full bill: Citizen, Hotline TNT, Anxious, Rocket. Outdoor courtyard show in downtown St. Pete.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkeamd",
+      "clickupUrl": "https://app.clickup.com/t/86bbu789g",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -304,6 +211,65 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w45x",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbth5xy",
+      "name": "FRAWLEY @ The Banyan Live — West Palm Beach, FL — Sep 5 2026",
+      "date": "2026-09-05",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "FRAWLEY"
+      ],
+      "description": "FRAWLEY headlines The Banyan Live, presented by the room itself.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbth5xy",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbth5rc",
+      "name": "VEXXUM + NEMESIS + Wingstrike @ The End — Houston, TX — Sep 5 2026",
+      "date": "2026-09-05",
+      "venue": "The End",
+      "city": "Houston",
+      "state": "TX",
+      "bands": [
+        "VEXXUM",
+        "NEMESIS",
+        "Wingstrike"
+      ],
+      "description": "Lineup: VEXXUM (headline), with special guests Wingstrike, NEMESIS, Metalriser, Lethal Agent",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbth5rc",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bbth5np",
+      "name": "GIVEN BY THE FLAMES @ Shinjuku ANTIKNOCK — Tokyo, Japan — Sep 5 2026",
+      "date": "2026-09-05",
+      "venue": "Shinjuku ANTIKNOCK",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "GIVEN BY THE FLAMES"
+      ],
+      "description": "GIVEN BY THE FLAMES on the bill for ABLAZE IN VEINS' 5th Anniversary and \"The Ghost in My Eyes\" release show at Shinjuku ANTIKNOCK.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbth5np",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -873,40 +839,6 @@
       ]
     },
     {
-      "id": "86bbeb7z6",
-      "name": "🎂 ASAKA Birthday (TRiDENT) — Sep 10",
-      "date": "2026-09-10",
-      "venue": "Sep 10",
-      "bands": [
-        "🎂 ASAKA Birthday (TRiDENT)"
-      ],
-      "description": "TRiDENT. Birthday Sep 10 per Girls Band Encyclopedia. Holding entry for the birthdays pipeline — verify against an official source before it goes on a card.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7z6",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbeb7yk",
-      "name": "🎂 TOMO-ZO Birthday (Gacharic Spin) — Sep 10",
-      "date": "2026-09-10",
-      "venue": "Sep 10",
-      "bands": [
-        "🎂 TOMO-ZO Birthday (Gacharic Spin)"
-      ],
-      "description": "Guitarist, Gacharic Spin. Birthday Sep 10, confirmed by the band's own annual birthday event page. Holding entry for the birthdays pipeline.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7yk",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
       "id": "86barcrrr",
       "name": "FATE GEAR @ Schüür — Luzern, Switzerland — Sep 10 2026",
       "date": "2026-09-10",
@@ -1136,6 +1068,46 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w5bn",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu797m",
+      "name": "Loudness @ Candelabrum Metal Fest — León, Mexico — Sep 12 2026",
+      "date": "2026-09-12",
+      "venue": "Candelabrum Metal Fest",
+      "city": "León",
+      "country": "Mexico",
+      "bands": [
+        "Loudness"
+      ],
+      "description": "Two-day festival, Sep 12–13. Japan's original metal export, playing the Americas.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu797m",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bbtbtnp",
+      "name": "Militarie Gun @ The Orpheum — Tampa, FL — Sep 12 2026",
+      "date": "2026-09-12",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Militarie Gun"
+      ],
+      "description": "Opens the Florida run — Miami hits Churchill's on Sep 13 and Orlando gets Conduit on Sep 14.",
+      "ticketUrl": "https://www.jambase.com/show/militarie-gun-the-orpheum-20260912",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbtnp",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -1529,6 +1501,28 @@
       ]
     },
     {
+      "id": "86bbtbrvh",
+      "name": "Mastodon + Deafheaven + Alcest @ Hard Rock Live — Orlando, FL — Sep 16 2026",
+      "date": "2026-09-16",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Mastodon",
+        "Deafheaven",
+        "Alcest"
+      ],
+      "description": "Unusually strong three-band bill — sludge, blackgaze and French post-black metal on one stage. Two weeks out.",
+      "ticketUrl": "https://www.songkick.com/concerts/43251516-mastodon-at-hard-rock-live-orlando",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbrvh",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86barcrjc",
       "name": "Rolling Quartz @ The Press Club — Sacramento, CA — Sep 16 2026",
       "date": "2026-09-16",
@@ -1604,6 +1598,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w5d5",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu78ky",
+      "name": "The Mars Volta @ Hard Rock Live — Orlando, FL — Sep 17 2026",
+      "date": "2026-09-17",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "The Mars Volta"
+      ],
+      "description": "Prog headliner, single Florida date on the run.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78ky",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2460,23 +2473,6 @@
       ]
     },
     {
-      "id": "86bbeb7zx",
-      "name": "🎂 Syu Birthday (Galneryus) — Sep 23",
-      "date": "2026-09-23",
-      "venue": "Sep 23",
-      "bands": [
-        "🎂 Syu Birthday (Galneryus)"
-      ],
-      "description": "Guitarist and founder, Galneryus. Birthday Sep 23 per the band's official member page. Holding entry for the birthdays pipeline.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7zx",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
       "id": "86barcrkd",
       "name": "Rolling Quartz @ Nile Theater — Mesa, AZ — Sep 23 2026",
       "date": "2026-09-23",
@@ -2630,6 +2626,26 @@
       ]
     },
     {
+      "id": "86bbtbtr4",
+      "name": "Volumes @ The Orpheum — Tampa, FL — Sep 25 2026",
+      "date": "2026-09-25",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Volumes"
+      ],
+      "description": "Middle night of the Florida swing — Conduit on Sep 24, West Palm Beach with Until I Wake on Sep 26.",
+      "ticketUrl": "https://www.jambase.com/show/volumes-the-orpheum-20260925",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbtr4",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbr72tz",
       "name": "Jarhead Fertilizer + Devilmaster + Implosive Disgorgence @ Churchill's Pub — Miami, FL — Sep 25 2026",
       "date": "2026-09-25",
@@ -2706,23 +2722,6 @@
       "clickupUrl": "https://app.clickup.com/t/86bbkeant",
       "buckets": [
         "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbeb80m",
-      "name": "🎂 Tamu Murata Birthday (NEMOPHILA) — Sep 25",
-      "date": "2026-09-25",
-      "venue": "Sep 25",
-      "bands": [
-        "🎂 Tamu Murata Birthday (NEMOPHILA)"
-      ],
-      "description": "Drummer, NEMOPHILA. Birthday Sep 25 per the band's official profile page. Falls between her departure and her final support appearance on Oct 12. Holding entry for the birthdays pipeline.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb80m",
-      "buckets": [
-        "japanese-metal"
       ]
     },
     {
@@ -2962,23 +2961,6 @@
       ]
     },
     {
-      "id": "86bbeb80z",
-      "name": "🎂 JUNNA Birthday (HAGANE) — Sep 26",
-      "date": "2026-09-26",
-      "venue": "Sep 26",
-      "bands": [
-        "🎂 JUNNA Birthday (HAGANE)"
-      ],
-      "description": "HAGANE. Birthday Sep 26, confirmed by the band's official birthday oneman announcement. Holding entry for the birthdays pipeline.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb80z",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
       "id": "86bbct3r4",
       "name": "All Shall Perish + Carnifex @ The Orpheum — Tampa, FL — Sep 26 2026",
       "date": "2026-09-26",
@@ -3114,40 +3096,6 @@
       ]
     },
     {
-      "id": "86bbeb822",
-      "name": "🎂 Miki Nakamura Birthday (SHOW-YA) — Sep 27",
-      "date": "2026-09-27",
-      "venue": "Sep 27",
-      "bands": [
-        "🎂 Miki Nakamura Birthday (SHOW-YA)"
-      ],
-      "description": "Keyboardist, SHOW-YA. Birthday Sep 27 per Oricon artist profile. Holding entry for the birthdays pipeline.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb822",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbeb81g",
-      "name": "🎂 Arem Birthday (Rolling Quartz) — Sep 27",
-      "date": "2026-09-27",
-      "venue": "Sep 27",
-      "bands": [
-        "🎂 Arem Birthday (Rolling Quartz)"
-      ],
-      "description": "Vocalist, Rolling Quartz. Birthday Sep 27. Holding entry for the birthdays pipeline — verify against an official source before it goes on a card.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb81g",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
       "id": "86barcrkm",
       "name": "Rolling Quartz @ Cervantes — Denver, CO — Sep 27 2026",
       "date": "2026-09-27",
@@ -3221,6 +3169,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4fr",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbtbt4r",
+      "name": "Loathe + Fleshwater + Prostitute @ Jannus Live — St. Petersburg, FL — Sep 30 2026",
+      "date": "2026-09-30",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Loathe",
+        "Fleshwater",
+        "Prostitute"
+      ],
+      "description": "\"A Stranger To You\" tour. Loathe headlining a room this size in Florida is a step up from their last pass through.",
+      "ticketUrl": "https://jannuslive.com/events/loathe-a-stranger-to-you-with-fleshwater-and-prostitute/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbt4r",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3374,6 +3344,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bba6hu7",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu789v",
+      "name": "Streetlight Manifesto + Hot Rod Circuit @ Jannus Live — St. Petersburg, FL — Oct 2 2026",
+      "date": "2026-10-02",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Streetlight Manifesto",
+        "Hot Rod Circuit"
+      ],
+      "description": "Ska-punk headliner with Hot Rod Circuit opening.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu789v",
+      "buckets": [
+        "florida-metal-scene",
+        "key-festivals"
       ]
     },
     {
@@ -3673,23 +3664,6 @@
       ]
     },
     {
-      "id": "86bbeb82g",
-      "name": "🎂 SAKI Birthday (Mary's Blood) — Oct 4",
-      "date": "2026-10-04",
-      "venue": "Oct 4",
-      "bands": [
-        "🎂 SAKI Birthday (Mary's Blood)"
-      ],
-      "description": "Guitarist, Mary's Blood. Birthday Oct 4. Band is on indefinite hiatus; SAKI remains active solo. Holding entry for the birthdays pipeline.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb82g",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
       "id": "86bbeb6hc",
       "name": "Rolling Quartz @ Come and Take It Live — Austin, TX — Oct 4 2026",
       "date": "2026-10-04",
@@ -3933,6 +3907,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4nb",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbth60r",
+      "name": "Sex Mex @ Churchill's Pub — Miami, FL — Oct 8 2026",
+      "date": "2026-10-08",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Sex Mex"
+      ],
+      "description": "Breakeven Booking brings Sex Mex to Churchill's.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbth60r",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -4250,6 +4243,25 @@
       ]
     },
     {
+      "id": "86bbth5v1",
+      "name": "BRIDEAR @ Kichijoji Shuwawa — Tokyo, Japan — Oct 11 2026",
+      "date": "2026-10-11",
+      "venue": "Kichijoji Shuwawa",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "BRIDEAR"
+      ],
+      "description": "BRIDEAR play \"MOE Birthday Party 2026\" at Kichijoji Shuwawa — a one-off celebration show for drummer MOE.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbth5v1",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbr504j",
       "name": "NINI + Seven Kingdoms @ The Orpheum — Tampa, FL — Oct 11 2026",
       "date": "2026-10-11",
@@ -4371,6 +4383,28 @@
       ]
     },
     {
+      "id": "86bbtbtk5",
+      "name": "Silent Theory + Discrepancies + Sick Century @ The Orpheum — Tampa, FL — Oct 12 2026",
+      "date": "2026-10-12",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Silent Theory",
+        "Discrepancies",
+        "Sick Century"
+      ],
+      "description": "Same bill that plays Conduit on Oct 11 — this is the Tampa night of the run.",
+      "ticketUrl": "https://www.jambase.com/show/silent-theory-the-orpheum-20261012",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbtk5",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbj3w3u",
       "name": "SHOW-YA @ DIME — Takamatsu, Japan — Oct 12 2026",
       "date": "2026-10-12",
@@ -4467,6 +4501,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4pp",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu78at",
+      "name": "Basement + Momma @ Jannus Live — St. Petersburg, FL — Oct 13 2026",
+      "date": "2026-10-13",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Basement",
+        "Momma"
+      ],
+      "description": "UK alt-rock headliner Basement, with Momma supporting.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78at",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -4590,6 +4644,25 @@
       ]
     },
     {
+      "id": "86bbu78pa",
+      "name": "Def Leppard @ Hard Rock Live — Hollywood, FL — Oct 15 2026",
+      "date": "2026-10-15",
+      "venue": "Hard Rock Live",
+      "city": "Hollywood",
+      "state": "FL",
+      "bands": [
+        "Def Leppard"
+      ],
+      "description": "Arena-scale booking at the Seminole Hard Rock room.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78pa",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbr508g",
       "name": "NINI + Seven Kingdoms @ Woodshop — New York, NY — Oct 15 2026",
       "date": "2026-10-15",
@@ -4690,6 +4763,27 @@
       ]
     },
     {
+      "id": "86bbtbtb6",
+      "name": "Combichrist + Dead Animal Assembly Plant @ The Orpheum — Tampa, FL — Oct 16 2026",
+      "date": "2026-10-16",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Combichrist",
+        "Dead Animal Assembly Plant"
+      ],
+      "description": "Industrial bill with Ludovico Technique also on the lineup — they hit Conduit the night before on Oct 15, so this is the Tampa leg of the same run.",
+      "ticketUrl": "https://www.jambase.com/show/combichrist-the-orpheum-20261016",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbtb6",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbr5092",
       "name": "NINI + Seven Kingdoms @ Mohawk Place — Buffalo, NY — Oct 16 2026",
       "date": "2026-10-16",
@@ -4762,6 +4856,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ba5zfhv",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbu78bh",
+      "name": "Toadies + Local H + Emily Wolfe @ Jannus Live — St. Petersburg, FL — Oct 17 2026",
+      "date": "2026-10-17",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Toadies",
+        "Local H",
+        "Emily Wolfe"
+      ],
+      "description": "Nineties alt-rock double bill, Emily Wolfe opening.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78bh",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -4882,6 +4997,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4qd",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbtbrnp",
+      "name": "Arch Enemy + The Black Dahlia Murder @ Jannus Live — St. Petersburg, FL — Oct 18 2026",
+      "date": "2026-10-18",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Arch Enemy",
+        "The Black Dahlia Murder"
+      ],
+      "description": "Wrath Across North America 2026 — co-headline. Full bill: Arch Enemy, The Black Dahlia Murder, SepticFlesh, Crypta, Thrown Into Exile. Early 5 PM start.",
+      "ticketUrl": "https://www.ticketmaster.com/arch-enemy-the-black-dahlia-murder-st-petersburg-florida-10-18-2026/event/0D0064AF48F72DFE",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbrnp",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -5023,6 +5159,25 @@
       ]
     },
     {
+      "id": "86bbu78mf",
+      "name": "Bachman-Turner Overdrive @ Hard Rock Live — Orlando, FL — Oct 20 2026",
+      "date": "2026-10-20",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Bachman-Turner Overdrive"
+      ],
+      "description": "Classic-rock booking; the band returns to the same room in January.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78mf",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbr50dq",
       "name": "NINI + Seven Kingdoms @ Preserving Underground — Pittsburgh, PA — Oct 20 2026",
       "date": "2026-10-20",
@@ -5122,6 +5277,26 @@
       ]
     },
     {
+      "id": "86bbth649",
+      "name": "Dear Maryanne + MooseCreek Park @ Churchill's Pub — Miami, FL — Oct 22 2026",
+      "date": "2026-10-22",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Dear Maryanne",
+        "MooseCreek Park"
+      ],
+      "description": "Lineup: Dear Maryanne, MooseCreek Park, Excuse Me, Who Are You?",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbth649",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbr50fx",
       "name": "NINI + Seven Kingdoms @ Summit Music Hall — Columbus, OH — Oct 22 2026",
       "date": "2026-10-22",
@@ -5177,6 +5352,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbeb681",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbu78c7",
+      "name": "Scene Queen + Wargasm @ Jannus Live — St. Petersburg, FL — Oct 23 2026",
+      "date": "2026-10-23",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Scene Queen",
+        "Wargasm"
+      ],
+      "description": "Full bill: Scene Queen, Wargasm, Bailey Spinn.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78c7",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -5440,6 +5635,45 @@
       ]
     },
     {
+      "id": "86bbu78py",
+      "name": "Brand New @ Hard Rock Live — Hollywood, FL — Oct 25 2026",
+      "date": "2026-10-25",
+      "venue": "Hard Rock Live",
+      "city": "Hollywood",
+      "state": "FL",
+      "bands": [
+        "Brand New"
+      ],
+      "description": "Reunion-era Brand New, South Florida date.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78py",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbtbte2",
+      "name": "The Linda Lindas @ The Orpheum — Tampa, FL — Oct 25 2026",
+      "date": "2026-10-25",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "The Linda Lindas"
+      ],
+      "description": "Tampa date ahead of the Culture Room show on Oct 27, with The Rat Utopia Experiment supporting.",
+      "ticketUrl": "https://www.jambase.com/show/the-linda-lindas-the-orpheum-20261025",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbte2",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbj3w1u",
       "name": "AVE MUJICA @ Keio Arena TOKYO — Tokyo, Japan — Oct 25 2026",
       "date": "2026-10-25",
@@ -5559,6 +5793,46 @@
       ]
     },
     {
+      "id": "86bbtbtgj",
+      "name": "PeelingFlesh @ The Orpheum — Tampa, FL — Oct 28 2026",
+      "date": "2026-10-28",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "PeelingFlesh"
+      ],
+      "description": "Tampa stop ahead of the West Palm Beach date at The Banyan Live on Oct 29.",
+      "ticketUrl": "https://www.jambase.com/show/peelingflesh-the-orpheum-20261028",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbtgj",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbtbryc",
+      "name": "Black Label Society @ Hard Rock Live — Orlando, FL — Oct 28 2026",
+      "date": "2026-10-28",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Black Label Society"
+      ],
+      "description": "Zakk Wylde brings BLS to Orlando the night before the Fort Lauderdale War Memorial date on Oct 29 — two Florida shows back to back.",
+      "ticketUrl": "https://www.songkick.com/concerts/43290923-black-label-society-at-hard-rock-live-orlando",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbryc",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bba6hmx",
       "name": "Peeling Flesh + Gridiron + Final Resting Place + Two Piece + Grounds for Assault @ The Banyan Live — West Palm Beach, FL — Oct 29 2026",
       "date": "2026-10-29",
@@ -5577,6 +5851,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bba6hmx",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbtbt1g",
+      "name": "The Dillinger Escape Plan @ Jannus Live — St. Petersburg, FL — Oct 29 2026",
+      "date": "2026-10-29",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "The Dillinger Escape Plan"
+      ],
+      "description": "Final \"Calculating Infinity\" shows — the album played in full, and billed as the last time.",
+      "ticketUrl": "https://www.livenation.com/event/vvG1VZ_GwtMh8R/the-dillinger-escape-plan-final-calculating-infinity-shows",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbt1g",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -5674,6 +5968,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w526",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu78tt",
+      "name": "Honey Revenge + Dead Poet Society + Hunny @ The Orpheum — Tampa, FL — Oct 31 2026",
+      "date": "2026-10-31",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Honey Revenge",
+        "Dead Poet Society",
+        "Hunny"
+      ],
+      "description": "Halloween-night four-band bill; Broadside also on the lineup.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78tt",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -5833,6 +6148,44 @@
       ]
     },
     {
+      "id": "86bbu78r6",
+      "name": "In Flames @ Culture Room — Fort Lauderdale, FL — Nov 4 2026",
+      "date": "2026-11-04",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "In Flames"
+      ],
+      "description": "Newly listed, on sale Sep 4. Club-sized In Flames headline the night before the band's larger Trivium co-headline at Jannus Live on the 5th — worth confirming both stand.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78r6",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbu78cu",
+      "name": "Movements @ Jannus Live — St. Petersburg, FL — Nov 4 2026",
+      "date": "2026-11-04",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Movements"
+      ],
+      "description": "Second Florida stop of the run; the Orlando date lands two nights later.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78cu",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbeb7ag",
       "name": "SiM @ Paradise Rock Club — Boston, MA — Nov 4 2026",
       "date": "2026-11-04",
@@ -5911,6 +6264,26 @@
       ]
     },
     {
+      "id": "86bbu78mw",
+      "name": "Movements + Balance and Composure @ Hard Rock Live — Orlando, FL — Nov 6 2026",
+      "date": "2026-11-06",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Movements",
+        "Balance and Composure"
+      ],
+      "description": "Orlando leg of the run; St. Pete plays the 4th.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78mw",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbeb7be",
       "name": "SiM @ The Fillmore — Silver Spring, MD — Nov 6 2026",
       "date": "2026-11-06",
@@ -5944,6 +6317,45 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bavn8wy",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbu78dg",
+      "name": "Mannequin Pussy + Wednesday @ Jannus Live — St. Petersburg, FL — Nov 7 2026",
+      "date": "2026-11-07",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Mannequin Pussy",
+        "Wednesday"
+      ],
+      "description": "Full bill: Mannequin Pussy, Wednesday, Snõõper.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78dg",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbth67v",
+      "name": "Christone \"Kingfish\" Ingram @ Culture Room — Fort Lauderdale, FL — Nov 7 2026",
+      "date": "2026-11-07",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Christone \"Kingfish\" Ingram"
+      ],
+      "description": "Christone \"Kingfish\" Ingram brings The Hard Road Tour to Culture Room — the modern blues guitarist most worth a night in a 600-cap room.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbth67v",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -6140,6 +6552,26 @@
       ]
     },
     {
+      "id": "86bbu78vc",
+      "name": "Bowling for Soup + Ballyhoo! @ The Ritz Ybor — Tampa, FL — Nov 12 2026",
+      "date": "2026-11-12",
+      "venue": "The Ritz Ybor",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Bowling for Soup",
+        "Ballyhoo!"
+      ],
+      "description": "\"Hey! Let's Be Friends\" tour stop in Ybor City.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78vc",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbqec6x",
       "name": "Forbidden @ Conduit — Winter Park (Orlando), FL — Nov 12 2026",
       "date": "2026-11-12",
@@ -6197,6 +6629,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bbeb7h7",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu78t0",
+      "name": "The Faint @ Las Rosas — Miami, FL — Nov 13 2026",
+      "date": "2026-11-13",
+      "venue": "Las Rosas",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "The Faint"
+      ],
+      "description": "Dance-punk headliner in the Allapattah room.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78t0",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -6514,6 +6965,27 @@
       ]
     },
     {
+      "id": "86bbu78e4",
+      "name": "Periphery + Ne Obliviscaris + Greyhaven @ Jannus Live — St. Petersburg, FL — Nov 16 2026",
+      "date": "2026-11-16",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Periphery",
+        "Ne Obliviscaris",
+        "Greyhaven"
+      ],
+      "description": "Prog-metal headliner with Ne Obliviscaris and Greyhaven. Strongest metal booking on the Jannus fall calendar.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78e4",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbmtecr",
       "name": "Unlucky Morpheus @ Kichijoji CLUB SEATA — Tokyo, Japan — Nov 17 2026",
       "date": "2026-11-17",
@@ -6550,6 +7022,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbeb7kc",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbtbrrm",
+      "name": "Corrosion of Conformity + The Sword @ Vinyl Music Hall — Pensacola, FL — Nov 19 2026",
+      "date": "2026-11-19",
+      "venue": "Vinyl Music Hall",
+      "city": "Pensacola",
+      "state": "FL",
+      "bands": [
+        "Corrosion of Conformity",
+        "The Sword"
+      ],
+      "description": "Co-headline run with Hippie Death Cult opening. Announced late August; this is the tour closer and the only Florida stop — panhandle, so a longer haul than the usual I-4 corridor dates.",
+      "ticketUrl": "https://theobelisk.net/obelisk/2026/08/26/corrosion-of-conformity-co-headline-with-the-sword/",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbrrm",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -6812,6 +7305,25 @@
       ]
     },
     {
+      "id": "86bbu78gj",
+      "name": "Buzzcocks @ Jannus Live — St. Petersburg, FL — Nov 24 2026",
+      "date": "2026-11-24",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Buzzcocks"
+      ],
+      "description": "Founding UK punk act, still touring. Rare Florida stop.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78gj",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbqeca8",
       "name": "Blitzkid @ Conduit — Winter Park (Orlando), FL — Nov 24 2026",
       "date": "2026-11-24",
@@ -6848,6 +7360,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbmte9q",
       "buckets": [
         "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bbtbt7t",
+      "name": "Wage War + We Came As Romans @ Hard Rock Live — Orlando, FL — Nov 27 2026",
+      "date": "2026-11-27",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Wage War",
+        "We Came As Romans"
+      ],
+      "description": "Wage War playing a hometown-adjacent room — the band formed in Ocala. Varials and Cane Hill round out the bill. Thanksgiving-weekend show.",
+      "ticketUrl": "https://www.songkick.com/concerts/43263240-wage-war-at-hard-rock-live-orlando",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbt7t",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -6947,6 +7480,27 @@
       ]
     },
     {
+      "id": "86bbu78h8",
+      "name": "Silverstein + Story of the Year + Stand Atlantic @ Jannus Live — St. Petersburg, FL — Nov 29 2026",
+      "date": "2026-11-29",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Silverstein",
+        "Story of the Year",
+        "Stand Atlantic"
+      ],
+      "description": "Three-band post-hardcore package.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78h8",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bb9w57m",
       "name": "HANABIE. @ the five morioka — Morioka, Japan — Nov 29 2026",
       "date": "2026-11-29",
@@ -7023,6 +7577,47 @@
       ]
     },
     {
+      "id": "86bbu78hc",
+      "name": "Senses Fail + Koyo + Initiate @ Jannus Live — St. Petersburg, FL — Dec 4 2026",
+      "date": "2026-12-04",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Senses Fail",
+        "Koyo",
+        "Initiate"
+      ],
+      "description": "Senses Fail headlining with Koyo and Initiate.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78hc",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbth6fe",
+      "name": "Up Next Music Fest 2026 @ Revolution Live — Fort Lauderdale, FL — Dec 4 2026",
+      "date": "2026-12-04",
+      "venue": "Revolution Live",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Up Next Music Fest 2026"
+      ],
+      "description": "A full local-talent bill at Revolution Live, assembled by the Stage Mom Podcast.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbth6fe",
+      "buckets": [
+        "florida-metal-scene",
+        "key-festivals"
+      ]
+    },
+    {
       "id": "86bbp3tq0",
       "name": "Broken By The Scream + Bridear @ Slaktkyrkan (Lunar Fest) — Stockholm, Sweden — Dec 4, 2026",
       "date": "2026-12-04",
@@ -7041,6 +7636,46 @@
       "buckets": [
         "japanese-metal",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bbu78hh",
+      "name": "State Champs + Cartel @ Jannus Live — St. Petersburg, FL — Dec 5 2026",
+      "date": "2026-12-05",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "State Champs",
+        "Cartel"
+      ],
+      "description": "Pop-punk co-headline.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78hh",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbth6c6",
+      "name": "Samantha Fish + Cedric Burnside @ Culture Room — Fort Lauderdale, FL — Dec 5 2026",
+      "date": "2026-12-05",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Samantha Fish",
+        "Cedric Burnside"
+      ],
+      "description": "Shake 'Em On Down Tour 2026. Lineup: Samantha Fish, Cedric Burnside, Daddy Long Legs.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbth6c6",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -7133,6 +7768,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbmtea7",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbtbrjt",
+      "name": "Sabaton + Pop Evil @ Hard Rock Live — Orlando, FL — Dec 11 2026",
+      "date": "2026-12-11",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Sabaton",
+        "Pop Evil"
+      ],
+      "description": "Legends On Tour. Second Florida stop — the Hollywood date is Dec 10, so the Swedes are doing back-to-back nights across the state. Support from Pop Evil and Wings Of Steel.",
+      "ticketUrl": "https://www.sabaton.net/concert/orlando-florida-hard-rock-live-2026/",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbtbrjt",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -7362,6 +8018,25 @@
       "buckets": []
     },
     {
+      "id": "86bbu78n7",
+      "name": "Bachman-Turner Overdrive @ Hard Rock Live — Orlando, FL — Jan 7 2027",
+      "date": "2027-01-07",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Bachman-Turner Overdrive"
+      ],
+      "description": "Second Orlando date, following the October show.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78n7",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbct3x7",
       "name": "Florida Underground Fest 7 @ Downtown Sanford — Sanford, FL — Jan 8 2027",
       "date": "2027-01-08",
@@ -7437,6 +8112,158 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w5uk",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu78xb",
+      "name": "SiM @ SWG3 — Glasgow, UK — Jan 20 2027",
+      "date": "2027-01-20",
+      "venue": "SWG3",
+      "city": "Glasgow",
+      "state": "UK",
+      "bands": [
+        "SiM"
+      ],
+      "description": "Opening night of the HOOMAN AFTER ALL UK/EU leg, following the autumn North American run.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78xb",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu78yf",
+      "name": "SiM @ The Wardrobe — Leeds, UK — Jan 22 2027",
+      "date": "2027-01-22",
+      "venue": "The Wardrobe",
+      "city": "Leeds",
+      "state": "UK",
+      "bands": [
+        "SiM"
+      ],
+      "description": "HOOMAN AFTER ALL UK leg.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78yf",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu78zn",
+      "name": "SiM @ Manchester Academy 3 — Manchester, UK — Jan 23 2027",
+      "date": "2027-01-23",
+      "venue": "Manchester Academy 3",
+      "city": "Manchester",
+      "state": "UK",
+      "bands": [
+        "SiM"
+      ],
+      "description": "HOOMAN AFTER ALL UK leg.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78zn",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu790v",
+      "name": "SiM @ O2 Institute 3 — Birmingham, UK — Jan 25 2027",
+      "date": "2027-01-25",
+      "venue": "O2 Institute 3",
+      "city": "Birmingham",
+      "state": "UK",
+      "bands": [
+        "SiM"
+      ],
+      "description": "HOOMAN AFTER ALL UK leg.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu790v",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu792c",
+      "name": "SiM @ Clwb Ifor Bach — Cardiff, UK — Jan 26 2027",
+      "date": "2027-01-26",
+      "venue": "Clwb Ifor Bach",
+      "city": "Cardiff",
+      "state": "UK",
+      "bands": [
+        "SiM"
+      ],
+      "description": "HOOMAN AFTER ALL UK leg.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu792c",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu793e",
+      "name": "SiM @ The Fleece — Bristol, UK — Jan 28 2027",
+      "date": "2027-01-28",
+      "venue": "The Fleece",
+      "city": "Bristol",
+      "state": "UK",
+      "bands": [
+        "SiM"
+      ],
+      "description": "HOOMAN AFTER ALL UK leg.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu793e",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu7949",
+      "name": "SiM @ Electric Ballroom — London, UK — Jan 30 2027",
+      "date": "2027-01-30",
+      "venue": "Electric Ballroom",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "SiM"
+      ],
+      "description": "Camden headline and the biggest room of the UK leg. Field Trip candidate.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu7949",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu78hx",
+      "name": "Nonpoint @ Jannus Live — St. Petersburg, FL — Jan 31 2027",
+      "date": "2027-01-31",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Nonpoint"
+      ],
+      "description": "Florida's own — South Florida-formed nu-metal mainstay playing a hometown-state date.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78hx",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -7556,6 +8383,26 @@
       ]
     },
     {
+      "id": "86bbu78j6",
+      "name": "Dinosaur Jr. + Starcrawler @ Jannus Live — St. Petersburg, FL — Feb 20 2027",
+      "date": "2027-02-20",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Dinosaur Jr.",
+        "Starcrawler"
+      ],
+      "description": "Alt-rock institution with Starcrawler opening.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78j6",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbpafnj",
       "name": "Yamato The Drummers of Japan @ Lillian S. Wells Hall — Fort Lauderdale, FL — Feb 25 2027",
       "date": "2027-02-25",
@@ -7570,6 +8417,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbpafnj",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbu78jf",
+      "name": "Public Image Ltd @ Jannus Live — St. Petersburg, FL — Mar 8 2027",
+      "date": "2027-03-08",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Public Image Ltd"
+      ],
+      "description": "John Lydon's post-punk outfit. Rare Florida booking.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78jf",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -7590,6 +8456,63 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbqbpde",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbu78uf",
+      "name": "VNV Nation @ The Orpheum — Tampa, FL — Mar 13 2027",
+      "date": "2027-03-13",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "VNV Nation"
+      ],
+      "description": "Tampa leg, one night after the Fort Lauderdale date at Culture Room.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78uf",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbu78nr",
+      "name": "Polyphia @ Hard Rock Live — Orlando, FL — Mar 13 2027",
+      "date": "2027-03-13",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Polyphia"
+      ],
+      "description": "First of two Florida dates; St. Pete follows on the 14th.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78nr",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbu78jr",
+      "name": "Polyphia @ Jannus Live — St. Petersburg, FL — Mar 14 2027",
+      "date": "2027-03-14",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Polyphia"
+      ],
+      "description": "Second Florida leg — Orlando the night before, St. Pete on the 14th.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78jr",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -7633,212 +8556,40 @@
       ]
     },
     {
-      "id": "86bb0y3aq",
-      "name": "🎂 Im Yeong-Eun (Rolling Quartz) — Birthday July 8 (RECURRING ANNUAL) — pending handoff to birthdays pipeline",
-      "date": "2027-07-08",
-      "venue": "Birthday July 8 (RECURRING ANNUAL) — pending handoff to birthdays pipeline",
+      "id": "86bbu794y",
+      "name": "HAGANE @ Epic Fest 2027 — Roskilde, Denmark — Apr 9 2027",
+      "date": "2027-04-09",
+      "venue": "Epic Fest 2027",
+      "city": "Roskilde",
+      "country": "Denmark",
       "bands": [
-        "🎂 Im Yeong-Eun (Rolling Quartz)"
+        "HAGANE"
       ],
-      "description": "Person: Im Yeong-Eun (임영은)\nAffiliation: Rolling Quartz — drums\nBirthday: July 8 — RECURRING ANNUAL\nGreeting language: Korean",
-      "priority": "normal",
+      "description": "Main stage, opening the festival. HAGANE's push into Europe — the band's calendar has been Japan-only all year.",
+      "priority": "high",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb0y3aq",
+      "clickupUrl": "https://app.clickup.com/t/86bbu794y",
       "buckets": [
-        "japanese-metal"
+        "japanese-metal",
+        "key-festivals"
       ]
     },
     {
-      "id": "86bb0y3ah",
-      "name": "🎂 Mari Hamada — Birthday July 18 (RECURRING ANNUAL) — pending handoff to birthdays pipeline",
-      "date": "2027-07-18",
-      "venue": "Birthday July 18 (RECURRING ANNUAL) — pending handoff to birthdays pipeline",
+      "id": "86bbu798w",
+      "name": "Loudness @ The Coach House — San Juan Capistrano, CA — May 5 2027",
+      "date": "2027-05-05",
+      "venue": "The Coach House",
+      "city": "San Juan Capistrano",
+      "state": "CA",
       "bands": [
-        "🎂 Mari Hamada"
+        "Loudness"
       ],
-      "description": "Person: Mari Hamada (浜田麻里)\nAffiliation: Solo vocalist — Japan\nBirthday: July 18 — RECURRING ANNUAL\nGreeting language: Japanese",
+      "description": "Currently a standalone US date with nothing routed around it. Watch for a fuller American run to be built out from here.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb0y3ah",
-      "buckets": []
-    },
-    {
-      "id": "86bbpafvp",
-      "name": "Keiko Terada Birthday SHOW-YA",
-      "date": "2027-07-27",
-      "bands": [
-        "Keiko Terada Birthday SHOW-YA"
-      ],
-      "description": "RECURRING ANNUAL — July 27",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbpafvp",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bba6hve",
-      "name": "Keiko Terada Birthday SHOW-YA",
-      "date": "2027-07-27",
-      "bands": [
-        "Keiko Terada Birthday SHOW-YA"
-      ],
-      "description": "RECURRING ANNUAL — July 27",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bba6hve",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bba6j01",
-      "name": "Haruna Birthday PARADOXX",
-      "date": "2027-07-28",
-      "bands": [
-        "Haruna Birthday PARADOXX"
-      ],
-      "description": "RECURRING ANNUAL — July 28",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bba6j01",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bba6j16",
-      "name": "Yayoi Birthday Broken by the Scream",
-      "date": "2027-08-07",
-      "bands": [
-        "Yayoi Birthday Broken by the Scream"
-      ],
-      "description": "RECURRING ANNUAL — August 7",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bba6j16",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbpafz3",
-      "name": "Shono Birthday Paradoxx",
-      "date": "2027-08-10",
-      "bands": [
-        "Shono Birthday Paradoxx"
-      ],
-      "description": "RECURRING ANNUAL — August 10",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbpafz3",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbc299v",
-      "name": "🎂 Shono Birthday PARADOXX",
-      "date": "2027-08-10",
-      "bands": [
-        "🎂 Shono Birthday PARADOXX"
-      ],
-      "description": "RECURRING ANNUAL — August 10",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbc299v",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbpafxe",
-      "name": "Naho Birthday Dimrays",
-      "date": "2027-08-18",
-      "bands": [
-        "Naho Birthday Dimrays"
-      ],
-      "description": "RECURRING ANNUAL — August 18",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbpafxe",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbpafx7",
-      "name": "Nagisa Birthday TRiDENT",
-      "date": "2027-08-18",
-      "bands": [
-        "Nagisa Birthday TRiDENT"
-      ],
-      "description": "RECURRING ANNUAL — August 18",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbpafx7",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbmtee9",
-      "name": "🎂 Naho Birthday (Dimrays) — Aug 18",
-      "date": "2027-08-18",
-      "venue": "Aug 18",
-      "bands": [
-        "🎂 Naho Birthday (Dimrays)"
-      ],
-      "description": "RECURRING ANNUAL — August 18",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbmtee9",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbmtee0",
-      "name": "🎂 Nagisa Birthday (TRiDENT) — Aug 18",
-      "date": "2027-08-18",
-      "venue": "Aug 18",
-      "bands": [
-        "🎂 Nagisa Birthday (TRiDENT)"
-      ],
-      "description": "RECURRING ANNUAL — August 18",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbmtee0",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbmteeq",
-      "name": "🎂 Sena Birthday (JILUKA) — Aug 25",
-      "date": "2027-08-25",
-      "venue": "Aug 25",
-      "bands": [
-        "🎂 Sena Birthday (JILUKA)"
-      ],
-      "description": "RECURRING ANNUAL — August 25",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbmteeq",
+      "clickupUrl": "https://app.clickup.com/t/86bbu798w",
       "buckets": [
         "japanese-metal"
       ]
