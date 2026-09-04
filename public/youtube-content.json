@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-09-02T07:00:48.129Z",
+  "fetchedAt": "2026-09-04T07:00:44.772Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 150000,
-      "videoCount": 266,
+      "videoCount": 268,
       "recentLongform": [
+        {
+          "id": "f9TFsEAx0Yg",
+          "title": "Nemophila | I heard from mayu",
+          "publishedAt": "2026-09-02T20:50:11Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/f9TFsEAx0Yg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/f9TFsEAx0Yg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/f9TFsEAx0Yg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/f9TFsEAx0Yg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/f9TFsEAx0Yg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M51S",
+          "durationSeconds": 111
+        },
         {
           "id": "z6S481shvTs",
           "title": "Nemophila | Orlando Soundcheck | \"Rise\"",
@@ -484,82 +518,43 @@
           },
           "duration": "PT2M52S",
           "durationSeconds": 172
-        },
-        {
-          "id": "4GnvOdPDA3M",
-          "title": "Given by the Flames | TMC Interview | Wacken 2026",
-          "publishedAt": "2026-08-11T01:55:49Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/4GnvOdPDA3M/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/4GnvOdPDA3M/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/4GnvOdPDA3M/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/4GnvOdPDA3M/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/4GnvOdPDA3M/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/4GnvOdPDA3M/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
-            }
-          },
-          "duration": "PT4M49S",
-          "durationSeconds": 289
-        },
-        {
-          "id": "EAfK3Q9a7nE",
-          "title": "Deep Purple and Gustav Holst",
-          "publishedAt": "2026-08-10T19:24:39Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/EAfK3Q9a7nE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/EAfK3Q9a7nE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/EAfK3Q9a7nE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/EAfK3Q9a7nE/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/EAfK3Q9a7nE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M57S",
-          "durationSeconds": 117
         }
       ],
       "recentShorts": [
+        {
+          "id": "MMRG8NAUDN4",
+          "title": "Subway to Sally | Wacken Open Air 2026",
+          "publishedAt": "2026-09-03T20:50:07Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/MMRG8NAUDN4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/MMRG8NAUDN4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/MMRG8NAUDN4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/MMRG8NAUDN4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/MMRG8NAUDN4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT58S",
+          "durationSeconds": 58
+        },
         {
           "id": "PVPx5oO5nbs",
           "title": "The Problem Was Never the Music",
