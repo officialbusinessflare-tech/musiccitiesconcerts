@@ -1,218 +1,6 @@
 {
-  "generatedAt": "2026-09-04T07:00:35.744Z",
+  "generatedAt": "2026-09-05T07:00:29.214Z",
   "entries": [
-    {
-      "id": "86bbu78kp",
-      "name": "Bilmuri + Knuckle Puck @ Hard Rock Live — Orlando, FL — Sep 4 2026",
-      "date": "2026-09-04",
-      "venue": "Hard Rock Live",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Bilmuri",
-        "Knuckle Puck"
-      ],
-      "description": "Bilmuri headlining with Knuckle Puck.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78kp",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbu789g",
-      "name": "Citizen + Hotline TNT + Anxious @ Jannus Live — St. Petersburg, FL — Sep 4 2026",
-      "date": "2026-09-04",
-      "venue": "Jannus Live",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Citizen",
-        "Hotline TNT",
-        "Anxious"
-      ],
-      "description": "Full bill: Citizen, Hotline TNT, Anxious, Rocket. Outdoor courtyard show in downtown St. Pete.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu789g",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbkecn5",
-      "name": "Vain + Jetboy @ Whisky a Go Go — West Hollywood, CA — Sep 4 2026",
-      "date": "2026-09-04",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "Vain",
-        "Jetboy"
-      ],
-      "description": "Vain and Jetboy co-headline, with Sweet Corvette, Beyond the Betrayal, Devolution, Armagelion, Punked Out Pretty, Terminous and Tanz Der Vampur. A Sunset Strip glam bill on the room that made the genre.",
-      "ticketUrl": "https://www.ticketweb.com/event/vain-jetboy-sweet-corvette-beyond-whisky-a-go-go-tickets/14132604",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkecn5",
-      "buckets": []
-    },
-    {
-      "id": "86bbkeb77",
-      "name": "Not Enough Space + Lilith's Demise @ Conduit — Orlando, FL — Sep 4 2026",
-      "date": "2026-09-04",
-      "venue": "Conduit",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Not Enough Space",
-        "Lilith's Demise"
-      ],
-      "description": "Full bill: Not Enough Space, Lilith's Demise, No One Road, Almost Mine. Florida scene night at Conduit.",
-      "ticketUrl": "https://www.ticketweb.com/event/not-enough-space-weaponize-your-conduit-tickets/14994583",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkeb77",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbct34n",
-      "name": "Tampa Death Fest Night 1 @ Brass Mug — Tampa, FL — Sep 4 2026",
-      "date": "2026-09-04",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Tampa Death Fest Night 1"
-      ],
-      "description": "Event: Tampa Death Fest — Night 1 of two (Night 2 falls Sep 5).\nLineup includes Viogression, Sabbat Savage and a deep card of Florida and touring death metal.\nVenue: The Brass Mug, Tampa, FL\nDate: Friday, September 4, 2026 — show 5:00 PM\nTickets: ticketbud (Friday and Saturday…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbct34n",
-      "buckets": [
-        "florida-metal-scene",
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86bb0uvmc",
-      "name": "A Bloodbath in Florida — Oscura Live, Bradenton FL — Sep 4 2026",
-      "date": "2026-09-04",
-      "venue": "Oscura Live",
-      "city": "Bradenton",
-      "state": "FL",
-      "bands": [
-        "A Bloodbath in Florida"
-      ],
-      "description": "Bands: A Bloodbath in Boston, Peacemaker (FL), Delilah, Necrotizing, Yet Still We Pray\nVenue: Oscura Live, Bradenton, FL\nDate: Friday, September 4, 2026",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb0uvmc",
-      "buckets": []
-    },
-    {
-      "id": "86ba365ck",
-      "name": "No Raza / Mind Virus / Revenant Curse — Guadalajara Night Club, Fort Pierce FL",
-      "date": "2026-09-04",
-      "venue": "Guadalajara Night Club",
-      "city": "Fort Pierce",
-      "state": "FL",
-      "bands": [
-        "No Raza",
-        "Mind Virus",
-        "Revenant Curse"
-      ],
-      "description": "No Raza w/ Mind Virus, Revenant Curse",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86ba365ck",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86b9b7mf1",
-      "name": "LOVEBITES @ Zepp Nagoya — Nagoya, Japan",
-      "date": "2026-09-04",
-      "venue": "Zepp Nagoya",
-      "city": "Nagoya",
-      "country": "Japan",
-      "bands": [
-        "LOVEBITES"
-      ],
-      "description": "LOVEBITES Outstanding Tour Japan 2026. Zepp Nagoya, Nagoya.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b9b7mf1",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86b93vh5e",
-      "name": "Muddy Roots Music Festival — Cookeville, TN",
-      "date": "2026-09-04",
-      "venue": "Cookeville",
-      "state": "TN",
-      "bands": [],
-      "description": "Muddy Roots Music Festival 2026\\n\\nDates: September 4-6, 2026\\nLocation: Cookeville, Tennessee\\n\\nLineup includes: Circle Jerks, Monolord, Municipal Waste, Mac Sabbath, Frankie and the Witch Fingers, Angry Zeta, Builders and the Butchers, Rickshaw Billie's Burger Patrol, Sex…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b93vh5e",
-      "buckets": [
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86bb9w61b",
-      "name": "SiM @ Niigata LOTS — Niigata, Japan — Sep 4 2026",
-      "date": "2026-09-04",
-      "venue": "Niigata LOTS",
-      "city": "Niigata",
-      "country": "Japan",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL tour kick-off show. Niigata LOTS in Niigata, Japan. Show date: Sep 4 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w61b",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w45x",
-      "name": "BABYMETAL @ Huntington Bank Pavilion — Chicago, IL — Sep 4 2026",
-      "date": "2026-09-04",
-      "venue": "Huntington Bank Pavilion",
-      "city": "Chicago",
-      "state": "IL",
-      "bands": [
-        "BABYMETAL"
-      ],
-      "description": "BABYMETAL — World Tour 2026. Huntington Bank Pavilion in Chicago, IL. Show date: Sep 4 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w45x",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbth5xy",
       "name": "FRAWLEY @ The Banyan Live — West Palm Beach, FL — Sep 5 2026",
@@ -268,6 +56,42 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbth5np",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bbr53b8",
+      "name": "Metal Blade Florida dates — walk all 27 bands, identify local coverage targets",
+      "date": "2026-09-05",
+      "city": "walk all 27 bands",
+      "country": "identify local coverage targets",
+      "bands": [
+        "Metal Blade Florida dates"
+      ],
+      "description": "Same walk as the UK task, filtered for Florida — these are shows TMC can cover without travel.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr53b8",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bbr53ay",
+      "name": "Metal Blade UK dates — walk all 27 bands, build Field Trip options",
+      "date": "2026-09-05",
+      "city": "walk all 27 bands",
+      "country": "build Field Trip options",
+      "bands": [
+        "Metal Blade UK dates"
+      ],
+      "description": "Pull every UK date from Metal Blade's tour page and see whether any of them cluster into a trip worth taking.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbr53ay",
       "buckets": [
         "interesting-elsewhere"
       ]
@@ -465,6 +289,24 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w465",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbvazb5",
+      "name": "Creator Gold at SXSW 2027 (Austin), invited by Monica Khan",
+      "date": "2026-09-06",
+      "city": "SXSW 2027 (Austin)",
+      "country": "invited by Monica Khan",
+      "bands": [
+        "Creator Gold"
+      ],
+      "description": "Monica Khan (co founder of Creator Gold, formerly YouTube, Meta and Spotter) invited The Music Cities after the advisory session on the channels, and Kevin wants to go. Next steps: confirm dates and format with her, register, plan Austin coverage (the map's Austin cluster:…",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvazb5",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -1501,6 +1343,28 @@
       ]
     },
     {
+      "id": "86bbuyjmf",
+      "name": "Xandria + Seven Spires + Tulip @ The Dome — London, UK — Sep 16 2026",
+      "date": "2026-09-16",
+      "venue": "The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Xandria",
+        "Seven Spires",
+        "Tulip"
+      ],
+      "description": "Xandria — Eclipse Europe Tour 2026, with Seven Spires and Tulip. Symphonic metal bill at The Dome (main room, upstairs from Downstairs at The Dome), Tufnell Park. Vocalist Ambre Vourvahis fronts the reborn lineup.",
+      "ticketUrl": "https://domelondon.seetickets.com/event/xandria/the-dome/3637913",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjmf",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbtbrvh",
       "name": "Mastodon + Deafheaven + Alcest @ Hard Rock Live — Orlando, FL — Sep 16 2026",
       "date": "2026-09-16",
@@ -1900,6 +1764,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4ah",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbuyjmu",
+      "name": "Havok + Blood Red Throne @ The Dome — London, UK — Sep 19 2026",
+      "date": "2026-09-19",
+      "venue": "The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Havok",
+        "Blood Red Throne"
+      ],
+      "description": "Havok with Blood Red Throne, Xonor and Eradikated. Colorado thrash at The Dome main room, Tufnell Park.",
+      "ticketUrl": "https://domelondon.seetickets.com/event/havok/the-dome/3624609",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjmu",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -2473,6 +2358,28 @@
       ]
     },
     {
+      "id": "86bbuyjq8",
+      "name": "200 Stab Wounds + Tribal Gaze + Maul @ Mosey's Downtown — Panama City, FL — Sep 23 2026",
+      "date": "2026-09-23",
+      "venue": "Mosey's Downtown",
+      "city": "Panama City",
+      "state": "FL",
+      "bands": [
+        "200 Stab Wounds",
+        "Tribal Gaze",
+        "Maul"
+      ],
+      "description": "Panhandle stop of 200 Stab Wounds' September U.S. headlining run with Tribal Gaze and Maul. First of three Florida dates (Daytona's Party Weekend on Sep 26 and Tampa's Orpheum on Sep 27 follow).",
+      "ticketUrl": "https://www.theprp.com/2026/07/21/news/200-stab-wounds-tribal-gaze-maul-to-tour-the-u-s-this-september/",
+      "priority": "low",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjq8",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86barcrkd",
       "name": "Rolling Quartz @ Nile Theater — Mesa, AZ — Sep 23 2026",
       "date": "2026-09-23",
@@ -2546,6 +2453,48 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4az",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbuyjrr",
+      "name": "Dopethrone + Fister + Crud @ The Orpheum — Tampa, FL — Sep 24 2026",
+      "date": "2026-09-24",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Dopethrone",
+        "Fister",
+        "Crud"
+      ],
+      "description": "Montréal sludge-doom wreckers Dopethrone bring the \"slutch\" to Tampa, with St. Louis doom trio Fister and Crud opening. Night before the same bill hits Conduit in Orlando. Doors 7 PM.",
+      "ticketUrl": "https://www.theorpheum.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjrr",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbuyjng",
+      "name": "KAMIJO @ The Dome — London, UK — Sep 24 2026",
+      "date": "2026-09-24",
+      "venue": "The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "KAMIJO"
+      ],
+      "description": "KAMIJO — Sanctuary Of Europe tour 2026. The visual kei icon (founder of LAREINE and VERSAILLES) brings his London date to The Dome main room, Tufnell Park, on a seven-country European run.",
+      "ticketUrl": "https://domelondon.seetickets.com/event/kamijo/the-dome/3636619",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjng",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -3073,6 +3022,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4br",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbuyjp9",
+      "name": "200 Stab Wounds + Tribal Gaze + Maul @ The Orpheum — Tampa, FL — Sep 27 2026",
+      "date": "2026-09-27",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "200 Stab Wounds",
+        "Tribal Gaze",
+        "Maul"
+      ],
+      "description": "Cleveland death metal heavyweights 200 Stab Wounds headline the Tampa stop of their September U.S. run, with Tribal Gaze and Maul in support. Third album in the can — expect new material. Doors 7 PM.",
+      "ticketUrl": "https://www.theorpheum.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjp9",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3719,6 +3690,24 @@
       ]
     },
     {
+      "id": "86bbuyjrh",
+      "name": "Earshot @ Whisky a Go Go — West Hollywood, CA — Oct 5 2026",
+      "date": "2026-10-05",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Earshot"
+      ],
+      "description": "Earshot at the Whisky. Also on the West Palm Beach calendar Nov 19 at The Banyan Live with The Lonely Ones.",
+      "ticketUrl": "https://www.bandsintown.com/e/1039749566-earshot-at-whisky-a-go-go",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjrh",
+      "buckets": []
+    },
+    {
       "id": "86bbeb613",
       "name": "Angel Du$t + Agnostic Front @ Conduit — Winter Park (Orlando), FL — Oct 5 2026",
       "date": "2026-10-05",
@@ -3793,6 +3782,27 @@
       "clickupUrl": "https://app.clickup.com/t/86barcrn2",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbuyjp1",
+      "name": "Myrath + Roses of Thieves @ Downstairs at The Dome — London, UK — Oct 7 2026",
+      "date": "2026-10-07",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Myrath",
+        "Roses of Thieves"
+      ],
+      "description": "Myrath — \"Blazing Desert Metal\" from Tunisia/France — with Roses of Thieves. New album due 2026 with an Elize Ryd (Amaranthe) duet. Note: Fen (black metal, w/ Lychgate and Cistvaen) is also listed at the Dome complex the same night — separate bill, separate ticket.",
+      "ticketUrl": "https://domelondon.seetickets.com/event/myrath/the-dome/3605483",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjp1",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -3988,6 +3998,28 @@
       ]
     },
     {
+      "id": "86bbuyjph",
+      "name": "Baest + Deadnate + Sawticide @ Downstairs at The Dome — London, UK — Oct 9 2026",
+      "date": "2026-10-09",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Baest",
+        "Deadnate",
+        "Sawticide"
+      ],
+      "description": "Baest — Danish death metal powerhouse (Wacken, Bloodstock, Copenhell veterans; toured with Arch Enemy and Fit For An Autopsy) touring 2025's Colossal, with Deadnate and Sawticide.",
+      "ticketUrl": "https://domelondon.seetickets.com/event/baest/downstairs-at-the-dome/3618279",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjph",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbkedct",
       "name": "Carnifex @ Come and Take It Live — Austin, TX — Oct 9 2026",
       "date": "2026-10-09",
@@ -4158,6 +4190,26 @@
       "buckets": [
         "florida-metal-scene",
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbuyjun",
+      "name": "Blitzkid @ Come and Take It Live — Austin, TX — Oct 10 2026",
+      "date": "2026-10-10",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Blitzkid"
+      ],
+      "description": "Blitzkid — horror punk — Austin stop on the fall US run (West Hollywood Oct 22, Orlando Nov 24).",
+      "ticketUrl": "https://www.bandsintown.com/e/1039680808-blitzkid-at-come-and-take-it-live",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjun",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -5277,6 +5329,24 @@
       ]
     },
     {
+      "id": "86bbuyjte",
+      "name": "Blitzkid @ Whisky a Go Go — West Hollywood, CA — Oct 22 2026",
+      "date": "2026-10-22",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Blitzkid"
+      ],
+      "description": "Blitzkid — horror punk from West Virginia — West Hollywood stop on a fall US run that also hits Austin (Oct 10) and Orlando (Nov 24).",
+      "ticketUrl": "https://www.bandsintown.com/e/1039684182-blitzkid-at-whisky-a-go-go",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjte",
+      "buckets": []
+    },
+    {
       "id": "86bbth649",
       "name": "Dear Maryanne + MooseCreek Park @ Churchill's Pub — Miami, FL — Oct 22 2026",
       "date": "2026-10-22",
@@ -5793,6 +5863,25 @@
       ]
     },
     {
+      "id": "86bbuyjvv",
+      "name": "📀 BAND-MAID — SPIN (single) — RELEASE — Oct 28 2026",
+      "date": "2026-10-28",
+      "venue": "SPIN (single) — RELEASE",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "BAND-MAID new single \"SPIN\" — their first physical single in four and a half years (since \"Sense,\" 2021) and first release of 2026. Announced from the stage at Zepp Haneda on May 10 during the World Tour 2026.",
+      "ticketUrl": "https://bandmaid.tokyo/contents/1104790",
+      "priority": "normal",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjvv",
+      "buckets": [
+        "japanese-metal",
+        "album-releases"
+      ]
+    },
+    {
       "id": "86bbtbtgj",
       "name": "PeelingFlesh @ The Orpheum — Tampa, FL — Oct 28 2026",
       "date": "2026-10-28",
@@ -5929,6 +6018,24 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbeb6mp",
+      "buckets": []
+    },
+    {
+      "id": "86bbuyju4",
+      "name": "Michale Graves @ Whisky a Go Go — West Hollywood, CA — Oct 30 2026",
+      "date": "2026-10-30",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Michale Graves"
+      ],
+      "description": "Michale Graves (former Misfits singer) — full band set, Halloween eve at the Whisky.",
+      "ticketUrl": "https://www.bandsintown.com/e/108346522-michale-graves-at-whisky-a-go-go",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyju4",
       "buckets": []
     },
     {
@@ -6086,6 +6193,46 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4r4",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbuyjuz",
+      "name": "Havok @ Come and Take It Live — Austin, TX — Nov 3 2026",
+      "date": "2026-11-03",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Havok"
+      ],
+      "description": "Havok — Colorado thrash — Austin date, following the fall UK/Europe run (London Sep 19).",
+      "ticketUrl": "https://www.bandsintown.com/e/1040005112-havok-at-come-and-take-it-live",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjuz",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bbuyjkx",
+      "name": "Midnight @ Brass Mug — Tampa, FL — Nov 3 2026",
+      "date": "2026-11-03",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Midnight"
+      ],
+      "description": "Midnight — Satanic Royalty 15th Anniversary show. Cleveland's one-man blackened speed metal/punk racket (Athenar) brings the anniversary set to the Brass Mug for one filthy night.",
+      "ticketUrl": "https://www.bandsintown.com/e/1038960292-midnight-at-the-brass-mug",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjkx",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -6319,6 +6466,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bavn8wy",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbuyjpz",
+      "name": "Crucified Barbara @ Downstairs at The Dome — London, UK — Nov 7 2026",
+      "date": "2026-11-07",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Crucified Barbara"
+      ],
+      "description": "Crucified Barbara — the all-female Swedish hard rock/heavy metal quartet (Mia Coldheart, Klara Force, Ida Evileye, Nicki Wicked), reunited in the original lineup after disbanding in 2016. Four albums between 2005 and 2014; comeback launched at Sweden Rock 2025. Plus support.",
+      "ticketUrl": "https://domelondon.seetickets.com/event/crucified-barbara/downstairs-at-the-dome/3612716",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjpz",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -7363,6 +7530,26 @@
       ]
     },
     {
+      "id": "86bbuyjur",
+      "name": "Blitzkid @ The Orpheum — Tampa, FL — Nov 25 2026",
+      "date": "2026-11-25",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Blitzkid"
+      ],
+      "description": "West Virginia horror-punk cult favorites Blitzkid play Tampa the night after their Conduit stop in Orlando. Doors 7 PM. Support TBA.",
+      "ticketUrl": "https://www.theorpheum.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjur",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbtbt7t",
       "name": "Wage War + We Came As Romans @ Hard Rock Live — Orlando, FL — Nov 27 2026",
       "date": "2026-11-27",
@@ -7555,6 +7742,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4gy",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbuyjw9",
+      "name": "📀 HAGANE — Through the Night (album) — RELEASE — Dec 2 2026",
+      "date": "2026-12-02",
+      "venue": "Through the Night (album) — RELEASE",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE third full-length \"Through the Night\" — CD release December 2, 2026, following the METAL QUEST EP and \"Amour Chain\" single (July 9). A nationwide Full Album Release Tour runs December 12, 2026 (Saitama) through February 19, 2027, closing at Zepp DiverCity Tokyo.",
+      "ticketUrl": "https://www.hagane-official.com/contents/1105492",
+      "priority": "normal",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjw9",
+      "buckets": [
+        "japanese-metal",
+        "album-releases"
       ]
     },
     {
@@ -7963,6 +8169,26 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5v88",
       "buckets": []
+    },
+    {
+      "id": "86bbuyjm5",
+      "name": "Green Jelly @ Brass Mug — Tampa, FL — Dec 19 2026",
+      "date": "2026-12-19",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Green Jelly"
+      ],
+      "description": "Green Jelly — 45th Anniversary Tour, third Florida stop after Fort Pierce (Dec 17) and Sanford (Dec 18).",
+      "ticketUrl": "https://www.bandsintown.com/e/1039055623-green-jell-o-at-the-brass-mug",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbuyjm5",
+      "buckets": [
+        "florida-metal-scene"
+      ]
     },
     {
       "id": "86bb0uvk0",
