@@ -3606,3 +3606,18 @@ button {
   line-height: 1.6;
 }
 .wkn-list li { margin-bottom: 0.35rem; }
+
+
+/* ---- Mobile header + scene-nav (added: shrink top block, make nav a swipe strip) ---- */
+@media (max-width: 640px) {
+  .site-header { padding: var(--space-4) 0 var(--space-3); }
+  .site-header__inner { gap: var(--space-2); }
+  .site-header__wordmark { max-width: 230px; }
+  .site-header__subs { transform: scale(0.85); transform-origin: left center; }
+  .site-header__tagline { font-size: 0.95rem; }
+  .scene-nav__inner { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .scene-nav__inner::-webkit-scrollbar { display: none; }
+  .scene-nav__label { display: none; }
+  .scene-nav__list { flex-wrap: nowrap; flex: 0 0 auto; }
+  .scene-nav__link { white-space: nowrap; }
+}
