@@ -3621,3 +3621,31 @@ button {
   .scene-nav__list { flex-wrap: wrap; gap: var(--space-2); }
   .scene-nav__link { padding: var(--space-1) var(--space-2); font-size: 0.8rem; }
 }
+
+
+/* ---- Past Field Trips archive (de-emphasized Wacken + London) ---- */
+.field-trips__past {
+  margin-top: var(--space-6);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--border, rgba(255,255,255,0.12));
+}
+.field-trips__eyebrow--past {
+  display: block;
+  margin-bottom: var(--space-3);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+.field-trip-strip__link--past {
+  display: block;
+  opacity: 0.82;
+}
+.field-trip-strip__link--past:hover { opacity: 1; }
+.field-trip-strip__pastlinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-top: var(--space-2);
+}
+.field-trip-strip__cta--album { opacity: 0.9; }
