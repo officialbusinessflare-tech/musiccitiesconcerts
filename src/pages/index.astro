@@ -139,21 +139,26 @@ const fieldTrips = [
     id: 'louder-than-life',
     href: '/louder-than-life',
     titleHtml: 'Louder Than Life <em>2026</em> — Thursday',
-    sub: "Thursday 17 September 2026 · Louisville · Iron Maiden headlines, Pantera's only US show of the year, Megadeth's farewell — our tier-coded Thursday brief",
+    sub: "Thursday 17 September 2026 — Louisville. Iron Maiden headlines, Pantera's only US show of the year, Megadeth's farewell — our tier-coded Thursday brief.",
     cta: 'View the brief →',
   },
+];
+
+const pastFieldTrips = [
   {
     id: 'wacken',
     href: '/wacken',
+    album: 'https://www.pinterest.com/TheMusicCitiesPodcast/wacken-2026/',
     titleHtml: 'Wacken <em>2026</em> — 35th Anniversary Pilgrimage',
-    sub: "Recap · 29 July — 1 August 2026 · Four days, four headliners, our Music Cities Challenge — the brief we ran it on. Trip photos and video rolling in.",
+    sub: "29 July — 1 August 2026. Four days, four headliners, our Music Cities Challenge — the brief we ran it on, plus the trip photo album.",
     cta: 'Revisit the brief →',
   },
   {
     id: 'london',
     href: '/london',
+    album: 'https://www.pinterest.com/TheMusicCitiesPodcast/lovebites-london-2026/',
     titleHtml: 'Metal <em>London</em> — A NWOBHM Pilgrimage',
-    sub: "Recap · 2 — 4 August 2026 · Broken By The Scream at The Dome, Lovebites at O2 Academy Islington. Content from the trip rolling in.",
+    sub: "2 — 4 August 2026. Broken By The Scream at The Dome, Lovebites at O2 Academy Islington — the plan, plus the trip photo album.",
     cta: 'Revisit the plan →',
   },
 ];
@@ -200,6 +205,22 @@ const lastUpdated = data.generatedAt
         releases, livestreams, and the records on heavy rotation.
         {lastUpdated ? <span>Last updated {lastUpdated}.</span> : null}
       </p>
+      <div class="field-trips__past">
+        <span class="field-trips__eyebrow field-trips__eyebrow--past">Past Field Trips</span>
+        <div class="field-trips__stack">
+          {pastFieldTrips.map((trip) => (
+            <div class="field-trip-strip__link field-trip-strip__link--past">
+              <span class="field-trip-strip__eyebrow">Recap</span>
+              <h2 class="field-trip-strip__title" set:html={trip.titleHtml}></h2>
+              <p class="field-trip-strip__sub">{trip.sub}</p>
+              <span class="field-trip-strip__pastlinks">
+                <a href={trip.href} class="field-trip-strip__cta">{trip.cta}</a>
+                <a href={trip.album} class="field-trip-strip__cta field-trip-strip__cta--album" target="_blank" rel="noopener">Photo album →</a>
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   </section>
 
@@ -207,7 +228,7 @@ const lastUpdated = data.generatedAt
     <div class="container">
       <header class="field-trips__header">
         <span class="field-trips__eyebrow">Field Trips</span>
-        <p class="field-trips__sub">Where we go, and where we've been. Next up: Louder Than Life Thursday in Louisville. Below it, the Wacken and London briefs from this summer's run — now filling with photos and video from the trip.</p>
+        <p class="field-trips__sub">Where we go, and where we’ve been. Next up is Louder Than Life Thursday in Louisville. Our past pilgrimages — Wacken and Metal London — are archived below, now with trip photo albums.</p>
       </header>
       <div class="field-trips__stack">
         {fieldTrips.map((trip) => (
