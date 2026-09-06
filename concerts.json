@@ -1,296 +1,6 @@
 {
-  "generatedAt": "2026-09-05T07:01:06.509Z",
+  "generatedAt": "2026-09-06T07:00:31.983Z",
   "entries": [
-    {
-      "id": "86bbth5xy",
-      "name": "FRAWLEY @ The Banyan Live — West Palm Beach, FL — Sep 5 2026",
-      "date": "2026-09-05",
-      "venue": "The Banyan Live",
-      "city": "West Palm Beach",
-      "state": "FL",
-      "bands": [
-        "FRAWLEY"
-      ],
-      "description": "FRAWLEY headlines The Banyan Live, presented by the room itself.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbth5xy",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbth5rc",
-      "name": "VEXXUM + NEMESIS + Wingstrike @ The End — Houston, TX — Sep 5 2026",
-      "date": "2026-09-05",
-      "venue": "The End",
-      "city": "Houston",
-      "state": "TX",
-      "bands": [
-        "VEXXUM",
-        "NEMESIS",
-        "Wingstrike"
-      ],
-      "description": "Lineup: VEXXUM (headline), with special guests Wingstrike, NEMESIS, Metalriser, Lethal Agent",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbth5rc",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbth5np",
-      "name": "GIVEN BY THE FLAMES @ Shinjuku ANTIKNOCK — Tokyo, Japan — Sep 5 2026",
-      "date": "2026-09-05",
-      "venue": "Shinjuku ANTIKNOCK",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "GIVEN BY THE FLAMES"
-      ],
-      "description": "GIVEN BY THE FLAMES on the bill for ABLAZE IN VEINS' 5th Anniversary and \"The Ghost in My Eyes\" release show at Shinjuku ANTIKNOCK.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbth5np",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbr53b8",
-      "name": "Metal Blade Florida dates — walk all 27 bands, identify local coverage targets",
-      "date": "2026-09-05",
-      "city": "walk all 27 bands",
-      "country": "identify local coverage targets",
-      "bands": [
-        "Metal Blade Florida dates"
-      ],
-      "description": "Same walk as the UK task, filtered for Florida — these are shows TMC can cover without travel.",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr53b8",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbr53ay",
-      "name": "Metal Blade UK dates — walk all 27 bands, build Field Trip options",
-      "date": "2026-09-05",
-      "city": "walk all 27 bands",
-      "country": "build Field Trip options",
-      "bands": [
-        "Metal Blade UK dates"
-      ],
-      "description": "Pull every UK date from Metal Blade's tour page and see whether any of them cluster into a trip worth taking.",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr53ay",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbqec0a",
-      "name": "Otto Von Schirach + Black Wick @ Conduit — Winter Park (Orlando), FL — Sep 5 2026",
-      "date": "2026-09-05",
-      "venue": "Conduit",
-      "city": "Winter Park (Orlando)",
-      "state": "FL",
-      "bands": [
-        "Otto Von Schirach",
-        "Black Wick"
-      ],
-      "description": "Full bill: Otto Von Schirach, Pressurewave, Plurbal, Polar Boys, Etiosynthesis, Black Wick.\nConduit, 6700 Aloma Ave, Winter Park (Orlando), FL. Doors/show 7:00 PM, 18+. $19.90.\nTickets:…",
-      "ticketUrl": "https://www.ticketweb.com/event/otto-von-schirach-pressurewave-plurbal-conduit-tickets/14998913",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbqec0a",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbpafm3",
-      "name": "Tampa Death Fest Night 2 @ Brass Mug — Tampa, FL — Sep 5 2026",
-      "date": "2026-09-05",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Tampa Death Fest Night 2"
-      ],
-      "description": "Tampa Death Fest — Night 2 of 2. The Brass Mug, 1450 Skipper Rd, Tampa FL. Sat Sep 5 2026, doors 4:00, show 5:00.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbpafm3",
-      "buckets": [
-        "florida-metal-scene",
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86bbmtebr",
-      "name": "FATE GEAR @ Connichi 2026 — Wiesbaden, Germany — Sep 5 2026",
-      "date": "2026-09-05",
-      "venue": "Connichi 2026",
-      "city": "Wiesbaden",
-      "country": "Germany",
-      "bands": [
-        "FATE GEAR"
-      ],
-      "description": "Band: FATE GEAR — Captain Mina + Hime Hashimura duo sets\nEvent: Connichi 2026 (Sep 5–6)\nVenue: Wiesbaden, Germany\nDate: Sat Sep 5 2026",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbmtebr",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbj3vwd",
-      "name": "Kill the Robot @ Mac's Club Deuce — Miami Beach, FL — Sep 5 2026",
-      "date": "2026-09-05",
-      "venue": "Mac's Club Deuce",
-      "city": "Miami Beach",
-      "state": "FL",
-      "bands": [
-        "Kill the Robot"
-      ],
-      "description": "Miami hard rock band Kill the Robot plays the 100-year anniversary block party for Mac's Club Deuce, Miami Beach's oldest bar (est. 1926) — the one Miami Vice filmed inside and left the neon behind.",
-      "ticketUrl": "https://www.eventbrite.com/e/macs-club-deuce-100-year-anniversary-block-party-miami-beach--tickets-1993276916916",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbj3vwd",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbfk5rg",
-      "name": "Kontravoid @ Churchill's Pub — Miami, FL — Sep 5 2026",
-      "date": "2026-09-05",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Kontravoid"
-      ],
-      "description": "Kontravoid plays Churchill's Pub.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbfk5rg",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbct36f",
-      "name": "No Raza + Ejecutador + Vember @ Klub Kutters — Fort Lauderdale, FL — Sep 5 2026",
-      "date": "2026-09-05",
-      "venue": "Klub Kutters",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "No Raza",
-        "Ejecutador",
-        "Vember"
-      ],
-      "description": "Event: Ruins of the First World\nFull lineup: No Raza, Ejecutador, We All Rise, Medicine Room, Vermination, Vember, Shinkaza, S.I.C.\nVenue: Klub Kutters, 215 SW 27th Ave, Fort Lauderdale, FL\nDate: Saturday, September 5, 2026 — 6:00 PM\nTickets via Xranked Agency.\nEight-band South…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbct36f",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bb0uvmt",
-      "name": "A Bloodbath in Florida — The Abbey, Melbourne FL — Sep 5 2026",
-      "date": "2026-09-05",
-      "venue": "The Abbey",
-      "city": "Melbourne",
-      "state": "FL",
-      "bands": [
-        "A Bloodbath in Florida"
-      ],
-      "description": "Bands: A Bloodbath in Boston, Peacemaker (FL), Delilah, Necrotizing, Yet Still We Pray\nVenue: The Abbey, Melbourne, FL\nDate: Saturday, September 5, 2026",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb0uvmt",
-      "buckets": []
-    },
-    {
-      "id": "86barcvpu",
-      "name": "Primitive Brutality + guests @ The Griffin — Las Vegas, NV — Sep 5 2026",
-      "date": "2026-09-05",
-      "venue": "The Griffin",
-      "city": "Las Vegas",
-      "state": "NV",
-      "bands": [
-        "Primitive Brutality",
-        "guests"
-      ],
-      "description": "Death metal bill at The Griffin (511 E Fremont St, Las Vegas NV), Saturday September 5, 2026, 8pm, 21+. Confirmed on the lineup: Primitive Brutality. The two headlining acts appear in heavily stylized logos on the flyer and were not legible — worth a manual confirm on the lineup…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcvpu",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86b9b8egf",
-      "name": "Nicko McBrain's Titanium Tart - Culture Room, Fort Lauderdale FL",
-      "date": "2026-09-05",
-      "venue": "Culture Room",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "Nicko McBrain's Titanium Tart"
-      ],
-      "description": "Nicko McBrain's Titanium Tart - An iconic tribute. Saturday, September 5, 2026 at 7:30 PM at Culture Room, Fort Lauderdale, FL. Found in Facebook saved posts (concerts collection).",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b9b8egf",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bb9w465",
-      "name": "BABYMETAL @ Ruoff Music Center — Noblesville, IN — Sep 5 2026",
-      "date": "2026-09-05",
-      "venue": "Ruoff Music Center",
-      "city": "Noblesville",
-      "state": "IN",
-      "bands": [
-        "BABYMETAL"
-      ],
-      "description": "BABYMETAL — World Tour 2026. Ruoff Music Center in Noblesville, IN. Show date: Sep 5 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w465",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbvazb5",
       "name": "Creator Gold at SXSW 2027 (Austin), invited by Monica Khan",
@@ -4295,6 +4005,28 @@
       ]
     },
     {
+      "id": "86bbvd1eh",
+      "name": "Five Finger Death Punch + Cody Jinks + Eva Under Fire @ iTHINK Financial Amphitheatre — West Palm Beach, FL — Oct 11 2026",
+      "date": "2026-10-11",
+      "venue": "iTHINK Financial Amphitheatre",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Five Finger Death Punch",
+        "Cody Jinks",
+        "Eva Under Fire"
+      ],
+      "description": "Five Finger Death Punch bring the 2026 North American tour to West Palm Beach the night after Tampa, with Cody Jinks and Eva Under Fire supporting. 6:45 pm.",
+      "ticketUrl": "https://www.ticketmaster.com/five-finger-death-punch-west-palm-beach-florida-10-11-2026/event/0D006426BD1C5EA3",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvd1eh",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbth5v1",
       "name": "BRIDEAR @ Kichijoji Shuwawa — Tokyo, Japan — Oct 11 2026",
       "date": "2026-10-11",
@@ -5211,6 +4943,28 @@
       ]
     },
     {
+      "id": "86bbvd1en",
+      "name": "Breaking Benjamin + Chevelle + Starset @ iTHINK Financial Amphitheatre — West Palm Beach, FL — Oct 20 2026",
+      "date": "2026-10-20",
+      "venue": "iTHINK Financial Amphitheatre",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Breaking Benjamin",
+        "Chevelle",
+        "Starset"
+      ],
+      "description": "Breaking Benjamin's 2026 North American tour hits West Palm Beach the night after Tampa. Full bill: Breaking Benjamin, Chevelle, Starset, Kami Kehoe. 6:00 pm.",
+      "ticketUrl": "https://www.livenation.com/event/vvG1VZ_7RnwhT-/breaking-benjamin",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvd1en",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbu78mf",
       "name": "Bachman-Turner Overdrive @ Hard Rock Live — Orlando, FL — Oct 20 2026",
       "date": "2026-10-20",
@@ -5800,6 +5554,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w5jm",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbvd1e2",
+      "name": "Alice Cooper @ Ruth Eckerd Hall — Clearwater, FL — Oct 27 2026",
+      "date": "2026-10-27",
+      "venue": "Ruth Eckerd Hall",
+      "city": "Clearwater",
+      "state": "FL",
+      "bands": [
+        "Alice Cooper"
+      ],
+      "description": "Alice Cooper opens the fall 2026 North American leg of the \"Alice's Attic\" tour in Clearwater — the only Florida stop on the run. The new production debuted last fall on the co-headline trek with Judas Priest. Anna Cara is filling the guitar chair while Nita Strauss is on…",
+      "ticketUrl": "https://www.rutheckerdhall.com/events/detail/alice-cooper",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvd1e2",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
