@@ -472,7 +472,7 @@ const radioShorts = ytData?.channels?.radio?.recentShorts ?? [];
         var target = new Date('2026-07-29T00:00:00').getTime();
         var diff = target - Date.now();
         if (diff < 0) {
-          el.innerHTML = '<div class="wkn-count-box"><div class="wkn-count-num">LIVE</div><div class="wkn-count-lbl">Festival underway</div></div>';
+          el.innerHTML = '<div class="wkn-count-box"><div class="wkn-count-num">2026</div><div class="wkn-count-lbl">Wacken is in the books</div></div>';
           return;
         }
         var days = Math.floor(diff / 86400000);
