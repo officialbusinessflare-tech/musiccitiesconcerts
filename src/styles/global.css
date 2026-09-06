@@ -3608,20 +3608,16 @@ button {
 .wkn-list li { margin-bottom: 0.35rem; }
 
 
-/* ---- Mobile header + scene-nav (shrink top block, unstick nav, rows become swipe strips) ---- */
+/* ---- Mobile header + scene-nav (shrink top block, unstick nav, keep all links visible/wrapping) ---- */
 @media (max-width: 640px) {
   .site-header { padding: var(--space-4) 0 var(--space-3); }
   .site-header__inner { gap: var(--space-2); }
   .site-header__wordmark { max-width: 220px; }
   .site-header__subs { transform: scale(0.85); transform-origin: left center; }
   .site-header__tagline { font-size: 0.95rem; }
-  /* nav no longer pins to the top on phones — it scrolls away with the page */
+  /* nav scrolls away with the page instead of pinning; every link stays visible by wrapping */
   .scene-nav { position: static; }
-  .scene-nav__inner { flex-direction: column; flex-wrap: nowrap; align-items: stretch; gap: var(--space-2); }
-  .scene-nav__row, .scene-nav__row--briefs { display: flex; align-items: center; gap: var(--space-2); }
-  .scene-nav__label { display: none; }
-  .scene-nav__list { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-  .scene-nav__list::-webkit-scrollbar { display: none; }
-  .scene-nav__item { flex: 0 0 auto; }
-  .scene-nav__link { white-space: nowrap; }
+  .scene-nav__inner { gap: var(--space-2); }
+  .scene-nav__list { flex-wrap: wrap; gap: var(--space-2); }
+  .scene-nav__link { padding: var(--space-1) var(--space-2); font-size: 0.8rem; }
 }
