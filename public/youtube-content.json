@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-06T07:00:41.150Z",
+  "fetchedAt": "2026-09-07T07:00:49.771Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 150000,
-      "videoCount": 269,
+      "videoCount": 270,
       "recentLongform": [
         {
           "id": "U5O5M71U-Y4",
@@ -479,48 +479,43 @@
           },
           "duration": "PT13M51S",
           "durationSeconds": 831
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "RIORjQiFGwg",
-          "title": "Wacken Open Air 2026 | This Is Infrastructure | Recap",
-          "publishedAt": "2026-08-12T06:17:34Z",
+          "id": "ap_Jkcs_oCE",
+          "title": "Miami Metal | We All Rise | \"Infected Population\"",
+          "publishedAt": "2026-09-06T19:57:28Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/RIORjQiFGwg/default.jpg",
+              "url": "https://i.ytimg.com/vi/ap_Jkcs_oCE/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/RIORjQiFGwg/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/ap_Jkcs_oCE/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/RIORjQiFGwg/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/ap_Jkcs_oCE/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/RIORjQiFGwg/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/ap_Jkcs_oCE/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/RIORjQiFGwg/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/ap_Jkcs_oCE/maxresdefault.jpg",
               "width": 1280,
               "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/RIORjQiFGwg/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
             }
           },
-          "duration": "PT13M43S",
-          "durationSeconds": 823
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT56S",
+          "durationSeconds": 56
+        },
         {
           "id": "MMRG8NAUDN4",
           "title": "Subway to Sally | Wacken Open Air 2026",
@@ -868,8 +863,47 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1120,
-      "videoCount": 99,
+      "videoCount": 100,
       "recentLongform": [
+        {
+          "id": "P2RvelRYYkY",
+          "title": "We All Rise | \"Infected Population\" | Miami Metal",
+          "publishedAt": "2026-09-06T19:59:18Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/P2RvelRYYkY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/P2RvelRYYkY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/P2RvelRYYkY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/P2RvelRYYkY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/P2RvelRYYkY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/P2RvelRYYkY/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          "duration": "PT3M22S",
+          "durationSeconds": 202
+        },
         {
           "id": "E0gERvgyeec",
           "title": "Nemophila | Good as Hell Quartet | Orlando 2026",
@@ -1371,40 +1405,6 @@
           },
           "duration": "PT3M25S",
           "durationSeconds": 205
-        },
-        {
-          "id": "Vy4J9nGk_1k",
-          "title": "Black Label Society | Wacken 2026",
-          "publishedAt": "2026-08-03T07:30:26Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Vy4J9nGk_1k/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Vy4J9nGk_1k/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Vy4J9nGk_1k/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/Vy4J9nGk_1k/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/Vy4J9nGk_1k/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M49S",
-          "durationSeconds": 109
         }
       ],
       "recentShorts": [
