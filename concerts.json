@@ -1,160 +1,6 @@
 {
-  "generatedAt": "2026-09-06T07:00:31.983Z",
+  "generatedAt": "2026-09-07T07:00:37.572Z",
   "entries": [
-    {
-      "id": "86bbvazb5",
-      "name": "Creator Gold at SXSW 2027 (Austin), invited by Monica Khan",
-      "date": "2026-09-06",
-      "city": "SXSW 2027 (Austin)",
-      "country": "invited by Monica Khan",
-      "bands": [
-        "Creator Gold"
-      ],
-      "description": "Monica Khan (co founder of Creator Gold, formerly YouTube, Meta and Spotter) invited The Music Cities after the advisory session on the channels, and Kevin wants to go. Next steps: confirm dates and format with her, register, plan Austin coverage (the map's Austin cluster:…",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbvazb5",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbmte47",
-      "name": "No Raza + CryptLord + Foreverless @ The Atlantic — Gainesville, FL — Sep 6 2026",
-      "date": "2026-09-06",
-      "venue": "The Atlantic",
-      "city": "Gainesville",
-      "state": "FL",
-      "bands": [
-        "No Raza",
-        "CryptLord",
-        "Foreverless"
-      ],
-      "description": "Bands: No Raza (Ruins of the First World Tour), w/ CryptLord, Foreverless, Nibiru\nVenue: The Atlantic, Gainesville FL\nDate: Sun Sep 6 2026",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbmte47",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbke8ny",
-      "name": "ASTERISM @ Sound Planet Festival — Incheon, South Korea — Sep 6 2026",
-      "date": "2026-09-06",
-      "venue": "Sound Planet Festival",
-      "city": "Incheon",
-      "country": "South Korea",
-      "bands": [
-        "ASTERISM"
-      ],
-      "description": "ASTERISM on the CHROMA STAGE at Sound Planet Festival, PARADISE CITY, Incheon.",
-      "ticketUrl": "https://soundplanetfestival.co.kr/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbke8ny",
-      "buckets": [
-        "japanese-metal",
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86bbeb7mg",
-      "name": "NEMOPHILA @ Paradise City (SOUND PLANET FEST) — Incheon, South Korea — Sep 6 2026",
-      "date": "2026-09-06",
-      "venue": "Paradise City (SOUND PLANET FEST)",
-      "city": "Incheon",
-      "country": "South Korea",
-      "bands": [
-        "NEMOPHILA"
-      ],
-      "description": "NEMOPHILA at SOUND PLANET FEST in Incheon — one of only three remaining appearances by the current lineup, with Tamu and Hazuki both departing after the Oct 12 Ten-Fes. Source: nemophila.tokyo announcement.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7mg",
-      "buckets": [
-        "japanese-metal",
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86bbeb5tk",
-      "name": "REZN @ Conduit — Winter Park (Orlando), FL — Sep 6 2026",
-      "date": "2026-09-06",
-      "venue": "Conduit",
-      "city": "Winter Park (Orlando)",
-      "state": "FL",
-      "bands": [
-        "REZN"
-      ],
-      "description": "Chicago doom/psych-stoner outfit REZN at Conduit. Source: Conduit / JamBase calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb5tk",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bb0uvn6",
-      "name": "A Bloodbath in Florida — Boombox, Miami FL — Sep 6 2026",
-      "date": "2026-09-06",
-      "venue": "Boombox",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "A Bloodbath in Florida"
-      ],
-      "description": "Bands: A Bloodbath in Boston, Peacemaker (FL), Delilah, Necrotizing, Yet Still We Pray\nVenue: Boombox, Miami, FL\nDate: Sunday, September 6, 2026",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb0uvn6",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86b9b7mgn",
-      "name": "LOVEBITES @ Zepp Osaka Bayside — Osaka, Japan",
-      "date": "2026-09-06",
-      "venue": "Zepp Osaka Bayside",
-      "city": "Osaka",
-      "country": "Japan",
-      "bands": [
-        "LOVEBITES"
-      ],
-      "description": "LOVEBITES Outstanding Tour Japan 2026. Zepp Osaka Bayside, Osaka.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b9b7mgn",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86b840zp0",
-      "name": "Velocity Fest — Dyersville, IA",
-      "date": "2026-09-06",
-      "venue": "Dyersville",
-      "state": "IA",
-      "bands": [
-        "Velocity Fest"
-      ],
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b840zp0",
-      "buckets": [
-        "key-festivals"
-      ]
-    },
     {
       "id": "86bb9w46m",
       "name": "BABYMETAL @ Budweiser Stage — Toronto, Canada — Sep 7 2026",
@@ -1050,6 +896,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bammf4c",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbvpdue",
+      "name": "Black Veil Brides + Caskets + Archers @ House of Blues — Lake Buena Vista (Orlando), FL — Sep 16 2026",
+      "date": "2026-09-16",
+      "venue": "House of Blues",
+      "city": "Lake Buena Vista (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Black Veil Brides",
+        "Caskets",
+        "Archers"
+      ],
+      "description": "Bands: Black Veil Brides (Vindicatour US 2026), w/ Caskets, Archers, Autumn Kings\nVenue: House of Blues Orlando, 1490 E Buena Vista Dr, Lake Buena Vista FL\nDate: Wed Sep 16 2026 — doors 5:30pm\nSame night as Mastodon / Deafheaven / Alcest at Hard Rock Live across the Disney…",
+      "ticketUrl": "https://www.ticketmaster.com/black-veil-brides-vindicatour-us-2026-orlando-florida-09-16-2026/event/220064A7FFDEAF30",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdue",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2285,6 +2153,27 @@
       ]
     },
     {
+      "id": "86bbvpduw",
+      "name": "Winger + Steelheart @ Ferg's Pavilion — St. Petersburg, FL — Sep 25 2026",
+      "date": "2026-09-25",
+      "venue": "Ferg's Pavilion",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Winger",
+        "Steelheart"
+      ],
+      "description": "Bands: Winger (Fall 2026 US tour — the run they announced after deciding not to call it quits), Steelheart, w/ Pitbull Toddler\nVenue: Ferg's Pavilion, 1320 Central Ave, St. Petersburg FL — same room that hosted Dokken + Lynch Mob in August\nDate: Fri Sep 25 2026 — 7pm\nGA…",
+      "ticketUrl": "https://www.wingertheband.com/tour-dates-and-tickets/2026-09-25/st-petersburg-fl-/fergs-sports-bar-grill",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpduw",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbtbtr4",
       "name": "Volumes @ The Orpheum — Tampa, FL — Sep 25 2026",
       "date": "2026-09-25",
@@ -2891,6 +2780,27 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbkecuv",
       "buckets": []
+    },
+    {
+      "id": "86bbvpdv6",
+      "name": "Great White + Slaughter @ Lillian S. Wells Hall at The Parker — Fort Lauderdale, FL — Oct 1 2026",
+      "date": "2026-10-01",
+      "venue": "Lillian S. Wells Hall at The Parker",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Great White",
+        "Slaughter"
+      ],
+      "description": "Bands: Great White, Slaughter\nVenue: Lillian S. Wells Hall at The Parker (Parker Playhouse), 707 NE 8th St, Fort Lauderdale FL\nDate: Thu Oct 1 2026 — 7:30pm\nSeated-theater hair-metal double bill. Slaughter also played the Whisky in late August.\nTickets:…",
+      "ticketUrl": "https://www.parkerplayhouse.com/events",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdv6",
+      "buckets": [
+        "florida-metal-scene"
+      ]
     },
     {
       "id": "86bbmte6a",
@@ -4544,6 +4454,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbeb6py",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbvpdvh",
+      "name": "Knocked Loose + Denzel Curry @ Orlando Amphitheater — Orlando, FL — Oct 16 2026",
+      "date": "2026-10-16",
+      "venue": "Orlando Amphitheater",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Knocked Loose",
+        "Denzel Curry"
+      ],
+      "description": "Bands: Knocked Loose, Denzel Curry, w/ Superheaven, Boundaries\nVenue: Orlando Amphitheater at the Central Florida Fairgrounds, 4603 W Colonial Dr, Orlando FL\nDate: Fri Oct 16 2026 — 7pm, all ages, AEG Presents\nNight one of the Florida pair — the Fort Lauderdale War Memorial date…",
+      "ticketUrl": "https://www.axs.com/events/1461637/knocked-loose-denzel-curry-tickets",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdvh",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -8248,6 +8179,26 @@
       ]
     },
     {
+      "id": "86bbvpdvt",
+      "name": "SiM @ Patronaat — Haarlem, Netherlands — Jan 31 2027",
+      "date": "2027-01-31",
+      "venue": "Patronaat",
+      "city": "Haarlem",
+      "country": "Netherlands",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour, continental Europe leg opener the night after the London Electric Ballroom show. Patronaat, Haarlem.\nTickets: https://www.ticketmaster.nl/event/sim-tickets/1994279058",
+      "ticketUrl": "https://www.ticketmaster.nl/event/sim-tickets/1994279058",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdvt",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbu78hx",
       "name": "Nonpoint @ Jannus Live — St. Petersburg, FL — Jan 31 2027",
       "date": "2027-01-31",
@@ -8264,6 +8215,66 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu78hx",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbvpdw2",
+      "name": "SiM @ Live Music Hall — Cologne, Germany — Feb 1 2027",
+      "date": "2027-02-01",
+      "venue": "Live Music Hall",
+      "city": "Cologne",
+      "country": "Germany",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour, Europe leg. Live Music Hall, Cologne.\nTickets: https://www.ticketmaster.de/event/sim-hooman-after-all-world-tour-tickets/1208482684",
+      "ticketUrl": "https://www.ticketmaster.de/event/sim-hooman-after-all-world-tour-tickets/1208482684",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdw2",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbvpdw9",
+      "name": "SiM @ Fabrik — Hamburg, Germany — Feb 3 2027",
+      "date": "2027-02-03",
+      "venue": "Fabrik",
+      "city": "Hamburg",
+      "country": "Germany",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour, Europe leg. Fabrik, Hamburg.\nTickets: https://www.ticketmaster.de/event/sim-hooman-after-all-world-tour-tickets/497303506",
+      "ticketUrl": "https://www.ticketmaster.de/event/sim-hooman-after-all-world-tour-tickets/497303506",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdw9",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbvpdwk",
+      "name": "SiM @ Metropol — Berlin, Germany — Feb 4 2027",
+      "date": "2027-02-04",
+      "venue": "Metropol",
+      "city": "Berlin",
+      "country": "Germany",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour, Europe leg. Metropol, Berlin.\nTickets: https://www.ticketmaster.de/event/sim-hooman-after-all-world-tour-tickets/922103208",
+      "ticketUrl": "https://www.ticketmaster.de/event/sim-hooman-after-all-world-tour-tickets/922103208",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdwk",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -8288,6 +8299,26 @@
       ]
     },
     {
+      "id": "86bbvpdwx",
+      "name": "SiM @ Rock Café — Prague, Czech Republic — Feb 6 2027",
+      "date": "2027-02-06",
+      "venue": "Rock Café",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour, Europe leg. Rock Café, Prague — the same room JILUKA played on Sep 11.\nTickets: https://goout.net/en/tickets/sim/syulb/",
+      "ticketUrl": "https://goout.net/en/tickets/sim/syulb/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdwx",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb6gk",
       "name": "Dead Boys @ Brass Mug — Tampa, FL — Feb 6 2027",
       "date": "2027-02-06",
@@ -8304,6 +8335,66 @@
       "clickupUrl": "https://app.clickup.com/t/86bbeb6gk",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbvpdx7",
+      "name": "SiM @ Batschkapp — Frankfurt, Germany — Feb 7 2027",
+      "date": "2027-02-07",
+      "venue": "Batschkapp",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour, Europe leg. Batschkapp, Frankfurt.\nTickets: https://www.ticketmaster.de/event/sim-hooman-after-all-world-tour-tickets/1795200386",
+      "ticketUrl": "https://www.ticketmaster.de/event/sim-hooman-after-all-world-tour-tickets/1795200386",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdx7",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbvpdxh",
+      "name": "SiM @ Technikum — Munich, Germany — Feb 9 2027",
+      "date": "2027-02-09",
+      "venue": "Technikum",
+      "city": "Munich",
+      "country": "Germany",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour, Europe leg. Technikum, Munich.\nTickets: https://www.ticketmaster.de/event/sim-hooman-after-all-world-tour-tickets/635651064",
+      "ticketUrl": "https://www.ticketmaster.de/event/sim-hooman-after-all-world-tour-tickets/635651064",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdxh",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbvpdxr",
+      "name": "SiM @ De Casino — Sint-Niklaas, Belgium — Feb 10 2027",
+      "date": "2027-02-10",
+      "venue": "De Casino",
+      "city": "Sint-Niklaas",
+      "country": "Belgium",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour, Europe leg. De Casino, Sint-Niklaas.\nTickets: https://decasino.be/concert/sim/",
+      "ticketUrl": "https://decasino.be/concert/sim/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdxr",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -8326,6 +8417,26 @@
       ]
     },
     {
+      "id": "86bbvpdy1",
+      "name": "SiM @ den Atelier — Luxembourg City, Luxembourg — Feb 12 2027",
+      "date": "2027-02-12",
+      "venue": "den Atelier",
+      "city": "Luxembourg City",
+      "country": "Luxembourg",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour, Europe leg. den Atelier, Luxembourg City.\nTickets: https://www.atelier.lu",
+      "ticketUrl": "https://www.atelier.lu",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdy1",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb6f2",
       "name": "Nervosa @ Churchill's Pub — Miami, FL — Feb 12 2027",
       "date": "2027-02-12",
@@ -8342,6 +8453,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbeb6f2",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbvpdyc",
+      "name": "SiM @ Élysée Montmartre — Paris, France — Feb 13 2027",
+      "date": "2027-02-13",
+      "venue": "Élysée Montmartre",
+      "city": "Paris",
+      "country": "France",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour, Europe leg. Élysée Montmartre, Paris.\nTickets: https://www.ticketmaster.fr/fr/manifestation/sim-billet/idmanif/659767",
+      "ticketUrl": "https://www.ticketmaster.fr/fr/manifestation/sim-billet/idmanif/659767",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdyc",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -8378,6 +8509,46 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w5uz",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbvpdyr",
+      "name": "SiM @ Mon Madrid — Madrid, Spain — Feb 15 2027",
+      "date": "2027-02-15",
+      "venue": "Mon Madrid",
+      "city": "Madrid",
+      "country": "Spain",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour, Europe leg. Mon Madrid, presented by Resurrection Fest.\nTickets: https://www.resurrectionfest.es/route/sim-tour-2027/",
+      "ticketUrl": "https://www.resurrectionfest.es/route/sim-tour-2027/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdyr",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbvpdz0",
+      "name": "SiM @ Razzmatazz 2 — Barcelona, Spain — Feb 16 2027",
+      "date": "2027-02-16",
+      "venue": "Razzmatazz 2",
+      "city": "Barcelona",
+      "country": "Spain",
+      "bands": [
+        "SiM"
+      ],
+      "description": "SiM — HOOMAN AFTER ALL World Tour, Europe leg finale. Razzmatazz 2, Barcelona, presented by Resurrection Fest.\nTickets: https://www.resurrectionfest.es/route/sim-tour-2027/",
+      "ticketUrl": "https://www.resurrectionfest.es/route/sim-tour-2027/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvpdz0",
       "buckets": [
         "japanese-metal"
       ]
