@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-07T07:01:35.771Z",
+  "fetchedAt": "2026-09-08T07:00:42.363Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 150000,
-      "videoCount": 270,
+      "videoCount": 272,
       "recentLongform": [
         {
           "id": "U5O5M71U-Y4",
@@ -406,82 +406,82 @@
           },
           "duration": "PT3M30S",
           "durationSeconds": 210
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "Sky1HWb5cP8",
-          "title": "Broken by the Scream | TMC Interview | London 2026",
-          "publishedAt": "2026-08-13T01:51:48Z",
+          "id": "C2fDCKg60Fw",
+          "title": "Full interview at 630 pm Tokyo / 530 am USA",
+          "publishedAt": "2026-09-08T01:52:10Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/Sky1HWb5cP8/default.jpg",
+              "url": "https://i.ytimg.com/vi/C2fDCKg60Fw/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/Sky1HWb5cP8/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/C2fDCKg60Fw/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/Sky1HWb5cP8/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/C2fDCKg60Fw/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/Sky1HWb5cP8/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/C2fDCKg60Fw/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/Sky1HWb5cP8/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/C2fDCKg60Fw/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT9M4S",
-          "durationSeconds": 544
+          "duration": "PT42S",
+          "durationSeconds": 42
         },
         {
-          "id": "LCUgnSCJwOQ",
-          "title": "Re:O | London Metal | 3 Questions",
-          "publishedAt": "2026-08-12T17:00:06Z",
+          "id": "QGW5tLmv_Ds",
+          "title": "BRIDEAR | Hardest Thing To Take Back Is A Future You Destroyed Yourself | 自分の手で潰した未来が、一番取り返しがつかない",
+          "publishedAt": "2026-09-08T00:01:53Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/default.jpg",
+              "url": "https://i.ytimg.com/vi/QGW5tLmv_Ds/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/QGW5tLmv_Ds/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/QGW5tLmv_Ds/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/QGW5tLmv_Ds/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/QGW5tLmv_Ds/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
             "fhd": {
-              "url": "https://i.ytimg.com/vi/LCUgnSCJwOQ/fhddefault.jpg",
+              "url": "https://i.ytimg.com/vi/QGW5tLmv_Ds/fhddefault.jpg",
               "width": 1920,
               "height": 1080
             }
           },
-          "duration": "PT13M51S",
-          "durationSeconds": 831
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT0S",
+          "durationSeconds": 0
+        },
         {
           "id": "ap_Jkcs_oCE",
           "title": "Miami Metal | We All Rise | \"Infected Population\"",
