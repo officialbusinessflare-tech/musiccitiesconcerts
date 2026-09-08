@@ -1,25 +1,6 @@
 {
-  "generatedAt": "2026-09-07T07:01:28.770Z",
+  "generatedAt": "2026-09-08T07:00:31.109Z",
   "entries": [
-    {
-      "id": "86bb9w46m",
-      "name": "BABYMETAL @ Budweiser Stage — Toronto, Canada — Sep 7 2026",
-      "date": "2026-09-07",
-      "venue": "Budweiser Stage",
-      "city": "Toronto",
-      "country": "Canada",
-      "bands": [
-        "BABYMETAL"
-      ],
-      "description": "BABYMETAL — World Tour 2026. Budweiser Stage in Toronto, Canada. Show date: Sep 7 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w46m",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbr72tq",
       "name": "REZN + Lockstep @ The Orpheum — Tampa, FL — Sep 8 2026",
@@ -469,6 +450,28 @@
       ]
     },
     {
+      "id": "86bbw0ewq",
+      "name": "Young Cassidy + Dirty Crumbums + Mother Rucker @ Churchill's Pub — Miami, FL — Sep 12 2026",
+      "date": "2026-09-12",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Young Cassidy",
+        "Dirty Crumbums",
+        "Mother Rucker"
+      ],
+      "description": "Punk night at Churchill's Pub, Miami — Young Cassidy, Dirty Crumbums, Jeremy Sousa and Mother Rucker. Saturday, September 12, 2026, 9:30 PM. Source: Churchill's Pub event calendar (https://churchillspub.com/events/).",
+      "ticketUrl": "https://churchillspub.com/events/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbw0ewq",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbu797m",
       "name": "Loudness @ Candelabrum Metal Fest — León, Mexico — Sep 12 2026",
       "date": "2026-09-12",
@@ -899,6 +902,26 @@
       ]
     },
     {
+      "id": "86bbvz4z3",
+      "name": "Jutes @ Jannus Live — St. Petersburg, FL — Sep 16 2026",
+      "date": "2026-09-16",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Jutes"
+      ],
+      "description": "Jutes' Smile You're on Tour lands at Jannus Live the night before the Culture Room date. Support on this run is Mothica and Wilt; the Jannus listing names Jutes only, so confirm openers at the door. Wednesday, September 16, 2026.",
+      "ticketUrl": "https://jannuslive.com/",
+      "priority": "low",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvz4z3",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbvpdue",
       "name": "Black Veil Brides + Caskets + Archers @ House of Blues — Lake Buena Vista (Orlando), FL — Sep 16 2026",
       "date": "2026-09-16",
@@ -1040,6 +1063,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w5d5",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbw0f0b",
+      "name": "Elder @ Brick by Brick — San Diego, CA — Sep 17 2026",
+      "date": "2026-09-17",
+      "venue": "Brick by Brick",
+      "city": "San Diego",
+      "state": "CA",
+      "bands": [
+        "Elder"
+      ],
+      "description": "Elder with special guests at Brick by Brick, San Diego. Thursday, September 17, 2026, doors 7 PM. One of the last shows on the calendar at the current Brick by Brick location. Source: https://www.brickbybrick.com/",
+      "ticketUrl": "https://www.brickbybrick.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbw0f0b",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -1622,6 +1665,28 @@
       ]
     },
     {
+      "id": "86bbvz4vm",
+      "name": "Turnstile + Mall Grab + Cold World @ Factory Town — Miami, FL — Sep 20 2026",
+      "date": "2026-09-20",
+      "venue": "Factory Town",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Turnstile",
+        "Mall Grab",
+        "Cold World"
+      ],
+      "description": "Turnstile bring The Never Enough Tour Pt. 2 to Factory Town in Miami the night after the Pinellas Park show — a second Florida date on the run. Full bill: Turnstile, Mall Grab, Cold World, Collateral. All ages. Sunday, September 20, 2026.",
+      "ticketUrl": "https://dice.fm/event/92rqd6-turnstile-the-never-enough-tour-pt-2-20th-sep-factory-town-miami-tickets",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvz4vm",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbmte5f",
       "name": "The Browning + Deadlands + Extortionist @ The Albatross — Jacksonville, FL — Sep 20 2026",
       "date": "2026-09-20",
@@ -2150,6 +2215,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w5xm",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbw0evj",
+      "name": "God-Rot + Gai Jinja + Arcturian @ Propaganda — Lake Worth, FL — Sep 25 2026",
+      "date": "2026-09-25",
+      "venue": "Propaganda",
+      "city": "Lake Worth",
+      "state": "FL",
+      "bands": [
+        "God-Rot",
+        "Gai Jinja",
+        "Arcturian"
+      ],
+      "description": "God-Rot returns to the stage at Propaganda, Lake Worth, on Friday, September 25, 2026 with Gai Jinja, Arcturian and Grievous. First show of a new run for the South Florida band. Source: God-Rot's announcement post.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbw0evj",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -6075,6 +6161,28 @@
       "buckets": []
     },
     {
+      "id": "86bbw0exd",
+      "name": "Daisychain + Off Orbit + 47 Bandit @ Churchill's Pub — Miami, FL — Nov 5 2026",
+      "date": "2026-11-05",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Daisychain",
+        "Off Orbit",
+        "47 Bandit"
+      ],
+      "description": "Psychedelic rock, punk and garage bill at Churchill's Pub, Miami — Daisychain, Off Orbit, 47 Bandit and Love Jane. Thursday, November 5, 2026, 8 PM. Source: Churchill's Pub event calendar (https://churchillspub.com/events/).",
+      "ticketUrl": "https://churchillspub.com/events/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbw0exd",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bb1uzjx",
       "name": "Trivium + In Flames + Orbit Culture + Fit For An Autopsy + Frozen Soul @ Jannus Live — St. Petersburg, FL — Nov 5 2026",
       "date": "2026-11-05",
@@ -6501,6 +6609,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbeb7h7",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbw0ez7",
+      "name": "Tiffadelic (Nights In Necropolis) @ Churchill's Pub — Miami, FL — Nov 13 2026",
+      "date": "2026-11-13",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Tiffadelic (Nights In Necropolis)"
+      ],
+      "description": "Nights In Necropolis presents Tiffadelic (Detroit black goth) — EBM, post-punk and darkwave night at Churchill's Pub, Miami. Friday, November 13, 2026, 9 PM. Source: Churchill's Pub event calendar (https://churchillspub.com/events/).",
+      "ticketUrl": "https://churchillspub.com/events/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbw0ez7",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -7646,6 +7774,28 @@
       ]
     },
     {
+      "id": "86bbvz4y2",
+      "name": "Amorphis + Insomnium + Hinayana @ Come and Take It Live — Austin, TX — Dec 8 2026",
+      "date": "2026-12-08",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Amorphis",
+        "Insomnium",
+        "Hinayana"
+      ],
+      "description": "Amorphis and Insomnium's fall co-headline tour hits Come and Take It Live in Austin on Tuesday, December 8, 2026, with Hinayana opening. Three nights before the Florida dates.",
+      "ticketUrl": "https://metalgigs.us/amorphis-and-insomnium-announce-fall-2026-north-american-co-headline-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvz4y2",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86b9b7q2u",
       "name": "Metallica — M72 World Tour 2026 — Miami, FL",
       "date": "2026-12-08",
@@ -7684,6 +7834,28 @@
       ]
     },
     {
+      "id": "86bbvz4wg",
+      "name": "Amorphis + Insomnium + Hinayana @ The Abbey — Orlando, FL — Dec 11 2026",
+      "date": "2026-12-11",
+      "venue": "The Abbey",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Amorphis",
+        "Insomnium",
+        "Hinayana"
+      ],
+      "description": "Finnish melodic-death veterans Amorphis and Insomnium co-headline a 25-date fall North American run, with Texas melodic death-doom band Hinayana opening every night. Amorphis tour behind Borderland (2025). Orlando stop at The Abbey, Friday, December 11, 2026 — same night Sabaton…",
+      "ticketUrl": "https://metalgigs.us/amorphis-and-insomnium-announce-fall-2026-north-american-co-headline-tour/",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvz4wg",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbtbrjt",
       "name": "Sabaton + Pop Evil @ Hard Rock Live — Orlando, FL — Dec 11 2026",
       "date": "2026-12-11",
@@ -7700,6 +7872,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbtbrjt",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbvz4xa",
+      "name": "Amorphis + Insomnium + Hinayana @ The Albatross — Jacksonville, FL — Dec 12 2026",
+      "date": "2026-12-12",
+      "venue": "The Albatross",
+      "city": "Jacksonville",
+      "state": "FL",
+      "bands": [
+        "Amorphis",
+        "Insomnium",
+        "Hinayana"
+      ],
+      "description": "Second Florida night of the Amorphis / Insomnium co-headline tour, with Hinayana opening. The Albatross in Jacksonville, Saturday, December 12, 2026, before the run turns north through Atlanta.",
+      "ticketUrl": "https://metalgigs.us/amorphis-and-insomnium-announce-fall-2026-north-american-co-headline-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbvz4xa",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -8157,6 +8351,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu793e",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbw0eur",
+      "name": "Carnal Carnival 2027 @ Brass Mug — Tampa, FL — Jan 30 2027",
+      "date": "2027-01-30",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Carnal Carnival 2027"
+      ],
+      "description": "Carnal Carnival 2027 — Tampa Bay Metal Scene's annual hybrid freak show and metal show, held at the Brass Mug. Saturday, January 30, 2027, 4 PM. \"Freaks, Metal, Fire and Magic\" — sideshow acts plus a bill of Tampa Bay-area bands, lineup still to be announced. Event page:…",
+      "ticketUrl": "https://www.facebook.com/events/2272561316840259/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbw0eur",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
