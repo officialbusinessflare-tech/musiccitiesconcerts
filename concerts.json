@@ -1,65 +1,6 @@
 {
-  "generatedAt": "2026-09-08T07:00:31.109Z",
+  "generatedAt": "2026-09-09T07:00:29.455Z",
   "entries": [
-    {
-      "id": "86bbr72tq",
-      "name": "REZN + Lockstep @ The Orpheum — Tampa, FL — Sep 8 2026",
-      "date": "2026-09-08",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "REZN",
-        "Lockstep"
-      ],
-      "description": "Chicago psych-doom outfit REZN brings the Cycles in the Infinite Dream tour to Ybor two nights after the Orlando stop, with Lockstep opening. The Orpheum is the Tampa half of a two-city Florida swing.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr72tq",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbeb5ty",
-      "name": "Icon For Hire + Lauren Babic @ Conduit — Winter Park (Orlando), FL — Sep 8 2026",
-      "date": "2026-09-08",
-      "venue": "Conduit",
-      "city": "Winter Park (Orlando)",
-      "state": "FL",
-      "bands": [
-        "Icon For Hire",
-        "Lauren Babic"
-      ],
-      "description": "Female-fronted alt-metal double bill: Icon For Hire headlining with Lauren Babic supporting. Source: Conduit / JamBase calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb5ty",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bb9w5an",
-      "name": "JILUKA @ Academy 2 — Manchester, UK — Sep 8 2026",
-      "date": "2026-09-08",
-      "venue": "Academy 2",
-      "city": "Manchester",
-      "state": "UK",
-      "bands": [
-        "JILUKA"
-      ],
-      "description": "JILUKA — DeViLs World Tour EU/UK leg opener. Academy 2 in Manchester, UK. Show date: Sep 8 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5an",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbr72tw",
       "name": "Icon For Hire @ The Orpheum — Tampa, FL — Sep 9 2026",
@@ -1806,6 +1747,26 @@
       ]
     },
     {
+      "id": "86bbwe8u1",
+      "name": "Broken By The Scream @ Aoyama RizM — Tokyo, Japan — Sep 21 2026",
+      "date": "2026-09-21",
+      "venue": "Aoyama RizM",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream on the 獅子音 Vol.37 bill at Aoyama RizM — a multi-act Tokyo night between their Sep 13 Antiknock and Sep 24 Shibuya Cyclone dates.",
+      "ticketUrl": "https://concerts.hypebot.com/artist/b/15463804-broken-by-the-scream",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8u1",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbeb6je",
       "name": "Soulfly + Nailbomb + Incite @ Come and Take It Live — Austin, TX — Sep 21 2026",
       "date": "2026-09-21",
@@ -1998,6 +1959,47 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w5fg",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbwe8t3",
+      "name": "Gacharic Spin @ Shibuya REX — Tokyo, Japan — Sep 23 2026",
+      "date": "2026-09-23",
+      "venue": "Shibuya REX",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Gacharic Spin"
+      ],
+      "description": "Gacharic Spin club date at Shibuya REX, a warm-up ahead of their Oct 11 EX THEATER ROPPONGI show.",
+      "ticketUrl": "https://concerts.hypebot.com/artist/g/1770014-gacharic-spin",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8t3",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbwe8r4",
+      "name": "French Police + Social Order @ The Orpheum — Tampa, FL — Sep 23 2026",
+      "date": "2026-09-23",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "French Police",
+        "Social Order"
+      ],
+      "description": "Chicago darkwave/post-punk trio French Police — bilingual, drum-machine goth now on Interscope — play Ybor with Social Order. Endoxa Booking and Communion After Dark present. All ages. Doors 7 PM.",
+      "ticketUrl": "https://www.eventbrite.com/e/french-police-tickets-1990584079567",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8r4",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3024,6 +3026,26 @@
       ]
     },
     {
+      "id": "86bbwe8uu",
+      "name": "EMNW @ Gammahol — Seoul, South Korea — Oct 2 2026",
+      "date": "2026-10-02",
+      "venue": "Gammahol",
+      "city": "Seoul",
+      "country": "South Korea",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "Japanese nu-metal duo EMNW open a Korean weekend with a Seoul club show at Gammahol, ahead of Xnterstellar Music Festival in Incheon.",
+      "ticketUrl": "https://www.bandsintown.com/a/15585228-emnw",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8uu",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbu789v",
       "name": "Streetlight Manifesto + Hot Rod Circuit @ Jannus Live — St. Petersburg, FL — Oct 2 2026",
       "date": "2026-10-02",
@@ -3098,6 +3120,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4zz",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbwe8vb",
+      "name": "EMNW @ Xnterstellar Music Festival (Paradise City) — Incheon, South Korea — Oct 3 2026",
+      "date": "2026-10-03",
+      "venue": "Xnterstellar Music Festival (Paradise City)",
+      "city": "Incheon",
+      "country": "South Korea",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW on the Xnterstellar Music Festival bill at Paradise City, Incheon (Oct 3–4 weekend; coldrain also listed). The Asia-wide wave keeps routing through Incheon.",
+      "ticketUrl": "https://www.bandsintown.com/a/15585228-emnw",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8vb",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
       ]
     },
     {
@@ -3899,6 +3942,26 @@
       ]
     },
     {
+      "id": "86bbwe8vn",
+      "name": "EMNW @ MINAMI WHEEL 2026 — Osaka, Japan — Oct 10 2026",
+      "date": "2026-10-10",
+      "venue": "MINAMI WHEEL 2026",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW at Osaka's MINAMI WHEEL circuit festival (Oct 10–12 weekend; ASTERISM also on the bill Oct 10). Exact day within the weekend per the festival timetable.",
+      "ticketUrl": "https://www.bandsintown.com/a/15585228-emnw",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8vn",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbuyjun",
       "name": "Blitzkid @ Come and Take It Live — Austin, TX — Oct 10 2026",
       "date": "2026-10-10",
@@ -4421,6 +4484,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4q1",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbwe8kj",
+      "name": "Toadies + Local H + Emily Wolfe @ Revolution Live — Fort Lauderdale, FL — Oct 15 2026",
+      "date": "2026-10-15",
+      "venue": "Revolution Live",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Toadies",
+        "Local H",
+        "Emily Wolfe"
+      ],
+      "description": "Toadies' The Charmer Tour hits Revolution Live two nights before the St. Pete stop, with Local H and Emily Wolfe in support. All ages. Doors 7 PM.",
+      "ticketUrl": "https://www.jointherevolution.net/concerts/toadies-the-charmer-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8kj",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -5302,6 +5387,27 @@
       ]
     },
     {
+      "id": "86bbwe8m1",
+      "name": "Scene Queen + Wargasm @ Revolution Live — Fort Lauderdale, FL — Oct 24 2026",
+      "date": "2026-10-24",
+      "venue": "Revolution Live",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Scene Queen",
+        "Wargasm"
+      ],
+      "description": "Scene Queen's METALICIOUS tour lands at Revolution Live the night after St. Pete. Full bill: Scene Queen, WARGASM, Bailey Spinn. 7 PM.",
+      "ticketUrl": "https://www.ticketmaster.com/scene-queen-metalicious-ft-lauderdale-florida-10-24-2026/event/0D0064C5AAD8C814",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8m1",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbr50j8",
       "name": "NINI + Seven Kingdoms @ Cobra Lounge — Chicago, IL — Oct 24 2026",
       "date": "2026-10-24",
@@ -5812,6 +5918,27 @@
       "buckets": []
     },
     {
+      "id": "86bbwe8n7",
+      "name": "Honey Revenge + Dead Poet Society @ Revolution Live — Fort Lauderdale, FL — Oct 30 2026",
+      "date": "2026-10-30",
+      "venue": "Revolution Live",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Honey Revenge",
+        "Dead Poet Society"
+      ],
+      "description": "Honey Revenge x Dead Poet Society co-headline run, the night before their Tampa Halloween show. Full bill: Honey Revenge, Dead Poet Society, Hunny, Broadside. Early 6 PM start.",
+      "ticketUrl": "https://www.ticketmaster.com/honey-revenge-x-dead-poet-society-ft-lauderdale-florida-10-30-2026/event/0D0064F8CD3A9A3D",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8n7",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbuyju4",
       "name": "Michale Graves @ Whisky a Go Go — West Hollywood, CA — Oct 30 2026",
       "date": "2026-10-30",
@@ -5864,6 +5991,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w526",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbwe8w2",
+      "name": "EMNW @ CLUB RIVERST — Niigata, Japan — Oct 31 2026",
+      "date": "2026-10-31",
+      "venue": "CLUB RIVERST",
+      "city": "Niigata",
+      "country": "Japan",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW Halloween night in Niigata at CLUB RIVERST, first of a Tohoku/Hokuriku back-to-back (Sendai follows Nov 1).",
+      "ticketUrl": "https://www.bandsintown.com/a/15585228-emnw",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8w2",
       "buckets": [
         "japanese-metal"
       ]
@@ -5926,6 +6073,26 @@
       "buckets": [
         "florida-metal-scene",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bbwe8wd",
+      "name": "EMNW @ Rockateria — Sendai, Japan — Nov 1 2026",
+      "date": "2026-11-01",
+      "venue": "Rockateria",
+      "city": "Sendai",
+      "country": "Japan",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW at Rockateria, Sendai — night two after Niigata. Bandsintown lists seven further EMNW dates not yet visible; expect more.",
+      "ticketUrl": "https://www.bandsintown.com/a/15585228-emnw",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8wd",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -6086,6 +6253,27 @@
       ]
     },
     {
+      "id": "86bbwe8pg",
+      "name": "GWAR + Midnight @ Revolution Live — Fort Lauderdale, FL — Nov 4 2026",
+      "date": "2026-11-04",
+      "venue": "Revolution Live",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "GWAR",
+        "Midnight"
+      ],
+      "description": "GWAR's \"Gor Gor Must Die\" tour with Cleveland blackened speed-metal trio Midnight on direct support, plus Mac Sabbath and X-Cops rounding out the bill. Same night In Flames play Culture Room across town — pick your poison. All ages. Doors 6 PM, show 7 PM.",
+      "ticketUrl": "https://www.livenation.com/event/vvG1VZ_arw01AC/gwar-gor-gor-must-die",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8pg",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbu78r6",
       "name": "In Flames @ Culture Room — Fort Lauderdale, FL — Nov 4 2026",
       "date": "2026-11-04",
@@ -6159,6 +6347,26 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5vf4",
       "buckets": []
+    },
+    {
+      "id": "86bbwe8je",
+      "name": "Rush @ Hard Rock Live — Hollywood, FL — Nov 5 2026",
+      "date": "2026-11-05",
+      "venue": "Hard Rock Live",
+      "city": "Hollywood",
+      "state": "FL",
+      "bands": [
+        "Rush"
+      ],
+      "description": "Rush bring the Fifty Something tour to Hard Rock Live at Seminole Hard Rock Hollywood — their first South Florida stop in over a dozen years. Two sets a night, setlists drawn from a 35-song catalogue, each night different. Night one of two (see Nov 7). Show 8 PM.",
+      "ticketUrl": "https://casino.hardrock.com/hollywood/events/rush",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8je",
+      "buckets": [
+        "florida-metal-scene"
+      ]
     },
     {
       "id": "86bbw0exd",
@@ -6277,6 +6485,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bavn8wy",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbwe8k0",
+      "name": "Rush @ Hard Rock Live — Hollywood, FL — Nov 7 2026",
+      "date": "2026-11-07",
+      "venue": "Hard Rock Live",
+      "city": "Hollywood",
+      "state": "FL",
+      "bands": [
+        "Rush"
+      ],
+      "description": "Second Hollywood night, added by popular demand after Nov 5 sold through. Rush's Fifty Something tour — two sets, a different setlist from night one, pulled from a 35-song pool. Show 7:30 PM.",
+      "ticketUrl": "https://www.axs.com/events/1192406/rush-tickets",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8k0",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -6609,6 +6837,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbeb7h7",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbwe8q2",
+      "name": "Hawthorne Heights + Creeper @ Revolution Live — Fort Lauderdale, FL — Nov 13 2026",
+      "date": "2026-11-13",
+      "venue": "Revolution Live",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Hawthorne Heights",
+        "Creeper"
+      ],
+      "description": "Hawthorne Heights play If Only You Were Lonely front to back for its 20th anniversary. Venue lists Creeper, I Set My Friends On Fire and Scary Kids Scaring Kids in support; the tour's original announcement had letlive. on the leg, so support may shift. All ages. Doors 6 PM, show…",
+      "ticketUrl": "https://www.jointherevolution.net/concerts/hawthorne-heights-20th-anniversary-of-if-only-you-were-lonely/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8q2",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -7363,6 +7612,26 @@
       ]
     },
     {
+      "id": "86bbwe8rb",
+      "name": "Loudness @ LINE CUBE SHIBUYA — Tokyo, Japan — Nov 25 2026",
+      "date": "2026-11-25",
+      "venue": "LINE CUBE SHIBUYA",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "Loudness"
+      ],
+      "description": "Loudness headline LINE CUBE SHIBUYA, the first of two late-November hall shows at home (Osaka follows Nov 27).",
+      "ticketUrl": "https://concerts.hypebot.com/artist/l/58218-loudness",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8rb",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbuyjur",
       "name": "Blitzkid @ The Orpheum — Tampa, FL — Nov 25 2026",
       "date": "2026-11-25",
@@ -7380,6 +7649,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbuyjur",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbwe8rp",
+      "name": "Loudness @ NHK Osaka Hall — Osaka, Japan — Nov 27 2026",
+      "date": "2026-11-27",
+      "venue": "NHK Osaka Hall",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "Loudness"
+      ],
+      "description": "Loudness at NHK Osaka Hall, the Kansai half of their late-November hall pair (Tokyo Nov 25).",
+      "ticketUrl": "https://concerts.hypebot.com/artist/l/58218-loudness",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8rp",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -7401,6 +7690,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbtbt7t",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbwe8uh",
+      "name": "Broken By The Scream @ CLUB CITTA' (MIXED HELL 2026 Second) — Kawasaki, Japan — Nov 28 2026",
+      "date": "2026-11-28",
+      "venue": "CLUB CITTA' (MIXED HELL 2026 Second)",
+      "city": "Kawasaki",
+      "country": "Japan",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream on MIXED HELL 2026 Second at CLUB CITTA' Kawasaki, a week before they fly to Stockholm for Lunar Fest.",
+      "ticketUrl": "https://concerts.hypebot.com/artist/b/15463804-broken-by-the-scream",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8uh",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -8110,6 +8419,46 @@
       ]
     },
     {
+      "id": "86bbwe8tg",
+      "name": "Gacharic Spin @ Electric Lady Land — Nagoya, Japan — Dec 26 2026",
+      "date": "2026-12-26",
+      "venue": "Electric Lady Land",
+      "city": "Nagoya",
+      "country": "Japan",
+      "bands": [
+        "Gacharic Spin"
+      ],
+      "description": "Gacharic Spin close out the year with a Nagoya/Osaka weekend — Electric Lady Land first, Umeda Banana Hall the next night.",
+      "ticketUrl": "https://concerts.hypebot.com/artist/g/1770014-gacharic-spin",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8tg",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbwe8tn",
+      "name": "Gacharic Spin @ Umeda Banana Hall — Osaka, Japan — Dec 27 2026",
+      "date": "2026-12-27",
+      "venue": "Umeda Banana Hall",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "Gacharic Spin"
+      ],
+      "description": "Year-end Osaka show at Umeda Banana Hall, night two of Gacharic Spin's December Kansai/Chubu weekend.",
+      "ticketUrl": "https://concerts.hypebot.com/artist/g/1770014-gacharic-spin",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8tn",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86baqty65",
       "name": "Yngwie Malmsteen — new solo album (TBD 2026) — verify title/date",
       "date": "2026-12-31",
@@ -8354,6 +8703,46 @@
       ]
     },
     {
+      "id": "86bbwe8q9",
+      "name": "Nonpoint @ The Beacham — Orlando, FL — Jan 29 2027",
+      "date": "2027-01-29",
+      "venue": "The Beacham",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Nonpoint"
+      ],
+      "description": "Opening night of Nonpoint's three-show Florida homecoming run, billed as the 30th anniversary show. Fort Lauderdale follows Jan 30, St. Pete Jan 31.",
+      "ticketUrl": "https://www.bandsintown.com/a/468",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8q9",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbwe8qj",
+      "name": "Nonpoint @ Revolution Live — Fort Lauderdale, FL — Jan 30 2027",
+      "date": "2027-01-30",
+      "venue": "Revolution Live",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Nonpoint"
+      ],
+      "description": "Nonpoint back on home turf — the Fort Lauderdale band's hometown night in a three-show Florida run (Orlando Jan 29, St. Pete Jan 31). 7 PM.",
+      "ticketUrl": "https://www.bandsintown.com/e/1039868643-nonpoint-at-revolution-live",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8qj",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbw0eur",
       "name": "Carnal Carnival 2027 @ Brass Mug — Tampa, FL — Jan 30 2027",
       "date": "2027-01-30",
@@ -8510,6 +8899,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbchppg",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbwe8wz",
+      "name": "The Warning @ Estadio GNP Seguros — Mexico City, Mexico — Feb 5 2027",
+      "date": "2027-02-05",
+      "venue": "Estadio GNP Seguros",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "bands": [
+        "The Warning"
+      ],
+      "description": "The Warning at Estadio GNP Seguros, Mexico City — a stadium date on home soil. Listed on the band's official Bandsintown; check whether it's a headline or a festival/support slot before travel planning.",
+      "ticketUrl": "https://concerts.hypebot.com/artist/w/17503-the-warning",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8wz",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -8821,6 +9230,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbu78jf",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbwe8qw",
+      "name": "Public Image Ltd + Plague Vendor @ Revolution Live — Fort Lauderdale, FL — Mar 10 2027",
+      "date": "2027-03-10",
+      "venue": "Revolution Live",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Public Image Ltd",
+        "Plague Vendor"
+      ],
+      "description": "John Lydon's PiL bring \"This Is Not The Last Tour\" to Revolution Live two nights after St. Pete, with Plague Vendor opening. All ages. Doors 7 PM.",
+      "ticketUrl": "https://www.jointherevolution.net/concerts/public-image-ltd-this-is-not-the-last-tour/",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbwe8qw",
       "buckets": [
         "florida-metal-scene"
       ]
