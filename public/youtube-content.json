@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-09T07:01:20.034Z",
+  "fetchedAt": "2026-09-10T07:00:42.293Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 151000,
-      "videoCount": 272,
+      "videoCount": 273,
       "recentLongform": [
         {
           "id": "QGW5tLmv_Ds",
@@ -406,48 +406,43 @@
           },
           "duration": "PT5M55S",
           "durationSeconds": 355
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "-tIGgGFhNBg",
-          "title": "Nemophila | Oiran | Orlando Soundcheck",
-          "publishedAt": "2026-08-13T02:51:33Z",
+          "id": "NEki2jURG4Y",
+          "title": "Stay Paranoid",
+          "publishedAt": "2026-09-09T14:27:54Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/default.jpg",
+              "url": "https://i.ytimg.com/vi/NEki2jURG4Y/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/NEki2jURG4Y/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/NEki2jURG4Y/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/NEki2jURG4Y/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/NEki2jURG4Y/maxresdefault.jpg",
               "width": 1280,
               "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/-tIGgGFhNBg/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
             }
           },
-          "duration": "PT3M30S",
-          "durationSeconds": 210
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT46S",
+          "durationSeconds": 46
+        },
         {
           "id": "C2fDCKg60Fw",
           "title": "Full interview at 630 pm Tokyo / 530 am USA",
