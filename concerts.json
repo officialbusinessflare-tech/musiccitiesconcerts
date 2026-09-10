@@ -1,143 +1,6 @@
 {
-  "generatedAt": "2026-09-09T07:01:12.371Z",
+  "generatedAt": "2026-09-10T07:00:32.664Z",
   "entries": [
-    {
-      "id": "86bbr72tw",
-      "name": "Icon For Hire @ The Orpheum — Tampa, FL — Sep 9 2026",
-      "date": "2026-09-09",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Icon For Hire"
-      ],
-      "description": "The Scripted 15 Year Anniversary tour hits Tampa the night after the Orlando date — Ariel Bloomer running the full record for a room that has followed the band since the Tooth and Nail years.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr72tw",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbkebe5",
-      "name": "Blue Spirit + Magi + Evershock @ Conduit — Orlando, FL — Sep 9 2026",
-      "date": "2026-09-09",
-      "venue": "Conduit",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Blue Spirit",
-        "Magi",
-        "Evershock"
-      ],
-      "description": "Full bill: Blue Spirit, Magi, Evershock, Palace Rats. Magi turns up twice on Conduit's fall calendar (also Sep 26) — worth watching as a room regular.",
-      "ticketUrl": "https://www.ticketweb.com/event/blue-spirit-magi-evershock-and-conduit-tickets/15041033",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkebe5",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbeb7u3",
-      "name": "The Warning @ The Fonda Theatre — Los Angeles, CA — Sep 9 2026",
-      "date": "2026-09-09",
-      "venue": "The Fonda Theatre",
-      "city": "Los Angeles",
-      "state": "CA",
-      "bands": [
-        "The Warning"
-      ],
-      "description": "The Warning play a three-night stand at the Fonda, Sep 9 through Sep 11, two weeks after Everything's Falling lands. Three nights in one room in LA is a step up for them.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7u3",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbct3bd",
-      "name": "The Suicide Machines + Bad Operation @ Churchill's Pub — Miami, FL — Sep 9 2026",
-      "date": "2026-09-09",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "The Suicide Machines",
-        "Bad Operation"
-      ],
-      "description": "Bands: The Suicide Machines, Bad Operation\nVenue: Churchill's Pub, 5501 NE 2nd Ave, Miami, FL\nDate: Wednesday, September 9, 2026\nThe Suicide Machines are playing \"Destruction By Definition\" front to back on this run. Miami is the closing date of the Southeast leg after Nashville…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbct3bd",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86barcrrk",
-      "name": "FATE GEAR @ Legend Club — Milan, Italy — Sep 9 2026",
-      "date": "2026-09-09",
-      "venue": "Legend Club",
-      "city": "Milan",
-      "country": "Italy",
-      "bands": [
-        "FATE GEAR"
-      ],
-      "description": "FATE GEAR bring their Frozen Abyss Tour 2026 to Legend Club in Milan, Italy — the band's first-ever Italian performance. All-female Japanese steampunk/gothic metal band on the watch-list rotation. Show date: September 9, 2026. Part of a three-date European run (Milan, Luzern,…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcrrk",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w5b4",
-      "name": "JILUKA @ O2 Academy Islington — London, UK — Sep 9 2026",
-      "date": "2026-09-09",
-      "venue": "O2 Academy Islington",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "JILUKA"
-      ],
-      "description": "JILUKA — DeViLs World Tour EU/UK leg. O2 Academy Islington in London, UK. Show date: Sep 9 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5b4",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w46w",
-      "name": "BABYMETAL @ PNC Bank Arts Center — Holmdel, NJ — Sep 9 2026",
-      "date": "2026-09-09",
-      "venue": "PNC Bank Arts Center",
-      "city": "Holmdel",
-      "state": "NJ",
-      "bands": [
-        "BABYMETAL"
-      ],
-      "description": "BABYMETAL — World Tour 2026. PNC Bank Arts Center in Holmdel, NJ. Show date: Sep 9 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w46w",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbke894",
       "name": "The Warning @ The Fonda Theatre — Los Angeles, CA — Sep 10 2026",
@@ -2494,6 +2357,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4b9",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbxf9fq",
+      "name": "Holly Hunt + Wastelands + CRUD @ Las Rosas — Miami, FL — Sep 26 2026",
+      "date": "2026-09-26",
+      "venue": "Las Rosas",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Holly Hunt",
+        "Wastelands",
+        "CRUD"
+      ],
+      "description": "Lineup: Holly Hunt, Wastelands, DeValued, CRUD (FL)\nVenue: Las Rosas, 2898 NW 7th Ave, Miami, FL 33127\nDate/time: Saturday, September 26, 2026 — 7:00 PM. 21+\nTickets: https://www.bandsintown.com/e/1040063976-crud-fl-at-las-rosas",
+      "ticketUrl": "https://www.bandsintown.com/e/1040063976-crud-fl-at-las-rosas",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbxf9fq",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -7494,6 +7379,28 @@
       ]
     },
     {
+      "id": "86bbxf9kf",
+      "name": "SkyLighthouse + Open Nerve + Dreamriver @ The Banyan Live — West Palm Beach, FL — Nov 22 2026",
+      "date": "2026-11-22",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "SkyLighthouse",
+        "Open Nerve",
+        "Dreamriver"
+      ],
+      "description": "Event: \"A New Era\" — Respiromalo Presents\nLineup: SkyLighthouse, Dreamriver, Open Nerve, Wasted Era, Darkstar\nVenue: The Banyan Live, 8199 Southern Blvd Suite B, West Palm Beach, FL 33411\nDate/time: Sunday, November 22, 2026 — doors 6:00 PM. 18+\nTickets: $10 presale / $15 door —…",
+      "ticketUrl": "https://www.etix.com/ticket/p/32872206/a-new-era-west-palm-beach-the-banyan-live",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbxf9kf",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbmte9h",
       "name": "Miss May I + Born of Osiris @ The Albatross — Jacksonville, FL — Nov 22 2026",
       "date": "2026-11-22",
@@ -7922,6 +7829,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4h8",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbxf9qn",
+      "name": "Punks for Paws 2026 + Ramtha @ Pinellas Ale Works — St. Petersburg, FL — Dec 4-5 2026",
+      "date": "2026-12-04",
+      "venue": "Pinellas Ale Works",
+      "city": "St. Petersburg",
+      "country": "FL — Dec 4-5 2026",
+      "bands": [
+        "Punks for Paws 2026",
+        "Ramtha"
+      ],
+      "description": "Event: Punks for Paws — 2-day punk and hardcore rager benefiting Friends of Strays (St. Petersburg)\nVenue: Pinellas Ale Works, 1962 1st Ave S, St. Petersburg, FL\nDates: Friday, December 4 and Saturday, December 5, 2026\nTickets: Friday $10 / Saturday $15 / two-day pass $20",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbxf9qn",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
