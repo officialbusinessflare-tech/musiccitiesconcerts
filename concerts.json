@@ -1,64 +1,6 @@
 {
-  "generatedAt": "2026-09-10T07:00:32.664Z",
+  "generatedAt": "2026-09-11T07:00:31.238Z",
   "entries": [
-    {
-      "id": "86bbke894",
-      "name": "The Warning @ The Fonda Theatre — Los Angeles, CA — Sep 10 2026",
-      "date": "2026-09-10",
-      "venue": "The Fonda Theatre",
-      "city": "Los Angeles",
-      "state": "CA",
-      "bands": [
-        "The Warning"
-      ],
-      "description": "The Warning — second of a three-night Fonda Theatre run in Los Angeles (Sep 9, 10, 11), supporting Everything's Falling.",
-      "ticketUrl": "https://www.bandsintown.com/e/108577872",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbke894",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86barcrrr",
-      "name": "FATE GEAR @ Schüür — Luzern, Switzerland — Sep 10 2026",
-      "date": "2026-09-10",
-      "venue": "Schüür",
-      "city": "Luzern",
-      "country": "Switzerland",
-      "bands": [
-        "FATE GEAR"
-      ],
-      "description": "FATE GEAR bring their Frozen Abyss Tour 2026 to Schüür in Luzern, Switzerland. All-female Japanese steampunk/gothic metal band on the watch-list rotation. Show date: September 10, 2026. Part of a three-date European run (Milan, Luzern, Cologne). Confirmed against the band's…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcrrr",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w47h",
-      "name": "BABYMETAL @ Xfinity Center — Mansfield, MA — Sep 10 2026",
-      "date": "2026-09-10",
-      "venue": "Xfinity Center",
-      "city": "Mansfield",
-      "state": "MA",
-      "bands": [
-        "BABYMETAL"
-      ],
-      "description": "BABYMETAL — World Tour 2026. Xfinity Center in Mansfield, MA. Show date: Sep 10 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w47h",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbkecqz",
       "name": "Gilby Clarke @ Whisky a Go Go — West Hollywood, CA — Sep 11 2026",
@@ -2753,6 +2695,26 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbkecuv",
       "buckets": []
+    },
+    {
+      "id": "86bbymwn0",
+      "name": "Great White + Slaughter @ The Parker (Lillian S. Wells Hall), Fort Lauderdale, FL, Oct 1 2026",
+      "date": "2026-10-01",
+      "venue": "The Parker (Lillian S. Wells Hall), Fort Lauderdale",
+      "city": "FL",
+      "country": "Oct 1 2026",
+      "bands": [
+        "Great White",
+        "Slaughter"
+      ],
+      "description": "Source: Bandsintown promoted email, Sept 10, 2026 (arrived because Kevin follows Great White, Slaughter, Mötley Crüe, Guns N' Roses, Metallica, Van Halen, Ozzy Osbourne). Thursday October 1, Lillian S. Wells Hall at The Parker, Fort Lauderdale. Part of the Cleveland Clinic Rock…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbymwn0",
+      "buckets": [
+        "florida-metal-scene"
+      ]
     },
     {
       "id": "86bbvpdv6",
