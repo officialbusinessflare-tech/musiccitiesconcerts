@@ -1,13 +1,81 @@
 {
-  "fetchedAt": "2026-09-10T07:00:42.293Z",
+  "fetchedAt": "2026-09-11T07:00:39.687Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 151000,
-      "videoCount": 273,
+      "videoCount": 275,
       "recentLongform": [
+        {
+          "id": "6ri1AyEIGQ8",
+          "title": "Vember | South Florida Metal",
+          "publishedAt": "2026-09-11T04:30:33Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/6ri1AyEIGQ8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6ri1AyEIGQ8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6ri1AyEIGQ8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/6ri1AyEIGQ8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/6ri1AyEIGQ8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M46S",
+          "durationSeconds": 106
+        },
+        {
+          "id": "LFNV7IYUbzs",
+          "title": "Kimi - Bridear | Crowdfunding Music",
+          "publishedAt": "2026-09-11T03:45:03Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/LFNV7IYUbzs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/LFNV7IYUbzs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/LFNV7IYUbzs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/LFNV7IYUbzs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/LFNV7IYUbzs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M31S",
+          "durationSeconds": 91
+        },
         {
           "id": "QGW5tLmv_Ds",
           "title": "BRIDEAR | Hardest Thing To Take Back Is A Future You Destroyed Yourself | 自分の手で潰した未来が、一番取り返しがつかない",
@@ -782,74 +850,6 @@
           },
           "duration": "PT1M1S",
           "durationSeconds": 61
-        },
-        {
-          "id": "2mzi2zNTikY",
-          "title": "Lovebites | Castaway | Midori & Miyako",
-          "publishedAt": "2026-08-14T17:00:22Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/2mzi2zNTikY/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/2mzi2zNTikY/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/2mzi2zNTikY/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/2mzi2zNTikY/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/2mzi2zNTikY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M",
-          "durationSeconds": 60
-        },
-        {
-          "id": "HcywNOPTaN8",
-          "title": "Broken by the Scream | Wacken Open Air 2026",
-          "publishedAt": "2026-08-14T04:29:45Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/HcywNOPTaN8/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/HcywNOPTaN8/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/HcywNOPTaN8/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/HcywNOPTaN8/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/HcywNOPTaN8/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT57S",
-          "durationSeconds": 57
         }
       ]
     },
@@ -858,8 +858,47 @@
       "channelId": "UClKBtcf76p8mt4x6x4TLLsw",
       "title": "MusicCitiesRadio",
       "subscriberCount": 1130,
-      "videoCount": 100,
+      "videoCount": 101,
       "recentLongform": [
+        {
+          "id": "lqp2UICRJ6I",
+          "title": "Vember | South Florida Metal | Klub Kutters",
+          "publishedAt": "2026-09-11T04:28:19Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/lqp2UICRJ6I/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/lqp2UICRJ6I/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/lqp2UICRJ6I/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/lqp2UICRJ6I/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/lqp2UICRJ6I/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/lqp2UICRJ6I/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          "duration": "PT5M32S",
+          "durationSeconds": 332
+        },
         {
           "id": "P2RvelRYYkY",
           "title": "We All Rise | \"Infected Population\" | Miami Metal",
@@ -1361,45 +1400,6 @@
           },
           "duration": "PT6M5S",
           "durationSeconds": 365
-        },
-        {
-          "id": "HN9zC3Ae5q8",
-          "title": "Nemophila | Zen |  Orlando 2026",
-          "publishedAt": "2026-08-06T05:02:42Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/HN9zC3Ae5q8/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
-            }
-          },
-          "duration": "PT3M25S",
-          "durationSeconds": 205
         }
       ],
       "recentShorts": [
