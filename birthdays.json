@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-09-10T07:00:32.664Z",
+  "generatedAt": "2026-09-11T07:00:31.238Z",
   "entries": [
-    {
-      "id": "86bbeb7z6",
-      "name": "🎂 ASAKA Birthday (TRiDENT) — Sep 10",
-      "person": "🎂 ASAKA",
-      "affiliation": "(TRiDENT) — Sep 10",
-      "rawDate": "2026-09-10",
-      "month": 9,
-      "day": 10,
-      "description": "TRiDENT. Birthday Sep 10 per Girls Band Encyclopedia. Holding entry for the birthdays pipeline — verify against an official source before it goes on a card.",
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7z6"
-    },
-    {
-      "id": "86bbeb7yk",
-      "name": "🎂 TOMO-ZO Birthday (Gacharic Spin) — Sep 10",
-      "person": "🎂 TOMO-ZO",
-      "affiliation": "(Gacharic Spin) — Sep 10",
-      "rawDate": "2026-09-10",
-      "month": 9,
-      "day": 10,
-      "description": "Guitarist, Gacharic Spin. Birthday Sep 10, confirmed by the band's own annual birthday event page. Holding entry for the birthdays pipeline.",
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7yk"
-    },
     {
       "id": "86bbeb7zx",
       "name": "🎂 Syu Birthday (Galneryus) — Sep 23",
@@ -572,6 +550,28 @@
       "day": 28,
       "description": "Bassist, SHOW-YA. Birthday Aug 28 per Oricon artist profile. Holding entry for the birthdays pipeline.",
       "clickupUrl": "https://app.clickup.com/t/86bbeb7ww"
+    },
+    {
+      "id": "86bbeb7z6",
+      "name": "🎂 ASAKA Birthday (TRiDENT) — Sep 10",
+      "person": "🎂 ASAKA",
+      "affiliation": "(TRiDENT) — Sep 10",
+      "rawDate": "2026-09-10",
+      "month": 9,
+      "day": 10,
+      "description": "TRiDENT. Birthday Sep 10 per Girls Band Encyclopedia. Holding entry for the birthdays pipeline — verify against an official source before it goes on a card.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb7z6"
+    },
+    {
+      "id": "86bbeb7yk",
+      "name": "🎂 TOMO-ZO Birthday (Gacharic Spin) — Sep 10",
+      "person": "🎂 TOMO-ZO",
+      "affiliation": "(Gacharic Spin) — Sep 10",
+      "rawDate": "2026-09-10",
+      "month": 9,
+      "day": 10,
+      "description": "Guitarist, Gacharic Spin. Birthday Sep 10, confirmed by the band's own annual birthday event page. Holding entry for the birthdays pipeline.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb7yk"
     },
     {
       "id": "86bba6j59",
