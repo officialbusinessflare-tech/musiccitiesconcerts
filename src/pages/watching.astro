@@ -132,6 +132,39 @@ function socialLinks(s) {
   }).join('');
 }
 
+const SOCIALS = {
+  'LOVEBITES': { x: 'https://x.com/lovebites_jp', instagram: 'https://www.instagram.com/lovebites_jp/', spotify: 'https://open.spotify.com/artist/4H1S8RTYv4vN3SiM5uSZSa', site: 'https://lovebites.jp/' },
+  'NEMOPHILA': { x: 'https://x.com/NEMOPHILA_band', instagram: 'https://www.instagram.com/nemophila_band/', youtube: 'https://www.youtube.com/channel/UCvoAeGZoC8giXP59NOZABIA', spotify: 'https://open.spotify.com/artist/1ijXMkMWUj8mJrW2SnIvpp', site: 'https://nemophila.tokyo/' },
+  'HANABIE.': { x: 'https://x.com/HA_NA_BIE_', instagram: 'https://www.instagram.com/ha_na_bie_/', youtube: 'https://www.youtube.com/@HANABIE_official', spotify: 'https://open.spotify.com/artist/4N2I7VsF86h59tbsvVoB1h' },
+  'BAND-MAID': { x: 'https://x.com/bandmaid', instagram: 'https://www.instagram.com/bandmaid.jp/', youtube: 'https://www.youtube.com/@BANDMAID', spotify: 'https://open.spotify.com/artist/5Wh3G01Xfxn2zzEZNpuYHH', site: 'https://bandmaid.tokyo/' },
+  'BABYMETAL': { x: 'https://x.com/babymetal_japan', instagram: 'https://www.instagram.com/babymetal_official/', spotify: 'https://open.spotify.com/artist/630wzNP2OL7fl4Xl0GnMWq', site: 'https://babymetal.com/' },
+  'Rolling Quartz': { x: 'https://x.com/Rolling_Quartz', instagram: 'https://www.instagram.com/rolling_quartz/', youtube: 'https://www.youtube.com/c/ROLLINGQUARTZofficial' },
+  'Broken By The Scream': { spotify: 'https://open.spotify.com/artist/0QJjaDqswcLyjDOgcBBf1Z', site: 'https://brokenbythescream.jp/' },
+  'Fathomless Skywalker': { instagram: 'https://www.instagram.com/fathomlessskywalker/' },
+  'SiM': { x: 'https://x.com/SiM_Official', instagram: 'https://www.instagram.com/sim_japan/', spotify: 'https://open.spotify.com/artist/2BM933ADIluGGrPBOhPgIt', site: 'https://sxixm.com/' },
+  'FATE GEAR': { site: 'https://fategear.jp/' },
+  'ZILQY': { x: 'https://x.com/zilqy_official', instagram: 'https://www.instagram.com/zilqy_official/', youtube: 'https://www.youtube.com/@Zilqy', site: 'https://en.zilqy.com/' },
+  'Lonesome_Blue': { spotify: 'https://open.spotify.com/artist/0RJTzBuPtpWubOBc2XUz95' },
+  'Dimrays': { x: 'https://x.com/dimrays_info', instagram: 'https://www.instagram.com/dimrays_info/' },
+  'TRiDENT': { instagram: 'https://www.instagram.com/trident_jp/' },
+  'East Of Eden': { x: 'https://x.com/E_O_E_official', instagram: 'https://www.instagram.com/eastofeden_official/', youtube: 'https://www.youtube.com/@east_of_eden_official' },
+  'NINI': { instagram: 'https://www.instagram.com/ninimusic/', youtube: 'https://www.youtube.com/channel/UCUUIp1k0tywKM1oGMkkuFvw', site: 'https://ninimusic.me/' },
+  'Open Nerve': { instagram: 'https://www.instagram.com/opennerve/' },
+  'We All Rise': { x: 'https://x.com/weallrisemusic1', instagram: 'https://www.instagram.com/weallrisemusic/', youtube: 'https://www.youtube.com/@weallrise', site: 'https://weallrisemusic.com/' },
+  'Silenmara': { site: 'https://silenmara.com/' },
+  'Follow Me, Fox!': { instagram: 'https://www.instagram.com/followmefoxband/', youtube: 'https://www.youtube.com/@followmefoxband', spotify: 'https://open.spotify.com/artist/10WVsS4YSzVhiEsUUunWNR' },
+  'Given by the Flames': { x: 'https://x.com/gbtf_official', site: 'https://lit.link/en/givenbytheflames' },
+  'Blood Command': { youtube: 'https://www.youtube.com/@bloodcommand', site: 'https://www.bloodcommand.net/' },
+  'Hämatom': { instagram: 'https://www.instagram.com/haematommusic/', site: 'https://haematom.de/' },
+  'Unzucht': { instagram: 'https://www.instagram.com/unzucht_official/', spotify: 'https://open.spotify.com/artist/2hfInImCCmb7zXIuCE15IN', site: 'https://unzucht-music.com/' },
+  'Islander': { instagram: 'https://www.instagram.com/weareislander/' },
+  'RE:O': { instagram: 'https://www.instagram.com/reotheband/', site: 'https://reomusic3.bandcamp.com/' },
+  'El Chivo': { instagram: 'https://www.instagram.com/elchivotemple/', site: 'https://elchivotemple.com/' },
+  'Force': { site: 'https://www.forceband.cl/en' },
+  'Seven Kingdoms': { x: 'https://x.com/7kskofficial', instagram: 'https://www.instagram.com/sevenkingdomsofficial/', youtube: 'https://www.youtube.com/@sevenkingdoms', spotify: 'https://open.spotify.com/artist/0PMYvG0U25tgSi8jQExPAC', site: 'https://www.sevenkingdomsofficial.com/' },
+};
+for (const b of watching) { if (SOCIALS[b.name]) b.socials = SOCIALS[b.name]; }
+
 const data = concertsData as ConcertsDataFile;
 const today = new Date().toISOString().slice(0, 10);
 
