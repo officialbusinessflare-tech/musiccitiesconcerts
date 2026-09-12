@@ -1,0 +1,71 @@
+---
+/**
+ * Get the App page.
+ * Android: direct APK download (sideload) until the Google Play listing is live.
+ * iOS: Add to Home Screen until the App Store listing is live.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const APK_URL = '/downloads/music-cities.apk';
+const APK_VERSION = '1.0';
+---
+
+<BaseLayout
+  title="Get the Music Cities App"
+  description="Download the Music Cities app for Android, or add it to your home screen on iPhone."
+>
+  <Header />
+
+  <main class="container app-page">
+    <h1 class="app-page__title">Get the App</h1>
+    <p class="app-page__lede">The whole Music Cities concert dashboard, on your phone. Concerts, releases, birthdays, the scene, one tap from your home screen.</p>
+
+    <div class="app-grid">
+      <section class="app-card">
+        <div class="app-card__os">Android</div>
+        <h2 class="app-card__h">Download and install</h2>
+        <a class="app-card__btn" href={APK_URL} download>Download for Android</a>
+        <p class="app-card__note">When the download finishes, open it and tap Install. If your phone asks, allow installs from this source. Version {APK_VERSION}.</p>
+        <p class="app-card__soon">Coming to the Google Play Store soon.</p>
+      </section>
+
+      <section class="app-card">
+        <div class="app-card__os">iPhone and iPad</div>
+        <h2 class="app-card__h">Add to Home Screen</h2>
+        <ol class="app-steps">
+          <li>Open <strong>musiccitiesconcerts.com</strong> in Safari.</li>
+          <li>Tap the <strong>Share</strong> button, the square with an up arrow.</li>
+          <li>Scroll down and tap <strong>Add to Home Screen</strong>.</li>
+          <li>Tap <strong>Add</strong>. The Music Cities icon lands on your home screen.</li>
+        </ol>
+        <p class="app-card__soon">Coming to the Apple App Store soon.</p>
+      </section>
+    </div>
+
+    <p class="app-back"><a href="/">Back to the dashboard</a></p>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  .app-page { max-width: 960px; margin: 0 auto; padding: 32px 20px 64px; }
+  .app-page__title { font-size: 34px; margin: 8px 0 6px; }
+  .app-page__lede { color: #b7b2a9; font-size: 16px; max-width: 640px; margin: 0 0 28px; line-height: 1.5; }
+  .app-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  @media (max-width: 720px) { .app-grid { grid-template-columns: 1fr; } }
+  .app-card { background: #141414; border: 1px solid #262626; border-radius: 14px; padding: 24px; }
+  .app-card__os { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: #8a8279; margin-bottom: 6px; }
+  .app-card__h { font-size: 20px; margin: 0 0 16px; }
+  .app-card__btn { display: inline-block; background: #e50914; color: #fff; font-weight: 700; font-size: 16px; padding: 13px 24px; border-radius: 999px; text-decoration: none; }
+  .app-card__btn:hover { background: #ff1a25; }
+  .app-card__note { color: #a49f96; font-size: 13.5px; line-height: 1.55; margin: 14px 0 0; }
+  .app-card__soon { color: #6f6a62; font-size: 12.5px; margin: 16px 0 0; }
+  .app-steps { color: #cfcabf; font-size: 15px; line-height: 1.7; margin: 0; padding-left: 20px; }
+  .app-steps strong { color: #fff; }
+  .app-back { margin-top: 32px; }
+  .app-back a { color: #8a8279; text-decoration: none; }
+  .app-back a:hover { color: #fff; }
+</style>
