@@ -24,6 +24,11 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://music-citie
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
     <meta name="theme-color" content="#0a0a0a" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Music Cities" />
 
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -49,5 +54,12 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://music-citie
   <body>
     <slot />
     <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "19a17510ec284235afcd37bb0a0e4f20"}`}></script><!-- End Cloudflare Web Analytics -->
+    <script is:inline>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("/sw.js").catch(function () {});
+        });
+      }
+    </script>
   </body>
 </html>
