@@ -1,0 +1,56 @@
+---
+/**
+ * Privacy Policy page. Required for the Google Play and App Store listings.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout
+  title="Privacy Policy — The Music Cities"
+  description="Privacy policy for The Music Cities app and musiccitiesconcerts.com."
+>
+  <Header />
+
+  <main class="container legal">
+    <h1>Privacy Policy</h1>
+    <p class="legal__eff">Effective September 12, 2026</p>
+
+    <p>This policy covers The Music Cities app and the website it displays, musiccitiesconcerts.com. The app is published by BusinessFlare LLC. The app is a mobile version of the website: a curated dashboard of concerts, festivals, album releases, and artist information. It is a viewer. There is no account, no login, and nothing to sign up for.</p>
+
+    <h2>Information we do not collect</h2>
+    <p>The Music Cities does not ask you for personal information and has no accounts, forms, or logins. We do not collect your name, email address, phone number, contacts, photos, location, or any similar data. We do not sell or share personal information, and we do not show advertising.</p>
+
+    <h2>Information collected automatically</h2>
+    <p>When any website is visited, the servers that deliver it receive standard technical information such as the device and browser type and the network address the request came from. Our host and content delivery network use this only to deliver the site, keep it secure, and understand overall traffic in aggregate. We do not use this information to identify you.</p>
+
+    <h2>Third-party content</h2>
+    <p>The site displays videos from YouTube and images from Pinterest, and links to our profiles on YouTube, Instagram, X, TikTok, and Facebook. When that embedded content loads, or when you follow a link, the provider of that content receives a request from your device and may process it under its own privacy policy. We do not control those services. You can review their policies on their own websites.</p>
+
+    <h2>Children</h2>
+    <p>The Music Cities is a general-audience music and economic-development publication. It is not directed to children under 13, and we do not knowingly collect information from children.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy as the app and site evolve. The effective date at the top will change when we do. Continued use after an update means you accept the revised policy.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy can be sent to <a href="mailto:officialbusinessflare@gmail.com">officialbusinessflare@gmail.com</a>.</p>
+
+    <p class="legal__back"><a href="/">Back to the dashboard</a></p>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  .legal { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  .legal h1 { font-size: 32px; margin: 8px 0 4px; }
+  .legal__eff { color: #8a8279; font-size: 13px; margin: 0 0 24px; }
+  .legal h2 { font-size: 18px; margin: 28px 0 8px; }
+  .legal p { color: #cfcabf; font-size: 15px; line-height: 1.65; margin: 0 0 12px; }
+  .legal a { color: #e50914; text-decoration: none; }
+  .legal a:hover { text-decoration: underline; }
+  .legal__back { margin-top: 32px; }
+  .legal__back a { color: #8a8279; }
+</style>
