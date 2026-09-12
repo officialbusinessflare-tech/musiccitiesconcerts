@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
 import Footer from '../components/Footer.astro';
 import type { ConcertsDataFile, ConcertEntry } from '../lib/types';
 
@@ -209,6 +210,7 @@ const grouped = scenes.map((scene) => ({
   description="The bands on our watch list — the artists we track, cover, and drive to see. The band equivalent of our go-to venues."
 >
   <Header />
+  <SceneNav />
 
   <section class="venues-hero">
     <div class="container">

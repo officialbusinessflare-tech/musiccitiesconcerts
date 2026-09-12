@@ -6,6 +6,7 @@
  */
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
 import Footer from '../components/Footer.astro';
 import concertsData from '../../concerts.json';
 
@@ -136,6 +137,7 @@ const counts = {
 
 <BaseLayout title="Show Map | The Music Cities" description="Every upcoming show on the watch list, plotted on a world map — Florida, Japan, and the global tours, color-coded by scene.">
   <Header />
+  <SceneNav />
   <section class="dash-hero">
     <div class="container">
       <p class="dash-hero__eyebrow">Explore the scene</p>

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
 import Footer from '../components/Footer.astro';
 import VideoStrip from '../components/VideoStrip.astro';
 
@@ -200,6 +201,7 @@ const radioShorts = ytData?.channels?.radio?.recentShorts ?? [];
   description="The 35th anniversary edition of Wacken Open Air, July 29 to August 1, 2026 — lineup, priority tiers, conflict picks, Metal Battle, and our day-by-day challenge."
 >
   <Header />
+  <SceneNav />
 
   <section class="dash-hero">
     <div class="container">

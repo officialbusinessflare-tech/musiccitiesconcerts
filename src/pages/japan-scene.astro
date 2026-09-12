@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
 import Footer from '../components/Footer.astro';
 import type { ConcertsDataFile, ConcertEntry } from '../lib/types';
 import concertsData from '../../concerts.json';
@@ -378,6 +379,7 @@ const upcomingShowCount = bandsWithShows.reduce((sum, b) => sum + b.shows.filter
   title="Japan Scene 2026 | The Music Cities"
   description="In-Japan shows from 14 J-metal bands: confirmed dates, recommended trip windows, festivals, and travel intel for the 2026 touring year."
 >
+  <SceneNav />
   <Header title="Japan Scene 2026" />
 
   <section class="dash-hero">

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
 import Footer from '../components/Footer.astro';
 
 // TODO: An interactive map (Metal_London_Map.html) and shapefile/GeoJSON/KML
@@ -245,6 +246,7 @@ const skipList = [
   title="Metal London — A NWOBHM Pilgrimage | The Music Cities"
   description="Our post-Wacken metal pilgrimage through London, 2–4 August 2026: Camden, Stratford, Soho, and the Lovebites show at O2 Academy Islington."
 >
+  <SceneNav />
   <Header title="Metal London" />
 
   <section class="london-hero">
