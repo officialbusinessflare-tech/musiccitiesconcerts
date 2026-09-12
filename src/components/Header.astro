@@ -77,3 +77,14 @@ const formattedCount = typeof subCount === 'number' && subCount > 0 ? formatSubC
   .site-header__app:hover { background: #ff1a25; }
 </style>
 
+
+<script is:inline>
+  (function () {
+    var inApp = (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) || (document.referrer || "").indexOf("android-app://") === 0 || window.navigator.standalone === true;
+    if (inApp) {
+      document.documentElement.classList.add("in-app");
+      var hide = function () { document.querySelectorAll(".site-header__app").forEach(function (e) { e.style.display = "none"; }); };
+      if (document.readyState !== "loading") hide(); else document.addEventListener("DOMContentLoaded", hide);
+    }
+  })();
+</script>
