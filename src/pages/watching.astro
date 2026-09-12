@@ -22,6 +22,13 @@ type WatchBand = {
   // Substring matched against the entry name in concerts.json (case-insensitive)
   match: string;
   photos?: string;   // Pinterest board URL
+  socials?: {        // full URLs; only present platforms render
+    x?: string;
+    instagram?: string;
+    youtube?: string;
+    spotify?: string;
+    site?: string;   // official site or Bandcamp
+  };
 };
 
 const watching: WatchBand[] = [
@@ -109,6 +116,22 @@ const watching: WatchBand[] = [
     why: "DeLand power metal, Sabrina Cruz out front. New album 'Sono Sola' coming on Reigning Phoenix — they open the NINI tour on home turf." },
 ];
 
+const SOCIAL_ORDER = ['x','instagram','youtube','spotify','site'];
+const SOCIAL_LABEL = { x: 'X', instagram: 'Instagram', youtube: 'YouTube', spotify: 'Spotify', site: 'Website' };
+const SOCIAL_ICON = {
+  x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>',
+  instagram: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.43-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.12 1.38A5.86 5.86 0 0 0 .63 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.12.66.66 1.33 1.07 2.12 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.86 5.86 0 0 0 2.12-1.38 5.86 5.86 0 0 0 1.38-2.12c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.86 5.86 0 0 0-1.38-2.12A5.86 5.86 0 0 0 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 12 18.16 6.16 6.16 0 0 0 12 5.84zm0 10.16A4 4 0 1 1 12 8a4 4 0 0 1 0 8zm6.41-10.4a1.44 1.44 0 1 0 0-2.88 1.44 1.44 0 0 0 0 2.88z"/></svg>',
+  youtube: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81zM9.55 15.57V8.43L15.82 12z"/></svg>',
+  spotify: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0m5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02m1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14C9.6 8.6 15 9.26 18.72 11.54c.36.18.54.78.24 1.2m.12-3.36C15.24 8.4 8.82 8.16 5.16 9.3c-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.26-1.26 11.28-1.02 15.72 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.6-1.56.3"/></svg>',
+  site: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.93 6h-2.95a15.65 15.65 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.93 8zM12 4c.83 1.2 1.48 2.53 1.91 4h-3.82c.43-1.47 1.08-2.8 1.91-4zM4.26 14a7.96 7.96 0 0 1 0-4h3.38a16.6 16.6 0 0 0 0 4H4.26zm.81 2h2.95c.32 1.25.78 2.45 1.38 3.56A8.03 8.03 0 0 1 5.07 16zm2.95-8H5.07a8.03 8.03 0 0 1 4.33-3.56A15.65 15.65 0 0 0 8.02 8zM12 20c-.83-1.2-1.48-2.53-1.91-4h3.82A13.9 13.9 0 0 1 12 20zm2.34-6H9.66a14.7 14.7 0 0 1 0-4h4.68a14.7 14.7 0 0 1 0 4zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56zM16.36 14a16.6 16.6 0 0 0 0-4h3.38a7.96 7.96 0 0 1 0 4h-3.38z"/></svg>'
+};
+function socialLinks(s) {
+  if (!s) return '';
+  return SOCIAL_ORDER.filter(function (k) { return s[k]; }).map(function (k) {
+    return '<a class="venues-card__social" href="' + s[k] + '" target="_blank" rel="noopener noreferrer" aria-label="' + SOCIAL_LABEL[k] + '" title="' + SOCIAL_LABEL[k] + '">' + SOCIAL_ICON[k] + '</a>';
+  }).join('');
+}
+
 const data = concertsData as ConcertsDataFile;
 const today = new Date().toISOString().slice(0, 10);
 
@@ -175,6 +198,7 @@ const grouped = scenes.map((scene) => ({
 
                 <p class="venues-card__why">{band.why}</p>
                 {band.photos ? <a class="venues-card__photos" href={band.photos} target="_blank" rel="noopener noreferrer">⭐ Photos from the pit ›</a> : null}
+                {socialLinks(band.socials) ? <div class="venues-card__socials" set:html={socialLinks(band.socials)} /> : null}
 
                 <section class="venues-card__shows">
                   <h3 class="venues-card__shows-title">Next show</h3>
@@ -211,6 +235,10 @@ const grouped = scenes.map((scene) => ({
 <style is:global>
   .venues-card__photos { display:inline-block; margin:0 0 0.9rem; font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:#e11d2a; text-decoration:none; border-bottom:1px solid transparent; }
   .venues-card__photos:hover { border-bottom-color:currentColor; }
+  .venues-card__socials { display:flex; gap:0.55rem; align-items:center; flex-wrap:wrap; margin:0 0 0.9rem; }
+  .venues-card__social { color:#8a8780; display:inline-flex; line-height:0; transition:color .15s; }
+  .venues-card__social:hover { color:#e11d2a; }
+  .venues-card__social svg { width:18px; height:18px; display:block; fill:currentColor; }
   .watching-scene { margin-bottom: var(--space-8, 3rem); }
   .watching-scene__title {
     margin: 0 0 var(--space-4, 1.5rem);
