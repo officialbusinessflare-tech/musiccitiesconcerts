@@ -1,200 +1,6 @@
 {
-  "generatedAt": "2026-09-11T07:00:31.238Z",
+  "generatedAt": "2026-09-12T07:00:33.329Z",
   "entries": [
-    {
-      "id": "86bbkecqz",
-      "name": "Gilby Clarke @ Whisky a Go Go — West Hollywood, CA — Sep 11 2026",
-      "date": "2026-09-11",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "Gilby Clarke"
-      ],
-      "description": "Gilby Clarke (ex-Guns N' Roses) headlining, with Rusted Stone, Whiskey Revelation, Sunset Sinners, Philthy Rych, Young/Silva and Greg Brown.",
-      "ticketUrl": "https://www.ticketweb.com/event/gilby-clarke-rusted-stone-whiskey-whisky-a-go-go-tickets/14683263",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkecqz",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbke8ac",
-      "name": "The Warning @ The Fonda Theatre — Los Angeles, CA — Sep 11 2026",
-      "date": "2026-09-11",
-      "venue": "The Fonda Theatre",
-      "city": "Los Angeles",
-      "state": "CA",
-      "bands": [
-        "The Warning"
-      ],
-      "description": "The Warning — third and final night of the Fonda Theatre run in Los Angeles (Sep 9, 10, 11), supporting Everything's Falling.",
-      "ticketUrl": "https://www.bandsintown.com/e/108583193",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbke8ac",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbke819",
-      "name": "Lonesome_Blue @ ell.FITS ALL — Nagoya, Japan — Sep 11 2026",
-      "date": "2026-09-11",
-      "venue": "ell.FITS ALL",
-      "city": "Nagoya",
-      "country": "Japan",
-      "bands": [
-        "Lonesome_Blue"
-      ],
-      "description": "Lonesome_Blue — FOURTH DIMENSION release tour, Nagoya leg.",
-      "ticketUrl": "https://lonesomeblue.jp/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbke819",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbfk5u7",
-      "name": "Severed Skies + Nights In Necropolis @ Churchill's Pub — Miami, FL — Sep 11 2026",
-      "date": "2026-09-11",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Severed Skies",
-        "Nights In Necropolis"
-      ],
-      "description": "Nights In Necropolis presents Severed Skies (VA) and more at Churchill's Pub.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbfk5u7",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbct3cm",
-      "name": "Party of Four + Achroite + Vypus @ Tribe Tea Lounge — Margate, FL — Sep 11 2026",
-      "date": "2026-09-11",
-      "venue": "Tribe Tea Lounge",
-      "city": "Margate",
-      "state": "FL",
-      "bands": [
-        "Party of Four",
-        "Achroite",
-        "Vypus"
-      ],
-      "description": "Event: Rulers of the Night\nBands: Party of Four, Achroite, Vypus, Medic\nVenue: Tribe Tea Lounge, 1449 N State Rd 7, Margate, FL\nDate: Friday, September 11, 2026 — doors 8:30 PM, music 9:30 PM\nAchroite and Medic both turn up repeatedly on South Florida bills this cycle.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbct3cm",
-      "buckets": []
-    },
-    {
-      "id": "86barcrrw",
-      "name": "FATE GEAR @ Garagen Club — Cologne, Germany — Sep 11 2026",
-      "date": "2026-09-11",
-      "venue": "Garagen Club",
-      "city": "Cologne",
-      "country": "Germany",
-      "bands": [
-        "FATE GEAR"
-      ],
-      "description": "FATE GEAR bring their Frozen Abyss Tour 2026 to the Garagen Club in Cologne, Germany. All-female Japanese steampunk/gothic metal band on the watch-list rotation. Show date: September 11, 2026. Part of a three-date European run (Milan, Luzern, Cologne). Confirmed against the…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcrrw",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86barcrht",
-      "name": "Rolling Quartz @ Rio Theatre — Vancouver, BC, Canada — Sep 11 2026",
-      "date": "2026-09-11",
-      "venue": "Rio Theatre, Vancouver",
-      "city": "BC",
-      "country": "Canada",
-      "bands": [
-        "Rolling Quartz"
-      ],
-      "description": "Rolling Quartz bring their MY TURN North America tour to the Rio Theatre in Vancouver, BC, Canada. Korean hard-rock five-piece on the watch-list rotation. Show date: September 11, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcrht",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86b9b7mh7",
-      "name": "LOVEBITES @ Zepp Sapporo — Sapporo, Japan",
-      "date": "2026-09-11",
-      "venue": "Zepp Sapporo",
-      "city": "Sapporo",
-      "country": "Japan",
-      "bands": [
-        "LOVEBITES"
-      ],
-      "description": "LOVEBITES Outstanding Tour Japan 2026. Zepp Sapporo, Sapporo.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b9b7mh7",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w61x",
-      "name": "SiM @ Sendai Rensa — Sendai, Japan — Sep 11 2026",
-      "date": "2026-09-11",
-      "venue": "Sendai Rensa",
-      "city": "Sendai",
-      "country": "Japan",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL tour. Sendai Rensa in Sendai, Japan. Show date: Sep 11 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w61x",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w5bn",
-      "name": "JILUKA @ Rock Cafe — Prague, Czech Republic — Sep 11 2026",
-      "date": "2026-09-11",
-      "venue": "Rock Cafe",
-      "city": "Prague",
-      "country": "Czech Republic",
-      "bands": [
-        "JILUKA"
-      ],
-      "description": "JILUKA — DeViLs World Tour EU/UK leg. Rock Cafe in Prague, Czech Republic. Show date: Sep 11 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5bn",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbw0ewq",
       "name": "Young Cassidy + Dirty Crumbums + Mother Rucker @ Churchill's Pub — Miami, FL — Sep 12 2026",
@@ -2619,6 +2425,28 @@
       ]
     },
     {
+      "id": "86bbz3ggj",
+      "name": "Loathe + Fleshwater + Prostitute @ House of Blues — Orlando, FL — Sep 29 2026",
+      "date": "2026-09-29",
+      "venue": "House of Blues",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Loathe",
+        "Fleshwater",
+        "Prostitute"
+      ],
+      "description": "Loathe's \"A Stranger to You\" tour lands at House of Blues Orlando the night before the Jannus Live stop. Fleshwater is direct support, Prostitute opens. Doors 6:30 PM.",
+      "ticketUrl": "https://www.livenation.com/event/1kFOv0PxGAC6uXz/loathe-a-stranger-to-you",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz3ggj",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86barcrkr",
       "name": "Rolling Quartz @ 89th Street — Oklahoma City, OK — Sep 29 2026",
       "date": "2026-09-29",
@@ -3516,6 +3344,28 @@
       ]
     },
     {
+      "id": "86bbz59ec",
+      "name": "The Scream Queens + Akashik + Soma Dreams @ The Banyan Live — West Palm Beach, FL — Oct 8 2026",
+      "date": "2026-10-08",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "The Scream Queens",
+        "Akashik",
+        "Soma Dreams"
+      ],
+      "description": "Dead Friends. Loud Music. No Regrets. — a corpse-paint party at The Banyan Live.",
+      "ticketUrl": "https://www.etix.com/ticket/p/55259943/dead-friends-loud-music-no-regrets-west-palm-beach-the-banyan-live?partner_id=100",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59ec",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbth60r",
       "name": "Sex Mex @ Churchill's Pub — Miami, FL — Oct 8 2026",
       "date": "2026-10-08",
@@ -4334,6 +4184,27 @@
       ]
     },
     {
+      "id": "86bbz3ghc",
+      "name": "Arch Enemy + The Black Dahlia Murder @ The Beacham — Orlando, FL — Oct 15 2026",
+      "date": "2026-10-15",
+      "venue": "The Beacham",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Arch Enemy",
+        "The Black Dahlia Murder"
+      ],
+      "description": "Opening Florida night of the Wrath Across America co-headline run, ahead of Fort Lauderdale (Oct 16) and St. Petersburg (Oct 18). Full bill: Arch Enemy, The Black Dahlia Murder, Septicflesh, Crypta, Thrown Into Exile. Doors 5:00 PM.",
+      "ticketUrl": "https://www.songkick.com/concerts/43227665-arch-enemy-at-beacham",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz3ghc",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbwe8kj",
       "name": "Toadies + Local H + Emily Wolfe @ Revolution Live — Fort Lauderdale, FL — Oct 15 2026",
       "date": "2026-10-15",
@@ -4733,6 +4604,28 @@
       ]
     },
     {
+      "id": "86bbz59fc",
+      "name": "Cold Steel + Bayway + Killcastle @ The Banyan Live — West Palm Beach, FL — Oct 18 2026",
+      "date": "2026-10-18",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Cold Steel",
+        "Bayway",
+        "Killcastle"
+      ],
+      "description": "Dreams Descending Into Greed — a full-force hardcore night at The Banyan Live.",
+      "ticketUrl": "https://www.etix.com/ticket/p/97211295/dreams-descending-into-greed-west-palm-beach-the-banyan-live?partner_id=100",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59fc",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbtbrnp",
       "name": "Arch Enemy + The Black Dahlia Murder @ Jannus Live — St. Petersburg, FL — Oct 18 2026",
       "date": "2026-10-18",
@@ -5029,6 +4922,27 @@
       "buckets": [
         "japanese-metal",
         "album-releases"
+      ]
+    },
+    {
+      "id": "86bbz59h8",
+      "name": "Achroite + Vivid + With My Own Eyes @ The Banyan Live — West Palm Beach, FL — Oct 22 2026",
+      "date": "2026-10-22",
+      "venue": "My Own Eyes @ The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Achroite",
+        "Vivid"
+      ],
+      "description": "We're Not Leaving Raul Frozen — a costume-party benefit show at The Banyan Live.",
+      "ticketUrl": "https://www.etix.com/ticket/p/95993259/were-not-leaving-raul-frozen-west-palm-beach-the-banyan-live?partner_id=100",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59h8",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -5429,6 +5343,26 @@
       ]
     },
     {
+      "id": "86bbz59n5",
+      "name": "KOIAI @ Yokohama Bay Hall (Blu-ray Release Event) — Yokohama, Japan — Oct 25 2026",
+      "date": "2026-10-25",
+      "venue": "Yokohama Bay Hall (Blu-ray Release Event)",
+      "city": "Yokohama",
+      "country": "Japan",
+      "bands": [
+        "KOIAI"
+      ],
+      "description": "KOIAI LIVE TOUR 2026「Starting Over」in TOKYO Release Event -Talk & Live-",
+      "ticketUrl": "https://gekirock.com/news/2026/08/koiai_live_tour_2026_starting_over_blu-ray.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59n5",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbu78py",
       "name": "Brand New @ Hard Rock Live — Hollywood, FL — Oct 25 2026",
       "date": "2026-10-25",
@@ -5604,6 +5538,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bbeb6cg",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbz59md",
+      "name": "📀 KOIAI — LIVE TOUR 2026 「Starting Over」 in TOKYO (live Blu-ray) — RELEASE — Oct 28 2026",
+      "date": "2026-10-28",
+      "venue": "LIVE TOUR 2026 「Starting Over」 in TOKYO (live Blu-ray) — RELEASE",
+      "bands": [
+        "KOIAI"
+      ],
+      "description": "KOIAI — KOIAI LIVE TOUR 2026「Starting Over」in TOKYO -HEAVY KAWAII FES 2026- (live Blu-ray)\nRelease date: Wednesday, October 28, 2026 (Japan)",
+      "ticketUrl": "https://tower.jp/article/feature_item/2026/09/03/0703",
+      "priority": "normal",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59md",
+      "buckets": [
+        "japanese-metal",
+        "album-releases"
       ]
     },
     {
@@ -6194,6 +6147,28 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5vf4",
       "buckets": []
+    },
+    {
+      "id": "86bbz3ghf",
+      "name": "GWAR + Midnight + Mac Sabbath @ The Beacham — Orlando, FL — Nov 5 2026",
+      "date": "2026-11-05",
+      "venue": "The Beacham",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "GWAR",
+        "Midnight",
+        "Mac Sabbath"
+      ],
+      "description": "Orlando stop of GWAR's \"Gor Gor Must Die!\" fall tour, the night after Revolution Live. Full bill: GWAR, Midnight, Mac Sabbath, X-Cops. Doors 6:00 PM.",
+      "ticketUrl": "https://www.songkick.com/concerts/43158184-gwar-at-beacham",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz3ghf",
+      "buckets": [
+        "florida-metal-scene"
+      ]
     },
     {
       "id": "86bbwe8je",
@@ -8075,6 +8050,26 @@
       ]
     },
     {
+      "id": "86bbz59nx",
+      "name": "HAGANE @ HEAVEN'S ROCK Saitama-Shintoshin VJ-3 — Saitama, Japan — Dec 12 2026",
+      "date": "2026-12-12",
+      "venue": "HEAVEN'S ROCK Saitama-Shintoshin VJ-3",
+      "city": "Saitama",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」 — tour opener.",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59nx",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbvz4xa",
       "name": "Amorphis + Insomnium + Hinayana @ The Albatross — Jacksonville, FL — Dec 12 2026",
       "date": "2026-12-12",
@@ -8268,6 +8263,26 @@
       "buckets": []
     },
     {
+      "id": "86bbz59pj",
+      "name": "HAGANE @ Sapporo SPiCE — Sapporo, Japan — Dec 19 2026",
+      "date": "2026-12-19",
+      "venue": "Sapporo SPiCE",
+      "city": "Sapporo",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」 — Sapporo night 1 of 2.",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59pj",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbuyjm5",
       "name": "Green Jelly @ Brass Mug — Tampa, FL — Dec 19 2026",
       "date": "2026-12-19",
@@ -8288,6 +8303,26 @@
       ]
     },
     {
+      "id": "86bbz59q5",
+      "name": "HAGANE @ Sapporo SPiCE — Sapporo, Japan — Dec 20 2026",
+      "date": "2026-12-20",
+      "venue": "Sapporo SPiCE",
+      "city": "Sapporo",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」 — Sapporo night 2 of 2.",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59q5",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb0uvk0",
       "name": "Gladio Tempus + Eternal Warrior @ Kelly's Pub — Fort Lauderdale, FL — Dec 22 2026",
       "date": "2026-12-22",
@@ -8305,6 +8340,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb0uvk0",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbz59r0",
+      "name": "HAGANE @ Kanazawa EIGHT HALL — Kanazawa, Japan — Dec 26 2026",
+      "date": "2026-12-26",
+      "venue": "Kanazawa EIGHT HALL",
+      "city": "Kanazawa",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59r0",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -8439,6 +8494,26 @@
       ]
     },
     {
+      "id": "86bbz59t4",
+      "name": "HAGANE @ Kumamoto Be.9 V2 — Kumamoto, Japan — Jan 10 2027",
+      "date": "2027-01-10",
+      "venue": "Kumamoto Be.9 V2",
+      "city": "Kumamoto",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59t4",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86baaae1w",
       "name": "Yo-Yo Ma + Solon Gordon — Knight Concert Hall, Arsht Center, Miami FL",
       "date": "2027-01-10",
@@ -8456,6 +8531,46 @@
       "clickupUrl": "https://app.clickup.com/t/86baaae1w",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbz59tr",
+      "name": "HAGANE @ Fukuoka DRUM Be-1 — Fukuoka, Japan — Jan 11 2027",
+      "date": "2027-01-11",
+      "venue": "Fukuoka DRUM Be-1",
+      "city": "Fukuoka",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59tr",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbz59u6",
+      "name": "HAGANE @ Yokohama Bay Hall — Yokohama, Japan — Jan 16 2027",
+      "date": "2027-01-16",
+      "venue": "Yokohama Bay Hall",
+      "city": "Yokohama",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59u6",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -8497,6 +8612,26 @@
       ]
     },
     {
+      "id": "86bbz59v2",
+      "name": "HAGANE @ LiveHouse Hamamatsu Madowaku — Hamamatsu, Japan — Jan 22 2027",
+      "date": "2027-01-22",
+      "venue": "LiveHouse Hamamatsu Madowaku",
+      "city": "Hamamatsu",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59v2",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbu78yf",
       "name": "SiM @ The Wardrobe — Leeds, UK — Jan 22 2027",
       "date": "2027-01-22",
@@ -8530,6 +8665,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbu78zn",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbz59vy",
+      "name": "HAGANE @ Kobe Harbor Studio — Kobe, Japan — Jan 24 2027",
+      "date": "2027-01-24",
+      "venue": "Kobe Harbor Studio",
+      "city": "Kobe",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59vy",
       "buckets": [
         "japanese-metal"
       ]
@@ -8612,6 +8767,26 @@
       ]
     },
     {
+      "id": "86bbz59wr",
+      "name": "HAGANE @ Okayama YEBISU YA PRO — Okayama, Japan — Jan 30 2027",
+      "date": "2027-01-30",
+      "venue": "Okayama YEBISU YA PRO",
+      "city": "Okayama",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59wr",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbwe8qj",
       "name": "Nonpoint @ Revolution Live — Fort Lauderdale, FL — Jan 30 2027",
       "date": "2027-01-30",
@@ -8666,6 +8841,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbu7949",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbz59yb",
+      "name": "HAGANE @ Hiroshima LIVE VANQUISH — Hiroshima, Japan — Jan 31 2027",
+      "date": "2027-01-31",
+      "venue": "Hiroshima LIVE VANQUISH",
+      "city": "Hiroshima",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59yb",
       "buckets": [
         "japanese-metal"
       ]
@@ -8850,6 +9045,26 @@
       ]
     },
     {
+      "id": "86bbz59z5",
+      "name": "HAGANE @ Sendai darwin — Sendai, Japan — Feb 7 2027",
+      "date": "2027-02-07",
+      "venue": "Sendai darwin",
+      "city": "Sendai",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59z5",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbvpdx7",
       "name": "SiM @ Batschkapp — Frankfurt, Germany — Feb 7 2027",
       "date": "2027-02-07",
@@ -8910,6 +9125,26 @@
       ]
     },
     {
+      "id": "86bbz59zv",
+      "name": "HAGANE @ GORILLA HALL OSAKA — Osaka, Japan — Feb 11 2027",
+      "date": "2027-02-11",
+      "venue": "GORILLA HALL OSAKA",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz59zv",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbr72up",
       "name": "Nervosa @ The Orpheum — Tampa, FL — Feb 11 2027",
       "date": "2027-02-11",
@@ -8965,6 +9200,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbeb6f2",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbz5a0h",
+      "name": "HAGANE @ Nagoya DIAMOND HALL — Nagoya, Japan — Feb 13 2027",
+      "date": "2027-02-13",
+      "venue": "Nagoya DIAMOND HALL",
+      "city": "Nagoya",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz5a0h",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -9061,6 +9316,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbvpdz0",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbz5a14",
+      "name": "HAGANE @ Zepp DiverCity (TOKYO) — Tokyo, Japan — Feb 19 2027",
+      "date": "2027-02-19",
+      "venue": "Zepp DiverCity (TOKYO)",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE New Album Release Tour「Through the Night」 — TOUR FINAL",
+      "ticketUrl": "https://gekirock.com/news/2026/08/hagane_through_the_night_release.php",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbz5a14",
       "buckets": [
         "japanese-metal"
       ]
