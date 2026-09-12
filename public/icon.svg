@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="The Music Cities">
   <rect width="512" height="512" rx="104" fill="#0a0a0a"/>
-  <text x="256" y="242" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="196" letter-spacing="-10" fill="#f4f1ea">MC</text>
-  <rect x="168" y="330" width="176" height="26" rx="13" fill="#e11d2a"/>
+  <path transform="translate(56.32,56.32) scale(0.78)" fill="#f4f1ea" fill-rule="evenodd" d="M256 0C114.6 0 0 100.3 0 224c0 70.1 36.9 132.6 94.5 173.7 9.6 6.9 15.2 18.1 13.5 29.9l-9.4 66.2c-1.4 9.6 6.1 18.2 15.8 18.2H160v-48c0-8.8 7.2-16 16-16s16 7.2 16 16v48h48v-48c0-8.8 7.2-16 16-16s16 7.2 16 16v48h48v-48c0-8.8 7.2-16 16-16s16 7.2 16 16v48h39.1c9.7 0 17.2-8.6 15.8-18.2l-9.4-66.2c-1.7-11.8 3.9-23 13.5-29.9C475.1 356.6 512 294.1 512 224 512 100.3 397.4 0 256 0zM160 320c-35.3 0-64-28.7-64-64s28.7-64 64-64 64 28.7 64 64-28.7 64-64 64zm192 0c-35.3 0-64-28.7-64-64s28.7-64 64-64 64 28.7 64 64-28.7 64-64 64z"/>
+  <rect x="176" y="440" width="160" height="22" rx="11" fill="#e11d2a"/>
 </svg>
