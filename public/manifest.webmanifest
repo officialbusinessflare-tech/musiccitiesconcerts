@@ -1,6 +1,6 @@
 {
-  "name": "The Music Cities Concerts",
-  "short_name": "Music Cities",
+  "name": "The Music Cities",
+  "short_name": "The Music Cities",
   "start_url": "/?source=pwa",
   "scope": "/",
   "id": "/",
