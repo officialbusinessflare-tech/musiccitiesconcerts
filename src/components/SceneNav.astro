@@ -17,11 +17,16 @@
  * a bucket id (e.g. 'florida-metal-scene'), 'birthdays', 'venues', or a
  * field-trip / brief id ('wacken', 'london', 'japan-scene', 'japan-global').
  */
-import type { BucketConfig, ConcertEntry } from '../lib/types';
+import type { BucketConfig, ConcertEntry, BucketsConfigFile, ConcertsDataFile, BirthdaysDataFile } from '../lib/types';
+import bucketsConfig from '../../buckets.config.json';
+import concertsData from '../../concerts.json';
+import birthdaysData from '../../birthdays.json';
+import { categorize, groupByBucket } from '../lib/categorize';
+import { collectKnownVenues, reparseEntry } from '../lib/parse-name';
 
 interface Props {
-  buckets: BucketConfig[];
-  grouped: Map<string, ConcertEntry[]>;
+  buckets?: BucketConfig[];
+  grouped?: Map<string, ConcertEntry[]>;
   birthdaysCount?: number;
   /**
    * If set, the matching pill gets the `is-active` class for visual emphasis.
@@ -31,7 +36,17 @@ interface Props {
   activeBucketId?: string;
 }
 
-const { buckets, grouped, birthdaysCount, activeBucketId } = Astro.props;
+const { activeBucketId } = Astro.props;
+const buckets = (bucketsConfig as BucketsConfigFile).buckets;
+const _data = concertsData as ConcertsDataFile;
+const _known = collectKnownVenues(buckets);
+const _today = new Date().toISOString().slice(0, 10);
+const _upcoming: ConcertEntry[] = (_data.entries ?? [])
+  .filter((e) => { const c = e.endDate ?? e.date; return c >= _today; })
+  .map((e) => reparseEntry(e, _known))
+  .map((e) => ({ ...e, buckets: categorize(e, buckets) }));
+const grouped = groupByBucket(_upcoming, buckets);
+const birthdaysCount = ((birthdaysData as BirthdaysDataFile).entries ?? []).length;
 
 /**
  * Map a bucket id to its top-level slug. Kept in one place so the
