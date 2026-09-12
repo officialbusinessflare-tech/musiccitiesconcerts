@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.businessflare.musiccities",
+      "sha256_cert_fingerprints": [
+        "5A:EB:4D:49:AA:6B:32:9F:8B:46:DD:BE:2F:E9:FE:91:6E:75:A5:A3:80:88:44:59:B3:96:BC:C0:79:F9:2E:5E"
+      ]
+    }
+  }
+]
