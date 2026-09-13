@@ -57,11 +57,18 @@ const formattedCount = typeof subCount === 'number' && subCount > 0 ? formatSubC
     )}
     <p class="site-header__tagline">Where heavy metal is economic development.</p>
     <p class="site-header__sub">Curated by The Music Cities — concerts, releases, the scene.</p>
+    <div class="site-header__links">
+      <a href="https://www.youtube.com/@themusiccitiespodcast" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.youtube.com/@musiccitiesradio" target="_blank" rel="noopener">Radio</a>
+    </div>
     <a class="site-header__app" href="/app">Get the App</a>
   </div>
 </header>
 
 <style>
+  .site-header__links { display: flex; gap: 10px; justify-content: center; margin-top: 12px; }
+  .site-header__links a { color: #fff; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18); border-radius: 999px; padding: 6px 16px; font-size: 13px; font-weight: 600; text-decoration: none; }
+  .site-header__links a:hover { background: rgba(229,9,20,0.2); border-color: #e50914; }
   .site-header__app {
     display: inline-block;
     margin-top: 14px;
