@@ -1,0 +1,87 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
+import Footer from '../components/Footer.astro';
+
+/**
+ * /interviews - every band interview from The Music Cities.
+ * Sourced from the "3+ Questions - Bands" YouTube playlist.
+ * Full sit-downs where they exist, the 3 Questions series otherwise.
+ */
+
+type Interview = { band: string; scene: string; videoId: string; title: string };
+
+const interviews: Interview[] = [
+  { band: 'NEMOPHILA', scene: 'Japanese Metal', videoId: 'pJmFKOQ38e0', title: 'The Samurai Soul of Japanese Metal | The Music Cities Interview' },
+  { band: 'BRIDEAR', scene: 'Japanese Metal', videoId: 'QGW5tLmv_Ds', title: 'The Hardest Thing To Take Back Is A Future You Destroyed Yourself' },
+  { band: 'Broken by the Scream', scene: 'Japanese Metal', videoId: 'Sky1HWb5cP8', title: 'TMC Interview | London 2026' },
+  { band: 'Given by the Flames', scene: 'Global Metal', videoId: '4GnvOdPDA3M', title: 'TMC Interview | Wacken 2026' },
+  { band: 'RE:O', scene: 'Global Metal', videoId: 'LCUgnSCJwOQ', title: 'London Metal | 3 Questions' },
+  { band: 'Nemesis', scene: 'Global Metal', videoId: 'LUKyg4Dpddc', title: 'Texas Metal | Wacken Metal Battle | Houston' },
+  { band: 'Out of the Ashes', scene: 'Florida Metal', videoId: 'kDJjh_X1DQc', title: 'Female Fronted Rock from Miami | The TMC Interview' },
+  { band: 'McFisty', scene: 'Florida Metal', videoId: 'Ltyj3hbklU8', title: 'Miami Metal | 3 Questions' },
+  { band: 'We All Rise', scene: 'Florida Metal', videoId: 'MJnQVxduebk', title: 'Miami Metal | 3 Questions' },
+  { band: 'Silenmara', scene: 'Florida Metal', videoId: '-FzGiAKaXaY', title: 'Miami Metal | 3 Questions' },
+  { band: 'Medic', scene: 'Florida Metal', videoId: 'S7urjDntmYc', title: 'Miami Metal | 3 Questions' },
+  { band: 'Ramtha', scene: 'Florida Metal', videoId: '8t6jn_30VMY', title: 'SE Winner | Wacken Metal Battle' },
+  { band: 'Nocturnal Dawn', scene: 'Florida Metal', videoId: 'ERucE5hitSY', title: 'Wacken Metal Battle | 3 Questions' },
+  { band: 'God-Kings', scene: 'Florida Metal', videoId: '8uTBXfNcH_c', title: 'The Hungarian Metal Band Taking on Miami' },
+  { band: 'God-Rot', scene: 'Florida Metal', videoId: '6BvSK0jib9I', title: 'Miami Metal | 3 Questions' },
+  { band: 'SevenSins', scene: 'Florida Metal', videoId: 'WMFPAcPMkpg', title: 'Miami Metal | 3 Questions' },
+  { band: 'Shadow Fringe', scene: 'Florida Metal', videoId: 'tn5Bn9uXlKU', title: 'Miami Metal | 3 Questions' },
+  { band: 'Chasing Stars', scene: 'Florida Metal', videoId: 'UBx5ccHmoxo', title: 'Miami Metal | 3 Questions' },
+];
+
+const playlistUrl = 'https://www.youtube.com/playlist?list=PLb5XblrwD0ZF0asSK72gGUAQm72Mqy8ZT';
+---
+
+<BaseLayout
+  title="Interviews | The Music Cities"
+  description="Every band interview from The Music Cities. Full sit-downs and the 3 Questions series, one playlist."
+>
+  <Header />
+  <SceneNav activeBucketId="interviews" />
+
+  <section class="venues-hero">
+    <div class="container">
+      <h1 class="venues-hero__title">Band <em>Interviews</em></h1>
+      <p class="venues-hero__lede">
+        Every conversation we have filmed, from full sit-downs to the 3 Questions series. The whole run lives on one playlist.
+      </p>
+      <a class="watching-jump__btn" href={playlistUrl} target="_blank" rel="noopener noreferrer">Open the full playlist</a>
+    </div>
+  </section>
+
+  <main class="venues-main">
+    <div class="container">
+      <div class="venues-grid">
+        {interviews.map((iv) => (
+          <a class="interview-card" href={"https://www.youtube.com/watch?v=" + iv.videoId} target="_blank" rel="noopener noreferrer">
+            <div class="interview-card__thumb">
+              <img loading="lazy" src={"https://i.ytimg.com/vi/" + iv.videoId + "/hqdefault.jpg"} alt={iv.band + " interview"} />
+            </div>
+            <div class="interview-card__body">
+              <p class="interview-card__scene">{iv.scene}</p>
+              <h2 class="interview-card__band">{iv.band}</h2>
+              <p class="interview-card__title">{iv.title}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style is:global>
+  .interview-card { display: block; background: #141414; border: 1px solid #2a2a2a; border-radius: 12px; overflow: hidden; text-decoration: none; transition: border-color .15s ease, transform .15s ease; }
+  .interview-card:hover { border-color: #e11d2a; transform: translateY(-2px); }
+  .interview-card__thumb { aspect-ratio: 16 / 9; background: #000; }
+  .interview-card__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .interview-card__body { padding: 14px 16px 18px; }
+  .interview-card__scene { margin: 0 0 4px; font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: #e11d2a; font-weight: 700; }
+  .interview-card__band { margin: 0 0 4px; font-size: 1.05rem; color: #fff; }
+  .interview-card__title { margin: 0; font-size: 0.82rem; line-height: 1.4; color: #b7b2a9; }
+</style>
