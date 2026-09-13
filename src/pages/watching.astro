@@ -22,6 +22,7 @@ type WatchBand = {
   why: string;
   // Substring matched against the entry name in concerts.json (case-insensitive)
   match: string;
+  favorite?: boolean;   // shows the "one of our favorites" badge
   photos?: string;   // Pinterest board URL
   socials?: {        // full URLs; only present platforms render
     x?: string;
@@ -34,16 +35,18 @@ type WatchBand = {
 
 const watching: WatchBand[] = [
   // ---- Coming to the channel (featured) ----
-  { name: 'Nini — Nini Music', scene: 'Coming to the channel', match: 'nini music',
-    why: "One of our favorites. We recorded a full interview with Nini, and it is in edit now — coming to the channel soon.",
-    socials: {} },
+  { name: 'Nini — Nini Music', favorite: true, scene: 'Coming to the channel', match: 'nini music',
+    why: "We recorded a full interview with Nini, and it is in edit now — coming to the channel soon.",
+    socials: { instagram: 'https://www.instagram.com/ninimusicofficial/', youtube: 'https://www.youtube.com/channel/UCUUIp1k0tywKM1oGMkkuFvw', spotify: 'https://open.spotify.com/artist/4iggZUAEXfBeJH9DjKwccm', site: 'https://ninimusic.me/' } },
 
   // ---- Japanese / Asian metal ----
+  { name: 'BRIDEAR', favorite: true, scene: 'Japanese Metal', match: 'bridear',
+    why: "All-women heavy and power metal out of Fukuoka \u2014 twin-guitar melodic firepower under Kimi's soaring vocals, and a relentless live act built for the international stage.", socials: { x: 'https://x.com/Bridear_info', instagram: 'https://www.instagram.com/bridear_jp/', youtube: 'https://www.youtube.com/channel/UCqkHezzlbqWrmOhoTcZTVjg', spotify: 'https://open.spotify.com/artist/3h6F7NaadGF3Ayf3FJBjdR', site: 'https://bridear.jp/en' } },
   { name: 'LOVEBITES', scene: 'Japanese Metal', match: 'lovebites', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/lovebites-wacken/',
     why: "Japanese power metal at the top of the form. Twin-guitar precision, operatic range — the band the whole watch list orbits." },
-  { name: 'NEMOPHILA', scene: 'Japanese Metal', match: 'nemophila',
+  { name: 'NEMOPHILA', favorite: true, scene: 'Japanese Metal', match: 'nemophila',
     why: "All-women Japanese metal built for the live room — Mayu's roar over relentless riffing. Ten Fes is theirs." },
-  { name: 'HANABIE.', scene: 'Japanese Metal', match: 'hanabie', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/hanabie-orlando-2026/',
+  { name: 'HANABIE.', favorite: true, scene: 'Japanese Metal', match: 'hanabie', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/hanabie-orlando-2026/',
     why: "Harajuku-core: candy-colored, breakdown-heavy, touring the US non-stop. The gateway drug for the whole scene." },
   { name: 'BAND-MAID', scene: 'Japanese Metal', match: 'band-maid',
     why: "Maid-café aesthetic, hard-rock chops that silence the doubters the second Kanami solos." },
@@ -51,7 +54,7 @@ const watching: WatchBand[] = [
     why: "The ones who kicked the door in. Kawaii metal as a global stadium act; still the reference point." },
   { name: 'Rolling Quartz', scene: 'Japanese Metal', match: 'rolling quartz',
     why: "Korean hard-rock five-piece crisscrossing North America on the MY TURN tour. Loud, tight, relentless." },
-  { name: 'Broken By The Scream', scene: 'Japanese Metal', match: 'broken by the scream', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/broken-by-the-scream-wacken-2026/',
+  { name: 'Broken By The Scream', favorite: true, scene: 'Japanese Metal', match: 'broken by the scream', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/broken-by-the-scream-wacken-2026/',
     why: "Metal-screaming idol act, Metal Blade signees, Wacken alumni. Caught live at The Dome with a meet and greet." },
   { name: 'Fathomless Skywalker', scene: 'Japanese Metal', match: 'fathomless skywalker',
     why: "Tokyo symphonic metalcore led by classically-trained Chihiro. 'Pirates of the Fathomless Sea' hit #4 on Japan iTunes Metal." },
@@ -72,15 +75,15 @@ const watching: WatchBand[] = [
   // ---- Florida metal scene ----
   { name: 'Open Nerve', scene: 'Florida Metal', match: 'open nerve', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/buried-alive-festival-las-rosas-miami/open-nerve/',
     why: "Miami nu-metal / post-hardcore four-piece. Faith No More + Deftones + Glassjaw DNA; a Las Rosas headliner." },
-  { name: 'Ramtha', scene: 'Florida Metal', match: 'ramtha',
+  { name: 'Ramtha', favorite: true, scene: 'Florida Metal', match: 'ramtha',
     why: "Tampa thrash/death — friends of the channel, always on the Florida DIY bills worth driving for." },
   { name: 'Mind Virus', scene: 'Florida Metal', match: 'mind virus',
     why: "Florida underground metal, Big Ear Booking regulars. The Summer Weekender run put them on our radar." },
 
   // ---- Florida additions (Aug 2026) ----
-  { name: 'We All Rise', scene: 'Florida Metal', match: 'we all rise', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/buried-alive-festival-las-rosas-miami/we-all-rise/',
+  { name: 'We All Rise', favorite: true, scene: 'Florida Metal', match: 'we all rise', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/buried-alive-festival-las-rosas-miami/we-all-rise/',
     why: "Miami modern-metal four-piece with '90s roots, built by South Florida scene veterans. WAR to the faithful." },
-  { name: 'Silenmara', scene: 'Florida Metal', match: 'silenmara',
+  { name: 'Silenmara', favorite: true, scene: 'Florida Metal', match: 'silenmara',
     why: "Miami melodic death metal in the Gothenburg tradition. Twin-guitar melody over a death-metal engine." },
   { name: 'Maximum Friction', scene: 'Florida Metal', match: 'maximum friction',
     why: "West Palm Beach power trio, Sabbath-to-Slipknot heavy. Battle-of-the-bands winners climbing the local circuit." },
@@ -90,17 +93,17 @@ const watching: WatchBand[] = [
     why: "Orlando rock / pop-punk with video-game-themed hooks. High-energy live, newer project from experienced players." },
 
   // ---- Global / European metal ----
-  { name: 'Given by the Flames', scene: 'Global Metal', match: 'given by the flames', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/given-by-the-flames-wacken/',
+  { name: 'Given by the Flames', favorite: true, scene: 'Global Metal', match: 'given by the flames', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/given-by-the-flames-wacken/',
     why: "Tokyo gothic / symphonic metalcore — Japan's Wacken Metal Battle national winner. Won their country to earn the Wacken stage; a rare Japanese metalcore export with a dark visual identity." },
-  { name: 'Blood Command', scene: 'Global Metal', match: 'blood command',
+  { name: 'Blood Command', favorite: true, scene: 'Global Metal', match: 'blood command',
     why: "Bergen, Norway 'deathpop' — melodic hardcore with metal teeth and pop hooks. A European festival mainstay." },
-  { name: 'Hämatom', scene: 'Global Metal', match: 'matom',
+  { name: 'Hämatom', favorite: true, scene: 'Global Metal', match: 'matom',
     why: "Masked German Neue Deutsche Härte. Theatrical industrial metal, chart regulars, a costumed live spectacle." },
   { name: 'Unzucht', scene: 'Global Metal', match: 'unzucht',
     why: "Long-running German dark rock / gothic metal — melodic gothic vocals over hard riffing." },
   { name: 'Islander', scene: 'Global Metal', match: 'islander',
     why: "Greenville, SC nu-metal / metalcore. A steady-touring US act with a devoted following since 2011." },
-  { name: 'RE:O', scene: 'Global Metal', match: 're:o',
+  { name: 'RE:O', favorite: true, scene: 'Global Metal', match: 're:o',
     why: "UK-based 'Japancore' project fronted by Japanese vocalist Rio Suyama — metalcore fused with dark J-pop. Opened the London J-metal bill." },
   { name: 'El Chivo', scene: 'Global Metal', match: 'chivo',
     why: "Monterrey stoner-doom — Mexico's Wacken Metal Battle national winner. Heavy fuzz and riff worship that carried them from the local scene all the way to Wacken." },
@@ -235,8 +238,9 @@ const grouped = scenes.map((scene) => ({
           <h2 class="venues-hero__eyebrow watching-scene__title">{group.scene}</h2>
           <div class="venues-grid">
             {group.bands.map((band) => (
-              <article class="venues-card">
+              <article class={`venues-card${band.favorite ? ' venues-card--fav' : ''}`}>
                 <header class="venues-card__head">
+                  {band.favorite && <p class="venues-card__fav">One of our favorites</p>}
                   <p class="venues-card__city">{band.scene}</p>
                   <h2 class="venues-card__venue">{band.name}</h2>
                 </header>
@@ -290,4 +294,6 @@ const grouped = scenes.map((scene) => ({
     font-size: 1.1rem;
     letter-spacing: 0.12em;
   }
+  .venues-card--fav { box-shadow: inset 3px 0 0 #e11d2a; }
+  .venues-card__fav { display: block; margin: 0 0 0.5rem; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #e11d2a; }
 </style>
