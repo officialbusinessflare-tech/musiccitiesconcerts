@@ -73,6 +73,8 @@ const watching: WatchBand[] = [
     why: "Osaka metalcore duo — Akane on vocals, Naho on bass. Clean-to-scream dynamics, rising fast." },
 
   // ---- Florida metal scene ----
+  { name: 'McFisty', scene: 'Florida Metal', match: 'mcfisty',
+    why: "Our own. South Florida heavy blues metal \u2014 raw, loud, no gimmicks. Main-stage at Brewtality and part of the whole operation.", socials: { site: 'https://mcfisty.com/' } },
   { name: 'Open Nerve', scene: 'Florida Metal', match: 'open nerve', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/buried-alive-festival-las-rosas-miami/open-nerve/',
     why: "Miami nu-metal / post-hardcore four-piece. Faith No More + Deftones + Glassjaw DNA; a Las Rosas headliner." },
   { name: 'Ramtha', favorite: true, scene: 'Florida Metal', match: 'ramtha',
@@ -93,6 +95,8 @@ const watching: WatchBand[] = [
     why: "Orlando rock / pop-punk with video-game-themed hooks. High-energy live, newer project from experienced players." },
 
   // ---- Global / European metal ----
+  { name: 'Arch Enemy', scene: 'Global Metal', match: 'arch enemy',
+    why: "Swedish melodic death metal royalty \u2014 Michael Amott's guitar leads over a ferocious vocal attack. Three decades in and still one of the biggest names in extreme metal.", socials: { x: 'https://x.com/archenemymetal', instagram: 'https://www.instagram.com/archenemyofficial/', youtube: 'https://www.youtube.com/@archenemyofficial', spotify: 'https://open.spotify.com/artist/0DCw6lHkzh9t7f8Hb4Z0Sx', site: 'https://archenemy.net/' } },
   { name: 'Given by the Flames', favorite: true, scene: 'Global Metal', match: 'given by the flames', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/given-by-the-flames-wacken/',
     why: "Tokyo gothic / symphonic metalcore — Japan's Wacken Metal Battle national winner. Won their country to earn the Wacken stage; a rare Japanese metalcore export with a dark visual identity." },
   { name: 'Blood Command', favorite: true, scene: 'Global Metal', match: 'blood command',
@@ -228,13 +232,18 @@ const grouped = scenes.map((scene) => ({
         The artists we track, cover, and drive to see. When one of these names shows up on a
         flyer, it earns a spot on the calendar. The band equivalent of our go-to venues.
       </p>
+      <div class="watching-jump">
+        <a class="watching-jump__btn" href="#scene-florida-metal">Florida</a>
+        <a class="watching-jump__btn" href="#scene-global-metal">Global</a>
+        <a class="watching-jump__btn" href="#scene-japanese-metal">Japan</a>
+      </div>
     </div>
   </section>
 
   <main class="venues-main">
     <div class="container">
       {grouped.map((group) => (
-        <section class="watching-scene">
+        <section class="watching-scene" id={'scene-' + group.scene.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'')}>
           <h2 class="venues-hero__eyebrow watching-scene__title">{group.scene}</h2>
           <div class="venues-grid">
             {group.bands.map((band) => (
@@ -296,4 +305,8 @@ const grouped = scenes.map((scene) => ({
   }
   .venues-card--fav { box-shadow: inset 3px 0 0 #e11d2a; }
   .venues-card__fav { display: block; margin: 0 0 0.5rem; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #e11d2a; }
+  .watching-jump { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.1rem 0 0; }
+  .watching-jump__btn { display: inline-block; padding: 0.4rem 1rem; border: 1px solid #e11d2a; border-radius: 999px; color: #e11d2a; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; transition: background .15s ease, color .15s ease; }
+  .watching-jump__btn:hover { background: #e11d2a; color: #0a0a0a; }
+  .watching-scene { scroll-margin-top: 84px; }
 </style>
