@@ -82,6 +82,8 @@ const SCENE_BRIEFS: { id: string; name: string; href: string }[] = [
 
 <nav class="scene-nav" aria-label="Browse the scene">
   <div class="container scene-nav__inner">
+    <button type="button" class="scene-nav__toggle" aria-expanded="false" aria-controls="scene-nav-panel">Browse the scene</button>
+    <div class="scene-nav__panel" id="scene-nav-panel">
     <div class="scene-nav__row">
       <span class="scene-nav__label">Browse:</span>
       <ul class="scene-nav__list">
@@ -162,10 +164,14 @@ const SCENE_BRIEFS: { id: string; name: string; href: string }[] = [
         })}
       </ul>
     </div>
+    </div>
   </div>
 </nav>
 
 <style is:global>
+  .scene-nav__toggle { display: none; }
+  .scene-nav__panel { display: contents; }
+
   /* Compact the scene nav on phones. High specificity + !important so it wins over the base .scene-nav rules regardless of stylesheet order. */
   @media (max-width: 640px) {
     nav.scene-nav .scene-nav__inner { gap: 0.4rem !important; padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
@@ -179,5 +185,23 @@ const SCENE_BRIEFS: { id: string; name: string; href: string }[] = [
     nav.scene-nav .scene-nav__kanji { display: none !important; }
     nav.scene-nav .scene-nav__count { display: none !important; }
     nav.scene-nav .scene-nav__row { margin-bottom: 0.35rem !important; }
+    nav.scene-nav .scene-nav__toggle { display: block; width: 100%; text-align: left; background: transparent; border: 0; color: #e11d2a; font-weight: 700; font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.35rem 0; cursor: pointer; }
+    nav.scene-nav .scene-nav__toggle::after { content: " \25BE"; }
+    nav.scene-nav.is-open .scene-nav__toggle::after { content: " \25B4"; }
+    nav.scene-nav .scene-nav__panel { display: none; }
+    nav.scene-nav.is-open .scene-nav__panel { display: block; padding-bottom: 0.35rem; }
   }
 </style>
+
+<script is:inline>
+  (function () {
+    var nav = document.querySelector('.scene-nav');
+    var btn = nav && nav.querySelector('.scene-nav__toggle');
+    if (btn) {
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    }
+  })();
+</script>
