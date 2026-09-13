@@ -1,184 +1,6 @@
 {
-  "generatedAt": "2026-09-12T07:01:20.785Z",
+  "generatedAt": "2026-09-13T07:00:40.960Z",
   "entries": [
-    {
-      "id": "86bbw0ewq",
-      "name": "Young Cassidy + Dirty Crumbums + Mother Rucker @ Churchill's Pub — Miami, FL — Sep 12 2026",
-      "date": "2026-09-12",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Young Cassidy",
-        "Dirty Crumbums",
-        "Mother Rucker"
-      ],
-      "description": "Punk night at Churchill's Pub, Miami — Young Cassidy, Dirty Crumbums, Jeremy Sousa and Mother Rucker. Saturday, September 12, 2026, 9:30 PM. Source: Churchill's Pub event calendar (https://churchillspub.com/events/).",
-      "ticketUrl": "https://churchillspub.com/events/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbw0ewq",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbu797m",
-      "name": "Loudness @ Candelabrum Metal Fest — León, Mexico — Sep 12 2026",
-      "date": "2026-09-12",
-      "venue": "Candelabrum Metal Fest",
-      "city": "León",
-      "country": "Mexico",
-      "bands": [
-        "Loudness"
-      ],
-      "description": "Two-day festival, Sep 12–13. Japan's original metal export, playing the Americas.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu797m",
-      "buckets": [
-        "japanese-metal",
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86bbtbtnp",
-      "name": "Militarie Gun @ The Orpheum — Tampa, FL — Sep 12 2026",
-      "date": "2026-09-12",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Militarie Gun"
-      ],
-      "description": "Opens the Florida run — Miami hits Churchill's on Sep 13 and Orlando gets Conduit on Sep 14.",
-      "ticketUrl": "https://www.jambase.com/show/militarie-gun-the-orpheum-20260912",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbtbtnp",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbkeazw",
-      "name": "Spike Hellis @ Las Rosas — Miami, FL — Sep 12 2026",
-      "date": "2026-09-12",
-      "venue": "Las Rosas",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Spike Hellis"
-      ],
-      "description": "Spike Hellis at Las Rosas — LA industrial/EBM duo. Part of a run of darkwave bookings Las Rosas is stacking this fall alongside ULTRA SUNN (Oct 9).",
-      "ticketUrl": "https://www.bandsintown.com/e/1038802355",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkeazw",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbke8kb",
-      "name": "TRiDENT @ Spotify O-WEST — Tokyo, Japan — Sep 12 2026",
-      "date": "2026-09-12",
-      "venue": "Spotify O-WEST",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "TRiDENT"
-      ],
-      "description": "TRiDENT — カチコミ対バンツアー (Kachikomi co-headline tour), Tokyo date at Spotify O-WEST.",
-      "ticketUrl": "https://trident-japan.com/live_information/detail/43209",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbke8kb",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbke8dt",
-      "name": "Unlucky Morpheus @ OSAKA MUSE — Osaka, Japan — Sep 12 2026",
-      "date": "2026-09-12",
-      "venue": "OSAKA MUSE",
-      "city": "Osaka",
-      "country": "Japan",
-      "bands": [
-        "Unlucky Morpheus"
-      ],
-      "description": "Unlucky Morpheus — \"HELL or HEAVEN\" 暴れん坊限定 (mosh-pit-only) show, Osaka leg.",
-      "ticketUrl": "https://www.udo.jp/shows/UM_hellorheaven_abare",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbke8dt",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbct3j6",
-      "name": "Skate Jam — Billy Doom + Trip The Monkey + Fuakata @ Langford Park — Jensen Beach, FL — Sep 12 2026",
-      "date": "2026-09-12",
-      "venue": "Billy Doom + Trip The Monkey + Fuakata @ Langford Park — Jensen Beach",
-      "state": "FL",
-      "bands": [
-        "Skate Jam"
-      ],
-      "description": "Event: Skate Jam — come, skate, rock, support\nFirst four bands announced: Billy Doom, Trip The Monkey, ¡Fuakata!, Goat Rope. Four more bands to be announced.\nVenue: Langford Park, Jensen Beach, FL\nDate: Saturday, September 12, 2026 — 12 PM to 6 PM\nAll ages, free…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbct3j6",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86barcrhx",
-      "name": "Rolling Quartz @ Substation — Seattle, WA — Sep 12 2026",
-      "date": "2026-09-12",
-      "venue": "Substation",
-      "city": "Seattle",
-      "state": "WA",
-      "bands": [
-        "Rolling Quartz"
-      ],
-      "description": "Rolling Quartz bring their MY TURN North America tour to Substation in Seattle, WA. Korean hard-rock five-piece on the watch-list rotation. Show date: September 12, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcrhx",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w48g",
-      "name": "BABYMETAL @ Jiffy Lube Live — Bristow, VA — Sep 12 2026",
-      "date": "2026-09-12",
-      "venue": "Jiffy Lube Live",
-      "city": "Bristow",
-      "state": "VA",
-      "bands": [
-        "BABYMETAL"
-      ],
-      "description": "BABYMETAL — World Tour 2026. Jiffy Lube Live in Bristow, VA. Show date: Sep 12 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w48g",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbke8za",
       "name": "Broken by the Scream @ Shinjuku ANTIKNOCK — Tokyo, Japan — Sep 13 2026",
@@ -757,6 +579,25 @@
       ]
     },
     {
+      "id": "86bbzuw7b",
+      "name": "Out of the Ashes @ Kill Your Idol — Miami Beach, FL — Sep 18 2026",
+      "date": "2026-09-18",
+      "venue": "Kill Your Idol",
+      "city": "Miami Beach",
+      "state": "FL",
+      "bands": [
+        "Out of the Ashes"
+      ],
+      "description": "Out of the Ashes (South Florida female-fronted original hard rock) at Kill Your Idol, 222 Espanola Way, Miami Beach. On our Florida Metal watch list. Fri Sep 18, 2026. Source: band + Songkick/Bandsintown.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzuw7b",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbmte56",
       "name": "The Browning + Deadlands + Extortionist @ The Orpheum — Tampa, FL — Sep 18 2026",
       "date": "2026-09-18",
@@ -940,6 +781,26 @@
       ]
     },
     {
+      "id": "86bbzrk8t",
+      "name": "METALVERSE @ duo MUSIC EXCHANGE — Tokyo, Japan — Sep 19 2026",
+      "date": "2026-09-19",
+      "venue": "duo MUSIC EXCHANGE",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "METALVERSE"
+      ],
+      "description": "METALVERSE at duo MUSIC EXCHANGE, Shibuya. Saturday, September 19, 2026. Listing: https://www.bandsintown.com/Metalverse",
+      "ticketUrl": "https://www.bandsintown.com/Metalverse",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk8t",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbuyjmu",
       "name": "Havok + Blood Red Throne @ The Dome — London, UK — Sep 19 2026",
       "date": "2026-09-19",
@@ -1117,7 +978,7 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb0uvf9",
       "buckets": [
-        "interesting-elsewhere"
+        "florida-metal-scene"
       ]
     },
     {
@@ -1199,15 +1060,16 @@
     },
     {
       "id": "86bb9w4y7",
-      "name": "HANABIE. @ Chiba LOOK — Chiba, Japan — Sep 19 2026",
+      "name": "HANABIE. + EMNW @ Chiba LOOK — Chiba, Japan — Sep 19 2026",
       "date": "2026-09-19",
       "venue": "Chiba LOOK",
       "city": "Chiba",
       "country": "Japan",
       "bands": [
-        "HANABIE."
+        "HANABIE.",
+        "EMNW"
       ],
-      "description": "HANABIE. — Japan 2MAN Tour 2026 opener. Chiba LOOK in Chiba, Japan. Show date: Sep 19 2026.",
+      "description": "HANABIE. — Japan 2MAN Tour 2026 opener, with EMNW as the two-man partner. Chiba LOOK in Chiba, Japan. Show date: Sep 19 2026.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
@@ -1358,6 +1220,26 @@
       ]
     },
     {
+      "id": "86bbzrk6u",
+      "name": "SHOW-YA @ Umeda CLUB QUATTRO — Osaka, Japan — Sep 21 2026",
+      "date": "2026-09-21",
+      "venue": "Umeda CLUB QUATTRO",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "SHOW-YA"
+      ],
+      "description": "SHOW-YA at Umeda CLUB QUATTRO, Osaka. Monday, September 21, 2026 (holiday). Listing: https://www.bandsintown.com/Show-Ya",
+      "ticketUrl": "https://www.bandsintown.com/Show-Ya",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk6u",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbwe8u1",
       "name": "Broken By The Scream @ Aoyama RizM — Tokyo, Japan — Sep 21 2026",
       "date": "2026-09-21",
@@ -1471,6 +1353,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w4av",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbzrk79",
+      "name": "SHOW-YA @ Electric Lady Land — Nagoya, Japan — Sep 22 2026",
+      "date": "2026-09-22",
+      "venue": "Electric Lady Land",
+      "city": "Nagoya",
+      "country": "Japan",
+      "bands": [
+        "SHOW-YA"
+      ],
+      "description": "SHOW-YA at Electric Lady Land, Nagoya. Tuesday, September 22, 2026. Listing: https://www.bandsintown.com/Show-Ya",
+      "ticketUrl": "https://www.bandsintown.com/Show-Ya",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk79",
       "buckets": [
         "japanese-metal"
       ]
@@ -2108,6 +2010,26 @@
       ]
     },
     {
+      "id": "86bbzrk7r",
+      "name": "BRIDEAR @ Zirco Tokyo — Tokyo, Japan — Sep 26 2026",
+      "date": "2026-09-26",
+      "venue": "Zirco Tokyo",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "BRIDEAR"
+      ],
+      "description": "BRIDEAR at Zirco Tokyo (Shinjuku). Saturday, September 26, 2026. Listing: https://www.bandsintown.com/Bridear",
+      "ticketUrl": "https://www.bandsintown.com/Bridear",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk7r",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbxf9fq",
       "name": "Holly Hunt + Wastelands + CRUD @ Las Rosas — Miami, FL — Sep 26 2026",
       "date": "2026-09-26",
@@ -2406,6 +2328,26 @@
       ]
     },
     {
+      "id": "86bbzrk19",
+      "name": "ASTERISM @ Cotton Club — Tokyo, Japan — Sep 28 2026",
+      "date": "2026-09-28",
+      "venue": "Cotton Club",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "ASTERISM"
+      ],
+      "description": "ASTERISM in an unusually intimate setting — the Marunouchi jazz room Cotton Club. Monday, September 28, 2026. Listing: https://www.bandsintown.com/ASTERISM",
+      "ticketUrl": "https://www.bandsintown.com/ASTERISM",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk19",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb9w63g",
       "name": "SiM @ GORILLA HALL OSAKA — Osaka, Japan — Sep 28 2026",
       "date": "2026-09-28",
@@ -2535,7 +2477,7 @@
         "Great White",
         "Slaughter"
       ],
-      "description": "Source: Bandsintown promoted email, Sept 10, 2026 (arrived because Kevin follows Great White, Slaughter, Mötley Crüe, Guns N' Roses, Metallica, Van Halen, Ozzy Osbourne). Thursday October 1, Lillian S. Wells Hall at The Parker, Fort Lauderdale. Part of the Cleveland Clinic Rock…",
+      "description": "Source: Bandsintown promoted email, Sept 10, 2026 (arrived because we follow Great White, Slaughter, Mötley Crüe, Guns N' Roses, Metallica, Van Halen, Ozzy Osbourne). Thursday October 1, Lillian S. Wells Hall at The Parker, Fort Lauderdale. Part of the Cleveland Clinic Rock…",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
@@ -2701,6 +2643,27 @@
       ]
     },
     {
+      "id": "86bbzrjy2",
+      "name": "Agnostic Front + Angel Du$t @ The Albatross — Jacksonville, FL — Oct 2 2026",
+      "date": "2026-10-02",
+      "venue": "The Albatross",
+      "city": "Jacksonville",
+      "state": "FL",
+      "bands": [
+        "Agnostic Front",
+        "Angel Du$t"
+      ],
+      "description": "NYHC originators Agnostic Front and Angel Du$t co-headline, opening a four-night Florida run (Jacksonville → Miami → Bradenton → Orlando). Florida newcomers Step 2 This open. Friday, October 2, 2026, 7 PM. Tickets:…",
+      "ticketUrl": "https://www.bandsintown.com/e/108616314-agnostic-front-at-the-albatross",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrjy2",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbwe8uu",
       "name": "EMNW @ Gammahol — Seoul, South Korea — Oct 2 2026",
       "date": "2026-10-02",
@@ -2795,6 +2758,64 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4zz",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbztb2u",
+      "name": "Silenmara + Mind Virus @ The Banyan Live — West Palm Beach, FL — Oct 3 2026",
+      "date": "2026-10-03",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Silenmara",
+        "Mind Virus"
+      ],
+      "description": "Silenmara and Mind Virus (both on our Florida Metal watch list) on the same bill at The Banyan Live, West Palm Beach — Sat Oct 3, 2026. Full lineup also includes LiveKill, MRSA, and Death of a Deity. Source: Bandsintown / The Banyan Live.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbztb2u",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbzt9yh",
+      "name": "RE:O @ Boom — Leeds, UK — Oct 3 2026",
+      "date": "2026-10-03",
+      "venue": "Boom",
+      "city": "Leeds",
+      "state": "UK",
+      "bands": [
+        "RE:O"
+      ],
+      "description": "RE:O (UK \"Japancore,\" fronted by Rio Suyama) headlining at Boom, Leeds. On our Bands We're Watching list (Global Metal). Source: Bandsintown.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt9yh",
+      "buckets": []
+    },
+    {
+      "id": "86bbzrjyn",
+      "name": "Agnostic Front + Angel Du$t @ Lincoln's Beard Brewing — Miami, FL — Oct 3 2026",
+      "date": "2026-10-03",
+      "venue": "Lincoln's Beard Brewing",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Agnostic Front",
+        "Angel Du$t"
+      ],
+      "description": "Agnostic Front and Angel Du$t co-headline at Lincoln's Beard Brewing Co., Miami — night two of the Florida run. Florida newcomers Step 2 This open. Saturday, October 3, 2026, 7 PM. Tickets: https://www.bandsintown.com/e/108616324-agnostic-front-at-lincoln's-beard-brewing-co.",
+      "ticketUrl": "https://www.bandsintown.com/e/108616324-agnostic-front-at-lincoln",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrjyn",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3016,6 +3037,27 @@
       "buckets": [
         "japanese-metal",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bbzrjza",
+      "name": "Agnostic Front + Angel Du$t @ Oscura — Bradenton, FL — Oct 4 2026",
+      "date": "2026-10-04",
+      "venue": "Oscura",
+      "city": "Bradenton",
+      "state": "FL",
+      "bands": [
+        "Agnostic Front",
+        "Angel Du$t"
+      ],
+      "description": "Agnostic Front and Angel Du$t co-headline at Oscura, Bradenton — night three of the Florida run before the Conduit finale. Step 2 This open. Sunday, October 4, 2026, 6 PM. Tickets: https://www.bandsintown.com/e/108616331-agnostic-front-at-oscura",
+      "ticketUrl": "https://www.bandsintown.com/e/108616331-agnostic-front-at-oscura",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrjza",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -3444,6 +3486,26 @@
       ]
     },
     {
+      "id": "86bbzrk1t",
+      "name": "ASTERISM @ Club Chaos — Yokkaichi, Japan — Oct 9 2026",
+      "date": "2026-10-09",
+      "venue": "Club Chaos",
+      "city": "Yokkaichi",
+      "country": "Japan",
+      "bands": [
+        "ASTERISM"
+      ],
+      "description": "ASTERISM at Club Chaos, Yokkaichi (Mie). Friday, October 9, 2026. Listing: https://www.bandsintown.com/ASTERISM",
+      "ticketUrl": "https://www.bandsintown.com/ASTERISM",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk1t",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbuyjph",
       "name": "Baest + Deadnate + Sawticide @ Downstairs at The Dome — London, UK — Oct 9 2026",
       "date": "2026-10-09",
@@ -3507,15 +3569,16 @@
     },
     {
       "id": "86bbkeau2",
-      "name": "Pathogenic @ Brass Mug — Tampa, FL — Oct 9 2026",
+      "name": "Pathogenic + CryptLord @ Brass Mug — Tampa, FL — Oct 9 2026",
       "date": "2026-10-09",
       "venue": "Brass Mug",
       "city": "Tampa",
       "state": "FL",
       "bands": [
-        "Pathogenic"
+        "Pathogenic",
+        "CryptLord"
       ],
-      "description": "Pathogenic at the Brass Mug. The band also plays Churchill's Pub in Miami on Oct 11 with Aversed, so this is a Florida run rather than a one-off.",
+      "description": "Pathogenic at the Brass Mug, with Florida's own CryptLord on the bill. Pathogenic also play Churchill's Pub in Miami on Oct 11 with Aversed, so this is a Florida run rather than a one-off.",
       "ticketUrl": "https://www.bandsintown.com/e/1039901203",
       "priority": "normal",
       "isRelease": false,
@@ -3633,6 +3696,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w4nn",
+      "buckets": [
+        "florida-metal-scene",
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbzt691",
+      "name": "Nini Music + Seven Kingdoms @ Conduit — Orlando, FL — Oct 10 2026",
+      "date": "2026-10-10",
+      "venue": "Conduit",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Tour opener. One of our favorites — full interview recorded, coming to the channel. Source: NextMosh tour announcement, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt691",
       "buckets": [
         "florida-metal-scene",
         "japanese-metal"
@@ -3757,6 +3841,27 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w50y",
       "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbzt6cp",
+      "name": "Nini Music + Seven Kingdoms @ The Orpheum — Tampa, FL — Oct 11 2026",
+      "date": "2026-10-11",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt6cp",
+      "buckets": [
+        "florida-metal-scene",
         "japanese-metal"
       ]
     },
@@ -4044,6 +4149,26 @@
       ]
     },
     {
+      "id": "86bbzt6cr",
+      "name": "Nini Music + Seven Kingdoms @ Hanger 1819 — Greensboro, NC — Oct 13 2026",
+      "date": "2026-10-13",
+      "venue": "Hanger 1819",
+      "city": "Greensboro",
+      "state": "NC",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt6cr",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbu78at",
       "name": "Basement + Momma @ Jannus Live — St. Petersburg, FL — Oct 13 2026",
       "date": "2026-10-13",
@@ -4124,6 +4249,26 @@
       ]
     },
     {
+      "id": "86bbzt6cv",
+      "name": "Nini Music + Seven Kingdoms @ Canal Club — Richmond, VA — Oct 14 2026",
+      "date": "2026-10-14",
+      "venue": "Canal Club",
+      "city": "Richmond",
+      "state": "VA",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt6cv",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbr72uc",
       "name": "Thrown + Norma Jean + Half Me @ The Orpheum — Tampa, FL — Oct 14 2026",
       "date": "2026-10-14",
@@ -4179,6 +4324,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w4q1",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbzt6d4",
+      "name": "Nini Music + Seven Kingdoms @ Woodshop — New York, NY — Oct 15 2026",
+      "date": "2026-10-15",
+      "venue": "Woodshop",
+      "city": "New York",
+      "state": "NY",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt6d4",
       "buckets": [
         "japanese-metal"
       ]
@@ -4346,6 +4511,26 @@
       ]
     },
     {
+      "id": "86bbzt6de",
+      "name": "Nini Music + Seven Kingdoms @ Mohawk Place — Buffalo, NY — Oct 16 2026",
+      "date": "2026-10-16",
+      "venue": "Mohawk Place",
+      "city": "Buffalo",
+      "state": "NY",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt6de",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbvpdvh",
       "name": "Knocked Loose + Denzel Curry @ Orlando Amphitheater — Orlando, FL — Oct 16 2026",
       "date": "2026-10-16",
@@ -4462,6 +4647,26 @@
       "clickupUrl": "https://app.clickup.com/t/86ba5zfhv",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbzt6dg",
+      "name": "Nini Music + Seven Kingdoms @ The Lost Horizon — Syracuse, NY — Oct 17 2026",
+      "date": "2026-10-17",
+      "venue": "The Lost Horizon",
+      "city": "Syracuse",
+      "state": "NY",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt6dg",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4599,6 +4804,46 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w4qd",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbzt6dn",
+      "name": "Nini Music + Seven Kingdoms @ Phantom Power — Millersville, PA — Oct 18 2026",
+      "date": "2026-10-18",
+      "venue": "Phantom Power",
+      "city": "Millersville",
+      "state": "PA",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt6dn",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbzrk2a",
+      "name": "ASTERISM @ Saga Prefectural Art Museum — Saga, Japan — Oct 18 2026",
+      "date": "2026-10-18",
+      "venue": "Saga Prefectural Art Museum",
+      "city": "Saga",
+      "country": "Japan",
+      "bands": [
+        "ASTERISM"
+      ],
+      "description": "ASTERISM play the Saga Prefectural Art Museum — likely an event or festival appearance rather than a standard club date. Sunday, October 18, 2026. Listing: https://www.bandsintown.com/ASTERISM",
+      "ticketUrl": "https://www.bandsintown.com/ASTERISM",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk2a",
       "buckets": [
         "japanese-metal"
       ]
@@ -4785,6 +5030,46 @@
       ]
     },
     {
+      "id": "86bbzt6dr",
+      "name": "Nini Music + Seven Kingdoms @ Preserving Underground — Pittsburgh, PA — Oct 20 2026",
+      "date": "2026-10-20",
+      "venue": "Preserving Underground",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt6dr",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbzrjzz",
+      "name": "Stryper @ House of Blues — Lake Buena Vista (Orlando), FL — Oct 20 2026",
+      "date": "2026-10-20",
+      "venue": "House of Blues",
+      "city": "Lake Buena Vista (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Stryper"
+      ],
+      "description": "Stryper bring the yellow-and-black to the House of Blues Music Hall on their fall 2026 US run. Tuesday, October 20, 2026, 7 PM. Tickets from $54: https://www.ticketmaster.com/stryper-orlando-florida-10-20-2026/event/220064A6F5D7908D",
+      "ticketUrl": "https://www.ticketmaster.com/stryper-orlando-florida-10-20-2026/event/220064A6F5D7908D",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrjzz",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbvd1en",
       "name": "Breaking Benjamin + Chevelle + Starset @ iTHINK Financial Amphitheatre — West Palm Beach, FL — Oct 20 2026",
       "date": "2026-10-20",
@@ -4887,6 +5172,26 @@
       ]
     },
     {
+      "id": "86bbzt6dv",
+      "name": "Nini Music + Seven Kingdoms @ The Foundry — Cleveland, OH — Oct 21 2026",
+      "date": "2026-10-21",
+      "venue": "The Foundry",
+      "city": "Cleveland",
+      "state": "OH",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt6dv",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbr50e8",
       "name": "NINI + Seven Kingdoms @ The Foundry — Cleveland, OH — Oct 21 2026",
       "date": "2026-10-21",
@@ -4922,6 +5227,26 @@
       "buckets": [
         "japanese-metal",
         "album-releases"
+      ]
+    },
+    {
+      "id": "86bbzt6e0",
+      "name": "Nini Music + Seven Kingdoms @ Summit Music Hall — Columbus, OH — Oct 22 2026",
+      "date": "2026-10-22",
+      "venue": "Summit Music Hall",
+      "city": "Columbus",
+      "state": "OH",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt6e0",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -5044,6 +5369,43 @@
       ]
     },
     {
+      "id": "86bbzt9yj",
+      "name": "RE:O @ ReSkin Night — Chelmsford, UK — Oct 23 2026",
+      "date": "2026-10-23",
+      "venue": "ReSkin Night",
+      "city": "Chelmsford",
+      "state": "UK",
+      "bands": [
+        "RE:O"
+      ],
+      "description": "RE:O (UK \"Japancore,\" Rio Suyama) at ReSkin Night, Chelmsford. Bands We're Watching (Global Metal). Source: Bandsintown.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt9yj",
+      "buckets": []
+    },
+    {
+      "id": "86bbzt6e2",
+      "name": "Nini Music + Seven Kingdoms @ Black Circle — Indianapolis, IN — Oct 23 2026",
+      "date": "2026-10-23",
+      "venue": "Black Circle",
+      "city": "Indianapolis",
+      "state": "IN",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt6e2",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbu78c7",
       "name": "Scene Queen + Wargasm @ Jannus Live — St. Petersburg, FL — Oct 23 2026",
       "date": "2026-10-23",
@@ -5145,6 +5507,45 @@
       "clickupUrl": "https://app.clickup.com/t/86bamuujm",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbzt9ym",
+      "name": "RE:O @ MCM Comic Con (Pop Asia Stage) — London, UK — Oct 24 2026",
+      "date": "2026-10-24",
+      "venue": "MCM Comic Con (Pop Asia Stage)",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "RE:O"
+      ],
+      "description": "RE:O (UK \"Japancore,\" Rio Suyama) on the Pop Asia Stage at MCM Comic Con London. Bands We're Watching (Global Metal). Source: Bandsintown.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt9ym",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bbzt6e5",
+      "name": "Nini Music + Seven Kingdoms @ Cobra Lounge — Chicago, IL — Oct 24 2026",
+      "date": "2026-10-24",
+      "venue": "Cobra Lounge",
+      "city": "Chicago",
+      "state": "IL",
+      "bands": [
+        "Nini Music",
+        "Seven Kingdoms"
+      ],
+      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Tour closer. Source: NextMosh, Aug 3 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt6e5",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -5954,6 +6355,26 @@
       ]
     },
     {
+      "id": "86bbzrk3a",
+      "name": "EMNW @ SPiCE — Sapporo, Japan — Nov 3 2026",
+      "date": "2026-11-03",
+      "venue": "SPiCE",
+      "city": "Sapporo",
+      "country": "Japan",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW take the self-titled major-debut album on the road — Sapporo SPiCE. Tuesday, November 3, 2026. Listing: https://www.bandsintown.com/EMNW",
+      "ticketUrl": "https://www.bandsintown.com/EMNW",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk3a",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbuyjuz",
       "name": "Havok @ Come and Take It Live — Austin, TX — Nov 3 2026",
       "date": "2026-11-03",
@@ -6467,6 +6888,43 @@
       ]
     },
     {
+      "id": "86bbzt9yn",
+      "name": "RE:O @ Reading Rising 2026 — Reading, UK — Nov 8 2026",
+      "date": "2026-11-08",
+      "venue": "Reading Rising 2026",
+      "city": "Reading",
+      "state": "UK",
+      "bands": [
+        "RE:O"
+      ],
+      "description": "RE:O (UK \"Japancore,\" Rio Suyama) at Reading Rising 2026. Bands We're Watching (Global Metal). Source: Bandsintown.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt9yn",
+      "buckets": []
+    },
+    {
+      "id": "86bbzrk2u",
+      "name": "ASTERISM @ Shinjuku ANTIKNOCK — Tokyo, Japan — Nov 8 2026",
+      "date": "2026-11-08",
+      "venue": "Shinjuku ANTIKNOCK",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "ASTERISM"
+      ],
+      "description": "ASTERISM at Shinjuku ANTIKNOCK. Sunday, November 8, 2026. Listing: https://www.bandsintown.com/ASTERISM",
+      "ticketUrl": "https://www.bandsintown.com/ASTERISM",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk2u",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb9w546",
       "name": "HANABIE. @ ELLCUBE — Tomakomai, Japan — Nov 8 2026",
       "date": "2026-11-08",
@@ -6662,6 +7120,43 @@
       ]
     },
     {
+      "id": "86bbzt9yp",
+      "name": "RE:O @ The Arundel Emporium — Sheffield, UK — Nov 13 2026",
+      "date": "2026-11-13",
+      "venue": "The Arundel Emporium",
+      "city": "Sheffield",
+      "state": "UK",
+      "bands": [
+        "RE:O"
+      ],
+      "description": "RE:O (UK \"Japancore,\" Rio Suyama) at The Arundel Emporium, Sheffield. Bands We're Watching (Global Metal). Source: Bandsintown.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt9yp",
+      "buckets": []
+    },
+    {
+      "id": "86bbzrk3q",
+      "name": "EMNW @ DIME — Takamatsu, Japan — Nov 13 2026",
+      "date": "2026-11-13",
+      "venue": "DIME",
+      "city": "Takamatsu",
+      "country": "Japan",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW album tour — DIME, Takamatsu. Friday, November 13, 2026. Listing: https://www.bandsintown.com/EMNW",
+      "ticketUrl": "https://www.bandsintown.com/EMNW",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk3q",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbwe8q2",
       "name": "Hawthorne Heights + Creeper @ Revolution Live — Fort Lauderdale, FL — Nov 13 2026",
       "date": "2026-11-13",
@@ -6804,6 +7299,23 @@
       ]
     },
     {
+      "id": "86bbzt9yu",
+      "name": "RE:O @ Firebug — Leicester, UK — Nov 14 2026",
+      "date": "2026-11-14",
+      "venue": "Firebug",
+      "city": "Leicester",
+      "state": "UK",
+      "bands": [
+        "RE:O"
+      ],
+      "description": "RE:O (UK \"Japancore,\" Rio Suyama) at Firebug, Leicester. Bands We're Watching (Global Metal). Source: Bandsintown.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzt9yu",
+      "buckets": []
+    },
+    {
       "id": "86bbpafhq",
       "name": "Pain of Truth + Madball + Rotting Out @ The Orpheum — Tampa, FL — Nov 14 2026",
       "date": "2026-11-14",
@@ -6932,6 +7444,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w4tx",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbzrk46",
+      "name": "EMNW @ Yogibo HOLY MOUNTAIN — Osaka, Japan — Nov 15 2026",
+      "date": "2026-11-15",
+      "venue": "Yogibo HOLY MOUNTAIN",
+      "city": "Osaka",
+      "country": "Japan",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW album tour — Yogibo HOLY MOUNTAIN, Osaka. Sunday, November 15, 2026. Listing: https://www.bandsintown.com/EMNW",
+      "ticketUrl": "https://www.bandsintown.com/EMNW",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk46",
       "buckets": [
         "japanese-metal"
       ]
@@ -7176,6 +7708,26 @@
       "buckets": []
     },
     {
+      "id": "86bbzrk4p",
+      "name": "EMNW @ ell.FITS ALL — Nagoya, Japan — Nov 20 2026",
+      "date": "2026-11-20",
+      "venue": "ell.FITS ALL",
+      "city": "Nagoya",
+      "country": "Japan",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW album tour — ell.FITS ALL, Nagoya. Friday, November 20, 2026. Listing: https://www.bandsintown.com/EMNW",
+      "ticketUrl": "https://www.bandsintown.com/EMNW",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk4p",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbqbpd8",
       "name": "Ho99o9 + N8NOFACE @ Churchill's Pub — Miami, FL — Nov 20 2026",
       "date": "2026-11-20",
@@ -7316,6 +7868,26 @@
       ]
     },
     {
+      "id": "86bbzrk56",
+      "name": "EMNW @ LIVE HOUSE Queblick — Fukuoka, Japan — Nov 22 2026",
+      "date": "2026-11-22",
+      "venue": "LIVE HOUSE Queblick",
+      "city": "Fukuoka",
+      "country": "Japan",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW album tour — LIVE HOUSE Queblick, Fukuoka. Sunday, November 22, 2026. Listing: https://www.bandsintown.com/EMNW",
+      "ticketUrl": "https://www.bandsintown.com/EMNW",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk56",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbxf9kf",
       "name": "SkyLighthouse + Open Nerve + Dreamriver @ The Banyan Live — West Palm Beach, FL — Nov 22 2026",
       "date": "2026-11-22",
@@ -7393,6 +7965,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baqty2q",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbzrk5r",
+      "name": "EMNW @ SIX ONE Live STAR — Hiroshima, Japan — Nov 23 2026",
+      "date": "2026-11-23",
+      "venue": "SIX ONE Live STAR",
+      "city": "Hiroshima",
+      "country": "Japan",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW album tour — SIX ONE Live STAR, Hiroshima. Monday, November 23, 2026. Listing: https://www.bandsintown.com/EMNW",
+      "ticketUrl": "https://www.bandsintown.com/EMNW",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk5r",
       "buckets": [
         "japanese-metal"
       ]
@@ -7750,6 +8342,26 @@
       ]
     },
     {
+      "id": "86bbzrk68",
+      "name": "EMNW @ Zepp Shinjuku — Tokyo, Japan — Dec 3 2026",
+      "date": "2026-12-03",
+      "venue": "Zepp Shinjuku",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW album tour finale — Zepp Shinjuku (TOKYO), the biggest room of the run. Thursday, December 3, 2026. Listing: https://www.bandsintown.com/EMNW",
+      "ticketUrl": "https://www.bandsintown.com/EMNW",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbzrk68",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb9w4h8",
       "name": "BABYMETAL @ Movistar Arena — Santiago, Chile — Dec 3 2026",
       "date": "2026-12-03",
@@ -8093,14 +8705,18 @@
     },
     {
       "id": "86b7xw9xz",
-      "name": "Sabaton — Hard Rock Live, Hollywood FL",
+      "name": "Sabaton + Pop Evil + Wings of Steel @ FTL War Memorial — Fort Lauderdale, FL — Dec 12 2026",
       "date": "2026-12-12",
-      "venue": "Hard Rock Live",
-      "city": "Hollywood",
+      "venue": "FTL War Memorial",
+      "city": "Fort Lauderdale",
       "state": "FL",
       "bands": [
-        "Sabaton"
+        "Sabaton",
+        "Pop Evil",
+        "Wings of Steel"
       ],
+      "description": "Sabaton's Legends on Tour lands in Fort Lauderdale the night after Orlando — Pop Evil and Wings of Steel open. Rescheduled from the original Feb 9, 2026 date. Saturday, December 12, 2026, 7 PM. Tickets: https://www.bandsintown.com/e/108045650-sabaton-at-ftl-war-memorial",
+      "ticketUrl": "https://www.bandsintown.com/e/108045650-sabaton-at-ftl-war-memorial",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
