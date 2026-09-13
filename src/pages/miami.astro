@@ -47,14 +47,18 @@ const upcoming: ConcertEntry[] = (data.entries ?? [])
 const grouped = groupByBucket(upcoming, buckets);
 
 // --- Miami-Dade filter: iconic Miami metal rooms + Miami-Dade cities ---
-const MIAMI_VENUES = ['churchill', 'las rosas', 'bar nancy', 'guadalajara', 'banyan live', 'boombox', 'the ground', 'hoy como ayer', 'kill your idol', 'on the rocks'];
+const MIAMI_VENUES = ['churchill', 'las rosas', 'bar nancy', 'guadalajara', 'boombox', 'the ground', 'hoy como ayer', 'kill your idol', 'on the rocks'];
 const MIAMI_CITIES = ['miami', 'hialeah', 'coral gables', 'doral', 'homestead', 'cutler bay', 'kendall', 'wynwood', 'little haiti', 'little havana', 'miami beach', 'miami gardens', 'aventura', 'north miami'];
+
+const MIAMI_BANDS = ['silenmara', 'we all rise', 'mind virus', 'open nerve', 'god-kings', 'god kings', 'medic', 'modern mimes', 'ramtha'];
 
 function isMiami(e: ConcertEntry): boolean {
   const v = (e.venue || '').toLowerCase();
+  const name = (e.name || '').toLowerCase();
   const city = (e.city || '').toLowerCase();
   if (MIAMI_VENUES.some((k) => v.includes(k))) return true;
   if (MIAMI_CITIES.some((k) => city.includes(k))) return true;
+  if (MIAMI_BANDS.some((k) => name.includes(k))) return true;
   return false;
 }
 
@@ -66,7 +70,7 @@ const entries = upcoming
 
 <BaseLayout
   title="Miami Metal | The Music Cities"
-  description="Miami's metal scene calendar — every show we're tracking across Churchill's, Las Rosas, Bar Nancy, and the rest of the 305."
+  description="Miami's metal scene calendar — every show we're tracking across the 305."
 >
   <Header />
   <SceneNav buckets={buckets} grouped={grouped} birthdaysCount={birthdays.length} activeBucketId="miami" />
@@ -79,8 +83,7 @@ const entries = upcoming
         <span class="bucket-hero__count">{entries.length}</span>
       </h1>
       <p class="bucket-hero__lede">
-        Every metal show we're tracking across the 305 — Churchill's, Las Rosas, Bar Nancy, and the rooms
-        building the scene. Miami is the proof of concept: build it here, build it anywhere.
+        Every metal show we're tracking across the 305 — the rooms building the scene and the local bands that fill them. Miami is the proof of concept: build it here, build it anywhere.
       </p>
     </div>
   </section>
