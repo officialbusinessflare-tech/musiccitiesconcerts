@@ -22,6 +22,7 @@ type WatchBand = {
   why: string;
   // Substring matched against the entry name in concerts.json (case-insensitive)
   match: string;
+  interview?: string;   // YouTube URL of the band's TMC interview
   favorite?: boolean;   // shows the "one of our favorites" badge
   photos?: string;   // Pinterest board URL
   socials?: {        // full URLs; only present platforms render
@@ -42,11 +43,11 @@ const watching: WatchBand[] = [
     socials: { instagram: 'https://www.instagram.com/ninimusicofficial/', youtube: 'https://www.youtube.com/channel/UCUUIp1k0tywKM1oGMkkuFvw', spotify: 'https://open.spotify.com/artist/4iggZUAEXfBeJH9DjKwccm', site: 'https://ninimusic.me/' } },
 
   // ---- Japanese / Asian metal ----
-  { name: 'BRIDEAR', favorite: true, scene: 'Japanese Metal', match: 'bridear',
+  { name: 'BRIDEAR', interview: 'https://www.youtube.com/watch?v=QGW5tLmv_Ds', favorite: true, scene: 'Japanese Metal', match: 'bridear',
     why: "All-women heavy and power metal out of Fukuoka \u2014 twin-guitar melodic firepower under Kimi's soaring vocals, and a relentless live act built for the international stage.", socials: { x: 'https://x.com/Bridear_info', instagram: 'https://www.instagram.com/bridear_jp/', youtube: 'https://www.youtube.com/channel/UCqkHezzlbqWrmOhoTcZTVjg', spotify: 'https://open.spotify.com/artist/3h6F7NaadGF3Ayf3FJBjdR', site: 'https://bridear.jp/en' } },
   { name: 'LOVEBITES', scene: 'Japanese Metal', match: 'lovebites', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/lovebites-wacken/',
     why: "Japanese power metal at the top of the form. Twin-guitar precision, operatic range — the band the whole watch list orbits." },
-  { name: 'NEMOPHILA', favorite: true, scene: 'Japanese Metal', match: 'nemophila',
+  { name: 'NEMOPHILA', interview: 'https://www.youtube.com/watch?v=pJmFKOQ38e0', favorite: true, scene: 'Japanese Metal', match: 'nemophila',
     why: "All-women Japanese metal built for the live room — Mayu's roar over relentless riffing. Ten Fes is theirs." },
   { name: 'HANABIE.', favorite: true, scene: 'Japanese Metal', match: 'hanabie', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/hanabie-orlando-2026/',
     why: "Harajuku-core: candy-colored, breakdown-heavy, touring the US non-stop. The gateway drug for the whole scene." },
@@ -56,7 +57,7 @@ const watching: WatchBand[] = [
     why: "The ones who kicked the door in. Kawaii metal as a global stadium act; still the reference point." },
   { name: 'Rolling Quartz', scene: 'Japanese Metal', match: 'rolling quartz',
     why: "Korean hard-rock five-piece crisscrossing North America on the MY TURN tour. Loud, tight, relentless." },
-  { name: 'Broken By The Scream', favorite: true, scene: 'Japanese Metal', match: 'broken by the scream', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/broken-by-the-scream-wacken-2026/',
+  { name: 'Broken By The Scream', interview: 'https://www.youtube.com/watch?v=Sky1HWb5cP8', favorite: true, scene: 'Japanese Metal', match: 'broken by the scream', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/broken-by-the-scream-wacken-2026/',
     why: "Metal-screaming idol act, Metal Blade signees, Wacken alumni. Caught live at The Dome with a meet and greet." },
   { name: 'Fathomless Skywalker', scene: 'Japanese Metal', match: 'fathomless skywalker',
     why: "Tokyo symphonic metalcore led by classically-trained Chihiro. 'Pirates of the Fathomless Sea' hit #4 on Japan iTunes Metal." },
@@ -75,33 +76,35 @@ const watching: WatchBand[] = [
     why: "Osaka metalcore duo — Akane on vocals, Naho on bass. Clean-to-scream dynamics, rising fast." },
 
   // ---- Florida metal scene ----
-  { name: 'McFisty', scene: 'Florida Metal', match: 'mcfisty',
+  { name: 'McFisty', interview: 'https://www.youtube.com/watch?v=Ltyj3hbklU8', scene: 'Florida Metal', match: 'mcfisty',
     why: "Our own. Yes, The Music Cities is in a band. South Florida heavy bluesy metal. Raw, loud, and no gimmicks.", socials: { instagram: 'https://www.instagram.com/mcfistymetal/', youtube: 'https://www.youtube.com/@mcfistymetal', facebook: 'https://www.facebook.com/McFistyRocks', tiktok: 'https://www.tiktok.com/@mcfisty8', spotify: 'https://open.spotify.com/artist/4PnZJh0LfwPqfgh6WLJ7kF', site: 'https://mcfisty.com/' } },
-  { name: 'Out of the Ashes', scene: 'Florida Metal', match: 'out of the ashes',
+  { name: 'Out of the Ashes', interview: 'https://www.youtube.com/watch?v=kDJjh_X1DQc', scene: 'Florida Metal', match: 'out of the ashes',
     why: "South Florida original hard rock \u2014 big arena-rock hooks and a powerhouse front in Maria Serritella. A local scene staple built to fill a room.", socials: { x: 'https://x.com/ootarocks', instagram: 'https://www.instagram.com/outoftheashesrocks/', youtube: 'https://www.youtube.com/channel/UCfipkjE8ybpAoEeIQ9BbZQw', facebook: 'https://www.facebook.com/OutoftheAshesRocks/', tiktok: 'https://www.tiktok.com/@outoftheashesrocks', site: 'https://outoftheashesrocks.com/' } },
   { name: 'Open Nerve', scene: 'Florida Metal', match: 'open nerve', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/buried-alive-festival-las-rosas-miami/open-nerve/',
     why: "Miami nu-metal / post-hardcore four-piece. Faith No More + Deftones + Glassjaw DNA; a Las Rosas headliner." },
-  { name: 'Ramtha', favorite: true, scene: 'Florida Metal', match: 'ramtha',
+  { name: 'Ramtha', interview: 'https://www.youtube.com/watch?v=8t6jn_30VMY', favorite: true, scene: 'Florida Metal', match: 'ramtha',
     why: "Tampa thrash/death — friends of the channel, always on the Florida DIY bills worth driving for." },
   { name: 'Mind Virus', scene: 'Florida Metal', match: 'mind virus',
     why: "Florida underground metal, Big Ear Booking regulars. The Summer Weekender run put them on our radar." },
 
   // ---- Florida additions (Aug 2026) ----
-  { name: 'We All Rise', favorite: true, scene: 'Florida Metal', match: 'we all rise', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/buried-alive-festival-las-rosas-miami/we-all-rise/',
+  { name: 'We All Rise', interview: 'https://www.youtube.com/watch?v=MJnQVxduebk', favorite: true, scene: 'Florida Metal', match: 'we all rise', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/buried-alive-festival-las-rosas-miami/we-all-rise/',
     why: "Miami modern-metal four-piece with '90s roots, built by South Florida scene veterans. WAR to the faithful." },
-  { name: 'Silenmara', favorite: true, scene: 'Florida Metal', match: 'silenmara',
+  { name: 'Silenmara', interview: 'https://www.youtube.com/watch?v=-FzGiAKaXaY', favorite: true, scene: 'Florida Metal', match: 'silenmara',
     why: "Miami melodic death metal in the Gothenburg tradition. Twin-guitar melody over a death-metal engine." },
   { name: 'Maximum Friction', scene: 'Florida Metal', match: 'maximum friction',
     why: "West Palm Beach power trio, Sabbath-to-Slipknot heavy. Battle-of-the-bands winners climbing the local circuit." },
-  { name: 'Nocturnal Dawn', scene: 'Florida Metal', match: 'nocturnal dawn',
+  { name: 'Nocturnal Dawn', interview: 'https://www.youtube.com/watch?v=ERucE5hitSY', scene: 'Florida Metal', match: 'nocturnal dawn',
     why: "Orlando progressive / melodic death metal, independent and prolific since 2022." },
   { name: 'Follow Me, Fox!', scene: 'Florida Metal', match: 'follow me',
     why: "Orlando rock / pop-punk with video-game-themed hooks. High-energy live, newer project from experienced players." },
 
   // ---- Global / European metal ----
+  { name: 'Nemesis', scene: 'Global Metal', match: 'nemesis', interview: 'https://www.youtube.com/watch?v=LUKyg4Dpddc',
+    why: "Houston heavy metal built for the Wacken Metal Battle stage \u2014 old-school power with thrash bite and Texas grit.", socials: { instagram: 'https://www.instagram.com/nemesisriffs/' } },
   { name: 'Arch Enemy', scene: 'Global Metal', match: 'arch enemy',
     why: "Swedish melodic death metal royalty \u2014 Michael Amott's guitar leads over a ferocious vocal attack. Three decades in and still one of the biggest names in extreme metal.", socials: { x: 'https://x.com/archenemymetal', instagram: 'https://www.instagram.com/archenemyofficial/', youtube: 'https://www.youtube.com/@archenemyofficial', spotify: 'https://open.spotify.com/artist/0DCw6lHkzh9t7f8Hb4Z0Sx', site: 'https://archenemy.net/' } },
-  { name: 'Given by the Flames', favorite: true, scene: 'Global Metal', match: 'given by the flames', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/given-by-the-flames-wacken/',
+  { name: 'Given by the Flames', interview: 'https://www.youtube.com/watch?v=4GnvOdPDA3M', favorite: true, scene: 'Global Metal', match: 'given by the flames', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/given-by-the-flames-wacken/',
     why: "Tokyo gothic / symphonic metalcore — Japan's Wacken Metal Battle national winner. Won their country to earn the Wacken stage; a rare Japanese metalcore export with a dark visual identity." },
   { name: 'Blood Command', favorite: true, scene: 'Global Metal', match: 'blood command',
     why: "Bergen, Norway 'deathpop' — melodic hardcore with metal teeth and pop hooks. A European festival mainstay." },
@@ -111,15 +114,15 @@ const watching: WatchBand[] = [
     why: "Long-running German dark rock / gothic metal — melodic gothic vocals over hard riffing." },
   { name: 'Islander', scene: 'Global Metal', match: 'islander',
     why: "Greenville, SC nu-metal / metalcore. A steady-touring US act with a devoted following since 2011." },
-  { name: 'RE:O', favorite: true, scene: 'Global Metal', match: 're:o',
+  { name: 'RE:O', interview: 'https://www.youtube.com/watch?v=LCUgnSCJwOQ', favorite: true, scene: 'Global Metal', match: 're:o',
     why: "UK-based 'Japancore' project fronted by Japanese vocalist Rio Suyama — metalcore fused with dark J-pop. Opened the London J-metal bill." },
   { name: 'El Chivo', scene: 'Global Metal', match: 'chivo',
     why: "Monterrey stoner-doom — Mexico's Wacken Metal Battle national winner. Heavy fuzz and riff worship that carried them from the local scene all the way to Wacken." },
-  { name: 'God-Kings', scene: 'Global Metal', match: 'god-king', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/buried-alive-festival-las-rosas-miami/god-kings/',
+  { name: 'God-Kings', interview: 'https://www.youtube.com/watch?v=8uTBXfNcH_c', scene: 'Global Metal', match: 'god-king', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/buried-alive-festival-las-rosas-miami/god-kings/',
     why: "Hungarian metal out of Budapest — on our radar as the European scene keeps feeding the watch list." },
   { name: 'Force', scene: 'Global Metal', match: 'force (chile)',
     why: "Chile's Wacken Metal Battle team — and the OVERALL 2026 champion. They won the whole thing at Wacken. The purest local-to-global story on this list." },
-  { name: 'Medic', scene: 'Florida Metal', match: 'medic', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/buried-alive-festival-las-rosas-miami/medic/',
+  { name: 'Medic', interview: 'https://www.youtube.com/watch?v=S7urjDntmYc', scene: 'Florida Metal', match: 'medic', photos: 'https://www.pinterest.com/TheMusicCitiesPodcast/buried-alive-festival-las-rosas-miami/medic/',
     why: "Miami metal on the local watch — a 305 band earning flyers and room on the bill." },
   { name: 'TRiDENT', scene: 'Japanese Metal', match: 'trident',
     why: "All-women Japanese three-piece working the Tokyo circuit hard — three headline dates this fall and a spot on NEMOPHILA's Ten Fes bill." },
@@ -261,6 +264,7 @@ const grouped = scenes.map((scene) => ({
                 </header>
 
                 <p class="venues-card__why">{band.why}</p>
+                {band.interview && <a class="venues-card__interview" href={band.interview} target="_blank" rel="noopener noreferrer">Watch the TMC interview</a>}
                 {band.photos ? <a class="venues-card__photos" href={band.photos} target="_blank" rel="noopener noreferrer">⭐ Photos from the pit ›</a> : null}
                 {socialLinks(band.socials) ? <div class="venues-card__socials" set:html={socialLinks(band.socials)} /> : null}
 
@@ -315,4 +319,6 @@ const grouped = scenes.map((scene) => ({
   .watching-jump__btn { display: inline-block; padding: 0.4rem 1rem; border: 1px solid #e11d2a; border-radius: 999px; color: #e11d2a; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; transition: background .15s ease, color .15s ease; }
   .watching-jump__btn:hover { background: #e11d2a; color: #0a0a0a; }
   .watching-scene { scroll-margin-top: 84px; }
+  .venues-card__interview { display: inline-block; margin: 0 0 0.9rem; padding: 0.3rem 0.8rem; border: 1px solid #e11d2a; border-radius: 999px; color: #e11d2a; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; }
+  .venues-card__interview:hover { background: #e11d2a; color: #0a0a0a; }
 </style>
