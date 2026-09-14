@@ -11,7 +11,7 @@ export default async () => {
 
   try {
     const store = getStore('app-downloads');
-    const data = await store.get('apk', { type: 'json' });
+    const data = await store.get('apk', { type: 'json', consistency: 'strong' });
     if (data) {
       count = data.count || 0;
       updated = data.updated || null;
