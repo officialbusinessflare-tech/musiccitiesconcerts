@@ -9,7 +9,7 @@ import { getStore } from '@netlify/blobs';
 export default async (req) => {
   try {
     const store = getStore('app-downloads');
-    const cur = await store.get('apk', { type: 'json' });
+    const cur = await store.get('apk', { type: 'json', consistency: 'strong' });
     const count = ((cur && cur.count) || 0) + 1;
     await store.setJSON('apk', { count, updated: new Date().toISOString() });
   } catch (err) {
