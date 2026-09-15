@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-14T07:01:59.734Z",
+  "fetchedAt": "2026-09-15T07:00:43.685Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 151000,
-      "videoCount": 277,
+      "videoCount": 279,
       "recentLongform": [
         {
           "id": "sFGf8xPXaxU",
@@ -401,43 +401,77 @@
           },
           "duration": "PT1M20S",
           "durationSeconds": 80
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "TqjVSoYj58I",
-          "title": "Broken by the Scream | Question #4, London",
-          "publishedAt": "2026-08-20T19:14:59Z",
+          "id": "wMunMGPddIA",
+          "title": "Yes,  I'm in a band | McFisty | Miami Metal",
+          "publishedAt": "2026-09-15T05:49:59Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/TqjVSoYj58I/default.jpg",
+              "url": "https://i.ytimg.com/vi/wMunMGPddIA/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/TqjVSoYj58I/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/wMunMGPddIA/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/TqjVSoYj58I/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/wMunMGPddIA/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/TqjVSoYj58I/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/wMunMGPddIA/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/TqjVSoYj58I/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/wMunMGPddIA/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT1M30S",
-          "durationSeconds": 90
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT1M6S",
+          "durationSeconds": 66
+        },
+        {
+          "id": "UwtV7ZSGPIw",
+          "title": "Metalheads Starving Local Scene With Import Obsession! #shorts",
+          "publishedAt": "2026-09-14T13:26:38Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/UwtV7ZSGPIw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/UwtV7ZSGPIw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/UwtV7ZSGPIw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/UwtV7ZSGPIw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/UwtV7ZSGPIw/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M2S",
+          "durationSeconds": 62
+        },
         {
           "id": "gbmUGQFonOw",
           "title": "Nini Music | On Tour Next Month!",
@@ -811,40 +845,6 @@
           },
           "duration": "PT24S",
           "durationSeconds": 24
-        },
-        {
-          "id": "lpFieprNgv0",
-          "title": "Pinkfoot Goliath | Churchill's Miami",
-          "publishedAt": "2026-08-22T21:29:00Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/lpFieprNgv0/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/lpFieprNgv0/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/lpFieprNgv0/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/lpFieprNgv0/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/lpFieprNgv0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M1S",
-          "durationSeconds": 61
         }
       ]
     },
