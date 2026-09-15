@@ -1,86 +1,6 @@
 {
-  "generatedAt": "2026-09-14T07:01:50.032Z",
+  "generatedAt": "2026-09-15T07:00:33.461Z",
   "entries": [
-    {
-      "id": "86bbeb5up",
-      "name": "Militarie Gun + Softcult + Shady Nasty @ Conduit — Winter Park (Orlando), FL — Sep 14 2026",
-      "date": "2026-09-14",
-      "venue": "Conduit",
-      "city": "Winter Park (Orlando)",
-      "state": "FL",
-      "bands": [
-        "Militarie Gun",
-        "Softcult",
-        "Shady Nasty"
-      ],
-      "description": "Second Florida date of the Militarie Gun run, one night after Churchill's. Softcult and Shady Nasty support. Source: Conduit / JamBase calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb5up",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbct3m5",
-      "name": "EyeHateGod + Embittered + Bite Marks @ The Bark — Tallahassee, FL — Sep 14 2026",
-      "date": "2026-09-14",
-      "venue": "The Bark",
-      "city": "Tallahassee",
-      "state": "FL",
-      "bands": [
-        "EyeHateGod",
-        "Embittered",
-        "Bite Marks"
-      ],
-      "description": "Bands: EyeHateGod, Embittered, Bite Marks, Piston, Brass Wizard\nVenue: The Bark, 1817 Thomasville Rd, Tallahassee, FL\nDate: Monday, September 14, 2026 — night 1 of two\nTickets: $25\nEyeHateGod are playing two consecutive nights at The Bark (Sep 14 and Sep 15) with different…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbct3m5",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bb9w626",
-      "name": "SiM @ CLUB CITTA' — Kawasaki, Japan — Sep 14 2026",
-      "date": "2026-09-14",
-      "venue": "CLUB CITTA'",
-      "city": "Kawasaki",
-      "country": "Japan",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL tour. CLUB CITTA' in Kawasaki, Japan. Show date: Sep 14 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w626",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w5cu",
-      "name": "JILUKA @ Niebo — Warsaw, Poland — Sep 14 2026",
-      "date": "2026-09-14",
-      "venue": "Niebo",
-      "city": "Warsaw",
-      "country": "Poland",
-      "bands": [
-        "JILUKA"
-      ],
-      "description": "JILUKA — DeViLs World Tour EU/UK leg. Niebo in Warsaw, Poland. Show date: Sep 14 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5cu",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbkea94",
       "name": "Glitterer + Bleary Eyed + Guttered @ Conduit — Orlando, FL — Sep 15 2026",
@@ -1594,6 +1514,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w5xm",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc05h85",
+      "name": "BRIDEAR @ Shinjuku ANTIKNOCK (Made in Heaven vol.36) — Tokyo, Japan — Sep 25 2026",
+      "date": "2026-09-25",
+      "venue": "Shinjuku ANTIKNOCK (Made in Heaven vol.36)",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "BRIDEAR"
+      ],
+      "description": "BRIDEAR play Shinjuku ANTIKNOCK on Friday, September 25 as part of Made in Heaven vol.36 — stage time 19:05. General tickets on sale via LivePocket. One night before their Zirco Tokyo date on Sep 26.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05h85",
       "buckets": [
         "japanese-metal"
       ]
@@ -3117,6 +3056,27 @@
       ]
     },
     {
+      "id": "86bc05ha9",
+      "name": "Fen + Lychgate + Cistvaen @ Downstairs at The Dome — London, UK — Oct 7 2026",
+      "date": "2026-10-07",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Fen",
+        "Lychgate",
+        "Cistvaen"
+      ],
+      "description": "UK atmospheric black metal night: Fen headline with Lychgate and Cistvaen in support (an Old Empire and Mythology presentation). Note: this is a separate bill from the Myrath show happening the same night in the Dome complex — the building runs two rooms, and the venue's own…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05ha9",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbuyjp1",
       "name": "Myrath + Roses of Thieves @ Downstairs at The Dome — London, UK — Oct 7 2026",
       "date": "2026-10-07",
@@ -3249,6 +3209,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4nb",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc05hb7",
+      "name": "Hed PE + Cold @ The Dome — London, UK — Oct 8 2026",
+      "date": "2026-10-08",
+      "venue": "The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Hed PE",
+        "Cold"
+      ],
+      "description": "Hed PE and Cold co-headline The Dome, Tufnell Park for the Still Broke 25th Anniversary Tour, with MÜ in support. A Born Again Concerts presentation.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05hb7",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -4076,16 +4056,17 @@
     },
     {
       "id": "86bb8y5rq",
-      "name": "Spite + Stygoc — The Banyan Live, West Palm Beach FL — Oct 13, 2026",
+      "name": "Spite + Stick To Your Guns + No Cure @ The Banyan Live — West Palm Beach, FL — Oct 13 2026",
       "date": "2026-10-13",
       "venue": "The Banyan Live",
       "city": "West Palm Beach",
       "state": "FL",
       "bands": [
         "Spite",
-        "Stygoc"
+        "Stick To Your Guns",
+        "No Cure"
       ],
-      "description": "Spite bring their brand of heavy to The Banyan Live, West Palm Beach, with Stygoc — Tuesday, Oct 13, 2026. Tickets and info via Limitless Agency (limitlessagency.com).",
+      "description": "Spite headline The Banyan Live, West Palm Beach — Tuesday, Oct 13, 2026. Full lineup per the venue calendar: Spite, Stick To Your Guns, No Cure, Vomit Forth. Tickets via etix / Limitless Agency.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
@@ -4478,15 +4459,17 @@
     },
     {
       "id": "86bbkeb38",
-      "name": "DONEFOR @ Las Rosas — Miami, FL — Oct 16 2026",
+      "name": "DONEFOR + We're Wolves + Twin Rova @ Las Rosas — Miami, FL — Oct 16 2026",
       "date": "2026-10-16",
       "venue": "Las Rosas",
       "city": "Miami",
       "state": "FL",
       "bands": [
-        "DONEFOR"
+        "DONEFOR",
+        "We're Wolves",
+        "Twin Rova"
       ],
-      "description": "DONEFOR at Las Rosas.",
+      "description": "Opening night of the Southern Survival Tour — \"Can You Survive the Florida Man\" — a Florida-only run with DONEFOR, We're Wolves, and Twin Rova. Miami kickoff at Las Rosas. Tickets and VIP at doneforband.com.",
       "ticketUrl": "https://www.bandsintown.com/e/1039913224",
       "priority": "normal",
       "isRelease": false,
@@ -4514,6 +4497,46 @@
       "buckets": [
         "florida-metal-scene"
       ]
+    },
+    {
+      "id": "86bc05hbj",
+      "name": "Acres + Wayside + What Lies Below @ Downstairs at The Dome — London, UK — Oct 17 2026",
+      "date": "2026-10-17",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Acres",
+        "Wayside",
+        "What Lies Below"
+      ],
+      "description": "Acres bring 'The Host' UK/EU Tour 2026 to Downstairs at The Dome with Wayside, What Lies Below, and Lifespark. Full lineup: Acres, Wayside, What Lies Below, Lifespark.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05hbj",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bc05gx3",
+      "name": "DONEFOR + We're Wolves + Twin Rova @ Pineapples — Melbourne, FL — Oct 17 2026",
+      "date": "2026-10-17",
+      "venue": "Pineapples",
+      "city": "Melbourne",
+      "state": "FL",
+      "bands": [
+        "DONEFOR",
+        "We're Wolves",
+        "Twin Rova"
+      ],
+      "description": "The Southern Survival Tour — \"Can You Survive the Florida Man\" — a Florida-only run pairing three of the state's premier heavy rock bands: DONEFOR, We're Wolves, and Twin Rova. Melbourne stop at Pineapples. Tickets and VIP at doneforband.com.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05gx3",
+      "buckets": []
     },
     {
       "id": "86bbzt6dg",
@@ -4672,6 +4695,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4qd",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc05gye",
+      "name": "DONEFOR + We're Wolves + Twin Rova @ Jack Rabbits — Jacksonville, FL — Oct 18 2026",
+      "date": "2026-10-18",
+      "venue": "Jack Rabbits",
+      "city": "Jacksonville",
+      "state": "FL",
+      "bands": [
+        "DONEFOR",
+        "We're Wolves",
+        "Twin Rova"
+      ],
+      "description": "The Southern Survival Tour — \"Can You Survive the Florida Man\" — Florida-only run with DONEFOR, We're Wolves, and Twin Rova. Jacksonville stop at Jack Rabbits. Tickets and VIP at doneforband.com.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05gye",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -5373,6 +5417,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bamuujm",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc05hc3",
+      "name": "Tortured Demon + Unburier + Pustulant Flesh @ Downstairs at The Dome — London, UK — Oct 24 2026",
+      "date": "2026-10-24",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Tortured Demon",
+        "Unburier",
+        "Pustulant Flesh"
+      ],
+      "description": "Young UK thrashers Tortured Demon play their first London headline show in two years. Support from Unburier, Pustulant Flesh, and Exorcism. Full lineup: Tortured Demon, Unburier, Pustulant Flesh, Exorcism.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05hc3",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -6436,6 +6501,26 @@
       "buckets": []
     },
     {
+      "id": "86bc05hdj",
+      "name": "Undeath + Slimelord @ The Dome — London, UK — Nov 5 2026",
+      "date": "2026-11-05",
+      "venue": "The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Undeath",
+        "Slimelord"
+      ],
+      "description": "New York death metal risers Undeath hit the Dome complex, Tufnell Park with Slimelord in support. A Live Nation presentation.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05hdj",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbz3ghf",
       "name": "GWAR + Midnight + Mac Sabbath @ The Beacham — Orlando, FL — Nov 5 2026",
       "date": "2026-11-05",
@@ -6541,6 +6626,27 @@
       ]
     },
     {
+      "id": "86bc05gz4",
+      "name": "DONEFOR + We're Wolves + Twin Rova @ Magnanimous Brewing — Tampa, FL — Nov 6 2026",
+      "date": "2026-11-06",
+      "venue": "Magnanimous Brewing",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "DONEFOR",
+        "We're Wolves",
+        "Twin Rova"
+      ],
+      "description": "The Southern Survival Tour — \"Can You Survive the Florida Man\" — Florida-only run with DONEFOR, We're Wolves, and Twin Rova. Tampa stop at Magnanimous Brewing. Tickets and VIP at doneforband.com.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05gz4",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbu78mw",
       "name": "Movements + Balance and Composure @ Hard Rock Live — Orlando, FL — Nov 6 2026",
       "date": "2026-11-06",
@@ -6594,6 +6700,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bavn8wy",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc05h1h",
+      "name": "DONEFOR + We're Wolves + Twin Rova @ The Bank — Daytona Beach, FL — Nov 7 2026",
+      "date": "2026-11-07",
+      "venue": "The Bank",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "bands": [
+        "DONEFOR",
+        "We're Wolves",
+        "Twin Rova"
+      ],
+      "description": "The Southern Survival Tour — \"Can You Survive the Florida Man\" — Florida-only run with DONEFOR, We're Wolves, and Twin Rova. Daytona Beach stop at The Bank. Tickets and VIP at doneforband.com.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05h1h",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -6752,6 +6879,25 @@
       "buckets": [
         "japanese-metal"
       ]
+    },
+    {
+      "id": "86bc05h26",
+      "name": "DONEFOR + We're Wolves + Twin Rova @ Oscura — Bradenton, FL — Nov 8 2026",
+      "date": "2026-11-08",
+      "venue": "Oscura",
+      "city": "Bradenton",
+      "state": "FL",
+      "bands": [
+        "DONEFOR",
+        "We're Wolves",
+        "Twin Rova"
+      ],
+      "description": "The Southern Survival Tour — \"Can You Survive the Florida Man\" — Florida-only run with DONEFOR, We're Wolves, and Twin Rova. Bradenton stop at Oscura. Tickets and VIP at doneforband.com.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05h26",
+      "buckets": []
     },
     {
       "id": "86bbzt9yn",
@@ -7165,6 +7311,25 @@
       ]
     },
     {
+      "id": "86bc05hdy",
+      "name": "Breed 77 @ Downstairs at The Dome — London, UK — Nov 14 2026",
+      "date": "2026-11-14",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Breed 77"
+      ],
+      "description": "Gibraltar's flamenco-metal veterans Breed 77 return to London at Downstairs at The Dome. Supports TBC.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05hdy",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbzt9yu",
       "name": "RE:O @ Firebug — Leicester, UK — Nov 14 2026",
       "date": "2026-11-14",
@@ -7312,6 +7477,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4tx",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc05het",
+      "name": "Urne + The Grey + Moon Reaper @ The Dome — London, UK — Nov 15 2026",
+      "date": "2026-11-15",
+      "venue": "The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Urne",
+        "The Grey",
+        "Moon Reaper"
+      ],
+      "description": "UK progressive sludge-metal trio Urne headline The Dome, Tufnell Park with The Grey and Moon Reaper. Early 18:30 start.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05het",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -7494,6 +7680,46 @@
       ]
     },
     {
+      "id": "86bc05hf9",
+      "name": "Mason Hill @ Downstairs at The Dome — London, UK — Nov 18 2026",
+      "date": "2026-11-18",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Mason Hill"
+      ],
+      "description": "Scottish hard rockers Mason Hill play Downstairs at The Dome. Special guests TBA. Presented by Action! in association with TKO.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05hf9",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bc05hh6",
+      "name": "Youth of Today + Cosmic Joke + Supernova @ The Dome — London, UK — Nov 19 2026",
+      "date": "2026-11-19",
+      "venue": "The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Youth of Today",
+        "Cosmic Joke",
+        "Supernova"
+      ],
+      "description": "Hardcore legends Youth of Today headline The Dome, Tufnell Park. Full lineup: Youth of Today, Cosmic Joke, Supernova, Bad Beat. Presented by Real Life and Be Sharp.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05hh6",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbtbrrm",
       "name": "Corrosion of Conformity + The Sword @ Vinyl Music Hall — Pensacola, FL — Nov 19 2026",
       "date": "2026-11-19",
@@ -7572,6 +7798,24 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5v76",
       "buckets": []
+    },
+    {
+      "id": "86bc05h69",
+      "name": "The Great NOLA Trendkill — Pantera + Down + Black Label Society @ Lakefront Arena — New Orleans, LA — Nov 20-21 2026",
+      "date": "2026-11-20",
+      "city": "Pantera + Down + Black Label Society @ Lakefront Arena — New Orleans",
+      "country": "LA — Nov 20-21 2026",
+      "bands": [
+        "The Great NOLA Trendkill"
+      ],
+      "description": "Two massive nights in New Orleans — Pantera's first hometown-adjacent NOLA shows in 30 years. Full takeover lineup across November 20 and 21 at Lakefront Arena: Pantera, Down, Black Label Society, Power Trip, Corrosion of Conformity, Crowbar, Pig Destroyer, Eyehategod,…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05h69",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
     },
     {
       "id": "86bbzrk4p",
@@ -7954,6 +8198,25 @@
       ]
     },
     {
+      "id": "86bc05gv7",
+      "name": "Slaughter to Prevail @ Revolution Live (The Backyard) — Fort Lauderdale, FL — Nov 27 2026",
+      "date": "2026-11-27",
+      "venue": "Revolution Live (The Backyard)",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Slaughter to Prevail"
+      ],
+      "description": "Slaughter to Prevail bring the chaos to Revolution Live's Backyard stage in Fort Lauderdale on Friday, November 27, 2026. Crushing riffs and brutal breakdowns from Alex Terrible and company — their second Florida hit of the fall after the Oct 9 Orlando date. Tickets on sale now…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05gv7",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbwe8rp",
       "name": "Loudness @ NHK Osaka Hall — Osaka, Japan — Nov 27 2026",
       "date": "2026-11-27",
@@ -7992,6 +8255,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbtbt7t",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc05hj1",
+      "name": "Xentrix + Nervosa @ Downstairs at The Dome — London, UK — Nov 28 2026",
+      "date": "2026-11-28",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Xentrix",
+        "Nervosa"
+      ],
+      "description": "The Cross-Atlantic Carnage Tour: UK thrash veterans Xentrix with Brazilian thrashers Nervosa at Downstairs at The Dome. Nervosa also hit Florida in February 2027 (Tampa, Orlando, Miami).",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05hj1",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -8208,6 +8491,47 @@
       ]
     },
     {
+      "id": "86bc05hk3",
+      "name": "Mental Cruelty + Ov Sulfur + Extermination Dismemberment @ Downstairs at The Dome — London, UK — Dec 3 2026",
+      "date": "2026-12-03",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Mental Cruelty",
+        "Ov Sulfur",
+        "Extermination Dismemberment"
+      ],
+      "description": "German blackened deathcore outfit Mental Cruelty headline Downstairs at The Dome. Full lineup: Mental Cruelty, Ov Sulfur, Extermination Dismemberment, Suneater.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05hk3",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bc05h2v",
+      "name": "Paralandra + Major Moment @ Downtown Music Hall — Fort Walton Beach, FL — Dec 3 2026",
+      "date": "2026-12-03",
+      "venue": "Downtown Music Hall",
+      "city": "Fort Walton Beach",
+      "state": "FL",
+      "bands": [
+        "Paralandra",
+        "Major Moment"
+      ],
+      "description": "The Sirens of Sunshine Tour brings Paralandra and Major Moment to Florida for a December run of winter heat. Fort Walton Beach stop at Downtown Music Hall. Tickets and VIP packages on sale now. More dates TBA.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05h2v",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbzrk68",
       "name": "EMNW @ Zepp Shinjuku — Tokyo, Japan — Dec 3 2026",
       "date": "2026-12-03",
@@ -8244,6 +8568,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4h8",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc05h70",
+      "name": "Trivium + In Flames + Orbit Culture + Frozen Soul @ YouTube Theater — Inglewood, CA — Dec 4 2026",
+      "date": "2026-12-04",
+      "venue": "YouTube Theater",
+      "city": "Inglewood",
+      "state": "CA",
+      "bands": [
+        "Trivium",
+        "In Flames",
+        "Orbit Culture",
+        "Frozen Soul"
+      ],
+      "description": "The Crown in the Grave tour hits Los Angeles: Trivium and In Flames co-headline the YouTube Theater in Inglewood with Orbit Culture and Frozen Soul in support. All ages. Same package that plays Jannus Live St. Petersburg on Nov 5.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05h70",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -8425,6 +8771,26 @@
       ]
     },
     {
+      "id": "86bc05h3w",
+      "name": "Paralandra + Major Moment @ Jessie's Lounge — Winter Haven, FL — Dec 8 2026",
+      "date": "2026-12-08",
+      "venue": "Jessie's Lounge",
+      "city": "Winter Haven",
+      "state": "FL",
+      "bands": [
+        "Paralandra",
+        "Major Moment"
+      ],
+      "description": "The Sirens of Sunshine Tour — Paralandra and Major Moment at Jessie's Lounge, Winter Haven. Note: the tour poster shows 12/6, but the band has confirmed December 8 is the correct date. Tickets and VIP packages on sale now.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05h3w",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbvz4y2",
       "name": "Amorphis + Insomnium + Hinayana @ Come and Take It Live — Austin, TX — Dec 8 2026",
       "date": "2026-12-08",
@@ -8465,6 +8831,64 @@
       ]
     },
     {
+      "id": "86bc05hmc",
+      "name": "Half Me @ Downstairs at The Dome — London, UK — Dec 9 2026",
+      "date": "2026-12-09",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Half Me"
+      ],
+      "description": "German metalcore band Half Me headline Downstairs at The Dome. Supports TBA. They also appear on the Thrown + Norma Jean bill at The Orpheum, Tampa on Oct 14.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05hmc",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bc05h4h",
+      "name": "Paralandra + Major Moment @ West End Trading Co — Sanford, FL — Dec 9 2026",
+      "date": "2026-12-09",
+      "venue": "West End Trading Co",
+      "city": "Sanford",
+      "state": "FL",
+      "bands": [
+        "Paralandra",
+        "Major Moment"
+      ],
+      "description": "The Sirens of Sunshine Tour — Paralandra and Major Moment at West End Trading Co, Sanford. Third Florida stop of the December run before the West Palm Beach finale at The Banyan Live on Dec 13. Tickets and VIP packages on sale now.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05h4h",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc05hq4",
+      "name": "Warning @ The Dome — London, UK — Dec 10 2026",
+      "date": "2026-12-10",
+      "venue": "The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Warning"
+      ],
+      "description": "British doom cult favorites Warning play The Dome, Tufnell Park. Special guests TBA. An Old Empire presentation.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05hq4",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbmtea7",
       "name": "Jeffrey Nothing @ The Banyan Live — West Palm Beach, FL — Dec 10 2026",
       "date": "2026-12-10",
@@ -8482,6 +8906,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bbmtea7",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc05hr6",
+      "name": "Novulent @ Downstairs at The Dome — London, UK — Dec 11 2026",
+      "date": "2026-12-11",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Novulent"
+      ],
+      "description": "Novulent headline Downstairs at The Dome. Supports TBA.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05hr6",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -9783,6 +10226,26 @@
       ]
     },
     {
+      "id": "86bc05ht3",
+      "name": "Lost Society + HOKKA @ Downstairs at The Dome — London, UK — Feb 16 2027",
+      "date": "2027-02-16",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Lost Society",
+        "HOKKA"
+      ],
+      "description": "Miseria Is A State Of Mind 2027: Finnish modern thrashers Lost Society team with HOKKA at Downstairs at The Dome. Support TBA.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05ht3",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbvpdz0",
       "name": "SiM @ Razzmatazz 2 — Barcelona, Spain — Feb 16 2027",
       "date": "2027-02-16",
@@ -9859,6 +10322,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbpafnj",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc05htk",
+      "name": "Draconian + Saturnus @ The Dome — London, UK — Mar 7 2027",
+      "date": "2027-03-07",
+      "venue": "The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Draconian",
+        "Saturnus"
+      ],
+      "description": "Swedish gothic doom masters Draconian headline The Dome, Tufnell Park with Danish death-doom veterans Saturnus in support.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc05htk",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
