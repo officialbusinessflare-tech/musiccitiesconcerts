@@ -1,66 +1,6 @@
 {
-  "generatedAt": "2026-09-15T07:00:33.461Z",
+  "generatedAt": "2026-09-16T07:00:39.608Z",
   "entries": [
-    {
-      "id": "86bbkea94",
-      "name": "Glitterer + Bleary Eyed + Guttered @ Conduit — Orlando, FL — Sep 15 2026",
-      "date": "2026-09-15",
-      "venue": "Conduit",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Glitterer",
-        "Bleary Eyed",
-        "Guttered"
-      ],
-      "description": "Glitterer (Ned Russin, ex-Title Fight) with Bleary Eyed and Guttered.",
-      "ticketUrl": "https://www.ticketweb.com/event/glitterer-bleary-eyed-and-guttered-conduit-tickets/15027003",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkea94",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bampq61",
-      "name": "EyeHateGod — The Bark, Tallahassee FL",
-      "date": "2026-09-15",
-      "venue": "The Bark",
-      "city": "Tallahassee",
-      "state": "FL",
-      "bands": [
-        "EyeHateGod"
-      ],
-      "description": "EyeHateGod — Fall 2026 US Tour kickoff",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bampq61",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bammf4c",
-      "name": "BABYMETAL — Truliant Amphitheater, Charlotte NC",
-      "date": "2026-09-15",
-      "venue": "Truliant Amphitheater",
-      "city": "Charlotte",
-      "state": "NC",
-      "bands": [
-        "BABYMETAL"
-      ],
-      "description": "BABYMETAL — World Tour 2026 NA leg (w/ Halestorm + Violent Vira)",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bammf4c",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbvz4z3",
       "name": "Jutes @ Jannus Live — St. Petersburg, FL — Sep 16 2026",
@@ -9479,6 +9419,26 @@
       ]
     },
     {
+      "id": "86bc1d5v7",
+      "name": "70000 Tons of Metal @ PortMiami — Miami, FL — Jan 14 2027",
+      "date": "2027-01-14",
+      "venue": "PortMiami",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "70000 Tons of Metal"
+      ],
+      "description": "The world's biggest floating metal festival sails January 14–18, 2027 from Miami to Puerto Plata, Dominican Republic, aboard Royal Caribbean's Freedom of the Seas. 60 bands, four stages — including the open-air Pool Deck Stage. First wave of the lineup: Arch Enemy, Obscura,…",
+      "ticketUrl": "https://70000tons.com",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc1d5v7",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbz59u6",
       "name": "HAGANE @ Yokohama Bay Hall — Yokohama, Japan — Jan 16 2027",
       "date": "2027-01-16",
@@ -9632,6 +9592,23 @@
       "buckets": [
         "japanese-metal"
       ]
+    },
+    {
+      "id": "86bc1ckt2",
+      "name": "NAMM Show 2027 @ Anaheim Convention Center — Anaheim, CA — Jan 26 2027",
+      "date": "2027-01-26",
+      "venue": "Anaheim Convention Center",
+      "city": "Anaheim",
+      "state": "CA",
+      "bands": [
+        "NAMM Show 2027"
+      ],
+      "description": "The NAMM Show 2027 — the music products industry's global gathering. Anaheim Convention Center, Jan 26–30, 2027 (Global Media Day Jan 27; show floor open Thu–Sat, Jan 28–30).",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc1ckt2",
+      "buckets": []
     },
     {
       "id": "86bbu792c",
