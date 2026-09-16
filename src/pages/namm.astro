@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
+import Footer from '../components/Footer.astro';
+
+/**
+ * /namm — NAMM Show 2027 field trip.
+ *
+ * Rough draft. We go in through the media door, not the exhibitor door.
+ * Dates: Jan 26-30 2027, Anaheim Convention Center. Global Media Day Jan 27,
+ * show floor open Thu-Sat Jan 28-30. Fill in the daily plan once the badge is
+ * in hand and PR bookings start.
+ */
+---
+
+<BaseLayout
+  title="NAMM Show 2027 — Field Trip | The Music Cities"
+  description="The Music Cities heads to the NAMM Show 2027 in Anaheim, Jan 26-30 — the music industry's global gathering, covered from the economics-of-music angle."
+>
+  <Header />
+  <SceneNav />
+
+  <section class="dash-hero">
+    <div class="container">
+      <p class="dash-hero__eyebrow">Field Trip</p>
+      <h1 class="dash-hero__title">NAMM Show <em>2027</em></h1>
+      <p class="dash-hero__subtitle">January 26–30, 2027 — Anaheim Convention Center, Anaheim, California</p>
+      <p class="dash-hero__lede">
+        The music products industry's global gathering, and we're going. Not as an exhibitor —
+        as credentialed media. NAMM is where the business of music shows its hand, and a channel
+        built on the economics of music, metal, and music cities belongs in that room. This page
+        is the plan: how we get in, and what we cover once we're there.
+      </p>
+      <div class="wkn-countdown" id="namm-countdown" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <main class="dash-main">
+    <div class="container">
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">The show</h2>
+        <dl class="wkn-meta">
+          <div><dt>Dates</dt><dd>Jan 26–30, 2027. Global Media Day Jan 27. Show floor open Thu–Sat, Jan 28–30.</dd></div>
+          <div><dt>Venue</dt><dd>Anaheim Convention Center, Anaheim, California</dd></div>
+          <div><dt>How we get in</dt><dd class="wkn-meta__green">Media / creator badge — the media door, not the exhibitor door.</dd></div>
+          <div><dt>Status</dt><dd class="wkn-meta__warn">Registration is open. Apply for the media credential early while they're being processed.</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">How we get in</h2>
+        <ul class="wkn-notes">
+          <li>NAMM has a formal media and influencer credential built for exactly this. It opens the Media Center, the Creator Lounge, and the Production Studios — dedicated space to shoot, edit, and upload on site.</li>
+          <li>They credential YouTubers and podcasters routinely. No published subscriber minimum — the bar is that they verify you as a working music-industry media outlet or creator.</li>
+          <li>Credential verification runs through John Dolak, NAMM's Director of Communications (johnd@namm.org). Apply through NAMM media registration.</li>
+          <li>Global Media Day is Jan 27 — press events and briefings before the floor opens.</li>
+          <li>We do not need a booth. Exhibiting means NAMM membership and four-figure booth fees, aimed at companies selling into the channel. The Production Studios exist so credentialed creators can record without renting floor space.</li>
+        </ul>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">The angle</h2>
+        <ul class="wkn-notes">
+          <li>Frame the channel as economics-of-music and music-cities coverage. NAMM is a trade show about the business of music, and the NAMM Foundation pushes music-friendly-cities policy — a better editorial fit than the five-hundredth pedal-demo channel.</li>
+          <li>Interviews with specific brands and artists get arranged directly with their PR people in the weeks before the show. Once the badge is in hand, the booking work is just outreach.</li>
+          <li>The existing catalog plus that framing is the whole application.</li>
+        </ul>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Notes</h2>
+        <ul class="wkn-notes">
+          <li>Rough draft. The daily plan — media day, floor targets, interview slots — fills in here once the credential clears and PR bookings start.</li>
+          <li>Realistic cost: media badge (typically free), flights, and 3–4 nights in Anaheim at convention rates.</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+
+  <script is:inline>
+    (function () {
+      function tick() {
+        var el = document.getElementById('namm-countdown');
+        if (!el) return;
+        var target = new Date('2027-01-26T09:00:00').getTime();
+        var diff = target - Date.now();
+        if (diff < 0) {
+          el.innerHTML = '<div class="wkn-count-box"><div class="wkn-count-num">LIVE</div><div class="wkn-count-lbl">NAMM underway</div></div>';
+          return;
+        }
+        var days = Math.floor(diff / 86400000);
+        var hours = Math.floor((diff % 86400000) / 3600000);
+        var mins = Math.floor((diff % 3600000) / 60000);
+        el.innerHTML =
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + days + '</div><div class="wkn-count-lbl">Days to NAMM</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + hours + '</div><div class="wkn-count-lbl">Hours</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + mins + '</div><div class="wkn-count-lbl">Minutes</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">Jan 26</div><div class="wkn-count-lbl">Anaheim</div></div>';
+      }
+      tick();
+      setInterval(tick, 60000);
+    })();
+  </script>
+</BaseLayout>
