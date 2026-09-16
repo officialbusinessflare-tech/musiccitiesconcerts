@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-09-15T07:00:43.685Z",
+  "fetchedAt": "2026-09-16T07:00:52.741Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 151000,
-      "videoCount": 279,
+      "videoCount": 280,
       "recentLongform": [
+        {
+          "id": "Os7XArLlS44",
+          "title": "Nini Music | On Tour Next Month!",
+          "publishedAt": "2026-09-15T13:36:46Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Os7XArLlS44/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Os7XArLlS44/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Os7XArLlS44/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Os7XArLlS44/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Os7XArLlS44/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M30S",
+          "durationSeconds": 90
+        },
         {
           "id": "sFGf8xPXaxU",
           "title": "The Line Outside | 2 Metal Audiences 10 Blocks Apart",
@@ -367,40 +401,6 @@
           },
           "duration": "PT1M22S",
           "durationSeconds": 82
-        },
-        {
-          "id": "i7N5CB6oufc",
-          "title": "Out of the Ashes | Churchill's Miami",
-          "publishedAt": "2026-08-22T21:38:30Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/i7N5CB6oufc/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/i7N5CB6oufc/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/i7N5CB6oufc/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/i7N5CB6oufc/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/i7N5CB6oufc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M20S",
-          "durationSeconds": 80
         }
       ],
       "recentShorts": [
