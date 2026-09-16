@@ -1,0 +1,165 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
+import Footer from '../components/Footer.astro';
+
+/**
+ * /buddy-guy — Buddy Guy's 90th Birthday Concert field trip.
+ *
+ * "Buddy's Got the Blues: A 90th Birthday Concert Celebration"
+ * Radio City Music Hall, NYC — Thursday, October 1, 2026.
+ * Musical director: Steve Jordan. All-star blues lineup below (confirmed as of
+ * the June 2026 announcement; more guests expected). Not a festival, but the
+ * bill and the occasion make it a field trip.
+ */
+
+type Guest = { name: string; pill?: string };
+
+const headliners: Guest[] = [
+  { name: 'Buddy Guy', pill: 'The man of the hour' },
+  { name: 'Eric Clapton' },
+  { name: 'John Mayer' },
+];
+
+const heavyweights: Guest[] = [
+  { name: 'Joe Bonamassa' },
+  { name: 'Gary Clark Jr.' },
+  { name: 'Derek Trucks' },
+  { name: 'Susan Tedeschi' },
+  { name: 'Billy F Gibbons', pill: 'ZZ Top' },
+  { name: 'Jimmie Vaughan' },
+  { name: 'Robert Cray' },
+  { name: 'Kenny Wayne Shepherd' },
+];
+
+const alsoOnTheBill: Guest[] = [
+  { name: 'Jon Batiste' },
+  { name: 'Aloe Blacc' },
+  { name: 'Shemekia Copeland' },
+  { name: 'Samantha Fish' },
+  { name: 'Eric Gales' },
+  { name: 'Ivan Neville' },
+  { name: 'Robert Randolph' },
+  { name: 'Bobby Rush' },
+  { name: 'Isaiah Sharkey' },
+  { name: 'Ally Venable' },
+  { name: 'Kim Wilson' },
+  { name: 'Willie Weeks' },
+];
+---
+
+<BaseLayout
+  title="Buddy Guy at 90 — Field Trip | The Music Cities"
+  description="Buddy's Got the Blues: Buddy Guy's 90th birthday concert at Radio City Music Hall, Oct 1 2026 — Clapton, Mayer, Bonamassa, Gary Clark Jr. and a room full of blues legends."
+>
+  <Header />
+  <SceneNav />
+
+  <section class="dash-hero">
+    <div class="container">
+      <p class="dash-hero__eyebrow">Field Trip</p>
+      <h1 class="dash-hero__title">Buddy Guy <em>at 90</em></h1>
+      <p class="dash-hero__subtitle">Buddy's Got the Blues — Thursday, October 1, 2026 — Radio City Music Hall, New York City</p>
+      <p class="dash-hero__lede">
+        A living legend turns 90, and the room fills with the people he shaped. This is not a festival —
+        it's a one-night blues summit, Buddy Guy surrounded by Eric Clapton, John Mayer, Joe Bonamassa,
+        Gary Clark Jr., Derek Trucks and Susan Tedeschi, Billy Gibbons, and a dozen more. Steve Jordan
+        runs the band. We're going.
+      </p>
+      <div class="wkn-countdown" id="bg-countdown" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <main class="dash-main">
+    <div class="container">
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">The night</h2>
+        <dl class="wkn-meta">
+          <div><dt>Date</dt><dd>Thursday, October 1, 2026</dd></div>
+          <div><dt>Venue</dt><dd>Radio City Music Hall, New York City</dd></div>
+          <div><dt>The occasion</dt><dd>Buddy Guy at 90 — the last of the first-generation Chicago blues giants, still playing.</dd></div>
+          <div><dt>Musical director</dt><dd>Steve Jordan</dd></div>
+          <div><dt>Why we're here</dt><dd class="wkn-meta__green">A once-in-a-lifetime bill honoring the source the whole rock and metal family tree grows out of.</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Who's joining him</h2>
+        <div class="wkn-tier-grid">
+          <div class="wkn-tier wkn-tier--headliners">
+            <div class="wkn-tier__label">The marquee</div>
+            <ul>
+              {headliners.map((g) => (
+                <li>{g.name}{g.pill ? <span class="wkn-pill wkn-pill--confirmed">{g.pill}</span> : null}</li>
+              ))}
+            </ul>
+          </div>
+          <div class="wkn-tier wkn-tier--t1">
+            <div class="wkn-tier__label">Blues heavyweights</div>
+            <ul>
+              {heavyweights.map((g) => (
+                <li>{g.name}{g.pill ? <span class="wkn-pill">{g.pill}</span> : null}</li>
+              ))}
+            </ul>
+          </div>
+          <div class="wkn-tier wkn-tier--t2">
+            <div class="wkn-tier__label">Also on the bill</div>
+            <ul>
+              {alsoOnTheBill.map((g) => (
+                <li>{g.name}{g.pill ? <span class="wkn-pill">{g.pill}</span> : null}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <p class="wkn-meta__warn" style="margin-top:14px;">Lineup confirmed at announcement; more special guests expected before the show.</p>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Why this is a field trip</h2>
+        <ul class="wkn-notes">
+          <li>Buddy Guy is the bridge. Muddy Waters and Howlin' Wolf handed it to him; he handed it to Clapton, Hendrix, Vaughan, and everyone who plugged a Strat into a loud amp after. The line from Chicago blues to rock to metal runs straight through this man.</li>
+          <li>This is the lineage argument made in one room, in one night: the source and the artists he built, together. That's the story The Music Cities tells about every scene — where the sound comes from, and who carries it forward.</li>
+          <li>A 90-year-old originator still on stage, surrounded by the generations he made possible. You do not get many more of these.</li>
+        </ul>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Notes</h2>
+        <ul class="wkn-notes">
+          <li>Rough draft. Set details and any Music Cities coverage plan fill in here as the date gets closer.</li>
+          <li>Produced by Blackbird Presents. Radio City Music Hall, one night only.</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+
+  <script is:inline>
+    (function () {
+      function tick() {
+        var el = document.getElementById('bg-countdown');
+        if (!el) return;
+        var target = new Date('2026-10-01T19:00:00').getTime();
+        var diff = target - Date.now();
+        if (diff < 0) {
+          el.innerHTML = '<div class="wkn-count-box"><div class="wkn-count-num">LIVE</div><div class="wkn-count-lbl">Buddy at 90</div></div>';
+          return;
+        }
+        var days = Math.floor(diff / 86400000);
+        var hours = Math.floor((diff % 86400000) / 3600000);
+        var mins = Math.floor((diff % 3600000) / 60000);
+        el.innerHTML =
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + days + '</div><div class="wkn-count-lbl">Days to the show</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + hours + '</div><div class="wkn-count-lbl">Hours</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + mins + '</div><div class="wkn-count-lbl">Minutes</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">Oct 1</div><div class="wkn-count-lbl">Radio City</div></div>';
+      }
+      tick();
+      setInterval(tick, 60000);
+    })();
+  </script>
+</BaseLayout>
