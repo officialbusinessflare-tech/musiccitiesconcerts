@@ -1,13 +1,52 @@
 {
-  "fetchedAt": "2026-09-17T07:00:42.632Z",
+  "fetchedAt": "2026-09-18T07:00:47.497Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 151000,
-      "videoCount": 281,
+      "videoCount": 282,
       "recentLongform": [
+        {
+          "id": "r8klGaDF1gE",
+          "title": "Nini | A Community, Not an Audience | Nini Music",
+          "publishedAt": "2026-09-17T13:13:33Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/r8klGaDF1gE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/r8klGaDF1gE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/r8klGaDF1gE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/r8klGaDF1gE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/r8klGaDF1gE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/r8klGaDF1gE/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          "duration": "PT16M52S",
+          "durationSeconds": 1012
+        },
         {
           "id": "Os7XArLlS44",
           "title": "Nini Music | On Tour Next Month!",
@@ -811,40 +850,6 @@
           },
           "duration": "PT53S",
           "durationSeconds": 53
-        },
-        {
-          "id": "nr1BgILCwag",
-          "title": "Broken by the Scream | London Soundcheck | 2026",
-          "publishedAt": "2026-08-25T01:49:04Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/nr1BgILCwag/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/nr1BgILCwag/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/nr1BgILCwag/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/nr1BgILCwag/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/nr1BgILCwag/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT24S",
-          "durationSeconds": 24
         }
       ]
     },
