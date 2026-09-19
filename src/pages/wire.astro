@@ -1,0 +1,123 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
+import Footer from '../components/Footer.astro';
+
+/**
+ * /wire — The Label Wire.
+ *
+ * A running bulletin of everything the record labels and their PR desks send us:
+ * album announcements, singles, videos, tours. This is NOT the curated Album
+ * Releases page (that one is for the bands our audience actually asks for). This
+ * is the raw feed, logged as it lands, and it exists partly so the labels can
+ * see we run everything they send. Fed from label/PR email (Napalm Records,
+ * Palmer Turner Overdrive, and more as we sign up for lists).
+ *
+ * Data: label-wire.json at repo root. Add entries there; newest sorts to top.
+ */
+import wireData from '../../label-wire.json';
+
+type WireLabel = { id: string; name: string; url: string; blurb: string };
+type WireEntry = { date: string; label: string; artist: string; headline: string; type: string; releaseDate?: string };
+
+const labels = (wireData.labels ?? []) as WireLabel[];
+const labelById = new Map(labels.map((l) => [l.id, l]));
+
+const entries = ([...(wireData.entries ?? [])] as WireEntry[]).sort((a, b) =>
+  a.date < b.date ? 1 : a.date > b.date ? -1 : 0
+);
+
+function fmt(d: string) {
+  const parts = d.split('-').map((n) => parseInt(n, 10));
+  const dt = new Date(parts[0], parts[1] - 1, parts[2]);
+  return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+const lastUpdated = wireData.generatedAt
+  ? new Date(wireData.generatedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
+  : null;
+---
+
+<BaseLayout
+  title="The Label Wire | The Music Cities"
+  description="Every announcement the record labels and their PR desks send us — albums, singles, videos, tours — logged as it lands. Thanks to Napalm Records, Palmer Turner Overdrive and more."
+>
+  <Header />
+  <SceneNav />
+
+  <section class="dash-hero">
+    <div class="container">
+      <p class="dash-hero__eyebrow">Bulletin</p>
+      <h1 class="dash-hero__title">The Label <em>Wire</em></h1>
+      <p class="dash-hero__subtitle">Straight from the desks that keep the scene moving.</p>
+      <p class="dash-hero__lede">
+        Everything the labels and their PR crews send us, logged as it lands. Albums, singles,
+        videos, tours. This is the raw feed, not our curated picks. Big thanks to the crews who
+        keep us on the list.
+        {lastUpdated ? <span>Last updated {lastUpdated}.</span> : null}
+      </p>
+      <div class="wire-credits">
+        <span class="wire-credits__label">On the wire:</span>
+        {labels.map((l) => (
+          <a class="wire-credits__pill" href={l.url} target="_blank" rel="noopener noreferrer">{l.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <main class="dash-main">
+    <div class="container">
+
+      <ol class="wire-list">
+        {entries.map((e) => {
+          const lab = labelById.get(e.label);
+          return (
+            <li class={'wire-item wire-item--' + e.label}>
+              <div class="wire-item__meta">
+                <span class="wire-item__date">{fmt(e.date)}</span>
+                <span class="wire-item__source">{lab ? lab.name : e.label}</span>
+                {e.type ? <span class="wire-item__type">{e.type}</span> : null}
+              </div>
+              <p class="wire-item__body">
+                <span class="wire-item__artist">{e.artist}</span>
+                {' — '}{e.headline}
+              </p>
+            </li>
+          );
+        })}
+      </ol>
+
+      <p class="wire-foot">
+        This is the label feed, not our recommendation. For the records we actually champion,
+        see <a href="/releases">Album Releases</a>. Want on the wire? Put The Music Cities on your
+        list and it shows up here.
+      </p>
+
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  .wire-credits { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 18px; }
+  .wire-credits__label { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: #8a8279; }
+  .wire-credits__pill { display: inline-block; padding: 5px 12px; border-radius: 999px; background: #1b1b1b; border: 1px solid #333; color: #e6e2da; font-size: 13px; font-weight: 600; text-decoration: none; }
+  .wire-credits__pill:hover { border-color: #e50914; color: #fff; }
+
+  .wire-list { list-style: none; margin: 28px 0 0; padding: 0; border-top: 1px solid #262626; }
+  .wire-item { padding: 16px 0 16px 16px; border-bottom: 1px solid #262626; border-left: 3px solid #333; }
+  .wire-item--napalm { border-left-color: #e50914; }
+  .wire-item--pto { border-left-color: #3b82f6; }
+  .wire-item__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 5px; }
+  .wire-item__date { font-size: 12.5px; color: #8a8279; font-variant-numeric: tabular-nums; }
+  .wire-item__source { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: #b7b2a9; }
+  .wire-item__type { font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; color: #6f6a62; border: 1px solid #333; border-radius: 4px; padding: 1px 6px; }
+  .wire-item__body { margin: 0; font-size: 15.5px; line-height: 1.5; color: #d9d4ca; }
+  .wire-item__artist { font-weight: 700; color: #fff; }
+
+  .wire-foot { margin: 28px 0 0; color: #8a8279; font-size: 14px; line-height: 1.6; }
+  .wire-foot a { color: #e6e2da; }
+  .wire-foot a:hover { color: #fff; }
+</style>
