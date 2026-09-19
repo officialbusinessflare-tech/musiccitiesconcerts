@@ -1,86 +1,29 @@
 {
   "generatedAt": "2026-09-19T00:00:00.000Z",
   "labels": [
-    {
-      "id": "napalm",
-      "name": "Napalm Records",
-      "url": "https://www.napalmrecords.com",
-      "blurb": "The Berlin and Vienna metal powerhouse."
-    },
-    {
-      "id": "pto",
-      "name": "Palmer Turner Overdrive",
-      "url": "https://www.palmerturneroverdrive.com",
-      "blurb": "Andy and the crew — the PR desk behind Savage Grace, Werewolves and more."
-    }
+    { "id": "napalm", "name": "Napalm Records", "url": "https://www.napalmrecords.com" },
+    { "id": "backonblack", "name": "Back on Black Records" },
+    { "id": "uprise", "name": "Uprise / Maverick DC" },
+    { "id": "bushiroad", "name": "Bushiroad Music", "url": "https://bushiroad-music.com" },
+    { "id": "ponycanyon", "name": "Pony Canyon", "url": "https://www.ponycanyon.co.jp" },
+    { "id": "crimson", "name": "Crimson" },
+    { "id": "independent", "name": "Independent" }
   ],
   "entries": [
-    {
-      "date": "2026-09-15",
-      "label": "napalm",
-      "artist": "Napalm Records",
-      "headline": "Fall tour alert — Napalm artists on the road across September and October 2026.",
-      "type": "Tour"
-    },
-    {
-      "date": "2026-09-11",
-      "label": "napalm",
-      "artist": "tAKiDA",
-      "headline": "New album Numbers announced, out January 8, 2027. New single “In Your Bed” out now.",
-      "type": "Album",
-      "releaseDate": "2027-01-08"
-    },
-    {
-      "date": "2026-09-10",
-      "label": "napalm",
-      "artist": "Konvent",
-      "headline": "Danish extreme-metal witches announce new album Firesky, out November 6, 2026.",
-      "type": "Album",
-      "releaseDate": "2026-11-06"
-    },
-    {
-      "date": "2026-09-10",
-      "label": "napalm",
-      "artist": "Temperance",
-      "headline": "Third single “The Tower: Lean Into Fear” + video. Album out October 16, 2026.",
-      "type": "Single",
-      "releaseDate": "2026-10-16"
-    },
-    {
-      "date": "2026-09-09",
-      "label": "napalm",
-      "artist": "Bülent Ceylan",
-      "headline": "New single “Randale und Radau” featuring In Extremo frontman Michael Rhein.",
-      "type": "Single"
-    },
-    {
-      "date": "2026-09-09",
-      "label": "pto",
-      "artist": "Werewolves",
-      "headline": "New record You're Weak And You Know You're Weak — band up for interviews.",
-      "type": "Album"
-    },
-    {
-      "date": "2026-09-08",
-      "label": "napalm",
-      "artist": "Schandmaul",
-      "headline": "New single “Zwei Raben” with Laura Fella of Faun, plus official video.",
-      "type": "Single"
-    },
-    {
-      "date": "2026-09-03",
-      "label": "pto",
-      "artist": "Savage Grace",
-      "headline": "Power/speed metal legends announce new album Underworld, out October 23, 2026.",
-      "type": "Album",
-      "releaseDate": "2026-10-23"
-    },
-    {
-      "date": "2026-09-03",
-      "label": "napalm",
-      "artist": "Accept",
-      "headline": "Heavy-metal icons reveal a 50th-anniversary re-rendition of “Losers and Winners” + video.",
-      "type": "Single"
-    }
+    { "kind": "send", "date": "2026-09-15", "label": "napalm", "artist": "Napalm Records", "headline": "Fall tour alert — Napalm artists on the road across September and October 2026.", "type": "Tour" },
+    { "kind": "send", "date": "2026-09-11", "label": "napalm", "artist": "tAKiDA", "headline": "New album Numbers announced, out January 8, 2027. New single “In Your Bed” out now.", "type": "Album", "releaseDate": "2027-01-08" },
+    { "kind": "send", "date": "2026-09-10", "label": "napalm", "artist": "Konvent", "headline": "Danish extreme-metal witches announce new album Firesky, out November 6, 2026.", "type": "Album", "releaseDate": "2026-11-06" },
+    { "kind": "send", "date": "2026-09-10", "label": "napalm", "artist": "Temperance", "headline": "Third single “The Tower: Lean Into Fear” + video. Album out October 16, 2026.", "type": "Single", "releaseDate": "2026-10-16" },
+    { "kind": "send", "date": "2026-09-09", "label": "napalm", "artist": "Bülent Ceylan", "headline": "New single “Randale und Radau” featuring In Extremo frontman Michael Rhein.", "type": "Single" },
+    { "kind": "send", "date": "2026-09-09", "label": "backonblack", "artist": "Werewolves", "headline": "You're Weak And You Know You're Weak, the band's seventh album in seven years, out October 9, 2026.", "type": "Album", "releaseDate": "2026-10-09" },
+    { "kind": "send", "date": "2026-09-08", "label": "napalm", "artist": "Schandmaul", "headline": "New single “Zwei Raben” with Laura Fella of Faun, plus official video.", "type": "Single" },
+    { "kind": "send", "date": "2026-09-03", "label": "backonblack", "artist": "Savage Grace", "headline": "Power/speed metal legends announce new album Underworld, out October 23, 2026.", "type": "Album", "releaseDate": "2026-10-23" },
+    { "kind": "send", "date": "2026-09-03", "label": "napalm", "artist": "Accept", "headline": "Heavy-metal icons reveal a 50th-anniversary re-rendition of “Losers and Winners” + video.", "type": "Single" },
+
+    { "kind": "pick", "date": "2026-10-07", "label": "uprise", "artist": "ZILQY", "headline": "Debut full-length Birth of Riot — ten tracks, the band's first album-length statement.", "type": "Album", "releaseDate": "2026-10-07" },
+    { "kind": "pick", "date": "2026-10-21", "label": "bushiroad", "artist": "AVE MUJICA", "headline": "Mini album 神の名を (Kami no Na wo), collecting insert songs from the film prima aurora.", "type": "EP", "releaseDate": "2026-10-21" },
+    { "kind": "pick", "date": "2026-10-28", "label": "independent", "artist": "KOIAI", "headline": "Live Blu-ray from the Starting Over tour, Heavy Kawaii Fes 2026 in Tokyo.", "type": "Blu-ray", "releaseDate": "2026-10-28" },
+    { "kind": "pick", "date": "2026-10-28", "label": "ponycanyon", "artist": "BAND-MAID", "headline": "New single SPIN — their first physical single in four and a half years and the new Beyblade X ending theme.", "type": "Single", "releaseDate": "2026-10-28" },
+    { "kind": "pick", "date": "2026-12-02", "label": "crimson", "artist": "HAGANE", "headline": "Third full-length Through the Night, followed by a nationwide album tour into February 2027.", "type": "Album", "releaseDate": "2026-12-02" }
   ]
 }
