@@ -1,5 +1,5 @@
 /* The Music Cities Concerts — service worker (app shell + push) */
-const CACHE = 'tmc-shell-v1';
+const CACHE = 'tmc-shell-v2';
 const SHELL = ['/', '/icon.svg', '/favicon.png', '/manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
@@ -25,7 +25,7 @@ self.addEventListener('fetch', (event) => {
   // Navigations: network-first, fall back to cached page then the app root.
   if (req.mode === 'navigate') {
     event.respondWith(
-      fetch(req)
+      fetch(req, { cache: 'reload' })
         .then((res) => { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); return res; })
         .catch(() => caches.match(req).then((r) => r || caches.match('/')))
     );
