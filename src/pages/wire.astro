@@ -21,22 +21,26 @@ import Footer from '../components/Footer.astro';
 import wireData from '../../label-wire.json';
 
 type WireLabel = { id: string; name: string; url?: string };
-type WireEntry = { kind: string; date: string; label: string; artist: string; headline: string; type: string; releaseDate?: string };
+type WireEntry = { kind: string; date: string; label: string; artist: string; headline: string; type: string; releaseDate?: string; pr?: string };
 
 const labels = (wireData.labels ?? []) as WireLabel[];
 const labelById = new Map(labels.map((l) => [l.id, l]));
 const all = (wireData.entries ?? []) as WireEntry[];
 
+// Andy Turner's PR desk (pr: "pto") always sorts first when items share a day.
+const andyFirst = (a: WireEntry, b: WireEntry) => (a.pr === 'pto' ? 0 : 1) - (b.pr === 'pto' ? 0 : 1);
+
 const sends = all
   .filter((e) => e.kind !== 'pick')
-  .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+  .sort((a, b) => (a.date !== b.date ? (a.date < b.date ? 1 : -1) : andyFirst(a, b)));
 
 const picks = all
   .filter((e) => e.kind === 'pick')
   .sort((a, b) => {
     const ad = a.releaseDate ?? a.date;
     const bd = b.releaseDate ?? b.date;
-    return ad < bd ? -1 : ad > bd ? 1 : 0;
+    if (ad !== bd) return ad < bd ? -1 : 1;
+    return andyFirst(a, b);
   });
 
 function fmt(d: string) {
