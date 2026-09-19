@@ -10,14 +10,13 @@
     { "id": "independent", "name": "Independent" }
   ],
   "entries": [
-    { "kind": "send", "date": "2026-09-15", "label": "napalm", "artist": "Napalm Records", "headline": "Fall tour alert — Napalm artists on the road across September and October 2026.", "type": "Tour" },
     { "kind": "send", "date": "2026-09-11", "label": "napalm", "artist": "tAKiDA", "headline": "New album Numbers announced, out January 8, 2027. New single “In Your Bed” out now.", "type": "Album", "releaseDate": "2027-01-08" },
     { "kind": "send", "date": "2026-09-10", "label": "napalm", "artist": "Konvent", "headline": "Danish extreme-metal witches announce new album Firesky, out November 6, 2026.", "type": "Album", "releaseDate": "2026-11-06" },
     { "kind": "send", "date": "2026-09-10", "label": "napalm", "artist": "Temperance", "headline": "Third single “The Tower: Lean Into Fear” + video. Album out October 16, 2026.", "type": "Single", "releaseDate": "2026-10-16" },
     { "kind": "send", "date": "2026-09-09", "label": "napalm", "artist": "Bülent Ceylan", "headline": "New single “Randale und Radau” featuring In Extremo frontman Michael Rhein.", "type": "Single" },
-    { "kind": "send", "date": "2026-09-09", "label": "backonblack", "artist": "Werewolves", "headline": "You're Weak And You Know You're Weak, the band's seventh album in seven years, out October 9, 2026.", "type": "Album", "releaseDate": "2026-10-09" },
+    { "kind": "send", "date": "2026-09-09", "label": "backonblack", "pr": "pto", "artist": "Werewolves", "headline": "You're Weak And You Know You're Weak, the band's seventh album in seven years, out October 9, 2026.", "type": "Album", "releaseDate": "2026-10-09" },
     { "kind": "send", "date": "2026-09-08", "label": "napalm", "artist": "Schandmaul", "headline": "New single “Zwei Raben” with Laura Fella of Faun, plus official video.", "type": "Single" },
-    { "kind": "send", "date": "2026-09-03", "label": "backonblack", "artist": "Savage Grace", "headline": "Power/speed metal legends announce new album Underworld, out October 23, 2026.", "type": "Album", "releaseDate": "2026-10-23" },
+    { "kind": "send", "date": "2026-09-03", "label": "backonblack", "pr": "pto", "artist": "Savage Grace", "headline": "Power/speed metal legends announce new album Underworld, out October 23, 2026.", "type": "Album", "releaseDate": "2026-10-23" },
     { "kind": "send", "date": "2026-09-03", "label": "napalm", "artist": "Accept", "headline": "Heavy-metal icons reveal a 50th-anniversary re-rendition of “Losers and Winners” + video.", "type": "Single" },
 
     { "kind": "pick", "date": "2026-10-07", "label": "uprise", "artist": "ZILQY", "headline": "Debut full-length Birth of Riot — ten tracks, the band's first album-length statement.", "type": "Album", "releaseDate": "2026-10-07" },
