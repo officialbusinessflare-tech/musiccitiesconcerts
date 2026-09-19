@@ -1,0 +1,97 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
+import Footer from '../components/Footer.astro';
+
+/**
+ * /turnstile — Turnstile & Hatebreed field trip.
+ *
+ * Turnstile "The Never Enough Tour Pt. 2" with Hatebreed and Cold World.
+ * England Brothers Park, Pinellas Park FL — Friday, September 19, 2026.
+ * Doors 5:00, show 6:30. Outdoor park show, curated hardcore bill.
+ */
+---
+
+<BaseLayout
+  title="Turnstile & Hatebreed — Field Trip | The Music Cities"
+  description="Turnstile's Never Enough Tour Pt. 2 with Hatebreed and Cold World at England Brothers Park, Pinellas Park — Sept 19, 2026. A hardcore night in a Florida park."
+>
+  <Header />
+  <SceneNav />
+
+  <section class="dash-hero">
+    <div class="container">
+      <p class="dash-hero__eyebrow">Field Trip</p>
+      <h1 class="dash-hero__title">Turnstile &amp; <em>Hatebreed</em></h1>
+      <p class="dash-hero__subtitle">The Never Enough Tour Pt. 2 — Friday, September 19, 2026 — England Brothers Park, Pinellas Park, Florida</p>
+      <p class="dash-hero__lede">
+        Turnstile brings the Never Enough tour to a Tampa Bay park, and they brought the heavy: Hatebreed
+        and Cold World on a curated hardcore bill. A Grammy-winning crossover band, a two-decade New Haven
+        institution, and an outdoor Florida crowd. This is the room where a scene shows up for itself.
+      </p>
+      <div class="wkn-countdown" id="ts-countdown" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <main class="dash-main">
+    <div class="container">
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">The night</h2>
+        <dl class="wkn-meta">
+          <div><dt>Date</dt><dd>Friday, September 19, 2026</dd></div>
+          <div><dt>Venue</dt><dd>England Brothers Park, Pinellas Park, Florida</dd></div>
+          <div><dt>Doors / show</dt><dd>Doors 5:00 PM, music 6:30 PM</dd></div>
+          <div><dt>The bill</dt><dd class="wkn-meta__green">Turnstile, with Hatebreed and Cold World.</dd></div>
+          <div><dt>Set times</dt><dd class="wkn-meta__warn">Per-band stage times aren't officially posted. Order runs Cold World, then Hatebreed, then Turnstile to close around the 10 PM curfew.</dd></div>
+          <div><dt>Good cause</dt><dd>$1 from every ticket goes to Radiant Hands through Turnstile's PLUS1 partnership, supporting women and families across greater Tampa Bay.</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Why we're here</h2>
+        <ul class="wkn-notes">
+          <li>Turnstile is the crossover story of the moment — a hardcore band that broke into festivals, late-night TV, and the Grammys without leaving the scene behind. Watching that in a neighborhood park is the whole point.</li>
+          <li>Hatebreed have been the connective tissue of American hardcore for a quarter century. A bill this heavy in Pinellas Park says the Tampa Bay scene can hold a night like this.</li>
+          <li>A park show, a local crowd, a band that made it big and came back loud. That's the economics-of-scene argument playing out in real time.</li>
+        </ul>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Notes</h2>
+        <ul class="wkn-notes">
+          <li>Rough draft. Recap and any footage from the night fill in here after the show.</li>
+          <li>Outdoor show. Bag and re-entry rules are the venue's call.</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+
+  <script is:inline>
+    (function () {
+      function tick() {
+        var el = document.getElementById('ts-countdown');
+        if (!el) return;
+        var target = new Date('2026-09-19T18:30:00').getTime();
+        var diff = target - Date.now();
+        if (diff < 0) {
+          el.innerHTML = '<div class="wkn-count-box"><div class="wkn-count-num">LIVE</div><div class="wkn-count-lbl">Doors are open</div></div>';
+          return;
+        }
+        var hours = Math.floor(diff / 3600000);
+        var mins = Math.floor((diff % 3600000) / 60000);
+        el.innerHTML =
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + hours + '</div><div class="wkn-count-lbl">Hours to music</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">' + mins + '</div><div class="wkn-count-lbl">Minutes</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">6:30</div><div class="wkn-count-lbl">Show</div></div>' +
+          '<div class="wkn-count-box"><div class="wkn-count-num">Sep 19</div><div class="wkn-count-lbl">Pinellas Park</div></div>';
+      }
+      tick();
+      setInterval(tick, 60000);
+    })();
+  </script>
+</BaseLayout>
