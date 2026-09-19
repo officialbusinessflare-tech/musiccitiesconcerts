@@ -128,6 +128,11 @@ const SCENE_BRIEFS: { id: string; name: string; href: string }[] = [
           </a>
         </li>
         <li class="scene-nav__item">
+          <a class={"scene-nav__link" + (activeBucketId === 'wire' ? ' is-active' : '')} href="/wire" aria-current={activeBucketId === 'wire' ? 'page' : undefined}>
+            <span class="scene-nav__name">Label Wire</span>
+          </a>
+        </li>
+        <li class="scene-nav__item">
           <a class={`scene-nav__link${activeBucketId === 'photos' ? ' is-active' : ''}`} href="/photos" aria-current={activeBucketId === 'photos' ? 'page' : undefined}>
             <span class="scene-nav__name">Photos</span>
           </a>
