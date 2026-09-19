@@ -136,10 +136,17 @@ const teasers = [...bucketTeasers, birthdaysTeaser, venuesTeaser, watchingTeaser
 
 const fieldTrips = [
   {
-    id: 'louder-than-life',
-    href: '/louder-than-life',
-    titleHtml: 'Louder Than Life <em>2026</em> — Thursday',
-    sub: "Thursday 17 September 2026 — Louisville. Iron Maiden headlines, Pantera's only US show of the year, Megadeth's farewell — our tier-coded Thursday brief.",
+    id: 'turnstile',
+    href: '/turnstile',
+    titleHtml: 'Turnstile &amp; <em>Hatebreed</em>',
+    sub: "Saturday 19 September 2026 — England Brothers Park, Pinellas Park. Turnstile's Never Enough tour with Hatebreed and Cold World.",
+    cta: 'View the brief →',
+  },
+  {
+    id: 'buddy-guy',
+    href: '/buddy-guy',
+    titleHtml: 'Buddy Guy <em>at 90</em>',
+    sub: 'Thursday 1 October 2026 — Radio City Music Hall, New York. Clapton, Mayer, Bonamassa and a room full of blues legends.',
     cta: 'View the brief →',
   },
 ];
@@ -194,7 +201,7 @@ const lastUpdated = data.generatedAt
     <div class="container">
       <header class="field-trips__header">
         <span class="field-trips__eyebrow">Field Trips</span>
-        <p class="field-trips__sub">Where we go next. Up next is Louder Than Life Thursday in Louisville.</p>
+        <p class="field-trips__sub">Where we go next. Turnstile and Hatebreed in Pinellas Park tonight, then Buddy Guy's 90th at Radio City.</p>
       </header>
       <div class="field-trips__stack">
         {fieldTrips.map((trip) => (
