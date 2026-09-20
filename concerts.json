@@ -1,304 +1,6 @@
 {
-  "generatedAt": "2026-09-19T07:00:35.188Z",
+  "generatedAt": "2026-09-20T07:00:42.420Z",
   "entries": [
-    {
-      "id": "86bbzrk8t",
-      "name": "METALVERSE @ duo MUSIC EXCHANGE — Tokyo, Japan — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "duo MUSIC EXCHANGE",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "METALVERSE"
-      ],
-      "description": "METALVERSE at duo MUSIC EXCHANGE, Shibuya. Saturday, September 19, 2026. Listing: https://www.bandsintown.com/Metalverse",
-      "ticketUrl": "https://www.bandsintown.com/Metalverse",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzrk8t",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbuyjmu",
-      "name": "Havok + Blood Red Throne @ The Dome — London, UK — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "The Dome",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "Havok",
-        "Blood Red Throne"
-      ],
-      "description": "Havok with Blood Red Throne, Xonor and Eradikated. Colorado thrash at The Dome main room, Tufnell Park.",
-      "ticketUrl": "https://domelondon.seetickets.com/event/havok/the-dome/3624609",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbuyjmu",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbkedwv",
-      "name": "King 810 @ Come and Take It Live — Austin, TX — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "bands": [
-        "King 810"
-      ],
-      "description": "King 810, Austin date.",
-      "ticketUrl": "https://www.etix.com/ticket/p/45193836",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkedwv",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbkebpz",
-      "name": "Rolling Quartz @ Whisky a Go Go — West Hollywood, CA — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "Rolling Quartz"
-      ],
-      "description": "Rolling Quartz — MY TURN 2026 North America tour, Sunset Strip date at the Whisky a Go Go.",
-      "ticketUrl": "https://www.ticketweb.com/event/rolling-quartz-my-turn-2026-whisky-a-go-go-tickets/14947483",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkebpz",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbkeaaw",
-      "name": "Remo Drive + sports. @ Conduit — Orlando, FL — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "Conduit",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Remo Drive",
-        "sports."
-      ],
-      "description": "Full bill: Remo Drive, sports., Computer, Dear Cincinnati. Co-headline emo/indie rock run.",
-      "ticketUrl": "https://www.ticketweb.com/event/remo-drive-x-sports-conduit-tickets/14220004",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkeaaw",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbke8fg",
-      "name": "Unlucky Morpheus @ Shibuya WWW X — Tokyo, Japan — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "Shibuya WWW X",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "Unlucky Morpheus"
-      ],
-      "description": "Unlucky Morpheus — \"HELL or HEAVEN\" 暴れん坊限定 (mosh-pit-only) show, Tokyo leg at Shibuya WWW X.",
-      "ticketUrl": "https://www.udo.jp/shows/UM_hellorheaven_abare",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbke8fg",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbke8c0",
-      "name": "The Warning @ Tingley Coliseum — Albuquerque, NM — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "Tingley Coliseum",
-      "city": "Albuquerque",
-      "state": "NM",
-      "bands": [
-        "The Warning"
-      ],
-      "description": "The Warning at the New Mexico State Fair, Tingley Coliseum.",
-      "ticketUrl": "https://www.bandsintown.com/e/107917739",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbke8c0",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbeb5wn",
-      "name": "Plush @ Brass Mug — Tampa, FL — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Plush"
-      ],
-      "description": "All-female hard rock quartet Plush at the Brass Mug. Fits the women-in-metal editorial spine. Source: Brass Mug / JamBase calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb5wn",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bb8y5p3",
-      "name": "The Browning — The Banyan Live, West Palm Beach FL — Sep 19, 2026",
-      "date": "2026-09-19",
-      "venue": "The Banyan Live",
-      "city": "West Palm Beach",
-      "state": "FL",
-      "bands": [
-        "The Browning"
-      ],
-      "description": "The Browning bring their electronic-edged metalcore to The Banyan Live, West Palm Beach — Saturday, Sep 19, 2026. Tickets and info via Limitless Agency (limitlessagency.com).",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb8y5p3",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bb0uvf9",
-      "name": "TURNSTILE + Hatebreed + Cold World @ England Brothers Park — Pinellas Park, FL — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "England Brothers Park",
-      "city": "Pinellas Park",
-      "state": "FL",
-      "bands": [
-        "TURNSTILE",
-        "Hatebreed",
-        "Cold World"
-      ],
-      "description": "Bands: TURNSTILE, Hatebreed, Cold World\nVenue: England Brothers Park, Pinellas Park, FL\nDate: Saturday, September 19, 2026 — doors 5:00 PM, show 6:30 PM",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb0uvf9",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bawvp5q",
-      "name": "Vader + Jungle Rot + Fleshcrawl + Trash Panda @ Culture Room — Fort Lauderdale, FL — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "Culture Room",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "Vader",
-        "Jungle Rot",
-        "Fleshcrawl",
-        "Trash Panda"
-      ],
-      "description": "Vader's \"Reign Forever in Kingdom of Blood\" tour hits South Florida — a Favorite Venue stop at Culture Room — with Jungle Rot, Fleshcrawl, and Trash Panda.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bawvp5q",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86b9b7mjx",
-      "name": "LOVEBITES @ Kanazawa Redsun — Kanazawa, Japan",
-      "date": "2026-09-19",
-      "venue": "Kanazawa Redsun",
-      "city": "Kanazawa",
-      "country": "Japan",
-      "bands": [
-        "LOVEBITES"
-      ],
-      "description": "LOVEBITES Outstanding Tour Japan 2026. Kanazawa Redsun, Kanazawa.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b9b7mjx",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86b80hbu9",
-      "name": "Blades of Steel Metalfest — Madison, WI",
-      "date": "2026-09-19",
-      "venue": "Madison",
-      "state": "WI",
-      "bands": [
-        "Blades of Steel Metalfest"
-      ],
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b80hbu9",
-      "buckets": [
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86bb9w5e9",
-      "name": "JILUKA @ Zoom — Frankfurt, Germany — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "Zoom",
-      "city": "Frankfurt",
-      "country": "Germany",
-      "bands": [
-        "JILUKA"
-      ],
-      "description": "JILUKA — DeViLs World Tour EU/UK leg. Zoom in Frankfurt, Germany. Show date: Sep 19 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5e9",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w4y7",
-      "name": "HANABIE. + EMNW @ Chiba LOOK — Chiba, Japan — Sep 19 2026",
-      "date": "2026-09-19",
-      "venue": "Chiba LOOK",
-      "city": "Chiba",
-      "country": "Japan",
-      "bands": [
-        "HANABIE.",
-        "EMNW"
-      ],
-      "description": "HANABIE. — Japan 2MAN Tour 2026 opener, with EMNW as the two-man partner. Chiba LOOK in Chiba, Japan. Show date: Sep 19 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w4y7",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbvz4vm",
       "name": "Turnstile + Mall Grab + Cold World @ Factory Town — Miami, FL — Sep 20 2026",
@@ -3934,6 +3636,28 @@
       ]
     },
     {
+      "id": "86bc3kyrj",
+      "name": "portrayal of guilt + Headfoam + Absolver @ Churchill's Pub — Miami, FL — Oct 17 2026",
+      "date": "2026-10-17",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "portrayal of guilt",
+        "Headfoam",
+        "Absolver"
+      ],
+      "description": "Austin blackened hardcore/screamo outfit portrayal of guilt bring their fall US run to Little Haiti, with Headfoam and Absolver in support. One night before Ceremony plays the same room. Listing: https://www.songkick.com/concerts/43416766-portrayal-of-guilt-at-churchills-pub",
+      "ticketUrl": "https://www.songkick.com/concerts/43416766-portrayal-of-guilt-at-churchills-pub",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc3kyrj",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc05hbj",
       "name": "Acres + Wayside + What Lies Below @ Downstairs at The Dome — London, UK — Oct 17 2026",
       "date": "2026-10-17",
@@ -6154,6 +5878,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bavn8wy",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc3kyrk",
+      "name": "Leæther Strip + Retractor + CORPSE DUST @ Churchill's Pub — Miami, FL — Nov 7 2026",
+      "date": "2026-11-07",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Leæther Strip",
+        "Retractor",
+        "CORPSE DUST"
+      ],
+      "description": "Danish industrial/EBM pioneer Claus Larsen brings Leæther Strip back to Florida — one of only two dates on this side of the Atlantic — with Retractor and CORPSE DUST opening in Little Haiti. Listing: https://www.bandsintown.com/e/1040258675-leaether-strip-at-churchill's-pub",
+      "ticketUrl": "https://www.bandsintown.com/e/1040258675-leaether-strip-at-churchill",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc3kyrk",
       "buckets": [
         "florida-metal-scene"
       ]
