@@ -1,16 +1,16 @@
 {
-  "fetchedAt": "2026-09-19T07:00:46.063Z",
+  "fetchedAt": "2026-09-20T07:00:55.757Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
-      "subscriberCount": 151000,
-      "videoCount": 284,
+      "subscriberCount": 150000,
+      "videoCount": 285,
       "recentLongform": [
         {
           "id": "r8klGaDF1gE",
-          "title": "Nini | A Community, Not an Audience | Nini Music",
+          "title": "Nini | Building a Metal Community | Nini Music",
           "publishedAt": "2026-09-17T13:13:33Z",
           "thumbnails": {
             "default": {
@@ -331,6 +331,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "_J-9T4iC2SM",
+          "title": "Cover Bands vs. Original Music: The Business of Nostalgia! #shorts",
+          "publishedAt": "2026-09-19T13:31:19Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/_J-9T4iC2SM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/_J-9T4iC2SM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/_J-9T4iC2SM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/_J-9T4iC2SM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/_J-9T4iC2SM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT23S",
+          "durationSeconds": 23
+        },
         {
           "id": "AcJc-QitK-4",
           "title": "September 18, 2026",
@@ -806,40 +840,6 @@
           },
           "duration": "PT59S",
           "durationSeconds": 59
-        },
-        {
-          "id": "6RrfnpkGFNk",
-          "title": "BRIDEAR - The problem was never the music",
-          "publishedAt": "2026-08-25T19:40:11Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/6RrfnpkGFNk/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/6RrfnpkGFNk/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/6RrfnpkGFNk/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/6RrfnpkGFNk/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/6RrfnpkGFNk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT53S",
-          "durationSeconds": 53
         }
       ]
     },
