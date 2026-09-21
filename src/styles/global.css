@@ -437,7 +437,7 @@ button {
 
 /* ----- Scene navigation (jump-links between buckets) ----- */
 .scene-nav {
-     position: sticky;
+     position: static;
      top: 0;
      z-index: 50;
      background: rgba(10, 10, 10, 0.92);
@@ -1447,7 +1447,7 @@ button {
 
 /* ----- Scene navigation (jump-links between buckets) ----- */
 .scene-nav {
-     position: sticky;
+     position: static;
      top: 0;
      z-index: 50;
      background: rgba(10, 10, 10, 0.92);
