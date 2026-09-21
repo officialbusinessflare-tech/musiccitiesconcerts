@@ -18,6 +18,7 @@
  * field-trip / brief id ('wacken', 'london', 'japan-scene', 'japan-global').
  */
 import type { BucketConfig, ConcertEntry, BucketsConfigFile, ConcertsDataFile, BirthdaysDataFile } from '../lib/types';
+import { hasFreshAlbums } from '../lib/albums';
 import bucketsConfig from '../../buckets.config.json';
 import concertsData from '../../concerts.json';
 import birthdaysData from '../../birthdays.json';
@@ -134,7 +135,7 @@ const SCENE_BRIEFS: { id: string; name: string; href: string }[] = [
         </li>
         <li class="scene-nav__item">
           <a class={`scene-nav__link${activeBucketId === 'photos' ? ' is-active' : ''}`} href="/photos" aria-current={activeBucketId === 'photos' ? 'page' : undefined}>
-            <span class="scene-nav__name">Photos</span>
+            <span class="scene-nav__name">Photos</span>{hasFreshAlbums() ? <span class="scene-nav__new" aria-label="New albums">NEW</span> : null}
           </a>
         </li>
       </ul>
@@ -212,3 +213,7 @@ const SCENE_BRIEFS: { id: string; name: string; href: string }[] = [
     }
   })();
 </script>
+
+<style>
+  .scene-nav__new { display: inline-block; margin-left: 6px; padding: 0 5px; border-radius: 999px; background: #e11d2a; color: #fff; font-size: 9px; font-weight: 800; letter-spacing: 0.05em; line-height: 15px; vertical-align: middle; text-transform: uppercase; }
+</style>
