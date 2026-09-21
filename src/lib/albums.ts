@@ -23,9 +23,9 @@ export const NEW_WINDOW_DAYS = 14;
 
 export const NEW_ALBUMS: NewAlbum[] = [
   {
-    title: 'Butterbrain, Fuakata and more at Kill Your Idol',
-    event: 'Kill Your Idol, Miami Beach',
-    url: 'https://www.pinterest.com/TheMusicCitiesPodcast/kill-your-idol-82826-butterbrain-fukuata-more/',
+    title: 'Louder Than Life Thursday 9/17',
+    event: 'Louder Than Life 2026, Louisville',
+    url: 'https://www.pinterest.com/TheMusicCitiesPodcast/louder-than-life-thursday-917/',
     added: '2026-09-21',
   },
 ];
