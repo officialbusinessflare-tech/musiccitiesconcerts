@@ -213,6 +213,19 @@ const SCENE_BRIEFS: { id: string; name: string; href: string }[] = [
   })();
 </script>
 
+<script>
+  (function () {
+    var nav = document.querySelector('.scene-nav');
+    if (!nav) return;
+    var onScroll = function () {
+      if (window.scrollY > 140) nav.classList.add('is-scrolled');
+      else nav.classList.remove('is-scrolled');
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  })();
+</script>
+
 <style>
   .scene-nav__new { display: inline-block; margin-left: 6px; padding: 0 5px; border-radius: 999px; background: #e11d2a; color: #fff; font-size: 9px; font-weight: 800; letter-spacing: 0.05em; line-height: 15px; vertical-align: middle; text-transform: uppercase; }
 </style>
