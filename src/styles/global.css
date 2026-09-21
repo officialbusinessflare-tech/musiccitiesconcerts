@@ -437,7 +437,7 @@ button {
 
 /* ----- Scene navigation (jump-links between buckets) ----- */
 .scene-nav {
-     position: static;
+     position: sticky;
      top: 0;
      z-index: 50;
      background: rgba(10, 10, 10, 0.92);
@@ -1447,7 +1447,7 @@ button {
 
 /* ----- Scene navigation (jump-links between buckets) ----- */
 .scene-nav {
-     position: static;
+     position: sticky;
      top: 0;
      z-index: 50;
      background: rgba(10, 10, 10, 0.92);
@@ -3649,3 +3649,11 @@ button {
   margin-top: var(--space-2);
 }
 .field-trip-strip__cta--album { opacity: 0.9; }
+
+
+/* Slim collapsing sticky nav on scroll */
+.scene-nav.is-scrolled .scene-nav__inner { padding-top: 6px; padding-bottom: 6px; }
+.scene-nav.is-scrolled .scene-nav__row--briefs { display: none; }
+.scene-nav.is-scrolled .scene-nav__list { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+.scene-nav.is-scrolled .scene-nav__list::-webkit-scrollbar { display: none; }
+.scene-nav.is-scrolled { box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4); }
