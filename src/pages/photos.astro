@@ -14,6 +14,7 @@ type Album = { title: string; pins?: string; url: string };
 type Group = { event: string; note?: string; albums: Album[] };
 
 const groups: Group[] = [
+{ event: 'Louder Than Life 2026, Louisville', note: 'Thursday, September 17 — the festival field trip', albums: [ { title: 'Louder Than Life Thursday 9/17', pins: '32 pins', url: P + 'louder-than-life-thursday-917/' } ] },
 { event: 'Butterbrain + Fuakata — Kill Your Idol, Miami Beach', note: 'August 28, 2026 — the South Florida stop', albums: [ { title: 'Butterbrain, Fuakata and more at Kill Your Idol', pins: '25 pins', url: P + 'kill-your-idol-82826-butterbrain-fukuata-more/' } ] },
 { event: "Sunset Rebellion + Out of the Ashes — Churchill's Pub, Miami", note: 'August 21, 2026', albums: [ { title: "Sunset Rebellion, Out of the Ashes and more at Churchill's", pins: '20 pins', url: P + 'churchills-8212026/' } ] },
 { event: 'London 2026', note: 'Two nights at Downstairs at The Dome — band by band', albums: [ { title: 'LOVEBITES', pins: '50 pins', url: P + 'lovebites-london-2026/' }, { title: 'Broken By The Scream', pins: '128 pins', url: P + 'broken-by-the-scream-london/' }, { title: 'RE:O', pins: '17 pins', url: P + 'reo-at-downstairs-at-the-dome-london-822026/' } ] },
@@ -69,6 +70,8 @@ const groups: Group[] = [
 
 import pinterestBoards from '../../photos.json';
 const newAlbums = freshAlbums();
+const ALBUM_PRIORITY = (e) => (e.startsWith('HANABIE') ? 0 : 1);
+groups.sort((a, b) => ALBUM_PRIORITY(a.event) - ALBUM_PRIORITY(b.event));
 const _seenPinUrls = new Set(groups.flatMap((g) => g.albums.map((a) => a.url)));
 const latestPins = (((pinterestBoards as any).latest) || []);
 ---
