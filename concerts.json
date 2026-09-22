@@ -1,144 +1,6 @@
 {
-  "generatedAt": "2026-09-21T07:00:40.272Z",
+  "generatedAt": "2026-09-22T07:00:43.443Z",
   "entries": [
-    {
-      "id": "86bbzrk6u",
-      "name": "SHOW-YA @ Umeda CLUB QUATTRO — Osaka, Japan — Sep 21 2026",
-      "date": "2026-09-21",
-      "venue": "Umeda CLUB QUATTRO",
-      "city": "Osaka",
-      "country": "Japan",
-      "bands": [
-        "SHOW-YA"
-      ],
-      "description": "SHOW-YA at Umeda CLUB QUATTRO, Osaka. Monday, September 21, 2026 (holiday). Listing: https://www.bandsintown.com/Show-Ya",
-      "ticketUrl": "https://www.bandsintown.com/Show-Ya",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzrk6u",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbwe8u1",
-      "name": "Broken By The Scream @ Aoyama RizM — Tokyo, Japan — Sep 21 2026",
-      "date": "2026-09-21",
-      "venue": "Aoyama RizM",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "Broken By The Scream"
-      ],
-      "description": "Broken By The Scream on the 獅子音 Vol.37 bill at Aoyama RizM — a multi-act Tokyo night between their Sep 13 Antiknock and Sep 24 Shibuya Cyclone dates.",
-      "ticketUrl": "https://concerts.hypebot.com/artist/b/15463804-broken-by-the-scream",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbwe8u1",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbeb6je",
-      "name": "Soulfly + Nailbomb + Incite @ Come and Take It Live — Austin, TX — Sep 21 2026",
-      "date": "2026-09-21",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "bands": [
-        "Soulfly",
-        "Nailbomb",
-        "Incite"
-      ],
-      "description": "Max Cavalera brings Soulfly and Incite to Austin with a Nailbomb set attached — Nailbomb almost never plays, which makes this the standout date on the run. Source: Come and Take It Live / JamBase calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb6je",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86b9b7mkb",
-      "name": "LOVEBITES @ Niigata Lots — Niigata, Japan",
-      "date": "2026-09-21",
-      "venue": "Niigata Lots",
-      "city": "Niigata",
-      "country": "Japan",
-      "bands": [
-        "LOVEBITES"
-      ],
-      "description": "LOVEBITES Outstanding Tour Japan 2026. Niigata Lots, Niigata.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b9b7mkb",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w62d",
-      "name": "SiM @ ROCK IN JAPAN FESTIVAL 2026 — Chiba, Japan — Sep 21 2026",
-      "date": "2026-09-21",
-      "venue": "ROCK IN JAPAN FESTIVAL 2026",
-      "city": "Chiba",
-      "country": "Japan",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — festival appearance. ROCK IN JAPAN FESTIVAL 2026 in Chiba, Japan. Show date: Sep 21 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w62d",
-      "buckets": [
-        "japanese-metal",
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86bb9w5ek",
-      "name": "JILUKA @ Club Bahnhof Ehrenfeld — Cologne, Germany — Sep 21 2026",
-      "date": "2026-09-21",
-      "venue": "Club Bahnhof Ehrenfeld",
-      "city": "Cologne",
-      "country": "Germany",
-      "bands": [
-        "JILUKA"
-      ],
-      "description": "JILUKA — DeViLs World Tour EU/UK leg. Club Bahnhof Ehrenfeld in Cologne, Germany. Show date: Sep 21 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5ek",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w4av",
-      "name": "BABYMETAL @ Hollywood Casino Amphitheatre — Maryland Heights, MO — Sep 21 2026",
-      "date": "2026-09-21",
-      "venue": "Hollywood Casino Amphitheatre",
-      "city": "Maryland Heights",
-      "state": "MO",
-      "bands": [
-        "BABYMETAL"
-      ],
-      "description": "BABYMETAL — World Tour 2026. Hollywood Casino Amphitheatre in Maryland Heights, MO. Show date: Sep 21 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w4av",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbzrk79",
       "name": "SHOW-YA @ Electric Lady Land — Nagoya, Japan — Sep 22 2026",
@@ -393,6 +255,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4az",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc472dp",
+      "name": "Churchill's 47th Anniversary Free Show @ Churchill's Pub — Miami, FL — Sep 24 2026",
+      "date": "2026-09-24",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Churchill's 47th Anniversary Free Show"
+      ],
+      "description": "Churchill's Pub celebrates 47 years with a free all-night party on the main stage: It's Star, Miss Michigan, Down from Jersey, Sewerside Bombers, ¡Fuakata!, and The Lab. The Patio and Greenroom stages carry a lineup of touring and local experimental and noise acts curated by…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc472dp",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -1165,6 +1046,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w63g",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc473w3",
+      "name": "The Format + The Get Up Kids @ Jannus Live — St. Petersburg, FL — Sep 29 2026",
+      "date": "2026-09-29",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "The Format",
+        "The Get Up Kids"
+      ],
+      "description": "The Format bring the Boycott Heaven Tour to Jannus Live with emo royalty The Get Up Kids as special guests. All ages, doors 6:30 PM, show 7:30 PM. $1 from every ticket goes to fighting food insecurity and funding local animal shelters. Tickets:…",
+      "ticketUrl": "https://www.axs.com/events/1400696/the-format-tickets",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc473w3",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3189,6 +3091,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4q1",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc472gy",
+      "name": "On Company Time @ Conduit — Winter Park (Orlando), FL — Oct 15 2026",
+      "date": "2026-10-15",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "On Company Time"
+      ],
+      "description": "On Company Time brings \"The PTO Tour\" to Conduit. 7 PM doors, 18+. This is its own ticketed bill, separate from the Ludovico Technique show in the other room the same night. Tickets: https://www.ticketweb.com/event/on-company-time-the-pto-conduit-tickets/14863823",
+      "ticketUrl": "https://www.ticketweb.com/event/on-company-time-the-pto-conduit-tickets/14863823",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc472gy",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -5683,6 +5605,45 @@
       ]
     },
     {
+      "id": "86bc4746d",
+      "name": "A Flock of Seagulls @ Culture Room — Fort Lauderdale, FL — Nov 6 2026",
+      "date": "2026-11-06",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "A Flock of Seagulls"
+      ],
+      "description": "New wave legends A Flock of Seagulls land at Culture Room — the band that gave the 80s its most famous haircut and \"I Ran (So Far Away).\" Doors 6:30 PM, show 7:30 PM. Tickets: https://www.ticketmaster.com/a-flock-of-seagulls-ft-lauderdale-florida-11-06-2026/event/0D0064AE9AAE8679",
+      "ticketUrl": "https://www.ticketmaster.com/a-flock-of-seagulls-ft-lauderdale-florida-11-06-2026/event/0D0064AE9AAE8679",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4746d",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc472jd",
+      "name": "A Flock of Seagulls @ Culture Room — Fort Lauderdale, FL — Nov 6 2026",
+      "date": "2026-11-06",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "A Flock of Seagulls"
+      ],
+      "description": "New wave originals A Flock of Seagulls play Culture Room with special guests. Doors 7:30 PM. Tickets via cultureroom.net.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc472jd",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc05gz4",
       "name": "DONEFOR + We're Wolves + Twin Rova @ Magnanimous Brewing — Tampa, FL — Nov 6 2026",
       "date": "2026-11-06",
@@ -6126,6 +6087,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbqec63",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc474dh",
+      "name": "Hawthorne Heights + letlive. + Creeper @ Jannus Live — St. Petersburg, FL — Nov 12 2026",
+      "date": "2026-11-12",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Hawthorne Heights",
+        "letlive.",
+        "Creeper"
+      ],
+      "description": "Hawthorne Heights celebrate the 20th anniversary of If Only You Were Lonely under the Jannus courtyard lights, with letlive. and Creeper in support — the night before their Revolution Live stop in Fort Lauderdale. Doors 6:00 PM. Tickets:…",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D00647044F980B7",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc474dh",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -7513,6 +7496,24 @@
       ]
     },
     {
+      "id": "86bc472my",
+      "name": "Unwrapped: An Acoustic Holiday @ St. Augustine Amphitheatre — St. Augustine, FL — Dec 1 2026",
+      "date": "2026-12-01",
+      "venue": "St. Augustine Amphitheatre",
+      "city": "St. Augustine",
+      "state": "FL",
+      "bands": [
+        "Unwrapped: An Acoustic Holiday"
+      ],
+      "description": "A one-night acoustic holiday bill: Brent Smith and Zach Myers of Shinedown, Ice Nine Kills, Zakk Wylde and Dario Lorina of Black Label Society, The Warning, The Funeral Portrait, Tim Montana, and Autumn Kings. 6 PM. Tickets:…",
+      "ticketUrl": "https://www.axs.com/events/1602492/unwrapped-an-acoustic-holiday-tickets",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc472my",
+      "buckets": []
+    },
+    {
       "id": "86bbfk5pn",
       "name": "Blue Öyster Cult @ Florida Theatre — Jacksonville, FL — Dec 1 2026",
       "date": "2026-12-01",
@@ -8069,6 +8070,25 @@
       ]
     },
     {
+      "id": "86bc4727f",
+      "name": "Brotality @ Deviant Libation — Tampa, FL — Dec 12 2026",
+      "date": "2026-12-12",
+      "venue": "Deviant Libation",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Brotality"
+      ],
+      "description": "Brotality brings the Jaws of the Earth U.S. Tour to Deviant Libation in Tampa. Part of a three-night Florida run (Pensacola Dec 11, Tampa Dec 12, Orlando Dec 13, Jacksonville Dec 15). Tickets via the band: brotality.com.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4727f",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbz59nx",
       "name": "HAGANE @ HEAVEN'S ROCK Saitama-Shintoshin VJ-3 — Saitama, Japan — Dec 12 2026",
       "date": "2026-12-12",
@@ -8171,6 +8191,25 @@
       ]
     },
     {
+      "id": "86bc4729j",
+      "name": "Brotality @ Will's Pub — Orlando, FL — Dec 13 2026",
+      "date": "2026-12-13",
+      "venue": "Will's Pub",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Brotality"
+      ],
+      "description": "Brotality's Jaws of the Earth U.S. Tour hits Will's Pub in Orlando, the third Florida stop on the run. Tickets via the band: brotality.com.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4729j",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbmteay",
       "name": "Paralandra + Major Moment @ The Banyan Live — West Palm Beach, FL — Dec 13 2026",
       "date": "2026-12-13",
@@ -8187,6 +8226,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbmteay",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc472be",
+      "name": "Brotality @ The Albatross — Jacksonville, FL — Dec 15 2026",
+      "date": "2026-12-15",
+      "venue": "The Albatross",
+      "city": "Jacksonville",
+      "state": "FL",
+      "bands": [
+        "Brotality"
+      ],
+      "description": "Brotality closes out the Florida leg of the Jaws of the Earth U.S. Tour at The Albatross in Jacksonville. Tickets via the band: brotality.com.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc472be",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -8633,6 +8691,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w5uk",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc472kh",
+      "name": "Sandman Sleeps + The Hot Seat @ The Banyan Live — West Palm Beach, FL — Jan 17 2027",
+      "date": "2027-01-17",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Sandman Sleeps",
+        "The Hot Seat"
+      ],
+      "description": "\"No Sleep In The Hot Seat\" — an 18+ night at The Banyan Live led by headliners Sandman Sleeps and co-headliners The Hot Seat, hosted by Respiromalo. Doors 6 PM. Tickets via thebanyanlive.com.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc472kh",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
