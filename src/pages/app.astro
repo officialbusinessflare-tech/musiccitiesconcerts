@@ -28,7 +28,7 @@ const APK_VERSION = '1.0';
       <section class="app-card">
         <div class="app-card__os">Android</div>
         <h2 class="app-card__h">Download and install</h2>
-        <a class="app-card__btn" href="/download-app" download>Download for Android</a>
+        <a class="app-card__btn" id="dl-btn" href="/download-app" download>Download for Android</a>
         <p class="app-card__count" id="dl-count" hidden></p>
         <p class="app-card__note">When the download finishes, open it and tap Install. If your phone asks, allow installs from this source. Version {APK_VERSION}.</p>
         <p class="app-card__soon">Coming soon to the Google Play Store and the Apple App Store.</p>
@@ -51,6 +51,11 @@ const APK_VERSION = '1.0';
   </main>
 
   <script is:inline>
+    (function(){
+      var src = new URLSearchParams(location.search).get('src');
+      var b = document.getElementById('dl-btn');
+      if (src && b) { b.href = '/download-app?src=' + encodeURIComponent(src); }
+    })();
     fetch('/download-count').then(function(r){return r.json();}).then(function(d){
       if (d && typeof d.count === 'number' && d.count > 0) {
         var el = document.getElementById('dl-count');
