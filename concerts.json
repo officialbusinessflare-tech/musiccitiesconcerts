@@ -1,123 +1,6 @@
 {
-  "generatedAt": "2026-09-22T07:01:48.063Z",
+  "generatedAt": "2026-09-23T07:00:35.366Z",
   "entries": [
-    {
-      "id": "86bbzrk79",
-      "name": "SHOW-YA @ Electric Lady Land — Nagoya, Japan — Sep 22 2026",
-      "date": "2026-09-22",
-      "venue": "Electric Lady Land",
-      "city": "Nagoya",
-      "country": "Japan",
-      "bands": [
-        "SHOW-YA"
-      ],
-      "description": "SHOW-YA at Electric Lady Land, Nagoya. Tuesday, September 22, 2026. Listing: https://www.bandsintown.com/Show-Ya",
-      "ticketUrl": "https://www.bandsintown.com/Show-Ya",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzrk79",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbkedap",
-      "name": "Vader @ Come and Take It Live — Austin, TX — Sep 22 2026",
-      "date": "2026-09-22",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "bands": [
-        "Vader"
-      ],
-      "description": "Vader's Austin date, two days after the Florida leg wraps at The Orpheum.",
-      "ticketUrl": "https://www.etix.com/ticket/p/95979354",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkedap",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbke8mj",
-      "name": "TRiDENT @ Daikanyama SPACE ODD — Tokyo, Japan — Sep 22 2026",
-      "date": "2026-09-22",
-      "venue": "Daikanyama SPACE ODD",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "TRiDENT"
-      ],
-      "description": "TRiDENT at おじ祭り2026 (Oji Matsuri), Daikanyama SPACE ODD.",
-      "ticketUrl": "https://w.pia.jp/t/trident-t/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbke8mj",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbeb5zb",
-      "name": "Death Lens @ Churchill's Pub — Miami, FL — Sep 22 2026",
-      "date": "2026-09-22",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Death Lens"
-      ],
-      "description": "LA punk outfit Death Lens at Churchill's. Source: Churchill's Pub / JamBase calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb5zb",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86b9b7kfv",
-      "name": "KK's Priest + W.A.S.P. — Clearwater, FL",
-      "date": "2026-09-22",
-      "venue": "Clearwater",
-      "state": "FL",
-      "bands": [
-        "KK's Priest",
-        "W.A.S.P."
-      ],
-      "description": "9/22 in Clearwater, FL. KK's Priest + W.A.S.P. US/Canada tour. Tickets: kkspriest.com. Source: Instagram saved post.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b9b7kfv",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bb9w5fg",
-      "name": "JILUKA @ TivoliVredenburg — Utrecht, Netherlands — Sep 22 2026",
-      "date": "2026-09-22",
-      "venue": "TivoliVredenburg",
-      "city": "Utrecht",
-      "country": "Netherlands",
-      "bands": [
-        "JILUKA"
-      ],
-      "description": "JILUKA — DeViLs World Tour EU/UK leg. TivoliVredenburg in Utrecht, Netherlands. Show date: Sep 22 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5fg",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbwe8t3",
       "name": "Gacharic Spin @ Shibuya REX — Tokyo, Japan — Sep 23 2026",
@@ -8655,6 +8538,26 @@
       ]
     },
     {
+      "id": "86bc4yuh2",
+      "name": "Sister Hazel @ Culture Room — Fort Lauderdale, FL — Jan 15 2027",
+      "date": "2027-01-15",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Sister Hazel"
+      ],
+      "description": "Gainesville's own Sister Hazel back in a Florida club room — doors 7:30pm. Tickets: https://www.ticketmaster.com/event/0D00651BBED7886D",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D00651BBED7886D",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4yuh2",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbz59u6",
       "name": "HAGANE @ Yokohama Bay Hall — Yokohama, Japan — Jan 16 2027",
       "date": "2027-01-16",
@@ -9538,6 +9441,50 @@
       ]
     },
     {
+      "id": "86bc4ytwj",
+      "name": "Eluveitie + Nini Music + Illumishade @ The Regent — Los Angeles, CA — Mar 5 2027",
+      "date": "2027-03-05",
+      "venue": "The Regent",
+      "city": "Los Angeles",
+      "state": "CA",
+      "bands": [
+        "Eluveitie",
+        "Nini Music",
+        "Illumishade"
+      ],
+      "description": "Eluveitie's 25th anniversary North American tour (Feb 18 – Mar 14 2027) with Nini Music and Illumishade supporting the whole run — Nini's second US tour in six months after the fall 2026 Seven Kingdoms run. On sale Sep 18. Announcement:…",
+      "ticketUrl": "https://nextmosh.com/eluveitie-announce-25th-anniversary-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4ytwj",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc4ytyh",
+      "name": "Eluveitie + Nini Music + Illumishade @ Nile Theater — Mesa, AZ — Mar 6 2027",
+      "date": "2027-03-06",
+      "venue": "Nile Theater",
+      "city": "Mesa",
+      "state": "AZ",
+      "bands": [
+        "Eluveitie",
+        "Nini Music",
+        "Illumishade"
+      ],
+      "description": "Eluveitie 25th anniversary NA tour with Nini Music and Illumishade on the full run. Same room Rolling Quartz played in Sep 2026. Announcement: https://nextmosh.com/eluveitie-announce-25th-anniversary-north-american-tour/",
+      "ticketUrl": "https://nextmosh.com/eluveitie-announce-25th-anniversary-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4ytyh",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc05htk",
       "name": "Draconian + Saturnus @ The Dome — London, UK — Mar 7 2027",
       "date": "2027-03-07",
@@ -9577,6 +9524,50 @@
       ]
     },
     {
+      "id": "86bc4yu0h",
+      "name": "Eluveitie + Nini Music + Illumishade @ Come and Take It Live — Austin, TX — Mar 9 2027",
+      "date": "2027-03-09",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Eluveitie",
+        "Nini Music",
+        "Illumishade"
+      ],
+      "description": "Eluveitie 25th anniversary NA tour with Nini Music and Illumishade on the full run — and it lands at Come and Take It Live. Announcement: https://nextmosh.com/eluveitie-announce-25th-anniversary-north-american-tour/",
+      "ticketUrl": "https://nextmosh.com/eluveitie-announce-25th-anniversary-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4yu0h",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc4yu1t",
+      "name": "Eluveitie + Nini Music + Illumishade @ Warehouse Live Midtown — Houston, TX — Mar 10 2027",
+      "date": "2027-03-10",
+      "venue": "Warehouse Live Midtown",
+      "city": "Houston",
+      "state": "TX",
+      "bands": [
+        "Eluveitie",
+        "Nini Music",
+        "Illumishade"
+      ],
+      "description": "Eluveitie 25th anniversary NA tour with Nini Music and Illumishade on the full run. Announcement: https://nextmosh.com/eluveitie-announce-25th-anniversary-north-american-tour/",
+      "ticketUrl": "https://nextmosh.com/eluveitie-announce-25th-anniversary-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4yu1t",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbwe8qw",
       "name": "Public Image Ltd + Plague Vendor @ Revolution Live — Fort Lauderdale, FL — Mar 10 2027",
       "date": "2027-03-10",
@@ -9595,6 +9586,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bbwe8qw",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc4yu47",
+      "name": "Eluveitie + Nini Music + Illumishade @ Granada Theater — Dallas, TX — Mar 11 2027",
+      "date": "2027-03-11",
+      "venue": "Granada Theater",
+      "city": "Dallas",
+      "state": "TX",
+      "bands": [
+        "Eluveitie",
+        "Nini Music",
+        "Illumishade"
+      ],
+      "description": "Eluveitie 25th anniversary NA tour with Nini Music and Illumishade on the full run. Full routing: Milwaukee Feb 18 → Salt Lake City Mar 14; no Florida dates. Announcement: https://nextmosh.com/eluveitie-announce-25th-anniversary-north-american-tour/",
+      "ticketUrl": "https://nextmosh.com/eluveitie-announce-25th-anniversary-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4yu47",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -9710,6 +9723,46 @@
       "clickupUrl": "https://app.clickup.com/t/86baaae33",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc4ytd2",
+      "name": "The Warning @ O2 Academy — Birmingham, UK — Mar 29 2027",
+      "date": "2027-03-29",
+      "venue": "O2 Academy",
+      "city": "Birmingham",
+      "state": "UK",
+      "bands": [
+        "The Warning"
+      ],
+      "description": "Everything's Falling world tour — the Villarreal sisters' biggest run yet, kicking off with a 65,000-cap stadium headline at Estadio GNP Seguros (Feb 5, already tracked). European leg runs March; UK dates close it out. Tickets: https://thewarningband.com/pages/tour",
+      "ticketUrl": "https://thewarningband.com/pages/tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4ytd2",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bc4ytf2",
+      "name": "The Warning @ OVO Arena Wembley — London, UK — Apr 2 2027",
+      "date": "2027-04-02",
+      "venue": "OVO Arena Wembley",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "The Warning"
+      ],
+      "description": "Everything's Falling world tour — The Warning's biggest London headline to date, capping the UK/European leg at Wembley Arena. Tickets: https://thewarningband.com/pages/tour",
+      "ticketUrl": "https://thewarningband.com/pages/tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4ytf2",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -9838,6 +9891,27 @@
       ]
     },
     {
+      "id": "86bc4yth7",
+      "name": "The Warning + Wilt @ The Van Buren — Phoenix, AZ — Apr 18 2027",
+      "date": "2027-04-18",
+      "venue": "The Van Buren",
+      "city": "Phoenix",
+      "state": "AZ",
+      "bands": [
+        "The Warning",
+        "Wilt"
+      ],
+      "description": "Everything's Falling world tour, North American leg — Wilt supports all US/Canada dates. Tickets: https://thewarningband.com/pages/tour",
+      "ticketUrl": "https://thewarningband.com/pages/tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4yth7",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bc2zkfj",
       "name": "Buzzcocks @ Culture Room — Fort Lauderdale, FL — Apr 29 2027",
       "date": "2027-04-29",
@@ -9858,6 +9932,48 @@
       ]
     },
     {
+      "id": "86bc4ytjv",
+      "name": "The Warning + Wilt @ Boeing Center at Tech Port — San Antonio, TX — Apr 30 2027",
+      "date": "2027-04-30",
+      "venue": "Boeing Center at Tech Port",
+      "city": "San Antonio",
+      "state": "TX",
+      "bands": [
+        "The Warning",
+        "Wilt"
+      ],
+      "description": "Everything's Falling world tour, North American leg — Wilt supports all US/Canada dates. Tickets: https://thewarningband.com/pages/tour",
+      "ticketUrl": "https://thewarningband.com/pages/tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4ytjv",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bc4ytn0",
+      "name": "The Warning + Wilt @ Bayou Music Center — Houston, TX — May 2 2027",
+      "date": "2027-05-02",
+      "venue": "Bayou Music Center",
+      "city": "Houston",
+      "state": "TX",
+      "bands": [
+        "The Warning",
+        "Wilt"
+      ],
+      "description": "Everything's Falling world tour, North American leg — Wilt supports all US/Canada dates. Tickets: https://thewarningband.com/pages/tour",
+      "ticketUrl": "https://thewarningband.com/pages/tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4ytn0",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bbu798w",
       "name": "Loudness @ The Coach House — San Juan Capistrano, CA — May 5 2027",
       "date": "2027-05-05",
@@ -9874,6 +9990,49 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu798w",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc4ytqn",
+      "name": "The Warning + Wilt @ Brooklyn Paramount — Brooklyn, NY — May 18 2027",
+      "date": "2027-05-18",
+      "venue": "Brooklyn Paramount",
+      "city": "Brooklyn",
+      "state": "NY",
+      "bands": [
+        "The Warning",
+        "Wilt"
+      ],
+      "description": "Everything's Falling world tour, North American leg — Wilt supports all US/Canada dates. Full NA run: Las Vegas Apr 17 through Boston (MGM Music Hall at Fenway) May 23; no Florida stops on this routing. Tickets: https://thewarningband.com/pages/tour",
+      "ticketUrl": "https://thewarningband.com/pages/tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4ytqn",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bc4ytu9",
+      "name": "Metallica + Limp Bizkit + Avatar @ Alamodome — San Antonio, TX — May 22 2027",
+      "date": "2027-05-22",
+      "venue": "Alamodome",
+      "city": "San Antonio",
+      "state": "TX",
+      "bands": [
+        "Metallica",
+        "Limp Bizkit",
+        "Avatar"
+      ],
+      "description": "M72 world tour rolls into 2027 — a dozen new stadium cities May 8 (Vancouver) through Jun 19 (Salt Lake City), all first-time M72 stops, with Limp Bizkit and Avatar supporting. No Florida dates on this leg. General on-sale Sep 25. Info:…",
+      "ticketUrl": "https://www.metallica.com/news/2026-09-16-m72-rolls-on-into-2027.html",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4ytu9",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     }
   ]
