@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-22T07:01:55.668Z",
+  "fetchedAt": "2026-09-23T07:00:46.297Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 152000,
-      "videoCount": 289,
+      "videoCount": 291,
       "recentLongform": [
         {
           "id": "r8klGaDF1gE",
@@ -260,77 +260,77 @@
           },
           "duration": "PT2M",
           "durationSeconds": 120
-        },
-        {
-          "id": "f9TFsEAx0Yg",
-          "title": "Nemophila | I heard from mayu",
-          "publishedAt": "2026-09-02T20:50:11Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/f9TFsEAx0Yg/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/f9TFsEAx0Yg/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/f9TFsEAx0Yg/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/f9TFsEAx0Yg/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/f9TFsEAx0Yg/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M51S",
-          "durationSeconds": 111
-        },
-        {
-          "id": "z6S481shvTs",
-          "title": "Nemophila | Orlando Soundcheck | \"Rise\"",
-          "publishedAt": "2026-08-28T03:26:05Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/z6S481shvTs/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/z6S481shvTs/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/z6S481shvTs/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/z6S481shvTs/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/z6S481shvTs/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT3M38S",
-          "durationSeconds": 218
         }
       ],
       "recentShorts": [
+        {
+          "id": "v8YQ0h5XjQc",
+          "title": "Music Cities Radio",
+          "publishedAt": "2026-09-23T00:04:16Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/v8YQ0h5XjQc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/v8YQ0h5XjQc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/v8YQ0h5XjQc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/v8YQ0h5XjQc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/v8YQ0h5XjQc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT18S",
+          "durationSeconds": 18
+        },
+        {
+          "id": "bCk6Nwzwr28",
+          "title": "The Music Cities App",
+          "publishedAt": "2026-09-22T17:08:39Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/bCk6Nwzwr28/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/bCk6Nwzwr28/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/bCk6Nwzwr28/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/bCk6Nwzwr28/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/bCk6Nwzwr28/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT26S",
+          "durationSeconds": 26
+        },
         {
           "id": "7L7xIIVpOHc",
           "title": "Music Cities Radio",
