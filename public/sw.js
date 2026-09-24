@@ -1,5 +1,5 @@
 /* The Music Cities Concerts — service worker (app shell + push) */
-const CACHE = 'tmc-shell-v2';
+const CACHE = 'tmc-shell-v3';
 const SHELL = ['/', '/icon.svg', '/favicon.png', '/manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
