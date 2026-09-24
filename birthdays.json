@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-09-23T07:00:35.366Z",
+  "generatedAt": "2026-09-24T07:00:44.413Z",
   "entries": [
-    {
-      "id": "86bbeb7zx",
-      "name": "🎂 Syu Birthday (Galneryus) — Sep 23",
-      "person": "🎂 Syu",
-      "affiliation": "(Galneryus) — Sep 23",
-      "rawDate": "2026-09-23",
-      "month": 9,
-      "day": 23,
-      "description": "Guitarist and founder, Galneryus. Birthday Sep 23 per the band's official member page. Holding entry for the birthdays pipeline.",
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7zx"
-    },
     {
       "id": "86bard4ue",
       "name": "Tamu Murata Birthday NEMOPHILA",
@@ -572,6 +561,17 @@
       "day": 10,
       "description": "Guitarist, Gacharic Spin. Birthday Sep 10, confirmed by the band's own annual birthday event page. Holding entry for the birthdays pipeline.",
       "clickupUrl": "https://app.clickup.com/t/86bbeb7yk"
+    },
+    {
+      "id": "86bbeb7zx",
+      "name": "🎂 Syu Birthday (Galneryus) — Sep 23",
+      "person": "🎂 Syu",
+      "affiliation": "(Galneryus) — Sep 23",
+      "rawDate": "2026-09-23",
+      "month": 9,
+      "day": 23,
+      "description": "Guitarist and founder, Galneryus. Birthday Sep 23 per the band's official member page. Holding entry for the birthdays pipeline.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb7zx"
     },
     {
       "id": "86bba6j59",
