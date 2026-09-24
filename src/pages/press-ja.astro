@@ -1,0 +1,242 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
+import Footer from '../components/Footer.astro';
+
+/**
+ * /press-ja — The Music Cities プレスキット（日本語版）。
+ * 画像とPDFは復元済みデプロイ（PERMA）から一時的に配信。
+ */
+const PERMA = 'https://6aafd11c987f7a70480b2a64--musiccitiesconcerts.netlify.app';
+
+const photos = [
+  { src: PERMA + '/assets/press/nemophila-orlando.jpg', alt: 'カスタムメイドのMusic Citiesシャツを持つNEMOPHILA、オーランド', cap: 'NEMOPHILAインタビュー、オーランド' },
+  { src: PERMA + '/assets/press/broken-by-the-scream-london.jpg', alt: 'ロンドンでのBroken by the Screamインタビュー', cap: 'Broken by the Screamインタビュー、ロンドン' },
+  { src: PERMA + '/assets/press/nicko-mcbrain.jpg', alt: 'Iron MaidenのNicko McBrainとの昼食', cap: 'Nicko McBrain（Iron Maiden）との昼食' },
+];
+---
+
+<BaseLayout
+  title="プレスキット | The Music Cities"
+  description="The Music Citiesのプレスキット。経済開発とまちづくりの視点からメタルシーンを取り上げる可視化プラットフォームです。"
+>
+  <Header />
+  <SceneNav />
+
+  <section class="dash-hero">
+    <div class="container">
+      <p class="dash-hero__eyebrow">プレスキット</p>
+      <h1 class="dash-hero__title">The Music <em>Cities</em></h1>
+      <p class="dash-hero__lede">
+        マイアミを拠点に、経済開発とまちづくりの視点からメタルシーンを取り上げる可視化プラットフォームです。すでに存在しながら見えていないバンド、シーン、そして経済を見つけ出し、正しく名付け、もともと反応するはずだった観客の前に届けます。
+      </p>
+      <p class="press-langs"><a href="/press">English</a> · <strong>日本語</strong> · <a href="/press-es">Español</a> · <a href="/press-de">Deutsch</a> · <a href="/press-ko">한국어</a></p>
+    </div>
+  </section>
+
+  <main class="dash-main">
+    <div class="container">
+
+      <div class="press-figs">
+        {photos.map((p) => (
+          <figure>
+            <img src={p.src} alt={p.alt} loading="lazy" decoding="async" />
+            <figcaption>{p.cap}</figcaption>
+          </figure>
+        ))}
+      </div>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">運営者について</h2>
+        <p>
+          これは外部からの取材ではありません。Kevin Crowderは40年にわたりオリジナルバンドとカバーバンドでギターを弾き続け、現在もマイアミのメタルバンド
+          <a href="https://www.youtube.com/watch?v=Ltyj3hbklU8" target="_blank" rel="noopener noreferrer">McFisty</a>
+          で演奏しています。その前はWar Department、Cone of Silence、Phantasie、The Mixに在籍していました。この両面が重要なのは、オリジナルシーンを育てる街とカバーバンドを呼ぶだけの街の違いこそ、このチャンネルが繰り返し論じるテーマだからであり、それは机上の話ではありません。彼はインタビューするバンドと同じ搬入口から入り、どの公演でもマーチを買い、悪い箱がバンドに何をもたらすかを知っています。
+        </p>
+        <p>
+          もう一方は本業です。彼は米陸軍の退役軍人であり、フロリダの経済開発に30年、うち15年はサウスビーチの変貌期にマイアミビーチ市の経済開発ディレクターを務め、退役軍人が経営する経済開発会社
+          <a href="https://businessflare.net" target="_blank" rel="noopener noreferrer">BusinessFlare</a>
+          の創業者です。だからこそ、このチャンネルはメタルフェスティバルの実際の経済効果分析を行い、主催者と市の双方に信頼される内容を届けられます。
+        </p>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">リーチ</h2>
+        <dl class="press-defs">
+          <div><dt>登録者数</dt><dd>YouTubeで152,000人、2025年8月開設。</dd></div>
+          <div><dt>総再生回数</dt><dd>285本の動画で337万回。</dd></div>
+          <div><dt>立ち位置</dt><dd>YouTubeで最も登録者の多い経済開発チャンネル（大差で首位）。</dd></div>
+          <div><dt>最近の取材地</dt><dd>マイアミ、オーランド、タンパ、ヒューストン、オースティン、ロンドン、ヴァッケン。</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">サイトとアプリ</h2>
+        <p>
+          <a href="https://themusiccities.com/" target="_blank" rel="noopener noreferrer">themusiccities.com</a>
+          は、チャンネルの姉妹サイトとして毎晩更新されるコンサート＆シーンのダッシュボードです。他所からの寄せ集めではなく、私たち自身の編集カレンダーから作られています。フロリダのメタルカレンダー、日本およびアジアのメタルのウォッチリスト、主要フェスティバル、会場、アルバムリリース、アーティストの誕生日、レーベルワイヤー、シーンマップ、フィールドトリップのブリーフを掲載しています。
+        </p>
+        <dl class="press-defs">
+          <div><dt><a href="/florida">Florida Metal Scene</a></dt><dd>会場ごとに追うフロリダの常時カレンダー。</dd></div>
+          <div><dt><a href="/japan">Japanese and Asian Metal</a></dt><dd>ウォッチリスト、ツアー日程、リリース。</dd></div>
+          <div><dt><a href="/festivals">Key Festivals</a></dt><dd>私たちが追い、足を運ぶ主要フェスティバル。</dd></div>
+          <div><dt><a href="/app">アプリ</a></dt><dd>Android版は現在ダウンロード可能。iPhone・iPadはホーム画面へのインストールで対応、アプリストアは今後。</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">インタビュープログラム</h2>
+        <p>
+          本格的な対談と「3 Questions」シリーズ。全編は
+          <a href="https://www.youtube.com/playlist?list=PLb5XblrwD0ZF0asSK72gGUAQm72Mqy8ZT" target="_blank" rel="noopener noreferrer">こちらのプレイリスト</a>
+          にまとまっており、全ラインナップは<a href="/interviews">インタビューページ</a>にあります。
+        </p>
+        <dl class="press-defs">
+          <div>
+            <dt><a href="https://www.youtube.com/watch?v=pJmFKOQ38e0" target="_blank" rel="noopener noreferrer">NEMOPHILA</a></dt>
+            <dd>182,000回再生、平均視聴率44.5パーセント。日本のメタル、オーランドで撮影。
+              <span class="press-quote">「40年以上メタルのコンサートに通ってきました……オーランドの公演でお会いできて最高でした。」 — SuperSport2024</span>
+              <span class="press-quote">「Hazukiが語っていた『和』やSAMURAIへの言及が彼女たちの音楽の一部になっていると常々感じていました……日本のメタルは確かに世界に広がっています、特に女性バンドが。とても良いインタビューでした。」 — derekwooding5354</span>
+            </dd>
+          </div>
+          <div>
+            <dt><a href="https://www.youtube.com/watch?v=QGW5tLmv_Ds" target="_blank" rel="noopener noreferrer">BRIDEAR</a></dt>
+            <dd>109,000回再生。成功したクラウドファンディングを後押しするために撮影。
+              <span class="press-quote">「すぐに寄付しました。これからも音楽を作り続けてほしい。」 — jamessharp2725</span>
+            </dd>
+          </div>
+          <div>
+            <dt><a href="https://www.youtube.com/watch?v=Sky1HWb5cP8" target="_blank" rel="noopener noreferrer">Broken by the Scream</a></dt>
+            <dd>68,000回再生。ロンドンで撮影。
+              <span class="press-quote">「BBTSを5年以上追いかけています……ヴァッケンに至るまで築いてきたキャリアに本当に感服しています。」 — NemusVetus</span>
+            </dd>
+          </div>
+          <div>
+            <dt><a href="https://www.youtube.com/watch?v=r8klGaDF1gE" target="_blank" rel="noopener noreferrer">Nini</a></dt>
+            <dd>台湾のフォークメタル、未契約。6日間で11,000回再生。
+              <span class="press-quote">「あなたのチャンネルで見るまでこのアーティストを知りませんでした。」 — Mark-J-metal</span>
+            </dd>
+          </div>
+          <div><dt>サウンドチェックと舞台裏</dt><dd>開場前に招き入れてくれるバンドもいます。NEMOPHILAはオーランドでサウンドチェックの撮影に招いてくれ、Broken by the Screamもロンドンで同様でした。</dd></div>
+          <div><dt>公演写真</dt><dd>公演で撮影し、Pinterestに公開しています。目的は文脈であり、写真販売サービスではありません。写真は販売しません。</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">ゼロから始めるバンド</h2>
+        <p>「3 Questions」シリーズ。連れてくる既存の観客がいない地元バンドたち。</p>
+        <dl class="press-defs">
+          <div><dt><a href="https://www.youtube.com/watch?v=MJnQVxduebk" target="_blank" rel="noopener noreferrer">We All Rise</a></dt><dd>マイアミ。244,000回再生。</dd></div>
+          <div><dt><a href="https://www.youtube.com/watch?v=ERucE5hitSY" target="_blank" rel="noopener noreferrer">Nocturnal Dawn</a></dt><dd>オーランド、Wacken Metal Battle Florida。126,000回再生。</dd></div>
+          <div><dt><a href="https://www.youtube.com/watch?v=WMFPAcPMkpg" target="_blank" rel="noopener noreferrer">SevenSins</a></dt><dd>マイアミ。67,000回再生。</dd></div>
+          <div><dt><a href="https://www.youtube.com/watch?v=LUKyg4Dpddc" target="_blank" rel="noopener noreferrer">Nemesis</a></dt><dd>ヒューストン、Wacken Metal Battle Texas。18,000回再生。</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Band of the Year</h2>
+        <p>毎年、対象バンドに直接手渡し、エピソードとして取り上げます。</p>
+        <dl class="press-defs">
+          <div><dt><a href="https://www.youtube.com/watch?v=9240E0hxKCY" target="_blank" rel="noopener noreferrer">LOVEBITES 2025</a></dt><dd>ロンドンで授与。エピソードは67,000回再生。</dd></div>
+          <div><dt><a href="https://www.youtube.com/watch?v=z72FZugv3R8" target="_blank" rel="noopener noreferrer">HANABIE. 2026</a></dt><dd>オースティンで授与。エピソードは105,000回再生。</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">マッピングされたシーン</h2>
+        <p>
+          公開情報のみを用い、すべてのノードが出典のある記録に基づく、ネットワークと系譜としてのシーンマップ。これを持つ音楽メディアは他にありません。バンドをインタビューするとき、私たちはすでに彼らが生まれた系譜を把握しています。
+        </p>
+        <dl class="press-defs">
+          <div><dt><a href="https://japan.themusiccities.com/" target="_blank" rel="noopener noreferrer">日本ヘヴィメタル・ファミリーツリー</a></dt><dd>1967年から2026年、319ノード。今日の女性主体のシーンをメンバー単位でマッピング。</dd></div>
+          <div><dt><a href="https://tampa.themusiccities.com/" target="_blank" rel="noopener noreferrer">タンパ・デスメタル・ファミリーツリー</a></dt><dd>1979年から2026年、371ノード・1,130の接続。Morrisound Recordingの全クレジットをアルバム単位で検証。</dd></div>
+          <div><dt><a href="https://westdixiestudios.themusiccities.com/" target="_blank" rel="noopener noreferrer">West Dixie Music Corridor</a></dt><dd>5つの管轄にまたがる236ノード。1958年以降のCriteria Studiosをたどり、リング内にライブステージが存在しないことを記録。ステージなきスタジオ群。</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">ケーススタディのエピソード</h2>
+        <p>チャンネルの中核。経済開発として読み解くメタルの歴史。</p>
+        <dl class="press-defs">
+          <div><dt><a href="https://www.youtube.com/watch?v=kgbDiHq6piI" target="_blank" rel="noopener noreferrer">Scorpions、世界帝国の築き方</a></dt><dd>153,000回再生。</dd></div>
+          <div><dt><a href="https://www.youtube.com/shorts/STsGDIsq0W8" target="_blank" rel="noopener noreferrer">Brewtality Metal Fest 経済効果</a></dt><dd>92,000回再生。メタルフェスティバルの経済効果分析。</dd></div>
+          <div><dt><a href="https://www.youtube.com/watch?v=SvBPfES3WfU" target="_blank" rel="noopener noreferrer">1986年、日本にて</a></dt><dd>74,000回再生。今日の日本のシーンがどう築かれたか。</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">業界との関係</h2>
+        <p>
+          ミュージシャン、バンド、アーティストマネジメント、PRおよびレーベルのプレス担当、コンサート写真家との協働関係。インタビューするすべてのバンドにMusic Citiesのグッズを贈っています。
+        </p>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">取り上げる範囲</h2>
+        <p>
+          ヘヴィミュージックが生まれている場所すべてと、それを生み出す土地の経済。取材が最も厚いのはフロリダとマイアミ、そして日本とアジア全域で、名付けるに値するあらゆるサブジャンル、シーン、都市、バンドに広がります。フェスティバルとフィールドトリップは、最近では
+          <a href="/wacken">ヴァッケン</a>、<a href="/louder-than-life">Louder Than Life</a>、<a href="/london">Metal London</a>など。アルバムリリース、バンドインタビュー、そして
+          <a href="https://www.youtube.com/@musiccitiesradio" target="_blank" rel="noopener noreferrer">Music Cities Radio</a>。
+        </p>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">ご一緒するには</h2>
+        <dl class="press-defs">
+          <div><dt>お願いすること</dt><dd>会場が求める場合の公演のメディア資格。公演当日、グリーンルームまたは会場でのバンドへのインタビュー時間。バンドが望む場合のサウンドチェックへのアクセス。ツアーがフロリダを通る際やリリース時の事前のご連絡。</dd></div>
+          <div><dt>バンドが得られること</dt><dd>足を運び、寄付し、チケットを買う観客に向けて公開されるインタビュー。キャリア初期のバンド向けの「3 Questions」ショート。Music Citiesのグッズ。公演の写真。</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">プレスの連絡先</h2>
+        <dl class="press-defs">
+          <div><dt>担当</dt><dd>Kevin Crowder、創業者</dd></div>
+          <div><dt>拠点</dt><dd>米国フロリダ州マイアミ。</dd></div>
+          <div><dt>メール</dt><dd><a href="mailto:kevin@businessflare.net">kevin@businessflare.net</a></dd></div>
+          <div><dt>ソーシャル</dt><dd>
+            <a href="https://www.youtube.com/@themusiccitiespodcast" target="_blank" rel="noopener noreferrer">YouTube</a>、
+            <a href="https://www.instagram.com/themusiccities" target="_blank" rel="noopener noreferrer">Instagram</a>、
+            <a href="https://x.com/themusiccities" target="_blank" rel="noopener noreferrer">X</a>、
+            <a href="https://www.tiktok.com/@themusiccities" target="_blank" rel="noopener noreferrer">TikTok</a>、
+            <a href="https://www.facebook.com/TheMusicCitiesPodcast" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </dd></div>
+          <div><dt>ニュースレター</dt><dd><a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7469968130384035841" target="_blank" rel="noopener noreferrer">Music Cities Setlists</a>（LinkedIn）。</dd></div>
+          <div><dt>ダウンロード</dt><dd>1ページのプレスキット。
+            <a href={PERMA + '/assets/the-music-cities-press-kit.pdf'} target="_blank" rel="noopener noreferrer">画面用PDF</a> または
+            <a href={PERMA + '/assets/the-music-cities-press-kit-print.pdf'} target="_blank" rel="noopener noreferrer">印刷用PDF</a>。
+          </dd></div>
+        </dl>
+        <p class="press-foot">
+          The Music Citiesは、退役軍人が経営する経済開発会社
+          <a href="https://businessflare.net" target="_blank" rel="noopener noreferrer">BusinessFlare</a>
+          が制作しています。<a href="/">ダッシュボードに戻る</a>。
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+
+  <style>
+    .press-figs { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0 2rem; }
+    .press-figs figure { margin: 0; }
+    .press-figs img { width: 100%; height: 240px; object-fit: cover; border-radius: 10px; border: 1px solid rgba(255,255,255,0.13); display: block; }
+    .press-figs figcaption { margin-top: 0.4rem; font-size: 0.82rem; color: #8a8279; }
+    .dash-main p { line-height: 1.85; color: #d9d4ca; }
+    .dash-main a { color: #e6e2da; }
+    .dash-main a:hover { color: #fff; }
+    .press-defs { margin: 0.5rem 0 0; }
+    .press-defs > div { padding: 0.7rem 0; border-bottom: 1px solid #262626; }
+    .press-defs dt { font-weight: 700; color: #fff; margin-bottom: 0.2rem; }
+    .press-defs dt a { color: #fff; }
+    .press-defs dd { margin: 0; color: #d9d4ca; line-height: 1.8; }
+    .press-quote { display: block; margin-top: 0.4rem; padding-left: 0.8rem; border-left: 2px solid #e11d2a; color: #b7b2a9; font-style: italic; font-size: 0.9rem; }
+    .press-foot { margin-top: 1.5rem; color: #8a8279; }
+    .press-langs { margin: 0.8rem 0 0; font-size: 0.9rem; color: #8a8279; }
+    .press-langs a { color: #e6e2da; }
+    .press-langs strong { color: #fff; }
+  </style>
+</BaseLayout>

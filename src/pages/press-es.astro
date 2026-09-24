@@ -1,0 +1,242 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
+import Footer from '../components/Footer.astro';
+
+/**
+ * /press-es — Kit de prensa de The Music Cities (español).
+ * Las fotos y los PDF se sirven temporalmente desde el despliegue recuperado (PERMA).
+ */
+const PERMA = 'https://6aafd11c987f7a70480b2a64--musiccitiesconcerts.netlify.app';
+
+const photos = [
+  { src: PERMA + '/assets/press/nemophila-orlando.jpg', alt: 'NEMOPHILA con camisetas personalizadas de Music Cities, Orlando', cap: 'Entrevista con NEMOPHILA, Orlando' },
+  { src: PERMA + '/assets/press/broken-by-the-scream-london.jpg', alt: 'Entrevistando a Broken by the Scream en Londres', cap: 'Entrevistando a Broken by the Scream, Londres' },
+  { src: PERMA + '/assets/press/nicko-mcbrain.jpg', alt: 'Almuerzo con Nicko McBrain de Iron Maiden', cap: 'Almuerzo con Nicko McBrain, Iron Maiden' },
+];
+---
+
+<BaseLayout
+  title="Kit de prensa | The Music Cities"
+  description="Kit de prensa de The Music Cities. Una plataforma de visibilidad que cubre la escena del metal desde una óptica de desarrollo económico y creación de lugar."
+>
+  <Header />
+  <SceneNav />
+
+  <section class="dash-hero">
+    <div class="container">
+      <p class="dash-hero__eyebrow">Kit de prensa</p>
+      <h1 class="dash-hero__title">The Music <em>Cities</em></h1>
+      <p class="dash-hero__lede">
+        Una plataforma de visibilidad con sede en Miami que cubre la escena del metal desde una óptica de desarrollo económico y creación de lugar. Encontramos las bandas, las escenas y la economía que ya existen y no se ven, las nombramos correctamente y las ponemos frente al público que siempre iba a responder.
+      </p>
+      <p class="press-langs"><a href="/press">English</a> · <a href="/press-ja">日本語</a> · <strong>Español</strong> · <a href="/press-de">Deutsch</a> · <a href="/press-ko">한국어</a></p>
+    </div>
+  </section>
+
+  <main class="dash-main">
+    <div class="container">
+
+      <div class="press-figs">
+        {photos.map((p) => (
+          <figure>
+            <img src={p.src} alt={p.alt} loading="lazy" decoding="async" />
+            <figcaption>{p.cap}</figcaption>
+          </figure>
+        ))}
+      </div>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Quién lo dirige</h2>
+        <p>
+          Esto no es cobertura desde afuera. Kevin Crowder lleva cuarenta años tocando la guitarra en bandas originales y de versiones, y sigue tocando en vivo, actualmente con la banda de metal de Miami
+          <a href="https://www.youtube.com/watch?v=Ltyj3hbklU8" target="_blank" rel="noopener noreferrer">McFisty</a>,
+          tras años en War Department, Cone of Silence, Phantasie y The Mix. Ambos lados de esa división importan aquí, porque la diferencia entre una ciudad que construye escenas originales y una que solo contrata bandas de versiones es uno de los argumentos que este canal defiende constantemente, y no es teórico. Entra por la misma puerta de carga que las bandas que entrevistamos, compra mercancía en cada show y sabe lo que un mal local le cuesta a una banda.
+        </p>
+        <p>
+          La otra mitad es el trabajo diario. Es veterano del Ejército de los EE. UU., con treinta años en desarrollo económico en Florida, quince de ellos como director de desarrollo económico de la ciudad de Miami Beach durante la transformación de South Beach, y fundador de
+          <a href="https://businessflare.net" target="_blank" rel="noopener noreferrer">BusinessFlare</a>,
+          una firma de desarrollo económico de propiedad de un veterano. Por eso el canal puede realizar un análisis real de impacto económico sobre un festival de metal y lograr que tanto los promotores como la ciudad lo crean.
+        </p>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Alcance</h2>
+        <dl class="press-defs">
+          <div><dt>Suscriptores</dt><dd>152.000 en YouTube, lanzado en agosto de 2025.</dd></div>
+          <div><dt>Visualizaciones totales</dt><dd>3,37 millones en 285 videos.</dd></div>
+          <div><dt>Posición</dt><dd>El canal de desarrollo económico con más suscriptores en YouTube, por amplio margen.</dd></div>
+          <div><dt>Lugares recientes</dt><dd>Miami, Orlando, Tampa, Houston, Austin, Londres y Wacken.</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">El sitio y la app</h2>
+        <p>
+          <a href="https://themusiccities.com/" target="_blank" rel="noopener noreferrer">themusiccities.com</a>
+          es un panel de conciertos y escena que se actualiza cada noche y acompaña al canal, construido a partir de nuestro propio calendario editorial y no de agregadores. Incluye el calendario del metal de Florida, la lista de seguimiento del metal japonés y asiático, festivales destacados, salas, lanzamientos de álbumes, cumpleaños de artistas, el label wire, los mapas de escena y las guías de las salidas.
+        </p>
+        <dl class="press-defs">
+          <div><dt><a href="/florida">Florida Metal Scene</a></dt><dd>El calendario continuo de Florida, sala por sala.</dd></div>
+          <div><dt><a href="/japan">Japanese and Asian Metal</a></dt><dd>La lista de seguimiento, fechas de gira y lanzamientos.</dd></div>
+          <div><dt><a href="/festivals">Key Festivals</a></dt><dd>Los festivales destacados que seguimos y a los que asistimos.</dd></div>
+          <div><dt><a href="/app">La app</a></dt><dd>Descarga para Android disponible ahora; en iPhone y iPad mediante instalación en la pantalla de inicio; tiendas de apps por venir.</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">El programa de entrevistas</h2>
+        <p>
+          Entrevistas completas y la serie 3 Questions. La colección completa está en
+          <a href="https://www.youtube.com/playlist?list=PLb5XblrwD0ZF0asSK72gGUAQm72Mqy8ZT" target="_blank" rel="noopener noreferrer">una lista de reproducción</a>,
+          y el elenco completo está en nuestra <a href="/interviews">página de entrevistas</a>.
+        </p>
+        <dl class="press-defs">
+          <div>
+            <dt><a href="https://www.youtube.com/watch?v=pJmFKOQ38e0" target="_blank" rel="noopener noreferrer">NEMOPHILA</a></dt>
+            <dd>182.000 visualizaciones, 44,5 por ciento de retención media. Metal japonés, grabado en Orlando.
+              <span class="press-quote">«Llevo más de 40 años asistiendo a conciertos de metal… Fue genial conocerte en el show de Orlando.» — SuperSport2024</span>
+              <span class="press-quote">«Siempre sentí que el WA que mencionó Hazuki y las referencias a los SAMURÁI formaban parte de su música… El metal japonés sin duda ha cruzado el mundo, especialmente las bandas femeninas. Una entrevista muy buena.» — derekwooding5354</span>
+            </dd>
+          </div>
+          <div>
+            <dt><a href="https://www.youtube.com/watch?v=QGW5tLmv_Ds" target="_blank" rel="noopener noreferrer">BRIDEAR</a></dt>
+            <dd>109.000 visualizaciones. Grabado para apoyar su exitosa campaña de crowdfunding.
+              <span class="press-quote">«Doné de inmediato. Espero de verdad que puedan seguir haciendo música.» — jamessharp2725</span>
+            </dd>
+          </div>
+          <div>
+            <dt><a href="https://www.youtube.com/watch?v=Sky1HWb5cP8" target="_blank" rel="noopener noreferrer">Broken by the Scream</a></dt>
+            <dd>68.000 visualizaciones. Grabado en Londres.
+              <span class="press-quote">«Sigo a BBTS desde hace más de cinco años… Estoy muy impresionado por la carrera que han construido hasta llegar a Wacken.» — NemusVetus</span>
+            </dd>
+          </div>
+          <div>
+            <dt><a href="https://www.youtube.com/watch?v=r8klGaDF1gE" target="_blank" rel="noopener noreferrer">Nini</a></dt>
+            <dd>Folk metal taiwanés, sin sello. 11.000 visualizaciones en seis días.
+              <span class="press-quote">«No conocía a esta artista hasta que apareció en tu canal.» — Mark-J-metal</span>
+            </dd>
+          </div>
+          <div><dt>Prueba de sonido y tras bambalinas</dt><dd>Hay bandas que nos han hecho pasar antes de abrir puertas. NEMOPHILA nos invitó a grabar su prueba de sonido en Orlando, y Broken by the Scream hizo lo mismo en Londres.</dd></div>
+          <div><dt>Fotografía de conciertos</dt><dd>Fotografiamos en los shows y publicamos en Pinterest. La intención es dar contexto, no ser un servicio de fotografía. No vendemos fotos.</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Bandas que empiezan desde cero</h2>
+        <p>La serie 3 Questions. Bandas regionales sin un público previo que traer consigo.</p>
+        <dl class="press-defs">
+          <div><dt><a href="https://www.youtube.com/watch?v=MJnQVxduebk" target="_blank" rel="noopener noreferrer">We All Rise</a></dt><dd>Miami. 244.000 visualizaciones.</dd></div>
+          <div><dt><a href="https://www.youtube.com/watch?v=ERucE5hitSY" target="_blank" rel="noopener noreferrer">Nocturnal Dawn</a></dt><dd>Orlando, Wacken Metal Battle Florida. 126.000 visualizaciones.</dd></div>
+          <div><dt><a href="https://www.youtube.com/watch?v=WMFPAcPMkpg" target="_blank" rel="noopener noreferrer">SevenSins</a></dt><dd>Miami. 67.000 visualizaciones.</dd></div>
+          <div><dt><a href="https://www.youtube.com/watch?v=LUKyg4Dpddc" target="_blank" rel="noopener noreferrer">Nemesis</a></dt><dd>Houston, Wacken Metal Battle Texas. 18.000 visualizaciones.</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Band of the Year</h2>
+        <p>Se entrega cada año a la banda en persona y se cubre como un episodio.</p>
+        <dl class="press-defs">
+          <div><dt><a href="https://www.youtube.com/watch?v=9240E0hxKCY" target="_blank" rel="noopener noreferrer">LOVEBITES 2025</a></dt><dd>Entregado en Londres. Episodio con 67.000 visualizaciones.</dd></div>
+          <div><dt><a href="https://www.youtube.com/watch?v=z72FZugv3R8" target="_blank" rel="noopener noreferrer">HANABIE. 2026</a></dt><dd>Entregado en Austin. Episodio con 105.000 visualizaciones.</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Las escenas, cartografiadas</h2>
+        <p>
+          Mapas de escena construidos como redes y linajes solo a partir de fuentes públicas, con cada nodo apoyado en un registro citable. Ningún otro medio musical tiene esto. Cuando entrevistamos a una banda, ya conocemos el linaje del que proviene.
+        </p>
+        <dl class="press-defs">
+          <div><dt><a href="https://japan.themusiccities.com/" target="_blank" rel="noopener noreferrer">Árbol genealógico del heavy metal japonés</a></dt><dd>De 1967 a 2026, 319 nodos, con la escena femenina actual cartografiada miembro por miembro.</dd></div>
+          <div><dt><a href="https://tampa.themusiccities.com/" target="_blank" rel="noopener noreferrer">Árbol genealógico del death metal de Tampa</a></dt><dd>De 1979 a 2026, 371 nodos y 1.130 conexiones, con cada crédito de Morrisound Recording verificado álbum por álbum.</dd></div>
+          <div><dt><a href="https://westdixiestudios.themusiccities.com/" target="_blank" rel="noopener noreferrer">West Dixie Music Corridor</a></dt><dd>236 nodos en cinco jurisdicciones, siguiendo Criteria Studios desde 1958 y documentando la ausencia de un escenario en vivo dentro del anillo. Estudios sin escenarios.</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Episodios de estudio de caso</h2>
+        <p>El núcleo del canal. La historia del metal leída como desarrollo económico.</p>
+        <dl class="press-defs">
+          <div><dt><a href="https://www.youtube.com/watch?v=kgbDiHq6piI" target="_blank" rel="noopener noreferrer">Scorpions, la construcción de un imperio global</a></dt><dd>153.000 visualizaciones.</dd></div>
+          <div><dt><a href="https://www.youtube.com/shorts/STsGDIsq0W8" target="_blank" rel="noopener noreferrer">Impacto económico del Brewtality Metal Fest</a></dt><dd>92.000 visualizaciones. Un análisis de impacto económico de un festival de metal.</dd></div>
+          <div><dt><a href="https://www.youtube.com/watch?v=SvBPfES3WfU" target="_blank" rel="noopener noreferrer">Es 1986 en Japón</a></dt><dd>74.000 visualizaciones. Cómo se construyó la escena japonesa de hoy.</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Relaciones con la industria</h2>
+        <p>
+          Relaciones de trabajo con músicos, bandas, mánagers, contactos de prensa de PR y sellos, y fotógrafos de conciertos. Cada banda que entrevistamos se lleva mercancía de Music Cities.
+        </p>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Qué cubrimos</h2>
+        <p>
+          Música pesada dondequiera que ocurra, y la economía de los lugares que la producen. La cobertura es más profunda en Florida y Miami y en todo Japón y Asia, y se extiende a cualquier subgénero, escena, ciudad o banda que valga la pena nombrar. Festivales y salidas, recientemente
+          <a href="/wacken">Wacken</a>, <a href="/louder-than-life">Louder Than Life</a> y <a href="/london">Metal London</a>. Lanzamientos de álbumes, entrevistas a bandas y
+          <a href="https://www.youtube.com/@musiccitiesradio" target="_blank" rel="noopener noreferrer">Music Cities Radio</a>.
+        </p>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Trabajar con nosotros</h2>
+        <dl class="press-defs">
+          <div><dt>Lo que pedimos</dt><dd>Acreditación de prensa para el show cuando la sala lo exija. Tiempo de entrevista con la banda el día del show, en el camerino o la sala. Acceso a la prueba de sonido cuando la banda esté cómoda con ello. Un aviso cuando una gira pase por Florida, y sobre los lanzamientos.</dd></div>
+          <div><dt>Lo que recibe la banda</dt><dd>La entrevista publicada ante un público que asiste, dona y compra entradas. Un corto de 3 Questions para bandas al inicio de su trayectoria. Mercancía de Music Cities. Fotos del show.</dd></div>
+        </dl>
+      </section>
+
+      <section class="dash-section">
+        <h2 class="dash-section__title">Contacto de prensa</h2>
+        <dl class="press-defs">
+          <div><dt>Contacto</dt><dd>Kevin Crowder, fundador</dd></div>
+          <div><dt>Ubicación</dt><dd>Miami, Florida.</dd></div>
+          <div><dt>Correo</dt><dd><a href="mailto:kevin@businessflare.net">kevin@businessflare.net</a></dd></div>
+          <div><dt>Redes</dt><dd>
+            <a href="https://www.youtube.com/@themusiccitiespodcast" target="_blank" rel="noopener noreferrer">YouTube</a>,
+            <a href="https://www.instagram.com/themusiccities" target="_blank" rel="noopener noreferrer">Instagram</a>,
+            <a href="https://x.com/themusiccities" target="_blank" rel="noopener noreferrer">X</a>,
+            <a href="https://www.tiktok.com/@themusiccities" target="_blank" rel="noopener noreferrer">TikTok</a>,
+            <a href="https://www.facebook.com/TheMusicCitiesPodcast" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </dd></div>
+          <div><dt>Boletín</dt><dd><a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7469968130384035841" target="_blank" rel="noopener noreferrer">Music Cities Setlists</a>, en LinkedIn.</dd></div>
+          <div><dt>Descarga</dt><dd>Kit de prensa de una página.
+            <a href={PERMA + '/assets/the-music-cities-press-kit.pdf'} target="_blank" rel="noopener noreferrer">Versión para pantalla, PDF</a> o
+            <a href={PERMA + '/assets/the-music-cities-press-kit-print.pdf'} target="_blank" rel="noopener noreferrer">versión para imprimir, PDF</a>.
+          </dd></div>
+        </dl>
+        <p class="press-foot">
+          The Music Cities es producido por
+          <a href="https://businessflare.net" target="_blank" rel="noopener noreferrer">BusinessFlare</a>,
+          una firma de desarrollo económico de propiedad de un veterano. <a href="/">Volver al panel</a>.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+
+  <style>
+    .press-figs { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0 2rem; }
+    .press-figs figure { margin: 0; }
+    .press-figs img { width: 100%; height: 240px; object-fit: cover; border-radius: 10px; border: 1px solid rgba(255,255,255,0.13); display: block; }
+    .press-figs figcaption { margin-top: 0.4rem; font-size: 0.82rem; color: #8a8279; }
+    .dash-main p { line-height: 1.65; color: #d9d4ca; }
+    .dash-main a { color: #e6e2da; }
+    .dash-main a:hover { color: #fff; }
+    .press-defs { margin: 0.5rem 0 0; }
+    .press-defs > div { padding: 0.7rem 0; border-bottom: 1px solid #262626; }
+    .press-defs dt { font-weight: 700; color: #fff; margin-bottom: 0.2rem; }
+    .press-defs dt a { color: #fff; }
+    .press-defs dd { margin: 0; color: #d9d4ca; line-height: 1.6; }
+    .press-quote { display: block; margin-top: 0.4rem; padding-left: 0.8rem; border-left: 2px solid #e11d2a; color: #b7b2a9; font-style: italic; font-size: 0.9rem; }
+    .press-foot { margin-top: 1.5rem; color: #8a8279; }
+    .press-langs { margin: 0.8rem 0 0; font-size: 0.9rem; color: #8a8279; }
+    .press-langs a { color: #e6e2da; }
+    .press-langs strong { color: #fff; }
+  </style>
+</BaseLayout>
