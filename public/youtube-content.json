@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-23T07:00:46.297Z",
+  "fetchedAt": "2026-09-24T07:00:56.441Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
@@ -8,6 +8,40 @@
       "subscriberCount": 152000,
       "videoCount": 291,
       "recentLongform": [
+        {
+          "id": "oRaC3DSH-cI",
+          "title": "Nini Music | It's Like a Chinese Guitar",
+          "publishedAt": "2026-09-23T16:49:08Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/oRaC3DSH-cI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/oRaC3DSH-cI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/oRaC3DSH-cI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/oRaC3DSH-cI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/oRaC3DSH-cI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M15S",
+          "durationSeconds": 75
+        },
         {
           "id": "r8klGaDF1gE",
           "title": "Nini | Building a Metal Community | Nini Music",
@@ -264,6 +298,40 @@
       ],
       "recentShorts": [
         {
+          "id": "5MBmJfsB76Q",
+          "title": "Hanabie | Be the Gal What the F... | Orlando",
+          "publishedAt": "2026-09-23T12:47:39Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/5MBmJfsB76Q/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/5MBmJfsB76Q/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/5MBmJfsB76Q/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/5MBmJfsB76Q/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/5MBmJfsB76Q/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT51S",
+          "durationSeconds": 51
+        },
+        {
           "id": "v8YQ0h5XjQc",
           "title": "Music Cities Radio",
           "publishedAt": "2026-09-23T00:04:16Z",
@@ -324,74 +392,6 @@
             },
             "maxres": {
               "url": "https://i.ytimg.com/vi/bCk6Nwzwr28/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT26S",
-          "durationSeconds": 26
-        },
-        {
-          "id": "7L7xIIVpOHc",
-          "title": "Music Cities Radio",
-          "publishedAt": "2026-09-22T00:04:32Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/7L7xIIVpOHc/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/7L7xIIVpOHc/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/7L7xIIVpOHc/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/7L7xIIVpOHc/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/7L7xIIVpOHc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT18S",
-          "durationSeconds": 18
-        },
-        {
-          "id": "F552vH9u64c",
-          "title": "The Music Cities App",
-          "publishedAt": "2026-09-21T17:06:50Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/F552vH9u64c/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/F552vH9u64c/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/F552vH9u64c/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/F552vH9u64c/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/F552vH9u64c/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
