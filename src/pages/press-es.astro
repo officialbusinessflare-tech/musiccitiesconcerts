@@ -235,8 +235,10 @@ const photos = [
     .press-defs dd { margin: 0; color: #d9d4ca; line-height: 1.6; }
     .press-quote { display: block; margin-top: 0.4rem; padding-left: 0.8rem; border-left: 2px solid #e11d2a; color: #b7b2a9; font-style: italic; font-size: 0.9rem; }
     .press-foot { margin-top: 1.5rem; color: #8a8279; }
-    .press-langs { margin: 0.8rem 0 0; font-size: 0.9rem; color: #8a8279; }
-    .press-langs a { color: #e6e2da; }
-    .press-langs strong { color: #fff; }
+    .press-langs { margin: 1.1rem 0 0; font-size: 0; }
+    .press-langs a, .press-langs strong { display: inline-block; font-size: 0.95rem; font-weight: 600; margin: 0 8px 8px 0; padding: 6px 14px; border-radius: 999px; border: 1px solid #3a3a3a; line-height: 1; }
+    .press-langs a { color: #e6e2da; text-decoration: none; }
+    .press-langs a:hover { border-color: #e11d2a; color: #fff; }
+    .press-langs strong { background: #e11d2a; color: #fff; border-color: #e11d2a; }
   </style>
 </BaseLayout>
