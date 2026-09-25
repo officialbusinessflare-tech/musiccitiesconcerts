@@ -9916,24 +9916,6 @@
       "buckets": [
         "interesting-elsewhere"
       ]
-    },
-    {
-      "id": "spiders-crystal-eyes-2026",
-      "name": "📀 Spiders — Crystal Eyes — RELEASE — Oct 2 2026",
-      "date": "2026-10-02",
-      "venue": "Crystal Eyes — RELEASE",
-      "bands": [
-        "Spiders"
-      ],
-      "description": "Gothenburg's Spiders release their fifth album, Crystal Eyes — ten tracks on Wild Kingdom (The Hellacopters' label). Out digitally Sept 25, CD dated Oct 2. Read our full review at themusiccities.com/reviews/spiders.",
-      "priority": "high",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "",
-      "buckets": [
-        "album-releases"
-      ],
-      "ticketUrl": "https://themusiccities.com/reviews/spiders"
     }
   ]
 }
