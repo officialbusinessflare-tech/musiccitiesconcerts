@@ -1,164 +1,43 @@
 ---
-/**
- * Homepage — curated overview.
- *
- * Layout, top to bottom:
- *   - Header
- *   - SceneNav
- *   - Hero strip ("Concerts. Releases. The scene.")
- *   - Field Trips: TWO strips — Wacken (chronologically first), then London
- *   - Coming Up Next: next 9 entries across ALL buckets
- *   - The Scenes: bucket teaser tiles
- *   - Scene Briefs: 2 editorial dashboards
- *   - Video strips (Latest from TMC, Music Cities Radio, Performance Shorts) — bottom
- *   - Footer
- */
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import SceneNav from '../components/SceneNav.astro';
 import Footer from '../components/Footer.astro';
-import ShowCard from '../components/ShowCard.astro';
-import ReleaseCard from '../components/ReleaseCard.astro';
-import VideoStrip from '../components/VideoStrip.astro';
+import BucketSection from '../components/BucketSection.astro';
+import BirthdaySection from '../components/BirthdaySection.astro';
 import type { BucketsConfigFile, ConcertsDataFile, ConcertEntry, BirthdaysDataFile } from '../lib/types';
 import { categorize, groupByBucket } from '../lib/categorize';
 import { collectKnownVenues, reparseEntry } from '../lib/parse-name';
 
+// Astro can import JSON directly at build time. concerts.json is regenerated
+// nightly by the scheduled function committing back to the repo.
 import bucketsConfig from '../../buckets.config.json';
 import concertsData from '../../concerts.json';
 import birthdaysData from '../../birthdays.json';
 
-// YouTube content — silent fallback so a missing file doesn't break the build.
-let ytData: any = {
-  channels: { tmc: { recentLongform: [], recentShorts: [] }, radio: { recentLongform: [], recentShorts: [] } },
-  playlists: {},
-};
-try {
-  ytData = (await import('../../public/youtube-content.json')).default ?? ytData;
-} catch (err) {}
-const tmcLongform = ytData?.channels?.tmc?.recentLongform ?? [];
-const radioLongform = ytData?.channels?.radio?.recentLongform ?? [];
-const radioShorts = ytData?.channels?.radio?.recentShorts ?? [];
-
 const buckets = (bucketsConfig as BucketsConfigFile).buckets;
 const data = concertsData as ConcertsDataFile;
 const knownVenues = collectKnownVenues(buckets);
+
 const birthdays = (birthdaysData as BirthdaysDataFile).entries ?? [];
 
+// Defensive: filter out anything in the past, just in case the data file
+// outpaces the nightly rebuild.
 const today = new Date().toISOString().slice(0, 10);
 const upcoming: ConcertEntry[] = (data.entries ?? [])
   .filter((e) => {
     const compareDate = e.endDate ?? e.date;
     return compareDate >= today;
   })
+  // Re-parse the name at build time. The nightly fetch may have run with an
+  // older parser; this lets fixes to parse-name.ts take effect immediately,
+  // including venue-collision rescue for titles like "Nemophila with Conduit".
   .map((e) => reparseEntry(e, knownVenues))
+  // Re-run categorization at build time so changes to the bucket config or
+  // matching logic take effect immediately too.
   .map((e) => ({ ...e, buckets: categorize(e, buckets) }));
 
 const grouped = groupByBucket(upcoming, buckets);
-
-// Coming Up Next — the next 9 entries across the WHOLE calendar, regardless of bucket.
-const comingUp = [...upcoming]
-  .sort((a, b) => a.date.localeCompare(b.date))
-  .slice(0, 9);
-
-// Don't-Miss — high-priority shows surfaced above the chronological list so a
-// tour flood can't bury marquee must-sees. Up to 6, soonest first.
-//
-// CURATION (edit these two to control the strip):
-//   DONT_MISS_HIDE   — predicates for shows to keep OUT of the auto row.
-//   DONT_MISS_PIN    — predicates for shows to PIN at the end, in this order.
-// Auto-fills the remaining slots (to 6) with high/urgent-priority non-release
-// shows, soonest first, excluding hidden + already-pinned.
-const DONT_MISS_HIDE = [
-  (e: ConcertEntry) => /judas priest/i.test(e.name),
-];
-const DONT_MISS_PIN = [
-  // Lovebites London — O2 Academy Islington, Aug 3 (the trip anchor)
-  (e: ConcertEntry) => /lovebites/i.test(e.name) && /(o2 academy|islington)/i.test(e.name),
-];
-
-const dmHidden = (e: ConcertEntry) => DONT_MISS_HIDE.some((fn) => fn(e));
-const dmPinned = DONT_MISS_PIN.map((fn) => upcoming.find(fn)).filter(Boolean) as ConcertEntry[];
-const dmPinnedIds = new Set(dmPinned.map((e) => e.id));
-
-const dmAuto = [...upcoming]
-  .filter((e) => (e.priority === 'high' || e.priority === 'urgent') && !e.isRelease)
-  .filter((e) => !dmHidden(e) && !dmPinnedIds.has(e.id))
-  .sort((a, b) => a.date.localeCompare(b.date));
-
-const dontMiss = [...dmAuto.slice(0, Math.max(0, 6 - dmPinned.length)), ...dmPinned];
-
-const BUCKET_HREFS: Record<string, string> = {
-  'florida-metal-scene': '/florida',
-  'japanese-metal': '/japan',
-  'key-festivals': '/festivals',
-  'interesting-elsewhere': '/elsewhere',
-  'album-releases': '/releases',
-};
-
-const bucketTeasers = buckets.map((b) => ({
-  id: b.id,
-  name: b.name,
-  kanji: b.kanji,
-  description: b.description,
-  count: grouped.get(b.id)?.length ?? 0,
-  href: BUCKET_HREFS[b.id] ?? '/',
-}));
-
-const birthdaysTeaser = {
-  id: 'birthdays',
-  name: 'Birthdays',
-  kanji: undefined as string | undefined,
-  description: 'Artists, players, and the people behind the bands we follow. Sorted by next-up.',
-  count: birthdays.length,
-  href: '/birthdays',
-};
-
-const venuesTeaser = {
-  id: 'venues',
-  name: 'Go-To Venues',
-  kanji: undefined as string | undefined,
-  description: "The rooms we anchor our coverage on. One per city — where the bands you care about actually play.",
-  count: null as number | null,
-  href: '/venues',
-};
-
-const watchingTeaser = {
-  id: 'watching',
-  name: "Bands We're Watching",
-  kanji: undefined as string | undefined,
-  description: "The artists we track, cover, and drive to see. When one of these shows up on a flyer, it earns a calendar spot.",
-  count: null as number | null,
-  href: '/watching',
-};
-
-const teasers = [...bucketTeasers, birthdaysTeaser, venuesTeaser, watchingTeaser];
-
-const fieldTrips = [
-  {
-    id: 'buddy-guy',
-    href: '/buddy-guy',
-    titleHtml: 'Buddy Guy <em>at 90</em>',
-    sub: 'Thursday 1 October 2026 — Radio City Music Hall, New York. Clapton, Mayer, Bonamassa and a room full of blues legends.',
-    cta: 'View the brief →',
-  },
-];
-
-
-const sceneBriefs = [
-  {
-    id: 'japan-scene',
-    name: 'Japan Scene',
-    description: "The in-Japan shows: 14 J-metal bands' Japan dates, recommended trip windows, festivals, and travel intel.",
-    href: '/japan-scene',
-  },
-  {
-    id: 'japan-global',
-    name: 'Japan Global',
-    description: 'Japanese metal bands touring abroad: North America, Europe, Asia/Oceania tour schedules in one view.',
-    href: '/japan-global',
-  },
-];
 
 const lastUpdated = data.generatedAt
   ? new Date(data.generatedAt).toLocaleDateString('en-US', {
@@ -182,7 +61,7 @@ const lastUpdated = data.generatedAt
         Concerts. Releases. <em>The scene.</em>
       </h1>
       <p class="hero-strip__body">
-        Not an aggregator. This is the calendar we actually pay attention to —
+        Not an aggregator. This is the calendar Kevin actually pays attention to —
         Florida's metal venues, the Japanese watch list, marquee festivals, new
         releases, livestreams, and the records on heavy rotation.
         {lastUpdated ? <span>Last updated {lastUpdated}.</span> : null}
@@ -190,147 +69,40 @@ const lastUpdated = data.generatedAt
     </div>
   </section>
 
-  <section class="field-trip-strip">
-    <div class="container">
-      <header class="field-trips__header">
-        <span class="field-trips__eyebrow">Field Trips</span>
-        <p class="field-trips__sub">Where we go next. Buddy Guy's 90th at Radio City Music Hall on October 1 — Clapton, Mayer, Bonamassa and a room full of blues legends.</p>
-      </header>
-      <div class="field-trips__stack">
-        {fieldTrips.map((trip) => (
-          <a href={trip.href} class="field-trip-strip__link">
-            <span class="field-trip-strip__eyebrow">Field Trip</span>
-            <h2 class="field-trip-strip__title" set:html={trip.titleHtml}></h2>
-            <p class="field-trip-strip__sub">{trip.sub}</p>
-            <span class="field-trip-strip__cta">{trip.cta}</span>
-          </a>
-        ))}
+  <a class="feat-review" href="/reviews/spiders">
+    <div class="container feat-review__inner">
+      <img class="feat-review__art" src="/assets/reviews/spiders-crystal-eyes.jpg" alt="Spiders — Crystal Eyes album cover" width="1200" height="1200" loading="eager" />
+      <div class="feat-review__text">
+        <span class="feat-review__eyebrow">New review</span>
+        <h2 class="feat-review__title">Spiders — <em>Crystal Eyes</em></h2>
+        <p class="feat-review__dek">Göteborg's other export, and what a rehearsal room has to do with it. Our review of the fifth album, built on our interview with Ann-Sofie and John Hoyles.</p>
+        <span class="feat-review__cta">Read the review →</span>
       </div>
     </div>
-  </section>
+  </a>
 
-  {dontMiss.length > 0 ? (
-    <section class="dont-miss">
-      <div class="container">
-        <header class="dont-miss__header">
-          <span class="dont-miss__eyebrow">Don't miss</span>
-          <h2 class="dont-miss__title">On our radar right now</h2>
-          <p class="dont-miss__sub">The high-priority shows we're actually building around — marquee acts, confirmed field trips, the ones worth planning your week around.</p>
-        </header>
-        <div class="bucket__grid">
-          <a class="nini-radar" href="/watching" style="display:block;text-decoration:none;background:#141414;border:1px solid #2a2a2a;border-left:4px solid #e50914;border-radius:12px;padding:18px 20px;">
-            <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#e50914;font-weight:700;margin-bottom:8px;">Coming to the channel</div>
-            <div style="font-size:20px;font-weight:700;color:#fff;margin-bottom:6px;">Nini — Nini Music</div>
-            <div style="font-size:14px;line-height:1.5;color:#b7b2a9;">One of our favorites. Full interview now live on the channel. And she's coming to Florida.</div>
-            <div style="font-size:13px;color:#e50914;margin-top:12px;font-weight:600;">On Bands We Watch →</div>
-          </a>
-          {dontMiss.map((entry) => <ShowCard entry={entry} />)}
-        </div>
-      </div>
-    </section>
-  ) : null}
+  <main>
+    {buckets.map((bucket) => (
+      <BucketSection bucket={bucket} entries={grouped.get(bucket.id) ?? []} />
+    ))}
+  </main>
 
-  <section class="coming-up">
-    <div class="container">
-      <header class="coming-up__header">
-        <span class="coming-up__eyebrow">Coming up next</span>
-        <h2 class="coming-up__title">The next nine on the calendar</h2>
-        <p class="coming-up__sub">Across every bucket, soonest first. Use the bucket pages for the full lists.</p>
-      </header>
-      {comingUp.length === 0 ? (
-        <p class="bucket__empty">Nothing on the calendar yet. Check back soon.</p>
-      ) : (
-        <div class="bucket__grid">
-          {comingUp.map((entry) =>
-            entry.isRelease ? <ReleaseCard entry={entry} /> : <ShowCard entry={entry} />,
-          )}
-        </div>
-      )}
-    </div>
-  </section>
-
-  <section class="scenes">
-    <div class="container">
-      <header class="scenes__header">
-        <span class="scenes__eyebrow">The scenes</span>
-        <h2 class="scenes__title">Pick your beat</h2>
-        <p class="scenes__sub">Each tile is its own page — bucket, count, and the editorial scope behind it.</p>
-      </header>
-
-      <div class="bucket-teasers">
-        {teasers.map((t) => (
-          <a href={t.href} class="bucket-teaser">
-            <h3 class="bucket-teaser__name">
-              {t.name}
-              {t.kanji ? <span class="bucket-teaser__kanji" lang="ja">{t.kanji}</span> : null}
-            </h3>
-            {t.count !== null ? <p class="bucket-teaser__count">{t.count} {t.count === 1 ? 'entry' : 'entries'}</p> : null}
-            <p class="bucket-teaser__desc">{t.description}</p>
-            <span class="bucket-teaser__cta">View all →</span>
-          </a>
-        ))}
-      </div>
-
-      <header class="scenes__header scenes__header--briefs">
-        <span class="scenes__eyebrow">Scene briefs</span>
-        <h2 class="scenes__title">Editorial dashboards</h2>
-        <p class="scenes__sub">Deep-dive pages for specific trips and festivals. Hand-built briefs beyond the calendar.</p>
-      </header>
-
-      <div class="bucket-teasers">
-        {sceneBriefs.map((t) => (
-          <a href={t.href} class="bucket-teaser">
-            <h3 class="bucket-teaser__name">{t.name}</h3>
-            <p class="bucket-teaser__desc">{t.description}</p>
-            <span class="bucket-teaser__cta">View briefing →</span>
-          </a>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  {/* Video strips — parked at the bottom for now. The info the visitor came for
-      (Coming Up Next, Scenes) is what leads. Videos are a discovery layer, not
-      a home-page hero. */}
-  <VideoStrip title="Latest from The Music Cities" videos={tmcLongform.slice(0, 3)} channelBadge="TMC" />
-  <VideoStrip title="Music Cities Radio" videos={radioLongform.slice(0, 3)} channelBadge="Radio" />
-  <VideoStrip title="Performance Shorts" videos={radioShorts.slice(0, 6)} channelBadge="Radio" layout="scroll" />
+  <BirthdaySection entries={birthdays} />
 
   <Footer />
-</BaseLayout>
 
-<style is:global>
-  .field-trips__header {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-2);
-    margin-bottom: var(--space-4);
-  }
-  .field-trips__eyebrow {
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--color-accent);
-  }
-  .field-trips__sub {
-    font-size: 0.95rem;
-    color: var(--color-text-muted);
-    margin: 0;
-    max-width: 60ch;
-    line-height: 1.4;
-  }
-  .field-trips__stack {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-4);
-  }
-  /* ----- Don't-Miss strip: high-priority marquee row above Coming Up Next ----- */
-  .dont-miss { padding: var(--space-6) 0 var(--space-2); }
-  .dont-miss__header { display: flex; flex-direction: column; gap: var(--space-2); margin-bottom: var(--space-4); }
-  .dont-miss__eyebrow {
-    font-size: 0.75rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--color-accent);
-  }
-  .dont-miss__title { margin: 0; }
-  .dont-miss__sub { font-size: 0.95rem; color: var(--color-text-muted); margin: 0; max-width: 60ch; line-height: 1.4; }
-</style>
+  <style>
+    .feat-review { display: block; text-decoration: none; color: inherit; border-bottom: 1px solid #262626; background: linear-gradient(180deg, #151515, #0e0e0e); transition: background 0.15s ease; }
+    .feat-review:hover { background: linear-gradient(180deg, #1b1b1b, #101010); }
+    .feat-review__inner { display: flex; gap: 1.25rem; align-items: center; padding: 1.4rem 0; flex-wrap: wrap; }
+    .feat-review__art { width: 118px; height: 118px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.14); object-fit: cover; flex: 0 0 auto; display: block; }
+    .feat-review__text { flex: 1 1 320px; min-width: 260px; }
+    .feat-review__eyebrow { display: inline-block; color: #e11d2a; font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 0.35rem; }
+    .feat-review__title { margin: 0 0 0.35rem; font-size: clamp(1.4rem, 3.5vw, 2rem); line-height: 1.1; }
+    .feat-review__title em { color: #e11d2a; font-style: normal; }
+    .feat-review__dek { margin: 0 0 0.5rem; color: #b7b2a9; line-height: 1.5; max-width: 56ch; }
+    .feat-review__cta { color: #fff; font-weight: 600; font-size: 0.95rem; }
+    .feat-review:hover .feat-review__cta { color: #e11d2a; }
+    @media (max-width: 600px) { .feat-review__art { width: 88px; height: 88px; } }
+  </style>
+</BaseLayout>
