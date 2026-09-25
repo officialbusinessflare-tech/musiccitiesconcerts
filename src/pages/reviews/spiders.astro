@@ -1,0 +1,220 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import SceneNav from '../../components/SceneNav.astro';
+import Footer from '../../components/Footer.astro';
+
+/**
+ * /reviews/spiders — Spiders "Crystal Eyes" review.
+ * Canonical review page; the URL sent to the publicist and the link target for
+ * the YouTube community post, LinkedIn, X and Facebook.
+ * Built on our interview with Ann-Sofie and John Hoyles (Sept 22, 2026).
+ *
+ * EPISODE is the full interview video ID — set it when the episode is live on
+ * YouTube and the "The interview" block appears at the top of the watch area.
+ */
+const COVER = '/assets/reviews/spiders-crystal-eyes.jpg';
+const BAND = '/assets/reviews/spiders-band.jpg';
+const SHORT_1 = 'NnxQkX0UyoU';   // performance short — live
+const SHORT_2 = '';               // release-day short — set to 'BDEPvvgPlc8' once it's public on YouTube
+const EPISODE = '';               // full interview episode ID — fill when live
+
+const CANONICAL = 'https://themusiccities.com/reviews/spiders';
+
+const facts = [
+  { k: 'Band', v: 'Spiders — Göteborg, Sweden' },
+  { k: 'Album', v: 'Crystal Eyes — fifth album' },
+  { k: 'Label', v: "Wild Kingdom (The Hellacopters' label)" },
+  { k: 'Release', v: 'September 25, 2026 — CD dated October 2' },
+  { k: 'Tracks', v: 'Ten' },
+  { k: 'Recorded', v: 'Svenska Grammofonstudion, Göteborg' },
+  { k: 'Produced by', v: 'Kalle Gustafsson Jerneholm and György Barocsai' },
+  { k: 'Lineup', v: 'Ann-Sofie Hoyles (vocals), John Hoyles (guitar), Rickard Hellgren (guitar), Alex Mayr (bass), Oskar Brindmark (drums)' },
+  { k: 'We interviewed', v: 'Ann-Sofie and John Hoyles, September 22, 2026' },
+  { k: 'Track record', v: "Previous album Sharp Objects hit No. 1 on Sweden's physical album chart (No. 19 overall)" },
+];
+---
+
+<BaseLayout
+  title="Spiders — Crystal Eyes: review | The Music Cities"
+  description="A review of Crystal Eyes, the fifth album from Göteborg's Spiders, out September 25, 2026 on Wild Kingdom — built on our interview with Ann-Sofie and John Hoyles."
+  ogImage={COVER}
+  canonical={CANONICAL}
+>
+  <Header />
+  <SceneNav />
+
+  <article class="rev">
+    <section class="rev-hero">
+      <div class="container rev-hero__inner">
+        <div class="rev-hero__art">
+          <img src={COVER} alt="Spiders — Crystal Eyes album cover" width="1200" height="1200" fetchpriority="high" />
+        </div>
+        <div class="rev-hero__meta">
+          <p class="rev-hero__eyebrow">Review</p>
+          <h1 class="rev-hero__title">Spiders — <em>Crystal Eyes</em></h1>
+          <p class="rev-hero__sub">Fifth album · Wild Kingdom · Out September 25, 2026</p>
+          <p class="rev-hero__dek">Göteborg's other export, and what a rehearsal room has to do with it.</p>
+        </div>
+      </div>
+    </section>
+
+    <main class="rev-main">
+      <div class="container rev-grid">
+
+        <div class="rev-body">
+          <p>A Spotify algorithm introduced me to this band, and it did it by accident. I had been listening to a lot of Girlschool because I had just scored a rare vinyl of theirs at Found Sound in North Miami, and the machine built me one of those playlists of things I might also like. A song called <em>In A Room</em> came on by a band named Spiders, who I later found out was from Göteborg, and the algorithm was not being clever. Girlschool and Motörhead have been reference points in writing about this band since their first records. What the machine could not tell me was that the band had been doing this for fifteen years, or that their fifth album was about to arrive. It could also not tell me that very soon after I would be invited to review their new release.</p>
+
+          <figure class="rev-fig">
+            <img src={BAND} alt="Spiders, the band, in Göteborg" width="1200" height="1200" loading="lazy" decoding="async" />
+            <figcaption>Spiders — Göteborg, Sweden</figcaption>
+          </figure>
+
+          <p>Last week I drove around Florida from one metal show to another with their whole catalogue playing, start to finish, four albums deep. Not once did I reach for the skip button. That is the most useful thing I can tell you about a band before you have heard them, because it is a low bar that almost nobody clears.</p>
+
+          <p>The new release, <em>Crystal Eyes</em>, is their fifth album and it is the one where the range opens up.</p>
+
+          <p>Ann-Sofie Hoyles described it to me better than a review can, so here is her version first.</p>
+
+          <blockquote class="rev-quote"><p>It's all from the rawest rock and roll or Blondie, Dictators, that kind of style to the sensibility of, like, Marianne Faithfull or softer sides of us. More different songs this time, and with the backing vocals, a little bit touch of soul in it. And I think we're more brave.</p></blockquote>
+
+          <p>That is the whole map. One end is garage rock played hard while the other is quieter and older than anything a Göteborg band gets credited with. The word she keeps returning to is brave, and what I think she means by it is that they stopped narrowing. John Hoyles put the same in plainer terms and aimed it at craft rather than nerve. He said they had gotten further into music, learned more about how to write, and gotten better at the art of writing songs itself.</p>
+
+          <p>You can hear both things. This album is more diverse in its influences than anything that came before it, and it fells familiar and like an evolution rather than a repeat.</p>
+
+          <p>There is a gap in this band's discography that explains most of the record. <em>Killer Machine</em> came out in 2018. Then nothing for seven years.</p>
+
+          <blockquote class="rev-quote"><p>We had a really long break because of COVID and stuff, and then it was almost like we started the band again. It's like from scratch. We got new energy from that break. We got a new record label and then we just sort of started over from the start.</p></blockquote>
+
+          <p>The restart was not only musical, but they rearranged their working lives around it. Ann-Sofie said they changed a lot in their private lives with work so that they could play all the time, and that when <em>Sharp Objects</em> came out they immediately wanted to make another one. That is why there are two albums in two years after seven quiet years. As of the week <em>Crystal Eyes</em> came out, they were already jamming new ideas in the rehearsal studio.</p>
+
+          <p><em>Crystal Eyes</em> was recorded at Svenska Grammofonstudion in Göteborg, produced by Kalle Gustafsson Jerneholm and György Barocsai. Jerneholm is the bass player in The Soundtrack of Our Lives, the band Spiders toured Spain with this spring and the studio belongs to him.</p>
+
+          <p>That is not a piece of trivia, nor is it trivial. It is the second time in two years that an older Göteborg band has functioned as infrastructure for this one. Their previous album landed on Wild Kingdom, which is The Hellacopters' label. They toured with The Hellacopters and cut a split single with them in tribute to David Johansen. Then the band that took them to Spain turns out to own the room where the new album gets made. A younger band moves through a city on rooms, labels and vans that older bands built and still run and manage.</p>
+
+          <h2 class="rev-h2">Why Göteborg keeps producing bands that sound nothing alike</h2>
+
+          <p>Many people outside Sweden hear Göteborg and think melodic death metal. In At the Gates and the bands that followed, the city gave the world a sound so specific it got named after the place. But Spiders play rock and roll, not metal. But they are not a footnote to that scene, and talking to them it became clear the metal identity is mostly something the rest of us project onto the city from the outside.</p>
+
+          <p>Ann-Sofie moved there from a small town, choosing between Stockholm and Göteborg. She said she did not realize how big the death metal scene was until years after she arrived. What she noticed immediately was something else.</p>
+
+          <blockquote class="rev-quote"><p>Even if you play jazz or pop or metal, everybody knows each other and helps out. It's still that small city, so you rent the vans from the same place. You have rehearsal studios in kind of the same areas, and you know everybody.</p></blockquote>
+
+          <p>She said musicians from Stockholm ask her how Göteborg manages to be so connected. Her answer is that the city is a working class port town and it is not big, so people share things and borrow from each other, and that this has been true for a long time. Musicians who cannot live on their bands work the venues and the bars, which means the people running the shows are the same people playing them.</p>
+
+          <p>The band's own origin follows the same pattern. John came from London to Sweden at eight years old and grew up in Örebro, which had a scene of its own. He moved to Göteborg for a bigger city and found that friends from Örebro were already there. He and Ann-Sofie started jamming with Axel Sjöberg, then the drummer in Graveyard, who was waiting on a record and wanted something to do. They got offered a show when they only had four songs and the promoter needed a band name for the poster. That is the origin story of a band now on its fifth album.</p>
+
+          <p>I asked whether the places they play change what they write. The answer was immediate.</p>
+
+          <blockquote class="rev-quote"><p>If you played for fifteen years on the same venue every time with the same crowd, everything is the same, we wouldn't sound like this. All the journeys you do in life, you're meeting different people. It's different rooms, different countries.</p></blockquote>
+
+          <p>They have crossed the United States twice supporting other bands, toured Spain and Portugal, and John has played Japan with another band. What they remember is not the capitals. Ann-Sofie described a Tuesday night in a village somewhere on the coast, eating dinner with the neighbors and somebody's grandmother, dogs underfoot and kids running around, a local man standing up to sing for them.</p>
+
+          <p>Two things came up that have nothing to do with how the record sounds and everything to do with why it exists, and which go to the heart of this The Music Cities purpose.</p>
+
+          <p>The first is a story about a musician named Niki Strom, a Göteborg player who had been at it since he was thirteen and who has since died. He had a van booked through the company everybody rents from. The company had double booked it, and he had the prior claim. He gave it up, because the other band was going out for a month and he only had two shows so he drove a small car with a trailer instead. Ann-Sofie told me that story as the thing an outsider should understand about the city, and said it made her want to be that way too.</p>
+
+          <p>The second is the public support. Swedish musicians receive a monthly stipend that can go toward a rehearsal room or strings, or whatever, and both of them were blunt about what it does.</p>
+
+          <blockquote class="rev-quote"><p>We're over forty years old, and we couldn't afford to have a rehearsal studio in Göteborg, because we haven't got time to work that much because we're in a band, and we don't earn that much money. So it's like a spiral of how you manage to have a band if you can't rehearse.</p></blockquote>
+
+          <p>John added that the rehearsal complexes are where bands from different genres actually meet, which is the mechanism under everything Ann-Sofie said about the city being connected. They both also noted the subsidy is under political pressure right now. Alongside it sits free municipal music school, the system that has fed Swedish pop for decades and, on the evidence of this band, rock as well. They learned on borrowed instruments in rooms somebody else paid for; this seemed a much more prominent influence than I realized before speaking with them.</p>
+
+          <p>If you run economic development or placemaking in an American city and you want to know why Sweden keeps producing bands that tour the world out of a metro area of six hundred thousand people, that is the answer, and it is not mysterious — somebody pays for the room.</p>
+
+          <h2 class="rev-h2">Our verdict</h2>
+
+          <p><em>Crystal Eyes</em> is out now on Wild Kingdom. Ten songs. It is their most varied record and their best, and the catalogue behind it holds up under the skip test, which is more than most bands fifteen years in can say.</p>
+
+          <p>They tour Europe this autumn, opening in Copenhagen and running north through Oslo, playing shows with fellow Swedes The Dahmers. There is currently no American date, but Ann-Sofie called coming back to the U.S. a big dream. Somebody should make that happen.</p>
+
+          <section class="rev-watch">
+            <h2 class="rev-h2">Watch</h2>
+            {EPISODE && (
+              <div class="rev-video">
+                <iframe src={`https://www.youtube-nocookie.com/embed/${EPISODE}`} title="Spiders — the full interview" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            )}
+            <div class="rev-shorts">
+              <div class="rev-short"><iframe src={`https://www.youtube-nocookie.com/embed/${SHORT_1}`} title="Spiders — performance short" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+              {SHORT_2 && (
+                <div class="rev-short"><iframe src={`https://www.youtube-nocookie.com/embed/${SHORT_2}`} title="Spiders — Crystal Eyes release day" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+              )}
+            </div>
+          </section>
+        </div>
+
+        <aside class="rev-side">
+          <div class="rev-card">
+            <h2 class="rev-card__title">The facts</h2>
+            <dl class="rev-facts">
+              {facts.map((f) => (
+                <div><dt>{f.k}</dt><dd>{f.v}</dd></div>
+              ))}
+            </dl>
+          </div>
+
+          <div class="rev-card">
+            <h2 class="rev-card__title">Spiders</h2>
+            <ul class="rev-links">
+              <li><a href="https://wearespiders.com" target="_blank" rel="noopener noreferrer">wearespiders.com</a></li>
+              <li><a href="https://wildkingdom.se/artists/spiders" target="_blank" rel="noopener noreferrer">Wild Kingdom label page</a></li>
+            </ul>
+          </div>
+        </aside>
+
+      </div>
+    </main>
+  </article>
+
+  <Footer />
+
+  <style>
+    .rev-hero { border-bottom: 1px solid #262626; }
+    .rev-hero__inner { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; padding: 2rem 0 1.75rem; }
+    .rev-hero__art { flex: 0 0 auto; }
+    .rev-hero__art img { width: 220px; height: 220px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.14); object-fit: cover; display: block; }
+    .rev-hero__meta { flex: 1 1 320px; min-width: 260px; }
+    .rev-hero__eyebrow { margin: 0 0 0.35rem; color: #e11d2a; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; }
+    .rev-hero__title { margin: 0 0 0.4rem; font-size: clamp(1.8rem, 5vw, 2.8rem); line-height: 1.05; }
+    .rev-hero__title em { color: #e11d2a; font-style: normal; }
+    .rev-hero__sub { margin: 0 0 0.5rem; color: #c9c5b8; font-weight: 600; }
+    .rev-hero__dek { margin: 0; color: #8a8279; }
+
+    .rev-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2rem; padding: 2rem 0 3rem; align-items: start; }
+    .rev-body { min-width: 0; max-width: 44rem; }
+    .rev-body p { line-height: 1.75; color: #d9d4ca; margin: 0 0 1.15rem; font-size: 1.05rem; }
+    .rev-body a { color: #e6e2da; }
+    .rev-h2 { margin: 2.25rem 0 0.85rem; font-size: 1.35rem; line-height: 1.2; }
+    .rev-fig { margin: 0 0 1.4rem; }
+    .rev-fig img { width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(255,255,255,0.13); display: block; }
+    .rev-fig figcaption { margin-top: 0.4rem; font-size: 0.82rem; color: #8a8279; }
+    .rev-quote { margin: 0 0 1.15rem; padding: 0.4rem 0 0.4rem 1.1rem; border-left: 3px solid #e11d2a; }
+    .rev-quote p { margin: 0; color: #f4f1ea; font-size: 1.12rem; line-height: 1.6; font-style: italic; }
+
+    .rev-watch { margin-top: 2rem; }
+    .rev-video { position: relative; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; border: 1px solid #262626; background: #000; margin-bottom: 1rem; }
+    .rev-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    .rev-shorts { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; }
+    .rev-short { aspect-ratio: 9 / 16; border-radius: 10px; overflow: hidden; border: 1px solid #262626; background: #000; }
+    .rev-short iframe { width: 100%; height: 100%; border: 0; }
+
+    .rev-side { display: flex; flex-direction: column; gap: 1rem; position: sticky; top: 1rem; }
+    .rev-card { border: 1px solid #262626; border-radius: 12px; padding: 1.1rem 1.2rem; background: #101010; }
+    .rev-card__title { margin: 0 0 0.6rem; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase; color: #b7b2a9; }
+    .rev-facts > div { padding: 0.55rem 0; border-bottom: 1px solid #212121; }
+    .rev-facts > div:last-child { border-bottom: 0; }
+    .rev-facts dt { font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: #8a8279; margin-bottom: 0.15rem; }
+    .rev-facts dd { margin: 0; color: #e6e2da; font-size: 0.92rem; line-height: 1.5; }
+    .rev-links { list-style: none; margin: 0; padding: 0; }
+    .rev-links li { padding: 0.3rem 0; }
+    .rev-links a { color: #e6e2da; }
+    .rev-links a:hover { color: #fff; }
+
+    @media (max-width: 820px) {
+      .rev-grid { grid-template-columns: 1fr; }
+      .rev-side { position: static; }
+      .rev-hero__art img { width: 150px; height: 150px; }
+    }
+  </style>
+</BaseLayout>
