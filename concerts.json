@@ -1,144 +1,6 @@
 {
-  "generatedAt": "2026-09-24T07:00:44.413Z",
+  "generatedAt": "2026-09-25T07:00:48.897Z",
   "entries": [
-    {
-      "id": "86bc472dp",
-      "name": "Churchill's 47th Anniversary Free Show @ Churchill's Pub — Miami, FL — Sep 24 2026",
-      "date": "2026-09-24",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Churchill's 47th Anniversary Free Show"
-      ],
-      "description": "Churchill's Pub celebrates 47 years with a free all-night party on the main stage: It's Star, Miss Michigan, Down from Jersey, Sewerside Bombers, ¡Fuakata!, and The Lab. The Patio and Greenroom stages carry a lineup of touring and local experimental and noise acts curated by…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc472dp",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbuyjrr",
-      "name": "Dopethrone + Fister + Crud @ The Orpheum — Tampa, FL — Sep 24 2026",
-      "date": "2026-09-24",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Dopethrone",
-        "Fister",
-        "Crud"
-      ],
-      "description": "Montréal sludge-doom wreckers Dopethrone bring the \"slutch\" to Tampa, with St. Louis doom trio Fister and Crud opening. Night before the same bill hits Conduit in Orlando. Doors 7 PM.",
-      "ticketUrl": "https://www.theorpheum.com/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbuyjrr",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbuyjng",
-      "name": "KAMIJO @ The Dome — London, UK — Sep 24 2026",
-      "date": "2026-09-24",
-      "venue": "The Dome",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "KAMIJO"
-      ],
-      "description": "KAMIJO — Sanctuary Of Europe tour 2026. The visual kei icon (founder of LAREINE and VERSAILLES) brings his London date to The Dome main room, Tufnell Park, on a seven-country European run.",
-      "ticketUrl": "https://domelondon.seetickets.com/event/kamijo/the-dome/3636619",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbuyjng",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbkedqd",
-      "name": "The Obsessed @ Come and Take It Live — Austin, TX — Sep 24 2026",
-      "date": "2026-09-24",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "bands": [
-        "The Obsessed"
-      ],
-      "description": "The Obsessed — Wino's doom institution, Austin date.",
-      "ticketUrl": "https://www.etix.com/ticket/p/89050915",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkedqd",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbeb5zw",
-      "name": "Volumes @ Conduit — Winter Park (Orlando), FL — Sep 24 2026",
-      "date": "2026-09-24",
-      "venue": "Conduit",
-      "city": "Winter Park (Orlando)",
-      "state": "FL",
-      "bands": [
-        "Volumes"
-      ],
-      "description": "Volumes' Mirror Touch Tour hits Orlando two nights before the West Palm Beach date. Source: Conduit / JamBase calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb5zw",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86b9b7kgy",
-      "name": "KK's Priest + W.A.S.P. — Jacksonville, FL",
-      "date": "2026-09-24",
-      "venue": "Jacksonville",
-      "state": "FL",
-      "bands": [
-        "KK's Priest",
-        "W.A.S.P."
-      ],
-      "description": "9/24 in Jacksonville, FL. KK's Priest + W.A.S.P. US/Canada tour. Source: Instagram saved post.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b9b7kgy",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bb9w5xm",
-      "name": "Broken By The Scream @ SHIBUYA CYCLONE — Tokyo, Japan — Sep 24 2026",
-      "date": "2026-09-24",
-      "venue": "SHIBUYA CYCLONE",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "Broken By The Scream"
-      ],
-      "description": "Broken By The Scream — Japan-domestic show in Shibuya. SHIBUYA CYCLONE in Tokyo, Japan. Show date: Sep 24 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5xm",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bc05h85",
       "name": "BRIDEAR @ Shinjuku ANTIKNOCK (Made in Heaven vol.36) — Tokyo, Japan — Sep 25 2026",
@@ -1087,6 +949,24 @@
       "clickupUrl": "https://app.clickup.com/t/86bba6hu7",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc7ehmk",
+      "name": "📀 Spiders — Crystal Eyes — RELEASE — Oct 2 2026",
+      "date": "2026-10-02",
+      "venue": "Crystal Eyes — RELEASE",
+      "bands": [
+        "Spiders"
+      ],
+      "description": "Gothenburg's Spiders release their fifth album, Crystal Eyes — ten tracks on Wild Kingdom (The Hellacopters' label). Out digitally Sept 25, CD dated Oct 2. Read our full review: https://themusiccities.com/reviews/spiders",
+      "ticketUrl": "https://themusiccities.com/reviews/spiders",
+      "priority": "high",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc7ehmk",
+      "buckets": [
+        "album-releases"
       ]
     },
     {
@@ -3181,6 +3061,25 @@
       ]
     },
     {
+      "id": "86bc6vycc",
+      "name": "Sunn O))) @ Mana Wynwood, Miami, FL, Oct 17 2026",
+      "date": "2026-10-17",
+      "venue": "Mana Wynwood, Miami",
+      "city": "FL",
+      "country": "Oct 17 2026",
+      "bands": [
+        "Sunn O)))"
+      ],
+      "description": "Source: Bandsintown promoted listing in the Anthrax artist message email, Sept 24, 2026. Drone metal. Same night as portrayal of guilt at Churchill's Pub, Miami.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc6vycc",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc3kyrj",
       "name": "portrayal of guilt + Headfoam + Absolver @ Churchill's Pub — Miami, FL — Oct 17 2026",
       "date": "2026-10-17",
@@ -3999,6 +3898,23 @@
       "clickupUrl": "https://app.clickup.com/t/86bbeb681",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bc7erxh",
+      "name": "📀 Savage Grace — Underworld — RELEASE — Oct 23 2026",
+      "date": "2026-10-23",
+      "venue": "Underworld — RELEASE",
+      "bands": [
+        "Savage Grace"
+      ],
+      "description": "Savage Grace return with Underworld, the new album from Christian Logue's band, out October 23. We interviewed Christian Logue for the show.",
+      "priority": "high",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc7erxh",
+      "buckets": [
+        "album-releases"
       ]
     },
     {
@@ -7261,6 +7177,27 @@
       ]
     },
     {
+      "id": "86bc6twb7",
+      "name": "Darkest Hour + Judiciary @ Come and Take It Live — Austin, TX — Dec 1 2026",
+      "date": "2026-12-01",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Darkest Hour",
+        "Judiciary"
+      ],
+      "description": "Darkest Hour open their December North American headlining run in Austin, touring behind eleventh album Suffer Divine (out Oct 30 on MNRK Heavy). Judiciary support the entire trek.",
+      "ticketUrl": "https://comeandtakeitproductions.com/event/darkest-hour/come-and-take-it-live/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc6twb7",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bc472my",
       "name": "Unwrapped: An Acoustic Holiday @ St. Augustine Amphitheatre — St. Augustine, FL — Dec 1 2026",
       "date": "2026-12-01",
@@ -9367,6 +9304,28 @@
       ]
     },
     {
+      "id": "86bc6twbt",
+      "name": "Nile + Coroner + Syn Absence @ Come and Take It Live — Austin, TX — Mar 7 2027",
+      "date": "2027-03-07",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Nile",
+        "Coroner",
+        "Syn Absence"
+      ],
+      "description": "\"Underworld Dissonance\" co-headline tour: Nile and Coroner each play a full headline set, with Syn Absence supporting and one more guest still to be announced. Nile bring material from The Underworld Awaits Us All; Coroner bring Dissonance Theory. The 31-date run skips Florida…",
+      "ticketUrl": "https://blabbermouth.net/news/nile-and-coroner-announce-march-april-2027-usa-co-headlining-tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc6twbt",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bc05htk",
       "name": "Draconian + Saturnus @ The Dome — London, UK — Mar 7 2027",
       "date": "2027-03-07",
@@ -9584,6 +9543,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbmted9",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bc6twc1",
+      "name": "Nile + Coroner + Syn Absence @ The Whisky — Los Angeles, CA — Mar 20 2027",
+      "date": "2027-03-20",
+      "venue": "The Whisky",
+      "city": "Los Angeles",
+      "state": "CA",
+      "bands": [
+        "Nile",
+        "Coroner",
+        "Syn Absence"
+      ],
+      "description": "\"Underworld Dissonance\" co-headline tour hits the Sunset Strip: Nile and Coroner each play a full headline set, with Syn Absence supporting and one more guest still to be announced.",
+      "ticketUrl": "https://blabbermouth.net/news/nile-and-coroner-announce-march-april-2027-usa-co-headlining-tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc6twc1",
       "buckets": [
         "interesting-elsewhere"
       ]
