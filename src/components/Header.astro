@@ -1,10 +1,10 @@
 ---
 /**
- * Site header. Wordmark + brand tagline + YouTube sub banner.
+ * Site header. Compact horizontal band: brand (wordmark + tagline) on the left,
+ * the YouTube sub stat + channel links + Get-the-App CTA on the right. Collapses
+ * to a stacked column on narrow screens.
  *
- * The wordmark image lives at /public/assets/wordmark-white.png — drop the real
- * file there (see /public/assets/.placeholders/README.md) and it'll show up
- * automatically. Until then the alt text carries the brand.
+ * The wordmark image lives at /public/assets/wordmark-white.png.
  *
  * YouTube subscriber count is fetched at build time by scripts/fetch-youtube-stats.mjs
  * (runs as the `prebuild` npm script) and also refreshed by the nightly-rebuild
@@ -14,15 +14,12 @@
 
 let youtubeStats: { subscriberCount?: number } | null = null;
 try {
-  // Build-time JSON import — Astro/Vite resolves this against public/.
   youtubeStats = (await import('../../public/youtube-stats.json', { with: { type: 'json' } })).default;
 } catch (e) {
   // youtube-stats.json doesn't exist yet — render without count
 }
 
 function formatSubCount(n: number): string {
-  // Always render the exact subscriber count with US thousands separators
-  // (e.g. 119283 -> "119,283"). No K/M abbreviation.
   return n.toLocaleString('en-US');
 }
 
@@ -32,46 +29,66 @@ const formattedCount = typeof subCount === 'number' && subCount > 0 ? formatSubC
 
 <header class="site-header">
   <div class="container site-header__inner">
-    <a href="/" aria-label="The Music Cities — home" style="display:inline-block;">
-      <img
-        class="site-header__wordmark"
-        src="/assets/wordmark-white.png"
-        alt="The Music Cities"
-        width="380"
-        height="80"
-        loading="eager"
-        decoding="async"
-      />
-    </a>
-    {formattedCount && (
-      <a
-        class="site-header__subs"
-        href="https://www.youtube.com/@themusiccitiespodcast"
-        target="_blank"
-        rel="noopener"
-        aria-label={`The Music Cities Podcast on YouTube — ${formattedCount} subscribers`}
-      >
-        <span class="site-header__subs-num">{formattedCount}</span>
-        <span class="site-header__subs-label">YouTube subscribers</span>
+    <div class="site-header__brand">
+      <a href="/" aria-label="The Music Cities — home" style="display:inline-block;">
+        <img
+          class="site-header__wordmark"
+          src="/assets/wordmark-white.png"
+          alt="The Music Cities"
+          width="380"
+          height="80"
+          loading="eager"
+          decoding="async"
+        />
       </a>
-    )}
-    <p class="site-header__tagline">Where heavy metal is economic development.</p>
-    <div class="site-header__links">
-      <a href="https://www.youtube.com/@themusiccitiespodcast" target="_blank" rel="noopener">YouTube</a>
-      <a href="https://www.youtube.com/@musiccitiesradio" target="_blank" rel="noopener">Radio</a>
+      <p class="site-header__tagline">Where heavy metal is economic development.</p>
     </div>
-    <a class="site-header__app" href="/app">Get the App</a>
+
+    <div class="site-header__actions">
+      {formattedCount && (
+        <a
+          class="site-header__subs"
+          href="https://www.youtube.com/@themusiccitiespodcast"
+          target="_blank"
+          rel="noopener"
+          aria-label={`The Music Cities Podcast on YouTube — ${formattedCount} subscribers`}
+        >
+          <span class="site-header__subs-num">{formattedCount}</span>
+          <span class="site-header__subs-label">YouTube subscribers</span>
+        </a>
+      )}
+      <div class="site-header__row">
+        <div class="site-header__links">
+          <a href="https://www.youtube.com/@themusiccitiespodcast" target="_blank" rel="noopener">YouTube</a>
+          <a href="https://www.youtube.com/@musiccitiesradio" target="_blank" rel="noopener">Radio</a>
+        </div>
+        <a class="site-header__app" href="/app">Get the App</a>
+      </div>
+    </div>
   </div>
 </header>
 
 <style>
-  .site-header__links { display: flex; gap: 10px; justify-content: center; margin-top: 8px; }
+  /* Override the global column layout — go horizontal, use the empty right side. */
+  .site-header__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px 28px;
+  }
+  .site-header__brand { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+  .site-header__actions { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+  .site-header__subs { margin-top: 0; }
+  .site-header__row { display: flex; align-items: center; gap: 10px; }
+  .site-header__links { display: flex; gap: 10px; margin-top: 0; }
   .site-header__links a { color: #fff; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18); border-radius: 999px; padding: 6px 16px; font-size: 13px; font-weight: 600; text-decoration: none; }
   .site-header__links a:hover { background: rgba(229,9,20,0.2); border-color: #e50914; }
   .site-header__app {
     display: inline-block;
-    margin-top: 10px;
-    padding: 10px 22px;
+    margin-top: 0;
+    padding: 9px 20px;
     border-radius: 999px;
     background: #e50914;
     color: #fff;
@@ -81,6 +98,11 @@ const formattedCount = typeof subCount === 'number' && subCount > 0 ? formatSubC
     text-decoration: none;
   }
   .site-header__app:hover { background: #ff1a25; }
+
+  @media (max-width: 720px) {
+    .site-header__inner { flex-direction: column; align-items: flex-start; }
+    .site-header__actions { align-items: flex-start; }
+  }
 </style>
 
 
