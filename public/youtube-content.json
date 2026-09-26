@@ -1,13 +1,52 @@
 {
-  "fetchedAt": "2026-09-25T07:00:59.869Z",
+  "fetchedAt": "2026-09-26T07:00:57.193Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 152000,
-      "videoCount": 293,
+      "videoCount": 296,
       "recentLongform": [
+        {
+          "id": "EISyhbx9SLw",
+          "title": "Spiders: Crystal Eyes Review, and What Gothenburg Actually Exports",
+          "publishedAt": "2026-09-25T20:59:26Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/EISyhbx9SLw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/EISyhbx9SLw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/EISyhbx9SLw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/EISyhbx9SLw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/EISyhbx9SLw/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/EISyhbx9SLw/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          "duration": "PT16M1S",
+          "durationSeconds": 961
+        },
         {
           "id": "NnxQkX0UyoU",
           "title": "Spiders | New Release | Crystal Eyes",
@@ -255,48 +294,77 @@
           },
           "duration": "PT1M31S",
           "durationSeconds": 91
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "QGW5tLmv_Ds",
-          "title": "BRIDEAR | Hardest Thing To Take Back Is A Future You Destroyed Yourself | 自分の手で潰した未来が、一番取り返しがつかない",
-          "publishedAt": "2026-09-08T09:30:06Z",
+          "id": "5sbujwU0Xt8",
+          "title": "Unlock Music Secrets: Curation, Trust, and Visibility #shorts",
+          "publishedAt": "2026-09-25T16:32:31Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/QGW5tLmv_Ds/default.jpg",
+              "url": "https://i.ytimg.com/vi/5sbujwU0Xt8/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/QGW5tLmv_Ds/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/5sbujwU0Xt8/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/QGW5tLmv_Ds/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/5sbujwU0Xt8/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/QGW5tLmv_Ds/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/5sbujwU0Xt8/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/QGW5tLmv_Ds/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/5sbujwU0Xt8/maxresdefault.jpg",
               "width": 1280,
               "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/QGW5tLmv_Ds/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
             }
           },
-          "duration": "PT8M17S",
-          "durationSeconds": 497
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT30S",
+          "durationSeconds": 30
+        },
+        {
+          "id": "BDEPvvgPlc8",
+          "title": "Spiders | New Album Today | Crystal Eyes",
+          "publishedAt": "2026-09-25T14:00:10Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/BDEPvvgPlc8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/BDEPvvgPlc8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/BDEPvvgPlc8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/BDEPvvgPlc8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/BDEPvvgPlc8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT57S",
+          "durationSeconds": 57
+        },
         {
           "id": "jKsZH4mG1c0",
           "title": "Tamu Murata | Happy Birthday | Nemophila",
@@ -772,74 +840,6 @@
           },
           "duration": "PT46S",
           "durationSeconds": 46
-        },
-        {
-          "id": "C2fDCKg60Fw",
-          "title": "Full interview at 630 pm Tokyo / 530 am USA",
-          "publishedAt": "2026-09-08T01:52:10Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/C2fDCKg60Fw/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/C2fDCKg60Fw/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/C2fDCKg60Fw/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/C2fDCKg60Fw/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/C2fDCKg60Fw/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT42S",
-          "durationSeconds": 42
-        },
-        {
-          "id": "ap_Jkcs_oCE",
-          "title": "Miami Metal | We All Rise | \"Infected Population\"",
-          "publishedAt": "2026-09-06T19:57:28Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/ap_Jkcs_oCE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/ap_Jkcs_oCE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/ap_Jkcs_oCE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/ap_Jkcs_oCE/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/ap_Jkcs_oCE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT56S",
-          "durationSeconds": 56
         }
       ]
     },
