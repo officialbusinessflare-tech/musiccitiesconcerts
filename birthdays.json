@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-09-25T07:00:48.897Z",
+  "generatedAt": "2026-09-26T07:00:45.704Z",
   "entries": [
-    {
-      "id": "86bard4ue",
-      "name": "Tamu Murata Birthday NEMOPHILA",
-      "person": "Tamu Murata",
-      "affiliation": "NEMOPHILA",
-      "rawDate": "2026-09-25",
-      "month": 9,
-      "day": 25,
-      "description": "RECURRING ANNUAL — September 25\n\nBand & role: NEMOPHILA — drums\nCountry of origin: Japan (Kanagawa)\nBorn: September 25, 1992\nSource: Jpop Wiki, IMDb, NEMOPHILA official",
-      "clickupUrl": "https://app.clickup.com/t/86bard4ue"
-    },
     {
       "id": "86bbeb80z",
       "name": "🎂 JUNNA Birthday (HAGANE) — Sep 26",
@@ -572,6 +561,17 @@
       "day": 23,
       "description": "Guitarist and founder, Galneryus. Birthday Sep 23 per the band's official member page. Holding entry for the birthdays pipeline.",
       "clickupUrl": "https://app.clickup.com/t/86bbeb7zx"
+    },
+    {
+      "id": "86bard4ue",
+      "name": "Tamu Murata Birthday NEMOPHILA",
+      "person": "Tamu Murata",
+      "affiliation": "NEMOPHILA",
+      "rawDate": "2026-09-25",
+      "month": 9,
+      "day": 25,
+      "description": "RECURRING ANNUAL — September 25\n\nBand & role: NEMOPHILA — drums\nCountry of origin: Japan (Kanagawa)\nBorn: September 25, 1992\nSource: Jpop Wiki, IMDb, NEMOPHILA official",
+      "clickupUrl": "https://app.clickup.com/t/86bard4ue"
     },
     {
       "id": "86bba6j59",
