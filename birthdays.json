@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-09-26T07:00:45.704Z",
+  "generatedAt": "2026-09-27T07:00:41.597Z",
   "entries": [
-    {
-      "id": "86bbeb80z",
-      "name": "🎂 JUNNA Birthday (HAGANE) — Sep 26",
-      "person": "🎂 JUNNA",
-      "affiliation": "(HAGANE) — Sep 26",
-      "rawDate": "2026-09-26",
-      "month": 9,
-      "day": 26,
-      "description": "HAGANE. Birthday Sep 26, confirmed by the band's official birthday oneman announcement. Holding entry for the birthdays pipeline.",
-      "clickupUrl": "https://app.clickup.com/t/86bbeb80z"
-    },
     {
       "id": "86bbeb822",
       "name": "🎂 Miki Nakamura Birthday (SHOW-YA) — Sep 27",
@@ -572,6 +561,17 @@
       "day": 25,
       "description": "RECURRING ANNUAL — September 25\n\nBand & role: NEMOPHILA — drums\nCountry of origin: Japan (Kanagawa)\nBorn: September 25, 1992\nSource: Jpop Wiki, IMDb, NEMOPHILA official",
       "clickupUrl": "https://app.clickup.com/t/86bard4ue"
+    },
+    {
+      "id": "86bbeb80z",
+      "name": "🎂 JUNNA Birthday (HAGANE) — Sep 26",
+      "person": "🎂 JUNNA",
+      "affiliation": "(HAGANE) — Sep 26",
+      "rawDate": "2026-09-26",
+      "month": 9,
+      "day": 26,
+      "description": "HAGANE. Birthday Sep 26, confirmed by the band's official birthday oneman announcement. Holding entry for the birthdays pipeline.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb80z"
     },
     {
       "id": "86bba6j59",
