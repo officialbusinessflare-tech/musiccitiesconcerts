@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-09-27T07:00:41.597Z",
+  "generatedAt": "2026-09-28T07:00:43.841Z",
   "entries": [
-    {
-      "id": "86bbeb822",
-      "name": "🎂 Miki Nakamura Birthday (SHOW-YA) — Sep 27",
-      "person": "🎂 Miki Nakamura",
-      "affiliation": "(SHOW-YA) — Sep 27",
-      "rawDate": "2026-09-27",
-      "month": 9,
-      "day": 27,
-      "description": "Keyboardist, SHOW-YA. Birthday Sep 27 per Oricon artist profile. Holding entry for the birthdays pipeline.",
-      "clickupUrl": "https://app.clickup.com/t/86bbeb822"
-    },
-    {
-      "id": "86bbeb81g",
-      "name": "🎂 Arem Birthday (Rolling Quartz) — Sep 27",
-      "person": "🎂 Arem",
-      "affiliation": "(Rolling Quartz) — Sep 27",
-      "rawDate": "2026-09-27",
-      "month": 9,
-      "day": 27,
-      "description": "Vocalist, Rolling Quartz. Birthday Sep 27. Holding entry for the birthdays pipeline — verify against an official source before it goes on a card.",
-      "clickupUrl": "https://app.clickup.com/t/86bbeb81g"
-    },
     {
       "id": "86bard4w3",
       "name": "Kanami Birthday BAND-MAID",
@@ -572,6 +550,28 @@
       "day": 26,
       "description": "HAGANE. Birthday Sep 26, confirmed by the band's official birthday oneman announcement. Holding entry for the birthdays pipeline.",
       "clickupUrl": "https://app.clickup.com/t/86bbeb80z"
+    },
+    {
+      "id": "86bbeb822",
+      "name": "🎂 Miki Nakamura Birthday (SHOW-YA) — Sep 27",
+      "person": "🎂 Miki Nakamura",
+      "affiliation": "(SHOW-YA) — Sep 27",
+      "rawDate": "2026-09-27",
+      "month": 9,
+      "day": 27,
+      "description": "Keyboardist, SHOW-YA. Birthday Sep 27 per Oricon artist profile. Holding entry for the birthdays pipeline.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb822"
+    },
+    {
+      "id": "86bbeb81g",
+      "name": "🎂 Arem Birthday (Rolling Quartz) — Sep 27",
+      "person": "🎂 Arem",
+      "affiliation": "(Rolling Quartz) — Sep 27",
+      "rawDate": "2026-09-27",
+      "month": 9,
+      "day": 27,
+      "description": "Vocalist, Rolling Quartz. Birthday Sep 27. Holding entry for the birthdays pipeline — verify against an official source before it goes on a card.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb81g"
     },
     {
       "id": "86bba6j59",
