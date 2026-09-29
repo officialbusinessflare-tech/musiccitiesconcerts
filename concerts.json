@@ -1,45 +1,6 @@
 {
-  "generatedAt": "2026-09-28T07:01:46.156Z",
+  "generatedAt": "2026-09-29T07:00:39.712Z",
   "entries": [
-    {
-      "id": "86bbzrk19",
-      "name": "ASTERISM @ Cotton Club — Tokyo, Japan — Sep 28 2026",
-      "date": "2026-09-28",
-      "venue": "Cotton Club",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "ASTERISM"
-      ],
-      "description": "ASTERISM in an unusually intimate setting — the Marunouchi jazz room Cotton Club. Monday, September 28, 2026. Listing: https://www.bandsintown.com/ASTERISM",
-      "ticketUrl": "https://www.bandsintown.com/ASTERISM",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzrk19",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w63g",
-      "name": "SiM @ GORILLA HALL OSAKA — Osaka, Japan — Sep 28 2026",
-      "date": "2026-09-28",
-      "venue": "GORILLA HALL OSAKA",
-      "city": "Osaka",
-      "country": "Japan",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL tour. GORILLA HALL OSAKA in Osaka, Japan. Show date: Sep 28 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w63g",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bc473w3",
       "name": "The Format + The Get Up Kids @ Jannus Live — St. Petersburg, FL — Sep 29 2026",
