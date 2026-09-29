@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-09-28T07:01:46.156Z",
+  "generatedAt": "2026-09-29T07:00:39.712Z",
   "entries": [
-    {
-      "id": "86bard4w3",
-      "name": "Kanami Birthday BAND-MAID",
-      "person": "Kanami",
-      "affiliation": "BAND-MAID",
-      "rawDate": "2026-09-28",
-      "month": 9,
-      "day": 28,
-      "description": "RECURRING ANNUAL — September 28\n\nBand & role: BAND-MAID — guitar\nCountry of origin: Japan\nBorn: September 28, 1991\nSource: Kpop Profiles, Famous Birthdays, Wikipedia",
-      "clickupUrl": "https://app.clickup.com/t/86bard4w3"
-    },
     {
       "id": "86bbeb82g",
       "name": "🎂 SAKI Birthday (Mary's Blood) — Oct 4",
@@ -572,6 +561,17 @@
       "day": 27,
       "description": "Vocalist, Rolling Quartz. Birthday Sep 27. Holding entry for the birthdays pipeline — verify against an official source before it goes on a card.",
       "clickupUrl": "https://app.clickup.com/t/86bbeb81g"
+    },
+    {
+      "id": "86bard4w3",
+      "name": "Kanami Birthday BAND-MAID",
+      "person": "Kanami",
+      "affiliation": "BAND-MAID",
+      "rawDate": "2026-09-28",
+      "month": 9,
+      "day": 28,
+      "description": "RECURRING ANNUAL — September 28\n\nBand & role: BAND-MAID — guitar\nCountry of origin: Japan\nBorn: September 28, 1991\nSource: Kpop Profiles, Famous Birthdays, Wikipedia",
+      "clickupUrl": "https://app.clickup.com/t/86bard4w3"
     },
     {
       "id": "86bba6j59",
