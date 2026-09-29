@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T12:07:29.000Z",
+  "generatedAt": "2026-09-29T17:30:00.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -38,6 +38,15 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-09-29",
+      "label": "napalm",
+      "artist": "Brymir",
+      "headline": "Finnish melodic death metallers cover Scooter's \"How Much Is The Fish\" with official video. New album What We Leave Behind out October 2, 2026.",
+      "type": "Single",
+      "releaseDate": "2026-10-02"
+    },
     {
       "kind": "send",
       "date": "2026-09-25",
