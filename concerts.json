@@ -1,87 +1,6 @@
 {
-  "generatedAt": "2026-09-29T07:00:39.712Z",
+  "generatedAt": "2026-09-30T07:00:43.375Z",
   "entries": [
-    {
-      "id": "86bc473w3",
-      "name": "The Format + The Get Up Kids @ Jannus Live — St. Petersburg, FL — Sep 29 2026",
-      "date": "2026-09-29",
-      "venue": "Jannus Live",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "The Format",
-        "The Get Up Kids"
-      ],
-      "description": "The Format bring the Boycott Heaven Tour to Jannus Live with emo royalty The Get Up Kids as special guests. All ages, doors 6:30 PM, show 7:30 PM. $1 from every ticket goes to fighting food insecurity and funding local animal shelters. Tickets:…",
-      "ticketUrl": "https://www.axs.com/events/1400696/the-format-tickets",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc473w3",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbz3ggj",
-      "name": "Loathe + Fleshwater + Prostitute @ House of Blues — Orlando, FL — Sep 29 2026",
-      "date": "2026-09-29",
-      "venue": "House of Blues",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Loathe",
-        "Fleshwater",
-        "Prostitute"
-      ],
-      "description": "Loathe's \"A Stranger to You\" tour lands at House of Blues Orlando the night before the Jannus Live stop. Fleshwater is direct support, Prostitute opens. Doors 6:30 PM.",
-      "ticketUrl": "https://www.livenation.com/event/1kFOv0PxGAC6uXz/loathe-a-stranger-to-you",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbz3ggj",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86barcrkr",
-      "name": "Rolling Quartz @ 89th Street — Oklahoma City, OK — Sep 29 2026",
-      "date": "2026-09-29",
-      "venue": "89th Street",
-      "city": "Oklahoma City",
-      "state": "OK",
-      "bands": [
-        "Rolling Quartz"
-      ],
-      "description": "Rolling Quartz bring their MY TURN North America tour to 89th Street in Oklahoma City, OK. Korean hard-rock five-piece on the watch-list rotation. Show date: September 29, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcrkr",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w4fr",
-      "name": "BABYMETAL @ Isleta Amphitheater — Albuquerque, NM — Sep 29 2026",
-      "date": "2026-09-29",
-      "venue": "Isleta Amphitheater",
-      "city": "Albuquerque",
-      "state": "NM",
-      "bands": [
-        "BABYMETAL"
-      ],
-      "description": "BABYMETAL — World Tour 2026. Isleta Amphitheater in Albuquerque, NM. Show date: Sep 29 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w4fr",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbtbt4r",
       "name": "Loathe + Fleshwater + Prostitute @ Jannus Live — St. Petersburg, FL — Sep 30 2026",
@@ -432,6 +351,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w4zz",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bc98eh7",
+      "name": "To The Grave + Crown Magnetar @ The Albatross — Jacksonville, FL — Oct 3 2026",
+      "date": "2026-10-03",
+      "venue": "The Albatross",
+      "city": "Jacksonville",
+      "state": "FL",
+      "bands": [
+        "To The Grave",
+        "Crown Magnetar"
+      ],
+      "description": "To The Grave and Crown Magnetar co-headline the Sawed Off Suffering Tour, with Face Yourself and Tracheotomy on the Southeast dates. Technical deathcore night in Jacksonville, one night before the run reaches The Banyan Live in West Palm Beach. Source: Knotfest tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc98eh7",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -1198,6 +1137,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb0uvjq",
       "buckets": [
         "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bc98ej1",
+      "name": "Russian Circles + Pelican @ The Beacham — Orlando, FL — Oct 9 2026",
+      "date": "2026-10-09",
+      "venue": "The Beacham",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Russian Circles",
+        "Pelican"
+      ],
+      "description": "Chicago instrumental heavyweights Russian Circles bring their crushing post-metal to The Beacham with post-metal pioneers Pelican in support. Doors/show 7:00 PM. Tickets via thebeacham.com.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc98ej1",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
