@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T17:30:00.000Z",
+  "generatedAt": "2026-10-01T13:45:00.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -38,6 +38,40 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-10-01",
+      "label": "napalm",
+      "artist": "Die Apokalyptischen Reiter",
+      "headline": "German metal veterans sign with Napalm Records, with a 13th studio album due summer 2027. Schrei!Nachten tour runs December 26 to 30, 2026.",
+      "type": "Tour"
+    },
+    {
+      "kind": "send",
+      "date": "2026-09-30",
+      "label": "napalm",
+      "artist": "Chris Harms",
+      "headline": "Second solo album Aporia announced, out January 22, 2027. New single \"Find What You Love And Let It Kill You\" out now.",
+      "type": "Album",
+      "releaseDate": "2027-01-22"
+    },
+    {
+      "kind": "send",
+      "date": "2026-09-30",
+      "label": "napalm",
+      "artist": "The New Roses",
+      "headline": "New single \"Saints & Sinners\" out now with official video. Headlining tour starts October 30, 2026.",
+      "type": "Single"
+    },
+    {
+      "kind": "send",
+      "date": "2026-09-30",
+      "label": "napalm",
+      "artist": "HAGANE",
+      "headline": "Japanese melodic power metal band signs with Napalm Records. Album Through the Night gets a physical release January 15, 2027.",
+      "type": "Album",
+      "releaseDate": "2027-01-15"
+    },
     {
       "kind": "send",
       "date": "2026-09-29",
