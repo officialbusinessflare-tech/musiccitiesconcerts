@@ -1,46 +1,6 @@
 {
-  "generatedAt": "2026-09-30T07:01:41.600Z",
+  "generatedAt": "2026-10-01T07:00:40.506Z",
   "entries": [
-    {
-      "id": "86bbtbt4r",
-      "name": "Loathe + Fleshwater + Prostitute @ Jannus Live — St. Petersburg, FL — Sep 30 2026",
-      "date": "2026-09-30",
-      "venue": "Jannus Live",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Loathe",
-        "Fleshwater",
-        "Prostitute"
-      ],
-      "description": "\"A Stranger To You\" tour. Loathe headlining a room this size in Florida is a step up from their last pass through.",
-      "ticketUrl": "https://jannuslive.com/events/loathe-a-stranger-to-you-with-fleshwater-and-prostitute/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbtbt4r",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbkecuv",
-      "name": "Alesana @ Whisky a Go Go — West Hollywood, CA — Sep 30 2026",
-      "date": "2026-09-30",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "Alesana"
-      ],
-      "description": "Alesana, night one of a two-night Whisky stand (Sep 30 and Oct 1). Sep 30 bill: In Parallel With You, Glass Portrait, moviedates, Willow Pond Massacre.",
-      "ticketUrl": "https://www.ticketweb.com/event/alesana-in-parallel-with-you-whisky-a-go-go-tickets/15020263",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkecuv",
-      "buckets": []
-    },
     {
       "id": "86bbymwn0",
       "name": "Great White + Slaughter @ The Parker (Lillian S. Wells Hall), Fort Lauderdale, FL, Oct 1 2026",
@@ -650,6 +610,27 @@
       "buckets": [
         "japanese-metal",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bca261z",
+      "name": "To The Grave + Crown Magnetar @ The Banyan Live — West Palm Beach, FL — Oct 4 2026",
+      "date": "2026-10-04",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "To The Grave",
+        "Crown Magnetar"
+      ],
+      "description": "\"The Sawed Off Suffering Tour\" co-headline. Full bill: To The Grave, Crown Magnetar, Face Yourself, Tracheotomy. Doors 6 PM, 18+. Florida gets two stops on this run — Jacksonville the night before, West Palm Beach the night after.",
+      "ticketUrl": "https://www.ticketweb.com/event/to-the-grave-crown-the-banyan-live-tickets/14982703",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bca261z",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
