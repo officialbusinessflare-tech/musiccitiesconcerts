@@ -2,26 +2,6 @@
   "generatedAt": "2026-10-01T07:00:40.506Z",
   "entries": [
     {
-      "id": "86bbymwn0",
-      "name": "Great White + Slaughter @ The Parker (Lillian S. Wells Hall), Fort Lauderdale, FL, Oct 1 2026",
-      "date": "2026-10-01",
-      "venue": "The Parker (Lillian S. Wells Hall), Fort Lauderdale",
-      "city": "FL",
-      "country": "Oct 1 2026",
-      "bands": [
-        "Great White",
-        "Slaughter"
-      ],
-      "description": "Source: Bandsintown promoted email, Sept 10, 2026 (arrived because we follow Great White, Slaughter, Mötley Crüe, Guns N' Roses, Metallica, Van Halen, Ozzy Osbourne). Thursday October 1, Lillian S. Wells Hall at The Parker, Fort Lauderdale. Part of the Cleveland Clinic Rock…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbymwn0",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bbvpdv6",
       "name": "Great White + Slaughter @ Lillian S. Wells Hall at The Parker — Fort Lauderdale, FL — Oct 1 2026",
       "date": "2026-10-01",
@@ -334,26 +314,6 @@
       ]
     },
     {
-      "id": "86bbztb2u",
-      "name": "Silenmara + Mind Virus @ The Banyan Live — West Palm Beach, FL — Oct 3 2026",
-      "date": "2026-10-03",
-      "venue": "The Banyan Live",
-      "city": "West Palm Beach",
-      "state": "FL",
-      "bands": [
-        "Silenmara",
-        "Mind Virus"
-      ],
-      "description": "Silenmara and Mind Virus (both on our Florida Metal watch list) on the same bill at The Banyan Live, West Palm Beach — Sat Oct 3, 2026. Full lineup also includes LiveKill, MRSA, and Death of a Deity. Source: Bandsintown / The Banyan Live.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbztb2u",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bbzt9yh",
       "name": "RE:O @ Boom — Leeds, UK — Oct 3 2026",
       "date": "2026-10-03",
@@ -456,7 +416,7 @@
     },
     {
       "id": "86bbj3vxf",
-      "name": "LiveKill + MRSA + Mind Virus @ The Banyan Live — West Palm Beach, FL — Oct 3 2026",
+      "name": "LiveKill + MRSA + Mind Virus + Silenmara @ The Banyan Live — West Palm Beach, FL — Oct 3 2026",
       "date": "2026-10-03",
       "venue": "The Banyan Live",
       "city": "West Palm Beach",
@@ -1377,27 +1337,6 @@
       ]
     },
     {
-      "id": "86bbzt691",
-      "name": "Nini Music + Seven Kingdoms @ Conduit — Orlando, FL — Oct 10 2026",
-      "date": "2026-10-10",
-      "venue": "Conduit",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Nini Music",
-        "Seven Kingdoms"
-      ],
-      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Tour opener. One of our favorites — full interview recorded, coming to the channel. Source: NextMosh tour announcement, Aug 3 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzt691",
-      "buckets": [
-        "florida-metal-scene",
-        "japanese-metal"
-      ]
-    },
-    {
       "id": "86bbwe8vn",
       "name": "EMNW @ MINAMI WHEEL 2026 — Osaka, Japan — Oct 10 2026",
       "date": "2026-10-10",
@@ -1516,27 +1455,6 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w50y",
       "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbzt6cp",
-      "name": "Nini Music + Seven Kingdoms @ The Orpheum — Tampa, FL — Oct 11 2026",
-      "date": "2026-10-11",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Nini Music",
-        "Seven Kingdoms"
-      ],
-      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzt6cp",
-      "buckets": [
-        "florida-metal-scene",
         "japanese-metal"
       ]
     },
@@ -2005,26 +1923,6 @@
       ]
     },
     {
-      "id": "86bc472gy",
-      "name": "On Company Time @ Conduit — Winter Park (Orlando), FL — Oct 15 2026",
-      "date": "2026-10-15",
-      "venue": "Conduit",
-      "city": "Winter Park (Orlando)",
-      "state": "FL",
-      "bands": [
-        "On Company Time"
-      ],
-      "description": "On Company Time brings \"The PTO Tour\" to Conduit. 7 PM doors, 18+. This is its own ticketed bill, separate from the Ludovico Technique show in the other room the same night. Tickets: https://www.ticketweb.com/event/on-company-time-the-pto-conduit-tickets/14863823",
-      "ticketUrl": "https://www.ticketweb.com/event/on-company-time-the-pto-conduit-tickets/14863823",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc472gy",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bbzt6d4",
       "name": "Nini Music + Seven Kingdoms @ Woodshop — New York, NY — Oct 15 2026",
       "date": "2026-10-15",
@@ -2167,7 +2065,7 @@
     },
     {
       "id": "86bbkeacc",
-      "name": "Ludovico Technique + Pressure Kitten @ Conduit — Orlando, FL — Oct 15 2026",
+      "name": "Ludovico Technique + Pressure Kitten + On Company Time @ Conduit — Orlando, FL — Oct 15 2026",
       "date": "2026-10-15",
       "venue": "Conduit",
       "city": "Orlando",
@@ -4588,25 +4486,6 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bc4746d",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bc472jd",
-      "name": "A Flock of Seagulls @ Culture Room — Fort Lauderdale, FL — Nov 6 2026",
-      "date": "2026-11-06",
-      "venue": "Culture Room",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "A Flock of Seagulls"
-      ],
-      "description": "New wave originals A Flock of Seagulls play Culture Room with special guests. Doors 7:30 PM. Tickets via cultureroom.net.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc472jd",
       "buckets": [
         "florida-metal-scene"
       ]
