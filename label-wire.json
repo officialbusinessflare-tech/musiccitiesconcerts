@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T13:45:00.000Z",
+  "generatedAt": "2026-10-02T12:25:00.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -38,6 +38,14 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-10-02",
+      "label": "napalm",
+      "artist": "Feuerschwanz",
+      "headline": "German folk metal band releases new single \"Carpe Noctem\" featuring In Extremo, with official video. Metfest runs December 19 in Essen and the joint tour starts April 2027.",
+      "type": "Single"
+    },
     {
       "kind": "send",
       "date": "2026-10-01",
