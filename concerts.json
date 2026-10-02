@@ -1,143 +1,6 @@
 {
-  "generatedAt": "2026-10-01T07:00:40.506Z",
+  "generatedAt": "2026-10-02T07:00:41.317Z",
   "entries": [
-    {
-      "id": "86bbvpdv6",
-      "name": "Great White + Slaughter @ Lillian S. Wells Hall at The Parker — Fort Lauderdale, FL — Oct 1 2026",
-      "date": "2026-10-01",
-      "venue": "Lillian S. Wells Hall at The Parker",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "Great White",
-        "Slaughter"
-      ],
-      "description": "Bands: Great White, Slaughter\nVenue: Lillian S. Wells Hall at The Parker (Parker Playhouse), 707 NE 8th St, Fort Lauderdale FL\nDate: Thu Oct 1 2026 — 7:30pm\nSeated-theater hair-metal double bill. Slaughter also played the Whisky in late August.\nTickets:…",
-      "ticketUrl": "https://www.parkerplayhouse.com/events",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbvpdv6",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbmte6a",
-      "name": "Nocturne Underground @ The Banyan Live — West Palm Beach, FL — Oct 1 2026",
-      "date": "2026-10-01",
-      "venue": "The Banyan Live",
-      "city": "West Palm Beach",
-      "state": "FL",
-      "bands": [
-        "Nocturne Underground"
-      ],
-      "description": "Event: Nocturne Underground (Respiromalo presents)\nVenue: The Banyan Live, West Palm Beach FL\nDate/time: Thu Oct 1 2026, doors 6 PM / show 7 PM · 18+\nTickets: https://www.etix.com/ticket/p/78838037/nocturne-underground-west-palm-beach-the-banyan-live",
-      "ticketUrl": "https://www.etix.com/ticket/p/78838037/nocturne-underground-west-palm-beach-the-banyan-live",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbmte6a",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbked2f",
-      "name": "Alesana @ Whisky a Go Go — West Hollywood, CA — Oct 1 2026",
-      "date": "2026-10-01",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "Alesana"
-      ],
-      "description": "Alesana, night two of a two-night Whisky stand (Sep 30 and Oct 1). Oct 1 bill: Deadbeat Nightlife, IWPLMFM, Halfway Ghost.",
-      "ticketUrl": "https://www.ticketweb.com/event/alesana-deadbeat-nightlife-iwplmfm-whisky-a-go-go-tickets/15020283",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbked2f",
-      "buckets": []
-    },
-    {
-      "id": "86bbkear3",
-      "name": "Nogu Svelo! @ Brass Mug — Tampa, FL — Oct 1 2026",
-      "date": "2026-10-01",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Nogu Svelo!"
-      ],
-      "description": "Nogu Svelo! at the Brass Mug — the Russian rock band's Tampa stop. They also play Conduit Orlando the following night (Oct 2), so this is a two-city Florida run.",
-      "ticketUrl": "https://www.bandsintown.com/e/1039232510",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkear3",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86barcrkz",
-      "name": "Rolling Quartz @ The Jam Spot — Albuquerque, NM — Oct 1 2026",
-      "date": "2026-10-01",
-      "venue": "The Jam Spot",
-      "city": "Albuquerque",
-      "state": "NM",
-      "bands": [
-        "Rolling Quartz"
-      ],
-      "description": "Rolling Quartz bring their MY TURN North America tour to The Jam Spot in Albuquerque, NM. Korean hard-rock five-piece on the watch-list rotation. Show date: October 1, 2026. Tickets via Leo Presents. Confirmed against the band's announced MY TURN routing.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcrkz",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bangtgg",
-      "name": "Buddy Guy 90th Birthday Concert @ Radio City Music Hall — New York, NY",
-      "date": "2026-10-01",
-      "venue": "Radio City Music Hall",
-      "city": "New York",
-      "state": "NY",
-      "bands": [
-        "Buddy Guy 90th Birthday Concert"
-      ],
-      "description": "Buddy's Got the Blues: A 90th Birthday Concert Celebration — Wed Oct 1, 2026 at Radio City Music Hall, New York City.",
-      "ticketUrl": "https://variety.com/2026/music/news/buddy-guy-90th-birthday-concert-eric-clapton-john-mayer-1236787730/",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bangtgg",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bampq6g",
-      "name": "BABYMETAL — Talking Stick Resort Amphitheatre, Phoenix AZ",
-      "date": "2026-10-01",
-      "venue": "Talking Stick Resort Amphitheatre",
-      "city": "Phoenix",
-      "state": "AZ",
-      "bands": [
-        "BABYMETAL"
-      ],
-      "description": "BABYMETAL World Tour 2026 — Celebrate Fox Day",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bampq6g",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bba6hu7",
       "name": "LOVEBITES @ Esplanade Annexe Studio — Singapore, Singapore",
@@ -424,7 +287,8 @@
       "bands": [
         "LiveKill",
         "MRSA",
-        "Mind Virus"
+        "Mind Virus",
+        "Silenmara"
       ],
       "description": "Full lineup: LiveKill, MRSA, Death of a Deity, Shinkaza, Mind Virus.",
       "ticketUrl": "https://www.etix.com/ticket/p/95770830/livekillmrsadeath-of-a-deityshinkazamind-virus-west-palm-beach-the-banyan-live?partner_id=100",
@@ -1621,6 +1485,25 @@
       ]
     },
     {
+      "id": "86bcb0txf",
+      "name": "BRIDEAR @ Kichijoji Crescendo — Tokyo, Japan — Oct 12 2026",
+      "date": "2026-10-12",
+      "venue": "Kichijoji Crescendo",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "BRIDEAR"
+      ],
+      "description": "BRIDEAR one-man \"Revenant Episode.1 -Overturn The Doom-\" at Live House Crescendo, Kichijoji. OPEN 17:30 / START 18:00.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcb0txf",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbtbtk5",
       "name": "Silent Theory + Discrepancies + Sick Century @ The Orpheum — Tampa, FL — Oct 12 2026",
       "date": "2026-10-12",
@@ -2072,7 +1955,8 @@
       "state": "FL",
       "bands": [
         "Ludovico Technique",
-        "Pressure Kitten"
+        "Pressure Kitten",
+        "On Company Time"
       ],
       "description": "Full bill: Ludovico Technique, Pressure Kitten, Layne Lyre. Industrial/darkwave night in Orlando.",
       "ticketUrl": "https://www.ticketweb.com/event/ludovico-technique-pressure-kitten-and-conduit-tickets/14232214",
@@ -4768,6 +4652,25 @@
       ]
     },
     {
+      "id": "86bcb0ttm",
+      "name": "BRIDEAR @ Shinjuku Antiknock — Tokyo, Japan — Nov 8 2026",
+      "date": "2026-11-08",
+      "venue": "Shinjuku Antiknock",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "BRIDEAR"
+      ],
+      "description": "Two-man \"ASTERISM vs BRIDEAR\" at Shinjuku Antiknock, Tokyo. OPEN 18:00 / START 18:20. (Confirmed by vocalist KIMI.)",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcb0ttm",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc05h26",
       "name": "DONEFOR + We're Wolves + Twin Rova @ Oscura — Bradenton, FL — Nov 8 2026",
       "date": "2026-11-08",
@@ -5804,6 +5707,26 @@
       "clickupUrl": "https://app.clickup.com/t/86baaaf87",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcb0tut",
+      "name": "BRIDEAR @ over fest 2026 — Tokyo, Japan — Nov 21 2026",
+      "date": "2026-11-21",
+      "venue": "over fest 2026",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "BRIDEAR"
+      ],
+      "description": "SNAZZY TUNES x over print \"over fest 2026\" — Shimokitazawa circuit festival across 9 live houses. BRIDEAR on the lineup.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcb0tut",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
       ]
     },
     {
@@ -7150,6 +7073,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bavn8xh",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcb1rb9",
+      "name": "Bodysnatcher + PSYCHO-FRAME + Distant @ The Orpheum — Tampa, FL — Dec 18 2026",
+      "date": "2026-12-18",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Bodysnatcher",
+        "PSYCHO-FRAME",
+        "Distant"
+      ],
+      "description": "Bodysnatcher's Christmas Vacation: the deathcore band's inaugural holiday show at The Orpheum in Ybor City, with the full set being filmed for a future release.",
+      "ticketUrl": "https://www.theprp.com/2026/09/16/news/bodysnatcher-announce-holiday-show-with-psycho-frame-distant-volatile-ways-implosive-disgorgence/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcb1rb9",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -9062,6 +9007,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bc4ytu9",
       "buckets": [
         "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bcb0z99",
+      "name": "New Found Glory @ Port of Miami, Miami, FL, Sep 09 2027",
+      "date": "2027-09-09",
+      "venue": "Port of Miami, Miami",
+      "city": "FL",
+      "country": "Sep 09 2027",
+      "bands": [
+        "New Found Glory"
+      ],
+      "description": "Surfaced in a Bandsintown promoted block (Bullet for My Valentine notification, Sept 30, 2026). Listed as Port of Miami, which usually means a cruise sailing; confirm the event before planning coverage.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcb0z99",
+      "buckets": [
+        "florida-metal-scene"
       ]
     }
   ]
