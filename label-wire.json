@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T12:25:00.000Z",
+  "generatedAt": "2026-10-03T12:07:35.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -53,6 +53,15 @@
       "artist": "Die Apokalyptischen Reiter",
       "headline": "German metal veterans sign with Napalm Records, with a 13th studio album due summer 2027. Schrei!Nachten tour runs December 26 to 30, 2026.",
       "type": "Tour"
+    },
+    {
+      "kind": "send",
+      "date": "2026-10-01",
+      "label": "napalm",
+      "artist": "Frozen Crown",
+      "headline": "Italian power metallers cover the Goo Goo Dolls' \"Iris\" with official video. New album The Legend of the Six Kings out October 2, 2026.",
+      "type": "Single",
+      "releaseDate": "2026-10-02"
     },
     {
       "kind": "send",
@@ -212,15 +221,6 @@
       "artist": "Accept",
       "headline": "Heavy-metal icons reveal a 50th-anniversary re-rendition of \"Losers and Winners\" + video.",
       "type": "Single"
-    },
-    {
-      "kind": "pick",
-      "date": "2026-10-02",
-      "label": "wildkingdom",
-      "artist": "Spiders",
-      "headline": "Gothenburg rockers release fifth album Crystal Eyes, ten tracks.",
-      "type": "Album",
-      "releaseDate": "2026-10-02"
     },
     {
       "kind": "pick",
