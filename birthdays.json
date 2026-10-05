@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-10-04T07:00:45.127Z",
+  "generatedAt": "2026-10-05T07:00:45.302Z",
   "entries": [
-    {
-      "id": "86bbeb82g",
-      "name": "🎂 SAKI Birthday (Mary's Blood) — Oct 4",
-      "person": "🎂 SAKI",
-      "affiliation": "(Mary's Blood) — Oct 4",
-      "rawDate": "2026-10-04",
-      "month": 10,
-      "day": 4,
-      "description": "Guitarist, Mary's Blood. Birthday Oct 4. Band is on indefinite hiatus; SAKI remains active solo. Holding entry for the birthdays pipeline.",
-      "clickupUrl": "https://app.clickup.com/t/86bbeb82g"
-    },
     {
       "id": "86baazex2",
       "name": "David Lee Roth Birthday Van Halen",
@@ -572,6 +561,17 @@
       "day": 28,
       "description": "RECURRING ANNUAL — September 28\n\nBand & role: BAND-MAID — guitar\nCountry of origin: Japan\nBorn: September 28, 1991\nSource: Kpop Profiles, Famous Birthdays, Wikipedia",
       "clickupUrl": "https://app.clickup.com/t/86bard4w3"
+    },
+    {
+      "id": "86bbeb82g",
+      "name": "🎂 SAKI Birthday (Mary's Blood) — Oct 4",
+      "person": "🎂 SAKI",
+      "affiliation": "(Mary's Blood) — Oct 4",
+      "rawDate": "2026-10-04",
+      "month": 10,
+      "day": 4,
+      "description": "Guitarist, Mary's Blood. Birthday Oct 4. Band is on indefinite hiatus; SAKI remains active solo. Holding entry for the birthdays pipeline.",
+      "clickupUrl": "https://app.clickup.com/t/86bbeb82g"
     },
     {
       "id": "86bba6j59",
