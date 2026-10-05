@@ -1,143 +1,6 @@
 {
-  "generatedAt": "2026-10-04T07:00:45.127Z",
+  "generatedAt": "2026-10-05T07:00:45.302Z",
   "entries": [
-    {
-      "id": "86bca261z",
-      "name": "To The Grave + Crown Magnetar @ The Banyan Live — West Palm Beach, FL — Oct 4 2026",
-      "date": "2026-10-04",
-      "venue": "The Banyan Live",
-      "city": "West Palm Beach",
-      "state": "FL",
-      "bands": [
-        "To The Grave",
-        "Crown Magnetar"
-      ],
-      "description": "\"The Sawed Off Suffering Tour\" co-headline. Full bill: To The Grave, Crown Magnetar, Face Yourself, Tracheotomy. Doors 6 PM, 18+. Florida gets two stops on this run — Jacksonville the night before, West Palm Beach the night after.",
-      "ticketUrl": "https://www.ticketweb.com/event/to-the-grave-crown-the-banyan-live-tickets/14982703",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bca261z",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbzrjza",
-      "name": "Agnostic Front + Angel Du$t @ Oscura — Bradenton, FL — Oct 4 2026",
-      "date": "2026-10-04",
-      "venue": "Oscura",
-      "city": "Bradenton",
-      "state": "FL",
-      "bands": [
-        "Agnostic Front",
-        "Angel Du$t"
-      ],
-      "description": "Agnostic Front and Angel Du$t co-headline at Oscura, Bradenton — night three of the Florida run before the Conduit finale. Step 2 This open. Sunday, October 4, 2026, 6 PM. Tickets: https://www.bandsintown.com/e/108616331-agnostic-front-at-oscura",
-      "ticketUrl": "https://www.bandsintown.com/e/108616331-agnostic-front-at-oscura",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzrjza",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbke943",
-      "name": "LOVEBITES @ Zepp KL — Kuala Lumpur, Malaysia — Oct 4 2026",
-      "date": "2026-10-04",
-      "venue": "Zepp KL",
-      "city": "Kuala Lumpur",
-      "country": "Malaysia",
-      "bands": [
-        "LOVEBITES"
-      ],
-      "description": "LOVEBITES — OUTSTANDING Tour, Kuala Lumpur date at Zepp KL. Part of the Southeast Asia leg following Singapore (Oct 2).",
-      "ticketUrl": "https://www.myticketempire.com/lovebiteskl",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbke943",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbke855",
-      "name": "Lonesome_Blue @ OSAKA MUSE — Osaka, Japan — Oct 4 2026",
-      "date": "2026-10-04",
-      "venue": "OSAKA MUSE",
-      "city": "Osaka",
-      "country": "Japan",
-      "bands": [
-        "Lonesome_Blue"
-      ],
-      "description": "Lonesome_Blue — FOURTH DIMENSION release tour, Osaka leg.",
-      "ticketUrl": "https://lonesomeblue.jp/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbke855",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbeb6hc",
-      "name": "Rolling Quartz @ Come and Take It Live — Austin, TX — Oct 4 2026",
-      "date": "2026-10-04",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "bands": [
-        "Rolling Quartz"
-      ],
-      "description": "Rolling Quartz's MY TURN North American tour reaches Austin. Watch-list band, and the room is one of ours. Source: Come and Take It Live / JamBase calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb6hc",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bamuujj",
-      "name": "Sawed-Off Suffering Tour — Banyan Live, West Palm Beach FL",
-      "date": "2026-10-04",
-      "venue": "Banyan Live",
-      "city": "West Palm Beach",
-      "state": "FL",
-      "bands": [
-        "Sawed-Off Suffering Tour"
-      ],
-      "description": "To The Grave + Crown Magnetar — Sawed-Off Suffering Tour",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bamuujj",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86ba9ag36",
-      "name": "✅ Rolling Quartz — Austin TX (Super Diadem PURCHASED)",
-      "date": "2026-10-04",
-      "venue": "Austin TX (Super Diadem PURCHASED)",
-      "bands": [
-        "✅ Rolling Quartz"
-      ],
-      "description": "Rolling Quartz — MY TURN North America Tour 2026 ✅ PURCHASED — SUPER DIADEM",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86ba9ag36",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbuyjrh",
       "name": "Earshot @ Whisky a Go Go — West Hollywood, CA — Oct 5 2026",
@@ -7953,6 +7816,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bbz5a14",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bccpw1z",
+      "name": "Northlane + Allt + Aviana + Reliqa @ House of Blues — Orlando, FL — Feb 20 2027",
+      "date": "2027-02-20",
+      "venue": "House of Blues",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Northlane",
+        "Allt",
+        "Aviana",
+        "Reliqa"
+      ],
+      "description": "Australian metalcore headliners Northlane bring their North American headline tour behind the new album \"ANEMOIA\" (out October 30). Full bill: Northlane, Allt, Aviana, Reliqa. Orlando is the tour's only Florida stop. Tickets went on sale Friday, October 2 at 10 AM local.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bccpw1z",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
