@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-10-05T07:00:55.566Z",
+  "fetchedAt": "2026-10-06T07:00:52.587Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
-      "subscriberCount": 152000,
-      "videoCount": 296,
+      "subscriberCount": 153000,
+      "videoCount": 298,
       "recentLongform": [
+        {
+          "id": "tLZFRP9bBpM",
+          "title": "Rolling Quartz | My Turn | Austin",
+          "publishedAt": "2026-10-06T00:00:13Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/tLZFRP9bBpM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/tLZFRP9bBpM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/tLZFRP9bBpM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/tLZFRP9bBpM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/tLZFRP9bBpM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M48S",
+          "durationSeconds": 108
+        },
         {
           "id": "NrJCjVaIAB8",
           "title": "Heavy Metal Fans: Loyal to Legacy, Ignoring Local? #shorts",
@@ -294,40 +328,6 @@
           },
           "duration": "PT1M46S",
           "durationSeconds": 106
-        },
-        {
-          "id": "LFNV7IYUbzs",
-          "title": "Kimi - Bridear | Crowdfunding Music",
-          "publishedAt": "2026-09-11T03:45:03Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/LFNV7IYUbzs/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/LFNV7IYUbzs/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/LFNV7IYUbzs/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/LFNV7IYUbzs/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/LFNV7IYUbzs/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M31S",
-          "durationSeconds": 91
         }
       ],
       "recentShorts": [
