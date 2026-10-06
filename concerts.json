@@ -1,63 +1,6 @@
 {
-  "generatedAt": "2026-10-05T07:00:45.302Z",
+  "generatedAt": "2026-10-06T07:00:40.652Z",
   "entries": [
-    {
-      "id": "86bbuyjrh",
-      "name": "Earshot @ Whisky a Go Go — West Hollywood, CA — Oct 5 2026",
-      "date": "2026-10-05",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "Earshot"
-      ],
-      "description": "Earshot at the Whisky. Also on the West Palm Beach calendar Nov 19 at The Banyan Live with The Lonely Ones.",
-      "ticketUrl": "https://www.bandsintown.com/e/1039749566-earshot-at-whisky-a-go-go",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbuyjrh",
-      "buckets": []
-    },
-    {
-      "id": "86bbeb613",
-      "name": "Angel Du$t + Agnostic Front @ Conduit — Winter Park (Orlando), FL — Oct 5 2026",
-      "date": "2026-10-05",
-      "venue": "Conduit",
-      "city": "Winter Park (Orlando)",
-      "state": "FL",
-      "bands": [
-        "Angel Du$t",
-        "Agnostic Front"
-      ],
-      "description": "Hardcore heavyweight pairing — Angel Du$t with NYHC originators Agnostic Front. Source: Conduit / JamBase calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb613",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bb9w4n2",
-      "name": "BAND-MAID @ The Paramount — Huntington, NY — Oct 5 2026",
-      "date": "2026-10-05",
-      "venue": "The Paramount",
-      "city": "Huntington",
-      "state": "NY",
-      "bands": [
-        "BAND-MAID"
-      ],
-      "description": "BAND-MAID — World Tour 2026 NA leg. The Paramount in Huntington, NY. Show date: Oct 5 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w4n2",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbeb620",
       "name": "He Is Legend @ Churchill's Pub — Miami, FL — Oct 6 2026",
