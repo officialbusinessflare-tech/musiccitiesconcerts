@@ -1,13 +1,86 @@
 {
-  "fetchedAt": "2026-10-06T07:00:52.587Z",
+  "fetchedAt": "2026-10-07T07:01:06.118Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 153000,
-      "videoCount": 298,
+      "videoCount": 301,
       "recentLongform": [
+        {
+          "id": "WelZpW1ellE",
+          "title": "Nini Music | East Coast Tour",
+          "publishedAt": "2026-10-07T04:02:18Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/WelZpW1ellE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/WelZpW1ellE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/WelZpW1ellE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/WelZpW1ellE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/WelZpW1ellE/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M23S",
+          "durationSeconds": 83
+        },
+        {
+          "id": "4syuJC_shzY",
+          "title": "Rolling Quartz | Delight | Austin Soundcheck 2026",
+          "publishedAt": "2026-10-07T01:30:57Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/4syuJC_shzY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/4syuJC_shzY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/4syuJC_shzY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/4syuJC_shzY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/4syuJC_shzY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/4syuJC_shzY/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          "duration": "PT4M45S",
+          "durationSeconds": 285
+        },
         {
           "id": "tLZFRP9bBpM",
           "title": "Rolling Quartz | My Turn | Austin",
@@ -255,82 +328,48 @@
           },
           "duration": "PT1M30S",
           "durationSeconds": 90
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "sFGf8xPXaxU",
-          "title": "The Line Outside | 2 Metal Audiences 10 Blocks Apart",
-          "publishedAt": "2026-09-14T06:08:56Z",
+          "id": "GrgmkISEQpo",
+          "title": "Rolling Quartz | Growing Hard Rock in Korea by Touring the U.S. | Turn on Subtitles",
+          "publishedAt": "2026-10-06T23:51:10Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/sFGf8xPXaxU/default.jpg",
+              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/sFGf8xPXaxU/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/sFGf8xPXaxU/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/sFGf8xPXaxU/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/sFGf8xPXaxU/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             },
             "fhd": {
-              "url": "https://i.ytimg.com/vi/sFGf8xPXaxU/fhddefault.jpg",
+              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/fhddefault.jpg",
               "width": 1920,
               "height": 1080
             }
           },
-          "duration": "PT10M19S",
-          "durationSeconds": 619
+          "duration": "PT0S",
+          "durationSeconds": 0
         },
-        {
-          "id": "6ri1AyEIGQ8",
-          "title": "Vember | South Florida Metal",
-          "publishedAt": "2026-09-11T04:30:33Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/6ri1AyEIGQ8/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/6ri1AyEIGQ8/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/6ri1AyEIGQ8/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/6ri1AyEIGQ8/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/6ri1AyEIGQ8/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M46S",
-          "durationSeconds": 106
-        }
-      ],
-      "recentShorts": [
         {
           "id": "5sbujwU0Xt8",
           "title": "Unlock Music Secrets: Curation, Trust, and Visibility #shorts",
@@ -806,40 +845,6 @@
           },
           "duration": "PT1M2S",
           "durationSeconds": 62
-        },
-        {
-          "id": "gbmUGQFonOw",
-          "title": "Nini Music | On Tour Next Month!",
-          "publishedAt": "2026-09-11T12:32:57Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/gbmUGQFonOw/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/gbmUGQFonOw/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/gbmUGQFonOw/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/gbmUGQFonOw/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/gbmUGQFonOw/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M",
-          "durationSeconds": 60
         }
       ]
     },
