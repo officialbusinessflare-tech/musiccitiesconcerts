@@ -1,13 +1,52 @@
 {
-  "fetchedAt": "2026-10-07T07:01:52.587Z",
+  "fetchedAt": "2026-10-08T07:01:09.535Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 153000,
-      "videoCount": 301,
+      "videoCount": 302,
       "recentLongform": [
+        {
+          "id": "GrgmkISEQpo",
+          "title": "Rolling Quartz | Growing Hard Rock in Korea by Touring the U.S. | Turn on Subtitles",
+          "publishedAt": "2026-10-07T13:00:10Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          "duration": "PT6M26S",
+          "durationSeconds": 386
+        },
         {
           "id": "WelZpW1ellE",
           "title": "Nini Music | East Coast Tour",
@@ -332,43 +371,38 @@
       ],
       "recentShorts": [
         {
-          "id": "GrgmkISEQpo",
-          "title": "Rolling Quartz | Growing Hard Rock in Korea by Touring the U.S. | Turn on Subtitles",
-          "publishedAt": "2026-10-06T23:51:10Z",
+          "id": "Ux1bEq_1ufQ",
+          "title": "Rolling Quartz | Playing the Whisky | My Turn U.S. Tour",
+          "publishedAt": "2026-10-07T16:56:43Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/default.jpg",
+              "url": "https://i.ytimg.com/vi/Ux1bEq_1ufQ/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/Ux1bEq_1ufQ/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/Ux1bEq_1ufQ/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/Ux1bEq_1ufQ/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/Ux1bEq_1ufQ/maxresdefault.jpg",
               "width": 1280,
               "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/GrgmkISEQpo/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
             }
           },
-          "duration": "PT0S",
-          "durationSeconds": 0
+          "duration": "PT59S",
+          "durationSeconds": 59
         },
         {
           "id": "5sbujwU0Xt8",
@@ -811,40 +845,6 @@
           },
           "duration": "PT1M6S",
           "durationSeconds": 66
-        },
-        {
-          "id": "UwtV7ZSGPIw",
-          "title": "Metalheads Starving Local Scene With Import Obsession! #shorts",
-          "publishedAt": "2026-09-14T13:26:38Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/UwtV7ZSGPIw/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/UwtV7ZSGPIw/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/UwtV7ZSGPIw/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/UwtV7ZSGPIw/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/UwtV7ZSGPIw/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M2S",
-          "durationSeconds": 62
         }
       ]
     },
