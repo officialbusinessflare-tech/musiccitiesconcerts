@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T12:07:35.000Z",
+  "generatedAt": "2026-10-08T12:30:00.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -38,6 +38,32 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-10-07",
+      "label": "napalm",
+      "artist": "Walls of Jericho",
+      "headline": "Detroit metalcore veterans release third single \"True Til' Death\" with official video. First album in a decade, System Error: Humanity, out November 13, 2026, with a European tour starting November 6.",
+      "type": "Single",
+      "releaseDate": "2026-11-13"
+    },
+    {
+      "kind": "send",
+      "date": "2026-10-07",
+      "label": "napalm",
+      "artist": "Konvent",
+      "headline": "Danish extreme metal band releases the title track \"Firesky\" with official video. New album Firesky out November 6, 2026.",
+      "type": "Single",
+      "releaseDate": "2026-11-06"
+    },
+    {
+      "kind": "send",
+      "date": "2026-10-06",
+      "label": "napalm",
+      "artist": "Wizardthrone",
+      "headline": "Michael Barber leaves Gloryhammer to lead the extreme wizard metal project full-time and releases new track \"Death Cycles\" with lyric video. London headline debut is November 21, 2026.",
+      "type": "Single"
+    },
     {
       "kind": "send",
       "date": "2026-10-02",
@@ -221,15 +247,6 @@
       "artist": "Accept",
       "headline": "Heavy-metal icons reveal a 50th-anniversary re-rendition of \"Losers and Winners\" + video.",
       "type": "Single"
-    },
-    {
-      "kind": "pick",
-      "date": "2026-10-07",
-      "label": "uprise",
-      "artist": "ZILQY",
-      "headline": "Debut full-length Birth of Riot, ten tracks, the band's first album-length statement.",
-      "type": "Album",
-      "releaseDate": "2026-10-07"
     },
     {
       "kind": "pick",
