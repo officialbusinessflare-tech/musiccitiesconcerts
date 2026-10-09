@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-08T07:01:51.062Z",
+  "fetchedAt": "2026-10-09T07:01:11.159Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 153000,
-      "videoCount": 302,
+      "videoCount": 303,
       "recentLongform": [
         {
           "id": "GrgmkISEQpo",
@@ -370,6 +370,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "z6nUAawtDSg",
+          "title": "Rolling Quartz 롤링쿼츠 on touring, selling out venues, and building an audience.",
+          "publishedAt": "2026-10-08T15:15:07Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/z6nUAawtDSg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/z6nUAawtDSg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/z6nUAawtDSg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/z6nUAawtDSg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/z6nUAawtDSg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M3S",
+          "durationSeconds": 63
+        },
         {
           "id": "Ux1bEq_1ufQ",
           "title": "Rolling Quartz | Playing the Whisky | My Turn U.S. Tour",
@@ -811,40 +845,6 @@
           },
           "duration": "PT24S",
           "durationSeconds": 24
-        },
-        {
-          "id": "wMunMGPddIA",
-          "title": "Yes,  I'm in a band | McFisty | Miami Metal",
-          "publishedAt": "2026-09-15T05:49:59Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/wMunMGPddIA/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/wMunMGPddIA/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/wMunMGPddIA/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/wMunMGPddIA/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/wMunMGPddIA/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M6S",
-          "durationSeconds": 66
         }
       ]
     },
