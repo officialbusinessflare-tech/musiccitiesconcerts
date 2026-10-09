@@ -45,8 +45,17 @@ workflows:
         script: keychain initialize
       - name: Fetch/create signing files
         script: |
+          # Creating a new distribution certificate needs a private key to pair
+          # with it. Reuse one stored as CERTIFICATE_PRIVATE_KEY if present
+          # (avoids a new cert each build); otherwise generate one.
+          if [ -n "$CERTIFICATE_PRIVATE_KEY" ]; then
+            printf '%s' "$CERTIFICATE_PRIVATE_KEY" > /tmp/cert_key.pem
+          else
+            openssl genrsa -out /tmp/cert_key.pem 2048
+          fi
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
             --type IOS_APP_STORE \
+            --certificate-key @file:/tmp/cert_key.pem \
             --create
       - name: Add signing certificate to keychain
         script: keychain add-certificates
