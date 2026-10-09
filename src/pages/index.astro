@@ -137,11 +137,11 @@ const teasers = [...bucketTeasers, birthdaysTeaser, venuesTeaser, watchingTeaser
 
 const fieldTrips = [
   {
-    id: 'buddy-guy',
-    href: '/buddy-guy',
-    titleHtml: 'Buddy Guy <em>at 90</em>',
-    sub: 'Thursday 1 October 2026 — Radio City Music Hall, New York. Clapton, Mayer, Bonamassa and a room full of blues legends.',
-    cta: 'View the brief →',
+    id: 'metal-japan',
+    href: '/metal-japan',
+    titleHtml: 'Metal <em>Japan</em>',
+    sub: 'November 4–16, 2026 — Tokyo to Kawasaki. ASTERISM vs BRIDEAR, Broken By The Scream, HAGANE and more: four show nights across the country.',
+    cta: 'View the itinerary →',
   },
 ];
 
@@ -191,23 +191,24 @@ const lastUpdated = data.generatedAt
     </div>
   </section>
 
-  <a class="feat-review" href="/reviews/spiders">
+  <a class="feat-review" href="https://www.youtube.com/watch?v=GrgmkISEQpo" target="_blank" rel="noopener">
     <div class="container feat-review__inner">
-      <img class="feat-review__art" src="/assets/reviews/spiders-crystal-eyes.jpg" alt="Spiders — Crystal Eyes album cover" width="1200" height="1200" loading="eager" />
+      <img class="feat-review__art" src="https://i.ytimg.com/vi/GrgmkISEQpo/hqdefault.jpg" alt="Rolling Quartz interview" width="480" height="360" loading="eager" />
       <div class="feat-review__text">
-        <span class="feat-review__eyebrow">New review</span>
-        <h2 class="feat-review__title">Spiders — <em>Crystal Eyes</em></h2>
-        <p class="feat-review__dek">Gothenburg's other export, and what a rehearsal room has to do with it. Our review of the fifth album, built on our interview with Ann-Sofie and John Hoyles.</p>
-        <span class="feat-review__cta">Read the review →</span>
+        <span class="feat-review__eyebrow">New interview</span>
+        <h2 class="feat-review__title">Rolling Quartz — <em>Growing Hard Rock in Korea</em></h2>
+        <p class="feat-review__dek">The Korean hard-rock quartet on touring the U.S., selling out venues, and building an audience the hard way. Our full sit-down interview, now live on the channel.</p>
+        <span class="feat-review__cta">Watch the interview →</span>
       </div>
     </div>
   </a>
+  <div class="container" style="padding:0.75rem 0 0;"><a href="/reviews" style="color:#b7b2a9;font-size:0.88rem;text-decoration:none;font-weight:600;">Looking for our album reviews? →</a></div>
 
   <section class="field-trip-strip">
     <div class="container">
       <header class="field-trips__header">
         <span class="field-trips__eyebrow">Field Trips</span>
-        <p class="field-trips__sub">Where we go next. Buddy Guy's 90th at Radio City Music Hall on October 1 — Clapton, Mayer, Bonamassa and a room full of blues legends.</p>
+        <p class="field-trips__sub">Where we go next. Two weeks across Japan this November — four metal show nights from Tokyo to Kawasaki.</p>
       </header>
       <div class="field-trips__stack">
         {fieldTrips.map((trip) => (
@@ -233,8 +234,8 @@ const lastUpdated = data.generatedAt
         <div class="bucket__grid">
           <a class="nini-radar" href="/watching" style="display:block;text-decoration:none;background:#141414;border:1px solid #2a2a2a;border-left:4px solid #e50914;border-radius:12px;padding:18px 20px;">
             <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#e50914;font-weight:700;margin-bottom:8px;">Coming to the channel</div>
-            <div style="font-size:20px;font-weight:700;color:#fff;margin-bottom:6px;">Nini — Nini Music</div>
-            <div style="font-size:14px;line-height:1.5;color:#b7b2a9;">One of our favorites. Full interview now live on the channel. And she's coming to Florida.</div>
+            <div style="font-size:20px;font-weight:700;color:#fff;margin-bottom:6px;">Nini — Tampa, October 11</div>
+            <div style="font-size:14px;line-height:1.5;color:#b7b2a9;">Coverage of Nini's Tampa show on October 11th. Her full interview is already live on the channel — one of our favorites.</div>
             <div style="font-size:13px;color:#e50914;margin-top:12px;font-weight:600;">On Bands We Watch →</div>
           </a>
           {dontMiss.map((entry) => <ShowCard entry={entry} />)}

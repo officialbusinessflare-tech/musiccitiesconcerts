@@ -1,0 +1,178 @@
+---
+/**
+ * Metal Japan — November 2026 field trip.
+ *
+ * Public-facing, show-focused itinerary: the metal shows we're covering and
+ * the cities we pass through. Deliberately omits hotels, flight numbers,
+ * rates/points and personal details (same policy as /london).
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
+import Footer from '../components/Footer.astro';
+
+type Show = {
+  date: string;
+  weekday: string;
+  city: string;
+  billing: string;
+  venue: string;
+  detail: string;
+  status: string;
+};
+
+const shows: Show[] = [
+  {
+    date: 'Nov 8',
+    weekday: 'Sunday',
+    city: 'Tokyo',
+    billing: 'ASTERISM vs BRIDEAR',
+    venue: 'Shinjuku ANTIKNOCK',
+    detail: 'Doors 6:00 PM. A two-band head-to-head in one of Shinjuku’s great sweatbox live houses.',
+    status: 'Guest list confirmed',
+  },
+  {
+    date: 'Nov 11',
+    weekday: 'Wednesday',
+    city: 'Osaka',
+    billing: 'Hazuki',
+    venue: 'Osaka — venue to confirm',
+    detail: 'A solo night from Hazuki while we’re based in Osaka.',
+    status: 'Venue TBC',
+  },
+  {
+    date: 'Nov 14',
+    weekday: 'Saturday',
+    city: 'Nagoya',
+    billing: 'Broken By The Scream + HOLIDAY NEXT',
+    venue: 'Nagoya',
+    detail: 'Idol-metal firepower in Nagoya — BBTS on home turf after we caught them at Wacken and in London.',
+    status: 'Planned',
+  },
+  {
+    date: 'Nov 15',
+    weekday: 'Sunday',
+    city: 'Kawasaki',
+    billing: 'HAGANE + STRIKE BACK 2026',
+    venue: "CLUB CITTA' Kawasaki",
+    detail: 'Doors 1:00 PM, show 2:00 PM. An early-afternoon all-dayer — then, if time allows, THE JAM at 音楽室DX in Takadanobaba (doors 6:00 PM) to close the trip.',
+    status: 'Planned',
+  },
+];
+
+type Stop = { date: string; weekday: string; city: string; what: string };
+
+const route: Stop[] = [
+  { date: 'Nov 5', weekday: 'Thursday', city: 'Tokyo', what: 'Land at Haneda, settle into Tokyo.' },
+  { date: 'Nov 6–7', weekday: 'Fri–Sat', city: 'Tokyo', what: 'Open days in the city.' },
+  { date: 'Nov 8', weekday: 'Sunday', city: 'Tokyo', what: 'Show night — ASTERISM vs BRIDEAR, Shinjuku.' },
+  { date: 'Nov 9', weekday: 'Monday', city: 'Hiroshima', what: 'Shinkansen to Hiroshima; Miyajima and the Itsukushima torii at sunset.' },
+  { date: 'Nov 10', weekday: 'Tuesday', city: 'Osaka', what: 'Hiroshima Peace Park in the morning, then on to Osaka.' },
+  { date: 'Nov 11', weekday: 'Wednesday', city: 'Osaka', what: 'Show night — Hazuki.' },
+  { date: 'Nov 12', weekday: 'Thursday', city: 'Kyoto → Tokyo', what: 'Kyoto day trip, back in Tokyo that evening.' },
+  { date: 'Nov 13', weekday: 'Friday', city: 'Tokyo', what: 'Open day in the city.' },
+  { date: 'Nov 14', weekday: 'Saturday', city: 'Nagoya', what: 'Shinkansen to Nagoya — show night, Broken By The Scream.' },
+  { date: 'Nov 15', weekday: 'Sunday', city: 'Kawasaki', what: 'Show day — HAGANE / STRIKE BACK 2026 at CLUB CITTA’.' },
+  { date: 'Nov 16', weekday: 'Monday', city: 'Home', what: 'Fly home from Haneda.' },
+];
+---
+
+<BaseLayout
+  title="Metal Japan — November 2026 | The Music Cities"
+  description="Our November 2026 field trip across Japan: ASTERISM vs BRIDEAR, Broken By The Scream, HAGANE and more, from Tokyo to Osaka to Nagoya to Kawasaki."
+>
+  <Header />
+  <SceneNav activeBucketId="metal-japan" />
+
+  <main class="mj">
+    <section class="mj-hero container">
+      <span class="mj-hero__eyebrow">Field Trip</span>
+      <h1 class="mj-hero__title">Metal <em>Japan</em></h1>
+      <p class="mj-hero__dates">November 4–16, 2026 · Tokyo → Hiroshima → Osaka → Nagoya → Kawasaki</p>
+      <p class="mj-hero__lede">
+        Two weeks on the ground chasing the live scene we cover from afar all year — four show nights
+        across the country, moving city to city by shinkansen, with the torii at Miyajima and a Kyoto
+        day in between. This is where we're going next.
+      </p>
+    </section>
+
+    <section class="mj-section container">
+      <h2 class="mj-h2">The shows</h2>
+      <div class="mj-shows">
+        {shows.map((s) => (
+          <article class="mj-show">
+            <div class="mj-show__when">
+              <span class="mj-show__date">{s.date}</span>
+              <span class="mj-show__weekday">{s.weekday}</span>
+              <span class="mj-show__city">{s.city}</span>
+            </div>
+            <div class="mj-show__body">
+              <h3 class="mj-show__billing">{s.billing}</h3>
+              <p class="mj-show__venue">{s.venue}</p>
+              <p class="mj-show__detail">{s.detail}</p>
+              <span class="mj-show__status">{s.status}</span>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="mj-section container">
+      <h2 class="mj-h2">The route</h2>
+      <ol class="mj-route">
+        {route.map((r) => (
+          <li class={`mj-route__item${/Show/.test(r.what) ? ' is-show' : ''}`}>
+            <div class="mj-route__when"><span>{r.date}</span><span>{r.weekday}</span></div>
+            <div class="mj-route__city">{r.city}</div>
+            <div class="mj-route__what">{r.what}</div>
+          </li>
+        ))}
+      </ol>
+      <p class="mj-note">
+        Follow along on the channel — show coverage goes up as we post it. For the standing
+        picture of Japanese metal, see our <a href="/japan-scene">Japan Scene</a> and
+        <a href="/japan-global">Japan Global</a> briefs.
+      </p>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  .mj { background: #0a0a0a; color: #fff; }
+  .container { width: min(100% - 2rem, 1040px); margin-inline: auto; }
+  .mj-hero { padding: 2.5rem 1rem 1.5rem; }
+  .mj-hero__eyebrow { color: #e50914; font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 700; }
+  .mj-hero__title { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0.4rem 0 0.5rem; }
+  .mj-hero__title em { color: #e50914; font-style: normal; }
+  .mj-hero__dates { color: #d6d2c9; font-weight: 600; margin: 0 0 0.75rem; font-size: 0.98rem; }
+  .mj-hero__lede { color: #b7b2a9; line-height: 1.6; max-width: 62ch; margin: 0; }
+  .mj-section { padding: 1.5rem 1rem 0.5rem; }
+  .mj-h2 { font-size: 1.4rem; margin: 0 0 1rem; border-left: 4px solid #e50914; padding-left: 0.6rem; }
+  .mj-shows { display: grid; gap: 1rem; }
+  .mj-show { display: grid; grid-template-columns: 120px 1fr; gap: 1rem; background: #141414; border: 1px solid #262626; border-radius: 12px; padding: 1rem 1.1rem; }
+  .mj-show__when { display: flex; flex-direction: column; gap: 2px; border-right: 1px solid #262626; padding-right: 0.75rem; }
+  .mj-show__date { font-size: 1.25rem; font-weight: 800; color: #fff; }
+  .mj-show__weekday { font-size: 0.8rem; color: #9b968d; }
+  .mj-show__city { font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: #e50914; font-weight: 700; margin-top: 4px; }
+  .mj-show__billing { margin: 0 0 0.2rem; font-size: 1.15rem; }
+  .mj-show__venue { margin: 0 0 0.5rem; color: #d6d2c9; font-weight: 600; font-size: 0.9rem; }
+  .mj-show__detail { margin: 0 0 0.6rem; color: #b7b2a9; line-height: 1.5; font-size: 0.92rem; }
+  .mj-show__status { display: inline-block; font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: #cde8cd; background: rgba(40,120,40,0.18); border: 1px solid rgba(80,160,80,0.35); border-radius: 999px; padding: 3px 10px; font-weight: 700; }
+  .mj-route { list-style: none; margin: 0 0 1rem; padding: 0; display: grid; gap: 2px; }
+  .mj-route__item { display: grid; grid-template-columns: 96px 150px 1fr; gap: 0.75rem; align-items: baseline; padding: 0.55rem 0.6rem; border-radius: 8px; }
+  .mj-route__item.is-show { background: rgba(229,9,20,0.08); border-left: 3px solid #e50914; }
+  .mj-route__when { display: flex; flex-direction: column; }
+  .mj-route__when span:first-child { font-weight: 700; color: #fff; }
+  .mj-route__when span:last-child { font-size: 0.78rem; color: #9b968d; }
+  .mj-route__city { font-weight: 600; color: #d6d2c9; }
+  .mj-route__what { color: #b7b2a9; line-height: 1.45; font-size: 0.92rem; }
+  .mj-note { color: #9b968d; font-size: 0.9rem; line-height: 1.5; }
+  .mj-note a { color: #e50914; font-weight: 600; }
+  @media (max-width: 620px) {
+    .mj-show { grid-template-columns: 1fr; }
+    .mj-show__when { flex-direction: row; gap: 10px; align-items: baseline; border-right: none; border-bottom: 1px solid #262626; padding: 0 0 0.5rem; }
+    .mj-route__item { grid-template-columns: 1fr; gap: 2px; }
+  }
+</style>
