@@ -61,5 +61,38 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://music-citie
         });
       }
     </script>
+    <!-- Native push registration (runs only inside the iOS/Android Capacitor app) -->
+    <script is:inline>
+      (function () {
+        var Cap = window.Capacitor;
+        if (!Cap || typeof Cap.isNativePlatform !== "function" || !Cap.isNativePlatform()) return;
+        var Push = Cap.Plugins && Cap.Plugins.PushNotifications;
+        if (!Push) return;
+        var platform = (typeof Cap.getPlatform === "function" && Cap.getPlatform()) || "ios";
+
+        function sendToken(token) {
+          try {
+            fetch("/register-device", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ token: token, platform: platform })
+            }).catch(function () {});
+          } catch (e) {}
+        }
+
+        Push.addListener("registration", function (t) {
+          if (t && t.value) sendToken(t.value);
+        });
+        Push.addListener("registrationError", function (e) {
+          console.warn("push registration error", e);
+        });
+
+        Push.requestPermissions().then(function (res) {
+          if (res && res.receive === "granted") {
+            Push.register();
+          }
+        }).catch(function () {});
+      })();
+    </script>
   </body>
 </html>
