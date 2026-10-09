@@ -107,6 +107,7 @@ workflows:
       vars:
         PACKAGE_NAME: "com.businessflare.musiccities"
       node: 22
+      java: 21
     scripts:
       - name: Install npm dependencies
         script: npm ci
