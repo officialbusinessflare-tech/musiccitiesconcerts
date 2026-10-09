@@ -65,9 +65,9 @@ const BUCKET_HREFS: Record<string, string> = {
  * Field Trips — where we're actually going. Chronological order.
  */
 const FIELD_TRIPS: { id: string; name: string; href: string }[] = [
-  { id: 'buddy-guy', name: 'Buddy Guy at 90', href: '/buddy-guy' },
   { id: 'wacken', name: 'Wacken 2026', href: '/wacken' },
   { id: 'london', name: 'Metal London', href: '/london' },
+  { id: 'metal-japan', name: 'Metal Japan', href: '/metal-japan' },
   { id: 'namm', name: 'NAMM 2027', href: '/namm' },
 ];
 
@@ -104,6 +104,7 @@ const SCENE_BRIEFS: { id: string; name: string; href: string }[] = [
             </li>
             {bucket.id === 'florida-metal-scene' && (<>
               <li class="scene-nav__item"><a class={"scene-nav__link" + (activeBucketId === 'interviews' ? ' is-active' : '')} href="/interviews" aria-current={activeBucketId === 'interviews' ? 'page' : undefined}><span class="scene-nav__name">Interviews</span></a></li>
+              <li class="scene-nav__item"><a class={"scene-nav__link" + (activeBucketId === 'reviews' ? ' is-active' : '')} href="/reviews" aria-current={activeBucketId === 'reviews' ? 'page' : undefined}><span class="scene-nav__name">Reviews</span></a></li>
               <li class="scene-nav__item"><a class={"scene-nav__link" + (activeBucketId === 'map' ? ' is-active' : '')} href="/map" aria-current={activeBucketId === 'map' ? 'page' : undefined}><span class="scene-nav__name">Map</span></a></li>
             </>)}
             </>
