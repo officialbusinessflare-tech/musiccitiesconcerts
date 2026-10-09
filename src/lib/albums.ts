@@ -23,10 +23,10 @@ export const NEW_WINDOW_DAYS = 14;
 
 export const NEW_ALBUMS: NewAlbum[] = [
   {
-    title: 'Louder Than Life Thursday 9/17',
-    event: 'Louder Than Life 2026, Louisville',
-    url: 'https://www.pinterest.com/TheMusicCitiesPodcast/louder-than-life-thursday-917/',
-    added: '2026-09-21',
+    title: 'Rolling Quartz in Austin',
+    event: 'Rolling Quartz — Austin',
+    url: 'https://www.pinterest.com/TheMusicCitiesPodcast/rolling-quartz/',
+    added: '2026-10-09',
   },
 ];
 
