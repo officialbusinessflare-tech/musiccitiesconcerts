@@ -1,0 +1,89 @@
+---
+/**
+ * Reviews index — landing page for album/show reviews.
+ *
+ * Add a new entry to the `reviews` array when a review page ships.
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import SceneNav from '../../components/SceneNav.astro';
+import Footer from '../../components/Footer.astro';
+
+type Review = {
+  href: string;
+  art: string;
+  artAlt: string;
+  kicker: string;
+  title: string;
+  titleEm?: string;
+  dek: string;
+};
+
+const reviews: Review[] = [
+  {
+    href: '/reviews/spiders',
+    art: '/assets/reviews/spiders-crystal-eyes.jpg',
+    artAlt: 'Spiders — Crystal Eyes album cover',
+    kicker: 'Album review',
+    title: 'Spiders — ',
+    titleEm: 'Crystal Eyes',
+    dek: "Gothenburg's other export, and what a rehearsal room has to do with it. Our review of the fifth album, built on our interview with Ann-Sofie and John Hoyles.",
+  },
+];
+---
+
+<BaseLayout
+  title="Reviews | The Music Cities"
+  description="Album and show reviews from The Music Cities — where heavy metal is economic development."
+>
+  <Header />
+  <SceneNav activeBucketId="reviews" />
+
+  <main class="rv">
+    <section class="rv-hero container">
+      <span class="rv-hero__eyebrow">Reviews</span>
+      <h1 class="rv-hero__title">What we're <em>listening to</em></h1>
+      <p class="rv-hero__lede">
+        Record and show reviews, built on the conversations behind them. More on the way.
+      </p>
+    </section>
+
+    <section class="rv-list container">
+      {reviews.map((r) => (
+        <a class="rv-card" href={r.href}>
+          <img class="rv-card__art" src={r.art} alt={r.artAlt} width="400" height="400" loading="lazy" />
+          <div class="rv-card__text">
+            <span class="rv-card__kicker">{r.kicker}</span>
+            <h2 class="rv-card__title">{r.title}<em>{r.titleEm}</em></h2>
+            <p class="rv-card__dek">{r.dek}</p>
+            <span class="rv-card__cta">Read the review →</span>
+          </div>
+        </a>
+      ))}
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  .rv { background: #0a0a0a; color: #fff; }
+  .container { width: min(100% - 2rem, 1040px); margin-inline: auto; }
+  .rv-hero { padding: 2.5rem 1rem 1rem; }
+  .rv-hero__eyebrow { color: #e50914; font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 700; }
+  .rv-hero__title { font-size: clamp(2rem, 7vw, 3.2rem); line-height: 1.05; margin: 0.4rem 0 0.5rem; }
+  .rv-hero__title em { color: #e50914; font-style: normal; }
+  .rv-hero__lede { color: #b7b2a9; line-height: 1.6; max-width: 58ch; margin: 0; }
+  .rv-list { padding: 1rem 1rem 2rem; display: grid; gap: 1rem; }
+  .rv-card { display: flex; gap: 1.1rem; align-items: center; background: #141414; border: 1px solid #262626; border-radius: 12px; padding: 1rem 1.1rem; text-decoration: none; color: inherit; transition: background 0.15s ease; flex-wrap: wrap; }
+  .rv-card:hover { background: #1b1b1b; }
+  .rv-card__art { width: 110px; height: 110px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.14); object-fit: cover; flex: 0 0 auto; }
+  .rv-card__text { flex: 1 1 300px; min-width: 240px; }
+  .rv-card__kicker { display: inline-block; color: #e50914; font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700; margin-bottom: 0.3rem; }
+  .rv-card__title { margin: 0 0 0.35rem; font-size: clamp(1.3rem, 3.5vw, 1.7rem); line-height: 1.1; }
+  .rv-card__title em { color: #e50914; font-style: normal; }
+  .rv-card__dek { margin: 0 0 0.5rem; color: #b7b2a9; line-height: 1.5; font-size: 0.92rem; max-width: 60ch; }
+  .rv-card__cta { color: #fff; font-weight: 600; font-size: 0.9rem; }
+  .rv-card:hover .rv-card__cta { color: #e50914; }
+  @media (max-width: 520px) { .rv-card__art { width: 84px; height: 84px; } }
+</style>
