@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# native iOS project is regenerated in CI (npx cap add ios); do not commit
+ios/
+
+# os / editor
+.DS_Store
+*.log

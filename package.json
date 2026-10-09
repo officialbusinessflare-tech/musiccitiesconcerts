@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "The Music Cities Concerts Dashboard \u2014 curated metal shows, releases, festivals.",
+  "description": "The Music Cities Concerts Dashboard — curated metal shows, releases, festivals.",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -11,15 +11,23 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "fetch-data": "node scripts/fetch-clickup.js"
+    "fetch-data": "node scripts/fetch-clickup.js",
+    "cap:sync": "cap sync ios",
+    "cap:add-ios": "cap add ios"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/ios": "^8.5.3",
+    "@capacitor/push-notifications": "^8.1.3",
     "@netlify/blobs": "^8.1.0",
     "astro": "^4.16.18",
-    "@astrojs/check": "^0.9.4",
     "typescript": "^5.6.3"
   },
   "engines": {
     "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3"
   }
 }

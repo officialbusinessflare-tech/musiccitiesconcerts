@@ -1,0 +1,57 @@
+# Codemagic CI/CD — The Music Cities iOS (Capacitor wrapper of musiccitiesconcerts.com)
+#
+# One-time setup in Codemagic before the first build:
+#   1. Team settings > Integrations > Developer Portal > Manage keys:
+#        add the App Store Connect API key and NAME IT EXACTLY:  codemagic_asc
+#        (Issuer ID 960b58e5-eeb2-42b9-9212-20f4bd0969d0, Key ID JDY288QGZL,
+#         upload AuthKey_JDY288QGZL.p8). This name is referenced below.
+#   2. Nothing else — signing certificate + provisioning profile are fetched
+#      automatically from that key (the App ID already has Push Notifications).
+#
+# The native ios/ folder is NOT committed; it is generated fresh each build by
+# `npx cap add ios`, then configured for push by scripts/ios-setup-push.mjs.
+
+workflows:
+  ios-release:
+    name: The Music Cities iOS release
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: codemagic_asc
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.themusiccities.app
+      vars:
+        BUNDLE_ID: "com.themusiccities.app"
+        XCODE_PROJECT: "ios/App/App.xcodeproj"
+        XCODE_SCHEME: "App"
+      node: 20
+      xcode: latest
+    scripts:
+      - name: Install npm dependencies
+        script: npm ci
+      - name: Generate native iOS project
+        script: npx cap add ios
+      - name: Configure push notifications (entitlement, AppDelegate, scheme)
+        script: node scripts/ios-setup-push.mjs
+      - name: Sync Capacitor web assets + plugins
+        script: npx cap sync ios
+      - name: Set build number
+        script: |
+          cd ios/App
+          agvtool new-version -all "${BUILD_NUMBER:-1}"
+      - name: Apply signing profiles
+        script: xcode-project use-profiles
+      - name: Build signed IPA
+        script: |
+          xcode-project build-ipa \
+            --project "$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true

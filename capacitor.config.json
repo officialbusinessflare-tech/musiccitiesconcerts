@@ -1,0 +1,28 @@
+{
+  "appId": "com.themusiccities.app",
+  "appName": "The Music Cities",
+  "webDir": "www",
+  "server": {
+    "url": "https://musiccitiesconcerts.com",
+    "cleartext": false,
+    "allowNavigation": [
+      "musiccitiesconcerts.com",
+      "*.musiccitiesconcerts.com",
+      "themusiccities.com",
+      "*.themusiccities.com",
+      "www.youtube.com",
+      "youtube.com",
+      "*.youtube.com",
+      "youtu.be"
+    ]
+  },
+  "ios": {
+    "contentInset": "always",
+    "limitsNavigationsToAppBoundDomains": false
+  },
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  }
+}
