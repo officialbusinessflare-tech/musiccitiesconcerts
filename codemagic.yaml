@@ -22,6 +22,8 @@ workflows:
     integrations:
       app_store_connect: codemagic_asc
     environment:
+      groups:
+        - signing
       vars:
         BUNDLE_ID: "com.themusiccities.app"
         XCODE_PROJECT: "ios/App/App.xcodeproj"
