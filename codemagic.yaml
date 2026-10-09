@@ -81,9 +81,9 @@ workflows:
   #
   # One-time setup in Codemagic before the first build:
   #   Team settings > Code signing identities > Android keystores:
-  #     Upload mcc-upload.jks with reference name EXACTLY:  mcc_upload
+  #     Upload signing.keystore (PWABuilder) with reference name EXACTLY:  tmc_pwabuilder
   #     Keystore password / key password: (provided separately)
-  #     Key alias: upload
+  #     Key alias: my-key-alias
   #   Referencing it below (android_signing) injects CM_KEYSTORE_PATH,
   #   CM_KEYSTORE_PASSWORD, CM_KEY_ALIAS, CM_KEY_PASSWORD at build time.
   #
@@ -103,7 +103,7 @@ workflows:
     instance_type: mac_mini_m2
     environment:
       android_signing:
-        - mcc_upload
+        - tmc_pwabuilder
       vars:
         PACKAGE_NAME: "com.businessflare.musiccities"
       node: 22
