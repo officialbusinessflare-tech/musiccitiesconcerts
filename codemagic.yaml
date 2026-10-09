@@ -75,3 +75,56 @@ workflows:
       app_store_connect:
         auth: integration
         submit_to_testflight: false
+
+  # ---------------------------------------------------------------------------
+  # Google Play (Android) — Capacitor wrapper of musiccitiesconcerts.com
+  #
+  # One-time setup in Codemagic before the first build:
+  #   Team settings > Code signing identities > Android keystores:
+  #     Upload mcc-upload.jks with reference name EXACTLY:  mcc_upload
+  #     Keystore password / key password: (provided separately)
+  #     Key alias: upload
+  #   Referencing it below (android_signing) injects CM_KEYSTORE_PATH,
+  #   CM_KEYSTORE_PASSWORD, CM_KEY_ALIAS, CM_KEY_PASSWORD at build time.
+  #
+  # The native android/ folder is NOT committed; it is generated fresh each
+  # build by `npx cap add android`, then configured by scripts/android-setup.mjs
+  # (applicationId = com.businessflare.musiccities to match the Play listing,
+  # versionCode from $BUILD_NUMBER, and the release signingConfig).
+  #
+  # Push notifications are intentionally excluded from the Android build (the
+  # push plugin is removed before sync) so no Firebase/google-services.json is
+  # required. The site's push code no-ops when the plugin is absent.
+  #
+  # Output: a signed release .aab artifact to upload to Play Console.
+  android-release:
+    name: The Music Cities Android release
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    environment:
+      android_signing:
+        - mcc_upload
+      vars:
+        PACKAGE_NAME: "com.businessflare.musiccities"
+      node: 22
+    scripts:
+      - name: Install npm dependencies
+        script: npm ci
+      - name: Remove push plugin for Android (no Firebase needed)
+        script: npm rm @capacitor/push-notifications --no-save || true
+      - name: Generate native Android project
+        script: npx cap add android
+      - name: Configure Android (applicationId, version, signing)
+        script: node scripts/android-setup.mjs
+      - name: Sync Capacitor web assets + plugins
+        script: npx cap sync android
+      - name: Build signed release AAB
+        script: |
+          export JAVA_HOME=$(/usr/libexec/java_home -v 21 2>/dev/null || echo "$JAVA_HOME")
+          echo "Using JAVA_HOME=$JAVA_HOME"
+          cd android
+          chmod +x ./gradlew
+          ./gradlew bundleRelease --no-daemon
+    artifacts:
+      - android/app/build/outputs/**/*.aab
+      - android/app/build/outputs/**/mapping.txt
