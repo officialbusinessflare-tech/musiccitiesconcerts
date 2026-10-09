@@ -1,12 +1,15 @@
 # Codemagic CI/CD — The Music Cities iOS (Capacitor wrapper of musiccitiesconcerts.com)
 #
 # One-time setup in Codemagic before the first build:
-#   1. Team settings > Integrations > Developer Portal > Manage keys:
-#        add the App Store Connect API key and NAME IT EXACTLY:  codemagic_asc
-#        (Issuer ID 960b58e5-eeb2-42b9-9212-20f4bd0969d0, Key ID JDY288QGZL,
-#         upload AuthKey_JDY288QGZL.p8). This name is referenced below.
-#   2. Nothing else — signing certificate + provisioning profile are fetched
-#      automatically from that key (the App ID already has Push Notifications).
+#   Team settings > Integrations > Developer Portal > Manage keys:
+#     App Store Connect API key named EXACTLY:  codemagic_asc
+#     (Issuer ID 960b58e5-eeb2-42b9-9212-20f4bd0969d0, Key ID JDY288QGZL,
+#      AuthKey_JDY288QGZL.p8). Declaring the integration below exposes the
+#      APP_STORE_CONNECT_* env vars to the signing CLI.
+#
+# Signing is fully automatic: the distribution certificate and the App Store
+# provisioning profile are CREATED from that API key on the first build
+# (fetch-signing-files --create), since a brand-new app has neither yet.
 #
 # The native ios/ folder is NOT committed; it is generated fresh each build by
 # `npx cap add ios`, then configured for push by scripts/ios-setup-push.mjs.
@@ -19,9 +22,6 @@ workflows:
     integrations:
       app_store_connect: codemagic_asc
     environment:
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.themusiccities.app
       vars:
         BUNDLE_ID: "com.themusiccities.app"
         XCODE_PROJECT: "ios/App/App.xcodeproj"
@@ -41,7 +41,16 @@ workflows:
         script: |
           cd ios/App
           agvtool new-version -all "${BUILD_NUMBER:-1}"
-      - name: Apply signing profiles
+      - name: Initialize keychain
+        script: keychain initialize
+      - name: Fetch/create signing files
+        script: |
+          app-store-connect fetch-signing-files "$BUNDLE_ID" \
+            --type IOS_APP_STORE \
+            --create
+      - name: Add signing certificate to keychain
+        script: keychain add-certificates
+      - name: Apply signing profiles to Xcode project
         script: xcode-project use-profiles
       - name: Build signed IPA
         script: |
