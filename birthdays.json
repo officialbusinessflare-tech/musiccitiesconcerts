@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-10-10T07:00:55.348Z",
+  "generatedAt": "2026-10-11T07:00:53.432Z",
   "entries": [
-    {
-      "id": "86baazex2",
-      "name": "David Lee Roth Birthday Van Halen",
-      "person": "David Lee Roth",
-      "affiliation": "Van Halen",
-      "rawDate": "2026-10-10",
-      "month": 10,
-      "day": 10,
-      "description": "RECURRING ANNUAL — October 10\n\nFull name: David Lee Roth\nStage name: \"Diamond Dave\"\nBand & role: Van Halen — lead vocals; solo artist\nCountry of origin: USA\nGreeting language: English\nLast known interaction with Kevin/TMC: None recorded (direct-relationship solo artist tracked by Kevin)\nSource: Wikipedia (David Lee Roth) — DOB Oct 10, 1954",
-      "clickupUrl": "https://app.clickup.com/t/86baazex2"
-    },
     {
       "id": "86bard4wp",
       "name": "MISA Birthday BAND-MAID",
@@ -572,6 +561,17 @@
       "day": 4,
       "description": "Guitarist, Mary's Blood. Birthday Oct 4. Band is on indefinite hiatus; SAKI remains active solo. Holding entry for the birthdays pipeline.",
       "clickupUrl": "https://app.clickup.com/t/86bbeb82g"
+    },
+    {
+      "id": "86baazex2",
+      "name": "David Lee Roth Birthday Van Halen",
+      "person": "David Lee Roth",
+      "affiliation": "Van Halen",
+      "rawDate": "2026-10-10",
+      "month": 10,
+      "day": 10,
+      "description": "RECURRING ANNUAL — October 10\n\nFull name: David Lee Roth\nStage name: \"Diamond Dave\"\nBand & role: Van Halen — lead vocals; solo artist\nCountry of origin: USA\nGreeting language: English\nLast known interaction with Kevin/TMC: None recorded (direct-relationship solo artist tracked by Kevin)\nSource: Wikipedia (David Lee Roth) — DOB Oct 10, 1954",
+      "clickupUrl": "https://app.clickup.com/t/86baazex2"
     },
     {
       "id": "86bba6j59",
