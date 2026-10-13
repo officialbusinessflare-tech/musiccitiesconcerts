@@ -35,6 +35,8 @@ workflows:
         script: npm ci
       - name: Generate native iOS project
         script: npx cap add ios
+      - name: Generate app icons (launcher)
+        script: npx --yes @capacitor/assets@3 generate --ios --assetPath assets
       - name: Configure push notifications (entitlement, AppDelegate, scheme)
         script: node scripts/ios-setup-push.mjs
       - name: Sync Capacitor web assets + plugins
@@ -115,6 +117,8 @@ workflows:
         script: npm rm @capacitor/push-notifications --no-save || true
       - name: Generate native Android project
         script: npx cap add android
+      - name: Generate app icons (launcher)
+        script: npx --yes @capacitor/assets@3 generate --android --assetPath assets
       - name: Configure Android (applicationId, version, signing)
         script: node scripts/android-setup.mjs
       - name: Sync Capacitor web assets + plugins
