@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T12:30:00.000Z",
+  "generatedAt": "2026-10-13T12:30:00.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -38,6 +38,15 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-10-13",
+      "label": "napalm",
+      "artist": "Gloryhammer",
+      "headline": "Power metal titans release new single \"Starfighters of Leuchars\" with animated video. New album Space 1993: Wrath of Kor-Virliath out October 16, 2026.",
+      "type": "Single",
+      "releaseDate": "2026-10-16"
+    },
     {
       "kind": "send",
       "date": "2026-10-07",
