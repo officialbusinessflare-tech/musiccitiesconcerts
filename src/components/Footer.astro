@@ -10,12 +10,19 @@ const year = new Date().getFullYear();
       <a href="https://www.tiktok.com/@themusiccitiespodcast" target="_blank" rel="noopener noreferrer" aria-label="TikTok — @themusiccitiespodcast">TikTok</a>
       <a href="https://x.com/themusiccities" target="_blank" rel="noopener noreferrer" aria-label="X — @themusiccities">X</a>
       <a href="https://www.facebook.com/TheMusicCitiesPodcast" target="_blank" rel="noopener noreferrer" aria-label="Facebook — The Music Cities Podcast">Facebook</a>
+      <a href="/contact" aria-label="Contact The Music Cities">Contact</a>
     </nav>
 
     <p class="site-footer__tagline">Where heavy metal is economic development.</p>
 
     <p class="site-footer__meta">
       &copy; {year} The Music Cities. Updated nightly from our editorial calendar.
+      &middot; <a href="mailto:kevin@businessflare.net">kevin@businessflare.net</a>
     </p>
   </div>
 </footer>
+
+<style>
+  .site-footer__meta a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+  .site-footer__meta a:hover { color: var(--color-accent); }
+</style>
