@@ -1,0 +1,53 @@
+---
+/**
+ * Contact page. Public contact details for The Music Cities.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout
+  title="Contact — The Music Cities"
+  description="Get in touch with The Music Cities — interviews, coverage, press, and general inquiries."
+>
+  <Header />
+  <SceneNav />
+
+  <main class="container legal">
+    <h1>Contact</h1>
+
+    <p>The Music Cities is a music and economic-development publication covering the metal and rock scenes — concerts, festivals, album releases, and artist interviews. Whether you're a band, label, PR, venue, or just want to reach us, we'd love to hear from you.</p>
+
+    <h2>Email</h2>
+    <p>The best way to reach us is by email: <a href="mailto:kevin@businessflare.net">kevin@businessflare.net</a> — Kevin Crowder, Founder.</p>
+
+    <h2>Interviews &amp; coverage</h2>
+    <p>Bands, artists, and PR contacts: pitch an interview, a release, or a show by email. We cover the Florida scene, Japanese metal, and the wider global underground, and we travel for field trips throughout the year.</p>
+
+    <h2>Follow along</h2>
+    <p>
+      <a href="https://www.youtube.com/@themusiccitiespodcast" target="_blank" rel="noopener noreferrer">YouTube</a> ·
+      <a href="https://www.instagram.com/themusiccities" target="_blank" rel="noopener noreferrer">Instagram</a> ·
+      <a href="https://www.tiktok.com/@themusiccitiespodcast" target="_blank" rel="noopener noreferrer">TikTok</a> ·
+      <a href="https://x.com/themusiccities" target="_blank" rel="noopener noreferrer">X</a> ·
+      <a href="https://www.facebook.com/TheMusicCitiesPodcast" target="_blank" rel="noopener noreferrer">Facebook</a>
+    </p>
+
+    <p class="legal__back"><a href="/">Back to the dashboard</a></p>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  .legal { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  .legal h1 { font-size: 32px; margin: 8px 0 16px; }
+  .legal h2 { font-size: 18px; margin: 28px 0 8px; }
+  .legal p { color: #cfcabf; font-size: 15px; line-height: 1.65; margin: 0 0 12px; }
+  .legal a { color: #e50914; text-decoration: none; }
+  .legal a:hover { text-decoration: underline; }
+  .legal__back { margin-top: 32px; }
+  .legal__back a { color: #8a8279; }
+</style>
