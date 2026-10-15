@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T12:30:00.000Z",
+  "generatedAt": "2026-10-15T13:50:00.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -38,6 +38,15 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-10-13",
+      "label": "napalm",
+      "artist": "Heathen",
+      "headline": "Bay Area thrash icons announce new album Lifetime in Hell, out February 19, 2027. First single \"Escapegoat\" out now with official video.",
+      "type": "Album",
+      "releaseDate": "2027-02-19"
+    },
     {
       "kind": "send",
       "date": "2026-10-13",
