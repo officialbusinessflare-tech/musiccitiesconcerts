@@ -236,11 +236,26 @@ const lastUpdated = data.generatedAt
           <p class="dont-miss__sub">The high-priority shows we're actually building around — marquee acts, confirmed field trips, the ones worth planning your week around.</p>
         </header>
         <div class="bucket__grid">
-          <a class="nini-radar" href="/watching" style="display:block;text-decoration:none;background:#141414;border:1px solid #2a2a2a;border-left:4px solid #e50914;border-radius:12px;padding:18px 20px;">
-            <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#e50914;font-weight:700;margin-bottom:8px;">Coming to the channel</div>
-            <div style="font-size:20px;font-weight:700;color:#fff;margin-bottom:6px;">Nini — Tampa, October 11</div>
-            <div style="font-size:14px;line-height:1.5;color:#b7b2a9;">Her full interview is already live on the channel — and we caught a follow-up with her before her October 11th Tampa show. That one's coming to the channel soon. One of our favorites.</div>
-            <div style="font-size:13px;color:#e50914;margin-top:12px;font-weight:600;">On Bands We Watch →</div>
+          <a class="nini-radar" href="https://www.youtube.com/@themusiccitiespodcast" target="_blank" rel="noopener" style="display:block;text-decoration:none;background:#141414;border:1px solid #2a2a2a;border-left:4px solid #e50914;border-radius:12px;padding:18px 20px;">
+            <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#e50914;font-weight:700;margin-bottom:12px;">Coming soon to the channel</div>
+            <ol style="list-style:none;margin:0;padding:0;counter-reset:cst;">
+              <li style="counter-increment:cst;margin-bottom:12px;padding-left:28px;position:relative;">
+                <span style="position:absolute;left:0;top:0;color:#e50914;font-weight:800;font-size:15px;">1.</span>
+                <div style="font-size:16px;font-weight:700;color:#fff;margin-bottom:2px;">Arch Enemy — concert review</div>
+                <div style="font-size:13px;line-height:1.5;color:#b7b2a9;">Live at Revolution Live, Fort Lauderdale (Oct 16) — our review of the show.</div>
+              </li>
+              <li style="counter-increment:cst;margin-bottom:12px;padding-left:28px;position:relative;">
+                <span style="position:absolute;left:0;top:0;color:#e50914;font-weight:800;font-size:15px;">2.</span>
+                <div style="font-size:16px;font-weight:700;color:#fff;margin-bottom:2px;">SAKI — <em style="font-style:italic;color:#fff;">Pluvia</em> review</div>
+                <div style="font-size:13px;line-height:1.5;color:#b7b2a9;">Our review of SAKI's new album, <em style="font-style:italic;">Pluvia</em>.</div>
+              </li>
+              <li style="counter-increment:cst;padding-left:28px;position:relative;">
+                <span style="position:absolute;left:0;top:0;color:#e50914;font-weight:800;font-size:15px;">3.</span>
+                <div style="font-size:16px;font-weight:700;color:#fff;margin-bottom:2px;">Nini — follow-up interview</div>
+                <div style="font-size:13px;line-height:1.5;color:#b7b2a9;">Our follow-up sit-down with Nini, caught before her October 11th Tampa show. One of our favorites.</div>
+              </li>
+            </ol>
+            <div style="font-size:13px;color:#e50914;margin-top:14px;font-weight:600;">Watch on the channel →</div>
           </a>
           {dontMiss.map((entry) => <ShowCard entry={entry} />)}
         </div>
