@@ -1,106 +1,6 @@
 {
-  "generatedAt": "2026-10-14T07:01:03.310Z",
+  "generatedAt": "2026-10-15T07:00:49.917Z",
   "entries": [
-    {
-      "id": "86bba6hge",
-      "name": "Voivod + BAT @ The Abbey — Orlando, FL — Oct 14 2026",
-      "date": "2026-10-14",
-      "venue": "The Abbey",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Voivod",
-        "BAT"
-      ],
-      "description": "American Tour 2026 Part 2.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bba6hge",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbzt6cv",
-      "name": "Nini Music + Seven Kingdoms @ Canal Club — Richmond, VA — Oct 14 2026",
-      "date": "2026-10-14",
-      "venue": "Canal Club",
-      "city": "Richmond",
-      "state": "VA",
-      "bands": [
-        "Nini Music",
-        "Seven Kingdoms"
-      ],
-      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzt6cv",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbr72uc",
-      "name": "Thrown + Norma Jean + Half Me @ The Orpheum — Tampa, FL — Oct 14 2026",
-      "date": "2026-10-14",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Thrown",
-        "Norma Jean",
-        "Half Me"
-      ],
-      "description": "Swedish hardcore act Thrown co-headlines with Norma Jean, plus Half Me and Boltcutter. A strong European-into-Florida metalcore bill at a tracked room.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr72uc",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbr506q",
-      "name": "NINI + Seven Kingdoms @ Canal Club — Richmond, VA — Oct 14 2026",
-      "date": "2026-10-14",
-      "venue": "Canal Club",
-      "city": "Richmond",
-      "state": "VA",
-      "bands": [
-        "NINI",
-        "Seven Kingdoms"
-      ],
-      "description": "NINI Music headlining, Seven Kingdoms supporting. Canal Club, Richmond, VA. NINI / Seven Kingdoms US fall tour.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr506q",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w4q1",
-      "name": "BAND-MAID @ The Van Buren — Phoenix, AZ — Oct 14 2026",
-      "date": "2026-10-14",
-      "venue": "The Van Buren",
-      "city": "Phoenix",
-      "state": "AZ",
-      "bands": [
-        "BAND-MAID"
-      ],
-      "description": "BAND-MAID — World Tour 2026 NA leg. The Van Buren in Phoenix, AZ. Show date: Oct 14 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w4q1",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbzt6d4",
       "name": "Nini Music + Seven Kingdoms @ Woodshop — New York, NY — Oct 15 2026",
@@ -4695,6 +4595,26 @@
       ]
     },
     {
+      "id": "86bcj3bu7",
+      "name": "The Divine Extinction @ The Banyan Live — West Palm Beach, FL — Dec 3 2026",
+      "date": "2026-12-03",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "The Divine Extinction"
+      ],
+      "description": "The Divine Extinction at The Banyan Live, West Palm Beach, Thursday December 3, 2026. 18+, show 6 PM, presented by Respiromalo. Tickets: https://www.etix.com/ticket/p/40599038/the-divine-extinction-west-palm-beach-the-banyan-live?partner_id=100 Source: venue calendar.",
+      "ticketUrl": "https://www.etix.com/ticket/p/40599038/the-divine-extinction-west-palm-beach-the-banyan-live?partner_id=100",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcj3bu7",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc05hk3",
       "name": "Mental Cruelty + Ov Sulfur + Extermination Dismemberment @ Downstairs at The Dome — London, UK — Dec 3 2026",
       "date": "2026-12-03",
@@ -5189,6 +5109,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbtbrjt",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcj3bt8",
+      "name": "Nicko McBrain's Titanium Tart @ Rock N Roll Ribs — Coral Springs, FL — Dec 12 2026",
+      "date": "2026-12-12",
+      "venue": "Rock N Roll Ribs",
+      "city": "Coral Springs",
+      "state": "FL",
+      "bands": [
+        "Nicko McBrain's Titanium Tart"
+      ],
+      "description": "Rock N Roll Ribs 17th Anniversary Block Party, Saturday December 12, 2026 — Nicko McBrain's restaurant celebrates with its annual anniversary bash; Nicko McBrain's Titanium Tart is on the flyer. Source: Rock N Roll Ribs announcement. Check the restaurant's page for set times.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcj3bt8",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -5857,6 +5796,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bc4yuh2",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcj3br0",
+      "name": "Quiet Riot @ Cotee River Bike Fest — New Port Richey, FL — Jan 16 2027",
+      "date": "2027-01-16",
+      "venue": "Cotee River Bike Fest",
+      "city": "New Port Richey",
+      "state": "FL",
+      "bands": [
+        "Quiet Riot"
+      ],
+      "description": "Quiet Riot — the band behind \"Metal Health,\" \"Cum On Feel the Noize\" and \"Mama Weer All Crazee Now\" — headlines Cotee River Bike Fest in Downtown New Port Richey, FL on Saturday, January 16, 2027. Source: band announcement.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcj3br0",
+      "buckets": [
+        "key-festivals"
       ]
     },
     {
