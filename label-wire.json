@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T13:50:00.000Z",
+  "generatedAt": "2026-10-16T12:06:41.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -38,6 +38,15 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-10-15",
+      "label": "napalm",
+      "artist": "tAKiDA",
+      "headline": "Swedish rockers release new single \"Tale of four broken men\" with video visualizer. New album Numbers out January 8, 2027.",
+      "type": "Single",
+      "releaseDate": "2027-01-08"
+    },
     {
       "kind": "send",
       "date": "2026-10-13",
