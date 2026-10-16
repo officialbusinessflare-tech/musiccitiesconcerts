@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-10-15T07:01:50.265Z",
+  "generatedAt": "2026-10-16T07:00:57.642Z",
   "entries": [
-    {
-      "id": "86bard4wp",
-      "name": "MISA Birthday BAND-MAID",
-      "person": "MISA",
-      "affiliation": "BAND-MAID",
-      "rawDate": "2026-10-15",
-      "month": 10,
-      "day": 15,
-      "description": "RECURRING ANNUAL — October 15\n\nBand & role: BAND-MAID — bass\nCountry of origin: Japan\nBorn: October 15, 1993\nSource: Famous Birthdays, Kpop Profiles, Wikipedia",
-      "clickupUrl": "https://app.clickup.com/t/86bard4wp"
-    },
     {
       "id": "86bard4gd",
       "name": "Rami Birthday BABYMONSTER",
@@ -572,6 +561,17 @@
       "day": 10,
       "description": "RECURRING ANNUAL — October 10\n\nFull name: David Lee Roth\nStage name: \"Diamond Dave\"\nBand & role: Van Halen — lead vocals; solo artist\nCountry of origin: USA\nGreeting language: English\nLast known interaction with Kevin/TMC: None recorded (direct-relationship solo artist tracked by Kevin)\nSource: Wikipedia (David Lee Roth) — DOB Oct 10, 1954",
       "clickupUrl": "https://app.clickup.com/t/86baazex2"
+    },
+    {
+      "id": "86bard4wp",
+      "name": "MISA Birthday BAND-MAID",
+      "person": "MISA",
+      "affiliation": "BAND-MAID",
+      "rawDate": "2026-10-15",
+      "month": 10,
+      "day": 15,
+      "description": "RECURRING ANNUAL — October 15\n\nBand & role: BAND-MAID — bass\nCountry of origin: Japan\nBorn: October 15, 1993\nSource: Famous Birthdays, Kpop Profiles, Wikipedia",
+      "clickupUrl": "https://app.clickup.com/t/86bard4wp"
     },
     {
       "id": "86bba6j59",
