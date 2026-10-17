@@ -1,0 +1,246 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import SceneNav from '../../components/SceneNav.astro';
+import Footer from '../../components/Footer.astro';
+
+/**
+ * /reviews/pluvia — SAKI "PLUVIA" review. A No Skip Review.
+ * Canonical review page; the link target for the YouTube video, LinkedIn, X
+ * and Facebook posts, and the Coming Soon card on the homepage.
+ *
+ * EPISODE is the full YouTube review video ID — set it when the video is live
+ * and the "Watch" block appears. SHORT_1 is an optional companion Short.
+ */
+const COVER = '/assets/reviews/saki-pluvia.jpg';
+const BADGE = '/assets/reviews/no-skip-badge.png';
+const EPISODE = 'l8HJQbBZqW0';   // YouTube review video — live
+const SHORT_1 = '';   // optional companion Short ID
+
+const CANONICAL = 'https://themusiccities.com/reviews/pluvia';
+
+const facts = [
+  { k: 'Artist', v: 'SAKI — Japan' },
+  { k: 'Album', v: 'PLUVIA — major-label solo debut' },
+  { k: 'Label', v: 'King Records NEXUS (Japan) · JPU Records (international)' },
+  { k: 'Release', v: 'June 24, 2026 (Japan) · August 26, 2026 (international)' },
+  { k: 'Runtime', v: 'Ten tracks · 42 minutes' },
+  { k: 'The brief', v: 'Guitar instrumental, no guest vocalists — the label’s call, not hers' },
+  { k: 'Guests', v: 'Senri Kawaguchi, Gus G., Frédéric Leclercq (Kreator), hibiki (SABER TIGER / NoGoD), Kagemaru (Jigzag), Naoki Oka (piano / co-writer)' },
+  { k: 'The guitars', v: 'Signature Killer "The Empress" 7-string — but the record was cut mostly on "Wagara-chan," a road-worn older instrument' },
+  { k: 'Verdict', v: 'A No Skip Review' },
+];
+---
+
+<BaseLayout
+  title="SAKI — PLUVIA: review | The Music Cities"
+  description="A No Skip Review of PLUVIA, the major-label solo debut from Japanese guitarist SAKI — out June 24, 2026 on King Records NEXUS, internationally through JPU Records."
+  ogImage={COVER}
+  canonical={CANONICAL}
+>
+  <Header />
+  <SceneNav />
+
+  <article class="rev">
+    <section class="rev-hero">
+      <div class="container rev-hero__inner">
+        <div class="rev-hero__art">
+          <img src={COVER} alt="SAKI — PLUVIA album cover" width="1024" height="1024" fetchpriority="high" />
+        </div>
+        <div class="rev-hero__meta">
+          <p class="rev-hero__eyebrow">No Skip Review</p>
+          <h1 class="rev-hero__title">SAKI — <em>PLUVIA</em></h1>
+          <p class="rev-hero__sub">Major-label solo debut · King Records NEXUS / JPU Records · 2026</p>
+          <p class="rev-hero__dek">A guitar record made by someone who could have made a technique record and declined.</p>
+        </div>
+        <img class="rev-hero__badge" src={BADGE} alt="The Music Cities — No Skip Review" width="600" height="600" />
+      </div>
+    </section>
+
+    <main class="rev-main">
+      <div class="container rev-grid">
+
+        <div class="rev-body">
+          <p class="rev-standfirst">King Records NEXUS, June 24, 2026. International release through JPU Records, August 26, 2026. Ten tracks, 42 minutes.</p>
+
+          <h2 class="rev-h2">What the label actually asked for</h2>
+
+          <p>The most interesting decision on <em>PLUVIA</em> was made before any of it was written, and it was not SAKI's. She told Electric Bloom Webzine that King Records gave her a great deal of freedom on her major label solo debut, and that the label then suggested she focus on guitar instrumentals rather than build the record around guest vocalists. She put it more plainly to Visual Music Japan, saying she had assumed she was being asked to feature singers, and that the label came back and told her to make it guitar only.</p>
+
+          <p>Consider what the obvious version of this album looks like. A guitarist with her contact list, fifteen years in, moving to a major, could have delivered a procession of guest vocalists and a record built to be shared around. The label asked for the opposite. Everything restrained about <em>PLUVIA</em> follows from that, and the restraint is the brief rather than a limitation.</p>
+
+          <p>She described the result to Electric Bloom as an instrumental work designed to be relaxing. That is a striking sentence from a player who has topped the <em>BURRN!</em> readers poll in her category in Japan for about a decade. This is not a technique record wearing a concept. It is a melody record made by somebody who could have made a technique record and declined.</p>
+
+          <h2 class="rev-h2">Rain, and the one Japanese title</h2>
+
+          <p><em>PLUVIA</em> is Latin for rain. SAKI told Electric Bloom that rain has fallen at every major milestone show of her life, and that she has come to treat it as a lucky sign and a personal keyword. She tied it to Japanese belief in the same answer, noting that rain deities and dragon gods are regarded as patrons of the arts, and added that this may be a bit inconvenient for the staff and the audience.</p>
+
+          <p>The fuller version is in Visual Music Japan, and it is better. There she works through the word <em>ameonna</em>, the rain woman who brings weather with her, and says she spent years treating it as something to apologise for. What changed it was learning that the god of rain and the god of art are the same deity, tied to dragons. An <em>ameonna</em> in that reading is not cursed, she is watched over. SAKI says the rain stopped being an embarrassment and started feeling like confirmation that she was where she was supposed to be.</p>
+
+          <p>The Latin runs through the sequence. The album opens on <em>PLUVIA</em> and closes on <em>GERMINANS</em>, the germinating, with <em>Flores a Flores</em> between them. Water to sprout to flower. One caution on how far to push that: <em>GERMINANS</em> came out as a standalone single in February 2024, before the album concept existed, so the arc is at least partly found rather than planned. That makes it a frame she recognised rather than a blueprint she followed, which is arguably the more interesting thing.</p>
+
+          <p>Track seven is the one that matters most here, and it is the only Japanese title on the record. 翠雨, read <em>Suiu</em>, is rain falling on fresh green foliage. Not weather in general, a specific spring rain. It sits immediately after the two tracks that sound least Japanese on the album, and that placement does more work than anything else in the running order.</p>
+
+          <h2 class="rev-h2">The walkthrough</h2>
+
+          <p>The opener and title track carries the water imagery that runs through the artwork. About ninety seconds in it starts to feel familiar while still feeling fresh, which is a tension that recurs across the record and which I hear in Japanese heavy music generally. By four minutes you know exactly whose hands these are.</p>
+
+          <p><em>Dezerted Zygos</em> is one of the best things here and the closest the album comes to what a listener who knows her previous work would expect out of her guitar. <em>HORIZON</em> is the track that sounds most like what you would predict from a Japanese guitar instrumental album in 2026, familiar and fresh at once again. <em>THE EMPRESS</em> earns its place on what happens in the middle of it, where the rhythmic flow shifts and the phrasing inside her runs gets genuinely interesting.</p>
+
+          <p><em>M.D.D.</em> and <em>Teeny Tiny Dance</em> are where the album moves. They are more versatile than what surrounds them, more contemporary, more global. <em>M.D.D.</em> has passages that are close to anthemic and you can hear an audience finding them. Neither is metal and neither is for head banging, and both work. Said carefully, because this may be a matter of ears: I do not hear Japan in those two the way I hear it in <em>Dezerted Zygos</em> or <em>THE EMPRESS</em>.</p>
+
+          <p>Which is what makes 翠雨 land the way it does. Coming out of that contemporary stretch, it arrives big, with a room around it. The opening sets a high expectation and the melody meets it without a gap. It is also where the rhythm section does its best work on the album, and the drive it carries does not register until the track is nearly over and you realise how much of it you have been getting.</p>
+
+          <p><em>Flores a Flores</em> is the outlier, and obviously that is Gus G. on the solo. If what you came for is blistering guitar, it is here, and if you picked up this album knowing only SAKI's name, this is the song that gives you what you expected. The harmonies are the interesting part. You get guitar harmonies on this track that appear nowhere else on the record, and they are not the ones you are used to from her or from other Japanese twin guitar bands either. They point back to foundational harmonies from decades ago more than to anything current.</p>
+
+          <p><em>GERMINANS</em> closes, and stands on its own doing it. What keeps pulling me back is that I can hear it trying to tell a story and I have not worked out what the story is. I cannot say whether that is deliberate, but it leaves the construction to the listener, and every few passes a phrase comes through that feels like the answer before it slips again. It behaves like a multi part piece despite running a little over four minutes.</p>
+
+          <h2 class="rev-h2">Redemption</h2>
+
+          <p><em>Redemption</em> is the best track on the album and it was finished before most of the rest of it, having been sold as half of a two track CD at her Autumn Rain shows in September 2025 and nowhere else. The name is earned. It moves through a sequence of feelings rather than a sequence of parts, the solo lifts it, and it arrives somewhere freer than where it started.</p>
+
+          <p>There is a reason for that. SAKI told Visual Music Japan that before this album there was a stretch when her own music had become painful to think about. She was with a friend who is not a musician, picked up a guitar for no particular reason, and played a little. The friend told her she was good. She says the song came directly out of that moment and that it is the one that saved her, and she names it as the most special track on the record.</p>
+
+          <p>I had already decided it should have been the closer before I knew any of that. Placing it ninth, against a track that also functions as an ending, produces a record that does not want to finish. That is the only note I have on the sequencing, and I am not certain I am right about it.</p>
+
+          <h2 class="rev-h2">The parts nobody else is reporting</h2>
+
+          <p>Naoki Oka plays piano on the title track and is credited as co writer and arranger on it. On an album where SAKI wrote everything else, that makes him the most consequential name on the record after hers, and he is left out of essentially every English review of it. For an instrumental album, a co writer on the title track is not a footnote.</p>
+
+          <p>The full guest list is smaller than the coverage implies. Senri Kawaguchi plays drums on the opener and the closer. Gus G. takes the solo on <em>Flores a Flores</em>. hibiki of SABER TIGER and NoGoD plays bass and Kagemaru of Jigzag plays drums on <em>Redemption</em>. Frédéric Leclercq, now in Kreator, plays bass on <em>GERMINANS</em>. Six of the ten tracks have no guests at all, which is the album answering the label's brief directly.</p>
+
+          <p>Two production details are worth more than they look. SAKI told Electric Bloom that she used thin knitted gloves on this record both to protect her fingers and to alter the tone of the guitar, and in the same answer said that more than playing fast she focused on expression, and that subtle vibrato in particular became important. A guitarist who puts fabric between her fingertips and the strings on a major label debut is telling you what she is chasing.</p>
+
+          <p>The instrument is the other one. Her signature Killer is a seven string called The Empress and there is a track of the same name, so the two look like a pair. They are not. Asked which guitar she used most, SAKI named Wagara-chan, an older instrument she says has become capable of a wide range after years of use, maintenance and modification, and from which she can draw many different tones. The new signature model is the headline. The road worn one made the album.</p>
+
+          <p>She also credits a source for the album's direction that nobody would guess. Joining Like~an~Angel, the project led by L'Arc-en-Ciel bassist tetsuya, meant studying Ken's guitar parts properly. She told Electric Bloom that because his style is so unlike her own she had never examined it closely before, and that discovering those approaches had a major influence on this album. Her own account of the preparation, posted in October 2023, describes going to play a Ken signature model and working through articles for his effector settings. For a record that steps away from aggression toward melody and texture, a close reading of one of the most texturally inventive players in Japanese rock is a straight line.</p>
+
+          <h2 class="rev-h2">The call</h2>
+
+          <p>We do not score albums here. What we do is tell you whether a record holds end to end, and this one does. I have had <em>PLUVIA</em> on driving around Florida since it arrived and I have not skipped a track, not once, all the way through. That is the measure, and this is a No Skip Review.</p>
+
+          <p>What it establishes is not that SAKI can play, which was never a question. It is that she can carry a record alone when the format leaves her nothing to hide behind. She was handed a brief she did not choose and answered it.</p>
+
+          <section class="rev-watch">
+            <h2 class="rev-h2">Watch</h2>
+            {EPISODE ? (
+              <div class="rev-video">
+                <iframe src={`https://www.youtube-nocookie.com/embed/${EPISODE}`} title="SAKI — PLUVIA, the review" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            ) : (
+              <p class="rev-watch__soon">The video review is coming to the channel. Check back soon.</p>
+            )}
+            {SHORT_1 && (
+              <div class="rev-shorts">
+                <div class="rev-short"><iframe src={`https://www.youtube-nocookie.com/embed/${SHORT_1}`} title="SAKI — PLUVIA short" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+              </div>
+            )}
+          </section>
+        </div>
+
+        <aside class="rev-side">
+          <div class="rev-card">
+            <h2 class="rev-card__title">The facts</h2>
+            <dl class="rev-facts">
+              {facts.map((f) => (
+                <div><dt>{f.k}</dt><dd>{f.v}</dd></div>
+              ))}
+            </dl>
+          </div>
+
+          <div class="rev-card">
+            <h2 class="rev-card__title">Track listing</h2>
+            <ol class="rev-tracks">
+              <li><span>PLUVIA</span> <em>4:51 — drums Senri Kawaguchi, piano &amp; co-write Naoki Oka</em></li>
+              <li><span>Dezerted Zygos</span> <em>4:29</em></li>
+              <li><span>HORIZON</span> <em>4:44</em></li>
+              <li><span>THE EMPRESS</span> <em>4:06</em></li>
+              <li><span>M.D.D.</span> <em>3:28</em></li>
+              <li><span>Teeny Tiny Dance</span> <em>3:27</em></li>
+              <li><span>翠雨 (Suiu)</span> <em>3:45</em></li>
+              <li><span>Flores a Flores</span> <em>3:41 — solo Gus G.</em></li>
+              <li><span>Redemption</span> <em>5:40 — bass hibiki, drums Kagemaru</em></li>
+              <li><span>GERMINANS</span> <em>4:10 — bass Frédéric Leclercq, drums Senri Kawaguchi</em></li>
+            </ol>
+          </div>
+
+          <div class="rev-card">
+            <h2 class="rev-card__title">SAKI</h2>
+            <ul class="rev-links">
+              <li><a href="https://www.youtube.com/@guitaristsakichannel3515" target="_blank" rel="noopener noreferrer">YouTube — @guitaristsakichannel3515</a></li>
+              <li><a href="https://www.instagram.com/chakixx/" target="_blank" rel="noopener noreferrer">Instagram — @chakixx</a></li>
+              <li><a href="https://x.com/chakixx" target="_blank" rel="noopener noreferrer">X — @chakixx</a></li>
+              <li><a href="https://www.threads.net/@chakixx" target="_blank" rel="noopener noreferrer">Threads — @chakixx</a></li>
+              <li><a href="https://www.tiktok.com/@guitaristsaki" target="_blank" rel="noopener noreferrer">TikTok — @guitaristsaki</a></li>
+              <li><a href="https://chakixxfc.com" target="_blank" rel="noopener noreferrer">Fan club — chakixxfc.com</a></li>
+            </ul>
+          </div>
+
+          <div class="rev-card">
+            <h2 class="rev-card__title">Get PLUVIA</h2>
+            <ul class="rev-links">
+              <li><a href="https://www.jpurecords.com/" target="_blank" rel="noopener noreferrer">JPU Records (international)</a></li>
+              <li><a href="https://www.kingrecords.co.jp/" target="_blank" rel="noopener noreferrer">King Records (Japan)</a></li>
+            </ul>
+          </div>
+        </aside>
+
+      </div>
+    </main>
+  </article>
+
+  <Footer />
+
+  <style>
+    .rev-hero { border-bottom: 1px solid #262626; }
+    .rev-hero__inner { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; padding: 2rem 0 1.75rem; }
+    .rev-hero__art { flex: 0 0 auto; }
+    .rev-hero__art img { width: 220px; height: 220px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.14); object-fit: cover; display: block; }
+    .rev-hero__meta { flex: 1 1 320px; min-width: 260px; }
+    .rev-hero__eyebrow { margin: 0 0 0.35rem; color: #e11d2a; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; }
+    .rev-hero__title { margin: 0 0 0.4rem; font-size: clamp(1.8rem, 5vw, 2.8rem); line-height: 1.05; }
+    .rev-hero__title em { color: #e11d2a; font-style: normal; }
+    .rev-hero__sub { margin: 0 0 0.5rem; color: #c9c5b8; font-weight: 600; }
+    .rev-hero__dek { margin: 0; color: #8a8279; }
+    .rev-hero__badge { flex: 0 0 auto; width: 104px; height: 104px; object-fit: contain; align-self: flex-start; }
+
+    .rev-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2rem; padding: 2rem 0 3rem; align-items: start; }
+    .rev-body { min-width: 0; max-width: 44rem; }
+    .rev-body p { line-height: 1.75; color: #d9d4ca; margin: 0 0 1.15rem; font-size: 1.05rem; }
+    .rev-body em { color: #f0ece3; font-style: italic; }
+    .rev-standfirst { color: #8a8279 !important; font-size: 0.95rem !important; border-bottom: 1px solid #212121; padding-bottom: 1rem; }
+    .rev-h2 { margin: 2.25rem 0 0.85rem; font-size: 1.35rem; line-height: 1.2; }
+
+    .rev-watch { margin-top: 2rem; }
+    .rev-watch__soon { color: #8a8279; font-style: italic; }
+    .rev-video { position: relative; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; border: 1px solid #262626; background: #000; margin-bottom: 1rem; }
+    .rev-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    .rev-shorts { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 200px)); gap: 1rem; justify-content: start; }
+    .rev-short { aspect-ratio: 9 / 16; width: 100%; max-width: 200px; border-radius: 10px; overflow: hidden; border: 1px solid #262626; background: #000; }
+    .rev-short iframe { width: 100%; height: 100%; border: 0; }
+
+    .rev-side { display: flex; flex-direction: column; gap: 1rem; position: sticky; top: 1rem; }
+    .rev-card { border: 1px solid #262626; border-radius: 12px; padding: 1.1rem 1.2rem; background: #101010; }
+    .rev-card__title { margin: 0 0 0.6rem; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase; color: #b7b2a9; }
+    .rev-facts > div { padding: 0.55rem 0; border-bottom: 1px solid #212121; }
+    .rev-facts > div:last-child { border-bottom: 0; }
+    .rev-facts dt { font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: #8a8279; margin-bottom: 0.15rem; }
+    .rev-facts dd { margin: 0; color: #e6e2da; font-size: 0.92rem; line-height: 1.5; }
+    .rev-tracks { margin: 0; padding: 0 0 0 1.2rem; }
+    .rev-tracks li { padding: 0.3rem 0; color: #e6e2da; font-size: 0.9rem; border-bottom: 1px solid #1b1b1b; }
+    .rev-tracks li:last-child { border-bottom: 0; }
+    .rev-tracks li span { font-weight: 600; }
+    .rev-tracks li em { display: block; color: #8a8279; font-style: normal; font-size: 0.78rem; margin-top: 0.1rem; }
+    .rev-links { list-style: none; margin: 0; padding: 0; }
+    .rev-links li { padding: 0.3rem 0; }
+    .rev-links a { color: #e6e2da; }
+    .rev-links a:hover { color: #fff; }
+
+    @media (max-width: 820px) {
+      .rev-grid { grid-template-columns: 1fr; }
+      .rev-side { position: static; }
+      .rev-hero__art img { width: 150px; height: 150px; }
+      .rev-hero__badge { width: 72px; height: 72px; }
+    }
+  </style>
+</BaseLayout>
