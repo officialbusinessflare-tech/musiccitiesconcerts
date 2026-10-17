@@ -53,8 +53,8 @@ const facts = [
           <p class="rev-hero__sub">Major-label solo debut · King Records NEXUS / JPU Records · 2026</p>
           <p class="rev-hero__dek">A guitar record made by someone who could have made a technique record and declined.</p>
           <div class="rev-hero__cta">
-            <a class="rev-hero__watch" href="#watch">▶ Watch the video review</a>
-            <a class="rev-hero__read" href="#read">Read it ↓</a>
+            <a class="rev-hero__watch" href="#watch">▶ Watch the track-by-track video</a>
+            <span class="rev-hero__note">The full review is below — the video is us going through the album track by track.</span>
           </div>
         </div>
         <img class="rev-hero__badge" src={BADGE} alt="The Music Cities — No Skip Review" width="600" height="600" />
@@ -126,7 +126,8 @@ const facts = [
           <p>What it establishes is not that SAKI can play, which was never a question. It is that she can carry a record alone when the format leaves her nothing to hide behind. She was handed a brief she did not choose and answered it.</p>
 
           <section class="rev-watch" id="watch">
-            <h2 class="rev-h2">Watch the review</h2>
+            <h2 class="rev-h2">Watch: the album, track by track</h2>
+            <p class="rev-watch__intro">The written review above is the full piece. In the video, we go through <em>PLUVIA</em> one track at a time.</p>
             {EPISODE ? (
               <div class="rev-video">
                 <iframe src={`https://www.youtube-nocookie.com/embed/${EPISODE}`} title="SAKI — PLUVIA, the review" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -211,6 +212,8 @@ const facts = [
     .rev-hero__watch:hover { background: #c2131f; }
     .rev-hero__read { color: #b7b2a9; text-decoration: none; font-size: 0.88rem; font-weight: 600; }
     .rev-hero__read:hover { color: #fff; }
+    .rev-hero__note { color: #8a8279; font-size: 0.82rem; line-height: 1.4; flex: 1 1 220px; min-width: 200px; }
+    .rev-watch__intro { color: #b7b2a9; line-height: 1.6; margin: 0 0 1rem; }
     html { scroll-behavior: smooth; }
     .rev-hero__badge { flex: 0 0 auto; width: 104px; height: 104px; object-fit: contain; align-self: flex-start; }
 
