@@ -1,147 +1,6 @@
 {
-  "generatedAt": "2026-10-16T07:00:57.642Z",
+  "generatedAt": "2026-10-17T07:00:51.184Z",
   "entries": [
-    {
-      "id": "86bbzt6de",
-      "name": "Nini Music + Seven Kingdoms @ Mohawk Place — Buffalo, NY — Oct 16 2026",
-      "date": "2026-10-16",
-      "venue": "Mohawk Place",
-      "city": "Buffalo",
-      "state": "NY",
-      "bands": [
-        "Nini Music",
-        "Seven Kingdoms"
-      ],
-      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzt6de",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbvpdvh",
-      "name": "Knocked Loose + Denzel Curry @ Orlando Amphitheater — Orlando, FL — Oct 16 2026",
-      "date": "2026-10-16",
-      "venue": "Orlando Amphitheater",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Knocked Loose",
-        "Denzel Curry"
-      ],
-      "description": "Bands: Knocked Loose, Denzel Curry, w/ Superheaven, Boundaries\nVenue: Orlando Amphitheater at the Central Florida Fairgrounds, 4603 W Colonial Dr, Orlando FL\nDate: Fri Oct 16 2026 — 7pm, all ages, AEG Presents\nNight one of the Florida pair — the Fort Lauderdale War Memorial date…",
-      "ticketUrl": "https://www.axs.com/events/1461637/knocked-loose-denzel-curry-tickets",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbvpdvh",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbtbtb6",
-      "name": "Combichrist + Dead Animal Assembly Plant @ The Orpheum — Tampa, FL — Oct 16 2026",
-      "date": "2026-10-16",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Combichrist",
-        "Dead Animal Assembly Plant"
-      ],
-      "description": "Industrial bill with Ludovico Technique also on the lineup — they hit Conduit the night before on Oct 15, so this is the Tampa leg of the same run.",
-      "ticketUrl": "https://www.jambase.com/show/combichrist-the-orpheum-20261016",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbtbtb6",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbr5092",
-      "name": "NINI + Seven Kingdoms @ Mohawk Place — Buffalo, NY — Oct 16 2026",
-      "date": "2026-10-16",
-      "venue": "Mohawk Place",
-      "city": "Buffalo",
-      "state": "NY",
-      "bands": [
-        "NINI",
-        "Seven Kingdoms"
-      ],
-      "description": "NINI Music headlining, Seven Kingdoms supporting. Mohawk Place, Buffalo, NY. NINI / Seven Kingdoms US fall tour.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr5092",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbkecf1",
-      "name": "Quiet Riot @ Whisky a Go Go — West Hollywood, CA — Oct 16 2026",
-      "date": "2026-10-16",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "Quiet Riot"
-      ],
-      "description": "Quiet Riot headlining the Whisky, with DÅZR, Rude & Reckless, House Of Dawn, Makers AD, YAS33 and Rapid Fire.",
-      "ticketUrl": "https://www.ticketweb.com/event/quiet-riot-dzr-rude-whisky-a-go-go-tickets/14772243",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkecf1",
-      "buckets": []
-    },
-    {
-      "id": "86bbkeb38",
-      "name": "DONEFOR + We're Wolves + Twin Rova @ Las Rosas — Miami, FL — Oct 16 2026",
-      "date": "2026-10-16",
-      "venue": "Las Rosas",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "DONEFOR",
-        "We're Wolves",
-        "Twin Rova"
-      ],
-      "description": "Opening night of the Southern Survival Tour — \"Can You Survive the Florida Man\" — a Florida-only run with DONEFOR, We're Wolves, and Twin Rova. Miami kickoff at Las Rosas. Tickets and VIP at doneforband.com.",
-      "ticketUrl": "https://www.bandsintown.com/e/1039913224",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkeb38",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86ba5zfhv",
-      "name": "Arch Enemy @ Revolution Live — Fort Lauderdale, FL",
-      "date": "2026-10-16",
-      "venue": "Revolution Live",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "Arch Enemy"
-      ],
-      "description": "Arch Enemy concert at Revolution Live, Fort Lauderdale. Friday October 16, 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86ba5zfhv",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86bc6vycc",
       "name": "Sunn O))) @ Mana Wynwood, Miami, FL, Oct 17 2026",
@@ -6561,6 +6420,26 @@
       ]
     },
     {
+      "id": "86bckgk6c",
+      "name": "Drive-By Truckers @ Culture Room — Fort Lauderdale, FL — Feb 27 2027",
+      "date": "2027-02-28",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Drive-By Truckers"
+      ],
+      "description": "Drive-By Truckers with Brown Horse at Culture Room, Fort Lauderdale, FL. Doors 7:30pm. Southern-rock heavyweights roll into South Florida; tickets went on sale Friday, October 16.",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D0065480E38CC0C",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bckgk6c",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc4ytwj",
       "name": "Eluveitie + Nini Music + Illumishade @ The Regent — Los Angeles, CA — Mar 5 2027",
       "date": "2027-03-05",
@@ -7034,6 +6913,46 @@
       ]
     },
     {
+      "id": "86bcke3qe",
+      "name": "HAGANE @ Lido — Berlin, Germany — Apr 13 2027",
+      "date": "2027-04-13",
+      "venue": "Lido",
+      "city": "Berlin",
+      "country": "Germany",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "Japan's speed-metal queens HAGANE bring the \"Through the Night\" European tour (Part 1) to Berlin, following their new Napalm Records deal. Tickets: https://www.regioactive.de/konzert/hagane-berlin-lido-2027-04-13-tickets-8qCTngHG6D",
+      "ticketUrl": "https://www.regioactive.de/konzert/hagane-berlin-lido-2027-04-13-tickets-8qCTngHG6D",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcke3qe",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bcke3r6",
+      "name": "HAGANE @ Markthalle — Hamburg, Germany — Apr 14 2027",
+      "date": "2027-04-14",
+      "venue": "Markthalle",
+      "city": "Hamburg",
+      "country": "Germany",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE's \"Through the Night\" European tour (Part 1) rolls into Hamburg, following their new Napalm Records deal. Tickets/info: https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/hagane/",
+      "ticketUrl": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/hagane/",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcke3r6",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc2zkep",
       "name": "The Psychedelic Furs + Living Colour @ Florida Theatre — Jacksonville, FL — Apr 14 2027",
       "date": "2027-04-14",
@@ -7052,6 +6971,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bc2zkep",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcke3t3",
+      "name": "HAGANE @ Club Volta — Köln, Germany — Apr 16 2027",
+      "date": "2027-04-16",
+      "venue": "Club Volta",
+      "city": "Köln",
+      "country": "Germany",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE's \"Through the Night\" European tour (Part 1) stops in Köln, following their new Napalm Records deal. Announcement: https://nextmosh.com/hagane-sign-with-napalm-records-announce-2027-european-shows/",
+      "ticketUrl": "https://nextmosh.com/hagane-sign-with-napalm-records-announce-2027-european-shows/",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcke3t3",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
