@@ -195,18 +195,24 @@ const lastUpdated = data.generatedAt
     </div>
   </section>
 
-  <a class="feat-review" href="https://www.youtube.com/watch?v=GrgmkISEQpo" target="_blank" rel="noopener">
+  <a class="feat-review" href="/reviews/pluvia">
     <div class="container feat-review__inner">
-      <img class="feat-review__art" src="https://i.ytimg.com/vi/GrgmkISEQpo/hqdefault.jpg" alt="Rolling Quartz interview" width="480" height="360" loading="eager" />
+      <img class="feat-review__art" src="/assets/reviews/saki-pluvia.jpg" alt="SAKI — PLUVIA album cover" width="480" height="480" loading="eager" />
       <div class="feat-review__text">
-        <span class="feat-review__eyebrow">New interview</span>
-        <h2 class="feat-review__title">Rolling Quartz — <em>Growing Hard Rock in Korea</em></h2>
-        <p class="feat-review__dek">The Korean hard-rock quintet on touring the U.S., selling out venues, and building an audience the hard way. Our full sit-down interview, now live on the channel.</p>
-        <span class="feat-review__cta">Watch the interview →</span>
+        <span class="feat-review__eyebrow">No Skip Review</span>
+        <h2 class="feat-review__title">SAKI — <em>PLUVIA</em></h2>
+        <p class="feat-review__dek">A guitar record made by someone who could have made a technique record and declined. Her major-label solo debut, and the brief the label handed her. Our full review, now live.</p>
+        <span class="feat-review__cta">Read the review →</span>
       </div>
     </div>
   </a>
-  <div class="container" style="padding:0.75rem 0 0;"><a href="/reviews" style="color:#b7b2a9;font-size:0.88rem;text-decoration:none;font-weight:600;">Looking for our album reviews? →</a></div>
+  <div class="container feat-secondary">
+    <a class="feat-secondary__link" href="https://www.youtube.com/watch?v=GrgmkISEQpo" target="_blank" rel="noopener">
+      <img src="https://i.ytimg.com/vi/GrgmkISEQpo/default.jpg" alt="Rolling Quartz interview" width="120" height="90" loading="lazy" />
+      <span><strong>Also on the channel:</strong> Rolling Quartz — Growing Hard Rock in Korea, our full interview. <span class="feat-secondary__cta">Watch →</span></span>
+    </a>
+    <a class="feat-secondary__more" href="/reviews">All reviews →</a>
+  </div>
 
   <section class="field-trip-strip">
     <div class="container">
@@ -244,13 +250,8 @@ const lastUpdated = data.generatedAt
                 <div style="font-size:16px;font-weight:700;color:#fff;margin-bottom:2px;">Arch Enemy — concert review</div>
                 <div style="font-size:13px;line-height:1.5;color:#b7b2a9;">Live at Jannus Live, St. Petersburg (Sun, Oct 18) — our review of the show.</div>
               </li>
-              <li style="counter-increment:cst;margin-bottom:12px;padding-left:28px;position:relative;">
-                <span style="position:absolute;left:0;top:0;color:#e50914;font-weight:800;font-size:15px;">2.</span>
-                <div style="font-size:16px;font-weight:700;color:#fff;margin-bottom:2px;">SAKI — <em style="font-style:italic;color:#fff;">Pluvia</em> review</div>
-                <div style="font-size:13px;line-height:1.5;color:#b7b2a9;">Our review of SAKI's new album, <em style="font-style:italic;">Pluvia</em>.</div>
-              </li>
               <li style="counter-increment:cst;padding-left:28px;position:relative;">
-                <span style="position:absolute;left:0;top:0;color:#e50914;font-weight:800;font-size:15px;">3.</span>
+                <span style="position:absolute;left:0;top:0;color:#e50914;font-weight:800;font-size:15px;">2.</span>
                 <div style="font-size:16px;font-weight:700;color:#fff;margin-bottom:2px;">Nini — follow-up interview</div>
                 <div style="font-size:13px;line-height:1.5;color:#b7b2a9;">Our follow-up sit-down with Nini, caught before her October 11th Tampa show. One of our favorites.</div>
               </li>
@@ -379,5 +380,13 @@ const lastUpdated = data.generatedAt
   .feat-review__dek { margin: 0 0 0.5rem; color: #b7b2a9; line-height: 1.5; max-width: 56ch; }
   .feat-review__cta { color: #fff; font-weight: 600; font-size: 0.95rem; }
   .feat-review:hover .feat-review__cta { color: #e11d2a; }
+  .feat-secondary { padding: 0.85rem 0 0.25rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+  .feat-secondary__link { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; color: #b7b2a9; font-size: 0.9rem; line-height: 1.4; flex: 1 1 320px; }
+  .feat-secondary__link img { width: 72px; height: 54px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(255,255,255,0.12); flex: 0 0 auto; }
+  .feat-secondary__link strong { color: #e6e2da; font-weight: 700; }
+  .feat-secondary__cta { color: #fff; font-weight: 600; white-space: nowrap; }
+  .feat-secondary__link:hover .feat-secondary__cta { color: #e11d2a; }
+  .feat-secondary__more { color: #8a8279; font-size: 0.85rem; text-decoration: none; font-weight: 600; white-space: nowrap; }
+  .feat-secondary__more:hover { color: #e11d2a; }
   @media (max-width: 600px) { .feat-review__art { width: 88px; height: 88px; } }
 </style>
