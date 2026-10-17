@@ -52,6 +52,10 @@ const facts = [
           <h1 class="rev-hero__title">SAKI — <em>PLUVIA</em></h1>
           <p class="rev-hero__sub">Major-label solo debut · King Records NEXUS / JPU Records · 2026</p>
           <p class="rev-hero__dek">A guitar record made by someone who could have made a technique record and declined.</p>
+          <div class="rev-hero__cta">
+            <a class="rev-hero__watch" href="#watch">▶ Watch the video review</a>
+            <a class="rev-hero__read" href="#read">Read it ↓</a>
+          </div>
         </div>
         <img class="rev-hero__badge" src={BADGE} alt="The Music Cities — No Skip Review" width="600" height="600" />
       </div>
@@ -60,7 +64,7 @@ const facts = [
     <main class="rev-main">
       <div class="container rev-grid">
 
-        <div class="rev-body">
+        <div class="rev-body" id="read">
           <p class="rev-standfirst">King Records NEXUS, June 24, 2026. International release through JPU Records, August 26, 2026. Ten tracks, 42 minutes.</p>
 
           <h2 class="rev-h2">What the label actually asked for</h2>
@@ -121,8 +125,8 @@ const facts = [
 
           <p>What it establishes is not that SAKI can play, which was never a question. It is that she can carry a record alone when the format leaves her nothing to hide behind. She was handed a brief she did not choose and answered it.</p>
 
-          <section class="rev-watch">
-            <h2 class="rev-h2">Watch</h2>
+          <section class="rev-watch" id="watch">
+            <h2 class="rev-h2">Watch the review</h2>
             {EPISODE ? (
               <div class="rev-video">
                 <iframe src={`https://www.youtube-nocookie.com/embed/${EPISODE}`} title="SAKI — PLUVIA, the review" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -202,6 +206,12 @@ const facts = [
     .rev-hero__title em { color: #e11d2a; font-style: normal; }
     .rev-hero__sub { margin: 0 0 0.5rem; color: #c9c5b8; font-weight: 600; }
     .rev-hero__dek { margin: 0; color: #8a8279; }
+    .rev-hero__cta { margin-top: 0.9rem; display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; }
+    .rev-hero__watch { display: inline-block; background: #e11d2a; color: #fff; text-decoration: none; font-weight: 700; font-size: 0.92rem; padding: 0.55rem 1rem; border-radius: 8px; }
+    .rev-hero__watch:hover { background: #c2131f; }
+    .rev-hero__read { color: #b7b2a9; text-decoration: none; font-size: 0.88rem; font-weight: 600; }
+    .rev-hero__read:hover { color: #fff; }
+    html { scroll-behavior: smooth; }
     .rev-hero__badge { flex: 0 0 auto; width: 104px; height: 104px; object-fit: contain; align-self: flex-start; }
 
     .rev-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2rem; padding: 2rem 0 3rem; align-items: start; }
