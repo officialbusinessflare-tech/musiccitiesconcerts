@@ -1,16 +1,84 @@
 {
-  "fetchedAt": "2026-10-17T07:02:05.851Z",
+  "fetchedAt": "2026-10-18T07:01:14.824Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 153000,
-      "videoCount": 306,
+      "videoCount": 309,
       "recentLongform": [
         {
+          "id": "l8HJQbBZqW0",
+          "title": "No Skip Review: SAKI, PLUVIA",
+          "publishedAt": "2026-10-17T20:51:24Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/l8HJQbBZqW0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/l8HJQbBZqW0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/l8HJQbBZqW0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/l8HJQbBZqW0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/l8HJQbBZqW0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT9M56S",
+          "durationSeconds": 596
+        },
+        {
+          "id": "1MPbKRPQLrk",
+          "title": "Arch Enemy | Nemesis",
+          "publishedAt": "2026-10-17T12:54:05Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/1MPbKRPQLrk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/1MPbKRPQLrk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/1MPbKRPQLrk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/1MPbKRPQLrk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/1MPbKRPQLrk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M35S",
+          "durationSeconds": 95
+        },
+        {
           "id": "GrgmkISEQpo",
-          "title": "Rolling Quartz | Growing Hard Rock in Korea by Touring the U.S. | Turn on Subtitles",
+          "title": "Rolling Quartz Interview | Growing Hard Rock in Korea by Touring the U.S. | Turn on Subtitles",
           "publishedAt": "2026-10-07T13:00:10Z",
           "thumbnails": {
             "default": {
@@ -297,6 +365,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "dURAtMd5UmI",
+          "title": "Nini on why she posts the same thing over and over",
+          "publishedAt": "2026-10-17T19:58:03Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/dURAtMd5UmI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/dURAtMd5UmI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/dURAtMd5UmI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/dURAtMd5UmI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/dURAtMd5UmI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT32S",
+          "durationSeconds": 32
+        },
         {
           "id": "fVGlJrjWW7I",
           "title": "Thrown Into Exile | Fort Lauderdale",
@@ -738,108 +840,6 @@
           },
           "duration": "PT40S",
           "durationSeconds": 40
-        },
-        {
-          "id": "_J-9T4iC2SM",
-          "title": "Cover Bands vs. Original Music: The Business of Nostalgia! #shorts",
-          "publishedAt": "2026-09-19T13:31:19Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/_J-9T4iC2SM/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/_J-9T4iC2SM/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/_J-9T4iC2SM/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/_J-9T4iC2SM/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/_J-9T4iC2SM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT23S",
-          "durationSeconds": 23
-        },
-        {
-          "id": "AcJc-QitK-4",
-          "title": "September 18, 2026",
-          "publishedAt": "2026-09-18T23:25:10Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/AcJc-QitK-4/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/AcJc-QitK-4/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/AcJc-QitK-4/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/AcJc-QitK-4/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/AcJc-QitK-4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT20S",
-          "durationSeconds": 20
-        },
-        {
-          "id": "vFR7m13lmtI",
-          "title": "Local Bands: The Future of Music is Here! #shorts",
-          "publishedAt": "2026-09-18T13:26:25Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/vFR7m13lmtI/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/vFR7m13lmtI/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/vFR7m13lmtI/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/vFR7m13lmtI/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/vFR7m13lmtI/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT20S",
-          "durationSeconds": 20
         }
       ]
     },
