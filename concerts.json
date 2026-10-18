@@ -1,244 +1,26 @@
 {
-  "generatedAt": "2026-10-17T07:01:57.345Z",
+  "generatedAt": "2026-10-18T07:01:03.610Z",
   "entries": [
     {
-      "id": "86bc6vycc",
-      "name": "Sunn O))) @ Mana Wynwood, Miami, FL, Oct 17 2026",
-      "date": "2026-10-17",
-      "venue": "Mana Wynwood, Miami",
-      "city": "FL",
-      "country": "Oct 17 2026",
-      "bands": [
-        "Sunn O)))"
-      ],
-      "description": "Source: Bandsintown promoted listing in the Anthrax artist message email, Sept 24, 2026. Drone metal. Same night as portrayal of guilt at Churchill's Pub, Miami.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc6vycc",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bc3kyrj",
-      "name": "portrayal of guilt + Headfoam + Absolver @ Churchill's Pub — Miami, FL — Oct 17 2026",
-      "date": "2026-10-17",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
+      "id": "86bcm0yak",
+      "name": "Clutch + Slomosa + Blood Vulture @ FIVE — Jacksonville, FL — Oct 18 2026",
+      "date": "2026-10-18",
+      "venue": "FIVE",
+      "city": "Jacksonville",
       "state": "FL",
       "bands": [
-        "portrayal of guilt",
-        "Headfoam",
-        "Absolver"
+        "Clutch",
+        "Slomosa",
+        "Blood Vulture"
       ],
-      "description": "Austin blackened hardcore/screamo outfit portrayal of guilt bring their fall US run to Little Haiti, with Headfoam and Absolver in support. One night before Ceremony plays the same room. Listing: https://www.songkick.com/concerts/43416766-portrayal-of-guilt-at-churchills-pub",
-      "ticketUrl": "https://www.songkick.com/concerts/43416766-portrayal-of-guilt-at-churchills-pub",
+      "description": "Clutch roll through Jacksonville on the same run that hits The Ritz Ybor in Tampa on Oct 20, with Slomosa and Blood Vulture in support. Doors for the 7:30 PM show at FIVE (1028 Park St). Tickets:…",
+      "ticketUrl": "https://www.tickpick.com/buy-clutch-tickets-five-points-theatre-10-18-26-7pm/7938561/",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc3kyrj",
+      "clickupUrl": "https://app.clickup.com/t/86bcm0yak",
       "buckets": [
         "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bc05hbj",
-      "name": "Acres + Wayside + What Lies Below @ Downstairs at The Dome — London, UK — Oct 17 2026",
-      "date": "2026-10-17",
-      "venue": "Downstairs at The Dome",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "Acres",
-        "Wayside",
-        "What Lies Below"
-      ],
-      "description": "Acres bring 'The Host' UK/EU Tour 2026 to Downstairs at The Dome with Wayside, What Lies Below, and Lifespark. Full lineup: Acres, Wayside, What Lies Below, Lifespark.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc05hbj",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bc05gx3",
-      "name": "DONEFOR + We're Wolves + Twin Rova @ Pineapples — Melbourne, FL — Oct 17 2026",
-      "date": "2026-10-17",
-      "venue": "Pineapples",
-      "city": "Melbourne",
-      "state": "FL",
-      "bands": [
-        "DONEFOR",
-        "We're Wolves",
-        "Twin Rova"
-      ],
-      "description": "The Southern Survival Tour — \"Can You Survive the Florida Man\" — a Florida-only run pairing three of the state's premier heavy rock bands: DONEFOR, We're Wolves, and Twin Rova. Melbourne stop at Pineapples. Tickets and VIP at doneforband.com.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc05gx3",
-      "buckets": []
-    },
-    {
-      "id": "86bbzt6dg",
-      "name": "Nini Music + Seven Kingdoms @ The Lost Horizon — Syracuse, NY — Oct 17 2026",
-      "date": "2026-10-17",
-      "venue": "The Lost Horizon",
-      "city": "Syracuse",
-      "state": "NY",
-      "bands": [
-        "Nini Music",
-        "Seven Kingdoms"
-      ],
-      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzt6dg",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbu78bh",
-      "name": "Toadies + Local H + Emily Wolfe @ Jannus Live — St. Petersburg, FL — Oct 17 2026",
-      "date": "2026-10-17",
-      "venue": "Jannus Live",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Toadies",
-        "Local H",
-        "Emily Wolfe"
-      ],
-      "description": "Nineties alt-rock double bill, Emily Wolfe opening.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78bh",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbr50b0",
-      "name": "NINI + Seven Kingdoms @ The Lost Horizon — Syracuse, NY — Oct 17 2026",
-      "date": "2026-10-17",
-      "venue": "The Lost Horizon",
-      "city": "Syracuse",
-      "state": "NY",
-      "bands": [
-        "NINI",
-        "Seven Kingdoms"
-      ],
-      "description": "NINI Music headlining, Seven Kingdoms supporting. The Lost Horizon, Syracuse, NY. NINI / Seven Kingdoms US fall tour.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr50b0",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbpafeh",
-      "name": "Knocked Loose + Denzel Curry @ War Memorial Auditorium — Fort Lauderdale, FL — Oct 17 2026",
-      "date": "2026-10-17",
-      "venue": "War Memorial Auditorium",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "Knocked Loose",
-        "Denzel Curry"
-      ],
-      "description": "Knocked Loose & Denzel Curry, with Superheaven and Boundaries. FTL War Memorial Auditorium, Fort Lauderdale FL. Sat Oct 17 2026, 7:00 PM.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbpafeh",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbkedn1",
-      "name": "Eyehategod @ Come and Take It Live — Austin, TX — Oct 17 2026",
-      "date": "2026-10-17",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "bands": [
-        "Eyehategod"
-      ],
-      "description": "Eyehategod's Austin date, closing out the run that swept Florida in mid-September (Tallahassee, Orlando, West Palm Beach, Tampa).",
-      "ticketUrl": "https://comeandtakeitproductions.com/event/eyehategod-austin/come-and-take-it-live/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbkedn1",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbeb6qt",
-      "name": "SiM @ The Pearl — Vancouver, BC, Canada — Oct 17 2026",
-      "date": "2026-10-17",
-      "venue": "The Pearl, Vancouver",
-      "city": "BC",
-      "country": "Canada",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL world tour, North American leg. Tickets: https://tix.soundrink.com/tours/sim",
-      "ticketUrl": "https://tix.soundrink.com/tours/sim",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb6qt",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w51b",
-      "name": "HANABIE. @ CLUB ROOTS — Gifu, Japan — Oct 17 2026",
-      "date": "2026-10-17",
-      "venue": "CLUB ROOTS",
-      "city": "Gifu",
-      "country": "Japan",
-      "bands": [
-        "HANABIE."
-      ],
-      "description": "HANABIE. — Japan 2MAN Tour 2026. CLUB ROOTS in Gifu, Japan. Show date: Oct 17 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w51b",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w4qd",
-      "name": "BAND-MAID @ Pabellon Oeste — Mexico City, Mexico — Oct 17 2026",
-      "date": "2026-10-17",
-      "venue": "Pabellon Oeste",
-      "city": "Mexico City",
-      "country": "Mexico",
-      "bands": [
-        "BAND-MAID"
-      ],
-      "description": "BAND-MAID — World Tour 2026 NA leg finale. Pabellon Oeste in Mexico City, Mexico. Show date: Oct 17 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w4qd",
-      "buckets": [
-        "japanese-metal"
       ]
     },
     {
@@ -421,6 +203,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bb9w51q",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bcm0yaq",
+      "name": "Stryper @ FIVE — Jacksonville, FL — Oct 19 2026",
+      "date": "2026-10-19",
+      "venue": "FIVE",
+      "city": "Jacksonville",
+      "state": "FL",
+      "bands": [
+        "Stryper"
+      ],
+      "description": "Stryper play Jacksonville the night before their House of Blues Orlando date on Oct 20. 8:00 PM at FIVE (1028 Park St); openers not yet confirmed. Tickets: https://www.tickpick.com/buy-stryper-tickets-five-points-theatre-10-19-26-8pm/7874913/",
+      "ticketUrl": "https://www.tickpick.com/buy-stryper-tickets-five-points-theatre-10-19-26-8pm/7874913/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcm0yaq",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2502,6 +2304,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bavn8zj",
       "buckets": [
         "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bcm37p9",
+      "name": "Maximum the Hormone @ AIR JAM 2026, ZOZOMARINE Stadium — Chiba, Japan — Nov 7 2026",
+      "date": "2026-11-07",
+      "venue": "AIR JAM 2026, ZOZOMARINE Stadium",
+      "city": "Chiba",
+      "country": "Japan",
+      "bands": [
+        "Maximum the Hormone"
+      ],
+      "description": "The revived Hi-STANDARD festival AIR JAM 2026 at ZOZOMARINE Stadium, Chiba (~40 min from central Tokyo). We go for Maximum the Hormone — foundational to what we cover, same tier as SHOW-YA or Loudness. Wall-to-wall punk/hardcore bill: Hi-STANDARD, MAN WITH A MISSION, 10-FEET,…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcm37p9",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
