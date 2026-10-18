@@ -23,6 +23,15 @@ type Show = {
 
 const shows: Show[] = [
   {
+    date: 'Nov 7',
+    weekday: 'Saturday',
+    city: 'Chiba',
+    billing: 'AIR JAM 2026 — for Maximum the Hormone',
+    venue: 'ZOZOMARINE Stadium',
+    detail: 'The revived Hi-STANDARD festival at ZOZOMARINE, about 40 minutes from central Tokyo. We go for Maximum the Hormone — foundational to what we cover, the same tier as SHOW-YA or Loudness — on a wall-to-wall punk and hardcore bill (MAN WITH A MISSION, 10-FEET, The Cro-Magnons, HEY-SMITH, LAGWAGON). Doors around 11:30 AM, runs to about 8:00 PM. An open-Saturday option.',
+    status: 'Resale only — general sale sold out',
+  },
+  {
     date: 'Nov 8',
     weekday: 'Sunday',
     city: 'Tokyo',
@@ -64,7 +73,8 @@ type Stop = { date: string; weekday: string; city: string; what: string };
 
 const route: Stop[] = [
   { date: 'Nov 5', weekday: 'Thursday', city: 'Tokyo', what: 'Land at Haneda, settle into Tokyo.' },
-  { date: 'Nov 6–7', weekday: 'Fri–Sat', city: 'Tokyo', what: 'Open days in the city.' },
+  { date: 'Nov 6', weekday: 'Friday', city: 'Tokyo', what: 'Open day in the city.' },
+  { date: 'Nov 7', weekday: 'Saturday', city: 'Tokyo / Chiba', what: 'Open day — optional AIR JAM 2026 at ZOZOMARINE for Maximum the Hormone.' },
   { date: 'Nov 8', weekday: 'Sunday', city: 'Tokyo', what: 'Show night — ASTERISM vs BRIDEAR, Shinjuku.' },
   { date: 'Nov 9', weekday: 'Monday', city: 'Hiroshima', what: 'Shinkansen to Hiroshima; Miyajima and the Itsukushima torii at sunset.' },
   { date: 'Nov 10', weekday: 'Tuesday', city: 'Osaka', what: 'Hiroshima Peace Park in the morning, then on to Osaka.' },
