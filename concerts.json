@@ -1,86 +1,6 @@
 {
-  "generatedAt": "2026-10-19T07:01:55.271Z",
+  "generatedAt": "2026-10-20T07:00:58.695Z",
   "entries": [
-    {
-      "id": "86bcm0yaq",
-      "name": "Stryper @ FIVE — Jacksonville, FL — Oct 19 2026",
-      "date": "2026-10-19",
-      "venue": "FIVE",
-      "city": "Jacksonville",
-      "state": "FL",
-      "bands": [
-        "Stryper"
-      ],
-      "description": "Stryper play Jacksonville the night before their House of Blues Orlando date on Oct 20. 8:00 PM at FIVE (1028 Park St); openers not yet confirmed. Tickets: https://www.tickpick.com/buy-stryper-tickets-five-points-theatre-10-19-26-8pm/7874913/",
-      "ticketUrl": "https://www.tickpick.com/buy-stryper-tickets-five-points-theatre-10-19-26-8pm/7874913/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcm0yaq",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbr72uj",
-      "name": "Breaking Benjamin + Chevelle + Starset @ MIDFLORIDA Credit Union Amphitheatre — Tampa, FL — Oct 19 2026",
-      "date": "2026-10-19",
-      "venue": "MIDFLORIDA Credit Union Amphitheatre",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Breaking Benjamin",
-        "Chevelle",
-        "Starset"
-      ],
-      "description": "Second big amphitheatre hard rock night in Tampa inside ten days, with Kami Kehoe opening. Pairs with the Oct 10 date as a market signal.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr72uj",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbeb6tv",
-      "name": "SiM @ The Showbox — Seattle, WA — Oct 19 2026",
-      "date": "2026-10-19",
-      "venue": "The Showbox",
-      "city": "Seattle",
-      "state": "WA",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL world tour, North American leg. Tickets: https://tix.soundrink.com/tours/sim",
-      "ticketUrl": "https://tix.soundrink.com/tours/sim",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb6tv",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbeb6hy",
-      "name": "Paledusk @ Come and Take It Live — Austin, TX — Oct 19 2026",
-      "date": "2026-10-19",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "bands": [
-        "Paledusk"
-      ],
-      "description": "Japanese metalcore band Paledusk in Austin — a J-metal act touring the States in a room already on our list. Source: Come and Take It Live / JamBase calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb6hy",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
     {
       "id": "86bc283zx",
       "name": "The Doobie Brothers @ Seminole Hard Rock Hotel & Casino, Hollywood, FL, Oct 20 2026",
@@ -2255,6 +2175,28 @@
       ]
     },
     {
+      "id": "86bcmjtrc",
+      "name": "The Brook & The Bluff + Ryman @ Culture Room — Fort Lauderdale, FL — Nov 10 2026",
+      "date": "2026-11-10",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "The Brook",
+        "The Bluff",
+        "Ryman"
+      ],
+      "description": "The Brook & The Bluff (The Werewolf Tour) with Ryman at Culture Room, Fort Lauderdale. Tickets: https://www.ticketmaster.com/event/0D0064C322E0C951",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D0064C322E0C951",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjtrc",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbmte7n",
       "name": "Gunshine @ The Banyan Live — West Palm Beach, FL — Nov 10 2026",
       "date": "2026-11-10",
@@ -3236,6 +3178,26 @@
       ]
     },
     {
+      "id": "86bcmjtv0",
+      "name": "Ripe @ Culture Room — Fort Lauderdale, FL — Nov 21 2026",
+      "date": "2026-11-21",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Ripe"
+      ],
+      "description": "Ripe with special guests at Culture Room, Fort Lauderdale. Tickets: https://www.ticketmaster.com/event/0D006518C43296C3",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D006518C43296C3",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjtv0",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bcb0tut",
       "name": "BRIDEAR @ over fest 2026 — Tokyo, Japan — Nov 21 2026",
       "date": "2026-11-21",
@@ -3458,6 +3420,27 @@
       ]
     },
     {
+      "id": "86bcmju8c",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ La Machine du Moulin Rouge — Paris, France — Nov 24 2026",
+      "date": "2026-11-24",
+      "venue": "La Machine du Moulin Rouge",
+      "city": "Paris",
+      "country": "France",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Paris.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmju8c",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbu78gj",
       "name": "Buzzcocks @ Jannus Live — St. Petersburg, FL — Nov 24 2026",
       "date": "2026-11-24",
@@ -3516,6 +3499,27 @@
       ]
     },
     {
+      "id": "86bcmjua0",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Batschkapp — Frankfurt, Germany — Nov 25 2026",
+      "date": "2026-11-25",
+      "venue": "Batschkapp",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Frankfurt.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjua0",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbwe8rb",
       "name": "Loudness @ LINE CUBE SHIBUYA — Tokyo, Japan — Nov 25 2026",
       "date": "2026-11-25",
@@ -3553,6 +3557,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbuyjur",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcmjube",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Große Freiheit 36 — Hamburg, Germany — Nov 27 2026",
+      "date": "2026-11-27",
+      "venue": "Große Freiheit 36",
+      "city": "Hamburg",
+      "country": "Germany",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Hamburg.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjube",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -3613,6 +3638,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbtbt7t",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcmjudt",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Hellraiser — Leipzig, Germany — Nov 28 2026",
+      "date": "2026-11-28",
+      "venue": "Hellraiser",
+      "city": "Leipzig",
+      "country": "Germany",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Leipzig.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjudt",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -3792,6 +3838,27 @@
       ]
     },
     {
+      "id": "86bcmjufw",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Barba Negra — Budapest, Hungary — Dec 1 2026",
+      "date": "2026-12-01",
+      "venue": "Barba Negra",
+      "city": "Budapest",
+      "country": "Hungary",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Budapest.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjufw",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc6twb7",
       "name": "Darkest Hour + Judiciary @ Come and Take It Live — Austin, TX — Dec 1 2026",
       "date": "2026-12-01",
@@ -3864,6 +3931,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w4gy",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bcmjukf",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Szene — Vienna, Austria — Dec 2 2026",
+      "date": "2026-12-02",
+      "venue": "Szene",
+      "city": "Vienna",
+      "country": "Austria",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Vienna.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjukf",
       "buckets": [
         "japanese-metal"
       ]
@@ -3988,6 +4076,27 @@
       ]
     },
     {
+      "id": "86bcmjunf",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Z7 — Pratteln, Switzerland — Dec 4 2026",
+      "date": "2026-12-04",
+      "venue": "Z7",
+      "city": "Pratteln",
+      "country": "Switzerland",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Pratteln.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjunf",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc05h70",
       "name": "Trivium + In Flames + Orbit Culture + Frozen Soul @ YouTube Theater — Inglewood, CA — Dec 4 2026",
       "date": "2026-12-04",
@@ -4092,6 +4201,27 @@
       ]
     },
     {
+      "id": "86bcmjupy",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Garage — Saarbrücken, Germany — Dec 5 2026",
+      "date": "2026-12-05",
+      "venue": "Garage",
+      "city": "Saarbrücken",
+      "country": "Germany",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Saarbrücken.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjupy",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbu78hh",
       "name": "State Champs + Cartel @ Jannus Live — St. Petersburg, FL — Dec 5 2026",
       "date": "2026-12-05",
@@ -4169,6 +4299,27 @@
       "buckets": []
     },
     {
+      "id": "86bcmjurq",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ De Casino — Sint-Niklaas, Belgium — Dec 6 2026",
+      "date": "2026-12-06",
+      "venue": "De Casino",
+      "city": "Sint-Niklaas",
+      "country": "Belgium",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Sint-Niklaas.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjurq",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb9w4j1",
       "name": "BABYMETAL @ Costa 21 — Lima, Peru — Dec 7 2026",
       "date": "2026-12-07",
@@ -4183,6 +4334,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w4j1",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bcmjuuu",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ O2 Ritz — Manchester, UK — Dec 8 2026",
+      "date": "2026-12-08",
+      "venue": "O2 Ritz",
+      "city": "Manchester",
+      "state": "UK",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Manchester.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjuuu",
       "buckets": [
         "japanese-metal"
       ]
@@ -4248,6 +4420,27 @@
       ]
     },
     {
+      "id": "86bcmjuwp",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Bristol Electric — Bristol, UK — Dec 9 2026",
+      "date": "2026-12-09",
+      "venue": "Bristol Electric",
+      "city": "Bristol",
+      "state": "UK",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Bristol.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjuwp",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc05hmc",
       "name": "Half Me @ Downstairs at The Dome — London, UK — Dec 9 2026",
       "date": "2026-12-09",
@@ -4284,6 +4477,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bc05h4h",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcmjuyu",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Electric Brixton — London, UK — Dec 10 2026",
+      "date": "2026-12-10",
+      "venue": "Electric Brixton",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, London.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjuyu",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4404,6 +4618,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbtbrjt",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcmjv18",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Turbinenhalle — Oberhausen, Germany — Dec 12 2026",
+      "date": "2026-12-12",
+      "venue": "Turbinenhalle",
+      "city": "Oberhausen",
+      "country": "Germany",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Oberhausen.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjv18",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4566,6 +4801,27 @@
       ]
     },
     {
+      "id": "86bcmjv2v",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Tivoli Vredenburg — Utrecht, Netherlands — Dec 13 2026",
+      "date": "2026-12-13",
+      "venue": "Tivoli Vredenburg",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Utrecht.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjv2v",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc4729j",
       "name": "Brotality @ Will's Pub — Orlando, FL — Dec 13 2026",
       "date": "2026-12-13",
@@ -4606,6 +4862,27 @@
       ]
     },
     {
+      "id": "86bcmjv59",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ SO36 — Berlin, Germany — Dec 15 2026",
+      "date": "2026-12-15",
+      "venue": "SO36",
+      "city": "Berlin",
+      "country": "Germany",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Berlin.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjv59",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc472be",
       "name": "Brotality @ The Albatross — Jacksonville, FL — Dec 15 2026",
       "date": "2026-12-15",
@@ -4622,6 +4899,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bc472be",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcmjv7m",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Capitol — Hanover, Germany — Dec 16 2026",
+      "date": "2026-12-16",
+      "venue": "Capitol",
+      "city": "Hanover",
+      "country": "Germany",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Hanover.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjv7m",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4659,6 +4957,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bavn8xh",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcmjv9k",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ LKA Longhorn — Stuttgart, Germany — Dec 18 2026",
+      "date": "2026-12-18",
+      "venue": "LKA Longhorn",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Stuttgart.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjv9k",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4741,6 +5060,27 @@
       "buckets": []
     },
     {
+      "id": "86bcmjvbc",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Backstage — Munich, Germany — Dec 19 2026",
+      "date": "2026-12-19",
+      "venue": "Backstage",
+      "city": "Munich",
+      "country": "Germany",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Munich.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjvbc",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbz59pj",
       "name": "HAGANE @ Sapporo SPiCE — Sapporo, Japan — Dec 19 2026",
       "date": "2026-12-19",
@@ -4778,6 +5118,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbuyjm5",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcmjvdd",
+      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Hirsch — Nuremberg, Germany — Dec 20 2026",
+      "date": "2026-12-20",
+      "venue": "Hirsch",
+      "city": "Nuremberg",
+      "country": "Germany",
+      "bands": [
+        "Edge of Paradise",
+        "Dominum",
+        "The Night Flight Orchestra"
+      ],
+      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Nuremberg.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjvdd",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4928,6 +5289,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbu78n7",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcmjtx9",
+      "name": "St. Paul & The Broken Bones @ Culture Room — Fort Lauderdale, FL — Jan 8 2027",
+      "date": "2027-01-08",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "St. Paul",
+        "The Broken Bones"
+      ],
+      "description": "St. Paul & The Broken Bones with special guests at Culture Room, Fort Lauderdale. Tickets: https://www.ticketmaster.com/event/0D0065309879719E",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D0065309879719E",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcmjtx9",
       "buckets": [
         "florida-metal-scene"
       ]
