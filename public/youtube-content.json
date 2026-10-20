@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-19T07:02:09.697Z",
+  "fetchedAt": "2026-10-20T07:01:14.319Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 153000,
-      "videoCount": 309,
+      "videoCount": 310,
       "recentLongform": [
         {
           "id": "l8HJQbBZqW0",
@@ -365,6 +365,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "U-zWYLvEGBs",
+          "title": "No Skips - Saki's \"PLUVIA\"",
+          "publishedAt": "2026-10-20T06:04:43Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/U-zWYLvEGBs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/U-zWYLvEGBs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/U-zWYLvEGBs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/U-zWYLvEGBs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/U-zWYLvEGBs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT24S",
+          "durationSeconds": 24
+        },
         {
           "id": "dURAtMd5UmI",
           "title": "Nini on why she posts the same thing over and over",
@@ -806,40 +840,6 @@
           },
           "duration": "PT42S",
           "durationSeconds": 42
-        },
-        {
-          "id": "NBkAtRbVom0",
-          "title": "Bridear - Kimi | Reaching fans with music | Crowdfunding",
-          "publishedAt": "2026-09-20T13:19:59Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/NBkAtRbVom0/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/NBkAtRbVom0/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/NBkAtRbVom0/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/NBkAtRbVom0/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/NBkAtRbVom0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT40S",
-          "durationSeconds": 40
         }
       ]
     },
