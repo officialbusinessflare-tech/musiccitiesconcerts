@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T15:34:52.005Z",
+  "generatedAt": "2026-10-21T14:36:11.301Z",
   "labels": [
     {
       "id": "napalm",
@@ -38,6 +38,15 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-10-21",
+      "label": "napalm",
+      "artist": "IGNEA",
+      "headline": "Ukrainian modern metal band releases the single \"Harmony Manufactured\" featuring Britta Görtz of Hiraes, with official video. New album Monumental out October 23, 2026.",
+      "type": "Single",
+      "releaseDate": "2026-10-23"
+    },
     {
       "kind": "send",
       "date": "2026-10-20",
