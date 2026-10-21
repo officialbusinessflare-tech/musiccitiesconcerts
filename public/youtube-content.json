@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-20T07:02:36.408Z",
+  "fetchedAt": "2026-10-21T07:01:13.641Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 153000,
-      "videoCount": 310,
+      "videoCount": 311,
       "recentLongform": [
         {
           "id": "l8HJQbBZqW0",
@@ -365,6 +365,40 @@
         }
       ],
       "recentShorts": [
+        {
+          "id": "AjRezkuPoeY",
+          "title": "Arch Enemy | Jannus Live Review",
+          "publishedAt": "2026-10-21T01:35:34Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/AjRezkuPoeY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/AjRezkuPoeY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/AjRezkuPoeY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/AjRezkuPoeY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/AjRezkuPoeY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M4S",
+          "durationSeconds": 64
+        },
         {
           "id": "U-zWYLvEGBs",
           "title": "No Skips - Saki's \"PLUVIA\"",
@@ -806,40 +840,6 @@
           },
           "duration": "PT26S",
           "durationSeconds": 26
-        },
-        {
-          "id": "VaOeanYoHrU",
-          "title": "Artists: Stop Resenting Data, Start Winning! #shorts",
-          "publishedAt": "2026-09-21T16:30:28Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/VaOeanYoHrU/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/VaOeanYoHrU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/VaOeanYoHrU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/VaOeanYoHrU/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/VaOeanYoHrU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT42S",
-          "durationSeconds": 42
         }
       ]
     },
