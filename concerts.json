@@ -1,167 +1,6 @@
 {
-  "generatedAt": "2026-10-20T07:02:22.213Z",
+  "generatedAt": "2026-10-21T07:01:01.269Z",
   "entries": [
-    {
-      "id": "86bc283zx",
-      "name": "The Doobie Brothers @ Seminole Hard Rock Hotel & Casino, Hollywood, FL, Oct 20 2026",
-      "date": "2026-10-20",
-      "venue": "Seminole Hard Rock Hotel & Casino, Hollywood",
-      "city": "FL",
-      "country": "Oct 20 2026",
-      "bands": [
-        "The Doobie Brothers"
-      ],
-      "description": "Source: Bandsintown promoted listing in the Kenny Wayne Shepherd message email, Sept 17, 2026. Classic rock. Tickets via Bandsintown.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc283zx",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbzt6dr",
-      "name": "Nini Music + Seven Kingdoms @ Preserving Underground — Pittsburgh, PA — Oct 20 2026",
-      "date": "2026-10-20",
-      "venue": "Preserving Underground",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "bands": [
-        "Nini Music",
-        "Seven Kingdoms"
-      ],
-      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzt6dr",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbzrjzz",
-      "name": "Stryper @ House of Blues — Lake Buena Vista (Orlando), FL — Oct 20 2026",
-      "date": "2026-10-20",
-      "venue": "House of Blues",
-      "city": "Lake Buena Vista (Orlando)",
-      "state": "FL",
-      "bands": [
-        "Stryper"
-      ],
-      "description": "Stryper bring the yellow-and-black to the House of Blues Music Hall on their fall 2026 US run. Tuesday, October 20, 2026, 7 PM. Tickets from $54: https://www.ticketmaster.com/stryper-orlando-florida-10-20-2026/event/220064A6F5D7908D",
-      "ticketUrl": "https://www.ticketmaster.com/stryper-orlando-florida-10-20-2026/event/220064A6F5D7908D",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzrjzz",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbvd1en",
-      "name": "Breaking Benjamin + Chevelle + Starset @ iTHINK Financial Amphitheatre — West Palm Beach, FL — Oct 20 2026",
-      "date": "2026-10-20",
-      "venue": "iTHINK Financial Amphitheatre",
-      "city": "West Palm Beach",
-      "state": "FL",
-      "bands": [
-        "Breaking Benjamin",
-        "Chevelle",
-        "Starset"
-      ],
-      "description": "Breaking Benjamin's 2026 North American tour hits West Palm Beach the night after Tampa. Full bill: Breaking Benjamin, Chevelle, Starset, Kami Kehoe. 6:00 pm.",
-      "ticketUrl": "https://www.livenation.com/event/vvG1VZ_7RnwhT-/breaking-benjamin",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbvd1en",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbu78mf",
-      "name": "Bachman-Turner Overdrive @ Hard Rock Live — Orlando, FL — Oct 20 2026",
-      "date": "2026-10-20",
-      "venue": "Hard Rock Live",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Bachman-Turner Overdrive"
-      ],
-      "description": "Classic-rock booking; the band returns to the same room in January.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78mf",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbr50dq",
-      "name": "NINI + Seven Kingdoms @ Preserving Underground — Pittsburgh, PA — Oct 20 2026",
-      "date": "2026-10-20",
-      "venue": "Preserving Underground",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "bands": [
-        "NINI",
-        "Seven Kingdoms"
-      ],
-      "description": "NINI Music headlining, Seven Kingdoms supporting. Preserving Underground, Pittsburgh, PA. NINI / Seven Kingdoms US fall tour.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr50dq",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbpafan",
-      "name": "CLUTCH @ The Ritz Ybor — Tampa, FL — Oct 20 2026",
-      "date": "2026-10-20",
-      "venue": "The Ritz Ybor",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "CLUTCH"
-      ],
-      "description": "CLUTCH — US Fall Tour. The Ritz Ybor, Tampa FL. Tue Oct 20 2026, 6:30 PM.",
-      "ticketUrl": "https://www.ticketmaster.com/event/0D006495A42590B0",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbpafan",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86barcve9",
-      "name": "Dying Fetus + Crowbar + Left to Suffer @ Jannus Landing — St. Petersburg, FL — Oct 20 2026",
-      "date": "2026-10-20",
-      "venue": "Jannus Landing",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Dying Fetus",
-        "Crowbar",
-        "Left to Suffer"
-      ],
-      "description": "Dying Fetus and Crowbar co-headline with Left to Suffer (plus Deterioration) at Jannus Landing in St. Petersburg, FL. Death metal / sludge package tour. Show date: October 20, 2026. Surfaced from the saved concerts feed; Florida stop pulled from the tour's full routing.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86barcve9",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86bbzt6dv",
       "name": "Nini Music + Seven Kingdoms @ The Foundry — Cleveland, OH — Oct 21 2026",
@@ -7052,6 +6891,46 @@
       "clickupUrl": "https://app.clickup.com/t/86bc4ytjv",
       "buckets": [
         "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bcn8e75",
+      "name": "Iron Maiden + Bullet For My Valentine @ Benchmark International Arena — Tampa, FL — May 1 2027",
+      "date": "2027-05-01",
+      "venue": "Benchmark International Arena",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Iron Maiden",
+        "Bullet For My Valentine"
+      ],
+      "description": "Iron Maiden's \"Run For Your Lives\" 2027 North American run, with Bullet For My Valentine and The Raven Age. Announced Oct 16 2026; general on-sale Fri Oct 23, 10 a.m. local. Tickets via Live Nation.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcn8e75",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcn8e7f",
+      "name": "Iron Maiden + Bullet For My Valentine @ iTHINK Financial Amphitheatre — West Palm Beach, FL — May 2 2027",
+      "date": "2027-05-02",
+      "venue": "iTHINK Financial Amphitheatre",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Iron Maiden",
+        "Bullet For My Valentine"
+      ],
+      "description": "Iron Maiden's \"Run For Your Lives\" 2027 North American run, with Bullet For My Valentine and The Raven Age. Announced Oct 16 2026; general on-sale Fri Oct 23, 10 a.m. local. Tickets via Live Nation.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcn8e7f",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
