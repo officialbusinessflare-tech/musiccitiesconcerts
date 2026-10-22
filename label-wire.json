@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T14:36:11.301Z",
+  "generatedAt": "2026-10-22T12:26:27.137Z",
   "labels": [
     {
       "id": "napalm",
@@ -38,6 +38,24 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-10-22",
+      "label": "napalm",
+      "artist": "MANNTRA",
+      "headline": "Croatian metal band releases the title track \"Wild Hunt\" featuring Fabienne Erni of Eluveitie and Illumishade, with official video. New album Wild Hunt out December 25, 2026.",
+      "type": "Single",
+      "releaseDate": "2026-12-25"
+    },
+    {
+      "kind": "send",
+      "date": "2026-10-21",
+      "label": "napalm",
+      "artist": "EVIL INVADERS",
+      "headline": "Belgian thrash and heavy metal band announces fourth album Weaponized Chaos, out February 19, 2027. New single \"D.S.S. (Death Strikes Suddenly)\" out now with performance video.",
+      "type": "Album",
+      "releaseDate": "2027-02-19"
+    },
     {
       "kind": "send",
       "date": "2026-10-21",
@@ -291,15 +309,6 @@
       "artist": "Accept",
       "headline": "Heavy-metal icons reveal a 50th-anniversary re-rendition of \"Losers and Winners\" + video.",
       "type": "Single"
-    },
-    {
-      "kind": "pick",
-      "date": "2026-10-21",
-      "label": "bushiroad",
-      "artist": "AVE MUJICA",
-      "headline": "Mini album 神の名を (Kami no Na wo), collecting insert songs from the film prima aurora.",
-      "type": "EP",
-      "releaseDate": "2026-10-21"
     },
     {
       "kind": "pick",
