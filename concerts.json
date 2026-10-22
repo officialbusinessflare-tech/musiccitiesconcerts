@@ -1,64 +1,6 @@
 {
-  "generatedAt": "2026-10-21T07:02:11.281Z",
+  "generatedAt": "2026-10-22T07:00:51.272Z",
   "entries": [
-    {
-      "id": "86bbzt6dv",
-      "name": "Nini Music + Seven Kingdoms @ The Foundry — Cleveland, OH — Oct 21 2026",
-      "date": "2026-10-21",
-      "venue": "The Foundry",
-      "city": "Cleveland",
-      "state": "OH",
-      "bands": [
-        "Nini Music",
-        "Seven Kingdoms"
-      ],
-      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzt6dv",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbr50e8",
-      "name": "NINI + Seven Kingdoms @ The Foundry — Cleveland, OH — Oct 21 2026",
-      "date": "2026-10-21",
-      "venue": "The Foundry",
-      "city": "Cleveland",
-      "state": "OH",
-      "bands": [
-        "NINI",
-        "Seven Kingdoms"
-      ],
-      "description": "NINI Music headlining, Seven Kingdoms supporting. The Foundry, Cleveland, OH. NINI / Seven Kingdoms US fall tour.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr50e8",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbeb7t2",
-      "name": "📀 AVE MUJICA — Kami no Na wo — RELEASE — Oct 21 2026",
-      "date": "2026-10-21",
-      "venue": "Kami no Na wo — RELEASE",
-      "bands": [
-        "AVE MUJICA"
-      ],
-      "description": "AVE MUJICA mini album 神の名を (Kami no Na wo), collecting insert songs from the film prima aurora. Source: bang-dream.com discography.",
-      "priority": "normal",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7t2",
-      "buckets": [
-        "japanese-metal",
-        "album-releases"
-      ]
-    },
     {
       "id": "86bbzt6e0",
       "name": "Nini Music + Seven Kingdoms @ Summit Music Hall — Columbus, OH — Oct 22 2026",
@@ -5918,6 +5860,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbvpdx7",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bcnzrzq",
+      "name": "The Wood Brothers @ Culture Room — Fort Lauderdale, FL — Feb 9 2027",
+      "date": "2027-02-09",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "The Wood Brothers"
+      ],
+      "description": "The Wood Brothers, with special guests, at Culture Room in Fort Lauderdale, FL. Tickets on sale Friday, October 23. Tickets: https://www.ticketmaster.com/event/0D00654EA4896223 Source: Culture Room venue calendar.",
+      "ticketUrl": "https://www.ticketmaster.com/event/0D00654EA4896223",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcnzrzq",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
