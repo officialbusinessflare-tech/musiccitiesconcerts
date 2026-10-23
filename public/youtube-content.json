@@ -1,13 +1,120 @@
 {
-  "fetchedAt": "2026-10-22T07:02:07.000Z",
+  "fetchedAt": "2026-10-23T07:01:07.770Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 153000,
-      "videoCount": 311,
+      "videoCount": 315,
       "recentLongform": [
+        {
+          "id": "Dv2a2rO21IY",
+          "title": "SAKI, PLUVIA: the track she calls the one that saves her",
+          "publishedAt": "2026-10-23T02:14:02Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Dv2a2rO21IY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Dv2a2rO21IY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Dv2a2rO21IY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Dv2a2rO21IY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Dv2a2rO21IY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M19S",
+          "durationSeconds": 79
+        },
+        {
+          "id": "6huW6ZAhEPo",
+          "title": "Savage Grace’s Christian Logue on owning your masters, paying for your own tours, and 45 years",
+          "publishedAt": "2026-10-23T01:15:41Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/6huW6ZAhEPo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6huW6ZAhEPo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6huW6ZAhEPo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/6huW6ZAhEPo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/6huW6ZAhEPo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/6huW6ZAhEPo/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          "duration": "PT13M27S",
+          "durationSeconds": 807
+        },
+        {
+          "id": "kAhxL6ngRk0",
+          "title": "Savage Grace, Underworld: four releases on one day",
+          "publishedAt": "2026-10-23T00:40:27Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/kAhxL6ngRk0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/kAhxL6ngRk0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/kAhxL6ngRk0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/kAhxL6ngRk0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/kAhxL6ngRk0/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M35S",
+          "durationSeconds": 95
+        },
         {
           "id": "l8HJQbBZqW0",
           "title": "No Skip Review: SAKI, PLUVIA",
@@ -328,43 +435,43 @@
           },
           "duration": "PT1M21S",
           "durationSeconds": 81
-        },
+        }
+      ],
+      "recentShorts": [
         {
-          "id": "oRaC3DSH-cI",
-          "title": "Nini Music | It's Like a Chinese Guitar",
-          "publishedAt": "2026-09-23T16:49:08Z",
+          "id": "JG1Il-k8vt4",
+          "title": "Nini: there’s a phrase in Chinese, look more far away",
+          "publishedAt": "2026-10-23T02:12:58Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/oRaC3DSH-cI/default.jpg",
+              "url": "https://i.ytimg.com/vi/JG1Il-k8vt4/default.jpg",
               "width": 120,
               "height": 90
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/oRaC3DSH-cI/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/JG1Il-k8vt4/mqdefault.jpg",
               "width": 320,
               "height": 180
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/oRaC3DSH-cI/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/JG1Il-k8vt4/hqdefault.jpg",
               "width": 480,
               "height": 360
             },
             "standard": {
-              "url": "https://i.ytimg.com/vi/oRaC3DSH-cI/sddefault.jpg",
+              "url": "https://i.ytimg.com/vi/JG1Il-k8vt4/sddefault.jpg",
               "width": 640,
               "height": 480
             },
             "maxres": {
-              "url": "https://i.ytimg.com/vi/oRaC3DSH-cI/maxresdefault.jpg",
+              "url": "https://i.ytimg.com/vi/JG1Il-k8vt4/maxresdefault.jpg",
               "width": 1280,
               "height": 720
             }
           },
-          "duration": "PT1M15S",
-          "durationSeconds": 75
-        }
-      ],
-      "recentShorts": [
+          "duration": "PT31S",
+          "durationSeconds": 31
+        },
         {
           "id": "AjRezkuPoeY",
           "title": "Arch Enemy | Jannus Live Review",
@@ -738,108 +845,6 @@
           },
           "duration": "PT1M",
           "durationSeconds": 60
-        },
-        {
-          "id": "5MBmJfsB76Q",
-          "title": "Hanabie | Be the Gal What the F... | Orlando",
-          "publishedAt": "2026-09-23T12:47:39Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/5MBmJfsB76Q/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/5MBmJfsB76Q/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/5MBmJfsB76Q/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/5MBmJfsB76Q/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/5MBmJfsB76Q/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT51S",
-          "durationSeconds": 51
-        },
-        {
-          "id": "v8YQ0h5XjQc",
-          "title": "Music Cities Radio",
-          "publishedAt": "2026-09-23T00:04:16Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/v8YQ0h5XjQc/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/v8YQ0h5XjQc/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/v8YQ0h5XjQc/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/v8YQ0h5XjQc/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/v8YQ0h5XjQc/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT18S",
-          "durationSeconds": 18
-        },
-        {
-          "id": "bCk6Nwzwr28",
-          "title": "The Music Cities App",
-          "publishedAt": "2026-09-22T17:08:39Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/bCk6Nwzwr28/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/bCk6Nwzwr28/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/bCk6Nwzwr28/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/bCk6Nwzwr28/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/bCk6Nwzwr28/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT26S",
-          "durationSeconds": 26
         }
       ]
     },
