@@ -1,0 +1,239 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import SceneNav from '../../components/SceneNav.astro';
+import Footer from '../../components/Footer.astro';
+
+/**
+ * /reviews/savage-grace — Savage Grace "Underworld" review.
+ * Canonical review page; the link target for the YouTube episode, LinkedIn, X
+ * and Facebook. Built on our interview with Christian Logue (Sept 22, 2026).
+ *
+ * EPISODE is the full interview/review video ID. It premieres noon Eastern,
+ * October 23, 2026 — the embed shows the premiere countdown until then.
+ */
+const COVER = '/assets/reviews/savage-grace-underworld.jpg';
+const BAND = '/assets/reviews/savage-grace-band.jpg';
+const EPISODE = '6huW6ZAhEPo';   // review video — premieres noon ET, Oct 23, 2026
+
+const CANONICAL = 'https://musiccitiesconcerts.com/reviews/savage-grace';
+
+const facts = [
+  { k: 'Band', v: 'Savage Grace — Los Angeles, California' },
+  { k: 'Album', v: 'Underworld — fourth studio album' },
+  { k: 'Label', v: "Back On Black (Steve Beatty's label; Beatty also founded Plastic Head Music Distribution)" },
+  { k: 'Release', v: 'October 23, 2026 — CD and red-with-black-splatter vinyl' },
+  { k: 'Tracks', v: 'Twelve' },
+  { k: 'Track times', v: '3:06, 3:17, 3:38, 4:45, 3:27, 3:38, 4:13, 0:33, 3:45, 4:23, 3:39, 3:46' },
+  { k: 'Also out that day', v: 'Reissues of Master of Disguise, After the Fall from Grace and Sign of the Cross' },
+  { k: 'Lineup', v: 'Christian Logue (all guitars), Sebastian Hauser (vocals), Cristian Blade (bass), Marcus Dotta (drums)' },
+  { k: 'Previous album', v: 'Sign of the Cross (2023) — the first new material in 37 years' },
+  { k: 'Formed', v: '1981, Los Angeles' },
+  { k: 'First release', v: 'Metal Massacre II, then The Dominatress EP (1983) on Metal Blade' },
+  { k: 'We interviewed', v: 'Christian Logue, September 22, 2026' },
+];
+---
+
+<BaseLayout
+  title="Savage Grace — Underworld: review | The Music Cities"
+  description="A review of Underworld, the fourth album from Los Angeles speed metal pioneers Savage Grace, out October 23, 2026 on Back On Black — built on our interview with Christian Logue."
+  ogImage={COVER}
+  canonical={CANONICAL}
+>
+  <Header />
+  <SceneNav />
+
+  <article class="rev">
+    <section class="rev-hero">
+      <div class="container rev-hero__inner">
+        <div class="rev-hero__art">
+          <img src={COVER} alt="Savage Grace — Underworld album cover" width="1200" height="1200" fetchpriority="high" />
+        </div>
+        <div class="rev-hero__meta">
+          <p class="rev-hero__eyebrow">Review</p>
+          <h1 class="rev-hero__title">Savage Grace — <em>Underworld</em></h1>
+          <p class="rev-hero__sub">Fourth album · Back On Black · Out October 23, 2026</p>
+          <p class="rev-hero__dek">Los Angeles in 1982 had everything except a reason for anybody to stay.</p>
+        </div>
+      </div>
+    </section>
+
+    <main class="rev-main">
+      <div class="container rev-grid">
+
+        <div class="rev-body">
+          <p>There is a band that formed in 1981 and by 1982 was playing clubs all over Los Angeles, drawing well, good enough that people turned up. They got onto <em>Metal Massacre II</em>, the compilation series that launched Metal Blade Records. They were one of the first acts the label took off those compilations and it put out their EP the following year. They toured with Motorhead. They went to Europe twice.</p>
+
+          <p>You have probably never heard of them.</p>
+
+          <p>That is not a sad story and this is not a piece about a band that failed. Christian Logue started Savage Grace in 1981 and he is releasing a record in 2026. What I wanted from him was something more useful than nostalgia. He was standing in the middle of the most mythologized music scene in American history and he can tell you exactly how it actually worked, because he had to make it work without anybody helping him.</p>
+
+          <figure class="rev-fig">
+            <img src={BAND} alt="Savage Grace, the band, in a red-lit bar" width="1200" height="622" loading="lazy" decoding="async" />
+            <figcaption>Savage Grace — Los Angeles</figcaption>
+          </figure>
+
+          <p><em>Underworld</em> is out October 23 on Back On Black, which is Steve Beatty's label. It is their fourth studio album and the first new full length since <em>Sign of the Cross</em> in 2023. The same day, Back On Black puts <em>Master of Disguise</em>, <em>After the Fall from Grace</em> and <em>Sign of the Cross</em> back into circulation. Four releases at once. He told me that if it were his call he would not have done it that way, and then he told me whose call it actually is.</p>
+
+          <blockquote class="rev-quote"><p>If I was in charge of the record company, I would not have done it that way. But Steve Beatty, it's his label, and if he wants to put four records out at once, God bless him, and I'll do everything I can to support him.</p></blockquote>
+
+          <p>I have been driving around with <em>Underworld</em> for a few weeks. Twelve tracks. The three I keep coming back to are <em>Destiny Damour</em>, the title track, and <em>Magic by Day, Tricks by Night</em>, which closes the record. <em>Destiny Damour</em> has a vocal production far bigger than anything else there, layers of harmony stacked up, and the comparison people keep making to him is Uriah Heep. He is fine with that. So am I.</p>
+
+          <p>He is a blues player underneath all of it, and that explains his guitar playing better than any of the metal reference points do. He said as much when I asked him why the guitar is so much the star of this record.</p>
+
+          <blockquote class="rev-quote"><p>If you wanna make guitars the highlight of your music, the first thing is you gotta be able to play. If you can't play, then you don't wanna focus on that. No matter what style you play, your playing has to fit the songs. If I take a song like On The Run and I put a guy like Yngwie Malmsteen playing lead, wouldn't work. You can't have a lead like that over a song like that. You need a bluesy lead on it, somebody like Stevie Ray Vaughan, somebody like Joe Perry. Not Yngwie.</p></blockquote>
+
+          <p>The range argument he makes for the record is the one worth testing, because he makes it concretely rather than as a boast.</p>
+
+          <blockquote class="rev-quote"><p>When I was demoing this record, I played White Trash for about four different industry people, and you know what they said? They said, are you going punk? I said, no, we're not going punk, but the song's got a raw edge to it. I had people say, oh, that sounds more like Motorhead. Fine, I'm okay with Motorhead. So when I have a song like that and follow it up with a song like Underworld, follow it up with a song like Three Ways to Heaven, which is more like '80s hair metal. Now I've got a range. I'm not one dimensional. Then I come back with a song like Destiny Damour with massive vocal production, and people say, oh, that's Uriah Heep.</p></blockquote>
+
+          <p>The lineup is new and it is not American. Logue cut all the guitars. Sebastian Hauser from Germany sings, Cristian Blade from Barcelona plays bass, and Marcus Dotta is back on drums from the last record. Logue replaced a singer mid album, after seven songs were already recorded.</p>
+
+          <h2 class="rev-h2">Why Europe heard them and America did not</h2>
+
+          <p>Savage Grace were a Los Angeles band playing Los Angeles clubs and drawing well in Los Angeles. The place they broke was Europe. Not a little. Completely. They were a top draw in the clubs at home and nationally they were nothing, and then a French label licensed one record and the whole thing opened up.</p>
+
+          <p>I asked him why, and the answer came back immediately and without any hedging.</p>
+
+          <blockquote class="rev-quote"><p>Our sound at that time was very European. We had guitar harmonies. We had vocal harmonies. We sounded somewhat like Iron Maiden, somewhat like Priest, something like Saxon or Motorhead. So we resonated with Europe because those were the bands that were happening. People in LA and most of America in 1982, early 1983, they never even heard of these bands.</p></blockquote>
+
+          <p>Then he gave me the detail that makes it concrete. He saw Saxon play the Whisky in 1982 in front of about two hundred people. Saxon, one of the biggest bands in Europe at the time, playing a couple of hundred people on Sunset. He also pointed out that Metallica in 1983 had trouble getting booked in Los Angeles at all and ended up having to go to San Francisco, and it was San Francisco where things started happening for them.</p>
+
+          <p>Stop on that, because it is the thing this publication keeps running into. A band can be local and have its real audience on another continent and not find out for years. The music was not wrong and the city was not wrong. The two were out of phase with each other, and there was no mechanism in 1982 for a band in Los Angeles to find out that the people who wanted their record were in France.</p>
+
+          <p>The same thing is running in the other direction right now. This year I have been in rooms with Japanese bands who sell out arenas at home. I saw one of them in London in a venue that holds two hundred people. I interviewed another in Orlando in a club that holds two hundred and fifty. These are some of the best bands I have ever seen, and the gap between what they are at home and what they are here is almost exactly the gap Savage Grace was on the other side of forty years ago. The difference is that now there is a mechanism, and part of what this channel is for is being one.</p>
+
+          <h2 class="rev-h2">How a band with no connections starts at all</h2>
+
+          <p>Somebody heard a rumor. Their singer at the time, Dwight Cliff, heard that there was a guy putting together a new label for metal. They went over and met him. That was Brian Slagel, and he was about nineteen.</p>
+
+          <blockquote class="rev-quote"><p>You have to start somewhere, right? We didn't know anybody. We weren't connected. I didn't know anyone when I got into music. So our singer at the time, a guy named Dwight Cliff, he said, hey, I heard about a guy who's putting a new label together for metal. Let's talk to him. So we went over and met Slagel, who was about 19 back then. Even though he looked like he was 40, he was 19. And he loved metal, and he knew how to make money with it. So he said, okay, I'll put you guys on Metal Massacre II. And that did fine, and then he said, what else do you guys want to do? I said, well, let's put out an album. And he said, I don't have the money for an album. Let's just do an EP. That gave us recording experience. We worked with Bill Metoyer on that record. Everyone starts somewhere.</p></blockquote>
+
+          <p>What happened next is the part worth paying attention to, and it is a lesson about deals rather than about anybody's character. When it came time for the next record he did not go back. He took <em>Master of Disguise</em> to an independent distributor in Los Angeles and made a pressing and distribution deal. No advance. The label paid to press it and to get it into stores, and that was all they did.</p>
+
+          <p>On paper that is the worse deal. There is no money up front and there is no company behind you. What it did was leave him holding the record.</p>
+
+          <p>And then the thing that happens to records happened. The cover got it banned by Kmart and by Walmart, which in 1985 was free national press. A few months later a letter arrived from Black Dragon in France wanting to license it for Europe. That license is what put the band on a European tour, and the tour is what built the next one.</p>
+
+          <h2 class="rev-h2">The asset was the paperwork</h2>
+
+          <p>The deeper version of that lesson he gave me as a flat instruction. Never sell the rights to your music. Never, unless you are absolutely desperate.</p>
+
+          <p>Holding onto it is not a sentimental position. It is the reason the catalogue still exists. I asked him where those records went during the years they were impossible to find, and the answer was that they never really went anywhere.</p>
+
+          <blockquote class="rev-quote"><p>Over the years I've licensed those records many, many times to many different labels. A label will license it for three years, then the license expires, I license it to someone else.</p></blockquote>
+
+          <p>Those records have been in close to constant circulation for forty years, not because a label kept them alive but because he kept the right to keep putting them back in print. It does not mean they were always easy to find. But that is a band with no hit single staying commercially available for four decades. The asset was never the fame. The asset was the paperwork.</p>
+
+          <p>Which is also what the four releases on October 23 are. A reissue label run by a distributor is exactly the kind of counterparty a catalogue holder can license to, three years at a time, without ever selling anything.</p>
+
+          <p>This is not one band's opinion. It is three bands on three continents saying the same thing. BRIDEAR spent a year and a half getting control of their own music back from a label situation and had to run a crowdfunding campaign to stay together while they did it. Seven Kingdoms have a discography a label has been sitting on for fifteen years. And Savage Grace, who never had a hit and never had a major, have a catalogue that has stayed in print since the Reagan administration because the rights never left the room. Forty years apart, different countries, different genres, same answer. Own your music.</p>
+
+          <h2 class="rev-h2">Somebody pays for the room, or nobody does</h2>
+
+          <p>Not long ago we looked at a band from Gothenburg, and the thing that explained them was that somebody was paying for the room. A monthly rehearsal subsidy. A free municipal music school. Older bands in the city who had become the infrastructure, running the label and owning the studio and taking younger bands out on tour with them.</p>
+
+          <p>Los Angeles in 1982 had none of that. No subsidy, no school, no older band handing anybody a room. The older bands were handing out competition. What there was instead was an enormous amount of attention and no structure underneath it, and what that produced was musicians who had to become their own label, their own financier and their own export office.</p>
+
+          <p>He still operates that way.</p>
+
+          <blockquote class="rev-quote"><p>I pay for all our own tours, not the labels, I do. So it helps if you have money. If you don't have money, then you better find somebody that's got money, because most record labels don't have any money anymore. They used to, but not now.</p></blockquote>
+
+          <p>He is out chasing endorsement money from companies that have nothing to do with music, which is either forty five years of hard earned realism or a very large swing. It might be both.</p>
+
+          <p>I am not going to tell you which of these models is better. But it is worth noticing that one of them produces bands and the other produces survivors.</p>
+
+          <h2 class="rev-h2">Our verdict</h2>
+
+          <p><em>Underworld</em> is out October 23 on Back On Black. Twelve tracks. If you want a way in, start with <em>Destiny Damour</em>. If you want the heavier end, the title track and <em>Magic by Day, Tricks by Night</em>. <em>On The Run</em> is the single and it is the most straightforwardly hard rock thing on the record. Videos for the title track and for <em>Magic by Day</em> are coming the same day, and he would not tell me anything about them except this.</p>
+
+          <blockquote class="rev-quote"><p>We've got a video coming for that song and for Underworld that's gonna blow your mind. Can't talk about it too much yet, but when it comes out, kaboom.</p></blockquote>
+
+          <p>No No Skip badge on this record. This is a relationship review, the same as the first Savage Grace piece, and the badge only means something if it is withheld when it has not been earned across a full catalogue listen.</p>
+
+          <p>And if you are running a city and wondering why your scene produces people who leave, this is the one to think about. Los Angeles in 1982 had everything except a reason for anybody to stay.</p>
+
+          <section class="rev-watch">
+            <h2 class="rev-h2">Watch</h2>
+            {EPISODE ? (
+              <div class="rev-video">
+                <iframe src={`https://www.youtube-nocookie.com/embed/${EPISODE}`} title="Savage Grace — the full interview" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            ) : (
+              <p class="rev-watch__soon">The video is coming to the channel. Check back soon.</p>
+            )}
+          </section>
+        </div>
+
+        <aside class="rev-side">
+          <div class="rev-card">
+            <h2 class="rev-card__title">The facts</h2>
+            <dl class="rev-facts">
+              {facts.map((f) => (
+                <div><dt>{f.k}</dt><dd>{f.v}</dd></div>
+              ))}
+            </dl>
+          </div>
+
+          <div class="rev-card">
+            <h2 class="rev-card__title">Savage Grace</h2>
+            <ul class="rev-links">
+              <li><a href="https://savagegracemetal.com" target="_blank" rel="noopener noreferrer">savagegracemetal.com</a></li>
+              <li><a href="https://www.backonblack.com/" target="_blank" rel="noopener noreferrer">Back On Black label page</a></li>
+            </ul>
+          </div>
+        </aside>
+
+      </div>
+    </main>
+  </article>
+
+  <Footer />
+
+  <style>
+    .rev-hero { border-bottom: 1px solid #262626; }
+    .rev-hero__inner { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; padding: 2rem 0 1.75rem; }
+    .rev-hero__art { flex: 0 0 auto; }
+    .rev-hero__art img { width: 220px; height: 220px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.14); object-fit: cover; display: block; }
+    .rev-hero__meta { flex: 1 1 320px; min-width: 260px; }
+    .rev-hero__eyebrow { margin: 0 0 0.35rem; color: #e11d2a; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; }
+    .rev-hero__title { margin: 0 0 0.4rem; font-size: clamp(1.8rem, 5vw, 2.8rem); line-height: 1.05; }
+    .rev-hero__title em { color: #e11d2a; font-style: normal; }
+    .rev-hero__sub { margin: 0 0 0.5rem; color: #c9c5b8; font-weight: 600; }
+    .rev-hero__dek { margin: 0; color: #8a8279; }
+
+    .rev-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2rem; padding: 2rem 0 3rem; align-items: start; }
+    .rev-body { min-width: 0; max-width: 44rem; }
+    .rev-body p { line-height: 1.75; color: #d9d4ca; margin: 0 0 1.15rem; font-size: 1.05rem; }
+    .rev-body a { color: #e6e2da; }
+    .rev-h2 { margin: 2.25rem 0 0.85rem; font-size: 1.35rem; line-height: 1.2; }
+    .rev-fig { margin: 0 0 1.4rem; }
+    .rev-fig img { width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(255,255,255,0.13); display: block; }
+    .rev-fig figcaption { margin-top: 0.4rem; font-size: 0.82rem; color: #8a8279; }
+    .rev-quote { margin: 0 0 1.15rem; padding: 0.4rem 0 0.4rem 1.1rem; border-left: 3px solid #e11d2a; }
+    .rev-quote p { margin: 0; color: #f4f1ea; font-size: 1.12rem; line-height: 1.6; font-style: italic; }
+
+    .rev-watch { margin-top: 2rem; }
+    .rev-watch__soon { color: #8a8279; font-style: italic; }
+    .rev-video { position: relative; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; border: 1px solid #262626; background: #000; margin-bottom: 1rem; }
+    .rev-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+    .rev-side { display: flex; flex-direction: column; gap: 1rem; position: sticky; top: 1rem; }
+    .rev-card { border: 1px solid #262626; border-radius: 12px; padding: 1.1rem 1.2rem; background: #101010; }
+    .rev-card__title { margin: 0 0 0.6rem; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase; color: #b7b2a9; }
+    .rev-facts > div { padding: 0.55rem 0; border-bottom: 1px solid #212121; }
+    .rev-facts > div:last-child { border-bottom: 0; }
+    .rev-facts dt { font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: #8a8279; margin-bottom: 0.15rem; }
+    .rev-facts dd { margin: 0; color: #e6e2da; font-size: 0.92rem; line-height: 1.5; }
+    .rev-links { list-style: none; margin: 0; padding: 0; }
+    .rev-links li { padding: 0.3rem 0; }
+    .rev-links a { color: #e6e2da; }
+    .rev-links a:hover { color: #fff; }
+
+    @media (max-width: 820px) {
+      .rev-grid { grid-template-columns: 1fr; }
+      .rev-side { position: static; }
+      .rev-hero__art img { width: 150px; height: 150px; }
+    }
+  </style>
+</BaseLayout>
