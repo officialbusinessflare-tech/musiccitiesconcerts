@@ -1,0 +1,197 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import SceneNav from '../../components/SceneNav.astro';
+import Footer from '../../components/Footer.astro';
+
+/**
+ * /reviews/arch-enemy — Arch Enemy, Three Sightings.
+ * Concert review built on three shows in ten weeks: Wacken (Aug 1, 2026),
+ * Revolution Live Fort Lauderdale (Oct 16, 2026) and Jannus Live
+ * St. Petersburg (Oct 18, 2026) on Wrath Across North America.
+ * Canonical review page; link target for YouTube, LinkedIn, X and Facebook.
+ *
+ * Photo galleries and the Detection exhibit are added in a follow-up commit
+ * once the shot selects are in /assets/reviews/arch-enemy/.
+ */
+const CANONICAL = 'https://musiccitiesconcerts.com/reviews/arch-enemy';
+
+const facts = [
+  { k: 'Band', v: 'Arch Enemy — Halmstad, Sweden' },
+  { k: 'Tour', v: 'Wrath Across North America' },
+  { k: 'Shows seen', v: 'Wacken, August 1, 2026 (main stage, Saturday night); Revolution Live, Fort Lauderdale, October 16, 2026; Jannus Live, St. Petersburg, October 18, 2026' },
+  { k: 'Full bill', v: 'Arch Enemy, The Black Dahlia Murder, Septicflesh, Crypta, Thrown Into Exile' },
+  { k: 'Start time', v: 'Doors five, first band six' },
+  { k: 'On stage', v: 'Michael Amott (guitar), Lauren Hart (vocals), Joey Concepcion (guitar)' },
+  { k: 'Latest album', v: 'Blood Dynasty (2025)' },
+  { k: 'Recent catalogue', v: 'War Eternal (2014), Will To Power (2017), Deceivers (2022), Blood Dynasty (2025)' },
+  { k: 'Set closer', v: 'Nemesis, with the balloon drop' },
+  { k: 'Tour ends', v: 'November 16, Seattle' },
+  { k: 'Septicflesh note', v: 'Performing as a three piece while Christos Antoniou recovers from fractured and broken ribs' },
+];
+---
+
+<BaseLayout
+  title="Arch Enemy, three sightings: Wacken, Fort Lauderdale, St. Petersburg | The Music Cities"
+  description="Three Arch Enemy shows in ten weeks, two of them forty eight hours apart with the same bill and the same running order. What changes when only the room changes."
+  canonical={CANONICAL}
+>
+  <Header />
+  <SceneNav />
+
+  <article class="rev">
+    <section class="rev-hero">
+      <div class="container rev-hero__inner">
+        <div class="rev-hero__meta">
+          <p class="rev-hero__eyebrow">Review</p>
+          <h1 class="rev-hero__title">Arch Enemy, <em>Three Sightings</em></h1>
+          <p class="rev-hero__sub">Wacken, Fort Lauderdale, St. Petersburg · Wrath Across North America · October 16 and October 18, 2026</p>
+          <p class="rev-hero__dek">Two shows forty eight hours apart with the same five bands and the same running order. What is left to vary is the room.</p>
+        </div>
+      </div>
+    </section>
+
+    <main class="rev-main">
+      <div class="container rev-grid">
+
+        <div class="rev-body">
+          <h2 class="rev-h2">Three shows in ten weeks</h2>
+
+          <p>Over the last ten weeks I have seen Arch Enemy three more times. August 1st on the main stage on the Saturday night at Wacken in Germany. Friday night here in Fort Lauderdale at Revolution Live. Then again a couple of nights later at Jannus Live in St. Petersburg.</p>
+
+          <p>Two of those shows were forty eight hours apart with the same five bands on the bill and the same running order, which is about as close to a controlled experiment as live music gets. Same band, same set, same production, same props, two nights, and almost everything that normally ruins a comparison between two shows held constant. What is left to vary is the room, and it turns out the room decides more than I expected.</p>
+
+          <p>Before any of that: this is a very good tour and all five bands delivered on both nights. If it reaches a room near you, go, and go early.</p>
+
+          <h2 class="rev-h2">Five bands, all of whom showed up</h2>
+
+          <p>Five bands on one ticket with a five o'clock start is a lot to ask of an audience, and both cities were in the building early. Decent crowds by five, ready when the first band hit at six.</p>
+
+          <p>Thrown Into Exile opened both nights with real command of a room for a first band, with the pit moving and the Wall of Death run on cue. They worked the merch booth afterward and I talked with them.</p>
+
+          <p>Crypta I had not seen before. The all female death metal band from Brazil took the stage with genuine musicianship behind brutal material and engaged the room hard.</p>
+
+          <p>Septicflesh played both nights at a disadvantage. Christos Antoniou, co-founder and lead guitarist, suffered fractured and broken ribs in a fall before the tour began, and the band has been performing as a three piece while he recovers. He is also vocalist Spiros Antoniou's brother and the composer of the band's orchestral arrangements, which is to say the missing man is not an interchangeable part. What struck me was how much presence the three of them generated anyway, with costumes and set design doing real work in a third on the bill slot that does not get much stage.</p>
+
+          <p>The Black Dahlia Murder brought it both nights, old material and new, and were stronger in St. Petersburg.</p>
+
+          <p>None of these are the obvious support choices for Arch Enemy and all four worked, each in a different way. That is a booking observation and it deserves to be said plainly.</p>
+
+          <h2 class="rev-h2">The room decides which production lands</h2>
+
+          <p>A festival stage answers one question, which is whether a band can command scale in front of a crowd where not everyone is there for them. Revolution Live answers a different one. It is enclosed and tight, with balconies over the floor, and very nearly the whole floor functions as the pit. Jannus Live is an open air courtyard with more capacity than Revolution, where you can move, reach the sides, and avoid the pit entirely if that is what you want.</p>
+
+          <p>The Wall of Death during Thrown Into Exile worked better in Fort Lauderdale, for the simple reason that the room is tight and almost all of it is already pit, so what the band is asking the crowd to do is physically easy to deliver.</p>
+
+          <p>The balloon drop at the end of Arch Enemy's set worked dramatically better there for the same structural reason. These are two to two and a half foot red and black balloons, released from balconies on all sides into an enclosed room. From the soundboard rail I looked up and they arrived all at once and filled the space, which from underneath is something close to whack a mole in the air.</p>
+
+          <p>At Jannus the balcony sits too far from the crowd to deliver them, so the crew carried the balloons around and fed them in from the back of the yard. I watched them prepping on the balcony, then saw them moving through the back as <em>Nemesis</em> started. It took time to build. A few went over the fences. They eventually reached the heart of the crowd and got up onto the stage, where Michael tried to knock one back and popped it on his headstock.</p>
+
+          <p>The counterexample keeps it honest. The Black Dahlia Murder had the stronger night in St. Petersburg, where the crowd surfing went up and stayed up. An open room gives you sightlines across a crowd that an enclosed one does not, and during their set I shot about as many frames of the audience as of the band. The enclosed room delivered the spectacle. The open room delivered the movement.</p>
+
+          <p>You get a better read on a band in the smaller room, and Revolution gave me slightly more of that than Jannus did. That is not a knock on Jannus, which was comfortable, and where the weather on Sunday was close to perfect, cool rather than hot. I am not going to tell you one night was better than the other, because a band on tour gets better night over night as they learn to read crowds, and any two night comparison is therefore partly a comparison of where a tour is in its run rather than where a band is in its market.</p>
+
+          <h2 class="rev-h2">Lauren Hart</h2>
+
+          <p>The honest sequence matters here, so take it in order. I came to this band late. Angela Gossow was already finished and Alissa White-Gluz was the singer. Alissa is the vocalist who finally got me to appreciate harsh vocals, which I had never much listened to before, and that taste is now one of the things that draws me to the bands I follow. I owe her that and I am saying so plainly. I have no interest in why she left and I am not going to speculate. While she was in the band there was no tension I could see and no reason to question the fit, and the catalogue stands on its own. <em>War Eternal</em> in 2014, <em>Will To Power</em> in 2017, <em>Deceivers</em> in 2022, <em>Blood Dynasty</em> in 2025.</p>
+
+          <p>And then: you do not realize it could have worked better until you see Lauren Hart live with this band.</p>
+
+          <p>I met the band before the Fort Lauderdale show and she came out with the rest of them, and it read as natural in the same way Joey Concepcion does. Neither is an original member and neither feels like a hire. On stage these read as her songs rather than Alissa's or Angela's or Johan's. She plays at a hundred and ten percent and there is obvious love for the band in it.</p>
+
+          <p>The closing is a specific, reportable thing. After <em>Nemesis</em>, with the balloons going, she thanks the crowd, introduces the band and talks to the room, and it is one of the best end of show engagements I have seen. I knew it was coming the second night and it still landed.</p>
+
+          <h2 class="rev-h2">The set</h2>
+
+          <p>The set reaches across every era of this band, Johan and Angela and Alissa, and it includes <em>Bury Me an Angel</em>, the opening track of <em>Black Earth</em> from 1996 and, by Amott's own account, the first song he ever wrote for Arch Enemy. A band in its first year with a new singer choosing to play the oldest thing in the catalogue tells you something, and it is the same thing the European club run tells you by calling itself Back To The Root Of All Evil.</p>
+
+          <p><em>Under Black Flags We March</em> sits directly against <em>The Eagle Flies Alone</em>, which pairs well live and would pair well on a playlist.</p>
+
+          <p>The tell of the whole transition is <em>To the Last Breath</em>, Lauren's recorded debut from February of this year, which lands six or seven songs in. At Fort Lauderdale I was not paying close attention when she introduced it and had to work out whether it was the new one, because it sits inside the catalogue without announcing itself. At St. Petersburg I was listening when she said it was the song they did together. A new singer's debut single that you cannot immediately pick out of a twenty year set is a real measure of whether a transition took.</p>
+
+          <p><em>Nemesis</em> closes, and the balloons come with it.</p>
+
+          <h2 class="rev-h2">Underrated, and that only shows up live</h2>
+
+          <p>Arch Enemy have not been given full credit for what they actually do. The songwriting is layered and technical in a way that only becomes obvious in a room, and over three shows in ten weeks I heard songs I had never heard live before and less familiar material holding up next to the singles. That is an easier claim to make having seen the band three times in three different shapes of room than having seen them once.</p>
+
+          <p>It also puts the leadership question we raised on this channel last year in a different light, because the thing holding across all of it is Michael Amott. What actually keeps a band the same band once the original members start leaving is a bigger question than a concert review, and it is the next Detections.</p>
+
+          <h2 class="rev-h2">One more thing about where I was standing</h2>
+
+          <p>This genre has a birthplace and it is about two hours from where I live. On Sunday night it was roughly fifteen minutes from where I was standing.</p>
+
+          <p>I came to this music through the Swedish version of it rather than the local one. A band from Halmstad, fronted at the time by a Canadian, is the reason I can hear harsh vocals at all, and on Sunday I was standing fifteen minutes from where the American version of this music was built without that being the reason I was there.</p>
+
+          <p>That network is worth taking apart properly. It is coming.</p>
+
+          <h2 class="rev-h2">The close</h2>
+
+          <p>Wrath Across North America runs through November 16 and finishes in Seattle. If it reaches a room near you, the smaller the room the better the read you will get, and go early, because all five of these bands are worth the five o'clock start.</p>
+
+        </div>
+
+        <aside class="rev-side">
+          <div class="rev-card">
+            <h2 class="rev-card__title">The facts</h2>
+            <dl class="rev-facts">
+              {facts.map((f) => (
+                <div><dt>{f.k}</dt><dd>{f.v}</dd></div>
+              ))}
+            </dl>
+          </div>
+
+          <div class="rev-card">
+            <h2 class="rev-card__title">Arch Enemy</h2>
+            <ul class="rev-links">
+              <li><a href="https://archenemy.net" target="_blank" rel="noopener noreferrer">archenemy.net</a></li>
+            </ul>
+          </div>
+        </aside>
+
+      </div>
+    </main>
+  </article>
+
+  <Footer />
+
+  <style>
+    .rev-hero { border-bottom: 1px solid #262626; }
+    .rev-hero__inner { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; padding: 2rem 0 1.75rem; }
+    .rev-hero__meta { flex: 1 1 320px; min-width: 260px; }
+    .rev-hero__eyebrow { margin: 0 0 0.35rem; color: #e11d2a; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; }
+    .rev-hero__title { margin: 0 0 0.4rem; font-size: clamp(1.8rem, 5vw, 2.8rem); line-height: 1.05; }
+    .rev-hero__title em { color: #e11d2a; font-style: normal; }
+    .rev-hero__sub { margin: 0 0 0.5rem; color: #c9c5b8; font-weight: 600; }
+    .rev-hero__dek { margin: 0; color: #8a8279; }
+
+    .rev-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2rem; padding: 2rem 0 3rem; align-items: start; }
+    .rev-body { min-width: 0; max-width: 44rem; }
+    .rev-body p { line-height: 1.75; color: #d9d4ca; margin: 0 0 1.15rem; font-size: 1.05rem; }
+    .rev-body a { color: #e6e2da; }
+    .rev-h2 { margin: 2.25rem 0 0.85rem; font-size: 1.35rem; line-height: 1.2; }
+    .rev-h2:first-child { margin-top: 0; }
+    .rev-fig { margin: 0 0 1.4rem; }
+    .rev-fig img { width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(255,255,255,0.13); display: block; }
+    .rev-fig figcaption { margin-top: 0.4rem; font-size: 0.82rem; color: #8a8279; }
+    .rev-quote { margin: 0 0 1.15rem; padding: 0.4rem 0 0.4rem 1.1rem; border-left: 3px solid #e11d2a; }
+    .rev-quote p { margin: 0; color: #f4f1ea; font-size: 1.12rem; line-height: 1.6; font-style: italic; }
+
+    .rev-side { display: flex; flex-direction: column; gap: 1rem; position: sticky; top: 1rem; }
+    .rev-card { border: 1px solid #262626; border-radius: 12px; padding: 1.1rem 1.2rem; background: #101010; }
+    .rev-card__title { margin: 0 0 0.6rem; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase; color: #b7b2a9; }
+    .rev-facts > div { padding: 0.55rem 0; border-bottom: 1px solid #212121; }
+    .rev-facts > div:last-child { border-bottom: 0; }
+    .rev-facts dt { font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: #8a8279; margin-bottom: 0.15rem; }
+    .rev-facts dd { margin: 0; color: #e6e2da; font-size: 0.92rem; line-height: 1.5; }
+    .rev-links { list-style: none; margin: 0; padding: 0; }
+    .rev-links li { padding: 0.3rem 0; }
+    .rev-links a { color: #e6e2da; }
+    .rev-links a:hover { color: #fff; }
+
+    @media (max-width: 820px) {
+      .rev-grid { grid-template-columns: 1fr; }
+      .rev-side { position: static; }
+    }
+  </style>
+</BaseLayout>
