@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T12:26:27.137Z",
+  "generatedAt": "2026-10-23T15:10:10.738Z",
   "labels": [
     {
       "id": "napalm",
@@ -38,6 +38,14 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-10-22",
+      "label": "napalm",
+      "artist": "VINDICTA",
+      "headline": "Corpse-painted modern melodic metal band signs with Napalm Records and releases the single \"IDOL(L)S\" with official video, the first look at their upcoming album.",
+      "type": "Single"
+    },
     {
       "kind": "send",
       "date": "2026-10-22",
