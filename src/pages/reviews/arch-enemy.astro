@@ -12,7 +12,7 @@ import Footer from '../../components/Footer.astro';
  * Canonical review page; link target for YouTube, LinkedIn, X and Facebook.
  *
  * Photos: Post selects for all five bands, Jannus Live, October 18, 2026,
- * in /assets/reviews/arch-enemy/. Detection exhibit lands in a later commit.
+ * in /assets/reviews/arch-enemy/. Detection exhibit follows the review body.
  */
 const CANONICAL = 'https://musiccitiesconcerts.com/reviews/arch-enemy';
 
@@ -370,6 +370,11 @@ const facts = [
 
           <p>Wrath Across North America runs through November 16 and finishes in Seattle. If it reaches a room near you, the smaller the room the better the read you will get, and go early, because all five of these bands are worth the five o'clock start.</p>
 
+          <figure class="rev-fig rev-fig--detection">
+            <img src="/assets/reviews/arch-enemy-detection-tampa-network.jpg" alt="Network map of the Tampa death metal scene, 1979 to 2026" width="1448" height="840" loading="lazy" decoding="async" />
+            <figcaption>The Tampa death metal network, 1979 to 2026. Bands, musicians, studios, labels, festivals and venues, with every Morrisound Recording credit verified album by album. Data through September 5, 2026.</figcaption>
+          </figure>
+
           <section class="rev-gal" aria-labelledby="photos">
             <h2 class="rev-h2" id="photos">Photos</h2>
             <p>All five bands at Jannus Live, St. Petersburg, on October 18, 2026, in bill order.</p>
@@ -441,6 +446,7 @@ const facts = [
     .rev-h2:first-child { margin-top: 0; }
     .rev-fig { margin: 0 0 1.4rem; }
     .rev-fig img { width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(255,255,255,0.13); display: block; }
+    .rev-fig--detection { margin-top: 2rem; }
     .rev-fig figcaption { margin-top: 0.4rem; font-size: 0.82rem; color: #8a8279; }
     .rev-quote { margin: 0 0 1.15rem; padding: 0.4rem 0 0.4rem 1.1rem; border-left: 3px solid #e11d2a; }
     .rev-quote p { margin: 0; color: #f4f1ea; font-size: 1.12rem; line-height: 1.6; font-style: italic; }
