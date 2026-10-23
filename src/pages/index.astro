@@ -206,12 +206,21 @@ const lastUpdated = data.generatedAt
       </div>
     </div>
   </a>
-  <div class="container feat-secondary">
-    <a class="feat-secondary__link" href="https://www.youtube.com/watch?v=GrgmkISEQpo" target="_blank" rel="noopener">
-      <img src="https://i.ytimg.com/vi/GrgmkISEQpo/default.jpg" alt="Rolling Quartz interview" width="120" height="90" loading="lazy" />
-      <span><strong>Also on the channel:</strong> Rolling Quartz — Growing Hard Rock in Korea, our full interview. <span class="feat-secondary__cta">Watch →</span></span>
-    </a>
-    <a class="feat-secondary__more" href="/reviews">All reviews →</a>
+  <div class="container feat-now">
+    <div class="feat-now__head">
+      <h2 class="feat-now__title">Now on the channel</h2>
+      <a class="feat-secondary__more" href="/reviews">All reviews →</a>
+    </div>
+    <div class="feat-now__list">
+      <a class="feat-secondary__link" href="https://www.youtube.com/watch?v=GrgmkISEQpo" target="_blank" rel="noopener">
+        <img src="https://i.ytimg.com/vi/GrgmkISEQpo/default.jpg" alt="Rolling Quartz interview" width="120" height="90" loading="lazy" />
+        <span><strong>Rolling Quartz — Growing Hard Rock in Korea.</strong> Our full interview. <span class="feat-secondary__cta">Watch →</span></span>
+      </a>
+      <a class="feat-secondary__link" href="/reviews/savage-grace">
+        <img src="/assets/reviews/savage-grace-underworld.jpg" alt="Savage Grace — Underworld" width="120" height="90" loading="lazy" />
+        <span><strong>Savage Grace — Underworld.</strong> Our review of the fourth album. <span class="feat-secondary__cta">Read →</span></span>
+      </a>
+    </div>
   </div>
 
   <section class="field-trip-strip">
@@ -388,5 +397,10 @@ const lastUpdated = data.generatedAt
   .feat-secondary__link:hover .feat-secondary__cta { color: #e11d2a; }
   .feat-secondary__more { color: #8a8279; font-size: 0.85rem; text-decoration: none; font-weight: 600; white-space: nowrap; }
   .feat-secondary__more:hover { color: #e11d2a; }
+  .feat-now { padding: 1rem 0 0.5rem; }
+  .feat-now__head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 0.6rem; }
+  .feat-now__title { margin: 0; font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; color: #e50914; font-weight: 700; }
+  .feat-now__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0.75rem 1.5rem; }
+  .feat-now__list .feat-secondary__link { flex: initial; }
   @media (max-width: 600px) { .feat-review__art { width: 88px; height: 88px; } }
 </style>
