@@ -1,13 +1,52 @@
 {
-  "fetchedAt": "2026-10-23T07:02:00.183Z",
+  "fetchedAt": "2026-10-24T07:01:07.494Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 153000,
-      "videoCount": 315,
+      "videoCount": 316,
       "recentLongform": [
+        {
+          "id": "6mHrPFEXY2M",
+          "title": "Nini | Live in Tampa | Into the Fire",
+          "publishedAt": "2026-10-23T17:49:53Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/6mHrPFEXY2M/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6mHrPFEXY2M/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6mHrPFEXY2M/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/6mHrPFEXY2M/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/6mHrPFEXY2M/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/6mHrPFEXY2M/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          "duration": "PT3M42S",
+          "durationSeconds": 222
+        },
         {
           "id": "Dv2a2rO21IY",
           "title": "SAKI, PLUVIA: the track she calls the one that saves her",
@@ -811,40 +850,6 @@
           },
           "duration": "PT57S",
           "durationSeconds": 57
-        },
-        {
-          "id": "jKsZH4mG1c0",
-          "title": "Tamu Murata | Happy Birthday | Nemophila",
-          "publishedAt": "2026-09-25T00:51:45Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/jKsZH4mG1c0/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/jKsZH4mG1c0/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/jKsZH4mG1c0/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/jKsZH4mG1c0/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/jKsZH4mG1c0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M",
-          "durationSeconds": 60
         }
       ]
     },
