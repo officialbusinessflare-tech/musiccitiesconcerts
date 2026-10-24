@@ -1,164 +1,6 @@
 {
-  "generatedAt": "2026-10-23T07:01:44.973Z",
+  "generatedAt": "2026-10-24T07:00:51.026Z",
   "entries": [
-    {
-      "id": "86bc7erxh",
-      "name": "📀 Savage Grace — Underworld — RELEASE — Oct 23 2026",
-      "date": "2026-10-23",
-      "venue": "Underworld — RELEASE",
-      "bands": [
-        "Savage Grace"
-      ],
-      "description": "Savage Grace return with Underworld, the new album from Christian Logue's band, out October 23. We interviewed Christian Logue for the show.",
-      "priority": "high",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc7erxh",
-      "buckets": [
-        "album-releases"
-      ]
-    },
-    {
-      "id": "86bbzt9yj",
-      "name": "RE:O @ ReSkin Night — Chelmsford, UK — Oct 23 2026",
-      "date": "2026-10-23",
-      "venue": "ReSkin Night",
-      "city": "Chelmsford",
-      "state": "UK",
-      "bands": [
-        "RE:O"
-      ],
-      "description": "RE:O (UK \"Japancore,\" Rio Suyama) at ReSkin Night, Chelmsford. Bands We're Watching (Global Metal). Source: Bandsintown.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzt9yj",
-      "buckets": []
-    },
-    {
-      "id": "86bbzt6e2",
-      "name": "Nini Music + Seven Kingdoms @ Black Circle — Indianapolis, IN — Oct 23 2026",
-      "date": "2026-10-23",
-      "venue": "Black Circle",
-      "city": "Indianapolis",
-      "state": "IN",
-      "bands": [
-        "Nini Music",
-        "Seven Kingdoms"
-      ],
-      "description": "Nini Music (folk metal) headlining her U.S. fall tour, with Seven Kingdoms supporting. Source: NextMosh, Aug 3 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzt6e2",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbu78c7",
-      "name": "Scene Queen + Wargasm @ Jannus Live — St. Petersburg, FL — Oct 23 2026",
-      "date": "2026-10-23",
-      "venue": "Jannus Live",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Scene Queen",
-        "Wargasm"
-      ],
-      "description": "Full bill: Scene Queen, Wargasm, Bailey Spinn.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78c7",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbr50gd",
-      "name": "NINI + Seven Kingdoms @ Black Circle — Indianapolis, IN — Oct 23 2026",
-      "date": "2026-10-23",
-      "venue": "Black Circle",
-      "city": "Indianapolis",
-      "state": "IN",
-      "bands": [
-        "NINI",
-        "Seven Kingdoms"
-      ],
-      "description": "NINI Music headlining, Seven Kingdoms supporting. Black Circle Brewing, Indianapolis, IN. NINI / Seven Kingdoms US fall tour.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbr50gd",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbqbpd5",
-      "name": "Torche + Bleeth + Daniel Zebulon @ Churchill's Pub — Miami, FL — Oct 23 2026",
-      "date": "2026-10-23",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Torche",
-        "Bleeth",
-        "Daniel Zebulon"
-      ],
-      "description": "Full bill: Torche, Bleeth, Daniel Zebulon, Orbiter, Wastelands, Inscribed.",
-      "ticketUrl": "https://www.ticketweb.com/event/torche-bleeth-daniel-zebulon-orbiter-churchills-pub-tickets/14866513",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbqbpd5",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbeb6x1",
-      "name": "SiM @ The Oriental Theater — Denver, CO — Oct 23 2026",
-      "date": "2026-10-23",
-      "venue": "The Oriental Theater",
-      "city": "Denver",
-      "state": "CO",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL world tour, North American leg. Tickets: https://tix.soundrink.com/tours/sim",
-      "ticketUrl": "https://tix.soundrink.com/tours/sim",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb6x1",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bamuujm",
-      "name": "Nekrogoblikon + Signs of the Swarm + Aborted + Party Cannon — The Beacham, Orlando FL",
-      "date": "2026-10-23",
-      "venue": "The Beacham",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Nekrogoblikon",
-        "Signs of the Swarm",
-        "Aborted",
-        "Party Cannon"
-      ],
-      "description": "Nekrogoblikon 20th Anniversary Fall 2026 Tour",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bamuujm",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86bc05hc3",
       "name": "Tortured Demon + Unburier + Pustulant Flesh @ Downstairs at The Dome — London, UK — Oct 24 2026",
@@ -6794,6 +6636,50 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu798w",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bcq5npg",
+      "name": "Papa Roach + Ice Nine Kills + Ninth Key @ MidFlorida Credit Union Amphitheatre — Tampa, FL — May 15 2027",
+      "date": "2027-05-15",
+      "venue": "MidFlorida Credit Union Amphitheatre",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Papa Roach",
+        "Ice Nine Kills",
+        "Ninth Key"
+      ],
+      "description": "Papa Roach bring the \"Rise of the Roach\" tour to Tampa with Ice Nine Kills and Ninth Key. A 30-date U.S. run opening May 11 in Biloxi; tickets on sale Friday, Oct 23 at 10 a.m. local. Source:…",
+      "ticketUrl": "https://blabbermouth.net/news/papa-roach-announces-may-june-2027-rise-of-the-roach-u-s-tour-with-ice-nine-kills",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcq5npg",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcq5npk",
+      "name": "Papa Roach + Ice Nine Kills + Ninth Key @ FPL Solar Amphitheatre — Miami, FL — May 16 2027",
+      "date": "2027-05-16",
+      "venue": "FPL Solar Amphitheatre",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Papa Roach",
+        "Ice Nine Kills",
+        "Ninth Key"
+      ],
+      "description": "Papa Roach bring the \"Rise of the Roach\" tour to Miami with Ice Nine Kills and Ninth Key. A 30-date U.S. run opening May 11 in Biloxi; tickets on sale Friday, Oct 23 at 10 a.m. local. Source:…",
+      "ticketUrl": "https://blabbermouth.net/news/papa-roach-announces-may-june-2027-rise-of-the-roach-u-s-tour-with-ice-nine-kills",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcq5npk",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
