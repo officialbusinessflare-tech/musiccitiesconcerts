@@ -217,10 +217,14 @@ function formatShowDate(iso: string): string {
   });
 }
 
-// Group by scene, preserving first-seen order.
-const scenes: string[] = [];
-for (const b of watching) if (!scenes.includes(b.scene)) scenes.push(b.scene);
-scenes.sort((a, b) => (a === 'Japanese Metal' ? 1 : 0) - (b === 'Japanese Metal' ? 1 : 0)); // Japanese Metal renders last
+// Scene section order — Japanese Metal first (the channel's focus), then Florida, then Global.
+const SCENE_ORDER = ['Japanese Metal', 'Florida Metal', 'Global Metal'];
+const present: string[] = [];
+for (const b of watching) if (!present.includes(b.scene)) present.push(b.scene);
+const scenes: string[] = [
+  ...SCENE_ORDER.filter((x) => present.includes(x)),
+  ...present.filter((x) => !SCENE_ORDER.includes(x)),
+];
 const grouped = scenes.map((scene) => ({
   scene,
   bands: watching.filter((b) => b.scene === scene).map((b) => ({ ...b, shows: nextShows(b.match) })),
@@ -243,9 +247,9 @@ const grouped = scenes.map((scene) => ({
         flyer, it earns a spot on the calendar. The band equivalent of our go-to venues.
       </p>
       <div class="watching-jump">
+        <a class="watching-jump__btn" href="#scene-japanese-metal">Japan</a>
         <a class="watching-jump__btn" href="#scene-florida-metal">Florida</a>
         <a class="watching-jump__btn" href="#scene-global-metal">Global</a>
-        <a class="watching-jump__btn" href="#scene-japanese-metal">Japan</a>
       </div>
     </div>
   </section>
