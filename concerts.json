@@ -1,124 +1,6 @@
 {
-  "generatedAt": "2026-10-25T07:01:18.211Z",
+  "generatedAt": "2026-10-26T07:00:52.451Z",
   "entries": [
-    {
-      "id": "86bbz59n5",
-      "name": "KOIAI @ Yokohama Bay Hall (Blu-ray Release Event) — Yokohama, Japan — Oct 25 2026",
-      "date": "2026-10-25",
-      "venue": "Yokohama Bay Hall (Blu-ray Release Event)",
-      "city": "Yokohama",
-      "country": "Japan",
-      "bands": [
-        "KOIAI"
-      ],
-      "description": "KOIAI LIVE TOUR 2026「Starting Over」in TOKYO Release Event -Talk & Live-",
-      "ticketUrl": "https://gekirock.com/news/2026/08/koiai_live_tour_2026_starting_over_blu-ray.php",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbz59n5",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbu78py",
-      "name": "Brand New @ Hard Rock Live — Hollywood, FL — Oct 25 2026",
-      "date": "2026-10-25",
-      "venue": "Hard Rock Live",
-      "city": "Hollywood",
-      "state": "FL",
-      "bands": [
-        "Brand New"
-      ],
-      "description": "Reunion-era Brand New, South Florida date.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78py",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbtbte2",
-      "name": "The Linda Lindas @ The Orpheum — Tampa, FL — Oct 25 2026",
-      "date": "2026-10-25",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "The Linda Lindas"
-      ],
-      "description": "Tampa date ahead of the Culture Room show on Oct 27, with The Rat Utopia Experiment supporting.",
-      "ticketUrl": "https://www.jambase.com/show/the-linda-lindas-the-orpheum-20261025",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbtbte2",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbj3w1u",
-      "name": "AVE MUJICA @ Keio Arena TOKYO — Tokyo, Japan — Oct 25 2026",
-      "date": "2026-10-25",
-      "venue": "Keio Arena TOKYO",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "AVE MUJICA"
-      ],
-      "description": "Ave Mujica 7th LIVE \"Virtus\" — Day 2.",
-      "ticketUrl": "https://bang-dream.com/events/avemujica_7th/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbj3w1u",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbeb6yt",
-      "name": "SiM @ Varsity Theater — Minneapolis, MN — Oct 25 2026",
-      "date": "2026-10-25",
-      "venue": "Varsity Theater",
-      "city": "Minneapolis",
-      "state": "MN",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL world tour, North American leg. Tickets: https://tix.soundrink.com/tours/sim",
-      "ticketUrl": "https://tix.soundrink.com/tours/sim",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb6yt",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w5jm",
-      "name": "ZILQY @ Nagoya ell.FITS ALL — Nagoya, Japan — Oct 25 2026",
-      "date": "2026-10-25",
-      "venue": "Nagoya ell.FITS ALL",
-      "city": "Nagoya",
-      "country": "Japan",
-      "bands": [
-        "ZILQY"
-      ],
-      "description": "ZILQY — Birth of Riot tour. Nagoya ell.FITS ALL in Nagoya, Japan. Show date: Oct 25 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5jm",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbvd1e2",
       "name": "Alice Cooper @ Ruth Eckerd Hall — Clearwater, FL — Oct 27 2026",
@@ -2789,6 +2671,26 @@
       ]
     },
     {
+      "id": "86bcqxztb",
+      "name": "Yngwie Malmsteen @ Lillian S. Wells Hall at The Parker — Fort Lauderdale, FL — Nov 25 2026",
+      "date": "2026-11-26",
+      "venue": "Lillian S. Wells Hall at The Parker",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Yngwie Malmsteen"
+      ],
+      "description": "Neoclassical shred pioneer Yngwie Malmsteen brings his guitar fireworks to the Parker Playhouse's Lillian S. Wells Hall in Fort Lauderdale. Doors 7:30 PM. Tickets: https://www.parkerplayhouse.com/events/detail/yngwie-malmsteen-2026",
+      "ticketUrl": "https://www.parkerplayhouse.com/events/detail/yngwie-malmsteen-2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcqxztb",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bcmjube",
       "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Große Freiheit 36 — Hamburg, Germany — Nov 27 2026",
       "date": "2026-11-27",
@@ -4186,6 +4088,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bavn8xh",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcr2qhw",
+      "name": "NEON ONI @ Shinjuku ANTIKNOCK — Tokyo, Japan — Dec 17 2026",
+      "date": "2026-12-17",
+      "venue": "Shinjuku ANTIKNOCK",
+      "city": "Tokyo",
+      "country": "Japan",
+      "bands": [
+        "NEON ONI"
+      ],
+      "description": "THE ONI RITUAL — second summoning (NEON ONI 1st-anniversary live). Shinjuku ANTIKNOCK, Tokyo. Doors 18:00 / start 18:30. Advance ¥4,000. Watch-list band (Japanese & Asian Metal). Source: band X @neononimetal + Bandsintown. NOTE from sweep: KOIAI's 2026 \"Starting Over\" live tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcr2qhw",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
