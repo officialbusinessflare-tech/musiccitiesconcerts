@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T07:01:23.797Z",
+  "generatedAt": "2026-10-27T07:00:50.588Z",
   "entries": [
     {
       "id": "86bbvd1e2",
@@ -4392,6 +4392,26 @@
       ]
     },
     {
+      "id": "86bcrmhe8",
+      "name": "Sevendust @ Ferg's Pavilion — St. Petersburg, FL — Dec 29 2026",
+      "date": "2026-12-29",
+      "venue": "Ferg's Pavilion",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Sevendust"
+      ],
+      "description": "Sevendust headline a night at Ferg's Concert Pavilion in St. Petersburg, 7:00 PM show. Tickets: https://www.eventworld.com/sevendust-saint-petersburg-tickets-12-29-2026/event/580561",
+      "ticketUrl": "https://www.eventworld.com/sevendust-saint-petersburg-tickets-12-29-2026/event/580561",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcrmhe8",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86baqty65",
       "name": "Yngwie Malmsteen — new solo album (TBD 2026) — verify title/date",
       "date": "2026-12-31",
@@ -4423,6 +4443,26 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5v9w",
       "buckets": []
+    },
+    {
+      "id": "86bcrmhet",
+      "name": "Cold Steel @ The Orpheum — Tampa, FL — Jan 2 2027",
+      "date": "2027-01-02",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Cold Steel"
+      ],
+      "description": "Cold Steel return to The Orpheum in Ybor City to open 2027. Tickets: https://www.eventworld.com/tampa-fl/concerts/january",
+      "ticketUrl": "https://www.eventworld.com/tampa-fl/concerts/january",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcrmhet",
+      "buckets": [
+        "florida-metal-scene"
+      ]
     },
     {
       "id": "86bbu78n7",
@@ -5801,6 +5841,26 @@
       ]
     },
     {
+      "id": "86bcrmhhw",
+      "name": "Staind @ Benchmark International Arena — Tampa, FL — Mar 12 2027",
+      "date": "2027-03-12",
+      "venue": "Benchmark International Arena",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Staind"
+      ],
+      "description": "Staind bring the Break the Cycle 25th Anniversary Tour to Benchmark International Arena in Tampa. Tickets: https://www.bandsintown.com/e/108998866",
+      "ticketUrl": "https://www.bandsintown.com/e/108998866",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcrmhhw",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbqbpde",
       "name": "VNV Nation @ Culture Room — Fort Lauderdale, FL — Mar 12 2027",
       "date": "2027-03-12",
@@ -6389,6 +6449,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bc4ytu9",
       "buckets": [
         "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bcrmhk0",
+      "name": "Def Leppard + Goo Goo Dolls @ Benchmark International Arena — Tampa, FL — Jun 13 2027",
+      "date": "2027-06-13",
+      "venue": "Benchmark International Arena",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Def Leppard",
+        "Goo Goo Dolls"
+      ],
+      "description": "Def Leppard and Goo Goo Dolls, with special guests The Struts, land in Tampa on the 2027 US run. Details: https://hollywoodlife.com/2026/10/08/def-leppard-2027-tour-cities-dates-tickets/",
+      "ticketUrl": "https://hollywoodlife.com/2026/10/08/def-leppard-2027-tour-cities-dates-tickets/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcrmhk0",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
