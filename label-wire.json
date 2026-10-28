@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T12:09:48.976Z",
+  "generatedAt": "2026-10-28T17:42:09.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -35,9 +35,22 @@
     {
       "id": "wildkingdom",
       "name": "Wild Kingdom"
+    },
+    {
+      "id": "steamhammer",
+      "name": "Steamhammer"
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-10-28",
+      "label": "steamhammer",
+      "artist": "Silvertomb",
+      "headline": "Doom metal all-stars featuring Kenny Hickey and Johnny Kelly, ex Type O Negative, announce second album The Interpretation Of Nightmares, out November 13, 2026 on Steamhammer.",
+      "type": "Album",
+      "releaseDate": "2026-11-13"
+    },
     {
       "kind": "send",
       "date": "2026-10-22",
