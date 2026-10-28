@@ -5,12 +5,14 @@ interface Props {
   title?: string;
   description?: string;
   ogImage?: string;
+  noindex?: boolean;
 }
 
 const {
   title = 'The Music Cities Concerts Dashboard',
   description = 'Curated metal concerts, festivals, and album releases. Where heavy metal is economic development.',
   ogImage = '/assets/og-hero.png',
+  noindex = false,
 } = Astro.props;
 
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? '';
@@ -33,6 +35,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://music-citie
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex,nofollow" />}
 
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
