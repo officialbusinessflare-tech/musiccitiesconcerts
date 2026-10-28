@@ -1,0 +1,222 @@
+---
+/**
+ * /japan-map — PRIVATE interactive trip map for Japan, Nov 4–16 2026.
+ * Not linked anywhere in nav; noindex + robots Disallow. Easy-to-remember URL
+ * for Kevin: musiccitiesconcerts.com/japan-map
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const stops = [
+  { id:'dt-ariake', cat:'hotel', name:'DoubleTree Tokyo Ariake', ja:'ダブルツリー東京有明', lat:35.6333, lon:139.7920, info:'Base hotel, 7 of 11 nights. 25 min taxi from Haneda.' },
+  { id:'hilton-shinjuku', cat:'hotel', name:'Hilton Tokyo, Shinjuku', ja:'ヒルトン東京 新宿', lat:35.6924, lon:139.6926, info:'Nov 8 only. 10 min walk from ANTIKNOCK.' },
+  { id:'hilton-hiroshima', cat:'hotel', name:'Hilton Hiroshima', ja:'ヒルトン広島', lat:34.3889, lon:132.4733, info:'Nov 9. 10 min taxi from Hiroshima Station.' },
+  { id:'hilton-osaka', cat:'hotel', name:'Hilton Osaka', ja:'ヒルトン大阪', lat:34.7013, lon:135.4958, info:'Nov 10–12. Across from Osaka Station, one JR stop from Shin-Osaka.' },
+  { id:'conrad-nagoya', cat:'hotel', name:'Conrad Nagoya', ja:'コンラッド名古屋', lat:35.1705, lon:136.8815, info:'Nov 14. On top of Nagoya Station.' },
+
+  { id:'antiknock', cat:'venue', name:'Shinjuku ANTIKNOCK', ja:'新宿ANTIKNOCK', lat:35.6894, lon:139.7035, info:'Nov 8 · ASTERISM vs BRIDEAR · doors 6:00 PM · guest list done.' },
+  { id:'budokan', cat:'venue', name:'Nippon Budokan', ja:'日本武道館', lat:35.6933, lon:139.7496, info:'Nov 13 · BAND-MAID World Tour Final · doors 4:30 PM, show 6:00 PM · Marco interview in line.' },
+  { id:'holiday-next', cat:'venue', name:'HOLIDAY NEXT NAGOYA', ja:'HOLIDAY NEXT 名古屋', lat:35.1686, lon:136.9130, info:'Nov 14 · Broken By The Scream · Shinsakae, 8 min on Higashiyama subway from Nagoya Station.' },
+  { id:'club-citta', cat:'venue', name:"CLUB CITTA' Kawasaki", ja:'クラブチッタ川崎', lat:35.5319, lon:139.6969, info:'Nov 15 · HAGANE, STRIKE BACK 2026 · doors 1:00 PM, show 2:00 PM.' },
+  { id:'ongakushitsu', cat:'venue', name:'音楽室DX, Takadanobaba', ja:'音楽室DX 高田馬場', lat:35.7128, lon:139.7040, info:'Nov 15 (if time allows) · THE JAM · doors 6:00 PM.' },
+
+  { id:'haneda', cat:'station', name:'Haneda Airport', ja:'羽田空港', lat:35.5494, lon:139.7798, info:'In Nov 5 (lands 6:25 PM) · out Nov 16 (AA 176, 8:25 PM).' },
+  { id:'tokyo-stn', cat:'station', name:'Tokyo Station', ja:'東京駅', lat:35.6812, lon:139.7671, info:'Nozomi hub — out to Hiroshima (9th), Nagoya (14th); in from Osaka (12th).' },
+  { id:'shinjuku-stn', cat:'station', name:'Shinjuku Station', ja:'新宿駅', lat:35.6896, lon:139.7004, info:'Nov 8–9 base.' },
+  { id:'kudanshita-stn', cat:'station', name:'Kudanshita Station', ja:'九段下駅', lat:35.6957, lon:139.7517, info:'Nov 13 · 5 min walk to Budokan.' },
+  { id:'shinagawa-stn', cat:'station', name:'Shinagawa Station', ja:'品川駅', lat:35.6285, lon:139.7389, info:'Nov 15 · Nozomi in from Nagoya, then Keihin-Tohoku to Kawasaki.' },
+  { id:'hiroshima-stn', cat:'station', name:'Hiroshima Station', ja:'広島駅', lat:34.3977, lon:132.4753, info:'Nov 9–10.' },
+  { id:'miyajimaguchi', cat:'station', name:'Miyajimaguchi (ferry)', ja:'宮島口', lat:34.3092, lon:132.3036, info:'Nov 9 · JR Sanyo 30 min, then ferry 10 min to Miyajima.' },
+  { id:'shin-osaka', cat:'station', name:'Shin-Osaka Station', ja:'新大阪駅', lat:34.7334, lon:135.5002, info:'Nozomi hub for Osaka. Kyoto 15 min away.' },
+  { id:'osaka-stn', cat:'station', name:'Osaka Station', ja:'大阪駅', lat:34.7025, lon:135.4959, info:'Next to Hilton Osaka. One JR stop from Shin-Osaka.' },
+  { id:'nagoya-stn', cat:'station', name:'Nagoya Station', ja:'名古屋駅', lat:35.1706, lon:136.8816, info:'Nov 14. Conrad sits on top.' },
+  { id:'kawasaki-stn', cat:'station', name:'Kawasaki Station', ja:'川崎駅', lat:35.5308, lon:139.6967, info:"Nov 15 · 5 min walk to CLUB CITTA'." },
+
+  { id:'itsukushima', cat:'sight', name:'Itsukushima Shrine, Miyajima', ja:'厳島神社 宮島', lat:34.2960, lon:132.3197, info:"Nov 9 · Lina's birthday · torii at sunset." },
+  { id:'peace-park', cat:'sight', name:'Peace Memorial Park', ja:'平和記念公園', lat:34.3916, lon:132.4526, info:'Nov 10 morning, Hiroshima.' },
+  { id:'kyoto', cat:'sight', name:'Kyoto (day trip)', ja:'京都', lat:34.9858, lon:135.7585, info:'Nov 12 · 15 min by shinkansen from Shin-Osaka.' },
+];
+
+const legs = [
+  { mode:'rail', from:'tokyo-stn',     to:'hiroshima-stn',  label:'Nov 9 · Nozomi, 3 hr 50 min' },
+  { mode:'rail', from:'hiroshima-stn', to:'miyajimaguchi',  label:'Nov 9 · JR Sanyo, 30 min' },
+  { mode:'rail', from:'hiroshima-stn', to:'shin-osaka',     label:'Nov 10 · Nozomi, 1 hr 20 min' },
+  { mode:'rail', from:'shin-osaka',    to:'kyoto',          label:'Nov 12 · shinkansen, 15 min each way' },
+  { mode:'rail', from:'shin-osaka',    to:'tokyo-stn',      label:'Nov 12 · Nozomi, 2 hr 25 min' },
+  { mode:'rail', from:'tokyo-stn',     to:'nagoya-stn',     label:'Nov 14 · Nozomi, 1 hr 40 min' },
+  { mode:'rail', from:'nagoya-stn',    to:'shinagawa-stn',  label:'Nov 15 · Nozomi, 1 hr 30 min' },
+
+  { mode:'local', from:'haneda',        to:'dt-ariake',     label:'Nov 5 · taxi, 25 min' },
+  { mode:'local', from:'dt-ariake',     to:'shinjuku-stn',  label:'Nov 8 · train, 40 min' },
+  { mode:'local', from:'miyajimaguchi', to:'itsukushima',   label:'Nov 9 · ferry, 10 min' },
+  { mode:'local', from:'dt-ariake',     to:'kudanshita-stn',label:'Nov 13 · train, 35 min' },
+  { mode:'local', from:'shinagawa-stn', to:'kawasaki-stn',  label:'Nov 15 · Keihin-Tohoku, 10 min' },
+  { mode:'local', from:'kawasaki-stn',  to:'dt-ariake',     label:'Nov 15 · train, 45 min back' },
+  { mode:'local', from:'dt-ariake',     to:'haneda',        label:'Nov 16 · taxi, 25 min' },
+];
+
+const days = [
+  { d:'Wed Nov 4',  show:false, focus:'haneda',        city:'In the air',   what:'Depart Miami 9:10 AM → Dallas → AA 175 to Haneda, 14 hr.' },
+  { d:'Thu Nov 5',  show:false, focus:'dt-ariake',     city:'Tokyo',        what:'Land Haneda 6:25 PM, taxi to Ariake, check in, dinner nearby.' },
+  { d:'Fri Nov 6',  show:false, focus:'dt-ariake',     city:'Tokyo',        what:'Open in Tokyo.' },
+  { d:'Sat Nov 7',  show:false, focus:'dt-ariake',     city:'Tokyo',        what:'Open in Tokyo.' },
+  { d:'Sun Nov 8',  show:true,  focus:'antiknock',     city:'Tokyo',        what:'Check out Ariake → Shinjuku. ASTERISM vs BRIDEAR, Shinjuku ANTIKNOCK, doors 6:00 PM. Guest list done. Sleep Hilton Shinjuku.' },
+  { d:'Mon Nov 9',  show:false, focus:'itsukushima',   city:'Hiroshima',    what:"Nozomi 8 AM to Hiroshima. Miyajima afternoon, torii at sunset. Lina's birthday dinner. Sleep Hilton Hiroshima." },
+  { d:'Tue Nov 10', show:false, focus:'peace-park',    city:'Osaka',        what:'Peace Park morning, then Nozomi to Shin-Osaka. Sleep Hilton Osaka.' },
+  { d:'Wed Nov 11', show:false, focus:'hilton-osaka',  city:'Osaka',        what:'Open in Osaka. (Hazuki M&G signing in town — probably passing.)' },
+  { d:'Thu Nov 12', show:false, focus:'kyoto',         city:'Kyoto → Tokyo',what:'Kyoto day trip. Evening Nozomi back to Tokyo, in about 9 PM. Sleep DoubleTree Ariake.' },
+  { d:'Fri Nov 13', show:true,  focus:'budokan',       city:'Tokyo',        what:'Ariake → Kudanshita, be in line early for the Marco interview. BAND-MAID World Tour Final, Nippon Budokan, doors 4:30 PM, show 6:00 PM.' },
+  { d:'Sat Nov 14', show:true,  focus:'holiday-next',  city:'Nagoya',       what:'Nozomi to Nagoya. Broken By The Scream, HOLIDAY NEXT NAGOYA. Sleep Conrad Nagoya.' },
+  { d:'Sun Nov 15', show:true,  focus:'club-citta',    city:'Kawasaki → Tokyo', what:"Nozomi to Shinagawa → Kawasaki. HAGANE, STRIKE BACK 2026, CLUB CITTA', doors 1:00 PM, show 2:00 PM. If time, THE JAM @ 音楽室DX, doors 6:00 PM. Sleep DoubleTree Ariake." },
+  { d:'Mon Nov 16', show:false, focus:'haneda',        city:'Home',         what:'Ariake → Haneda. AA 176 8:25 PM to Dallas, AA 1793 to Miami.' },
+];
+---
+
+<BaseLayout
+  title="Japan Trip Map · Nov 4–16 2026 (private)"
+  description="Private trip map."
+  noindex={true}
+>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+
+  <main class="jm">
+    <header class="jm-top">
+      <div>
+        <h1 class="jm-title">Japan Trip Map <span>日本旅行マップ</span></h1>
+        <p class="jm-sub">November 4–16, 2026 · Kevin &amp; Lina · all travel inside Japan by train. Private planning map.</p>
+      </div>
+      <a class="jm-home" href="/">← musiccitiesconcerts.com</a>
+    </header>
+
+    <div class="jm-mapwrap">
+      <div id="jmap"></div>
+      <div class="jm-legend">
+        <span><i class="dot" style="background:#2b6cff"></i>Hotel</span>
+        <span><i class="dot" style="background:#e23b3b"></i>Venue</span>
+        <span><i class="dot" style="background:#222"></i>Station / airport</span>
+        <span><i class="dot" style="background:#2e9e5b"></i>Sight</span>
+        <span><i class="line" style="background:#e8821e"></i>Shinkansen / JR</span>
+        <span><i class="line dash"></i>Local / taxi / ferry</span>
+      </div>
+    </div>
+
+    <section class="jm-days">
+      <h2 class="jm-days__h">Day by day <small>— tap a day to fly there</small></h2>
+      <div class="jm-grid">
+        {days.map((day) => (
+          <button class={`jm-card${day.show ? ' is-show' : ''}`} data-focus={day.focus} type="button">
+            <div class="jm-card__top">
+              <span class="jm-card__date">{day.d}</span>
+              {day.show && <span class="jm-card__badge">SHOW</span>}
+            </div>
+            <div class="jm-card__city">{day.city}</div>
+            <div class="jm-card__what">{day.what}</div>
+          </button>
+        ))}
+      </div>
+      <p class="jm-foot">
+        Still to do: HAGANE tickets on e+ by Nov 14, 6:00 PM · Marco interview time &amp; logistics ·
+        outreach to Broken By The Scream, mayu, Willian, Saki, Miho and Asami.
+      </p>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script is:inline define:vars={{ stops, legs }}>
+    window.addEventListener('load', function () {
+      if (typeof L === 'undefined') return;
+      var colors = { hotel:'#2b6cff', venue:'#e23b3b', station:'#222', sight:'#2e9e5b' };
+      var byId = {};
+      stops.forEach(function (s) { byId[s.id] = s; });
+
+      var map = L.map('jmap', { scrollWheelZoom: false, zoomControl: true }).setView([35.0, 136.0], 6);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      }).addTo(map);
+
+      legs.forEach(function (leg) {
+        var a = byId[leg.from], b = byId[leg.to];
+        if (!a || !b) return;
+        var rail = leg.mode === 'rail';
+        L.polyline([[a.lat, a.lon], [b.lat, b.lon]], {
+          color: rail ? '#e8821e' : '#8a8a8a',
+          weight: rail ? 4 : 3,
+          opacity: rail ? 0.9 : 0.8,
+          dashArray: rail ? null : '6,8'
+        }).addTo(map).bindTooltip(leg.label, { sticky: true });
+      });
+
+      var markers = {};
+      var bounds = [];
+      stops.forEach(function (s) {
+        var c = colors[s.cat] || '#444';
+        var size = (s.cat === 'venue' || s.cat === 'hotel') ? 16 : 12;
+        var icon = L.divIcon({
+          className: 'jm-pin',
+          html: '<span style="display:block;width:' + size + 'px;height:' + size + 'px;border-radius:50%;background:' + c + ';border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.55)"></span>',
+          iconSize: [size, size],
+          iconAnchor: [size/2, size/2]
+        });
+        var popup = '<strong>' + s.name + '</strong><br>' +
+                    '<small style="color:' + c + ';font-weight:700;text-transform:uppercase;letter-spacing:.04em">' + s.cat + '</small>' +
+                    '<span style="opacity:.6"> · ' + s.ja + '</span><br>' +
+                    '<span style="display:block;margin-top:4px">' + s.info + '</span>';
+        var m = L.marker([s.lat, s.lon], { icon: icon }).addTo(map)
+          .bindPopup(popup)
+          .bindTooltip(s.name, { direction: 'top', offset: [0, -6] });
+        markers[s.id] = m;
+        bounds.push([s.lat, s.lon]);
+      });
+
+      map.fitBounds(bounds, { padding: [45, 45] });
+      map.on('click', function () { map.scrollWheelZoom.enable(); });
+
+      document.querySelectorAll('.jm-card').forEach(function (card) {
+        card.addEventListener('click', function () {
+          var id = card.getAttribute('data-focus');
+          var m = markers[id];
+          if (!m) return;
+          map.flyTo(m.getLatLng(), 14, { duration: 0.8 });
+          map.once('moveend', function () { m.openPopup(); });
+          document.getElementById('jmap').scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+      });
+    });
+  </script>
+
+  <style>
+    .jm { max-width: 1200px; margin: 0 auto; padding: 1rem 1rem 3rem; }
+    .jm-top { display:flex; justify-content:space-between; align-items:flex-start; gap:1rem; flex-wrap:wrap; margin: 0.5rem 0 1rem; }
+    .jm-title { font-size: clamp(1.5rem, 3vw, 2.1rem); margin:0; line-height:1.1; }
+    .jm-title span { font-weight:400; opacity:.55; font-size:0.7em; margin-left:.4em; }
+    .jm-sub { margin:.35rem 0 0; opacity:.75; font-size:.9rem; max-width:62ch; }
+    .jm-home { white-space:nowrap; font-size:.85rem; text-decoration:none; opacity:.8; border:1px solid var(--border,#333); padding:.4rem .7rem; border-radius:8px; }
+    .jm-home:hover { opacity:1; }
+
+    .jm-mapwrap { position:relative; }
+    #jmap { height: min(72vh, 640px); min-height:460px; width:100%; border-radius:14px; overflow:hidden; border:1px solid var(--border,#222); z-index:0; }
+    .jm-legend { position:absolute; left:12px; bottom:12px; z-index:500; background:rgba(12,12,12,.82); color:#eee; border:1px solid rgba(255,255,255,.12); border-radius:10px; padding:.55rem .7rem; display:flex; flex-direction:column; gap:.32rem; font-size:.78rem; backdrop-filter:blur(3px); }
+    .jm-legend span { display:flex; align-items:center; gap:.5rem; white-space:nowrap; }
+    .jm-legend .dot { width:11px; height:11px; border-radius:50%; border:1.5px solid #fff; flex:none; }
+    .jm-legend .line { width:18px; height:3px; border-radius:2px; background:#e8821e; flex:none; }
+    .jm-legend .line.dash { background:transparent; border-top:3px dashed #8a8a8a; height:0; }
+
+    .jm-days { margin-top: 1.6rem; }
+    .jm-days__h { font-size:1.2rem; margin:0 0 .8rem; }
+    .jm-days__h small { font-weight:400; opacity:.6; }
+    .jm-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap:.7rem; }
+    .jm-card { text-align:left; cursor:pointer; background:var(--card,#141414); color:inherit; border:1px solid var(--border,#262626); border-radius:12px; padding:.75rem .8rem; transition:border-color .15s, transform .08s; font:inherit; }
+    .jm-card:hover { border-color:#666; }
+    .jm-card:active { transform:scale(.99); }
+    .jm-card.is-show { border-color:#e23b3b; background:linear-gradient(180deg, rgba(226,59,59,.10), transparent 60%); }
+    .jm-card__top { display:flex; align-items:center; justify-content:space-between; gap:.5rem; }
+    .jm-card__date { font-weight:700; font-size:.92rem; }
+    .jm-card__badge { font-size:.62rem; font-weight:800; letter-spacing:.08em; color:#fff; background:#e23b3b; padding:.12rem .4rem; border-radius:5px; }
+    .jm-card__city { font-size:.78rem; opacity:.7; margin:.15rem 0 .35rem; }
+    .jm-card__what { font-size:.82rem; line-height:1.35; opacity:.92; }
+    .jm-foot { margin-top:1.1rem; font-size:.82rem; opacity:.7; border-top:1px solid var(--border,#262626); padding-top:.8rem; }
+
+    .leaflet-tooltip { font-weight:600; }
+    @media (max-width:560px){ .jm-legend { font-size:.72rem; left:8px; bottom:8px; } }
+  </style>
+</BaseLayout>
