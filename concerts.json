@@ -1,84 +1,6 @@
 {
-  "generatedAt": "2026-10-28T07:01:11.928Z",
+  "generatedAt": "2026-10-29T07:00:56.325Z",
   "entries": [
-    {
-      "id": "86bbz59md",
-      "name": "📀 KOIAI — LIVE TOUR 2026 「Starting Over」 in TOKYO (live Blu-ray) — RELEASE — Oct 28 2026",
-      "date": "2026-10-28",
-      "venue": "LIVE TOUR 2026 「Starting Over」 in TOKYO (live Blu-ray) — RELEASE",
-      "bands": [
-        "KOIAI"
-      ],
-      "description": "KOIAI — KOIAI LIVE TOUR 2026「Starting Over」in TOKYO -HEAVY KAWAII FES 2026- (live Blu-ray)\nRelease date: Wednesday, October 28, 2026 (Japan)",
-      "ticketUrl": "https://tower.jp/article/feature_item/2026/09/03/0703",
-      "priority": "normal",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbz59md",
-      "buckets": [
-        "japanese-metal",
-        "album-releases"
-      ]
-    },
-    {
-      "id": "86bbuyjvv",
-      "name": "📀 BAND-MAID — SPIN (single) — RELEASE — Oct 28 2026",
-      "date": "2026-10-28",
-      "venue": "SPIN (single) — RELEASE",
-      "bands": [
-        "BAND-MAID"
-      ],
-      "description": "BAND-MAID new single \"SPIN\" — their first physical single in four and a half years (since \"Sense,\" 2021) and first release of 2026. Announced from the stage at Zepp Haneda on May 10 during the World Tour 2026.",
-      "ticketUrl": "https://bandmaid.tokyo/contents/1104790",
-      "priority": "normal",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbuyjvv",
-      "buckets": [
-        "japanese-metal",
-        "album-releases"
-      ]
-    },
-    {
-      "id": "86bbtbtgj",
-      "name": "PeelingFlesh @ The Orpheum — Tampa, FL — Oct 28 2026",
-      "date": "2026-10-28",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "PeelingFlesh"
-      ],
-      "description": "Tampa stop ahead of the West Palm Beach date at The Banyan Live on Oct 29.",
-      "ticketUrl": "https://www.jambase.com/show/peelingflesh-the-orpheum-20261028",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbtbtgj",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbtbryc",
-      "name": "Black Label Society @ Hard Rock Live — Orlando, FL — Oct 28 2026",
-      "date": "2026-10-28",
-      "venue": "Hard Rock Live",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Black Label Society"
-      ],
-      "description": "Zakk Wylde brings BLS to Orlando the night before the Fort Lauderdale War Memorial date on Oct 29 — two Florida shows back to back.",
-      "ticketUrl": "https://www.songkick.com/concerts/43290923-black-label-society-at-hard-rock-live-orlando",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbtbryc",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86bba6hmx",
       "name": "Peeling Flesh + Gridiron + Final Resting Place + Two Piece + Grounds for Assault @ The Banyan Live — West Palm Beach, FL — Oct 29 2026",
@@ -4811,6 +4733,24 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu792c",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bcu4633",
+      "name": "Enter Shikari @ Culture Room — Fort Lauderdale, FL — Jan 27 2027",
+      "date": "2027-01-27",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Enter Shikari"
+      ],
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcu4633",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
