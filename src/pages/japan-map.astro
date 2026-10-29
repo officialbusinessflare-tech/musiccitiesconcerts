@@ -174,7 +174,7 @@ const cities = [
                     '<span style="display:block;margin-top:4px">' + s.info + '</span>';
         var m = L.marker([s.lat, s.lon], { icon: icon }).addTo(map)
           .bindPopup(popup)
-          .bindTooltip(s.name + '  ' + s.ja, { direction: 'top', offset: [0, -6] });
+          .bindTooltip('<span class="jm-tip-name">' + s.name + '</span> <span class="jm-tip-ja">' + s.ja + '</span><br><span class="jm-tip-info">' + s.info + '</span>', { direction: 'top', offset: [0, -8], className: 'jm-tip' });
         markers[s.id] = m;
         bounds.push([s.lat, s.lon]);
       });
@@ -242,6 +242,11 @@ const cities = [
     .jm-citylabel::before { display:none; }
     .jm-city-en { color:#fff; font-weight:800; font-size:.95rem; text-shadow:0 0 3px #000,0 0 3px #000,0 1px 2px #000; }
     .jm-city-ja { color:#ffd9a3; font-weight:700; font-size:.82rem; text-shadow:0 0 3px #000,0 0 3px #000; margin-left:1px; }
+    .jm-tip .leaflet-tooltip-content, .leaflet-tooltip.jm-tip { max-width:260px; white-space:normal; }
+    .jm-tip { max-width:260px; }
+    .jm-tip-name { font-weight:800; }
+    .jm-tip-ja { font-weight:600; opacity:.6; }
+    .jm-tip-info { display:block; margin-top:3px; font-weight:500; font-size:.82em; opacity:.9; line-height:1.3; }
     @media (max-width:560px){ .jm-legend { font-size:.72rem; left:8px; bottom:8px; } }
   </style>
 </BaseLayout>
