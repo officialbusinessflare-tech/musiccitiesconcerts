@@ -69,6 +69,17 @@ const days = [
   { d:'Sun Nov 15', show:true,  focus:'club-citta',    city:'Kawasaki → Tokyo', what:"Nozomi to Shinagawa → Kawasaki. HAGANE, STRIKE BACK 2026, CLUB CITTA', doors 1:00 PM, show 2:00 PM. If time, THE JAM @ 音楽室DX, doors 6:00 PM. Sleep DoubleTree Ariake." },
   { d:'Mon Nov 16', show:false, focus:'haneda',        city:'Home',         what:'Ariake → Haneda. AA 176 8:25 PM to Dallas, AA 1793 to Miami.' },
 ];
+
+// ---- City labels (English, with Japanese alongside) -------------------
+const cities = [
+  { en:'Tokyo',     ja:'東京', lat:35.6850, lon:139.7600 },
+  { en:'Kawasaki',  ja:'川崎', lat:35.5308, lon:139.6967 },
+  { en:'Nagoya',    ja:'名古屋', lat:35.1706, lon:136.8816 },
+  { en:'Kyoto',     ja:'京都', lat:34.9858, lon:135.7585 },
+  { en:'Osaka',     ja:'大阪', lat:34.7025, lon:135.4959 },
+  { en:'Hiroshima', ja:'広島', lat:34.3955, lon:132.4596 },
+  { en:'Miyajima',  ja:'宮島', lat:34.2980, lon:132.3190 },
+];
 ---
 
 <BaseLayout
@@ -121,14 +132,14 @@ const days = [
   </main>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <script is:inline define:vars={{ stops, legs }}>
+  <script is:inline define:vars={{ stops, legs, cities }}>
     window.addEventListener('load', function () {
       if (typeof L === 'undefined') return;
       var colors = { hotel:'#2b6cff', venue:'#e23b3b', station:'#222', sight:'#2e9e5b' };
       var byId = {};
       stops.forEach(function (s) { byId[s.id] = s; });
 
-      var map = L.map('jmap', { scrollWheelZoom: false, zoomControl: true }).setView([35.0, 136.0], 6);
+      var map = L.map('jmap', { scrollWheelZoom: true, zoomControl: true }).setView([35.0, 136.0], 6);
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -163,13 +174,23 @@ const days = [
                     '<span style="display:block;margin-top:4px">' + s.info + '</span>';
         var m = L.marker([s.lat, s.lon], { icon: icon }).addTo(map)
           .bindPopup(popup)
-          .bindTooltip(s.name, { direction: 'top', offset: [0, -6] });
+          .bindTooltip(s.name + '  ' + s.ja, { direction: 'top', offset: [0, -6] });
         markers[s.id] = m;
         bounds.push([s.lat, s.lon]);
       });
 
       map.fitBounds(bounds, { padding: [45, 45] });
-      map.on('click', function () { map.scrollWheelZoom.enable(); });
+
+      // Permanent English city labels with Japanese alongside
+      cities.forEach(function (c) {
+        L.marker([c.lat, c.lon], {
+          interactive: false,
+          icon: L.divIcon({ className: 'jm-citylabel-wrap', html: '', iconSize: [0, 0] })
+        }).addTo(map).bindTooltip(
+          '<span class="jm-city-en">' + c.en + '</span> <span class="jm-city-ja">' + c.ja + '</span>',
+          { permanent: true, direction: 'right', offset: [6, 0], className: 'jm-citylabel' }
+        );
+      });
 
       document.querySelectorAll('.jm-card').forEach(function (card) {
         card.addEventListener('click', function () {
@@ -217,6 +238,10 @@ const days = [
     .jm-foot { margin-top:1.1rem; font-size:.82rem; opacity:.7; border-top:1px solid var(--border,#262626); padding-top:.8rem; }
 
     .leaflet-tooltip { font-weight:600; }
+    .jm-citylabel { background:transparent; border:none; box-shadow:none; padding:0; }
+    .jm-citylabel::before { display:none; }
+    .jm-city-en { color:#fff; font-weight:800; font-size:.95rem; text-shadow:0 0 3px #000,0 0 3px #000,0 1px 2px #000; }
+    .jm-city-ja { color:#ffd9a3; font-weight:700; font-size:.82rem; text-shadow:0 0 3px #000,0 0 3px #000; margin-left:1px; }
     @media (max-width:560px){ .jm-legend { font-size:.72rem; left:8px; bottom:8px; } }
   </style>
 </BaseLayout>
