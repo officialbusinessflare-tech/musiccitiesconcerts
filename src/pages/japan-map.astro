@@ -34,6 +34,30 @@ const stops = [
   { id:'itsukushima', cat:'sight', name:'Itsukushima Shrine, Miyajima', ja:'厳島神社 宮島', lat:34.2960, lon:132.3197, info:"Nov 9 · Lina's birthday · torii at sunset." },
   { id:'peace-park', cat:'sight', name:'Peace Memorial Park', ja:'平和記念公園', lat:34.3916, lon:132.4526, info:'Nov 10 morning, Hiroshima.' },
   { id:'kyoto', cat:'sight', name:'Kyoto (day trip)', ja:'京都', lat:34.9858, lon:135.7585, info:'Nov 12 · 15 min by shinkansen from Shin-Osaka.' },
+
+  // Points of interest (sightseeing, no dates)
+  { id:'poi-peace-osaka', cat:'poi', name:'Osaka International Peace Center', ja:'ピースおおさか', lat:34.6786, lon:135.5316, info:"WWII museum on the city's wartime destruction · MEH" },
+  { id:'poi-shinsekai', cat:'poi', name:'Shinsekai / Tsutenkaku', ja:'新世界・通天閣', lat:34.6525, lon:135.5063, info:'Nostalgia district around Tsutenkaku Tower' },
+  { id:'poi-shitennoji', cat:'poi', name:'Shitennoji Temple', ja:'四天王寺', lat:34.6544, lon:135.5166, info:'One of the oldest temples in Japan' },
+  { id:'poi-dotonbori', cat:'poi', name:'Dotonbori', ja:'道頓堀', lat:34.6686, lon:135.5010, info:'Canal-side food & nightlife district — go at night' },
+  { id:'poi-roppongi', cat:'poi', name:'Roppongi', ja:'六本木', lat:35.6627, lon:139.7314, info:'Nightlife and art district' },
+  { id:'poi-sensoji', cat:'poi', name:'Senso-ji Temple', ja:'浅草寺', lat:35.7148, lon:139.7967, info:"Tokyo's oldest temple, in Asakusa" },
+  { id:'poi-nakamise', cat:'poi', name:'Nakamise Street', ja:'仲見世通り', lat:35.7112, lon:139.7963, info:'Old shopping street leading to Senso-ji' },
+  { id:'poi-tsukiji', cat:'poi', name:'Tsukiji Outer Market', ja:'築地場外市場', lat:35.6655, lon:139.7695, info:'Street food and seafood market' },
+  { id:'poi-hamarikyu', cat:'poi', name:'Hamarikyu Gardens', ja:'浜離宮恩賜庭園', lat:35.6597, lon:139.7634, info:'Historic bayside garden' },
+  { id:'poi-imahan', cat:'poi', name:'Asakusa Imahan (Kokusai-dori)', ja:'浅草今半 国際通り本店', lat:35.7138, lon:139.7906, info:'Sukiyaki restaurant on Kokusai-dori' },
+  { id:'poi-ueno', cat:'poi', name:'Ueno Park', ja:'上野公園', lat:35.7156, lon:139.7745, info:'Big park and museums' },
+  { id:'poi-ameyoko', cat:'poi', name:'Ameyoko', ja:'アメ横', lat:35.7083, lon:139.7747, info:'Busy open-air shopping streets' },
+  { id:'poi-meiji', cat:'poi', name:'Meiji Jingu Shrine', ja:'明治神宮', lat:35.6764, lon:139.6993, info:'Forest shrine — start of the modern-Tokyo walk' },
+  { id:'poi-shibuyasky', cat:'poi', name:'Shibuya Sky', ja:'渋谷スカイ', lat:35.6580, lon:139.7016, info:'Rooftop observation deck, city views' },
+
+  // Tower Records (stores in the trip cities)
+  { id:'tr-shibuya', cat:'tower', name:'Tower Records Shibuya', ja:'タワーレコード渋谷店', lat:35.6619, lon:139.6991, info:'Flagship, 9 floors · 1-22-14 Jinnan' },
+  { id:'tr-shinjuku', cat:'tower', name:'Tower Records Shinjuku', ja:'タワーレコード新宿店', lat:35.6900, lon:139.7006, info:'Flags building, 7–10F' },
+  { id:'tr-umeda', cat:'tower', name:'Tower Records Umeda NU chayamachi', ja:'タワーレコード梅田NU茶屋町店', lat:34.7059, lon:135.4996, info:'NU chayamachi 6F (Tower Vinyl 4F)' },
+  { id:'tr-namba', cat:'tower', name:'Tower Records Namba', ja:'タワーレコード難波店', lat:34.6588, lon:135.5020, info:'Namba Parks 4F' },
+  { id:'tr-nagoya', cat:'tower', name:'Tower Records Nagoya PARCO', ja:'タワーレコード名古屋パルコ店', lat:35.1680, lon:136.9083, info:'PARCO East Bldg 6F, Sakae' },
+  { id:'tr-hiroshima', cat:'tower', name:'Tower Records Hiroshima', ja:'タワーレコード広島店', lat:34.3923, lon:132.4606, info:'Hiroshima PARCO Shinkan 9F' },
 ];
 
 const legs = [
@@ -105,6 +129,8 @@ const cities = [
         <span><i class="dot" style="background:#e23b3b"></i>Venue</span>
         <span><i class="dot" style="background:#222"></i>Station / airport</span>
         <span><i class="dot" style="background:#2e9e5b"></i>Sight</span>
+        <span><i class="dot" style="background:#9b59d0"></i>Point of interest</span>
+        <span><i class="dot" style="background:#e0398a"></i>Tower Records</span>
         <span><i class="line" style="background:#e8821e"></i>Shinkansen / JR</span>
         <span><i class="line dash"></i>Local / taxi / ferry</span>
       </div>
@@ -135,7 +161,7 @@ const cities = [
   <script is:inline define:vars={{ stops, legs, cities }}>
     window.addEventListener('load', function () {
       if (typeof L === 'undefined') return;
-      var colors = { hotel:'#2b6cff', venue:'#e23b3b', station:'#222', sight:'#2e9e5b' };
+      var colors = { hotel:'#2b6cff', venue:'#e23b3b', station:'#222', sight:'#2e9e5b', poi:'#9b59d0', tower:'#e0398a' };
       var byId = {};
       stops.forEach(function (s) { byId[s.id] = s; });
 
