@@ -1,84 +1,6 @@
 {
-  "generatedAt": "2026-10-30T07:01:08.511Z",
+  "generatedAt": "2026-10-31T07:00:51.741Z",
   "entries": [
-    {
-      "id": "86bbwe8n7",
-      "name": "Honey Revenge + Dead Poet Society @ Revolution Live — Fort Lauderdale, FL — Oct 30 2026",
-      "date": "2026-10-30",
-      "venue": "Revolution Live",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "Honey Revenge",
-        "Dead Poet Society"
-      ],
-      "description": "Honey Revenge x Dead Poet Society co-headline run, the night before their Tampa Halloween show. Full bill: Honey Revenge, Dead Poet Society, Hunny, Broadside. Early 6 PM start.",
-      "ticketUrl": "https://www.ticketmaster.com/honey-revenge-x-dead-poet-society-ft-lauderdale-florida-10-30-2026/event/0D0064F8CD3A9A3D",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbwe8n7",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbuyju4",
-      "name": "Michale Graves @ Whisky a Go Go — West Hollywood, CA — Oct 30 2026",
-      "date": "2026-10-30",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "Michale Graves"
-      ],
-      "description": "Michale Graves (former Misfits singer) — full band set, Halloween eve at the Whisky.",
-      "ticketUrl": "https://www.bandsintown.com/e/108346522-michale-graves-at-whisky-a-go-go",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbuyju4",
-      "buckets": []
-    },
-    {
-      "id": "86bbeb77e",
-      "name": "SiM @ Danforth Music Hall — Toronto, ON, Canada — Oct 30 2026",
-      "date": "2026-10-30",
-      "venue": "Danforth Music Hall, Toronto",
-      "city": "ON",
-      "country": "Canada",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL world tour, North American leg. Tickets: https://tix.soundrink.com/tours/sim",
-      "ticketUrl": "https://tix.soundrink.com/tours/sim",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb77e",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w526",
-      "name": "HANABIE. @ BIG CAT — Osaka, Japan — Oct 30 2026",
-      "date": "2026-10-30",
-      "venue": "BIG CAT",
-      "city": "Osaka",
-      "country": "Japan",
-      "bands": [
-        "HANABIE."
-      ],
-      "description": "HANABIE. — Japan 2MAN Tour 2026. BIG CAT in Osaka, Japan. Show date: Oct 30 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w526",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbwe8w2",
       "name": "EMNW @ CLUB RIVERST — Niigata, Japan — Oct 31 2026",
@@ -6123,6 +6045,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu798w",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bcvja68",
+      "name": "Meshuggah + Testament + Blood Incantation @ War Memorial Auditorium — Fort Lauderdale, FL — May 9 2027",
+      "date": "2027-05-09",
+      "venue": "War Memorial Auditorium",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Meshuggah",
+        "Testament",
+        "Blood Incantation"
+      ],
+      "description": "Meshuggah's \"The Forty-Year Anomaly\" 40th-anniversary North American run lands in Fort Lauderdale with Testament and Blood Incantation in support. Full bill: Meshuggah, Testament, Blood Incantation. Venue: War Memorial Auditorium (listed as FTL War Memorial). General on-sale…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcvja68",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
