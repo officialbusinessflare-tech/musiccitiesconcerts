@@ -105,6 +105,7 @@ const SCENE_BRIEFS: { id: string; name: string; href: string }[] = [
             {bucket.id === 'florida-metal-scene' && (<>
               <li class="scene-nav__item"><a class={"scene-nav__link" + (activeBucketId === 'interviews' ? ' is-active' : '')} href="/interviews" aria-current={activeBucketId === 'interviews' ? 'page' : undefined}><span class="scene-nav__name">Interviews</span></a></li>
               <li class="scene-nav__item"><a class={"scene-nav__link" + (activeBucketId === 'reviews' ? ' is-active' : '')} href="/reviews" aria-current={activeBucketId === 'reviews' ? 'page' : undefined}><span class="scene-nav__name">Reviews</span></a></li>
+              <li class="scene-nav__item"><a class={"scene-nav__link" + (activeBucketId === 'insights' ? ' is-active' : '')} href="/insights" aria-current={activeBucketId === 'insights' ? 'page' : undefined}><span class="scene-nav__name">Insights</span></a></li>
               <li class="scene-nav__item"><a class={"scene-nav__link" + (activeBucketId === 'map' ? ' is-active' : '')} href="/map" aria-current={activeBucketId === 'map' ? 'page' : undefined}><span class="scene-nav__name">Map</span></a></li>
             </>)}
             </>
