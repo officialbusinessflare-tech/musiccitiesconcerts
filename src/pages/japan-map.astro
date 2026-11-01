@@ -1,123 +1,33 @@
 ---
 /**
- * /japan-map — PRIVATE interactive trip map for Japan, Nov 4–16 2026.
- * Not linked anywhere in nav; noindex + robots Disallow. Easy-to-remember URL
- * for Kevin: musiccitiesconcerts.com/japan-map
+ * /japan-map — PRIVATE interactive trip map, Japan Nov 4–16 2026.
+ * Data-driven: rendered from the embedded DATA object (generated from the
+ * tmc_japan_2026 GIS package). To update, regenerate DATA and rebuild.
+ * noindex + unlinked.
  */
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const stops = [
-  { id:'dt-ariake', cat:'hotel', name:'DoubleTree Tokyo Ariake', ja:'ダブルツリー東京有明', lat:35.6333, lon:139.7920, info:'Base hotel, 7 of 11 nights. 25 min taxi from Haneda.' },
-  { id:'hilton-shinjuku', cat:'hotel', name:'Hilton Tokyo, Shinjuku', ja:'ヒルトン東京 新宿', lat:35.6924, lon:139.6926, info:'Nov 8 only. 10 min walk from ANTIKNOCK.' },
-  { id:'hilton-hiroshima', cat:'hotel', name:'Hilton Hiroshima', ja:'ヒルトン広島', lat:34.3889, lon:132.4733, info:'Nov 9. 10 min taxi from Hiroshima Station.' },
-  { id:'hilton-osaka', cat:'hotel', name:'Hilton Osaka', ja:'ヒルトン大阪', lat:34.7013, lon:135.4958, info:'Nov 10–12. Across from Osaka Station, one JR stop from Shin-Osaka.' },
-  { id:'conrad-nagoya', cat:'hotel', name:'Conrad Nagoya', ja:'コンラッド名古屋', lat:35.1705, lon:136.8815, info:'Nov 14. On top of Nagoya Station.' },
+const DATA = {"updated": "2026-10-31", "window": "2026-11-04 to 2026-11-16", "pins": [{"id": "haneda-airport", "name": "Haneda Airport", "ja": "羽田空港", "cat": "station", "lat": 35.5494, "lon": 139.7798, "city": "Tokyo", "status": "locked", "dates": "Nov 5 in, Nov 16 out", "note": "AA 175 lands 6:25 PM Nov 5. AA 176 departs 8:25 PM Nov 16"}, {"id": "doubletree-by-hilton-tokyo-ariake", "name": "DoubleTree by Hilton Tokyo Ariake", "ja": "ダブルツリー東京有明", "cat": "hotel", "lat": 35.6338, "lon": 139.7906, "city": "Tokyo", "status": "locked", "dates": "Nov 5 to 8, 12 to 14, 15", "note": "Base hotel, 6 nights"}, {"id": "hilton-tokyo", "name": "Hilton Tokyo", "ja": "ヒルトン東京", "cat": "hotel", "lat": 35.6929, "lon": 139.6918, "city": "Tokyo", "status": "locked", "dates": "Nov 8", "note": "Shinjuku, one night for ANTIKNOCK"}, {"id": "shinjuku-antiknock", "name": "Shinjuku ANTIKNOCK", "ja": "新宿ANTIKNOCK", "cat": "venue", "lat": 35.6893, "lon": 139.7046, "city": "Tokyo", "status": "locked", "dates": "Nov 6, Nov 8", "note": "Nov 8 ASTERISM vs BRIDEAR, doors 6 PM, Kimi's guest. Nov 6 Broken By The Scream 6:30 PM, play by ear"}, {"id": "tower-records-shibuya", "name": "Tower Records Shibuya", "ja": "タワーレコード渋谷店", "cat": "tower", "lat": 35.6617, "lon": 139.702, "city": "Tokyo", "status": "maybe", "dates": "Nov 8", "note": "ZILQY personal item signing 3:15 PM, 5F"}, {"id": "tower-records-shinjuku", "name": "Tower Records Shinjuku", "ja": "タワーレコード新宿店", "cat": "tower", "lat": 35.6917, "lon": 139.7036, "city": "Tokyo", "status": "maybe", "dates": "Nov 7, Nov 14", "note": "Nov 7 ZILQY CD signing 6 PM option. Nov 14 Sally talk and signing 2 PM only if no separate interview"}, {"id": "nippon-budokan", "name": "Nippon Budokan", "ja": "日本武道館", "cat": "venue", "lat": 35.6933, "lon": 139.7497, "city": "Tokyo", "status": "locked", "dates": "Nov 13", "note": "BAND-MAID World Tour 2026 Final, doors 4:30 PM, show 6 PM, tickets from Marco"}, {"id": "ochanomizu-guitar-district", "name": "Ochanomizu guitar district", "ja": "御茶ノ水", "cat": "sight", "lat": 35.6993, "lon": 139.7651, "city": "Tokyo", "status": "planned", "dates": "Nov 13 morning", "note": "ESP Guitar Workshop, Kurosawa, BIGBOSS, open 11 AM"}, {"id": "ongakushitsu-dx", "name": "Ongakushitsu DX", "ja": "音楽室DX", "cat": "venue", "lat": 35.7125, "lon": 139.705, "city": "Tokyo", "status": "maybe", "dates": "Nov 15 evening", "note": "THE JAM, doors 6 PM, if time allows after Kawasaki"}, {"id": "tokyo-station", "name": "Tokyo Station", "ja": "東京駅", "cat": "station", "lat": 35.6812, "lon": 139.7671, "city": "Tokyo", "status": "locked", "dates": "Nov 9, 12, 14", "note": "Nozomi shinkansen"}, {"id": "shinagawa-station", "name": "Shinagawa Station", "ja": "品川駅", "cat": "station", "lat": 35.6285, "lon": 139.7387, "city": "Tokyo", "status": "option", "dates": "", "note": "Nozomi alternative"}, {"id": "shin-yokohama-station", "name": "Shin-Yokohama Station", "ja": "新横浜駅", "cat": "station", "lat": 35.5075, "lon": 139.6174, "city": "Yokohama", "status": "locked", "dates": "Nov 15", "note": "Nozomi from Nagoya, JR to Kawasaki 25 min"}, {"id": "club-citta-kawasaki", "name": "CLUB CITTA' Kawasaki", "ja": "クラブチッタ川崎", "cat": "venue", "lat": 35.5316, "lon": 139.7003, "city": "Kawasaki", "status": "locked", "dates": "Nov 15", "note": "HAGANE at STRIKE BACK 2026, doors 1 PM, show 2 PM, e+ by Nov 14 6 PM"}, {"id": "hiroshima-station", "name": "Hiroshima Station", "ja": "広島駅", "cat": "station", "lat": 34.3977, "lon": 132.4756, "city": "Hiroshima", "status": "locked", "dates": "Nov 9, Nov 10", "note": "Nozomi"}, {"id": "hilton-hiroshima", "name": "Hilton Hiroshima", "ja": "ヒルトン広島", "cat": "hotel", "lat": 34.3867, "lon": 132.4697, "city": "Hiroshima", "status": "locked", "dates": "Nov 9", "note": ""}, {"id": "itsukushima-shrine-miyajima", "name": "Itsukushima Shrine, Miyajima", "ja": "厳島神社", "cat": "sight", "lat": 34.296, "lon": 132.3198, "city": "Hiroshima", "status": "locked", "dates": "Nov 9", "note": "Lina's birthday, afternoon and sunset. JR to Miyajimaguchi 30 min, ferry 10 min"}, {"id": "hiroshima-peace-memorial-park", "name": "Hiroshima Peace Memorial Park", "ja": "平和記念公園", "cat": "sight", "lat": 34.3955, "lon": 132.4536, "city": "Hiroshima", "status": "planned", "dates": "Nov 10 morning", "note": ""}, {"id": "shin-osaka-station", "name": "Shin-Osaka Station", "ja": "新大阪駅", "cat": "station", "lat": 34.7335, "lon": 135.5, "city": "Osaka", "status": "locked", "dates": "Nov 10, Nov 12", "note": "Nozomi"}, {"id": "hilton-osaka", "name": "Hilton Osaka", "ja": "ヒルトン大阪", "cat": "hotel", "lat": 34.7003, "lon": 135.4943, "city": "Osaka", "status": "locked", "dates": "Nov 10 to 12", "note": "Across from Osaka Station"}, {"id": "kyoto", "name": "Kyoto", "ja": "京都", "cat": "sight", "lat": 34.9858, "lon": 135.7588, "city": "Kyoto", "status": "planned", "dates": "Nov 12", "note": "Day trip, 15 min by shinkansen from Shin-Osaka. Moves if an interview lands"}, {"id": "nagoya-station", "name": "Nagoya Station", "ja": "名古屋駅", "cat": "station", "lat": 35.1709, "lon": 136.8815, "city": "Nagoya", "status": "locked", "dates": "Nov 14, Nov 15", "note": "Nozomi"}, {"id": "conrad-nagoya", "name": "Conrad Nagoya", "ja": "コンラッド名古屋", "cat": "hotel", "lat": 35.1701, "lon": 136.8826, "city": "Nagoya", "status": "locked", "dates": "Nov 14", "note": ""}, {"id": "holiday-next-nagoya", "name": "HOLIDAY NEXT NAGOYA", "ja": "HOLIDAY NEXT NAGOYA", "cat": "venue", "lat": 35.1652, "lon": 136.9196, "city": "Nagoya", "status": "conditional", "dates": "Nov 14", "note": "Broken By The Scream, ends 9:15 PM, Livepocket 3,400 yen. May skip if seen Nov 6"}, {"id": "osaka-international-peace-center", "name": "Osaka International Peace Center", "ja": "ピースおおさか", "cat": "poi", "lat": 34.6786, "lon": 135.5316, "city": "Osaka", "status": "sight", "dates": "", "note": "WWII museum on the city's wartime destruction · MEH"}, {"id": "shinsekai-tsutenkaku", "name": "Shinsekai / Tsutenkaku", "ja": "新世界・通天閣", "cat": "poi", "lat": 34.6525, "lon": 135.5063, "city": "Osaka", "status": "sight", "dates": "", "note": "Nostalgia district around Tsutenkaku Tower"}, {"id": "shitennoji-temple", "name": "Shitennoji Temple", "ja": "四天王寺", "cat": "poi", "lat": 34.6544, "lon": 135.5166, "city": "Osaka", "status": "sight", "dates": "", "note": "One of the oldest temples in Japan"}, {"id": "dotonbori", "name": "Dotonbori", "ja": "道頓堀", "cat": "poi", "lat": 34.6686, "lon": 135.501, "city": "Osaka", "status": "sight", "dates": "", "note": "Canal-side food & nightlife district — go at night"}, {"id": "roppongi", "name": "Roppongi", "ja": "六本木", "cat": "poi", "lat": 35.6627, "lon": 139.7314, "city": "Tokyo", "status": "sight", "dates": "", "note": "Nightlife and art district"}, {"id": "senso-ji-temple", "name": "Senso-ji Temple", "ja": "浅草寺", "cat": "poi", "lat": 35.7148, "lon": 139.7967, "city": "Tokyo", "status": "sight", "dates": "", "note": "Tokyo's oldest temple, in Asakusa"}, {"id": "nakamise-street", "name": "Nakamise Street", "ja": "仲見世通り", "cat": "poi", "lat": 35.7112, "lon": 139.7963, "city": "Tokyo", "status": "sight", "dates": "", "note": "Old shopping street leading to Senso-ji"}, {"id": "tsukiji-outer-market", "name": "Tsukiji Outer Market", "ja": "築地場外市場", "cat": "poi", "lat": 35.6655, "lon": 139.7695, "city": "Tokyo", "status": "sight", "dates": "", "note": "Street food and seafood market"}, {"id": "hamarikyu-gardens", "name": "Hamarikyu Gardens", "ja": "浜離宮恩賜庭園", "cat": "poi", "lat": 35.6597, "lon": 139.7634, "city": "Tokyo", "status": "sight", "dates": "", "note": "Historic bayside garden"}, {"id": "asakusa-imahan-kokusai-dori", "name": "Asakusa Imahan (Kokusai-dori)", "ja": "浅草今半 国際通り本店", "cat": "poi", "lat": 35.7138, "lon": 139.7906, "city": "Tokyo", "status": "sight", "dates": "", "note": "Sukiyaki restaurant on Kokusai-dori"}, {"id": "ueno-park", "name": "Ueno Park", "ja": "上野公園", "cat": "poi", "lat": 35.7156, "lon": 139.7745, "city": "Tokyo", "status": "sight", "dates": "", "note": "Big park and museums"}, {"id": "ameyoko", "name": "Ameyoko", "ja": "アメ横", "cat": "poi", "lat": 35.7083, "lon": 139.7747, "city": "Tokyo", "status": "sight", "dates": "", "note": "Busy open-air shopping streets"}, {"id": "meiji-jingu-shrine", "name": "Meiji Jingu Shrine", "ja": "明治神宮", "cat": "poi", "lat": 35.6764, "lon": 139.6993, "city": "Tokyo", "status": "sight", "dates": "", "note": "Forest shrine — start of the modern-Tokyo walk"}, {"id": "shibuya-sky", "name": "Shibuya Sky", "ja": "渋谷スカイ", "cat": "poi", "lat": 35.658, "lon": 139.7016, "city": "Tokyo", "status": "sight", "dates": "", "note": "Rooftop observation deck, city views"}, {"id": "tower-records-umeda-nu-chayamachi", "name": "Tower Records Umeda NU chayamachi", "ja": "タワーレコード梅田NU茶屋町店", "cat": "tower", "lat": 34.7059, "lon": 135.4996, "city": "Osaka", "status": "shop", "dates": "", "note": "NU chayamachi 6F (Tower Vinyl 4F)"}, {"id": "tower-records-namba", "name": "Tower Records Namba", "ja": "タワーレコード難波店", "cat": "tower", "lat": 34.6588, "lon": 135.502, "city": "Osaka", "status": "shop", "dates": "", "note": "Namba Parks 4F"}, {"id": "tower-records-nagoya-parco", "name": "Tower Records Nagoya PARCO", "ja": "タワーレコード名古屋パルコ店", "cat": "tower", "lat": 35.168, "lon": 136.9083, "city": "Nagoya", "status": "shop", "dates": "", "note": "PARCO East Bldg 6F, Sakae"}, {"id": "tower-records-hiroshima", "name": "Tower Records Hiroshima", "ja": "タワーレコード広島店", "cat": "tower", "lat": 34.3923, "lon": 132.4606, "city": "Hiroshima", "status": "shop", "dates": "", "note": "Hiroshima PARCO Shinkan 9F"}], "legs": [{"from": [35.5494, 139.7798], "to": [35.6338, 139.7906], "mode": "local", "label": "Nov 5 · taxi, 25 min"}, {"from": [35.6338, 139.7906], "to": [35.6929, 139.6918], "mode": "local", "label": "Nov 8 · train, 40 min"}, {"from": [35.6812, 139.7671], "to": [34.3977, 132.4756], "mode": "rail", "label": "Nov 9 · Nozomi, 3 hr 50 min"}, {"from": [34.3977, 132.4756], "to": [34.296, 132.3198], "mode": "rail", "label": "Nov 9 · JR + ferry, 40 min"}, {"from": [34.3977, 132.4756], "to": [34.7335, 135.5], "mode": "rail", "label": "Nov 10 · Nozomi, 1 hr 20 min"}, {"from": [34.7335, 135.5], "to": [34.9858, 135.7588], "mode": "rail", "label": "Nov 12 · Nozomi, 15 min"}, {"from": [34.7335, 135.5], "to": [35.6812, 139.7671], "mode": "rail", "label": "Nov 12 · Nozomi, 2 hr 25 min"}, {"from": [35.6812, 139.7671], "to": [35.1709, 136.8815], "mode": "rail", "label": "Nov 14 · Nozomi, 1 hr 40 min"}, {"from": [35.1709, 136.8815], "to": [35.5075, 139.6174], "mode": "rail", "label": "Nov 15 · Nozomi, 1 hr 20 min"}, {"from": [35.5075, 139.6174], "to": [35.5316, 139.7003], "mode": "rail", "label": "Nov 15 · JR, 25 min"}, {"from": [35.6338, 139.7906], "to": [35.5494, 139.7798], "mode": "local", "label": "Nov 16 · taxi, 25 min"}], "cities": [{"en": "Tokyo", "ja": "東京", "lat": 35.685, "lon": 139.76}, {"en": "Yokohama", "ja": "横浜", "lat": 35.466, "lon": 139.622}, {"en": "Kawasaki", "ja": "川崎", "lat": 35.5316, "lon": 139.7003}, {"en": "Nagoya", "ja": "名古屋", "lat": 35.1709, "lon": 136.8815}, {"en": "Kyoto", "ja": "京都", "lat": 34.9858, "lon": 135.7588}, {"en": "Osaka", "ja": "大阪", "lat": 34.7003, "lon": 135.4943}, {"en": "Hiroshima", "ja": "広島", "lat": 34.3955, "lon": 132.4596}, {"en": "Miyajima", "ja": "宮島", "lat": 34.298, "lon": 132.3198}], "travel": [{"date": "Nov 5", "text": "Haneda → DoubleTree Tokyo Ariake", "mode": "taxi", "dur": "25 min"}, {"date": "Nov 8", "text": "DoubleTree Tokyo Ariake → Hilton Tokyo", "mode": "train", "dur": "40 min"}, {"date": "Nov 9", "text": "Tokyo Station → Hiroshima Station", "mode": "Nozomi", "dur": "3 hr 50 min"}, {"date": "Nov 9", "text": "Hiroshima Station → Miyajima", "mode": "JR + ferry", "dur": "40 min"}, {"date": "Nov 10", "text": "Hiroshima Station → Shin-Osaka Station", "mode": "Nozomi", "dur": "1 hr 20 min"}, {"date": "Nov 12", "text": "Shin-Osaka Station → Kyoto", "mode": "Nozomi", "dur": "15 min"}, {"date": "Nov 12", "text": "Shin-Osaka Station → Tokyo Station", "mode": "Nozomi", "dur": "2 hr 25 min"}, {"date": "Nov 14", "text": "Tokyo Station → Nagoya Station", "mode": "Nozomi", "dur": "1 hr 40 min"}, {"date": "Nov 15", "text": "Nagoya Station → Shin-Yokohama Station", "mode": "Nozomi", "dur": "1 hr 20 min"}, {"date": "Nov 15", "text": "Shin-Yokohama Station → CLUB CITTA' Kawasaki", "mode": "JR", "dur": "25 min"}, {"date": "Nov 16", "text": "DoubleTree Tokyo Ariake → Haneda", "mode": "taxi", "dur": "25 min"}]};
+const pins = DATA.pins, legs = DATA.legs, cities = DATA.cities, travel = DATA.travel;
+const UPDATED = DATA.updated;
 
-  { id:'antiknock', cat:'venue', name:'Shinjuku ANTIKNOCK', ja:'新宿ANTIKNOCK', lat:35.6894, lon:139.7035, info:'Nov 8 · ASTERISM vs BRIDEAR · doors 6:00 PM · guest list done.' },
-  { id:'budokan', cat:'venue', name:'Nippon Budokan', ja:'日本武道館', lat:35.6933, lon:139.7496, info:'Nov 13 · BAND-MAID World Tour Final · doors 4:30 PM, show 6:00 PM · Marco interview in line.' },
-  { id:'holiday-next', cat:'venue', name:'HOLIDAY NEXT NAGOYA', ja:'ホリデーネクスト名古屋', lat:35.1686, lon:136.9130, info:'Nov 14 · Broken By The Scream · Shinsakae, 8 min on Higashiyama subway from Nagoya Station.' },
-  { id:'club-citta', cat:'venue', name:"CLUB CITTA' Kawasaki", ja:'クラブチッタ川崎', lat:35.5319, lon:139.6969, info:'Nov 15 · HAGANE, STRIKE BACK 2026 · doors 1:00 PM, show 2:00 PM.' },
-  { id:'ongakushitsu', cat:'venue', name:'音楽室DX, Takadanobaba', ja:'音楽室DX 高田馬場', lat:35.7128, lon:139.7040, info:'Nov 15 (if time allows) · THE JAM · doors 6:00 PM.' },
+const catLabel = { hotel:'Hotel', venue:'Venue', tower:'Tower Records', station:'Station / airport', sight:'Sight', poi:'Point of interest' };
+const TENTATIVE = ['maybe','planned','conditional','option'];
 
-  { id:'haneda', cat:'station', name:'Haneda Airport', ja:'羽田空港', lat:35.5494, lon:139.7798, info:'In Nov 5 (lands 6:25 PM) · out Nov 16 (AA 176, 8:25 PM).' },
-  { id:'tokyo-stn', cat:'station', name:'Tokyo Station', ja:'東京駅', lat:35.6812, lon:139.7671, info:'Nozomi hub — out to Hiroshima (9th), Nagoya (14th); in from Osaka (12th).' },
-  { id:'shinjuku-stn', cat:'station', name:'Shinjuku Station', ja:'新宿駅', lat:35.6896, lon:139.7004, info:'Nov 8–9 base.' },
-  { id:'kudanshita-stn', cat:'station', name:'Kudanshita Station', ja:'九段下駅', lat:35.6957, lon:139.7517, info:'Nov 13 · 5 min walk to Budokan.' },
-  { id:'shinagawa-stn', cat:'station', name:'Shinagawa Station', ja:'品川駅', lat:35.6285, lon:139.7389, info:'Nov 15 · Nozomi in from Nagoya, then Keihin-Tohoku to Kawasaki.' },
-  { id:'hiroshima-stn', cat:'station', name:'Hiroshima Station', ja:'広島駅', lat:34.3977, lon:132.4753, info:'Nov 9–10.' },
-  { id:'miyajimaguchi', cat:'station', name:'Miyajimaguchi (ferry)', ja:'宮島口', lat:34.3092, lon:132.3036, info:'Nov 9 · JR Sanyo 30 min, then ferry 10 min to Miyajima.' },
-  { id:'shin-osaka', cat:'station', name:'Shin-Osaka Station', ja:'新大阪駅', lat:34.7334, lon:135.5002, info:'Nozomi hub for Osaka. Kyoto 15 min away.' },
-  { id:'osaka-stn', cat:'station', name:'Osaka Station', ja:'大阪駅', lat:34.7025, lon:135.4959, info:'Next to Hilton Osaka. One JR stop from Shin-Osaka.' },
-  { id:'nagoya-stn', cat:'station', name:'Nagoya Station', ja:'名古屋駅', lat:35.1706, lon:136.8816, info:'Nov 14. Conrad sits on top.' },
-  { id:'kawasaki-stn', cat:'station', name:'Kawasaki Station', ja:'川崎駅', lat:35.5308, lon:139.6967, info:"Nov 15 · 5 min walk to CLUB CITTA'." },
-
-  { id:'itsukushima', cat:'sight', name:'Itsukushima Shrine, Miyajima', ja:'厳島神社 宮島', lat:34.2960, lon:132.3197, info:"Nov 9 · Lina's birthday · torii at sunset." },
-  { id:'peace-park', cat:'sight', name:'Peace Memorial Park', ja:'平和記念公園', lat:34.3916, lon:132.4526, info:'Nov 10 morning, Hiroshima.' },
-  { id:'kyoto', cat:'sight', name:'Kyoto (day trip)', ja:'京都', lat:34.9858, lon:135.7585, info:'Nov 12 · 15 min by shinkansen from Shin-Osaka.' },
-
-  // Points of interest (sightseeing, no dates)
-  { id:'poi-peace-osaka', cat:'poi', name:'Osaka International Peace Center', ja:'ピースおおさか', lat:34.6786, lon:135.5316, info:"WWII museum on the city's wartime destruction · MEH" },
-  { id:'poi-shinsekai', cat:'poi', name:'Shinsekai / Tsutenkaku', ja:'新世界・通天閣', lat:34.6525, lon:135.5063, info:'Nostalgia district around Tsutenkaku Tower' },
-  { id:'poi-shitennoji', cat:'poi', name:'Shitennoji Temple', ja:'四天王寺', lat:34.6544, lon:135.5166, info:'One of the oldest temples in Japan' },
-  { id:'poi-dotonbori', cat:'poi', name:'Dotonbori', ja:'道頓堀', lat:34.6686, lon:135.5010, info:'Canal-side food & nightlife district — go at night' },
-  { id:'poi-roppongi', cat:'poi', name:'Roppongi', ja:'六本木', lat:35.6627, lon:139.7314, info:'Nightlife and art district' },
-  { id:'poi-sensoji', cat:'poi', name:'Senso-ji Temple', ja:'浅草寺', lat:35.7148, lon:139.7967, info:"Tokyo's oldest temple, in Asakusa" },
-  { id:'poi-nakamise', cat:'poi', name:'Nakamise Street', ja:'仲見世通り', lat:35.7112, lon:139.7963, info:'Old shopping street leading to Senso-ji' },
-  { id:'poi-tsukiji', cat:'poi', name:'Tsukiji Outer Market', ja:'築地場外市場', lat:35.6655, lon:139.7695, info:'Street food and seafood market' },
-  { id:'poi-hamarikyu', cat:'poi', name:'Hamarikyu Gardens', ja:'浜離宮恩賜庭園', lat:35.6597, lon:139.7634, info:'Historic bayside garden' },
-  { id:'poi-imahan', cat:'poi', name:'Asakusa Imahan (Kokusai-dori)', ja:'浅草今半 国際通り本店', lat:35.7138, lon:139.7906, info:'Sukiyaki restaurant on Kokusai-dori' },
-  { id:'poi-ueno', cat:'poi', name:'Ueno Park', ja:'上野公園', lat:35.7156, lon:139.7745, info:'Big park and museums' },
-  { id:'poi-ameyoko', cat:'poi', name:'Ameyoko', ja:'アメ横', lat:35.7083, lon:139.7747, info:'Busy open-air shopping streets' },
-  { id:'poi-meiji', cat:'poi', name:'Meiji Jingu Shrine', ja:'明治神宮', lat:35.6764, lon:139.6993, info:'Forest shrine — start of the modern-Tokyo walk' },
-  { id:'poi-shibuyasky', cat:'poi', name:'Shibuya Sky', ja:'渋谷スカイ', lat:35.6580, lon:139.7016, info:'Rooftop observation deck, city views' },
-
-  // Tower Records (stores in the trip cities)
-  { id:'tr-shibuya', cat:'tower', name:'Tower Records Shibuya', ja:'タワーレコード渋谷店', lat:35.6619, lon:139.6991, info:'Flagship, 9 floors · 1-22-14 Jinnan' },
-  { id:'tr-shinjuku', cat:'tower', name:'Tower Records Shinjuku', ja:'タワーレコード新宿店', lat:35.6900, lon:139.7006, info:'Flags building, 7–10F' },
-  { id:'tr-umeda', cat:'tower', name:'Tower Records Umeda NU chayamachi', ja:'タワーレコード梅田NU茶屋町店', lat:34.7059, lon:135.4996, info:'NU chayamachi 6F (Tower Vinyl 4F)' },
-  { id:'tr-namba', cat:'tower', name:'Tower Records Namba', ja:'タワーレコード難波店', lat:34.6588, lon:135.5020, info:'Namba Parks 4F' },
-  { id:'tr-nagoya', cat:'tower', name:'Tower Records Nagoya PARCO', ja:'タワーレコード名古屋パルコ店', lat:35.1680, lon:136.9083, info:'PARCO East Bldg 6F, Sakae' },
-  { id:'tr-hiroshima', cat:'tower', name:'Tower Records Hiroshima', ja:'タワーレコード広島店', lat:34.3923, lon:132.4606, info:'Hiroshima PARCO Shinkan 9F' },
-];
-
-const legs = [
-  { mode:'rail', from:'tokyo-stn',     to:'hiroshima-stn',  label:'Nov 9 · Nozomi, 3 hr 50 min' },
-  { mode:'rail', from:'hiroshima-stn', to:'miyajimaguchi',  label:'Nov 9 · JR Sanyo, 30 min' },
-  { mode:'rail', from:'hiroshima-stn', to:'shin-osaka',     label:'Nov 10 · Nozomi, 1 hr 20 min' },
-  { mode:'rail', from:'shin-osaka',    to:'kyoto',          label:'Nov 12 · shinkansen, 15 min each way' },
-  { mode:'rail', from:'shin-osaka',    to:'tokyo-stn',      label:'Nov 12 · Nozomi, 2 hr 25 min' },
-  { mode:'rail', from:'tokyo-stn',     to:'nagoya-stn',     label:'Nov 14 · Nozomi, 1 hr 40 min' },
-  { mode:'rail', from:'nagoya-stn',    to:'shinagawa-stn',  label:'Nov 15 · Nozomi, 1 hr 30 min' },
-
-  { mode:'local', from:'haneda',        to:'dt-ariake',     label:'Nov 5 · taxi, 25 min' },
-  { mode:'local', from:'dt-ariake',     to:'shinjuku-stn',  label:'Nov 8 · train, 40 min' },
-  { mode:'local', from:'miyajimaguchi', to:'itsukushima',   label:'Nov 9 · ferry, 10 min' },
-  { mode:'local', from:'dt-ariake',     to:'kudanshita-stn',label:'Nov 13 · train, 35 min' },
-  { mode:'local', from:'shinagawa-stn', to:'kawasaki-stn',  label:'Nov 15 · Keihin-Tohoku, 10 min' },
-  { mode:'local', from:'kawasaki-stn',  to:'dt-ariake',     label:'Nov 15 · train, 45 min back' },
-  { mode:'local', from:'dt-ariake',     to:'haneda',        label:'Nov 16 · taxi, 25 min' },
-];
-
-const days = [
-  { d:'Wed Nov 4',  show:false, focus:'haneda',        city:'In the air',   what:'Depart Miami 9:10 AM → Dallas → AA 175 to Haneda, 14 hr.' },
-  { d:'Thu Nov 5',  show:false, focus:'dt-ariake',     city:'Tokyo',        what:'Land Haneda 6:25 PM, taxi to Ariake, check in, dinner nearby.' },
-  { d:'Fri Nov 6',  show:false, focus:'dt-ariake',     city:'Tokyo',        what:'Open in Tokyo.' },
-  { d:'Sat Nov 7',  show:false, focus:'dt-ariake',     city:'Tokyo',        what:'Open in Tokyo.' },
-  { d:'Sun Nov 8',  show:true,  focus:'antiknock',     city:'Tokyo',        what:'Check out Ariake → Shinjuku. ASTERISM vs BRIDEAR, Shinjuku ANTIKNOCK, doors 6:00 PM. Guest list done. Sleep Hilton Shinjuku.' },
-  { d:'Mon Nov 9',  show:false, focus:'itsukushima',   city:'Hiroshima',    what:"Nozomi 8 AM to Hiroshima. Miyajima afternoon, torii at sunset. Lina's birthday dinner. Sleep Hilton Hiroshima." },
-  { d:'Tue Nov 10', show:false, focus:'peace-park',    city:'Osaka',        what:'Peace Park morning, then Nozomi to Shin-Osaka. Sleep Hilton Osaka.' },
-  { d:'Wed Nov 11', show:false, focus:'hilton-osaka',  city:'Osaka',        what:'Open in Osaka. (Hazuki M&G signing in town — probably passing.)' },
-  { d:'Thu Nov 12', show:false, focus:'kyoto',         city:'Kyoto → Tokyo',what:'Kyoto day trip. Evening Nozomi back to Tokyo, in about 9 PM. Sleep DoubleTree Ariake.' },
-  { d:'Fri Nov 13', show:true,  focus:'budokan',       city:'Tokyo',        what:'Ariake → Kudanshita, be in line early for the Marco interview. BAND-MAID World Tour Final, Nippon Budokan, doors 4:30 PM, show 6:00 PM.' },
-  { d:'Sat Nov 14', show:true,  focus:'holiday-next',  city:'Nagoya',       what:'Nozomi to Nagoya. Broken By The Scream, HOLIDAY NEXT NAGOYA. Sleep Conrad Nagoya.' },
-  { d:'Sun Nov 15', show:true,  focus:'club-citta',    city:'Kawasaki → Tokyo', what:"Nozomi to Shinagawa → Kawasaki. HAGANE, STRIKE BACK 2026, CLUB CITTA', doors 1:00 PM, show 2:00 PM. If time, THE JAM @ 音楽室DX, doors 6:00 PM. Sleep DoubleTree Ariake." },
-  { d:'Mon Nov 16', show:false, focus:'haneda',        city:'Home',         what:'Ariake → Haneda. AA 176 8:25 PM to Dallas, AA 1793 to Miami.' },
-];
-
-// ---- City labels (English, with Japanese alongside) -------------------
-const cities = [
-  { en:'Tokyo',     ja:'東京', lat:35.6850, lon:139.7600 },
-  { en:'Kawasaki',  ja:'川崎', lat:35.5308, lon:139.6967 },
-  { en:'Nagoya',    ja:'名古屋', lat:35.1706, lon:136.8816 },
-  { en:'Kyoto',     ja:'京都', lat:34.9858, lon:135.7585 },
-  { en:'Osaka',     ja:'大阪', lat:34.7025, lon:135.4959 },
-  { en:'Hiroshima', ja:'広島', lat:34.3955, lon:132.4596 },
-  { en:'Miyajima',  ja:'宮島', lat:34.2980, lon:132.3190 },
-];
+const cityOrder = ['Tokyo','Yokohama','Kawasaki','Nagoya','Kyoto','Osaka','Hiroshima'];
+const stopsByCity = cityOrder
+  .map(c => ({ city: c, items: pins.filter(p => p.city === c) }))
+  .filter(g => g.items.length);
 ---
 
-<BaseLayout
-  title="Japan Trip Map · Nov 4–16 2026 (private)"
-  description="Private trip map."
-  noindex={true}
->
+<BaseLayout title="Japan Trip Map · Nov 4–16 2026 (private)" description="Private trip map." noindex={true}>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
 
   <main class="jm">
     <header class="jm-top">
       <div>
         <h1 class="jm-title">Japan Trip Map <span>日本旅行マップ</span></h1>
-        <p class="jm-sub">November 4–16, 2026 · Kevin &amp; Lina · all travel inside Japan by train. Private planning map.</p>
+        <p class="jm-sub">November 4–16, 2026 · Kevin &amp; Lina · all travel inside Japan by train. Private planning map. <em>Updated {UPDATED}.</em></p>
       </div>
       <a class="jm-home" href="/">← musiccitiesconcerts.com</a>
     </header>
@@ -127,101 +37,101 @@ const cities = [
       <div class="jm-legend">
         <span><i class="dot" style="background:#2b6cff"></i>Hotel</span>
         <span><i class="dot" style="background:#e23b3b"></i>Venue</span>
+        <span><i class="dot" style="background:#e0398a"></i>Tower Records</span>
         <span><i class="dot" style="background:#222"></i>Station / airport</span>
         <span><i class="dot" style="background:#2e9e5b"></i>Sight</span>
         <span><i class="dot" style="background:#9b59d0"></i>Point of interest</span>
-        <span><i class="dot" style="background:#e0398a"></i>Tower Records</span>
         <span><i class="line" style="background:#e8821e"></i>Shinkansen / JR</span>
-        <span><i class="line dash"></i>Local / taxi / ferry</span>
+        <span><i class="line dash"></i>Local / taxi</span>
+        <span class="jm-legend__note">Faded pin = tentative</span>
       </div>
     </div>
 
-    <section class="jm-days">
-      <h2 class="jm-days__h">Day by day <small>— tap a day to fly there</small></h2>
-      <div class="jm-grid">
-        {days.map((day) => (
-          <button class={`jm-card${day.show ? ' is-show' : ''}`} data-focus={day.focus} type="button">
-            <div class="jm-card__top">
-              <span class="jm-card__date">{day.d}</span>
-              {day.show && <span class="jm-card__badge">SHOW</span>}
-            </div>
-            <div class="jm-card__city">{day.city}</div>
-            <div class="jm-card__what">{day.what}</div>
-          </button>
+    <section class="jm-stops">
+      <h2 class="jm-stops__h">Stops <small>— tap one to fly there</small></h2>
+      {stopsByCity.map((g) => (
+        <div class="jm-citygroup">
+          <h3 class="jm-citygroup__h">{g.city}</h3>
+          <div class="jm-grid">
+            {g.items.map((s) => (
+              <button class={`jm-card jm-cat-${s.cat}${TENTATIVE.includes(s.status) ? ' is-tentative' : ''}`} data-id={s.id} type="button">
+                <div class="jm-card__top">
+                  <span class="jm-card__name">{s.name} <span class="jm-card__ja">{s.ja}</span></span>
+                  {TENTATIVE.includes(s.status) && <span class="jm-card__badge">{s.status}</span>}
+                </div>
+                {s.dates && <div class="jm-card__dates">{s.dates}</div>}
+                {s.note && <div class="jm-card__note">{s.note}</div>}
+              </button>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    <section class="jm-travel">
+      <h2 class="jm-stops__h">Travel</h2>
+      <ul class="jm-travel__list">
+        {travel.map((t) => (
+          <li><b>{t.date}</b> · {t.text} <span class="jm-travel__mode">{t.mode}, {t.dur}</span></li>
         ))}
-      </div>
-      <p class="jm-foot">
-        Still to do: HAGANE tickets on e+ by Nov 14, 6:00 PM · Marco interview time &amp; logistics ·
-        outreach to Broken By The Scream, mayu, Willian, Saki, Miho and Asami.
-      </p>
+      </ul>
     </section>
   </main>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <script is:inline define:vars={{ stops, legs, cities }}>
+  <script is:inline define:vars={{ pins, legs, cities }}>
     window.addEventListener('load', function () {
       if (typeof L === 'undefined') return;
-      var colors = { hotel:'#2b6cff', venue:'#e23b3b', station:'#222', sight:'#2e9e5b', poi:'#9b59d0', tower:'#e0398a' };
-      var byId = {};
-      stops.forEach(function (s) { byId[s.id] = s; });
+      var colors = { hotel:'#2b6cff', venue:'#e23b3b', tower:'#e0398a', station:'#222', sight:'#2e9e5b', poi:'#9b59d0' };
+      var tentative = ['maybe','planned','conditional','option'];
 
       var map = L.map('jmap', { scrollWheelZoom: true, zoomControl: true }).setView([35.0, 136.0], 6);
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       }).addTo(map);
 
       legs.forEach(function (leg) {
-        var a = byId[leg.from], b = byId[leg.to];
-        if (!a || !b) return;
         var rail = leg.mode === 'rail';
-        L.polyline([[a.lat, a.lon], [b.lat, b.lon]], {
-          color: rail ? '#e8821e' : '#8a8a8a',
-          weight: rail ? 4 : 3,
-          opacity: rail ? 0.9 : 0.8,
-          dashArray: rail ? null : '6,8'
+        L.polyline([leg.from, leg.to], {
+          color: rail ? '#e8821e' : '#8a8a8a', weight: rail ? 4 : 3,
+          opacity: rail ? 0.9 : 0.8, dashArray: rail ? null : '6,8'
         }).addTo(map).bindTooltip(leg.label, { sticky: true });
       });
 
-      var markers = {};
-      var bounds = [];
-      stops.forEach(function (s) {
+      var markers = {}; var bounds = [];
+      pins.forEach(function (s) {
         var c = colors[s.cat] || '#444';
-        var size = (s.cat === 'venue' || s.cat === 'hotel') ? 16 : 12;
+        var big = (s.cat === 'venue' || s.cat === 'hotel' || s.cat === 'tower');
+        var size = big ? 15 : 11;
+        var tent = tentative.indexOf(s.status) !== -1;
         var icon = L.divIcon({
           className: 'jm-pin',
-          html: '<span style="display:block;width:' + size + 'px;height:' + size + 'px;border-radius:50%;background:' + c + ';border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.55)"></span>',
-          iconSize: [size, size],
-          iconAnchor: [size/2, size/2]
+          html: '<span style="display:block;width:' + size + 'px;height:' + size + 'px;border-radius:50%;background:' + c +
+                ';border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.55);opacity:' + (tent ? 0.55 : 1) + '"></span>',
+          iconSize: [size, size], iconAnchor: [size/2, size/2]
         });
-        var popup = '<strong>' + s.name + '</strong><br>' +
-                    '<small style="color:' + c + ';font-weight:700;text-transform:uppercase;letter-spacing:.04em">' + s.cat + '</small>' +
-                    '<span style="opacity:.6"> · ' + s.ja + '</span><br>' +
-                    '<span style="display:block;margin-top:4px">' + s.info + '</span>';
-        var m = L.marker([s.lat, s.lon], { icon: icon }).addTo(map)
-          .bindPopup(popup)
-          .bindTooltip('<span class="jm-tip-name">' + s.name + '</span> <span class="jm-tip-ja">' + s.ja + '</span><br><span class="jm-tip-info">' + s.info + '</span>', { direction: 'top', offset: [0, -8], className: 'jm-tip' });
-        markers[s.id] = m;
-        bounds.push([s.lat, s.lon]);
+        var statusHtml = tent ? '<span style="color:' + c + ';font-weight:700;text-transform:uppercase;font-size:.72em;letter-spacing:.04em"> · ' + s.status + '</span>' : '';
+        var datesHtml = s.dates ? '<span style="display:block;margin-top:2px;font-size:.9em;opacity:.8">' + s.dates + '</span>' : '';
+        var noteHtml = s.note ? '<span style="display:block;margin-top:4px">' + s.note + '</span>' : '';
+        var popup = '<strong>' + s.name + '</strong> <span style="opacity:.55">' + s.ja + '</span>' + statusHtml + datesHtml + noteHtml;
+        var tip = '<span class="jm-tip-name">' + s.name + '</span> <span class="jm-tip-ja">' + s.ja + '</span>' +
+                  (s.note ? '<br><span class="jm-tip-info">' + s.note + '</span>' : '');
+        var m = L.marker([s.lat, s.lon], { icon: icon }).addTo(map).bindPopup(popup)
+          .bindTooltip(tip, { direction: 'top', offset: [0, -8], className: 'jm-tip' });
+        markers[s.id] = m; bounds.push([s.lat, s.lon]);
       });
 
       map.fitBounds(bounds, { padding: [45, 45] });
 
-      // Permanent English city labels with Japanese alongside
       cities.forEach(function (c) {
-        L.marker([c.lat, c.lon], {
-          interactive: false,
-          icon: L.divIcon({ className: 'jm-citylabel-wrap', html: '', iconSize: [0, 0] })
-        }).addTo(map).bindTooltip(
-          '<span class="jm-city-en">' + c.en + '</span> <span class="jm-city-ja">' + c.ja + '</span>',
-          { permanent: true, direction: 'right', offset: [6, 0], className: 'jm-citylabel' }
-        );
+        L.marker([c.lat, c.lon], { interactive: false, icon: L.divIcon({ className: 'jm-citylabel-wrap', html: '', iconSize: [0,0] }) })
+          .addTo(map).bindTooltip('<span class="jm-city-en">' + c.en + '</span> <span class="jm-city-ja">' + c.ja + '</span>',
+            { permanent: true, direction: 'right', offset: [6, 0], className: 'jm-citylabel' });
       });
 
       document.querySelectorAll('.jm-card').forEach(function (card) {
         card.addEventListener('click', function () {
-          var id = card.getAttribute('data-focus');
-          var m = markers[id];
+          var m = markers[card.getAttribute('data-id')];
           if (!m) return;
           map.flyTo(m.getLatLng(), 14, { duration: 0.8 });
           map.once('moveend', function () { m.openPopup(); });
@@ -236,43 +146,57 @@ const cities = [
     .jm-top { display:flex; justify-content:space-between; align-items:flex-start; gap:1rem; flex-wrap:wrap; margin: 0.5rem 0 1rem; }
     .jm-title { font-size: clamp(1.5rem, 3vw, 2.1rem); margin:0; line-height:1.1; }
     .jm-title span { font-weight:400; opacity:.55; font-size:0.7em; margin-left:.4em; }
-    .jm-sub { margin:.35rem 0 0; opacity:.75; font-size:.9rem; max-width:62ch; }
+    .jm-sub { margin:.35rem 0 0; opacity:.75; font-size:.9rem; max-width:64ch; }
+    .jm-sub em { opacity:.6; }
     .jm-home { white-space:nowrap; font-size:.85rem; text-decoration:none; opacity:.8; border:1px solid var(--border,#333); padding:.4rem .7rem; border-radius:8px; }
     .jm-home:hover { opacity:1; }
 
     .jm-mapwrap { position:relative; }
     #jmap { height: min(72vh, 640px); min-height:460px; width:100%; border-radius:14px; overflow:hidden; border:1px solid var(--border,#222); z-index:0; }
-    .jm-legend { position:absolute; left:12px; bottom:12px; z-index:500; background:rgba(12,12,12,.82); color:#eee; border:1px solid rgba(255,255,255,.12); border-radius:10px; padding:.55rem .7rem; display:flex; flex-direction:column; gap:.32rem; font-size:.78rem; backdrop-filter:blur(3px); }
+    .jm-legend { position:absolute; left:12px; bottom:12px; z-index:500; background:rgba(12,12,12,.82); color:#eee; border:1px solid rgba(255,255,255,.12); border-radius:10px; padding:.55rem .7rem; display:flex; flex-direction:column; gap:.3rem; font-size:.76rem; backdrop-filter:blur(3px); }
     .jm-legend span { display:flex; align-items:center; gap:.5rem; white-space:nowrap; }
     .jm-legend .dot { width:11px; height:11px; border-radius:50%; border:1.5px solid #fff; flex:none; }
     .jm-legend .line { width:18px; height:3px; border-radius:2px; background:#e8821e; flex:none; }
     .jm-legend .line.dash { background:transparent; border-top:3px dashed #8a8a8a; height:0; }
+    .jm-legend__note { opacity:.65; font-style:italic; margin-top:.15rem; }
 
-    .jm-days { margin-top: 1.6rem; }
-    .jm-days__h { font-size:1.2rem; margin:0 0 .8rem; }
-    .jm-days__h small { font-weight:400; opacity:.6; }
-    .jm-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap:.7rem; }
-    .jm-card { text-align:left; cursor:pointer; background:var(--card,#141414); color:inherit; border:1px solid var(--border,#262626); border-radius:12px; padding:.75rem .8rem; transition:border-color .15s, transform .08s; font:inherit; }
+    .jm-stops { margin-top: 1.6rem; }
+    .jm-stops__h { font-size:1.2rem; margin:0 0 .8rem; }
+    .jm-stops__h small { font-weight:400; opacity:.6; }
+    .jm-citygroup { margin-bottom:1.1rem; }
+    .jm-citygroup__h { font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; opacity:.6; margin:0 0 .5rem; border-bottom:1px solid var(--border,#262626); padding-bottom:.3rem; }
+    .jm-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:.6rem; }
+    .jm-card { text-align:left; cursor:pointer; background:var(--card,#141414); color:inherit; border:1px solid var(--border,#262626); border-left-width:4px; border-radius:10px; padding:.6rem .7rem; transition:border-color .15s, transform .08s; font:inherit; }
     .jm-card:hover { border-color:#666; }
     .jm-card:active { transform:scale(.99); }
-    .jm-card.is-show { border-color:#e23b3b; background:linear-gradient(180deg, rgba(226,59,59,.10), transparent 60%); }
-    .jm-card__top { display:flex; align-items:center; justify-content:space-between; gap:.5rem; }
-    .jm-card__date { font-weight:700; font-size:.92rem; }
-    .jm-card__badge { font-size:.62rem; font-weight:800; letter-spacing:.08em; color:#fff; background:#e23b3b; padding:.12rem .4rem; border-radius:5px; }
-    .jm-card__city { font-size:.78rem; opacity:.7; margin:.15rem 0 .35rem; }
-    .jm-card__what { font-size:.82rem; line-height:1.35; opacity:.92; }
-    .jm-foot { margin-top:1.1rem; font-size:.82rem; opacity:.7; border-top:1px solid var(--border,#262626); padding-top:.8rem; }
+    .jm-card.is-tentative { opacity:.82; }
+    .jm-cat-hotel { border-left-color:#2b6cff; }
+    .jm-cat-venue { border-left-color:#e23b3b; }
+    .jm-cat-tower { border-left-color:#e0398a; }
+    .jm-cat-station { border-left-color:#888; }
+    .jm-cat-sight { border-left-color:#2e9e5b; }
+    .jm-cat-poi { border-left-color:#9b59d0; }
+    .jm-card__top { display:flex; align-items:flex-start; justify-content:space-between; gap:.5rem; }
+    .jm-card__name { font-weight:700; font-size:.9rem; }
+    .jm-card__ja { font-weight:500; opacity:.5; font-size:.85em; }
+    .jm-card__badge { font-size:.6rem; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:#111; background:#d8c24a; padding:.12rem .4rem; border-radius:5px; white-space:nowrap; }
+    .jm-card__dates { font-size:.76rem; opacity:.7; margin-top:.2rem; }
+    .jm-card__note { font-size:.8rem; line-height:1.35; opacity:.9; margin-top:.25rem; }
+
+    .jm-travel { margin-top:1.4rem; }
+    .jm-travel__list { list-style:none; padding:0; margin:0; display:grid; gap:.3rem; }
+    .jm-travel__list li { font-size:.85rem; opacity:.9; }
+    .jm-travel__mode { opacity:.6; font-size:.9em; }
 
     .leaflet-tooltip { font-weight:600; }
+    .jm-tip { max-width:260px; }
+    .jm-tip .leaflet-tooltip-content, .leaflet-tooltip.jm-tip { max-width:260px; white-space:normal; }
+    .jm-tip-name { font-weight:800; } .jm-tip-ja { font-weight:600; opacity:.6; }
+    .jm-tip-info { display:block; margin-top:3px; font-weight:500; font-size:.82em; opacity:.9; line-height:1.3; }
     .jm-citylabel { background:transparent; border:none; box-shadow:none; padding:0; }
     .jm-citylabel::before { display:none; }
     .jm-city-en { color:#fff; font-weight:800; font-size:.95rem; text-shadow:0 0 3px #000,0 0 3px #000,0 1px 2px #000; }
     .jm-city-ja { color:#ffd9a3; font-weight:700; font-size:.82rem; text-shadow:0 0 3px #000,0 0 3px #000; margin-left:1px; }
-    .jm-tip .leaflet-tooltip-content, .leaflet-tooltip.jm-tip { max-width:260px; white-space:normal; }
-    .jm-tip { max-width:260px; }
-    .jm-tip-name { font-weight:800; }
-    .jm-tip-ja { font-weight:600; opacity:.6; }
-    .jm-tip-info { display:block; margin-top:3px; font-weight:500; font-size:.82em; opacity:.9; line-height:1.3; }
-    @media (max-width:560px){ .jm-legend { font-size:.72rem; left:8px; bottom:8px; } }
+    @media (max-width:560px){ .jm-legend { font-size:.7rem; left:8px; bottom:8px; } }
   </style>
 </BaseLayout>
