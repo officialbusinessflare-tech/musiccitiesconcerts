@@ -13,6 +13,7 @@ const COVER = '/assets/reviews/nini-legends.jpg';
 const BADGE = '/assets/reviews/no-skip-badge.png';
 const OFFICIAL = 'g8BnnRaixic';   // Into the Fire — official video
 const TAMPA = '6mHrPFEXY2M'; // our Tampa performance footage
+const INTERVIEW = 'r8klGaDF1gE'; // our earlier interview — Building a Metal Community
 
 const CANONICAL = 'https://musiccitiesconcerts.com/reviews/legends';
 
@@ -50,7 +51,7 @@ const facts = [
           <p class="rev-hero__dek">No wall of guitars. Still heavy music — and a defining statement of why we keep saying that.</p>
           <div class="rev-hero__cta">
             <a class="rev-hero__watch" href="#watch">▶ Watch &ldquo;Into the Fire&rdquo;</a>
-            <span class="rev-hero__note">The full written review is below. The full interview with Nini is coming to the channel.</span>
+            <span class="rev-hero__note">The full written review is below. Our interview with Nini is on the channel, with a Tampa follow-up coming.</span>
           </div>
         </div>
         <img class="rev-hero__badge" src={BADGE} alt="The Music Cities — No Skip Review" width="600" height="600" />
@@ -66,9 +67,11 @@ const facts = [
           <p>This has been out for a while, but after getting to know Nini a little bit over the past few weeks — including hanging out and recording an interview at her Tampa show (some shorts are up, full interview and other content out soon) — I wanted to revisit <em>LEGENDS</em>, which I picked up a copy of at the show and which includes songs that are an important part of her set.</p>
 
           <figure class="rev-gallery">
+            <img src="/assets/reviews/nini-live-1.jpg" alt="Nini performing in Tampa, playing her DaoYu electric lute" loading="lazy" />
+            <img src="/assets/reviews/nini-live-2.jpg" alt="Nini mid-set in Tampa" loading="lazy" />
             <img src="/assets/reviews/nini-tampa-1.jpg" alt="Kevin Crowder and Nini at her merch table in Tampa" loading="lazy" />
             <img src="/assets/reviews/nini-tampa-2.jpg" alt="Nini holding a Music Cities shirt in Tampa" loading="lazy" />
-            <figcaption>At Nini's Tampa show. Every band leaves with Music Cities swag.</figcaption>
+            <figcaption>Nini live in Tampa, and hanging out at the merch table — where every band leaves with Music Cities swag.</figcaption>
           </figure>
 
           <p>In addition to what she has previously put out, her latest single, <em>Into the Fire</em>, is 🔥, and you can see the <a href={`https://youtu.be/${OFFICIAL}`} target="_blank" rel="noopener noreferrer">official video here</a> and the version we caught of <a href="#watch">her performing it in Tampa</a>.</p>
@@ -127,7 +130,7 @@ const facts = [
 
           <section class="rev-watch" id="watch">
             <h2 class="rev-h2">Watch: Into the Fire</h2>
-            <p class="rev-watch__intro"><em>Into the Fire</em> is Nini's latest single. Here is the official video, and our footage of her playing it at the Tampa show. The full interview is coming to the channel.</p>
+            <p class="rev-watch__intro"><em>Into the Fire</em> is Nini's latest single. Here is the official video, our footage of her playing it at the Tampa show, and the interview we did with her a couple of months back on building a metal community. A Tampa follow-up interview is coming to the channel.</p>
             {OFFICIAL && (
               <div class="rev-video">
                 <iframe src={`https://www.youtube-nocookie.com/embed/${OFFICIAL}`} title="Nini — Into the Fire (official video)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -139,6 +142,14 @@ const facts = [
               </div>
             ) : (
               <p class="rev-watch__soon">Our Tampa footage is coming to the channel. Check back soon.</p>
+            )}
+            {INTERVIEW && (
+              <>
+                <h3 class="rev-watch__sub">Our interview: Building a Metal Community</h3>
+                <div class="rev-video">
+                  <iframe src={`https://www.youtube-nocookie.com/embed/${INTERVIEW}`} title="Nini — Building a Metal Community (The Music Cities)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </>
             )}
           </section>
 
@@ -174,7 +185,7 @@ const facts = [
               <li><a href="https://www.youtube.com/channel/UCUUIp1k0tywKM1oGMkkuFvw" target="_blank" rel="noopener noreferrer">YouTube — Nini Music</a></li>
               <li><a href="https://open.spotify.com/artist/4iggZUAEXfBeJH9DjKwccm" target="_blank" rel="noopener noreferrer">Spotify</a></li>
               <li><a href="https://www.instagram.com/ninimusicofficial/" target="_blank" rel="noopener noreferrer">Instagram — @ninimusicofficial</a></li>
-              <li><a href="https://www.youtube.com/watch?v=r8klGaDF1gE" target="_blank" rel="noopener noreferrer">Our interview with Nini</a></li>
+              <li><a href="https://www.youtube.com/watch?v=r8klGaDF1gE" target="_blank" rel="noopener noreferrer">Our interview — Building a Metal Community</a></li>
             </ul>
           </div>
 
@@ -225,6 +236,7 @@ const facts = [
 
     .rev-watch { margin-top: 2rem; }
     .rev-watch__soon { color: #8a8279; font-style: italic; }
+    .rev-watch__sub { color: #e7e3da; font-size: 1.1rem; margin: 1.5rem 0 0.75rem; }
     .rev-video { position: relative; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; border: 1px solid #262626; background: #000; margin-bottom: 1rem; }
     .rev-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 
@@ -245,10 +257,10 @@ const facts = [
     .rev-links a { color: #e6e2da; }
     .rev-links a:hover { color: #fff; }
 
-    .rev-gallery { display: grid; grid-template-columns: 1.4fr 1fr; gap: 0.6rem; margin: 1.5rem 0; }
-    .rev-gallery img { width: 100%; height: 300px; object-fit: cover; border-radius: 10px; border: 1px solid #262626; display: block; }
+    .rev-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin: 1.5rem 0; }
+    .rev-gallery img { width: 100%; height: 260px; object-fit: cover; border-radius: 10px; border: 1px solid #262626; display: block; }
     .rev-gallery figcaption { grid-column: 1 / -1; color: #8a8279; font-size: 0.85rem; margin-top: 0.3rem; }
-    @media (max-width: 620px) { .rev-gallery { grid-template-columns: 1fr; } .rev-gallery img { height: 260px; } }
+    @media (max-width: 620px) { .rev-gallery { grid-template-columns: 1fr; } }
 
     @media (max-width: 820px) {
       .rev-grid { grid-template-columns: 1fr; }
