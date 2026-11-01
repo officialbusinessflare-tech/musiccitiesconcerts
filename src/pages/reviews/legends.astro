@@ -140,7 +140,13 @@ const facts = [
 
           <h2 class="rev-h2">The call</h2>
 
-          <p>We do not score albums here. What we do is tell you whether a record holds end to end, and this one does, so this is a No Skip Review.</p>
+          <aside class="rev-verdict">
+            <img class="rev-verdict__badge" src={BADGE} alt="The Music Cities — No Skip Review" width="200" height="200" loading="lazy" />
+            <div class="rev-verdict__body">
+              <p class="rev-verdict__label">No Skip Review</p>
+              <p class="rev-verdict__text">We do not score albums here. A <strong>No Skip Review</strong> is our highest call: it means the record holds end to end, with nothing you would reach for the skip button on. Every track earns its place. <em>LEGENDS</em> is one of them.</p>
+            </div>
+          </aside>
 
           <p>If you like heavy music there is no reason you will not like <em>LEGENDS</em>. If you do not like heavy music there is still no reason not to like it, because it is traditional instrumentation and it is surprisingly current at the same time. That combination is rarer than it sounds and it is the whole achievement of the record.</p>
 
@@ -250,6 +256,12 @@ const facts = [
     .rev-body a:hover { color: #fff; }
     .rev-standfirst { color: #8a8279 !important; font-size: 0.95rem !important; border-bottom: 1px solid #212121; padding-bottom: 1rem; }
     .rev-h2 { margin: 2.25rem 0 0.85rem; font-size: 1.35rem; line-height: 1.2; }
+    .rev-verdict { display: flex; align-items: center; gap: 1.25rem; background: linear-gradient(135deg, #1a1712, #121212); border: 1px solid #3a2f1c; border-left: 4px solid #c9a24b; border-radius: 12px; padding: 1.25rem 1.5rem; margin: 1.75rem 0; }
+    .rev-verdict__badge { width: 96px; height: 96px; flex: 0 0 auto; }
+    .rev-verdict__label { font-family: inherit; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; color: #e8c877; font-size: 1.05rem; margin: 0 0 0.4rem; }
+    .rev-verdict__text { color: #e3ddd2 !important; line-height: 1.65; margin: 0; font-size: 1.02rem; }
+    .rev-verdict__text strong { color: #f3eddf; }
+    @media (max-width: 620px) { .rev-verdict { flex-direction: column; text-align: center; gap: 0.75rem; } }
     .rev-sources { color: #8a8279 !important; font-size: 0.88rem !important; border-top: 1px solid #212121; padding-top: 1rem; margin-top: 2rem; }
 
     .rev-watch { margin-top: 2rem; }
