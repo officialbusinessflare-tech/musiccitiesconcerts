@@ -1,0 +1,82 @@
+---
+/**
+ * Special Insights index — long-form essays and reports, not reviews.
+ *
+ * Add a new entry to the `insights` array when an article ships.
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import SceneNav from '../../components/SceneNav.astro';
+import Footer from '../../components/Footer.astro';
+
+type Insight = {
+  href: string;
+  art?: string;
+  artAlt?: string;
+  kicker: string;
+  title: string;
+  dek: string;
+};
+
+const insights: Insight[] = [
+  {
+    href: '/insights/exits',
+    art: '/assets/insights/we-became-our-parents.jpg',
+    artAlt: 'We Became Our Parents — The Talent Noticed',
+    kicker: 'Special Insight · Street Economics × The Music Cities',
+    title: 'We Became Our Parents',
+    dek: "A song banned in Japanese kindergartens in 2021, the panel show that tried to litigate it, and why every city is now operating as though it is still 1994.",
+  },
+];
+---
+
+<BaseLayout
+  title="Special Insights | The Music Cities"
+  description="Long-form insights and reports from The Music Cities — where heavy metal is economic development."
+>
+  <Header />
+  <SceneNav activeBucketId="insights" />
+
+  <main class="in">
+    <section class="in-hero container">
+      <span class="in-hero__eyebrow">Special Insights</span>
+      <h1 class="in-hero__title">What we're <em>thinking about</em></h1>
+      <p class="in-hero__lede">
+        Not reviews. The longer reads — where a scene, a song or a city tells you something about how talent is really built and where it goes.
+      </p>
+    </section>
+
+    <section class="in-list container">
+      {insights.map((a) => (
+        <a class="in-card" href={a.href}>
+          {a.art && <img class="in-card__art" src={a.art} alt={a.artAlt} width="1600" height="900" loading="lazy" />}
+          <span class="in-card__kicker">{a.kicker}</span>
+          <h2 class="in-card__title">{a.title}</h2>
+          <p class="in-card__dek">{a.dek}</p>
+          <span class="in-card__cta">Read the insight →</span>
+        </a>
+      ))}
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  .in { background: #0a0a0a; color: #fff; }
+  .container { width: min(100% - 2rem, 1040px); margin-inline: auto; }
+  .in-hero { padding: 2.5rem 1rem 1rem; }
+  .in-hero__eyebrow { color: #e50914; font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 700; }
+  .in-hero__title { font-size: clamp(2rem, 7vw, 3.2rem); line-height: 1.05; margin: 0.4rem 0 0.5rem; }
+  .in-hero__title em { color: #e50914; font-style: normal; }
+  .in-hero__lede { color: #b7b2a9; line-height: 1.6; max-width: 60ch; margin: 0; }
+  .in-list { padding: 1rem 1rem 2rem; display: grid; gap: 1rem; }
+  .in-card { display: block; background: #141414; border: 1px solid #262626; border-radius: 12px; padding: 1.25rem 1.3rem; text-decoration: none; color: inherit; transition: background 0.15s ease; }
+  .in-card:hover { background: #1b1b1b; }
+  .in-card__art { width: 100%; height: auto; border-radius: 8px; border: 1px solid #262626; display: block; margin-bottom: 0.9rem; }
+  .in-card__kicker { display: inline-block; color: #e50914; font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700; margin-bottom: 0.4rem; }
+  .in-card__title { margin: 0 0 0.5rem; font-size: clamp(1.4rem, 4vw, 1.9rem); line-height: 1.15; }
+  .in-card__dek { margin: 0 0 0.6rem; color: #b7b2a9; line-height: 1.6; font-size: 0.98rem; max-width: 70ch; }
+  .in-card__cta { color: #fff; font-weight: 600; font-size: 0.9rem; }
+  .in-card:hover .in-card__cta { color: #e50914; }
+</style>
