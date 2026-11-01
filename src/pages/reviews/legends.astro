@@ -72,7 +72,7 @@ const facts = [
             <figcaption>At Nini&rsquo;s merch table in Tampa, where we picked up a copy of <em>LEGENDS</em> &mdash; and with the Music Cities shirt we give friends of the channel.</figcaption>
           </figure>
 
-          <p>In addition to what she has previously put out, her latest single, <em>Into the Fire</em>, is 🔥, and you can see the <a href={`https://youtu.be/${OFFICIAL}`} target="_blank" rel="noopener noreferrer">official video here</a> and the version we caught of <a href="#watch">her performing it in Tampa</a>.</p>
+          <p>In addition to what she has previously put out, her latest single, <em>Into the Fire</em>, is 🔥, and you can see the <a href={`https://youtu.be/${OFFICIAL}`} target="_blank" rel="noopener noreferrer">official video here</a> and the version we caught of <a href="#tampa">her performing it in Tampa</a>.</p>
 
           <h2 class="rev-h2">Heavy music, not heavy metal</h2>
 
@@ -152,16 +152,16 @@ const facts = [
 
           <p>If you have seen Nini live, none of this will only be familiar. It will be connected. If you have not, these songs will make you want to fix that, because what comes through the recording is the same thing that comes through in the room, which is the connection and the sense of belonging you find there. She tours the United States again in the spring.</p>
 
-          <section class="rev-watch" id="watch">
+          <section class="rev-watch">
             <h2 class="rev-h2">Watch: Into the Fire</h2>
             <p class="rev-watch__intro"><em>Into the Fire</em> is Nini's latest single. Here is the official video, our footage of her playing it at the Tampa show, and the interview we did with her a couple of months back on building a metal community. A Tampa follow-up interview is coming to the channel.</p>
             {OFFICIAL && (
-              <div class="rev-video">
+              <div class="rev-video" id="watch">
                 <iframe src={`https://www.youtube-nocookie.com/embed/${OFFICIAL}`} title="Nini — Into the Fire (official video)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             )}
             {TAMPA ? (
-              <div class="rev-video">
+              <div class="rev-video" id="tampa">
                 <iframe src={`https://www.youtube-nocookie.com/embed/${TAMPA}`} title="Nini — Into the Fire, live in Tampa (The Music Cities)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             ) : (
@@ -246,6 +246,7 @@ const facts = [
     .rev-hero__note { color: #8a8279; font-size: 0.82rem; line-height: 1.4; flex: 1 1 220px; min-width: 200px; }
     .rev-watch__intro { color: #b7b2a9; line-height: 1.6; margin: 0 0 1rem; }
     html { scroll-behavior: smooth; }
+    #watch, #tampa { scroll-margin-top: 90px; }
     .rev-hero__badge { flex: 0 0 auto; width: 104px; height: 104px; object-fit: contain; align-self: flex-start; }
 
     .rev-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2rem; padding: 2rem 0 3rem; align-items: start; }
