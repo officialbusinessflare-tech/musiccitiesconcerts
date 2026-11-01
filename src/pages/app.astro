@@ -1,7 +1,7 @@
 ---
 /**
  * Get the App page.
- * Android: direct APK download (sideload) until the Google Play listing is live.
+ * Android: Google Play download (APK sideload kept as a fallback).
  * iOS: App Store download (Add to Home Screen kept as a fallback).
  */
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -27,12 +27,16 @@ const APK_VERSION = '1.0';
     <div class="app-grid">
       <section class="app-card">
         <div class="app-card__os">Android</div>
-        <h2 class="app-card__h">Download and install</h2>
-        <a class="app-card__btn" id="dl-btn" href="/download-app" download>Download for Android</a>
-        <p class="app-card__count" id="dl-count" hidden></p>
-        <p class="app-card__store-note">Counts direct Android installs from this page only. App Store and Google Play installs are tracked separately in each store’s developer console.</p>
-        <p class="app-card__note">When the download finishes, open it and tap Install. If your phone asks, allow installs from this source. Version {APK_VERSION}.</p>
-        <p class="app-card__soon">Coming soon to the Google Play Store.</p>
+        <h2 class="app-card__h">Get it on Google Play</h2>
+        <a class="app-card__btn" href="https://play.google.com/store/apps/details?id=com.businessflare.musiccities" target="_blank" rel="noopener noreferrer">Get it on Google Play</a>
+        <p class="app-card__note">Opens the Music Cities app page in the Google Play Store.</p>
+        <details class="app-fallback">
+          <summary>Prefer to sideload? Download the APK directly</summary>
+          <a class="app-card__btn app-card__btn--ghost" id="dl-btn" href="/download-app" download>Download the APK</a>
+          <p class="app-card__note">When the download finishes, open it and tap Install. If your phone asks, allow installs from this source. Version {APK_VERSION}.</p>
+          <p class="app-card__count" id="dl-count" hidden></p>
+          <p class="app-card__store-note">The APK counter tracks direct downloads from this page only. Google Play and App Store installs are tracked separately in each store’s developer console.</p>
+        </details>
       </section>
 
       <section class="app-card">
@@ -89,6 +93,8 @@ const APK_VERSION = '1.0';
   .app-fallback summary { color: #8a8279; font-size: 13px; cursor: pointer; }
   .app-fallback summary:hover { color: #cfcabf; }
   .app-fallback .app-steps { margin-top: 12px; }
+  .app-card__btn--ghost { background: transparent; border: 1px solid #3a3a3a; color: #e6e2da; margin-top: 12px; }
+  .app-card__btn--ghost:hover { background: #1c1c1c; }
   .app-steps { color: #cfcabf; font-size: 15px; line-height: 1.7; margin: 0; padding-left: 20px; }
   .app-steps strong { color: #fff; }
   .app-back { margin-top: 32px; }
