@@ -1,0 +1,260 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import SceneNav from '../../components/SceneNav.astro';
+import Footer from '../../components/Footer.astro';
+
+/**
+ * /reviews/legends — Nini "LEGENDS" review. A No Skip Review.
+ * OFFICIAL = Into the Fire official video (her latest single, not on LEGENDS).
+ * TAMPA = our footage of her performing Into the Fire in Tampa — set when ready.
+ */
+const COVER = '/assets/reviews/nini-legends.jpg';
+const BADGE = '/assets/reviews/no-skip-badge.png';
+const OFFICIAL = 'g8BnnRaixic';   // Into the Fire — official video
+const TAMPA = '';                 // our Tampa performance footage — pending
+
+const CANONICAL = 'https://musiccitiesconcerts.com/reviews/legends';
+
+const facts = [
+  { k: 'Artist', v: 'Nini — Nini Music (Taichung, Taiwan)' },
+  { k: 'Album', v: 'LEGENDS — self-released' },
+  { k: 'Release', v: 'March 26, 2022' },
+  { k: 'Runtime', v: 'Five tracks · Extended Edition CD adds a sixth' },
+  { k: 'Extended Edition', v: 'Signed limited CD run — the only place Homeland appears, featuring Jayant Bhadula of Bloodywood' },
+  { k: 'Concept', v: 'Four Taoist gods and Chinese folk figures — Longma, Mazu, Wukong, Guan Yu — and their Voyage Home' },
+  { k: 'Instruments', v: 'Traditional Chinese folk: core ruan, sanxian and liuqin; also pipa, erhu, Irish banjo, ukulele, and the DaoYu electric lute she designed' },
+  { k: 'Verdict', v: 'A No Skip Review' },
+];
+---
+
+<BaseLayout
+  title="Nini — LEGENDS: review | The Music Cities"
+  description="A No Skip Review of LEGENDS by Nini (Nini Music) — a self-released record built on Taoist gods and Chinese folk legend, played on traditional Chinese instruments. Heavy music, not heavy metal."
+  ogImage={COVER}
+  canonical={CANONICAL}
+>
+  <Header />
+  <SceneNav />
+
+  <article class="rev">
+    <section class="rev-hero">
+      <div class="container rev-hero__inner">
+        <div class="rev-hero__art">
+          <img src={COVER} alt="Nini — LEGENDS album cover" width="1024" height="1024" fetchpriority="high" />
+        </div>
+        <div class="rev-hero__meta">
+          <p class="rev-hero__eyebrow">No Skip Review</p>
+          <h1 class="rev-hero__title">Nini — <em>LEGENDS</em></h1>
+          <p class="rev-hero__sub">Self-released · March 26, 2022 · traditional Chinese instrumentation</p>
+          <p class="rev-hero__dek">No wall of guitars. Still heavy music — and a defining statement of why we keep saying that.</p>
+          <div class="rev-hero__cta">
+            <a class="rev-hero__watch" href="#watch">▶ Watch &ldquo;Into the Fire&rdquo;</a>
+            <span class="rev-hero__note">The full written review is below. The full interview with Nini is coming to the channel.</span>
+          </div>
+        </div>
+        <img class="rev-hero__badge" src={BADGE} alt="The Music Cities — No Skip Review" width="600" height="600" />
+      </div>
+    </section>
+
+    <main class="rev-main">
+      <div class="container rev-grid">
+
+        <div class="rev-body" id="read">
+          <p class="rev-standfirst">Self-released, March 26 2022. Five tracks. The Extended Edition CD adds a sixth, Homeland, featuring Jayant Bhadula of Bloodywood.</p>
+
+          <p>This has been out for a while, but after getting to know Nini a little bit over the past few weeks — including hanging out and recording an interview at her Tampa show (some shorts are up, full interview and other content out soon) — I wanted to revisit <em>LEGENDS</em>, which I picked up a copy of at the show and which includes songs that are an important part of her set.</p>
+
+          <figure class="rev-gallery">
+            <img src="/assets/reviews/nini-tampa-1.jpg" alt="Kevin Crowder and Nini at her merch table in Tampa" loading="lazy" />
+            <img src="/assets/reviews/nini-tampa-2.jpg" alt="Nini holding a Music Cities shirt in Tampa" loading="lazy" />
+            <figcaption>At Nini's Tampa show. Every band leaves with Music Cities swag.</figcaption>
+          </figure>
+
+          <p>In addition to what she has previously put out, her latest single, <em>Into the Fire</em>, is 🔥, and you can see the <a href={`https://youtu.be/${OFFICIAL}`} target="_blank" rel="noopener noreferrer">official video here</a> and the version we caught of <a href="#watch">her performing it in Tampa</a>.</p>
+
+          <h2 class="rev-h2">Heavy music, not heavy metal</h2>
+
+          <p>Heavy metal may be too limiting and too general a description, and this record is one of the reasons I keep saying so.</p>
+
+          <p>We use heavy music to teach economics, placemaking and belonging. That wording has been drifting for a while, and it has been driven by the coverage itself. We have put a lot of time into bands that are plainly not heavy metal by most people's definition. Rolling Quartz is one. BAND-MAID is another. AC/DC is hard rock and always was. In the West everyone wants to gatekeep to their own private definition, and what actually holds the field together is not the genre label. It is heavy music, and it runs from every subgenre of metal through hard rock to hardcore, out to Agnostic Front, Turnstile, and arguably to Bad Brains.</p>
+
+          <p>The oldest example is not a metal record at all. Gustav Holst wrote <em>The Planets</em> during the First World War, and <em>Mars, the Bringer of War</em> is a heavy sound by any standard a metal listener would apply. It is a symphony. It is a century old. It is still heavier than most of what gets filed under the genre.</p>
+
+          <p><em>LEGENDS</em> belongs in that line. There is no wall of guitars on it. It is still heavy music, and it sits alongside everything else described above in exactly the same way. For me personally this album is a defining statement of that idea, which is why I wanted to get the thinking down while I was still inside the record.</p>
+
+          <h2 class="rev-h2">What the record is actually about</h2>
+
+          <p><em>LEGENDS</em> is built on four Taoist gods and figures out of Chinese folk legend, and the fifth track carries them home. Longma is the dragon horse. Mazu is the sea goddess. Wukong is the monkey king. Guan Yu is the god of war. The Voyage Home is their journey back to the heavens.</p>
+
+          <p>That structure matters to how the thing plays, because it means the record is not a collection of pieces that happen to use traditional instrumentation. Each track is carrying a story that existed long before it, and the closing track is the only one that is not a portrait. Knowing the shape before you listen changes what you hear in the sequencing.</p>
+
+          <h2 class="rev-h2">The walkthrough</h2>
+
+          <p><em>Longma</em> opens very big, with a wide spread of sounds, and then pulls back to let you hear the Chinese instrumentation on its own terms. From there it starts taking you on a tour of what those instruments can do. The groove arrives early and you get a feel for what the record is going to be, and it moves through several tempos rather than settling on one. It is a good opener and it does the job an opener has to do, which is make you want to know what else is on here. Even if you have seen Nini live, this is the track that gives you the core of it.</p>
+
+          <p><em>Mazu</em> introduces voice, though not as lyrics. It comes in first as a haunting accompaniment sitting on a drum part that is deliberately not a driving beat. It is intentional, and it is building toward something. The voice then moves into more lyrical content, and about halfway through the track there is a build that settles the argument. This is heavy music. It is just not what you had previously defined as heavy music in your head.</p>
+
+          <p><em>Wukong</em> starts out sounding traditionally Chinese and then becomes the most memorable thing on the record. If you have seen her live this is the one you will recognise first, and the musical themes stay with you. It is not that I know it is her song. I can picture it being played on stage.</p>
+
+          <p><em>Guan Yu</em> opens on three notes that ring with something familiar even though you have never heard them before, and the whole track has that storytelling quality. Unless you know who Guan Yu is, and most listeners will not, the track leaves you to work out the story yourself. That is a different proposition from the track that follows it, and the contrast is deliberate.</p>
+
+          <p><em>The Voyage Home</em> is where the titles start doing real work. You can feel that it means something and that it is trying to tell you something, which on one side leaves it open to your own reading. The other side is that the first four titles are Chinese names and this one is in English. Once you know it is called The Voyage Home, what you feel while listening resolves toward that idea, and you can hear where the writing was going.</p>
+
+          <h2 class="rev-h2">Homeland</h2>
+
+          <p><em>Homeland</em> is a personal word. It is an emotional word, and it carries a concept that sits at the centre of what we talk about on this channel and in the work, which is belonging. There may be no single word that evokes belonging more directly.</p>
+
+          <p>The track earns it. The transitions are good, it finds a pace quickly and holds it, and more than anything it makes you want to see it performed. If you have not seen Nini live, this is the track that will send you looking for a date, because the recording carries the feel and the energy through intact.</p>
+
+          <p>Jayant Bhadula of Bloodywood sings on it, which places the collaboration between two acts building heavy music out of their own traditions rather than importing someone else's.</p>
+
+          <h2 class="rev-h2">The player behind it</h2>
+
+          <p>Nini grew up in Taichung and has been studying and playing traditional Chinese folk instruments for more than twenty years. The origin is her grandfather, who would bring a handmade erhu to the house at weekends and play old folk songs for the family. He then made her a sanxian so the two of them could play together. She was about six. She has not stopped since.</p>
+
+          <p>She plays eight instruments. Her core three are the ruan, the sanxian — which is the instrument the Japanese shamisen descends from — and the liuqin. She also plays pipa, erhu, Irish banjo and ukulele. The eighth is the DaoYu, a four-string electric lute hybrid she designed with Blackworm Instruments and funded through Kickstarter, built to be fretted like a lute or bowed like an erhu, with pickups and a tremolo bridge. The name means jade sword. She announced it the month after <em>LEGENDS</em> came out, which tells you something about where her head was.</p>
+
+          <p>She has toured Europe, the United States, Canada, China, Japan and all of Taiwan, in orchestral settings as well as rock ones. The live band works as a four piece, with Nini out front on electric zhong ruan and sanxian.</p>
+
+          <h2 class="rev-h2">The call</h2>
+
+          <p>We do not score albums here. What we do is tell you whether a record holds end to end, and this one does, so this is a No Skip Review.</p>
+
+          <p>If you like heavy music there is no reason you will not like <em>LEGENDS</em>. If you do not like heavy music there is still no reason not to like it, because it is traditional instrumentation and it is surprisingly current at the same time. That combination is rarer than it sounds and it is the whole achievement of the record.</p>
+
+          <p>If you have seen Nini live, none of this will only be familiar. It will be connected. If you have not, these songs will make you want to fix that, because what comes through the recording is the same thing that comes through in the room, which is the connection and the sense of belonging you find there. She tours the United States again in the spring.</p>
+
+          <section class="rev-watch" id="watch">
+            <h2 class="rev-h2">Watch: Into the Fire</h2>
+            <p class="rev-watch__intro"><em>Into the Fire</em> is Nini's latest single. Here is the official video, and our footage of her playing it at the Tampa show. The full interview is coming to the channel.</p>
+            {OFFICIAL && (
+              <div class="rev-video">
+                <iframe src={`https://www.youtube-nocookie.com/embed/${OFFICIAL}`} title="Nini — Into the Fire (official video)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            )}
+            {TAMPA ? (
+              <div class="rev-video">
+                <iframe src={`https://www.youtube-nocookie.com/embed/${TAMPA}`} title="Nini — Into the Fire, live in Tampa (The Music Cities)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            ) : (
+              <p class="rev-watch__soon">Our Tampa footage is coming to the channel. Check back soon.</p>
+            )}
+          </section>
+
+          <p class="rev-sources"><strong>Sources.</strong> Observations and the listening read are my own, recorded while going through the record. Biographical detail and instrument background come from Nini's own account in her interview with Unrated Magazine, November 30 2022, and from her Bandcamp and artist pages. Release detail and track times come from Bandcamp, Discogs and Deezer. Live band detail comes from contemporaneous coverage of the spring 2026 United States tour.</p>
+        </div>
+
+        <aside class="rev-side">
+          <div class="rev-card">
+            <h2 class="rev-card__title">The facts</h2>
+            <dl class="rev-facts">
+              {facts.map((f) => (
+                <div><dt>{f.k}</dt><dd>{f.v}</dd></div>
+              ))}
+            </dl>
+          </div>
+
+          <div class="rev-card">
+            <h2 class="rev-card__title">Track listing</h2>
+            <ol class="rev-tracks">
+              <li><span>Longma</span> <em>2:45</em></li>
+              <li><span>Mazu</span> <em>3:34</em></li>
+              <li><span>Wukong</span> <em>2:38</em></li>
+              <li><span>Guan Yu</span> <em>4:06</em></li>
+              <li><span>The Voyage Home</span> <em>4:20</em></li>
+              <li><span>Homeland</span> <em>2:38 — feat. Jayant Bhadula of Bloodywood · Extended Edition only</em></li>
+            </ol>
+          </div>
+
+          <div class="rev-card">
+            <h2 class="rev-card__title">Nini</h2>
+            <ul class="rev-links">
+              <li><a href="https://ninimusic.me/" target="_blank" rel="noopener noreferrer">Website — ninimusic.me</a></li>
+              <li><a href="https://www.youtube.com/channel/UCUUIp1k0tywKM1oGMkkuFvw" target="_blank" rel="noopener noreferrer">YouTube — Nini Music</a></li>
+              <li><a href="https://open.spotify.com/artist/4iggZUAEXfBeJH9DjKwccm" target="_blank" rel="noopener noreferrer">Spotify</a></li>
+              <li><a href="https://www.instagram.com/ninimusicofficial/" target="_blank" rel="noopener noreferrer">Instagram — @ninimusicofficial</a></li>
+              <li><a href="https://www.youtube.com/watch?v=r8klGaDF1gE" target="_blank" rel="noopener noreferrer">Our interview with Nini</a></li>
+            </ul>
+          </div>
+
+          <div class="rev-card">
+            <h2 class="rev-card__title">Get LEGENDS</h2>
+            <ul class="rev-links">
+              <li><a href="https://ninimusic.bandcamp.com/" target="_blank" rel="noopener noreferrer">Bandcamp — digital &amp; physical</a></li>
+              <li>Extended Edition: signed limited CD — the only place Homeland appears</li>
+              <li>Streaming on YouTube, Spotify and the usual services</li>
+            </ul>
+          </div>
+        </aside>
+
+      </div>
+    </main>
+  </article>
+
+  <Footer />
+
+  <style>
+    .rev-hero { border-bottom: 1px solid #262626; }
+    .rev-hero__inner { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; padding: 2rem 0 1.75rem; }
+    .rev-hero__art { flex: 0 0 auto; }
+    .rev-hero__art img { width: 220px; height: 220px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.14); object-fit: cover; display: block; }
+    .rev-hero__meta { flex: 1 1 320px; min-width: 260px; }
+    .rev-hero__eyebrow { margin: 0 0 0.35rem; color: #e11d2a; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; }
+    .rev-hero__title { margin: 0 0 0.4rem; font-size: clamp(1.8rem, 5vw, 2.8rem); line-height: 1.05; }
+    .rev-hero__title em { color: #e11d2a; font-style: normal; }
+    .rev-hero__sub { margin: 0 0 0.5rem; color: #c9c5b8; font-weight: 600; }
+    .rev-hero__dek { margin: 0; color: #8a8279; }
+    .rev-hero__cta { margin-top: 0.9rem; display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; }
+    .rev-hero__watch { display: inline-block; background: #e11d2a; color: #fff; text-decoration: none; font-weight: 700; font-size: 0.92rem; padding: 0.55rem 1rem; border-radius: 8px; }
+    .rev-hero__watch:hover { background: #c2131f; }
+    .rev-hero__note { color: #8a8279; font-size: 0.82rem; line-height: 1.4; flex: 1 1 220px; min-width: 200px; }
+    .rev-watch__intro { color: #b7b2a9; line-height: 1.6; margin: 0 0 1rem; }
+    html { scroll-behavior: smooth; }
+    .rev-hero__badge { flex: 0 0 auto; width: 104px; height: 104px; object-fit: contain; align-self: flex-start; }
+
+    .rev-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2rem; padding: 2rem 0 3rem; align-items: start; }
+    .rev-body { min-width: 0; max-width: 44rem; }
+    .rev-body p { line-height: 1.75; color: #d9d4ca; margin: 0 0 1.15rem; font-size: 1.05rem; }
+    .rev-body em { color: #f0ece3; font-style: italic; }
+    .rev-body a { color: #e6e2da; }
+    .rev-body a:hover { color: #fff; }
+    .rev-standfirst { color: #8a8279 !important; font-size: 0.95rem !important; border-bottom: 1px solid #212121; padding-bottom: 1rem; }
+    .rev-h2 { margin: 2.25rem 0 0.85rem; font-size: 1.35rem; line-height: 1.2; }
+    .rev-sources { color: #8a8279 !important; font-size: 0.88rem !important; border-top: 1px solid #212121; padding-top: 1rem; margin-top: 2rem; }
+
+    .rev-watch { margin-top: 2rem; }
+    .rev-watch__soon { color: #8a8279; font-style: italic; }
+    .rev-video { position: relative; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; border: 1px solid #262626; background: #000; margin-bottom: 1rem; }
+    .rev-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+    .rev-side { display: flex; flex-direction: column; gap: 1rem; position: sticky; top: 1rem; }
+    .rev-card { border: 1px solid #262626; border-radius: 12px; padding: 1.1rem 1.2rem; background: #101010; }
+    .rev-card__title { margin: 0 0 0.6rem; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase; color: #b7b2a9; }
+    .rev-facts > div { padding: 0.55rem 0; border-bottom: 1px solid #212121; }
+    .rev-facts > div:last-child { border-bottom: 0; }
+    .rev-facts dt { font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: #8a8279; margin-bottom: 0.15rem; }
+    .rev-facts dd { margin: 0; color: #e6e2da; font-size: 0.92rem; line-height: 1.5; }
+    .rev-tracks { margin: 0; padding: 0 0 0 1.2rem; }
+    .rev-tracks li { padding: 0.3rem 0; color: #e6e2da; font-size: 0.9rem; border-bottom: 1px solid #1b1b1b; }
+    .rev-tracks li:last-child { border-bottom: 0; }
+    .rev-tracks li span { font-weight: 600; }
+    .rev-tracks li em { display: block; color: #8a8279; font-style: normal; font-size: 0.78rem; margin-top: 0.1rem; }
+    .rev-links { list-style: none; margin: 0; padding: 0; }
+    .rev-links li { padding: 0.3rem 0; color: #e6e2da; font-size: 0.92rem; }
+    .rev-links a { color: #e6e2da; }
+    .rev-links a:hover { color: #fff; }
+
+    .rev-gallery { display: grid; grid-template-columns: 1.4fr 1fr; gap: 0.6rem; margin: 1.5rem 0; }
+    .rev-gallery img { width: 100%; height: 300px; object-fit: cover; border-radius: 10px; border: 1px solid #262626; display: block; }
+    .rev-gallery figcaption { grid-column: 1 / -1; color: #8a8279; font-size: 0.85rem; margin-top: 0.3rem; }
+    @media (max-width: 620px) { .rev-gallery { grid-template-columns: 1fr; } .rev-gallery img { height: 260px; } }
+
+    @media (max-width: 820px) {
+      .rev-grid { grid-template-columns: 1fr; }
+      .rev-side { position: static; }
+      .rev-hero__art img { width: 150px; height: 150px; }
+      .rev-hero__badge { width: 72px; height: 72px; }
+    }
+  </style>
+</BaseLayout>
