@@ -2,7 +2,7 @@
 /**
  * Get the App page.
  * Android: direct APK download (sideload) until the Google Play listing is live.
- * iOS: Add to Home Screen until the App Store listing is live.
+ * iOS: App Store download (Add to Home Screen kept as a fallback).
  */
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
@@ -32,19 +32,23 @@ const APK_VERSION = '1.0';
         <p class="app-card__count" id="dl-count" hidden></p>
         <p class="app-card__store-note">Counts direct Android installs from this page only. App Store and Google Play installs are tracked separately in each store’s developer console.</p>
         <p class="app-card__note">When the download finishes, open it and tap Install. If your phone asks, allow installs from this source. Version {APK_VERSION}.</p>
-        <p class="app-card__soon">Coming soon to the Google Play Store and the Apple App Store.</p>
+        <p class="app-card__soon">Coming soon to the Google Play Store.</p>
       </section>
 
       <section class="app-card">
         <div class="app-card__os">iPhone and iPad</div>
-        <h2 class="app-card__h">Add to Home Screen</h2>
-        <ol class="app-steps">
-          <li>Open <strong>musiccitiesconcerts.com</strong> in Safari.</li>
-          <li>Tap the <strong>Share</strong> button, the square with an up arrow.</li>
-          <li>Scroll down and tap <strong>Add to Home Screen</strong>.</li>
-          <li>Tap <strong>Add</strong>. The Music Cities icon lands on your home screen.</li>
-        </ol>
-        <p class="app-card__soon">Coming to the Apple App Store soon.</p>
+        <h2 class="app-card__h">Download on the App Store</h2>
+        <a class="app-card__btn" href="https://apps.apple.com/us/app/the-music-cities/id6820843236" target="_blank" rel="noopener noreferrer">Get it on the App Store</a>
+        <p class="app-card__note">Opens the Music Cities app page in the App Store. Requires a recent version of iOS.</p>
+        <details class="app-fallback">
+          <summary>No App Store access? Add it to your home screen instead</summary>
+          <ol class="app-steps">
+            <li>Open <strong>musiccitiesconcerts.com</strong> in Safari.</li>
+            <li>Tap the <strong>Share</strong> button, the square with an up arrow.</li>
+            <li>Scroll down and tap <strong>Add to Home Screen</strong>.</li>
+            <li>Tap <strong>Add</strong>. The Music Cities icon lands on your home screen.</li>
+          </ol>
+        </details>
       </section>
     </div>
 
@@ -81,6 +85,10 @@ const APK_VERSION = '1.0';
   .app-card__btn:hover { background: #ff1a25; }
   .app-card__note { color: #a49f96; font-size: 13.5px; line-height: 1.55; margin: 14px 0 0; }
   .app-card__soon { color: #6f6a62; font-size: 12.5px; margin: 16px 0 0; }
+  .app-fallback { margin: 16px 0 0; }
+  .app-fallback summary { color: #8a8279; font-size: 13px; cursor: pointer; }
+  .app-fallback summary:hover { color: #cfcabf; }
+  .app-fallback .app-steps { margin-top: 12px; }
   .app-steps { color: #cfcabf; font-size: 15px; line-height: 1.7; margin: 0; padding-left: 20px; }
   .app-steps strong { color: #fff; }
   .app-back { margin-top: 32px; }
