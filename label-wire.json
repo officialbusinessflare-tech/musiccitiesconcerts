@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:15:00.000Z",
+  "generatedAt": "2026-11-02T13:20:00.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -39,9 +39,23 @@
     {
       "id": "steamhammer",
       "name": "Steamhammer"
+    },
+    {
+      "id": "cursedblessings",
+      "name": "Cursed Blessings Records",
+      "url": "https://cursedblessingsrecords.com"
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-11-01",
+      "label": "cursedblessings",
+      "artist": "MALHAVOC",
+      "headline": "Toronto industrial thrash veterans premiere \"The Masque Of The Red Death\" via Ghost Cult Magazine. New album The Masquerade's Death out November 13, 2026.",
+      "type": "Album",
+      "releaseDate": "2026-11-13"
+    },
     {
       "kind": "send",
       "date": "2026-10-28",
