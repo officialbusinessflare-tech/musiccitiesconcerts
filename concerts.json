@@ -1,84 +1,6 @@
 {
-  "generatedAt": "2026-11-01T07:01:07.526Z",
+  "generatedAt": "2026-11-02T07:00:53.947Z",
   "entries": [
-    {
-      "id": "86bbwe8wd",
-      "name": "EMNW @ Rockateria — Sendai, Japan — Nov 1 2026",
-      "date": "2026-11-01",
-      "venue": "Rockateria",
-      "city": "Sendai",
-      "country": "Japan",
-      "bands": [
-        "EMNW"
-      ],
-      "description": "EMNW at Rockateria, Sendai — night two after Niigata. Bandsintown lists seven further EMNW dates not yet visible; expect more.",
-      "ticketUrl": "https://www.bandsintown.com/a/15585228-emnw",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbwe8wd",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbeb78z",
-      "name": "SiM @ Brooklyn Bowl — Philadelphia, PA — Nov 1 2026",
-      "date": "2026-11-01",
-      "venue": "Brooklyn Bowl",
-      "city": "Philadelphia",
-      "state": "PA",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL world tour, North American leg. Tickets: https://tix.soundrink.com/tours/sim",
-      "ticketUrl": "https://tix.soundrink.com/tours/sim",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb78z",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w52r",
-      "name": "HANABIE. @ Hamamatsu FORCE — Hamamatsu, Japan — Nov 1 2026",
-      "date": "2026-11-01",
-      "venue": "Hamamatsu FORCE",
-      "city": "Hamamatsu",
-      "country": "Japan",
-      "bands": [
-        "HANABIE."
-      ],
-      "description": "HANABIE. — Japan 2MAN Tour 2026. Hamamatsu FORCE in Hamamatsu, Japan. Show date: Nov 1 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w52r",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w4r4",
-      "name": "BAND-MAID @ COMTEC PORTBASE — Nagoya, Japan — Nov 1 2026",
-      "date": "2026-11-01",
-      "venue": "COMTEC PORTBASE",
-      "city": "Nagoya",
-      "country": "Japan",
-      "bands": [
-        "BAND-MAID"
-      ],
-      "description": "BAND-MAID — Japan show after US tour, before Budokan. COMTEC PORTBASE in Nagoya, Japan. Show date: Nov 1 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w4r4",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bbzrk3a",
       "name": "EMNW @ SPiCE — Sapporo, Japan — Nov 3 2026",
@@ -757,6 +679,24 @@
       ]
     },
     {
+      "id": "86bcw9eba",
+      "name": "ASTERISM vs BRIDEAR @ Shinjuku ANTIKNOCK, Tokyo",
+      "date": "2026-11-08",
+      "city": "Shinjuku ANTIKNOCK",
+      "country": "Tokyo",
+      "bands": [
+        "ASTERISM vs BRIDEAR"
+      ],
+      "description": "Japan trip, Nov 2026. Doors 6:00 PM. Guest list — done. Kevin + Lina attending.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcw9eba",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bcb0ttm",
       "name": "BRIDEAR @ Shinjuku Antiknock — Tokyo, Japan — Nov 8 2026",
       "date": "2026-11-08",
@@ -1090,6 +1030,24 @@
       ]
     },
     {
+      "id": "86bcw9ec0",
+      "name": "BAND-MAID @ Nippon Budokan, Tokyo",
+      "date": "2026-11-13",
+      "city": "Nippon Budokan",
+      "country": "Tokyo",
+      "bands": [
+        "BAND-MAID"
+      ],
+      "description": "Japan trip, Nov 2026. World Tour 2026 Final. Doors 4:30 PM, show 6:00 PM. Tickets from Marco. Marco interview in line (be early), with guitarists. Uncle Yoshi there.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcw9ec0",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bcfznd7",
       "name": "BAND-MAID @ Nippon Budokan — Tokyo, Japan — Nov 13 2026",
       "date": "2026-11-13",
@@ -1287,6 +1245,23 @@
       ]
     },
     {
+      "id": "86bcw9ecm",
+      "name": "Broken By The Scream, HOLIDAY NEXT @ Nagoya",
+      "date": "2026-11-14",
+      "venue": "Nagoya",
+      "bands": [
+        "Broken By The Scream, HOLIDAY NEXT"
+      ],
+      "description": "Japan trip, Nov 2026. Nagoya. Door/show time TBC. Outreach to Broken By The Scream pending.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcw9ecm",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc05hdy",
       "name": "Breed 77 @ Downstairs at The Dome — London, UK — Nov 14 2026",
       "date": "2026-11-14",
@@ -1451,6 +1426,41 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bb9w4tx",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bcw9edp",
+      "name": "THE JAM @ 音楽室DX, Takadanobaba, Tokyo",
+      "date": "2026-11-15",
+      "venue": "音楽室DX",
+      "city": "Takadanobaba",
+      "country": "Tokyo",
+      "bands": [
+        "THE JAM"
+      ],
+      "description": "Japan trip, Nov 2026. Doors 6:00 PM. Optional — only if time allows after HAGANE (Kawasaki) earlier the same day.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcw9edp",
+      "buckets": []
+    },
+    {
+      "id": "86bcw9ed6",
+      "name": "HAGANE — STRIKE BACK 2026 @ CLUB CITTA', Kawasaki",
+      "date": "2026-11-15",
+      "city": "STRIKE BACK 2026 @ CLUB CITTA'",
+      "country": "Kawasaki",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "Japan trip, Nov 2026. Doors 1:00 PM, show 2:00 PM. Tickets on e+ (eplus) — buy by Nov 14, 6:00 PM.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcw9ed6",
       "buckets": [
         "japanese-metal"
       ]
