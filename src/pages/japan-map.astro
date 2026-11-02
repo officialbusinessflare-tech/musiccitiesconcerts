@@ -153,6 +153,30 @@ const wxUpdated = new Date().toISOString().slice(0, 10);
         ))}
       </ul>
     </section>
+
+    <section class="jm-links">
+      <h2 class="jm-stops__h">Useful links</h2>
+      <div class="jm-links__grid">
+        <div class="jm-links__col">
+          <h3 class="jm-links__h">Trains &amp; getting around</h3>
+          <ul>
+            <li><a href="https://world.jorudan.co.jp/mln/en/" target="_blank" rel="noopener noreferrer">Jorudan Japan Transit Planner</a><span>train routes &amp; times, English</span></li>
+            <li><a href="https://japantravel.navitime.com/en/" target="_blank" rel="noopener noreferrer">NAVITIME for Japan Travel</a><span>routes, IC cards, English</span></li>
+            <li><a href="https://smart-ex.jp/en/" target="_blank" rel="noopener noreferrer">Smart EX</a><span>reserve Nozomi shinkansen seats</span></li>
+            <li><a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Google Maps</a><span>live directions &amp; transit</span></li>
+          </ul>
+        </div>
+        <div class="jm-links__col">
+          <h3 class="jm-links__h">Tickets &amp; essentials</h3>
+          <ul>
+            <li><a href="https://eplus.jp/" target="_blank" rel="noopener noreferrer">e+ (eplus)</a><span>show tickets &mdash; HAGANE deadline Nov 14, 6 PM</span></li>
+            <li><a href="https://t.livepocket.jp/" target="_blank" rel="noopener noreferrer">LivePocket</a><span>show tickets (BBTS Nagoya, etc.)</span></li>
+            <li><a href="https://tenki.jp/" target="_blank" rel="noopener noreferrer">tenki.jp</a><span>Japanese weather</span></li>
+            <li><a href="https://www.jma.go.jp/bosai/en/" target="_blank" rel="noopener noreferrer">JMA forecast (English)</a><span>official weather service</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </main>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
@@ -203,7 +227,7 @@ const wxUpdated = new Date().toISOString().slice(0, 10);
       cities.forEach(function (c) {
         L.marker([c.lat, c.lon], { interactive: false, icon: L.divIcon({ className: 'jm-citylabel-wrap', html: '', iconSize: [0,0] }) })
           .addTo(map).bindTooltip('<span class="jm-city-en">' + c.en + '</span> <span class="jm-city-ja">' + c.ja + '</span>',
-            { permanent: true, direction: 'right', offset: [6, 0], className: 'jm-citylabel' });
+            { permanent: true, direction: 'auto', offset: [6, 0], className: 'jm-citylabel' });
       });
 
       document.querySelectorAll('.jm-card').forEach(function (card) {
@@ -274,7 +298,24 @@ const wxUpdated = new Date().toISOString().slice(0, 10);
     .jm-citylabel::before { display:none; }
     .jm-city-en { color:#fff; font-weight:800; font-size:.95rem; text-shadow:0 0 3px #000,0 0 3px #000,0 1px 2px #000; }
     .jm-city-ja { color:#ffd9a3; font-weight:700; font-size:.82rem; text-shadow:0 0 3px #000,0 0 3px #000; margin-left:1px; }
-    @media (max-width:560px){ .jm-legend { font-size:.7rem; left:8px; bottom:8px; } }
+    .jm-links { margin-top:1.4rem; }
+    .jm-links__grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+    .jm-links__col { background:var(--card,#141414); border:1px solid var(--border,#262626); border-radius:12px; padding:.9rem 1.1rem; }
+    .jm-links__h { font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; opacity:.65; margin:0 0 .55rem; }
+    .jm-links__col ul { list-style:none; margin:0; padding:0; }
+    .jm-links__col li { padding:.4rem 0; border-top:1px solid #1e1e1e; }
+    .jm-links__col li:first-child { border-top:0; }
+    .jm-links__col a { color:#fff; font-weight:700; text-decoration:none; font-size:.95rem; }
+    .jm-links__col a:hover { color:#e50914; }
+    .jm-links__col span { display:block; opacity:.6; font-size:.8rem; margin-top:.1rem; }
+    @media (max-width:560px){ .jm-links__grid { grid-template-columns:1fr; } }
+
+    @media (max-width:560px){
+      .jm-legend { font-size:.7rem; left:8px; bottom:8px; }
+      #jmap { height: 54vh; min-height: 320px; }
+      .jm-city-en { font-size:.8rem; }
+      .jm-city-ja { font-size:.7rem; }
+    }
   
   .jm-wx { margin: 1.25rem 0 0; }
   .jm-wx__h { font-size: 1.15rem; margin: 0 0 0.75rem; }
