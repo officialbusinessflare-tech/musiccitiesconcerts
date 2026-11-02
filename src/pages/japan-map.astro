@@ -18,6 +18,59 @@ const cityOrder = ['Tokyo','Yokohama','Kawasaki','Nagoya','Kyoto','Osaka','Hiros
 const stopsByCity = cityOrder
   .map(c => ({ city: c, items: pins.filter(p => p.city === c) }))
   .filter(g => g.items.length);
+
+/* --- Weather forecast (build-time, Open-Meteo, no key). Refreshes each deploy. --- */
+const WX_CITIES = [
+  { en:'Tokyo', ja:'東京', lat:35.685, lon:139.76, dates:['2026-11-05','2026-11-06','2026-11-07','2026-11-08','2026-11-12','2026-11-13','2026-11-14','2026-11-15','2026-11-16'] },
+  { en:'Hiroshima', ja:'広島', lat:34.3955, lon:132.4596, dates:['2026-11-09','2026-11-10'] },
+  { en:'Osaka', ja:'大阪', lat:34.7003, lon:135.4943, dates:['2026-11-10','2026-11-11','2026-11-12'] },
+  { en:'Kyoto', ja:'京都', lat:34.9858, lon:135.7588, dates:['2026-11-12'] },
+  { en:'Nagoya', ja:'名古屋', lat:35.1709, lon:136.8815, dates:['2026-11-14','2026-11-15'] },
+  { en:'Kawasaki', ja:'川崎', lat:35.5316, lon:139.7003, dates:['2026-11-15'] },
+];
+const WX_START = '2026-11-05', WX_END = '2026-11-16';
+const WMO = {
+  0:['☀️','Clear'], 1:['🌤️','Mainly clear'], 2:['⛅','Partly cloudy'], 3:['☁️','Overcast'],
+  45:['🌫️','Fog'], 48:['🌫️','Rime fog'],
+  51:['🌦️','Light drizzle'], 53:['🌦️','Drizzle'], 55:['🌧️','Heavy drizzle'],
+  56:['🌧️','Freezing drizzle'], 57:['🌧️','Freezing drizzle'],
+  61:['🌦️','Light rain'], 63:['🌧️','Rain'], 65:['🌧️','Heavy rain'],
+  66:['🌧️','Freezing rain'], 67:['🌧️','Freezing rain'],
+  71:['🌨️','Light snow'], 73:['🌨️','Snow'], 75:['❄️','Heavy snow'], 77:['🌨️','Snow grains'],
+  80:['🌦️','Light showers'], 81:['🌧️','Showers'], 82:['⛈️','Violent showers'],
+  85:['🌨️','Snow showers'], 86:['❄️','Snow showers'],
+  95:['⛈️','Thunderstorm'], 96:['⛈️','Thunderstorm'], 99:['⛈️','Thunderstorm'],
+};
+const wdOf = (d) => new Date(d + 'T00:00:00+09:00').toLocaleDateString('en-US', { weekday: 'short', timeZone: 'Asia/Tokyo' });
+let weatherByCity = [];
+let weatherOk = false;
+try {
+  for (const c of WX_CITIES) {
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${c.lat}&longitude=${c.lon}&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&start_date=${WX_START}&end_date=${WX_END}`;
+    const r = await fetch(url);
+    if (!r.ok) throw new Error('wx ' + r.status);
+    const j = await r.json();
+    const t = j.daily.time;
+    const days = c.dates.map((d) => {
+      const i = t.indexOf(d);
+      if (i < 0) return null;
+      const code = j.daily.weather_code[i];
+      const [emoji, label] = WMO[code] || ['☁️', '—'];
+      return {
+        date: d, wd: wdOf(d), dd: d.slice(8), emoji, label,
+        hi: Math.round(j.daily.temperature_2m_max[i]),
+        lo: Math.round(j.daily.temperature_2m_min[i]),
+        pop: j.daily.precipitation_probability_max[i],
+      };
+    }).filter(Boolean);
+    weatherByCity.push({ en: c.en, ja: c.ja, days });
+  }
+  weatherOk = weatherByCity.length > 0;
+} catch (e) {
+  weatherOk = false;
+  weatherByCity = [];
+}
+const wxUpdated = new Date().toISOString().slice(0, 10);
 ---
 
 <BaseLayout title="Japan Trip Map · Nov 4–16 2026 (private)" description="Private trip map." noindex={true}>
@@ -46,6 +99,30 @@ const stopsByCity = cityOrder
         <span class="jm-legend__note">Faded pin = tentative</span>
       </div>
     </div>
+
+    {weatherOk && (
+      <section class="jm-wx">
+        <h2 class="jm-wx__h">Weather forecast <small>— for the days we&rsquo;re in each city</small></h2>
+        <div class="jm-wx__grid">
+          {weatherByCity.map((c) => (
+            <div class="jm-wx__city">
+              <h3 class="jm-wx__cityh">{c.en} <span class="jm-wx__ja">{c.ja}</span></h3>
+              <div class="jm-wx__days">
+                {c.days.map((d) => (
+                  <div class="jm-wx__day">
+                    <span class="jm-wx__dow">{d.wd} {d.dd}</span>
+                    <span class="jm-wx__ico" title={d.label}>{d.emoji}</span>
+                    <span class="jm-wx__temp"><strong>{d.hi}&deg;</strong> / {d.lo}&deg;</span>
+                    <span class="jm-wx__pop">{d.pop}%</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+        <p class="jm-wx__note">High / low in &deg;C, and chance of rain. Forecast via Open-Meteo, updated {wxUpdated} &mdash; it firms up as the dates get closer.</p>
+      </section>
+    )}
 
     <section class="jm-stops">
       <h2 class="jm-stops__h">Stops <small>— tap one to fly there</small></h2>
@@ -198,5 +275,22 @@ const stopsByCity = cityOrder
     .jm-city-en { color:#fff; font-weight:800; font-size:.95rem; text-shadow:0 0 3px #000,0 0 3px #000,0 1px 2px #000; }
     .jm-city-ja { color:#ffd9a3; font-weight:700; font-size:.82rem; text-shadow:0 0 3px #000,0 0 3px #000; margin-left:1px; }
     @media (max-width:560px){ .jm-legend { font-size:.7rem; left:8px; bottom:8px; } }
-  </style>
+  
+  .jm-wx { margin: 1.25rem 0 0; }
+  .jm-wx__h { font-size: 1.15rem; margin: 0 0 0.75rem; }
+  .jm-wx__h small { color: #8a8279; font-weight: 400; font-size: 0.8rem; }
+  .jm-wx__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.75rem; }
+  .jm-wx__city { background: #141414; border: 1px solid #262626; border-radius: 12px; padding: 0.85rem 1rem; }
+  .jm-wx__cityh { margin: 0 0 0.5rem; font-size: 1rem; }
+  .jm-wx__ja { color: #8a8279; font-size: 0.8rem; font-weight: 400; }
+  .jm-wx__days { display: flex; flex-direction: column; gap: 0.15rem; }
+  .jm-wx__day { display: grid; grid-template-columns: 4.2rem 1.6rem 1fr auto; align-items: center; gap: 0.4rem; padding: 0.22rem 0; border-top: 1px solid #1e1e1e; font-size: 0.9rem; }
+  .jm-wx__day:first-child { border-top: 0; }
+  .jm-wx__dow { color: #b7b2a9; }
+  .jm-wx__ico { font-size: 1.05rem; text-align: center; }
+  .jm-wx__temp { color: #e6e2da; }
+  .jm-wx__temp strong { color: #fff; }
+  .jm-wx__pop { color: #5aa9e6; font-size: 0.82rem; }
+  .jm-wx__note { color: #6f6a62; font-size: 0.78rem; margin: 0.7rem 0 0; }
+</style>
 </BaseLayout>
