@@ -1,13 +1,91 @@
 {
-  "fetchedAt": "2026-11-01T07:01:18.321Z",
+  "fetchedAt": "2026-11-02T07:01:08.087Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 153000,
-      "videoCount": 316,
+      "videoCount": 318,
       "recentLongform": [
+        {
+          "id": "zsYeZEV__uo",
+          "title": "The Most Metal Artist in Japan Has Never Recorded a Metal Song",
+          "publishedAt": "2026-11-02T03:47:07Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/zsYeZEV__uo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/zsYeZEV__uo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/zsYeZEV__uo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/zsYeZEV__uo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/zsYeZEV__uo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/zsYeZEV__uo/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          "duration": "PT12M36S",
+          "durationSeconds": 756
+        },
+        {
+          "id": "b5rPFjp9dSM",
+          "title": "Arch Enemy Live: Three Rooms in Ten Weeks",
+          "publishedAt": "2026-11-01T17:39:41Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          "duration": "PT23M51S",
+          "durationSeconds": 1431
+        },
         {
           "id": "6mHrPFEXY2M",
           "title": "Nini | Live in Tampa | Into the Fire",
@@ -440,40 +518,6 @@
           },
           "duration": "PT16M1S",
           "durationSeconds": 961
-        },
-        {
-          "id": "NnxQkX0UyoU",
-          "title": "Spiders | New Release | Crystal Eyes",
-          "publishedAt": "2026-09-25T03:10:56Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/NnxQkX0UyoU/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/NnxQkX0UyoU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/NnxQkX0UyoU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/NnxQkX0UyoU/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/NnxQkX0UyoU/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M21S",
-          "durationSeconds": 81
         }
       ],
       "recentShorts": [
@@ -816,40 +860,6 @@
           },
           "duration": "PT30S",
           "durationSeconds": 30
-        },
-        {
-          "id": "BDEPvvgPlc8",
-          "title": "Spiders | New Album Today | Crystal Eyes",
-          "publishedAt": "2026-09-25T14:00:10Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/BDEPvvgPlc8/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/BDEPvvgPlc8/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/BDEPvvgPlc8/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/BDEPvvgPlc8/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/BDEPvvgPlc8/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT57S",
-          "durationSeconds": 57
         }
       ]
     },
