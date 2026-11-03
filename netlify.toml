@@ -12,6 +12,9 @@ node_bundler = "esbuild"
 [functions."nightly-rebuild"]
 schedule = "0 7 * * *"
 
+[functions."japan-map-sync"]
+schedule = "0 */3 * * *"
+
 [[headers]]
 for = "/*"
 [headers.values]
