@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T07:01:13.643Z",
+  "generatedAt": "2026-11-03T07:00:52.966Z",
   "entries": [
     {
       "id": "86bbzrk3a",
@@ -360,6 +360,42 @@
       "clickupUrl": "https://app.clickup.com/t/86barcvpd",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcwhd28",
+      "name": "MELT4, ADAM at, MUJINA @ Shimokitazawa Flowers Loft, Tokyo",
+      "date": "2026-11-06",
+      "city": "Shimokitazawa Flowers Loft",
+      "country": "Tokyo",
+      "bands": [
+        "MELT4, ADAM at, MUJINA"
+      ],
+      "description": "Tickets: https://livepocket.jp/e/meltpolispt2",
+      "ticketUrl": "https://livepocket.jp/e/meltpolispt2",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcwhd28",
+      "buckets": []
+    },
+    {
+      "id": "86bcwhd0z",
+      "name": "Broken By The Scream, Mana Diagram, Love eyeshadow @ Shinjuku ANTIKNOCK, Tokyo",
+      "date": "2026-11-06",
+      "city": "Shinjuku ANTIKNOCK",
+      "country": "Tokyo",
+      "bands": [
+        "Broken By The Scream, Mana Diagram, Love eyeshadow"
+      ],
+      "description": "Tickets: https://livepocket.jp/e/aethercross",
+      "ticketUrl": "https://livepocket.jp/e/aethercross",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcwhd0z",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -928,6 +964,23 @@
       ]
     },
     {
+      "id": "86bcwhd3g",
+      "name": "Risky Melody @ Shinjuku ANTIKNOCK, Tokyo",
+      "date": "2026-11-12",
+      "city": "Shinjuku ANTIKNOCK",
+      "country": "Tokyo",
+      "bands": [
+        "Risky Melody"
+      ],
+      "description": "Tickets: https://livepocket.jp/e/love_d17",
+      "ticketUrl": "https://livepocket.jp/e/love_d17",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcwhd3g",
+      "buckets": []
+    },
+    {
       "id": "86bc474dh",
       "name": "Hawthorne Heights + letlive. + Creeper @ Jannus Live — St. Petersburg, FL — Nov 12 2026",
       "date": "2026-11-12",
@@ -1252,7 +1305,8 @@
       "bands": [
         "Broken By The Scream, HOLIDAY NEXT"
       ],
-      "description": "Japan trip, Nov 2026. Nagoya. Door/show time TBC. Outreach to Broken By The Scream pending.",
+      "description": "Tickets: https://livepocket.jp/e/07ukk",
+      "ticketUrl": "https://livepocket.jp/e/07ukk",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
@@ -1456,7 +1510,8 @@
       "bands": [
         "HAGANE"
       ],
-      "description": "Japan trip, Nov 2026. Doors 1:00 PM, show 2:00 PM. Tickets on e+ (eplus) — buy by Nov 14, 6:00 PM.",
+      "description": "Tickets: https://livepocket.jp/e/strikeback\nMy Livepocket account (tickets live here): https://livepocket.jp/mytop",
+      "ticketUrl": "https://livepocket.jp/e/strikeback",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
@@ -5975,6 +6030,24 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu798w",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bcweemf",
+      "name": "Welcome to Rockville 2027 @ Daytona International Speedway — Daytona Beach, FL — May 6-9 2027",
+      "date": "2027-05-06",
+      "venue": "Daytona International Speedway",
+      "city": "Daytona Beach",
+      "country": "FL — May 6-9 2027",
+      "bands": [],
+      "description": "Four-day Danny Wimmer Presents festival at Daytona International Speedway, May 6-9, 2027. Full lineup announced Oct 29, 2026. Headliners: Korn, Blink-182, Pierce the Veil, Bad Omens. Metal/hard-adjacent acts on the bill include Judas Priest, Danzig, Knocked Loose, Ice Nine…",
+      "ticketUrl": "https://loudwire.com/new-rock-metal-tours-announced-oct-23-29-2026/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcweemf",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
