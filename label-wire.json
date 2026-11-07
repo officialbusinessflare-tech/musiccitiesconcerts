@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T13:14:55.910Z",
+  "generatedAt": "2026-11-07T13:10:45.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -44,9 +44,35 @@
       "id": "cursedblessings",
       "name": "Cursed Blessings Records",
       "url": "https://cursedblessingsrecords.com"
+    },
+    {
+      "id": "carbonized",
+      "name": "Carbonized Records"
+    },
+    {
+      "id": "lasersedge",
+      "name": "The Laser's Edge"
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-11-06",
+      "label": "carbonized",
+      "artist": "ASCENDED DEAD",
+      "headline": "West Coast death metal cult releases the live album Live Apocalypse, recorded from the soundboard on the May 2024 American Apocalypse Tour. Out now on CD, LP, cassette and digital.",
+      "type": "Album",
+      "releaseDate": "2026-11-06"
+    },
+    {
+      "kind": "send",
+      "date": "2026-11-06",
+      "label": "lasersedge",
+      "artist": "GATES OF KIEV",
+      "headline": "Dutch psychedelic progressive rock trio releases its self-titled debut album, out now and streaming everywhere.",
+      "type": "Album",
+      "releaseDate": "2026-11-06"
+    },
     {
       "kind": "send",
       "date": "2026-11-03",
