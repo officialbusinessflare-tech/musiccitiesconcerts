@@ -1,141 +1,6 @@
 {
-  "generatedAt": "2026-11-06T07:01:26.562Z",
+  "generatedAt": "2026-11-07T07:00:56.230Z",
   "entries": [
-    {
-      "id": "86bcwhd28",
-      "name": "MELT4, ADAM at, MUJINA @ Shimokitazawa Flowers Loft, Tokyo",
-      "date": "2026-11-06",
-      "city": "Shimokitazawa Flowers Loft",
-      "country": "Tokyo",
-      "bands": [
-        "MELT4, ADAM at, MUJINA"
-      ],
-      "description": "Tickets: https://livepocket.jp/e/meltpolispt2",
-      "ticketUrl": "https://livepocket.jp/e/meltpolispt2",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcwhd28",
-      "buckets": []
-    },
-    {
-      "id": "86bcwhd0z",
-      "name": "Broken By The Scream, Mana Diagram, Love eyeshadow @ Shinjuku ANTIKNOCK, Tokyo",
-      "date": "2026-11-06",
-      "city": "Shinjuku ANTIKNOCK",
-      "country": "Tokyo",
-      "bands": [
-        "Broken By The Scream, Mana Diagram, Love eyeshadow"
-      ],
-      "description": "Tickets: https://livepocket.jp/e/aethercross",
-      "ticketUrl": "https://livepocket.jp/e/aethercross",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcwhd0z",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bc4746d",
-      "name": "A Flock of Seagulls @ Culture Room — Fort Lauderdale, FL — Nov 6 2026",
-      "date": "2026-11-06",
-      "venue": "Culture Room",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "A Flock of Seagulls"
-      ],
-      "description": "New wave legends A Flock of Seagulls land at Culture Room — the band that gave the 80s its most famous haircut and \"I Ran (So Far Away).\" Doors 6:30 PM, show 7:30 PM. Tickets: https://www.ticketmaster.com/a-flock-of-seagulls-ft-lauderdale-florida-11-06-2026/event/0D0064AE9AAE8679",
-      "ticketUrl": "https://www.ticketmaster.com/a-flock-of-seagulls-ft-lauderdale-florida-11-06-2026/event/0D0064AE9AAE8679",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc4746d",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bc05gz4",
-      "name": "DONEFOR + We're Wolves + Twin Rova @ Magnanimous Brewing — Tampa, FL — Nov 6 2026",
-      "date": "2026-11-06",
-      "venue": "Magnanimous Brewing",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "DONEFOR",
-        "We're Wolves",
-        "Twin Rova"
-      ],
-      "description": "The Southern Survival Tour — \"Can You Survive the Florida Man\" — Florida-only run with DONEFOR, We're Wolves, and Twin Rova. Tampa stop at Magnanimous Brewing. Tickets and VIP at doneforband.com.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc05gz4",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbu78mw",
-      "name": "Movements + Balance and Composure @ Hard Rock Live — Orlando, FL — Nov 6 2026",
-      "date": "2026-11-06",
-      "venue": "Hard Rock Live",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Movements",
-        "Balance and Composure"
-      ],
-      "description": "Orlando leg of the run; St. Pete plays the 4th.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78mw",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbeb7be",
-      "name": "SiM @ The Fillmore — Silver Spring, MD — Nov 6 2026",
-      "date": "2026-11-06",
-      "venue": "The Fillmore",
-      "city": "Silver Spring",
-      "state": "MD",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL world tour, North American leg. Tickets: https://tix.soundrink.com/tours/sim",
-      "ticketUrl": "https://tix.soundrink.com/tours/sim",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7be",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bavn8wy",
-      "name": "Trapt — 25th Anniversary Tour @ Guadalajara Night Club — Fort Pierce, FL — Nov 6 2026",
-      "date": "2026-11-06",
-      "venue": "25th Anniversary Tour @ Guadalajara Night Club — Fort Pierce",
-      "state": "FL",
-      "bands": [
-        "Trapt"
-      ],
-      "description": "Trapt — 25th Anniversary Tour at Guadalajara Night Club, Fort Pierce FL.\nDate: November 6, 2026. Presented by Dead Dreams Booking FL.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bavn8wy",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86bc3kyrk",
       "name": "Leæther Strip + Retractor + CORPSE DUST @ Churchill's Pub — Miami, FL — Nov 7 2026",
@@ -5262,6 +5127,29 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbu78jr",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bczf8hh",
+      "name": "Currents + Vana + Stick To Your Guns + Dreamwake @ Jannus Live — St. Petersburg, FL — Mar 16 2027",
+      "date": "2027-03-16",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Currents",
+        "Vana",
+        "Stick To Your Guns",
+        "Dreamwake"
+      ],
+      "description": "Currents \"Our Fates Lie In Tandem\" North American Tour (album out Feb 12, 2027), with Vana, Stick To Your Guns and Dreamwake. Jannus Live, St. Petersburg, FL. Favorite Venue; metalcore. Added by daily Bandsintown scan 2026-11-06.",
+      "ticketUrl": "https://jannuslive.com/events/currents-our-fates-lie-in-tandem/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bczf8hh",
       "buckets": [
         "florida-metal-scene"
       ]
