@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-11-06T07:01:26.562Z",
+  "generatedAt": "2026-11-07T07:00:56.230Z",
   "entries": [
-    {
-      "id": "86baazewx",
-      "name": "Paul Gilbert Birthday Mr. Big / Racer X",
-      "person": "Paul Gilbert",
-      "affiliation": "Mr. Big / Racer X",
-      "rawDate": "2026-11-06",
-      "month": 11,
-      "day": 6,
-      "description": "RECURRING ANNUAL — November 6\n\nFull name: Paul Brandon Gilbert\nStage name: —\nBand & role: Mr. Big, Racer X — guitar; solo artist\nCountry of origin: USA\nGreeting language: English\nLast known interaction with Kevin/TMC: None recorded (direct-relationship solo artist tracked by Kevin)\nSource: Wikipedia (Paul Gilbert) — DOB Nov 6, 1966",
-      "clickupUrl": "https://app.clickup.com/t/86baazewx"
-    },
     {
       "id": "86bard4tn",
       "name": "Mayu Birthday NEMOPHILA",
@@ -572,6 +561,17 @@
       "day": 21,
       "description": "RECURRING ANNUAL — October 21\n\nFull name: Kobato Miku\nBand & role: BAND-MAID — vocals, rhythm guitar\nCountry of origin: Japan\nBorn: October 21, 1991\nSource: Kpop Profiles, Famous Birthdays, Wikipedia",
       "clickupUrl": "https://app.clickup.com/t/86bard4w7"
+    },
+    {
+      "id": "86baazewx",
+      "name": "Paul Gilbert Birthday Mr. Big / Racer X",
+      "person": "Paul Gilbert",
+      "affiliation": "Mr. Big / Racer X",
+      "rawDate": "2026-11-06",
+      "month": 11,
+      "day": 6,
+      "description": "RECURRING ANNUAL — November 6\n\nFull name: Paul Brandon Gilbert\nStage name: —\nBand & role: Mr. Big, Racer X — guitar; solo artist\nCountry of origin: USA\nGreeting language: English\nLast known interaction with Kevin/TMC: None recorded (direct-relationship solo artist tracked by Kevin)\nSource: Wikipedia (Paul Gilbert) — DOB Nov 6, 1966",
+      "clickupUrl": "https://app.clickup.com/t/86baazewx"
     },
     {
       "id": "86bba6j59",
