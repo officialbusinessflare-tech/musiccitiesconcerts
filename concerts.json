@@ -1,223 +1,6 @@
 {
-  "generatedAt": "2026-11-07T07:01:13.922Z",
+  "generatedAt": "2026-11-08T07:00:57.134Z",
   "entries": [
-    {
-      "id": "86bc3kyrk",
-      "name": "Leæther Strip + Retractor + CORPSE DUST @ Churchill's Pub — Miami, FL — Nov 7 2026",
-      "date": "2026-11-07",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Leæther Strip",
-        "Retractor",
-        "CORPSE DUST"
-      ],
-      "description": "Danish industrial/EBM pioneer Claus Larsen brings Leæther Strip back to Florida — one of only two dates on this side of the Atlantic — with Retractor and CORPSE DUST opening in Little Haiti. Listing: https://www.bandsintown.com/e/1040258675-leaether-strip-at-churchill's-pub",
-      "ticketUrl": "https://www.bandsintown.com/e/1040258675-leaether-strip-at-churchill",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc3kyrk",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bc05h1h",
-      "name": "DONEFOR + We're Wolves + Twin Rova @ The Bank — Daytona Beach, FL — Nov 7 2026",
-      "date": "2026-11-07",
-      "venue": "The Bank",
-      "city": "Daytona Beach",
-      "state": "FL",
-      "bands": [
-        "DONEFOR",
-        "We're Wolves",
-        "Twin Rova"
-      ],
-      "description": "The Southern Survival Tour — \"Can You Survive the Florida Man\" — Florida-only run with DONEFOR, We're Wolves, and Twin Rova. Daytona Beach stop at The Bank. Tickets and VIP at doneforband.com.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc05h1h",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbwe8k0",
-      "name": "Rush @ Hard Rock Live — Hollywood, FL — Nov 7 2026",
-      "date": "2026-11-07",
-      "venue": "Hard Rock Live",
-      "city": "Hollywood",
-      "state": "FL",
-      "bands": [
-        "Rush"
-      ],
-      "description": "Second Hollywood night, added by popular demand after Nov 5 sold through. Rush's Fifty Something tour — two sets, a different setlist from night one, pulled from a 35-song pool. Show 7:30 PM.",
-      "ticketUrl": "https://www.axs.com/events/1192406/rush-tickets",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbwe8k0",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbuyjpz",
-      "name": "Crucified Barbara @ Downstairs at The Dome — London, UK — Nov 7 2026",
-      "date": "2026-11-07",
-      "venue": "Downstairs at The Dome",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "Crucified Barbara"
-      ],
-      "description": "Crucified Barbara — the all-female Swedish hard rock/heavy metal quartet (Mia Coldheart, Klara Force, Ida Evileye, Nicki Wicked), reunited in the original lineup after disbanding in 2016. Four albums between 2005 and 2014; comeback launched at Sweden Rock 2025. Plus support.",
-      "ticketUrl": "https://domelondon.seetickets.com/event/crucified-barbara/downstairs-at-the-dome/3612716",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbuyjpz",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbu78dg",
-      "name": "Mannequin Pussy + Wednesday @ Jannus Live — St. Petersburg, FL — Nov 7 2026",
-      "date": "2026-11-07",
-      "venue": "Jannus Live",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Mannequin Pussy",
-        "Wednesday"
-      ],
-      "description": "Full bill: Mannequin Pussy, Wednesday, Snõõper.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78dg",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbth67v",
-      "name": "Christone \"Kingfish\" Ingram @ Culture Room — Fort Lauderdale, FL — Nov 7 2026",
-      "date": "2026-11-07",
-      "venue": "Culture Room",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "Christone \"Kingfish\" Ingram"
-      ],
-      "description": "Christone \"Kingfish\" Ingram brings The Hard Road Tour to Culture Room — the modern blues guitarist most worth a night in a 600-cap room.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbth67v",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbeb7c8",
-      "name": "SiM @ The Underground — Charlotte, NC — Nov 7 2026",
-      "date": "2026-11-07",
-      "venue": "The Underground",
-      "city": "Charlotte",
-      "state": "NC",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL world tour, North American leg. Tickets: https://tix.soundrink.com/tours/sim",
-      "ticketUrl": "https://tix.soundrink.com/tours/sim",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7c8",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbeb6db",
-      "name": "Trapt @ Brass Mug — Tampa, FL — Nov 7 2026",
-      "date": "2026-11-07",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Trapt"
-      ],
-      "description": "Trapt's 25th anniversary run adds a Tampa club date, one night after the Fort Pierce show. Source: Brass Mug / JamBase calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb6db",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bavn8zj",
-      "name": "Mosh For Tots 2026 — Evergreen Terrace + Tony Danza Tap Dance Extravaganza + Filth @ District Live — Savannah, GA — Nov 7 2026",
-      "date": "2026-11-07",
-      "venue": "Evergreen Terrace + Tony Danza Tap Dance Extravaganza + Filth @ District Live — Savannah",
-      "state": "GA",
-      "bands": [
-        "Mosh For Tots 2026"
-      ],
-      "description": "Mosh For Tots 2026 — hardcore/metal benefit at District Live (Plant Riverside District), Savannah GA.\nLineup: Evergreen Terrace, The Tony Danza Tap Dance Extravaganza, Filth, Heavy Hitter (FL), Endera. Date: November 7, 2026. All ages, doors at 2. Presented by AURA Fest…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bavn8zj",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bcm37p9",
-      "name": "Maximum the Hormone @ AIR JAM 2026, ZOZOMARINE Stadium — Chiba, Japan — Nov 7 2026",
-      "date": "2026-11-07",
-      "venue": "AIR JAM 2026, ZOZOMARINE Stadium",
-      "city": "Chiba",
-      "country": "Japan",
-      "bands": [
-        "Maximum the Hormone"
-      ],
-      "description": "The revived Hi-STANDARD festival AIR JAM 2026 at ZOZOMARINE Stadium, Chiba (~40 min from central Tokyo). We go for Maximum the Hormone — foundational to what we cover, same tier as SHOW-YA or Loudness. Wall-to-wall punk/hardcore bill: Hi-STANDARD, MAN WITH A MISSION, 10-FEET,…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcm37p9",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w53a",
-      "name": "HANABIE. @ BESSIE HALL — Sapporo, Japan — Nov 7 2026",
-      "date": "2026-11-07",
-      "venue": "BESSIE HALL",
-      "city": "Sapporo",
-      "country": "Japan",
-      "bands": [
-        "HANABIE."
-      ],
-      "description": "HANABIE. — Japan 2MAN Tour 2026. BESSIE HALL in Sapporo, Japan. Show date: Nov 7 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w53a",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bcw9eba",
       "name": "ASTERISM vs BRIDEAR @ Shinjuku ANTIKNOCK, Tokyo",
@@ -374,6 +157,25 @@
       ]
     },
     {
+      "id": "86bcbtf86",
+      "name": "Rush @ Benchmark International Arena — Tampa, FL — Nov 9 2026",
+      "date": "2026-11-10",
+      "venue": "Benchmark International Arena",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Rush"
+      ],
+      "description": "Rush — Fifty Something Tour, with Anika Nilles on drums alongside Geddy Lee and Alex Lifeson. Tampa stop at Benchmark International Arena, doors/show 7:30 PM. Tickets via Ticketmaster. A second Tampa night on Nov 11 is listed by ticket aggregators but not yet confirmed against…",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcbtf86",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbmte7n",
       "name": "Gunshine @ The Banyan Live — West Palm Beach, FL — Nov 10 2026",
       "date": "2026-11-10",
@@ -429,25 +231,6 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5vdy",
       "buckets": []
-    },
-    {
-      "id": "86bcbtf86",
-      "name": "Rush @ Benchmark International Arena — Tampa, FL — Nov 9 2026",
-      "date": "2026-11-10",
-      "venue": "Benchmark International Arena",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Rush"
-      ],
-      "description": "Rush — Fifty Something Tour, with Anika Nilles on drums alongside Geddy Lee and Alex Lifeson. Tampa stop at Benchmark International Arena, doors/show 7:30 PM. Tickets via Ticketmaster. A second Tampa night on Nov 11 is listed by ticket aggregators but not yet confirmed against…",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcbtf86",
-      "buckets": [
-        "florida-metal-scene"
-      ]
     },
     {
       "id": "86bbqec63",
@@ -2949,6 +2732,25 @@
       ]
     },
     {
+      "id": "86bcbtf94",
+      "name": "Twisted Sister @ Ferg's Pavilion — St. Petersburg, FL — Dec 11 2026",
+      "date": "2026-12-12",
+      "venue": "Ferg's Pavilion",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Twisted Sister"
+      ],
+      "description": "Twisted Sister with Sebastian Bach (ex-Skid Row) fronting the band, Fall 2026 run. The only Florida date on the announced routing, at Ferg's Concert Pavilion in St. Petersburg.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcbtf94",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bcj3bt8",
       "name": "Nicko McBrain's Titanium Tart @ Rock N Roll Ribs — Coral Springs, FL — Dec 12 2026",
       "date": "2026-12-12",
@@ -3046,25 +2848,6 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86b7xw9xz",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bcbtf94",
-      "name": "Twisted Sister @ Ferg's Pavilion — St. Petersburg, FL — Dec 11 2026",
-      "date": "2026-12-12",
-      "venue": "Ferg's Pavilion",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Twisted Sister"
-      ],
-      "description": "Twisted Sister with Sebastian Bach (ex-Skid Row) fronting the band, Fall 2026 run. The only Florida date on the announced routing, at Ferg's Concert Pavilion in St. Petersburg.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcbtf94",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -4206,6 +3989,27 @@
       ]
     },
     {
+      "id": "86bcbtfa0",
+      "name": "Gene Simmons Band + Lita Ford @ Ferg's Pavilion — St. Petersburg, FL — Jan 30 2027",
+      "date": "2027-01-31",
+      "venue": "Ferg's Pavilion",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Gene Simmons Band",
+        "Lita Ford"
+      ],
+      "description": "Gene Simmons (KISS co-founder) brings his band to Ferg's Pavilion in St. Petersburg, with Lita Ford as special guest. An intimate outdoor show — a rare small-room look at Simmons now that KISS has ended touring.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcbtfa0",
+      "buckets": [
+        "florida-metal-scene",
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbz59yb",
       "name": "HAGANE @ Hiroshima LIVE VANQUISH — Hiroshima, Japan — Jan 31 2027",
       "date": "2027-01-31",
@@ -4262,27 +4066,6 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu78hx",
       "buckets": [
         "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bcbtfa0",
-      "name": "Gene Simmons Band + Lita Ford @ Ferg's Pavilion — St. Petersburg, FL — Jan 30 2027",
-      "date": "2027-01-31",
-      "venue": "Ferg's Pavilion",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Gene Simmons Band",
-        "Lita Ford"
-      ],
-      "description": "Gene Simmons (KISS co-founder) brings his band to Ferg's Pavilion in St. Petersburg, with Lita Ford as special guest. An intimate outdoor show — a rare small-room look at Simmons now that KISS has ended touring.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcbtfa0",
-      "buckets": [
-        "florida-metal-scene",
-        "japanese-metal"
       ]
     },
     {
