@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T13:10:45.000Z",
+  "generatedAt": "2026-11-09T18:40:00.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -55,6 +55,23 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-11-09",
+      "label": "napalm",
+      "artist": "POWERWOLF",
+      "headline": "German heavy metal giants announce the Moral & Madness World Tour for autumn 2027 with Apocalyptica and Majestica, plus a new studio album ahead of the run. General onsale November 13.",
+      "type": "Tour"
+    },
+    {
+      "kind": "send",
+      "date": "2026-11-09",
+      "label": "independent",
+      "artist": "MARK SOLOTROFF",
+      "headline": "Chicago electronic veteran premieres \"The Geometry Of Separation\" featuring JR Robinson of Wrekmeister Harmonies. Full length A Diagnosis Of Distance out November 20, 2026.",
+      "type": "Single",
+      "releaseDate": "2026-11-20"
+    },
     {
       "kind": "send",
       "date": "2026-11-06",
