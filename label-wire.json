@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T18:40:00.000Z",
+  "generatedAt": "2026-11-10T20:48:45.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -55,6 +55,24 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-11-10",
+      "label": "napalm",
+      "artist": "DRAGONFORCE",
+      "headline": "Power metal pioneers release the official video for new single \"Neverending Nightmare,\" streaming worldwide November 12 and the first song featuring new vocalist Alissa White-Gluz. Self-titled tenth album out March 19, 2027.",
+      "type": "Single",
+      "releaseDate": "2027-03-19"
+    },
+    {
+      "kind": "send",
+      "date": "2026-11-10",
+      "label": "napalm",
+      "artist": "WALLS OF JERICHO",
+      "headline": "Detroit hardcore legends release the official video for explosive fourth single \"The Flame,\" the final spark before comeback album System Error: Humanity drops November 13, 2026.",
+      "type": "Single",
+      "releaseDate": "2026-11-13"
+    },
     {
       "kind": "send",
       "date": "2026-11-09",
