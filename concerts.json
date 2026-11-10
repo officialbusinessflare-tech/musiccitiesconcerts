@@ -1,26 +1,6 @@
 {
-  "generatedAt": "2026-11-09T07:01:28.473Z",
+  "generatedAt": "2026-11-10T07:00:58.041Z",
   "entries": [
-    {
-      "id": "86bbeb7d3",
-      "name": "SiM @ Lincoln Theatre — Raleigh, NC — Nov 9 2026",
-      "date": "2026-11-09",
-      "venue": "Lincoln Theatre",
-      "city": "Raleigh",
-      "state": "NC",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL world tour, North American leg. Tickets: https://tix.soundrink.com/tours/sim",
-      "ticketUrl": "https://tix.soundrink.com/tours/sim",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7d3",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bcmjtrc",
       "name": "The Brook & The Bluff + Ryman @ Culture Room — Fort Lauderdale, FL — Nov 10 2026",
