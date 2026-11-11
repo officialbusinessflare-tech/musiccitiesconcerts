@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T20:48:45.000Z",
+  "generatedAt": "2026-11-11T13:15:01.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -55,6 +55,15 @@
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-11-11",
+      "label": "napalm",
+      "artist": "GRIMMING",
+      "headline": "Austrian death metal newcomers announce debut album Jagatod, out March 26, 2027, with first single \"Pankh\" out now.",
+      "type": "Album",
+      "releaseDate": "2027-03-26"
+    },
     {
       "kind": "send",
       "date": "2026-11-10",
