@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-11-10T07:01:28.679Z",
+  "generatedAt": "2026-11-11T07:00:59.613Z",
   "entries": [
-    {
-      "id": "86bard4tn",
-      "name": "Mayu Birthday NEMOPHILA",
-      "person": "Mayu",
-      "affiliation": "NEMOPHILA",
-      "rawDate": "2026-11-10",
-      "month": 11,
-      "day": 10,
-      "description": "RECURRING ANNUAL — November 10\n\nBand & role: NEMOPHILA — lead vocals\nCountry of origin: Japan\nSource: Kpop Profiles, Jpop Wiki, NEMOPHILA official",
-      "clickupUrl": "https://app.clickup.com/t/86bard4tn"
-    },
     {
       "id": "86baazexb",
       "name": "Ozzy Osbourne Birthday Black Sabbath (DECEASED)",
@@ -572,6 +561,17 @@
       "day": 6,
       "description": "RECURRING ANNUAL — November 6\n\nFull name: Paul Brandon Gilbert\nStage name: —\nBand & role: Mr. Big, Racer X — guitar; solo artist\nCountry of origin: USA\nGreeting language: English\nLast known interaction with Kevin/TMC: None recorded (direct-relationship solo artist tracked by Kevin)\nSource: Wikipedia (Paul Gilbert) — DOB Nov 6, 1966",
       "clickupUrl": "https://app.clickup.com/t/86baazewx"
+    },
+    {
+      "id": "86bard4tn",
+      "name": "Mayu Birthday NEMOPHILA",
+      "person": "Mayu",
+      "affiliation": "NEMOPHILA",
+      "rawDate": "2026-11-10",
+      "month": 11,
+      "day": 10,
+      "description": "RECURRING ANNUAL — November 10\n\nBand & role: NEMOPHILA — lead vocals\nCountry of origin: Japan\nSource: Kpop Profiles, Jpop Wiki, NEMOPHILA official",
+      "clickupUrl": "https://app.clickup.com/t/86bard4tn"
     },
     {
       "id": "86bba6j59",
