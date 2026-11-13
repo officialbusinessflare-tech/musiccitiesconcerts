@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T13:15:01.000Z",
+  "generatedAt": "2026-11-13T13:55:00.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -450,6 +450,15 @@
       "headline": "Third full-length Through the Night, followed by a nationwide album tour into February 2027.",
       "type": "Album",
       "releaseDate": "2026-12-02"
+    },
+    {
+      "kind": "pick",
+      "date": "2027-03-19",
+      "label": "napalm",
+      "artist": "DRAGONFORCE",
+      "headline": "Self-titled tenth studio album, led by the single \"Neverending Nightmare\" and the first with new vocalist Alissa White-Gluz.",
+      "type": "Album",
+      "releaseDate": "2027-03-19"
     }
   ]
 }
