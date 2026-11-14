@@ -1,221 +1,6 @@
 {
-  "generatedAt": "2026-11-13T07:01:11.934Z",
+  "generatedAt": "2026-11-14T07:00:56.149Z",
   "entries": [
-    {
-      "id": "86bcw9ec0",
-      "name": "BAND-MAID @ Nippon Budokan, Tokyo",
-      "date": "2026-11-13",
-      "city": "Nippon Budokan",
-      "country": "Tokyo",
-      "bands": [
-        "BAND-MAID"
-      ],
-      "description": "Japan trip, Nov 2026. World Tour 2026 Final. Doors 4:30 PM, show 6:00 PM. Tickets from Marco. Marco interview in line (be early), with guitarists. Uncle Yoshi there.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcw9ec0",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bcfznd7",
-      "name": "BAND-MAID @ Nippon Budokan — Tokyo, Japan — Nov 13 2026",
-      "date": "2026-11-13",
-      "venue": "Nippon Budokan",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "BAND-MAID"
-      ],
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcfznd7",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbzt9yp",
-      "name": "RE:O @ The Arundel Emporium — Sheffield, UK — Nov 13 2026",
-      "date": "2026-11-13",
-      "venue": "The Arundel Emporium",
-      "city": "Sheffield",
-      "state": "UK",
-      "bands": [
-        "RE:O"
-      ],
-      "description": "RE:O (UK \"Japancore,\" Rio Suyama) at The Arundel Emporium, Sheffield. Bands We're Watching (Global Metal). Source: Bandsintown.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzt9yp",
-      "buckets": []
-    },
-    {
-      "id": "86bbzrk3q",
-      "name": "EMNW @ DIME — Takamatsu, Japan — Nov 13 2026",
-      "date": "2026-11-13",
-      "venue": "DIME",
-      "city": "Takamatsu",
-      "country": "Japan",
-      "bands": [
-        "EMNW"
-      ],
-      "description": "EMNW album tour — DIME, Takamatsu. Friday, November 13, 2026. Listing: https://www.bandsintown.com/EMNW",
-      "ticketUrl": "https://www.bandsintown.com/EMNW",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzrk3q",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbwe8q2",
-      "name": "Hawthorne Heights + Creeper @ Revolution Live — Fort Lauderdale, FL — Nov 13 2026",
-      "date": "2026-11-13",
-      "venue": "Revolution Live",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "Hawthorne Heights",
-        "Creeper"
-      ],
-      "description": "Hawthorne Heights play If Only You Were Lonely front to back for its 20th anniversary. Venue lists Creeper, I Set My Friends On Fire and Scary Kids Scaring Kids in support; the tour's original announcement had letlive. on the leg, so support may shift. All ages. Doors 6 PM, show…",
-      "ticketUrl": "https://www.jointherevolution.net/concerts/hawthorne-heights-20th-anniversary-of-if-only-you-were-lonely/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbwe8q2",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbw0ez7",
-      "name": "Tiffadelic (Nights In Necropolis) @ Churchill's Pub — Miami, FL — Nov 13 2026",
-      "date": "2026-11-13",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Tiffadelic (Nights In Necropolis)"
-      ],
-      "description": "Nights In Necropolis presents Tiffadelic (Detroit black goth) — EBM, post-punk and darkwave night at Churchill's Pub, Miami. Friday, November 13, 2026, 9 PM. Source: Churchill's Pub event calendar (https://churchillspub.com/events/).",
-      "ticketUrl": "https://churchillspub.com/events/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbw0ez7",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbu78t0",
-      "name": "The Faint @ Las Rosas — Miami, FL — Nov 13 2026",
-      "date": "2026-11-13",
-      "venue": "Las Rosas",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "The Faint"
-      ],
-      "description": "Dance-punk headliner in the Allapattah room.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78t0",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bae8x0j",
-      "name": "Whitechapel + Chelsea Grin + The Acacia Strain + Netherwalker — HOB, Lake Buena Vista (Orlando) FL",
-      "date": "2026-11-13",
-      "venue": "HOB",
-      "city": "Lake Buena Vista (Orlando)",
-      "state": "FL",
-      "bands": [
-        "Whitechapel",
-        "Chelsea Grin",
-        "The Acacia Strain",
-        "Netherwalker"
-      ],
-      "description": "Whitechapel — 20th Anniversary Tour",
-      "ticketUrl": "https://livemu.sc/4ec5inf",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bae8x0j",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86b93veqt",
-      "name": "Tampa Doom & Gloom Fest III — Deviant Libation, Tampa FL",
-      "date": "2026-11-13",
-      "venue": "Deviant Libation",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Tampa Doom",
-        "Gloom Fest III"
-      ],
-      "description": "Tampa Doom & Gloom Fest III — 3 days, 2 stages, 36 bands\\n\\nDates: November 13-15, 2026\\nVenue: Deviant Libation, 3800 N Nebraska Ave, Tampa FL\\nAll Ages\\nDoors: Fri 1PM, Sat/Sun 12PM\\n\\nBands include: November's Doom, Florist Heavy, Somnent, Hollow Leg, Palaces, Sandcrawler,…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86b93veqt",
-      "buckets": [
-        "florida-metal-scene",
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86bb9w555",
-      "name": "HANABIE. @ SR-HALL — Kagoshima, Japan — Nov 13 2026",
-      "date": "2026-11-13",
-      "venue": "SR-HALL",
-      "city": "Kagoshima",
-      "country": "Japan",
-      "bands": [
-        "HANABIE."
-      ],
-      "description": "HANABIE. — Japan 2MAN Tour 2026. SR-HALL in Kagoshima, Japan. Show date: Nov 13 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w555",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w4td",
-      "name": "BAND-MAID @ Nippon Budokan — Tokyo, Japan — Nov 13 2026",
-      "date": "2026-11-13",
-      "venue": "Nippon Budokan",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "BAND-MAID"
-      ],
-      "description": "BAND-MAID — World Tour 2026 FINAL night 1 (opener NEK!). Nippon Budokan in Tokyo, Japan. Show date: Nov 13 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w4td",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bd1pun7",
       "name": "Dimrays @ UNITY PARK 2026 (HIRAETH pre) — Shimokitazawa, Tokyo — Nov 15 2026",
@@ -2301,6 +2086,28 @@
       ]
     },
     {
+      "id": "86bd325gp",
+      "name": "SIDS + Inhumane Deception + Grievous @ Churchill's Pub — Miami, FL — Dec 11 2026",
+      "date": "2026-12-11",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "SIDS",
+        "Inhumane Deception",
+        "Grievous"
+      ],
+      "description": "Lineup: SIDS (Sudden Infant Death Syndrome, Louisville KY), Inhumane Deception, Grievous, Hudson Driveby, Cop Molester\nVenue: Churchill's Pub, 5501 NE 2nd Ave, Miami, FL\nDate: Friday, December 11, 2026 — doors 8 PM, show 9 PM, 18+\nTickets:…",
+      "ticketUrl": "https://shotgun.live/events/minotaur-booking-presents-sudden-infant-death-syndrome-ky",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd325gp",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc32415",
       "name": "Brotality @ The Den — Pensacola, FL — Dec 11 2026",
       "date": "2026-12-11",
@@ -2644,6 +2451,30 @@
       ]
     },
     {
+      "id": "86bd2zpuc",
+      "name": "Distant + Heavy//Hitter + Squelching @ The Albatross — Jacksonville, FL — Dec 16 2026",
+      "date": "2026-12-15",
+      "venue": "The Albatross",
+      "city": "Jacksonville",
+      "state": "FL",
+      "bands": [
+        "Distant",
+        "Heavy",
+        "Hitter",
+        "Squelching"
+      ],
+      "description": "Deathcore heavyweights Distant bring the \"Into Despair\" U.S. headliner to Jacksonville, touring the new album released Nov 6. Heavy//Hitter and Squelching on the bill (Katywentmissing and Torn Open are also on the run; confirm per-night support). First of two Florida headline…",
+      "ticketUrl": "https://lambgoat.com/news/54401/distant-announce-us-tour-with-heavyhitter-katywentmissing-torn-open-and-squelching/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpuc",
+      "buckets": [
+        "florida-metal-scene",
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc472be",
       "name": "Brotality @ The Albatross — Jacksonville, FL — Dec 15 2026",
       "date": "2026-12-15",
@@ -2684,6 +2515,30 @@
       ]
     },
     {
+      "id": "86bd2zpuf",
+      "name": "Distant + Heavy//Hitter + Squelching @ The Abbey — Orlando, FL — Dec 17 2026",
+      "date": "2026-12-16",
+      "venue": "The Abbey",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Distant",
+        "Heavy",
+        "Hitter",
+        "Squelching"
+      ],
+      "description": "Distant's \"Into Despair\" tour closes its headline routing at The Abbey in Orlando, the night after Jacksonville and the night before the band's support slot on Bodysnatcher's Christmas Vacation show in Tampa. Three Florida nights in a row for one of deathcore's heaviest.",
+      "ticketUrl": "https://lambgoat.com/news/54401/distant-announce-us-tour-with-heavyhitter-katywentmissing-torn-open-and-squelching/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpuf",
+      "buckets": [
+        "florida-metal-scene",
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bb9w5n1",
       "name": "ZILQY @ Zepp Shinjuku — Tokyo, Japan — Dec 16 2026",
       "date": "2026-12-16",
@@ -2720,6 +2575,28 @@
       "buckets": [
         "japanese-metal",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd325h6",
+      "name": "Trailer + AS-33 + SOL @ Churchill's Pub — Miami, FL — Dec 17 2026",
+      "date": "2026-12-17",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Trailer",
+        "AS-33",
+        "SOL"
+      ],
+      "description": "Lineup: Trailer, AS-33, SOL, Mother Rucker\nVenue: Churchill's Pub, 5501 NE 2nd Ave, Miami, FL\nDate: Thursday, December 17, 2026 — show 9 PM, 21+, $12 cover\nTickets: https://shotgun.live/events/trailer-as-33-tour\nPresented by: Lexington Rocks",
+      "ticketUrl": "https://shotgun.live/events/trailer-as-33-tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd325h6",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3313,6 +3190,28 @@
       ]
     },
     {
+      "id": "86bd2zpug",
+      "name": "TesseracT + Entheos + Sunborn @ The Beacham — Orlando, FL — Jan 16 2027",
+      "date": "2027-01-15",
+      "venue": "The Beacham",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "TesseracT",
+        "Entheos",
+        "Sunborn"
+      ],
+      "description": "British prog-metal outfit TesseracT bring their early-2027 North American headline tour to The Beacham, with Entheos and Sunborn in support. The only Florida date on the routing.",
+      "ticketUrl": "https://lambgoat.com/news/55233/tesseract-announce-2027-north-american-tour-featuring-entheos-sunborn-as-support/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpug",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc4yuh2",
       "name": "Sister Hazel @ Culture Room — Fort Lauderdale, FL — Jan 15 2027",
       "date": "2027-01-15",
@@ -3860,6 +3759,24 @@
       ]
     },
     {
+      "id": "86bd325jg",
+      "name": "📀 As I Lay Dying — As I Lay Dying — RELEASE — Feb 5 2027",
+      "date": "2027-02-05",
+      "venue": "As I Lay Dying — RELEASE",
+      "bands": [
+        "As I Lay Dying"
+      ],
+      "description": "Artist: As I Lay Dying\nRelease: As I Lay Dying (self-titled studio album)\nLabel: Napalm Records\nRelease date: February 5, 2027 — pre-order now",
+      "priority": "normal",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd325jg",
+      "buckets": [
+        "interesting-elsewhere",
+        "album-releases"
+      ]
+    },
+    {
       "id": "86bbwe8wz",
       "name": "The Warning @ Estadio GNP Seguros — Mexico City, Mexico — Feb 5 2027",
       "date": "2027-02-05",
@@ -4058,6 +3975,27 @@
       ]
     },
     {
+      "id": "86bd2zpu1",
+      "name": "Beast In Black + Gloryhammer @ The Orpheum — Tampa, FL — Feb 13 2027",
+      "date": "2027-02-12",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Beast In Black",
+        "Gloryhammer"
+      ],
+      "description": "Finnish power-metal heavyweights Beast In Black bring their February/March 2027 North American headline run to Ybor City, with Gloryhammer in support. Night one of a two-night Florida swing (Fort Lauderdale follows Feb 14). The band is touring ahead of fourth album \"Fear The…",
+      "ticketUrl": "https://blabbermouth.net/news/beast-in-black-announces-february-march-2027-north-american-tour-with-gloryhammer",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpu1",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbvpdy1",
       "name": "SiM @ den Atelier — Luxembourg City, Luxembourg — Feb 12 2027",
       "date": "2027-02-12",
@@ -4092,6 +4030,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbeb6f2",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd2zpu4",
+      "name": "Beast In Black + Gloryhammer @ Revolution Live — Fort Lauderdale, FL — Feb 14 2027",
+      "date": "2027-02-13",
+      "venue": "Revolution Live",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Beast In Black",
+        "Gloryhammer"
+      ],
+      "description": "Beast In Black and Gloryhammer close their Florida swing at Revolution Live the night after Tampa. Power metal with the dial at eleven — a Valentine's Day show for people who'd rather hear Berserk-inspired anthems than slow dance.",
+      "ticketUrl": "https://blabbermouth.net/news/beast-in-black-announces-february-march-2027-north-american-tour-with-gloryhammer",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpu4",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -4311,6 +4270,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbpafnj",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd325hu",
+      "name": "William Shatner and The *uckers @ Ferg's Pavilion — St. Petersburg, FL — Feb 27 2027",
+      "date": "2027-02-27",
+      "venue": "Ferg's Pavilion",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "William Shatner and The *uckers"
+      ],
+      "description": "Band: William Shatner and The *uckers\nVenue: Ferg's Pavilion, Edge District, St. Petersburg, FL\nDate: Saturday, February 27, 2027 (times TBA)\nTickets: fergspavillion.com",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd325hu",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -4725,6 +4703,26 @@
       ]
     },
     {
+      "id": "86bd2zpu7",
+      "name": "The Plot In You @ Hard Rock Live — Orlando, FL — Mar 30 2027",
+      "date": "2027-03-29",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "The Plot In You"
+      ],
+      "description": "The Plot In You's 27-date spring 2027 U.S. headliner, \"World Tour: Part 1,\" makes its only Florida stop at Hard Rock Live Orlando. Support not listed in the announcement.",
+      "ticketUrl": "https://blabbermouth.net/news/the-plot-in-you-announces-march-april-2027-u-s-headlining-tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpu7",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc4ytd2",
       "name": "The Warning @ O2 Academy — Birmingham, UK — Mar 29 2027",
       "date": "2027-03-29",
@@ -4825,6 +4823,27 @@
         "japanese-metal",
         "key-festivals"
       ]
+    },
+    {
+      "id": "86bd2zpub",
+      "name": "From Ashes To New + Nevertel + Dark Divine + Hollow Pact @ Club L.A. — Destin, FL — Apr 11 2027",
+      "date": "2027-04-10",
+      "venue": "Club L.A.",
+      "city": "Destin",
+      "state": "FL",
+      "bands": [
+        "From Ashes To New",
+        "Nevertel",
+        "Dark Divine",
+        "Hollow Pact"
+      ],
+      "description": "From Ashes To New's spring 2027 \"Reflections\" headline tour hits the Panhandle — the only Florida date on the run. Nevertel, Dark Divine and Hollow Pact support. $1 from every ticket goes to Musicians On Call.",
+      "ticketUrl": "https://blabbermouth.net/news/from-ashes-to-new-announces-spring-2027-north-american-reflections-tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpub",
+      "buckets": []
     },
     {
       "id": "86bc2zkcm",
@@ -4971,6 +4990,66 @@
       ]
     },
     {
+      "id": "86bd2zpvm",
+      "name": "Broken By The Scream @ Gramercy Theatre — New York, NY — Apr 27 2027",
+      "date": "2027-04-26",
+      "venue": "Gramercy Theatre",
+      "city": "New York",
+      "state": "NY",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Opening night of Broken By The Scream's first North American run — The Integration Game World Tour 2027 (Apr 27 – May 11, 11 dates). The four-vocalist Metal Blade act comes in off a mostly sold-out EU/UK tour and a Louder Stage slot at Wacken. No Florida date announced.",
+      "ticketUrl": "https://www.metalblade.com/us/news/broken-by-the-scream-announces-2027-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpvm",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd2zpvp",
+      "name": "Broken By The Scream @ Brighton Music Hall — Boston, MA — Apr 29 2027",
+      "date": "2027-04-28",
+      "venue": "Brighton Music Hall",
+      "city": "Boston",
+      "state": "MA",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — The Integration Game World Tour 2027, North American leg.",
+      "ticketUrl": "https://www.metalblade.com/us/news/broken-by-the-scream-announces-2027-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpvp",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd2zpvt",
+      "name": "Broken By The Scream @ Capital City Music Hall — Harrisburg, PA — Apr 30 2027",
+      "date": "2027-04-29",
+      "venue": "Capital City Music Hall",
+      "city": "Harrisburg",
+      "state": "PA",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — The Integration Game World Tour 2027, North American leg.",
+      "ticketUrl": "https://www.metalblade.com/us/news/broken-by-the-scream-announces-2027-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpvt",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc2zkfj",
       "name": "Buzzcocks @ Culture Room — Fort Lauderdale, FL — Apr 29 2027",
       "date": "2027-04-29",
@@ -4988,6 +5067,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bc2zkfj",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd2zpvv",
+      "name": "Broken By The Scream @ Pearl Street Warehouse — Washington, DC — May 1 2027",
+      "date": "2027-04-30",
+      "venue": "Pearl Street Warehouse",
+      "city": "Washington",
+      "state": "DC",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — The Integration Game World Tour 2027, North American leg. Closest stop to Florida on the announced routing.",
+      "ticketUrl": "https://www.metalblade.com/us/news/broken-by-the-scream-announces-2027-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpvv",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -5032,6 +5131,26 @@
       ]
     },
     {
+      "id": "86bd2zpvx",
+      "name": "Broken By The Scream @ Fairmount Theatre — Montreal, QC — May 3 2027",
+      "date": "2027-05-02",
+      "venue": "Fairmount Theatre",
+      "city": "Montreal",
+      "state": "QC",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — The Integration Game World Tour 2027, North American leg.",
+      "ticketUrl": "https://www.metalblade.com/us/news/broken-by-the-scream-announces-2027-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpvx",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bcn8e7f",
       "name": "Iron Maiden + Bullet For My Valentine @ iTHINK Financial Amphitheatre — West Palm Beach, FL — May 2 2027",
       "date": "2027-05-02",
@@ -5073,6 +5192,46 @@
       ]
     },
     {
+      "id": "86bd2zpvy",
+      "name": "Broken By The Scream @ Mod Club — Toronto, ON — May 4 2027",
+      "date": "2027-05-03",
+      "venue": "Mod Club",
+      "city": "Toronto",
+      "state": "ON",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — The Integration Game World Tour 2027, North American leg.",
+      "ticketUrl": "https://www.metalblade.com/us/news/broken-by-the-scream-announces-2027-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpvy",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd2zpvz",
+      "name": "Broken By The Scream @ Rave Bar — Milwaukee, WI — May 6 2027",
+      "date": "2027-05-05",
+      "venue": "Rave Bar",
+      "city": "Milwaukee",
+      "state": "WI",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — The Integration Game World Tour 2027, North American leg.",
+      "ticketUrl": "https://www.metalblade.com/us/news/broken-by-the-scream-announces-2027-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpvz",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbu798w",
       "name": "Loudness @ The Coach House — San Juan Capistrano, CA — May 5 2027",
       "date": "2027-05-05",
@@ -5087,6 +5246,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbu798w",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd2zpw0",
+      "name": "Broken By The Scream @ Bottom Lounge — Chicago, IL — May 7 2027",
+      "date": "2027-05-06",
+      "venue": "Bottom Lounge",
+      "city": "Chicago",
+      "state": "IL",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — The Integration Game World Tour 2027, North American leg.",
+      "ticketUrl": "https://www.metalblade.com/us/news/broken-by-the-scream-announces-2027-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpw0",
       "buckets": [
         "japanese-metal"
       ]
@@ -5110,6 +5289,46 @@
       ]
     },
     {
+      "id": "86bd2zpw8",
+      "name": "Broken By The Scream @ Fine Line Music Cafe — Minneapolis, MN — May 8 2027",
+      "date": "2027-05-07",
+      "venue": "Fine Line Music Cafe",
+      "city": "Minneapolis",
+      "state": "MN",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — The Integration Game World Tour 2027, North American leg.",
+      "ticketUrl": "https://www.metalblade.com/us/news/broken-by-the-scream-announces-2027-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpw8",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd2zpw9",
+      "name": "Broken By The Scream @ recordBar — Kansas City, MO — May 10 2027",
+      "date": "2027-05-09",
+      "venue": "recordBar",
+      "city": "Kansas City",
+      "state": "MO",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Broken By The Scream — The Integration Game World Tour 2027, North American leg.",
+      "ticketUrl": "https://www.metalblade.com/us/news/broken-by-the-scream-announces-2027-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpw9",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bcvja68",
       "name": "Meshuggah + Testament + Blood Incantation @ War Memorial Auditorium — Fort Lauderdale, FL — May 9 2027",
       "date": "2027-05-09",
@@ -5128,6 +5347,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bcvja68",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd2zpwa",
+      "name": "Broken By The Scream @ Beer City Music Hall — Oklahoma City, OK — May 11 2027",
+      "date": "2027-05-10",
+      "venue": "Beer City Music Hall",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "bands": [
+        "Broken By The Scream"
+      ],
+      "description": "Final night of Broken By The Scream's first North American run — The Integration Game World Tour 2027.",
+      "ticketUrl": "https://www.metalblade.com/us/news/broken-by-the-scream-announces-2027-north-american-tour/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd2zpwa",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
