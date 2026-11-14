@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T13:55:00.000Z",
+  "generatedAt": "2026-11-14T13:10:17.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -52,9 +52,22 @@
     {
       "id": "lasersedge",
       "name": "The Laser's Edge"
+    },
+    {
+      "id": "blacklodge",
+      "name": "Black Lodge Records"
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-11-12",
+      "label": "blacklodge",
+      "artist": "JORN",
+      "headline": "Norwegian hard rock legend Jorn releases Return Of The Jorniverse, a career-spanning compilation personally selected by Jorn Lande, out December 11, 2026 on triple vinyl, double CD and double cassette.",
+      "type": "Album",
+      "releaseDate": "2026-12-11"
+    },
     {
       "kind": "send",
       "date": "2026-11-11",
@@ -450,6 +463,15 @@
       "headline": "Third full-length Through the Night, followed by a nationwide album tour into February 2027.",
       "type": "Album",
       "releaseDate": "2026-12-02"
+    },
+    {
+      "kind": "pick",
+      "date": "2027-02-05",
+      "label": "napalm",
+      "artist": "AS I LAY DYING",
+      "headline": "Metalcore icons return with their self-titled studio album, led by the single \"The Cost To Stay.\"",
+      "type": "Album",
+      "releaseDate": "2027-02-05"
     },
     {
       "kind": "pick",
