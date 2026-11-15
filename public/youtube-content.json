@@ -1,13 +1,86 @@
 {
-  "fetchedAt": "2026-11-14T07:01:43.982Z",
+  "fetchedAt": "2026-11-15T07:01:15.864Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 155000,
-      "videoCount": 319,
+      "videoCount": 321,
       "recentLongform": [
+        {
+          "id": "R7cRcFSKi5s",
+          "title": "BRIDEAR | \"Scream\" | Antiknock",
+          "publishedAt": "2026-11-14T13:35:49Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/R7cRcFSKi5s/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/R7cRcFSKi5s/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/R7cRcFSKi5s/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/R7cRcFSKi5s/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/R7cRcFSKi5s/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "fhd": {
+              "url": "https://i.ytimg.com/vi/R7cRcFSKi5s/fhddefault.jpg",
+              "width": 1920,
+              "height": 1080
+            }
+          },
+          "duration": "PT3M4S",
+          "durationSeconds": 184
+        },
+        {
+          "id": "nFKFRjrCsfQ",
+          "title": "BRIDEAR at Antiknock 11/8/2026",
+          "publishedAt": "2026-11-14T13:10:13Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/nFKFRjrCsfQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/nFKFRjrCsfQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/nFKFRjrCsfQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/nFKFRjrCsfQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/nFKFRjrCsfQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M51S",
+          "durationSeconds": 111
+        },
         {
           "id": "StMORIkoTNI",
           "title": "BRIDEAR takes the stage at Antiknock",
@@ -479,79 +552,6 @@
           },
           "duration": "PT1M48S",
           "durationSeconds": 108
-        },
-        {
-          "id": "NrJCjVaIAB8",
-          "title": "Heavy Metal Fans: Loyal to Legacy, Ignoring Local? #shorts",
-          "publishedAt": "2026-10-02T21:01:46Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/NrJCjVaIAB8/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/NrJCjVaIAB8/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/NrJCjVaIAB8/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/NrJCjVaIAB8/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/NrJCjVaIAB8/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M18S",
-          "durationSeconds": 78
-        },
-        {
-          "id": "EISyhbx9SLw",
-          "title": "Spiders: Crystal Eyes Review, and What Gothenburg Actually Exports",
-          "publishedAt": "2026-09-25T20:59:26Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/EISyhbx9SLw/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/EISyhbx9SLw/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/EISyhbx9SLw/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/EISyhbx9SLw/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/EISyhbx9SLw/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/EISyhbx9SLw/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
-            }
-          },
-          "duration": "PT16M1S",
-          "durationSeconds": 961
         }
       ],
       "recentShorts": [
