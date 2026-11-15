@@ -1,233 +1,6 @@
 {
-  "generatedAt": "2026-11-14T07:01:26.408Z",
+  "generatedAt": "2026-11-15T07:00:58.542Z",
   "entries": [
-    {
-      "id": "86bd1pun7",
-      "name": "Dimrays @ UNITY PARK 2026 (HIRAETH pre) — Shimokitazawa, Tokyo — Nov 15 2026",
-      "date": "2026-11-14",
-      "venue": "UNITY PARK 2026 (HIRAETH pre)",
-      "city": "Shimokitazawa",
-      "country": "Tokyo",
-      "bands": [
-        "Dimrays"
-      ],
-      "description": "Dimrays appear at HIRAETH's \"UNITY PARK 2026,\" a multi-venue Shimokitazawa circuit event in Tokyo. Dimrays' set is at LIVE HOLIC, 18:00. Sunday, November 15, 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd1pun7",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bcxyauj",
-      "name": "Chanqoo (Haraguchi, NEMOPHILA) @ Design Festa vol.64, Tokyo Big Sight, Tokyo",
-      "date": "2026-11-14",
-      "venue": "Design Festa vol.64",
-      "city": "Tokyo Big Sight",
-      "country": "Tokyo",
-      "bands": [
-        "Chanqoo (Haraguchi, NEMOPHILA)"
-      ],
-      "description": "Tickets: https://designfesta.com/about-ticket/",
-      "ticketUrl": "https://designfesta.com/about-ticket/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcxyauj",
-      "buckets": [
-        "japanese-metal",
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86bcw9ecm",
-      "name": "Broken By The Scream @ HOLIDAY NEXT NAGOYA (Another day comes vol.3)",
-      "date": "2026-11-14",
-      "venue": "HOLIDAY NEXT NAGOYA (Another day comes vol.3)",
-      "bands": [
-        "Broken By The Scream"
-      ],
-      "description": "Tickets: https://livepocket.jp/e/07ukk",
-      "ticketUrl": "https://livepocket.jp/e/07ukk",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcw9ecm",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bc05hdy",
-      "name": "Breed 77 @ Downstairs at The Dome — London, UK — Nov 14 2026",
-      "date": "2026-11-14",
-      "venue": "Downstairs at The Dome",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "Breed 77"
-      ],
-      "description": "Gibraltar's flamenco-metal veterans Breed 77 return to London at Downstairs at The Dome. Supports TBC.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc05hdy",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbzt9yu",
-      "name": "RE:O @ Firebug — Leicester, UK — Nov 14 2026",
-      "date": "2026-11-14",
-      "venue": "Firebug",
-      "city": "Leicester",
-      "state": "UK",
-      "bands": [
-        "RE:O"
-      ],
-      "description": "RE:O (UK \"Japancore,\" Rio Suyama) at Firebug, Leicester. Bands We're Watching (Global Metal). Source: Bandsintown.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzt9yu",
-      "buckets": []
-    },
-    {
-      "id": "86bbpafhq",
-      "name": "Pain of Truth + Madball + Rotting Out @ The Orpheum — Tampa, FL — Nov 14 2026",
-      "date": "2026-11-14",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Pain of Truth",
-        "Madball",
-        "Rotting Out"
-      ],
-      "description": "Pain of Truth headlining North America 2026, with Madball, Rotting Out, Contention, Mizery, Locked Shut and xFOREVER WARx. The Orpheum, Ybor City, Tampa FL. Sat Nov 14 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbpafhq",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86baqu75x",
-      "name": "Hammer and Nail Fest — TBD Florida venue",
-      "date": "2026-11-14",
-      "venue": "TBD Florida venue",
-      "bands": [
-        "Hammer and Nail Fest"
-      ],
-      "description": "Festival: Hammer and Nail Fest MMXXVI\nDate: November 2026 (day TBD — flyer shows lineup only)\nPresented by: Elevated Booking\nPartial lineup: Until Eternity, Strength What Remains, Age of Refuge, Stay Lost, Better Man, The Pennant, The Shotgun Project, Volcano, Actions Speak…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86baqu75x",
-      "buckets": [
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86bammf4p",
-      "name": "SiM — Come and Take It Live, Austin TX",
-      "date": "2026-11-14",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL World Tour 2026 NA leg",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bammf4p",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w5yt",
-      "name": "Broken By The Scream @ HOLIDAYNEXT — Nagoya, Japan — Nov 14 2026",
-      "date": "2026-11-14",
-      "venue": "HOLIDAYNEXT",
-      "city": "Nagoya",
-      "country": "Japan",
-      "bands": [
-        "Broken By The Scream"
-      ],
-      "description": "Broken By The Scream — tour closer. HOLIDAYNEXT in Nagoya, Japan. Show date: Nov 14 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5yt",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w5jz",
-      "name": "ZILQY @ Fukuoka INSA — Fukuoka, Japan — Nov 14 2026",
-      "date": "2026-11-14",
-      "venue": "Fukuoka INSA",
-      "city": "Fukuoka",
-      "country": "Japan",
-      "bands": [
-        "ZILQY"
-      ],
-      "description": "ZILQY — Birth of Riot tour night 1. Fukuoka INSA in Fukuoka, Japan. Show date: Nov 14 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5jz",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w55v",
-      "name": "HANABIE. @ OP's — Fukuoka, Japan — Nov 14 2026",
-      "date": "2026-11-14",
-      "venue": "OP's",
-      "city": "Fukuoka",
-      "country": "Japan",
-      "bands": [
-        "HANABIE."
-      ],
-      "description": "HANABIE. — Japan 2MAN Tour 2026. OP's in Fukuoka, Japan. Show date: Nov 14 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w55v",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bb9w4tx",
-      "name": "BAND-MAID @ Nippon Budokan — Tokyo, Japan — Nov 14 2026",
-      "date": "2026-11-14",
-      "venue": "Nippon Budokan",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "BAND-MAID"
-      ],
-      "description": "BAND-MAID — World Tour 2026 FINAL night 2, last show before hiatus (returns for 15th anniversary 2028). Nippon Budokan in Tokyo, Japan. Show date: Nov 14 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w4tx",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bcw9edp",
       "name": "THE JAM @ 音楽室DX, Takadanobaba, Tokyo",
@@ -1520,6 +1293,27 @@
         "japanese-metal",
         "album-releases"
       ]
+    },
+    {
+      "id": "86bd3egud",
+      "name": "Beartooth + Don Broco + Magnolia Park + Windwaker @ St. Augustine Amphitheatre — St. Augustine, FL — Dec 4 2026",
+      "date": "2026-12-03",
+      "venue": "St. Augustine Amphitheatre",
+      "city": "St. Augustine",
+      "state": "FL",
+      "bands": [
+        "Beartooth",
+        "Don Broco",
+        "Magnolia Park",
+        "Windwaker"
+      ],
+      "description": "Beartooth's Pure Ecstasy World Tour US leg, with Don Broco, Magnolia Park and Windwaker. The St. Augustine Amp is the night before the Fort Lauderdale War Memorial date we already track (Dec 5), so this is the North Florida stop on the same run.",
+      "ticketUrl": "https://www.livenation.com/event/17FOv0G655Jwk0y/beartooth-pure-ecstasy-world-tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd3egud",
+      "buckets": []
     },
     {
       "id": "86bcj3bu7",
