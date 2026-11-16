@@ -1,159 +1,6 @@
 {
-  "generatedAt": "2026-11-15T07:01:13.867Z",
+  "generatedAt": "2026-11-16T07:00:59.714Z",
   "entries": [
-    {
-      "id": "86bcw9edp",
-      "name": "THE JAM @ 音楽室DX, Takadanobaba, Tokyo",
-      "date": "2026-11-15",
-      "venue": "音楽室DX",
-      "city": "Takadanobaba",
-      "country": "Tokyo",
-      "bands": [
-        "THE JAM"
-      ],
-      "description": "Japan trip, Nov 2026. Doors 6:00 PM. Optional — only if time allows after HAGANE (Kawasaki) earlier the same day.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcw9edp",
-      "buckets": []
-    },
-    {
-      "id": "86bcw9ed6",
-      "name": "HAGANE — STRIKE BACK 2026 @ CLUB CITTA', Kawasaki",
-      "date": "2026-11-15",
-      "city": "STRIKE BACK 2026 @ CLUB CITTA'",
-      "country": "Kawasaki",
-      "bands": [
-        "HAGANE"
-      ],
-      "description": "Tickets: https://livepocket.jp/e/strikeback\nMy Livepocket account (tickets live here): https://livepocket.jp/mytop",
-      "ticketUrl": "https://livepocket.jp/e/strikeback",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcw9ed6",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bc05het",
-      "name": "Urne + The Grey + Moon Reaper @ The Dome — London, UK — Nov 15 2026",
-      "date": "2026-11-15",
-      "venue": "The Dome",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "Urne",
-        "The Grey",
-        "Moon Reaper"
-      ],
-      "description": "UK progressive sludge-metal trio Urne headline The Dome, Tufnell Park with The Grey and Moon Reaper. Early 18:30 start.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc05het",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbzrk46",
-      "name": "EMNW @ Yogibo HOLY MOUNTAIN — Osaka, Japan — Nov 15 2026",
-      "date": "2026-11-15",
-      "venue": "Yogibo HOLY MOUNTAIN",
-      "city": "Osaka",
-      "country": "Japan",
-      "bands": [
-        "EMNW"
-      ],
-      "description": "EMNW album tour — Yogibo HOLY MOUNTAIN, Osaka. Sunday, November 15, 2026. Listing: https://www.bandsintown.com/EMNW",
-      "ticketUrl": "https://www.bandsintown.com/EMNW",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzrk46",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbpafkc",
-      "name": "Pain of Truth + Madball @ Vans Warped Tour — Orlando, FL — Nov 15 2026",
-      "date": "2026-11-15",
-      "venue": "Vans Warped Tour",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Pain of Truth",
-        "Madball"
-      ],
-      "description": "Pain of Truth and Madball on the Vans Warped Tour Orlando bill, Camping World Stadium campus. Sun Nov 15 2026 (festival runs Nov 14–15).",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbpafkc",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbeb7jb",
-      "name": "SiM @ Warehouse Live Midtown — Houston, TX — Nov 15 2026",
-      "date": "2026-11-15",
-      "venue": "Warehouse Live Midtown",
-      "city": "Houston",
-      "state": "TX",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL world tour, North American leg. Tickets: https://tix.soundrink.com/tours/sim",
-      "ticketUrl": "https://tix.soundrink.com/tours/sim",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7jb",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbct405",
-      "name": "Mayto @ Shibuya Cyclone — Tokyo, Japan",
-      "date": "2026-11-15",
-      "venue": "Shibuya Cyclone",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "Mayto"
-      ],
-      "description": "Artist: Mayto (guitar) — former HAGANE guitarist, now with HIZAKI's band and supporting Little Lilith, plus her own solo shows.\nEvent: LOAD THE WORLD\nVenue: Shibuya CYCLONE, Tokyo, Japan\nDate: Sunday, November 15, 2026 — open 12:00, start 12:30\nTickets: VIP ¥10,000 / general…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbct405",
-      "buckets": []
-    },
-    {
-      "id": "86bb9w5kk",
-      "name": "ZILQY @ Fukuoka INSA — Fukuoka, Japan — Nov 15 2026",
-      "date": "2026-11-15",
-      "venue": "Fukuoka INSA",
-      "city": "Fukuoka",
-      "country": "Japan",
-      "bands": [
-        "ZILQY"
-      ],
-      "description": "ZILQY — Birth of Riot tour night 2. Fukuoka INSA in Fukuoka, Japan. Show date: Nov 15 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bb9w5kk",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bba6hpj",
       "name": "Pain of Truth + Madball + Rotting Out + Contention + xForever Warx @ Lincoln's Beard Brewing — Miami, FL — Nov 16 2026",
@@ -1435,6 +1282,23 @@
       "buckets": [
         "japanese-metal"
       ]
+    },
+    {
+      "id": "86bd3myna",
+      "name": "Blue Öyster Cult @ Seminole Casino Hotel Immokalee — Immokalee, FL — Dec 4 2026",
+      "date": "2026-12-04",
+      "venue": "Seminole Casino Hotel Immokalee",
+      "city": "Immokalee",
+      "state": "FL",
+      "bands": [
+        "Blue Öyster Cult"
+      ],
+      "description": "The middle night of Blue Öyster Cult's three-show Florida swing: Jacksonville (Dec 1, tracked), Immokalee (Dec 4), Okeechobee (Dec 5, tracked). This Southwest Florida date was missing from the calendar.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd3myna",
+      "buckets": []
     },
     {
       "id": "86bc05h70",
@@ -4497,6 +4361,28 @@
       ]
     },
     {
+      "id": "86bd3myn9",
+      "name": "Clutch + Corrosion of Conformity + Agnostic Front + Chuck Ragan @ House of Blues — Lake Buena Vista (Orlando), FL — Mar 26 2027",
+      "date": "2027-03-25",
+      "venue": "House of Blues",
+      "city": "Lake Buena Vista (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Clutch",
+        "Corrosion of Conformity",
+        "Agnostic Front",
+        "Chuck Ragan"
+      ],
+      "description": "Clutch's \"Give The People What They Want\" 2027 US headline run, with Corrosion of Conformity, Agnostic Front and Chuck Ragan on the full package. The only Florida stop on the routing (Feb 27 Green Bay → Apr 4 Brooklyn); it sits between Dallas (Mar 24) and Atlanta (Mar 27).",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd3myn9",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bd2zpu7",
       "name": "The Plot In You @ Hard Rock Live — Orlando, FL — Mar 30 2027",
       "date": "2027-03-29",
@@ -5003,6 +4889,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bd2zpvy",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd3myn7",
+      "name": "Till Lindemann @ The Fillmore Miami Beach — Miami Beach, FL — May 6 2027",
+      "date": "2027-05-05",
+      "venue": "The Fillmore Miami Beach",
+      "city": "Miami Beach",
+      "state": "FL",
+      "bands": [
+        "Till Lindemann"
+      ],
+      "description": "Rammstein's frontman brings his solo show to South Florida — the first US stop of his 2027 Americas leg (Apr 16 São Paulo → May 21 Los Angeles). Two days later he plays Welcome to Rockville in Daytona (already tracked as the WTR 2027 card), so this is the club-sized Florida date.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd3myn7",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
