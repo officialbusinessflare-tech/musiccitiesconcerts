@@ -1,50 +1,6 @@
 {
-  "generatedAt": "2026-11-16T07:01:30.900Z",
+  "generatedAt": "2026-11-17T07:01:01.534Z",
   "entries": [
-    {
-      "id": "86bba6hpj",
-      "name": "Pain of Truth + Madball + Rotting Out + Contention + xForever Warx @ Lincoln's Beard Brewing — Miami, FL — Nov 16 2026",
-      "date": "2026-11-16",
-      "venue": "Lincoln's Beard Brewing",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Pain of Truth",
-        "Madball",
-        "Rotting Out",
-        "Contention",
-        "xForever Warx"
-      ],
-      "description": "Pain of Truth's North America 2026 run hits Miami with a stacked hardcore support bill.",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bba6hpj",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbu78e4",
-      "name": "Periphery + Ne Obliviscaris + Greyhaven @ Jannus Live — St. Petersburg, FL — Nov 16 2026",
-      "date": "2026-11-16",
-      "venue": "Jannus Live",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Periphery",
-        "Ne Obliviscaris",
-        "Greyhaven"
-      ],
-      "description": "Prog-metal headliner with Ne Obliviscaris and Greyhaven. Strongest metal booking on the Jannus fall calendar.",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78e4",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86bbmtecr",
       "name": "Unlucky Morpheus @ Kichijoji CLUB SEATA — Tokyo, Japan — Nov 17 2026",
@@ -344,6 +300,28 @@
       ]
     },
     {
+      "id": "86bd43q0q",
+      "name": "Obituary + Intoxicated + Must Not Kill @ Brass Mug — Tampa, FL — Nov 21 2026",
+      "date": "2026-11-21",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Obituary",
+        "Intoxicated",
+        "Must Not Kill"
+      ],
+      "description": "Tampa's Evil Ways Celebration — night one of Obituary's two-night Brass Mug homecoming, built around Xecutioner's Return (2007).",
+      "ticketUrl": "https://www.obituary.cc/tour",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd43q0q",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bcb0tut",
       "name": "BRIDEAR @ over fest 2026 — Tokyo, Japan — Nov 21 2026",
       "date": "2026-11-21",
@@ -439,6 +417,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86baaafa5",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd43q16",
+      "name": "Obituary + Mind Virus + Skull Crunch @ Brass Mug — Tampa, FL — Nov 22 2026",
+      "date": "2026-11-22",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Obituary",
+        "Mind Virus",
+        "Skull Crunch"
+      ],
+      "description": "Florida's Darkest Day Matinee — night two of Obituary's two-night Brass Mug homecoming, built around Darkest Day (2009).",
+      "ticketUrl": "https://www.obituary.cc/tour",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd43q16",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -1025,6 +1025,25 @@
       ]
     },
     {
+      "id": "86bd43q1x",
+      "name": "1914 @ Downstairs at The Dome — London, UK — Dec 1 2026",
+      "date": "2026-12-01",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "1914"
+      ],
+      "description": "1914 — The War That Never Ends, Winter 2026 Tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd43q1x",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bc6twb7",
       "name": "Darkest Hour + Judiciary @ Come and Take It Live — Austin, TX — Dec 1 2026",
       "date": "2026-12-01",
@@ -1423,6 +1442,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bcmjupy",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd43mxm",
+      "name": "The Casualties @ Conduit — Winter Park (Orlando), FL — Dec 6 2026",
+      "date": "2026-12-05",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "The Casualties"
+      ],
+      "description": "NYC street-punk veterans The Casualties bring the \"People Over Power\" tour to Conduit. Doors 7:00 PM, 18+.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd43mxm",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -1865,6 +1903,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bcmjv18",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd43q25",
+      "name": "Nile @ The Dome — London, UK — Dec 12 2026",
+      "date": "2026-12-12",
+      "venue": "The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Nile"
+      ],
+      "description": "Nile — Underworld Europe Tour 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd43q25",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -2517,6 +2574,26 @@
       ]
     },
     {
+      "id": "86bd43q1q",
+      "name": "A Very Metal Christmas @ Culture Room — Fort Lauderdale, FL — Dec 26 2026",
+      "date": "2026-12-26",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "A Very Metal Christmas"
+      ],
+      "description": "A Very Metal Christmas at Culture Room.",
+      "ticketUrl": "https://www.cultureroom.net/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd43q1q",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbz59r0",
       "name": "HAGANE @ Kanazawa EIGHT HALL — Kanazawa, Japan — Dec 26 2026",
       "date": "2026-12-26",
@@ -2885,6 +2962,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bc4yuh2",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd43q1d",
+      "name": "Deadreef + Ramtha + Sacrilous + Whorer @ Suite E Studios — St. Petersburg, FL — Jan 16 2027",
+      "date": "2027-01-16",
+      "venue": "Suite E Studios",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Deadreef",
+        "Ramtha",
+        "Sacrilous",
+        "Whorer"
+      ],
+      "description": "St. Pete Dredge Pit 3 — Deadreef's underground showcase returns.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd43q1d",
       "buckets": [
         "florida-metal-scene"
       ]
