@@ -240,6 +240,14 @@ const lastUpdated = data.generatedAt
     </div>
   </div>
 
+  <div class="container feat-now coming-soon">
+    <div class="feat-now__head">
+      <h2 class="feat-now__title">Coming soon to the channel</h2>
+      <a class="feat-secondary__more" href="/chasing-japan#interviews-coming-soon">See all seven →</a>
+    </div>
+    <p class="coming-soon__dek">Seven interviews from our Japan trip, landing over the coming weeks: Himari Tsukishiro (Isiliel), Zilqy, BRIDEAR, Mayto., Tsuki Struck, HAGANE and Sally.</p>
+  </div>
+
   {dontMiss.length > 0 ? (
     <section class="dont-miss">
       <div class="container">
@@ -391,4 +399,6 @@ const lastUpdated = data.generatedAt
   @media (max-width: 600px) { .feat-review__art { width: 88px; height: 88px; } }
   .shirt-travels { padding: 2rem 0 0.5rem; }
   .shirt-travels__img { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid #262626; }
+  .coming-soon { padding-top: 1.4rem; }
+  .coming-soon__dek { color: var(--color-text-muted); margin: 0.2rem 0 0.5rem; line-height: 1.55; max-width: 70ch; }
 </style>
