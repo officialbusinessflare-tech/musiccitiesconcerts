@@ -1,0 +1,176 @@
+---
+/**
+ * Chasing Japan's Heavy Sound. The Music Cities Tour Japan 2026 wrap.
+ *
+ * Two parts: the trip-summary post, and the Interviews Coming Soon grid
+ * (seven thank-you cards). Replaces the pre-trip /metal-japan itinerary.
+ * Images live in /public/japan/. Copy is final; do not edit without Kevin.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SceneNav from '../components/SceneNav.astro';
+import Footer from '../components/Footer.astro';
+
+type Card = { img: string; band: string; meta: string };
+const cards: Card[] = [
+  { img: '/japan/card-himari.png',       band: 'Himari Tsukishiro', meta: 'Isiliel · Tokyo' },
+  { img: '/japan/card-zilqy.png',        band: 'Zilqy',             meta: 'Tokyo · their first English interview' },
+  { img: '/japan/card-bridear.png',      band: 'BRIDEAR',           meta: 'Shinjuku ANTIKNOCK, Tokyo' },
+  { img: '/japan/card-mayto.png',        band: 'Mayto.',            meta: 'Tokyo' },
+  { img: '/japan/card-tsuki-struck.png', band: 'Tsuki Struck',      meta: 'Tokyo' },
+  { img: '/japan/card-hagane.png',       band: 'HAGANE',            meta: "CLUB CITTA' Kawasaki" },
+  { img: '/japan/card-sally.png',        band: 'Sally',             meta: 'Lonesome_Blue · Tokyo' },
+];
+---
+
+<BaseLayout
+  title="Chasing Japan's Heavy Sound | The Music Cities"
+  description="The Music Cities Tour Japan 2026. Twelve days, six cities, three live houses and seven interviews chasing what makes a heavy music scene work."
+  ogImage="/japan/poster.jpg"
+>
+  <Header />
+  <SceneNav activeBucketId="chasing-japan" />
+
+  <section class="cj-hero">
+    <div class="container cj-hero__inner">
+      <div class="cj-hero__text">
+        <span class="cj-hero__eyebrow">Field Trip · Tour Japan 2026</span>
+        <h1 class="cj-hero__title">Chasing Japan's <em>Heavy Sound</em></h1>
+        <p class="cj-hero__lede">
+          日本の重音を追って. Twelve days, six cities, three live houses and seven interviews,
+          chasing what makes a heavy music scene actually work.
+        </p>
+      </div>
+      <a class="cj-hero__poster" href="/japan/poster.jpg" target="_blank" rel="noopener">
+        <img src="/japan/poster.jpg" alt="The Music Cities Tour Japan 2026 schedule poster" width="1200" height="1629" loading="eager" />
+      </a>
+    </div>
+  </section>
+
+  <main class="cj-main">
+    <article class="container cj-article">
+      <p class="cj-lead">We came to Japan to find out what makes a heavy music scene work. Twelve days, six cities, three live houses and seven interviews later, we have the answer. It isn't one band or one venue. It's a whole system of players who push each other, borrow from each other and go out to dinner together.</p>
+
+      <p>Our biggest day of interviews came early in Tokyo. We sat down with Himari Tsukishiro of Isiliel, who told us Japan's "girls metal" category has drifted close to idol groups, and that in metal, being cute isn't enough. Her producer Ricky kept telling her that metal is a meritocracy. If there's a sound you truly want to deliver, you have to train for it. She learned that the hard way in Sweden, recording with Fredrik Nordström, the producer behind some of the most important records in metal. For days, she said, all he would say was "Rhythm. Pitch." Then, on the last phrase, he called his assistant over, played it back and said, "This is epic!" Her answer: "Fredrik, I love you!"</p>
+
+      <p>That same evening we interviewed Zilqy for their first English interview. The band was formed by former members of LOVEBITES and Aldious, including Miho, one of the most influential bassists in Japanese metal. She played in DESTROSE, then founded LOVEBITES and helped take an all-female Japanese metal band to stages around the world. Now she's starting over again with Zilqy. Zilqy told us that Japan treats hiding your feelings as a virtue, the way a samurai keeps his emotions put away, and that adults are expected to conform every day. Their music exists to let those hidden feelings out, because for them and for many of their fans, music is the one place you can be who you really are. Their first stop outside Japan? America, the birthplace of nu metal. What they want that first crowd to understand is simple: being girls doesn't make them weak. They may be small, but they absolutely shred.</p>
+
+      <p>The next night BRIDEAR welcomed us back to Shinjuku ANTIKNOCK. It was our second sit-down with the band, and it was a homecoming bill, because BRIDEAR and ASTERISM both come from Fukuoka. BRIDEAR told us Fukuoka is a great city for making music, with anything you need close at hand. But it has only one or two places where people gather, so a band can only spread so far. Tokyo has the labels, the population and far more live houses. For a genre that is still underground in Japan, that bigger base is what lets a metal band get known and keep going.</p>
+
+      <p>Since our last interview, BRIDEAR's CAMPFIRE crowdfunding campaign hit its first-day goal and blew far past its target. The band told us they had no idea how much they were loved, or how much support was coming from around the world. That money is going straight into new songs and music videos. Their album BORN AGAIN was written and arranged by every member of the band and recorded in Gothenburg with Fredrik Nordström. That makes a full circle for The Music Cities™. Florida death metal helped shape the Gothenburg sound Fredrik built, and that sound now runs through a band from Fukuoka. BRIDEAR told us recording entirely in English changed the way they thought. They said Fredrik kept the room relaxed and smiling, dialed in a guitar tone at soundcheck that made them say "that's it," and treated their Japanese lyrics with care without breaking what makes BRIDEAR sound like BRIDEAR. Next, they want to top BORN AGAIN, play more shows in Fukuoka, Osaka and Nagoya, and get back to Europe before taking on America and Asia for the first time.</p>
+
+      <p>Mayto. sat down with us next. She trained in karate for more than twenty years, starting at age six. She taught herself piano by ear at nine because she couldn't read sheet music, then picked up guitar at fourteen. She realized piano was beautiful but not heavy, and she learned rock by copying covers on YouTube and Nico Nico Douga. Her path ran through HAGANE and Mana Diagram to the band of her mentor, HIZAKI. She grew up on Van Halen, Paul Gilbert, John Petrucci, Mr. Big, Deep Purple and Dream Theater. What draws her to heavy music is the combination of heavy, complex backing and a catchy melody on top, a structure so beautiful she calls heavy metal a kind of art. When we suggested that the great classical composers would be playing metal if they were alive today, she agreed. Playing HIZAKI's classically influenced songs has made her love both.</p>
+
+      <figure class="cj-figure">
+        <a href="/japan/shirt-travels.jpg" target="_blank" rel="noopener">
+          <img src="/japan/shirt-travels.jpg" alt="The shirt travels: bands across Japan and beyond holding The Music Cities shirt" width="1600" height="1600" loading="lazy" />
+        </a>
+        <figcaption>The shirt travels. Every band we met, from Hiroshima to Kawasaki, and the friends who carried it further.</figcaption>
+      </figure>
+
+      <p>The next night we went to see BAND-MAID at the Nippon Budokan at the invitation of Marco Tricca, founder of Tsuki Struck, an international female rock and metal band with a strong Japanese core that carries the energy of modern Japanese rock across borders. BAND-MAID started in small Tokyo clubs and now plays the country's most storied venue.</p>
+
+      <p>Our final Sunday was a double run. First we were at Shibuya CYCLONE for Mayto.'s one-man show, LOAD THE WORLD, a guitarist we had just interviewed now headlining her own stage. Then we went on to CLUB CITTA' in Kawasaki for STRIKE BACK, with DEXCORE and HAGANE, Mayto.'s former band, on the same bill. We interviewed HAGANE backstage. They told us every member writes and they keep everything in-house, with no outside songwriters, which is why their personality comes through in the music. Sakura told us she moved from Osaka, and Tokyo was always close enough to make the jump. Nagi told us that when another band does something great, she copies it right away and tries "to steal it, in a good way." She added that more than Tokyo itself, it's social media that now makes careers possible across all of Japan, even if Tokyo is where everyone ends up. Through the Night comes out worldwide on Napalm Records in January.</p>
+
+      <p>Shinjuku ANTIKNOCK, Shibuya CYCLONE and CLUB CITTA' Kawasaki are where Japan's heavy sound gets built, night after night and band after band, before any of it reaches the Budokan. We stood in the rooms where it happens.</p>
+
+      <p>We closed with Sally, guitarist of Lonesome_Blue, whose new solo album RE:RAIGN came out the week we bought it at Tower Records Shinjuku. The title combines reign and rain. Her first album, Burn It, was about burning your energy into something. RE:RAIGN is about what happens when the sparks burn you too: the sweat and tears soak into the wounds like rain, the scars make you stronger, and you take control of what comes next. She learned guitar from her father. She told us the reason Japan produces so many technical players is a kind of otaku focus, a habit of chasing one thing all the way down, plus so many rivals that you have no choice but to keep working. The players who push her include her own generation, like Ayumi of BRIDEAR, whose bluesy phrasing and care with every note Sally says she doesn't have yet. She told us Japan's culture crosses over so easily because the country is small. Any one scene hits a wall fast, so you borrow from others, and a guitarist can learn stagecraft from Noh and Kabuki. Her goal is to blend kayōkyoku and heavy metal into songs only a Japanese artist could write, and to carry that Japanese heart overseas.</p>
+
+      <p>Between the interviews we shopped at Tower Records in Tokyo, Osaka and Nagoya, walked into Big Boss Guitar Shop in Hiroshima, saw Kabuki and stood under the lights at Heian-jingū.</p>
+
+      <figure class="cj-figure">
+        <a href="/japan/shirt-composite.jpg" target="_blank" rel="noopener">
+          <img src="/japan/shirt-composite.jpg" alt="The Music Cities Tour Japan 2026 shirt, worn by the artists we met" width="1600" height="1600" loading="lazy" />
+        </a>
+        <figcaption>リフ。リハ。リピート。 Riff. Rehearse. Repeat.</figcaption>
+      </figure>
+
+      <p>Here's what the trip means. Japan doesn't just produce great musicians. It produces them because the scene works like a city. The bands are friends first, and they learn from each other on purpose. Miho carries what she learned from DESTROSE and LOVEBITES into Zilqy. Mayto. came through HAGANE and now headlines her own shows. Sally studies BRIDEAR's guitarist. Nagi steals the good ideas. Social media puts talent within reach of the whole country, Tokyo is where that talent lands, and the reach now runs from Fukuoka to a studio in Sweden and back to the Florida sound that inspired it, and out to bands like Tsuki Struck that take a Japanese core to the world. Every player studies the next player, and every stage, from a live house to the Budokan, gets the same effort.</p>
+
+      <p>That's the heavy sound we came to chase, and we got to sit down with the best of it.</p>
+
+      <p>Thank you to every artist who gave us their time. The interviews are coming soon.</p>
+
+      <p class="cj-signoff" lang="ja">日本の重音を追って。音楽都市。</p>
+    </article>
+
+    <section class="cj-interviews" id="interviews-coming-soon">
+      <div class="container">
+        <header class="cj-interviews__head">
+          <h2 class="cj-interviews__title">Interviews <em>Coming Soon</em></h2>
+          <p class="cj-interviews__sub" lang="ja">インタビュー近日公開</p>
+          <p class="cj-interviews__dek">Seven sit-downs from the trip. Full conversations drop on the channel over the coming weeks.</p>
+        </header>
+
+        <a class="cj-promo" href="/japan/interview-promos.jpg" target="_blank" rel="noopener">
+          <img src="/japan/interview-promos.jpg" alt="The Music Cities Tour Japan 2026 interview line-up: Himari, Zilqy, BRIDEAR, Mayto., Tsuki Struck, HAGANE and Sally" width="1600" height="2000" loading="lazy" />
+        </a>
+
+        <ul class="cj-grid">
+          {cards.map((c) => (
+            <li class="cj-card">
+              <img src={c.img} alt={`Thank you ${c.band}`} width="1080" height="1080" loading="lazy" />
+              <div class="cj-card__cap">
+                <span class="cj-card__band">{c.band}</span>
+                <span class="cj-card__meta">{c.meta}</span>
+              </div>
+            </li>
+          ))}
+        </ul>
+
+        <p class="cj-interviews__foot"><a href="/interviews">Browse every interview we have filmed →</a></p>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  .cj-hero { background: linear-gradient(180deg, #120405 0%, var(--color-bg) 100%); border-bottom: 1px solid var(--color-border); padding: 2.4rem 0 2rem; }
+  .cj-hero__inner { display: grid; grid-template-columns: 1.3fr 0.7fr; gap: 2rem; align-items: center; }
+  .cj-hero__eyebrow { display: inline-block; font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-accent-hover); font-weight: 700; margin-bottom: 0.6rem; }
+  .cj-hero__title { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.04; margin: 0 0 0.8rem; font-weight: 800; }
+  .cj-hero__title em { color: var(--color-accent-hover); font-style: normal; }
+  .cj-hero__lede { font-size: 1.02rem; color: var(--color-text-muted); max-width: 46ch; margin: 0; }
+  .cj-hero__poster { display: block; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--color-border); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+  .cj-hero__poster img { display: block; width: 100%; height: auto; }
+
+  .cj-main { padding: 2.4rem 0 1rem; }
+  .cj-article { max-width: 760px; }
+  .cj-article p { font-size: 1.06rem; line-height: 1.72; color: var(--color-text); margin: 0 0 1.25rem; }
+  .cj-lead { font-size: 1.2rem !important; line-height: 1.6 !important; color: var(--color-text) !important; font-weight: 500; }
+  .cj-signoff { text-align: center; color: var(--color-accent-hover); font-size: 1.25rem !important; letter-spacing: 0.08em; margin-top: 2rem !important; padding-top: 1.5rem; border-top: 1px solid var(--color-border); }
+
+  .cj-figure { margin: 2rem 0; }
+  .cj-figure a { display: block; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--color-border); }
+  .cj-figure img { display: block; width: 100%; height: auto; }
+  .cj-figure figcaption { margin-top: 0.6rem; font-size: 0.85rem; color: var(--color-text-dim); text-align: center; }
+
+  .cj-interviews { margin-top: 2.5rem; padding: 2.6rem 0 3.2rem; background: var(--color-bg-section); border-top: 1px solid var(--color-border); }
+  .cj-interviews__head { text-align: center; max-width: 640px; margin: 0 auto 1.8rem; }
+  .cj-interviews__title { font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0 0 0.3rem; font-weight: 800; }
+  .cj-interviews__title em { color: var(--color-accent-hover); font-style: normal; }
+  .cj-interviews__sub { font-size: 1.25rem; color: var(--color-text); margin: 0 0 0.6rem; font-weight: 700; }
+  .cj-interviews__dek { color: var(--color-text-muted); margin: 0; }
+
+  .cj-promo { display: block; max-width: 760px; margin: 0 auto 2rem; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--color-border); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+  .cj-promo img { display: block; width: 100%; height: auto; }
+
+  .cj-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.1rem; }
+  .cj-card { background: var(--color-bg-elev); border: 1px solid var(--color-border); border-radius: var(--radius-lg); overflow: hidden; transition: border-color 0.15s ease, transform 0.15s ease; }
+  .cj-card:hover { border-color: var(--color-accent); transform: translateY(-2px); }
+  .cj-card img { display: block; width: 100%; height: auto; }
+  .cj-card__cap { padding: 0.7rem 0.85rem 0.85rem; display: flex; flex-direction: column; gap: 0.15rem; }
+  .cj-card__band { font-weight: 700; font-size: 1rem; }
+  .cj-card__meta { font-size: 0.8rem; color: var(--color-text-dim); }
+
+  .cj-interviews__foot { text-align: center; margin: 2rem 0 0; }
+  .cj-interviews__foot a { color: var(--color-accent-hover); font-weight: 700; text-decoration: none; }
+  .cj-interviews__foot a:hover { text-decoration: underline; }
+
+  @media (max-width: 720px) {
+    .cj-hero__inner { grid-template-columns: 1fr; }
+    .cj-hero__poster { max-width: 360px; }
+  }
+</style>
