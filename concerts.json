@@ -1,25 +1,6 @@
 {
-  "generatedAt": "2026-11-18T07:01:30.972Z",
+  "generatedAt": "2026-11-19T07:01:00.488Z",
   "entries": [
-    {
-      "id": "86bc05hf9",
-      "name": "Mason Hill @ Downstairs at The Dome — London, UK — Nov 18 2026",
-      "date": "2026-11-18",
-      "venue": "Downstairs at The Dome",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "Mason Hill"
-      ],
-      "description": "Scottish hard rockers Mason Hill play Downstairs at The Dome. Special guests TBA. Presented by Action! in association with TKO.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc05hf9",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
     {
       "id": "86bd1pumk",
       "name": "Bleeth + Ramtha + Future Forms @ The Potion Portal — Miami, FL — Nov 20 2026",
@@ -1644,6 +1625,26 @@
       ]
     },
     {
+      "id": "86bd4yf4n",
+      "name": "The Casualties @ Churchill's Pub — Miami, FL — Dec 9 2026",
+      "date": "2026-12-09",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "The Casualties"
+      ],
+      "description": "NYC street-punk lifers The Casualties bring their \"People Over Power\" tour to Churchill's, three nights after the Conduit stop.",
+      "ticketUrl": "https://www.ticketweb.com/event/the-casualites-people-over-power-churchills-pub-tickets/14328894",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf4n",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc05hmc",
       "name": "Half Me @ Downstairs at The Dome — London, UK — Dec 9 2026",
       "date": "2026-12-09",
@@ -2066,6 +2067,28 @@
       ]
     },
     {
+      "id": "86bd4yf4w",
+      "name": "D.R.I. + Authors of Fate + Swift Knuckle Solution @ Conduit — Winter Park (Orlando), FL — Dec 13 2026",
+      "date": "2026-12-13",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "D.R.I.",
+        "Authors of Fate",
+        "Swift Knuckle Solution"
+      ],
+      "description": "Crossover-thrash originators D.R.I. hit Conduit with Authors of Fate, Swift Knuckle Solution and more.",
+      "ticketUrl": "https://www.ticketweb.com/event/dri-authors-of-fate-swift-conduit-tickets/14451044",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf4w",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc4729j",
       "name": "Brotality @ Will's Pub — Orlando, FL — Dec 13 2026",
       "date": "2026-12-13",
@@ -2431,6 +2454,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bcmjvbc",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd4yf4y",
+      "name": "The Bunny The Bear + Dot Dot Curve + Player Vs Environment @ Conduit — Winter Park (Orlando), FL — Dec 19 2026",
+      "date": "2026-12-19",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "The Bunny The Bear",
+        "Dot Dot Curve",
+        "Player Vs Environment"
+      ],
+      "description": "Post-hardcore oddballs The Bunny The Bear headline Conduit with Dot Dot Curve and Player Vs Environment.",
+      "ticketUrl": "https://www.ticketweb.com/event/the-bunny-the-bear-dot-conduit-tickets/14451424",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf4y",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3023,6 +3068,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bc472kh",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yf53",
+      "name": "Des Rocs @ Conduit — Winter Park (Orlando), FL — Jan 20 2027",
+      "date": "2027-01-20",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Des Rocs"
+      ],
+      "description": "Des Rocs brings the \"To Hell and Back\" tour to Conduit.",
+      "ticketUrl": "https://www.ticketweb.com/event/des-rocs-to-hell-and-conduit-tickets/14367134",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf53",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -3993,6 +4058,23 @@
       ]
     },
     {
+      "id": "86bd4yf56",
+      "name": "📀 League of Distortion — Sick Of Bullshit — RELEASE — Feb 26 2027",
+      "date": "2027-02-26",
+      "venue": "Sick Of Bullshit — RELEASE",
+      "bands": [
+        "League of Distortion"
+      ],
+      "description": "League of Distortion return with new studio album Sick Of Bullshit on Napalm Records, out February 26, 2027. Lead single \"Animal\" and its official music video are out now.",
+      "priority": "normal",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf56",
+      "buckets": [
+        "album-releases"
+      ]
+    },
+    {
       "id": "86bd325hu",
       "name": "William Shatner and The *uckers @ Ferg's Pavilion — St. Petersburg, FL — Feb 27 2027",
       "date": "2027-02-27",
@@ -4159,6 +4241,28 @@
       ]
     },
     {
+      "id": "86bd4yf9h",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Middle East Downstairs — Boston, MA — Mar 10 2027",
+      "date": "2027-03-10",
+      "venue": "Middle East Downstairs",
+      "city": "Boston",
+      "state": "MA",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Middle East Downstairs, Boston, MA. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source:…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9h",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc4yu1t",
       "name": "Eluveitie + Nini Music + Illumishade @ Warehouse Live Midtown — Houston, TX — Mar 10 2027",
       "date": "2027-03-10",
@@ -4202,6 +4306,28 @@
       ]
     },
     {
+      "id": "86bd4yf9j",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Salle Montaigne — Quebec City, QC — Mar 11 2027",
+      "date": "2027-03-11",
+      "venue": "Salle Montaigne",
+      "city": "Quebec City",
+      "state": "QC",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Salle Montaigne, Quebec City, QC. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9j",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc4yu47",
       "name": "Eluveitie + Nini Music + Illumishade @ Granada Theater — Dallas, TX — Mar 11 2027",
       "date": "2027-03-11",
@@ -4219,6 +4345,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bc4yu47",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd4yf9k",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Le Studio TD — Montreal, QC — Mar 12 2027",
+      "date": "2027-03-12",
+      "venue": "Le Studio TD",
+      "city": "Montreal",
+      "state": "QC",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Le Studio TD, Montreal, QC. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9k",
       "buckets": [
         "japanese-metal"
       ]
@@ -4264,6 +4412,48 @@
       ]
     },
     {
+      "id": "86bd4yf41",
+      "name": "Dying Fetus + Cryptopsy @ Conduit — Winter Park (Orlando), FL — Mar 13 2027",
+      "date": "2027-03-13",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Dying Fetus",
+        "Cryptopsy"
+      ],
+      "description": "Dying Fetus bring an intimate, old-school-focused 2027 U.S. run to Conduit, leaning on songs from their earliest records, with Canadian tech-death legends Cryptopsy in support (another opener TBA).",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf41",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yf9p",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Overflow — Ottawa, ON — Mar 13 2027",
+      "date": "2027-03-13",
+      "venue": "Overflow",
+      "city": "Ottawa",
+      "state": "ON",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Overflow, Ottawa, ON. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9p",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbu78uf",
       "name": "VNV Nation @ The Orpheum — Tampa, FL — Mar 13 2027",
       "date": "2027-03-13",
@@ -4302,6 +4492,48 @@
       ]
     },
     {
+      "id": "86bd4yf4e",
+      "name": "Dying Fetus + Cryptopsy @ The Orpheum — Tampa, FL — Mar 14 2027",
+      "date": "2027-03-14",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Dying Fetus",
+        "Cryptopsy"
+      ],
+      "description": "Dying Fetus close out the Florida leg of their stripped-down 2027 U.S. tour at The Orpheum, focusing on their earliest material, with Cryptopsy in support (another opener TBA).",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf4e",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yf9r",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Lee's Palace — Toronto, ON — Mar 14 2027",
+      "date": "2027-03-14",
+      "venue": "Lee's Palace",
+      "city": "Toronto",
+      "state": "ON",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Lee's Palace, Toronto, ON. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9r",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bbu78jr",
       "name": "Polyphia @ Jannus Live — St. Petersburg, FL — Mar 14 2027",
       "date": "2027-03-14",
@@ -4318,6 +4550,50 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu78jr",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yf9u",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ The Sanctuary Music Center — Detroit, MI — Mar 15 2027",
+      "date": "2027-03-15",
+      "venue": "The Sanctuary Music Center",
+      "city": "Detroit",
+      "state": "MI",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. The Sanctuary Music Center, Detroit, MI. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source:…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9u",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd4yf9v",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Reggies — Chicago, IL — Mar 16 2027",
+      "date": "2027-03-16",
+      "venue": "Reggies",
+      "city": "Chicago",
+      "state": "IL",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Reggies, Chicago, IL. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9v",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4380,6 +4656,28 @@
       ]
     },
     {
+      "id": "86bd4yf9w",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Pyramid Cabaret — Winnipeg, MB — Mar 19 2027",
+      "date": "2027-03-19",
+      "venue": "Pyramid Cabaret",
+      "city": "Winnipeg",
+      "state": "MB",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Pyramid Cabaret, Winnipeg, MB. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9w",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc6twc1",
       "name": "Nile + Coroner + Syn Absence @ The Whisky — Los Angeles, CA — Mar 20 2027",
       "date": "2027-03-20",
@@ -4402,6 +4700,50 @@
       ]
     },
     {
+      "id": "86bd4yf9x",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Starlite Room — Edmonton, AB — Mar 21 2027",
+      "date": "2027-03-21",
+      "venue": "Starlite Room",
+      "city": "Edmonton",
+      "state": "AB",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Starlite Room, Edmonton, AB. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9x",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd4yfa0",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Rickshaw Theatre — Vancouver, BC — Mar 23 2027",
+      "date": "2027-03-23",
+      "venue": "Rickshaw Theatre",
+      "city": "Vancouver",
+      "state": "BC",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Rickshaw Theatre, Vancouver, BC. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfa0",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86baaae33",
       "name": "Yuja Wang (piano) — Knight Concert Hall, Arsht Center, Miami FL",
       "date": "2027-03-23",
@@ -4418,6 +4760,28 @@
       "clickupUrl": "https://app.clickup.com/t/86baaae33",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yfa1",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ El Corazon — Seattle, WA — Mar 24 2027",
+      "date": "2027-03-24",
+      "venue": "El Corazon",
+      "city": "Seattle",
+      "state": "WA",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. El Corazon, Seattle, WA. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfa1",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4440,6 +4804,127 @@
       "clickupUrl": "https://app.clickup.com/t/86bd3myn9",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4ybg8",
+      "name": "Uriah Heep @ Ponte Vedra Concert Hall — Ponte Vedra Beach, FL — Mar 25 2027",
+      "date": "2027-03-25",
+      "venue": "Ponte Vedra Concert Hall",
+      "city": "Ponte Vedra Beach",
+      "state": "FL",
+      "bands": [
+        "Uriah Heep"
+      ],
+      "description": "Fifty-six years in, Uriah Heep are calling it — \"The Magician's Farewell,\" 28 North American dates Feb 17 → Mar 27 2027, and the tour closes with a three-night Florida swing. This is the first of the three: Jacksonville-area, the night before Orlando and two before the…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4ybg8",
+      "buckets": []
+    },
+    {
+      "id": "86bd4yfa2",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Hawthorne Theatre — Portland, OR — Mar 25 2027",
+      "date": "2027-03-25",
+      "venue": "Hawthorne Theatre",
+      "city": "Portland",
+      "state": "OR",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Hawthorne Theatre, Portland, OR. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfa2",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd4ybgu",
+      "name": "Uriah Heep @ The Plaza Live — Orlando, FL — Mar 26 2027",
+      "date": "2027-03-26",
+      "venue": "The Plaza Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Uriah Heep"
+      ],
+      "description": "The I-4 date on Uriah Heep's \"Magician's Farewell\" — 28 North American shows Feb 17 → Mar 27 2027, ending with three straight Florida nights. Same night Clutch + C.O.C. play House of Blues (already tracked), so Orlando has a choice to make: the stoner-riff bill or the band that…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4ybgu",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yfa3",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ DNA Lounge — San Francisco, CA — Mar 26 2027",
+      "date": "2027-03-26",
+      "venue": "DNA Lounge",
+      "city": "San Francisco",
+      "state": "CA",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. DNA Lounge, San Francisco, CA. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfa3",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd4ybh0",
+      "name": "Uriah Heep @ Bilheimer Capitol Theatre — Clearwater, FL — Mar 27 2027",
+      "date": "2027-03-27",
+      "venue": "Bilheimer Capitol Theatre",
+      "city": "Clearwater",
+      "state": "FL",
+      "bands": [
+        "Uriah Heep"
+      ],
+      "description": "The last night of Uriah Heep's North American farewell. \"The Magician's Farewell\" runs 28 dates Feb 17 → Mar 27 2027 and ends here, in downtown Clearwater's Capitol Theatre — the final North American show on the books for a band that's been at it since 1969.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4ybh0",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yfa6",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Whisky a Go Go — West Hollywood, CA — Mar 27 2027",
+      "date": "2027-03-27",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise plays its hometown Sunset Strip room on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Whisky a Go Go, West Hollywood, CA. Tickets on sale Fri Nov 20…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfa6",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4504,6 +4989,28 @@
       ]
     },
     {
+      "id": "86bd4yfa7",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Nile Theater — Mesa, AZ — Mar 30 2027",
+      "date": "2027-03-30",
+      "venue": "Nile Theater",
+      "city": "Mesa",
+      "state": "AZ",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Nile Theater, Mesa, AZ. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfa7",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bd4b3f5",
       "name": "Thrown + Guilt Trip + Fromjoy @ The Beacham — Orlando, FL — Apr 2 2027",
       "date": "2027-04-01",
@@ -4522,6 +5029,50 @@
       "clickupUrl": "https://app.clickup.com/t/86bd4b3f5",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yfa9",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Federal Theater — Denver, CO — Apr 1 2027",
+      "date": "2027-04-01",
+      "venue": "Federal Theater",
+      "city": "Denver",
+      "state": "CO",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Federal Theater, Denver, CO. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfa9",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd4yfaa",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Warehouse on Broadway — Kansas City, MO — Apr 2 2027",
+      "date": "2027-04-02",
+      "venue": "Warehouse on Broadway",
+      "city": "Kansas City",
+      "state": "MO",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Warehouse on Broadway, Kansas City, MO. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source:…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfaa",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4545,6 +5096,94 @@
       ]
     },
     {
+      "id": "86bd4yfb5",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Trees — Dallas, TX — Apr 3 2027",
+      "date": "2027-04-03",
+      "venue": "Trees",
+      "city": "Dallas",
+      "state": "TX",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Trees, Dallas, TX. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfb5",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd4yfb8",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Come and Take It Live — Austin, TX — Apr 4 2027",
+      "date": "2027-04-04",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Come and Take It Live, Austin, TX. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source:…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfb8",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd4yfba",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ The Masquerade — Atlanta, GA — Apr 6 2027",
+      "date": "2027-04-06",
+      "venue": "The Masquerade",
+      "city": "Atlanta",
+      "state": "GA",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. The Masquerade, Atlanta, GA — the closest stop to Florida on this run. Tickets on sale Fri…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfba",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd4yfbc",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Chapel of Bones — Raleigh, NC — Apr 7 2027",
+      "date": "2027-04-07",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "state": "NC",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Chapel of Bones, Raleigh, NC. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfbc",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc2zkce",
       "name": "The Psychedelic Furs + Living Colour @ The Moon — Tallahassee, FL — Apr 7 2027",
       "date": "2027-04-07",
@@ -4563,6 +5202,67 @@
       "clickupUrl": "https://app.clickup.com/t/86bc2zkce",
       "buckets": [
         "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd54vvv",
+      "name": "JUPITER @ Epic Fest — Roskilde, Denmark — Apr 9-10 2027",
+      "date": "2027-04-08",
+      "venue": "Epic Fest",
+      "city": "Roskilde",
+      "country": "Denmark — Apr 9-10 2027",
+      "bands": [
+        "JUPITER"
+      ],
+      "description": "Confirmed for Epic Fest 2027 (Roskilde), part of their European tour. Melodic metal formed by ex-Versailles members. Exact day/stage TBA. Festival Apr 9–10.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd54vvv",
+      "buckets": [
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd54vvq",
+      "name": "HAGANE @ Epic Fest — Roskilde, Denmark — Apr 9 2027",
+      "date": "2027-04-08",
+      "venue": "Epic Fest",
+      "city": "Roskilde",
+      "country": "Denmark",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "Opens the main stage Friday Apr 9 at Epic Fest 2027 (Chapter 5), Roskilde. Their second year at the festival, kicking off a 2027 EU run. Napalm Records. We interviewed HAGANE in Kawasaki Nov 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd54vvq",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd4yfbj",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Baltimore Soundstage — Baltimore, MD — Apr 8 2027",
+      "date": "2027-04-08",
+      "venue": "Baltimore Soundstage",
+      "city": "Baltimore",
+      "state": "MD",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Baltimore Soundstage, Baltimore, MD. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source:…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfbj",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4628,6 +5328,28 @@
       "buckets": []
     },
     {
+      "id": "86bd4yfbn",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Space Ballroom — Hamden, CT — Apr 10 2027",
+      "date": "2027-04-10",
+      "venue": "Space Ballroom",
+      "city": "Hamden",
+      "state": "CT",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Space Ballroom, Hamden, CT. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfbn",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc2zkcm",
       "name": "The Psychedelic Furs + Living Colour @ Fillmore Miami Beach — Miami Beach, FL — Apr 10 2027",
       "date": "2027-04-10",
@@ -4649,6 +5371,28 @@
       ]
     },
     {
+      "id": "86bd4yfbv",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Gramercy Theatre — New York, NY — Apr 11 2027",
+      "date": "2027-04-11",
+      "venue": "Gramercy Theatre",
+      "city": "New York",
+      "state": "NY",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Gramercy Theatre, New York, NY. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yfbv",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bc2zkdk",
       "name": "The Psychedelic Furs + Living Colour @ Hard Rock Live — Orlando, FL — Apr 11 2027",
       "date": "2027-04-11",
@@ -4667,6 +5411,44 @@
       "clickupUrl": "https://app.clickup.com/t/86bc2zkdk",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd54vvz",
+      "name": "HAGANE @ Lido — Berlin, Germany — Apr 13 2027",
+      "date": "2027-04-12",
+      "venue": "Lido",
+      "city": "Berlin",
+      "country": "Germany",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE 2027 EU headline run (after Epic Fest). Napalm Records. We interviewed them Nov 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd54vvz",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd54vw1",
+      "name": "HAGANE @ Markthalle — Hamburg, Germany — Apr 14 2027",
+      "date": "2027-04-13",
+      "venue": "Markthalle",
+      "city": "Hamburg",
+      "country": "Germany",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE 2027 EU headline run. Napalm Records. We interviewed them Nov 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd54vw1",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4728,6 +5510,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bc2zkep",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd54vw3",
+      "name": "HAGANE @ Club Volta — Köln, Germany — Apr 16 2027",
+      "date": "2027-04-15",
+      "venue": "Club Volta",
+      "city": "Köln",
+      "country": "Germany",
+      "bands": [
+        "HAGANE"
+      ],
+      "description": "HAGANE 2027 EU headline run. Napalm Records. We interviewed them Nov 2026.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd54vw3",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -5258,6 +6059,65 @@
       ]
     },
     {
+      "id": "86bd54vun",
+      "name": "EMNW @ Download Festival — Donington, UK — Jun 9-13 2027",
+      "date": "2027-06-08",
+      "venue": "Download Festival",
+      "city": "Donington",
+      "country": "UK — Jun 9-13 2027",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "Confirmed in Download 2027 first wave (Nov 2026). Nu-metal duo. Japanese act abroad. Festival runs Jun 9–13, Donington Park.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd54vun",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd54vuc",
+      "name": "Paledusk @ Download Festival — Donington, UK — Jun 9-13 2027",
+      "date": "2027-06-08",
+      "venue": "Download Festival",
+      "city": "Donington",
+      "country": "UK — Jun 9-13 2027",
+      "bands": [
+        "Paledusk"
+      ],
+      "description": "Confirmed in Download 2027 first wave (Nov 2026). Fukuoka experi-metal. Japanese act abroad. Festival runs Jun 9–13, Donington Park.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd54vuc",
+      "buckets": [
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd54vu9",
+      "name": "HANABIE. @ Download Festival — Donington, UK — Jun 9-13 2027",
+      "date": "2027-06-08",
+      "venue": "Download Festival",
+      "city": "Donington",
+      "country": "UK — Jun 9-13 2027",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "Confirmed in Download 2027 first wave (announced Nov 12 2026). Harajuku-core. Japanese act abroad. Festival runs Jun 9–13, Donington Park.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd54vu9",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
+      ]
+    },
+    {
       "id": "86bcrmhk0",
       "name": "Def Leppard + Goo Goo Dolls @ Benchmark International Arena — Tampa, FL — Jun 13 2027",
       "date": "2027-06-13",
@@ -5276,6 +6136,82 @@
       "clickupUrl": "https://app.clickup.com/t/86bcrmhk0",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd54vvg",
+      "name": "NOCTURNAL BLOODLUST @ Resurrection Fest — Viveiro, Spain — Jun 30-Jul 3 2027",
+      "date": "2027-06-29",
+      "venue": "Resurrection Fest",
+      "city": "Viveiro",
+      "country": "Spain — Jun 30",
+      "bands": [
+        "NOCTURNAL BLOODLUST"
+      ],
+      "description": "Confirmed in Resurrection Fest 2027 first wave (Nov 2026). Metalcore. Japanese act abroad. Festival runs Jun 30–Jul 3, Viveiro.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd54vvg",
+      "buckets": [
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd54vv8",
+      "name": "DAMNED @ Resurrection Fest — Viveiro, Spain — Jun 30-Jul 3 2027",
+      "date": "2027-06-29",
+      "venue": "Resurrection Fest",
+      "city": "Viveiro",
+      "country": "Spain — Jun 30",
+      "bands": [
+        "DAMNED"
+      ],
+      "description": "Confirmed in Resurrection Fest 2027 first wave (Nov 2026). Visual kei metalcore. Japanese act abroad. Festival runs Jun 30–Jul 3, Viveiro.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd54vv8",
+      "buckets": [
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd54vv0",
+      "name": "coldrain @ Resurrection Fest — Viveiro, Spain — Jun 30-Jul 3 2027",
+      "date": "2027-06-29",
+      "venue": "Resurrection Fest",
+      "city": "Viveiro",
+      "country": "Spain — Jun 30",
+      "bands": [
+        "coldrain"
+      ],
+      "description": "Confirmed in Resurrection Fest 2027 (72-band first wave, Nov 5 2026). Their only Spain show in 2027. Nagoya post-hardcore. Festival runs Jun 30–Jul 3, Viveiro.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd54vv0",
+      "buckets": [
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd54vuu",
+      "name": "EMNW @ Provinssi — Seinäjoki, Finland — Jul 1-3 2027",
+      "date": "2027-06-30",
+      "venue": "Provinssi",
+      "city": "Seinäjoki",
+      "country": "Finland — Jul 1-3 2027",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "Confirmed for Provinssi 2027 (Finland), Jul 1–3. Nu-metal duo. Japanese act abroad.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd54vuu",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
