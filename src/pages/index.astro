@@ -196,6 +196,18 @@ const lastUpdated = data.generatedAt
     </div>
   </section>
 
+  <a class="feat-review" href="/chasing-japan">
+    <div class="container feat-review__inner">
+      <img class="feat-review__art" src="/japan/poster-square.jpg" alt="The Music Cities Tour Japan 2026 poster" width="480" height="480" loading="eager" />
+      <div class="feat-review__text">
+        <span class="feat-review__eyebrow">Field Trip · Tour Japan 2026</span>
+        <h2 class="feat-review__title">Chasing Japan's <em>Heavy Sound</em></h2>
+        <p class="feat-review__dek">Twelve days, six cities, three live houses and seven interviews chasing what makes a heavy music scene work. The full field report, with the interviews landing soon.</p>
+        <span class="feat-review__cta">Read the wrap →</span>
+      </div>
+    </div>
+  </a>
+
   <a class="feat-review" href="/reviews/arch-enemy">
     <div class="container feat-review__inner">
       <img class="feat-review__art" src="/assets/reviews/arch-enemy/lead.jpg" alt="Arch Enemy on stage at Jannus Live, St. Petersburg" width="480" height="480" loading="eager" />
@@ -227,25 +239,6 @@ const lastUpdated = data.generatedAt
       </a>
     </div>
   </div>
-
-  <section class="field-trip-strip">
-    <div class="container">
-      <header class="field-trips__header">
-        <span class="field-trips__eyebrow">Field Trips</span>
-        <p class="field-trips__sub">Where we have been. Two weeks across Japan this November: seven interviews and four metal show nights from Tokyo to Kawasaki.</p>
-      </header>
-      <div class="field-trips__stack">
-        {fieldTrips.map((trip) => (
-          <a href={trip.href} class="field-trip-strip__link">
-            <span class="field-trip-strip__eyebrow">Field Trip</span>
-            <h2 class="field-trip-strip__title" set:html={trip.titleHtml}></h2>
-            <p class="field-trip-strip__sub">{trip.sub}</p>
-            <span class="field-trip-strip__cta">{trip.cta}</span>
-          </a>
-        ))}
-      </div>
-    </div>
-  </section>
 
   {dontMiss.length > 0 ? (
     <section class="dont-miss">
@@ -328,6 +321,10 @@ const lastUpdated = data.generatedAt
   <VideoStrip title="Music Cities Radio" videos={radioLongform.slice(0, 3)} channelBadge="Radio" />
   <VideoStrip title="Performance Shorts" videos={radioShorts.slice(0, 6)} channelBadge="Radio" layout="scroll" />
 
+  <section class="shirt-travels container">
+    <img class="shirt-travels__img" src="/japan/shirt-travels.jpg" alt="The shirt travels: bands across Japan, Europe and the US holding The Music Cities shirt" width="1600" height="1600" loading="lazy" />
+  </section>
+
   <Footer />
 </BaseLayout>
 
@@ -392,4 +389,6 @@ const lastUpdated = data.generatedAt
   .feat-now__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0.75rem 1.5rem; }
   .feat-now__list .feat-secondary__link { flex: initial; }
   @media (max-width: 600px) { .feat-review__art { width: 88px; height: 88px; } }
+  .shirt-travels { padding: 2rem 0 0.5rem; }
+  .shirt-travels__img { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid #262626; }
 </style>
