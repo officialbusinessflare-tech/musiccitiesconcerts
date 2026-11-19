@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-18T07:01:40.388Z",
+  "fetchedAt": "2026-11-19T07:01:12.507Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
-      "subscriberCount": 155000,
-      "videoCount": 322,
+      "subscriberCount": 156000,
+      "videoCount": 324,
       "recentLongform": [
         {
           "id": "R7cRcFSKi5s",
@@ -445,82 +445,77 @@
           },
           "duration": "PT6M26S",
           "durationSeconds": 386
-        },
-        {
-          "id": "WelZpW1ellE",
-          "title": "Nini Music | East Coast Tour",
-          "publishedAt": "2026-10-07T04:02:18Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/WelZpW1ellE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/WelZpW1ellE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/WelZpW1ellE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/WelZpW1ellE/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/WelZpW1ellE/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M23S",
-          "durationSeconds": 83
-        },
-        {
-          "id": "4syuJC_shzY",
-          "title": "Rolling Quartz | Delight | Austin Soundcheck 2026",
-          "publishedAt": "2026-10-07T01:30:57Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/4syuJC_shzY/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/4syuJC_shzY/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/4syuJC_shzY/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/4syuJC_shzY/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/4syuJC_shzY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/4syuJC_shzY/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
-            }
-          },
-          "duration": "PT4M45S",
-          "durationSeconds": 285
         }
       ],
       "recentShorts": [
+        {
+          "id": "zu8f84nuUxw",
+          "title": "HAGANE: First Worldwide Album, First European Tour",
+          "publishedAt": "2026-11-19T06:32:44Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/zu8f84nuUxw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/zu8f84nuUxw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/zu8f84nuUxw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/zu8f84nuUxw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/zu8f84nuUxw/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT46S",
+          "durationSeconds": 46
+        },
+        {
+          "id": "aAWByH_fm_M",
+          "title": "Sally: Why Japan Has So Many Technical Guitarists",
+          "publishedAt": "2026-11-18T19:07:58Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/aAWByH_fm_M/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/aAWByH_fm_M/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/aAWByH_fm_M/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/aAWByH_fm_M/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/aAWByH_fm_M/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT58S",
+          "durationSeconds": 58
+        },
         {
           "id": "jd7TmYEwA0s",
           "title": "BRIDEAR: More Loved Than We Knew | 想像以上に愛されていた",
