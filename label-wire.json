@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T13:10:17.000Z",
+  "generatedAt": "2026-11-19T16:26:52.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -56,9 +56,56 @@
     {
       "id": "blacklodge",
       "name": "Black Lodge Records"
+    },
+    {
+      "id": "tankcrimes",
+      "name": "Tankcrimes",
+      "url": "http://www.tankcrimes.com"
     }
   ],
   "entries": [
+    {
+      "kind": "send",
+      "date": "2026-11-19",
+      "label": "napalm",
+      "artist": "ANGELUS APATRIDA",
+      "headline": "Spanish thrash metal heavyweights release the new single \"Burn It Down\" with official music video from The Reckoning EP, their first release on Napalm Records, out November 19, 2026.",
+      "type": "EP",
+      "releaseDate": "2026-11-19"
+    },
+    {
+      "kind": "send",
+      "date": "2026-11-19",
+      "label": "napalm",
+      "artist": "SELF DECEPTION",
+      "headline": "Swedish metalcore and modern rock band releases the official music video for \"GODDAMN ME\" from the album One Of Us, ahead of a UK and European co-headline tour with Ankor starting November 27.",
+      "type": "Video"
+    },
+    {
+      "kind": "send",
+      "date": "2026-11-18",
+      "label": "napalm",
+      "artist": "LEAGUE OF DISTORTION",
+      "headline": "German modern metal band announces third album Sick Of Bullshit, out February 26, 2027, and releases the new single \"Animal\" with official music video.",
+      "type": "Album",
+      "releaseDate": "2027-02-26"
+    },
+    {
+      "kind": "send",
+      "date": "2026-11-18",
+      "label": "tankcrimes",
+      "artist": "CROSSSPITTER",
+      "headline": "Pennsylvania death metal trio signs with Tankcrimes and releases the self-titled single \"Crossspitter,\" also out as a limited lathe-cut 7 inch.",
+      "type": "Single"
+    },
+    {
+      "kind": "send",
+      "date": "2026-11-17",
+      "label": "napalm",
+      "artist": "SUBWAY TO SALLY",
+      "headline": "German folk metal giants release \"We Will Folk You\" featuring Fiddler's Green and Manntra, ahead of the Eisheilige Nacht tour starting December 11, 2026.",
+      "type": "Single"
+    },
     {
       "kind": "send",
       "date": "2026-11-12",
@@ -472,6 +519,15 @@
       "headline": "Metalcore icons return with their self-titled studio album, led by the single \"The Cost To Stay.\"",
       "type": "Album",
       "releaseDate": "2027-02-05"
+    },
+    {
+      "kind": "pick",
+      "date": "2027-02-26",
+      "label": "napalm",
+      "artist": "LEAGUE OF DISTORTION",
+      "headline": "Third studio album Sick Of Bullshit, led by the single \"Animal.\"",
+      "type": "Album",
+      "releaseDate": "2027-02-26"
     },
     {
       "kind": "pick",
