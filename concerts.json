@@ -1,128 +1,6 @@
 {
-  "generatedAt": "2026-11-19T07:01:00.488Z",
+  "generatedAt": "2026-11-20T07:01:03.494Z",
   "entries": [
-    {
-      "id": "86bd1pumk",
-      "name": "Bleeth + Ramtha + Future Forms @ The Potion Portal — Miami, FL — Nov 20 2026",
-      "date": "2026-11-19",
-      "venue": "The Potion Portal",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Bleeth",
-        "Ramtha",
-        "Future Forms"
-      ],
-      "description": "Miami's Bleeth bring their Cuban-flavored noise-rock to The Potion Portal, with support from Tampa Bay extreme-metal and hardcore act Ramtha and Gainesville hardcore-punk outfit Future Forms. Friday, November 20, 2026.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd1pumk",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bc05hh6",
-      "name": "Youth of Today + Cosmic Joke + Supernova @ The Dome — London, UK — Nov 19 2026",
-      "date": "2026-11-19",
-      "venue": "The Dome",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "Youth of Today",
-        "Cosmic Joke",
-        "Supernova"
-      ],
-      "description": "Hardcore legends Youth of Today headline The Dome, Tufnell Park. Full lineup: Youth of Today, Cosmic Joke, Supernova, Bad Beat. Presented by Real Life and Be Sharp.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc05hh6",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbtbrrm",
-      "name": "Corrosion of Conformity + The Sword @ Vinyl Music Hall — Pensacola, FL — Nov 19 2026",
-      "date": "2026-11-19",
-      "venue": "Vinyl Music Hall",
-      "city": "Pensacola",
-      "state": "FL",
-      "bands": [
-        "Corrosion of Conformity",
-        "The Sword"
-      ],
-      "description": "Co-headline run with Hippie Death Cult opening. Announced late August; this is the tour closer and the only Florida stop — panhandle, so a longer haul than the usual I-4 corridor dates.",
-      "ticketUrl": "https://theobelisk.net/obelisk/2026/08/26/corrosion-of-conformity-co-headline-with-the-sword/",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbtbrrm",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbmte83",
-      "name": "Earshot + The Lonely Ones @ The Banyan Live — West Palm Beach, FL — Nov 19 2026",
-      "date": "2026-11-19",
-      "venue": "The Banyan Live",
-      "city": "West Palm Beach",
-      "state": "FL",
-      "bands": [
-        "Earshot",
-        "The Lonely Ones"
-      ],
-      "description": "Bands: Earshot, The Lonely Ones\nVenue: The Banyan Live, West Palm Beach FL\nDate/time: Thu Nov 19 2026, doors 5 PM / show 5:30 PM · 18+\nTickets: on-sale pending — https://www.etix.com/ticket/p/71203615/earshot-and-the-lonely-ones-west-palm-beach-the-banyan-live",
-      "ticketUrl": "https://www.etix.com/ticket/p/71203615/earshot-and-the-lonely-ones-west-palm-beach-the-banyan-live",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbmte83",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbeb7ky",
-      "name": "SiM @ Marquee Theatre — Tempe, AZ — Nov 19 2026",
-      "date": "2026-11-19",
-      "venue": "Marquee Theatre",
-      "city": "Tempe",
-      "state": "AZ",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM — HOOMAN AFTER ALL world tour, North American leg. Tickets: https://tix.soundrink.com/tours/sim",
-      "ticketUrl": "https://tix.soundrink.com/tours/sim",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbeb7ky",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86ban5v76",
-      "name": "Armored Saint w/ Metal Church — Whisky a Go Go, West Hollywood CA",
-      "date": "2026-11-19",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "Armored Saint",
-        "Metal Church"
-      ],
-      "description": "Armored Saint w/ Metal Church — US power metal double bill, NWOBHM-adjacent / classic metal.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86ban5v76",
-      "buckets": []
-    },
     {
       "id": "86bc05h69",
       "name": "The Great NOLA Trendkill — Pantera + Down + Black Label Society @ Lakefront Arena — New Orleans, LA — Nov 20-21 2026",
@@ -242,28 +120,6 @@
       ]
     },
     {
-      "id": "86bd43q0q",
-      "name": "Obituary + Intoxicated + Must Not Kill @ Brass Mug — Tampa, FL — Nov 21 2026",
-      "date": "2026-11-21",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Obituary",
-        "Intoxicated",
-        "Must Not Kill"
-      ],
-      "description": "Tampa's Evil Ways Celebration — night one of Obituary's two-night Brass Mug homecoming, built around Xecutioner's Return (2007).",
-      "ticketUrl": "https://www.obituary.cc/tour",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd43q0q",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bcb0tut",
       "name": "BRIDEAR @ over fest 2026 — Tokyo, Japan — Nov 21 2026",
       "date": "2026-11-21",
@@ -364,23 +220,23 @@
       ]
     },
     {
-      "id": "86bd43q16",
-      "name": "Obituary + Mind Virus + Skull Crunch @ Brass Mug — Tampa, FL — Nov 22 2026",
-      "date": "2026-11-22",
+      "id": "86bd43q0q",
+      "name": "Obituary + Intoxicated + Must Not Kill @ Brass Mug — Tampa, FL — Nov 21 2026",
+      "date": "2026-11-21",
       "venue": "Brass Mug",
       "city": "Tampa",
       "state": "FL",
       "bands": [
         "Obituary",
-        "Mind Virus",
-        "Skull Crunch"
+        "Intoxicated",
+        "Must Not Kill"
       ],
-      "description": "Florida's Darkest Day Matinee — night two of Obituary's two-night Brass Mug homecoming, built around Darkest Day (2009).",
+      "description": "Tampa's Evil Ways Celebration — night one of Obituary's two-night Brass Mug homecoming, built around Xecutioner's Return (2007).",
       "ticketUrl": "https://www.obituary.cc/tour",
       "priority": "high",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd43q16",
+      "clickupUrl": "https://app.clickup.com/t/86bd43q0q",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -485,6 +341,28 @@
       "clickupUrl": "https://app.clickup.com/t/86baqty2q",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd43q16",
+      "name": "Obituary + Mind Virus + Skull Crunch @ Brass Mug — Tampa, FL — Nov 22 2026",
+      "date": "2026-11-22",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Obituary",
+        "Mind Virus",
+        "Skull Crunch"
+      ],
+      "description": "Florida's Darkest Day Matinee — night two of Obituary's two-night Brass Mug homecoming, built around Darkest Day (2009).",
+      "ticketUrl": "https://www.obituary.cc/tour",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd43q16",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -967,25 +845,6 @@
       ]
     },
     {
-      "id": "86bd43q1x",
-      "name": "1914 @ Downstairs at The Dome — London, UK — Dec 1 2026",
-      "date": "2026-12-01",
-      "venue": "Downstairs at The Dome",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "1914"
-      ],
-      "description": "1914 — The War That Never Ends, Winter 2026 Tour",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd43q1x",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
       "id": "86bc6twb7",
       "name": "Darkest Hour + Judiciary @ Come and Take It Live — Austin, TX — Dec 1 2026",
       "date": "2026-12-01",
@@ -1041,6 +900,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bbfk5pn",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd43q1x",
+      "name": "1914 @ Downstairs at The Dome — London, UK — Dec 1 2026",
+      "date": "2026-12-01",
+      "venue": "Downstairs at The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "1914"
+      ],
+      "description": "1914 — The War That Never Ends, Winter 2026 Tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd43q1x",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -1504,6 +1382,25 @@
       ]
     },
     {
+      "id": "86bd55pra",
+      "name": "The Casualties @ The Orpheum — Tampa, FL — Dec 8 2026",
+      "date": "2026-12-07",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "The Casualties"
+      ],
+      "description": "NYC street-punk veterans The Casualties bring the \"People Over Power\" tour to The Orpheum, two nights after the Conduit stop and a night before Churchill's. Bullshit Detector supports on the Florida run.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd55pra",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bb9w4j1",
       "name": "BABYMETAL @ Costa 21 — Lima, Peru — Dec 7 2026",
       "date": "2026-12-07",
@@ -1625,26 +1522,6 @@
       ]
     },
     {
-      "id": "86bd4yf4n",
-      "name": "The Casualties @ Churchill's Pub — Miami, FL — Dec 9 2026",
-      "date": "2026-12-09",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "The Casualties"
-      ],
-      "description": "NYC street-punk lifers The Casualties bring their \"People Over Power\" tour to Churchill's, three nights after the Conduit stop.",
-      "ticketUrl": "https://www.ticketweb.com/event/the-casualites-people-over-power-churchills-pub-tickets/14328894",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd4yf4n",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bc05hmc",
       "name": "Half Me @ Downstairs at The Dome — London, UK — Dec 9 2026",
       "date": "2026-12-09",
@@ -1679,6 +1556,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bc05h4h",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yf4n",
+      "name": "The Casualties @ Churchill's Pub — Miami, FL — Dec 9 2026",
+      "date": "2026-12-09",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "The Casualties"
+      ],
+      "description": "NYC street-punk lifers The Casualties bring their \"People Over Power\" tour to Churchill's, three nights after the Conduit stop.",
+      "ticketUrl": "https://www.ticketweb.com/event/the-casualites-people-over-power-churchills-pub-tickets/14328894",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf4n",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -1868,44 +1765,6 @@
       ]
     },
     {
-      "id": "86bd43q25",
-      "name": "Nile @ The Dome — London, UK — Dec 12 2026",
-      "date": "2026-12-12",
-      "venue": "The Dome",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "Nile"
-      ],
-      "description": "Nile — Underworld Europe Tour 2026",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd43q25",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bcbtf94",
-      "name": "Twisted Sister @ Ferg's Pavilion — St. Petersburg, FL — Dec 11 2026",
-      "date": "2026-12-12",
-      "venue": "Ferg's Pavilion",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Twisted Sister"
-      ],
-      "description": "Twisted Sister with Sebastian Bach (ex-Skid Row) fronting the band, Fall 2026 run. The only Florida date on the announced routing, at Ferg's Concert Pavilion in St. Petersburg.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcbtf94",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bcj3bt8",
       "name": "Nicko McBrain's Titanium Tart @ Rock N Roll Ribs — Coral Springs, FL — Dec 12 2026",
       "date": "2026-12-12",
@@ -2008,6 +1867,44 @@
       ]
     },
     {
+      "id": "86bd43q25",
+      "name": "Nile @ The Dome — London, UK — Dec 12 2026",
+      "date": "2026-12-12",
+      "venue": "The Dome",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Nile"
+      ],
+      "description": "Nile — Underworld Europe Tour 2026",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd43q25",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bcbtf94",
+      "name": "Twisted Sister @ Ferg's Pavilion — St. Petersburg, FL — Dec 11 2026",
+      "date": "2026-12-12",
+      "venue": "Ferg's Pavilion",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Twisted Sister"
+      ],
+      "description": "Twisted Sister with Sebastian Bach (ex-Skid Row) fronting the band, Fall 2026 run. The only Florida date on the announced routing, at Ferg's Concert Pavilion in St. Petersburg.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcbtf94",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bb9w585",
       "name": "HANABIE. @ Zepp Shinjuku — Tokyo, Japan — Dec 12 2026",
       "date": "2026-12-12",
@@ -2067,28 +1964,6 @@
       ]
     },
     {
-      "id": "86bd4yf4w",
-      "name": "D.R.I. + Authors of Fate + Swift Knuckle Solution @ Conduit — Winter Park (Orlando), FL — Dec 13 2026",
-      "date": "2026-12-13",
-      "venue": "Conduit",
-      "city": "Winter Park (Orlando)",
-      "state": "FL",
-      "bands": [
-        "D.R.I.",
-        "Authors of Fate",
-        "Swift Knuckle Solution"
-      ],
-      "description": "Crossover-thrash originators D.R.I. hit Conduit with Authors of Fate, Swift Knuckle Solution and more.",
-      "ticketUrl": "https://www.ticketweb.com/event/dri-authors-of-fate-swift-conduit-tickets/14451044",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd4yf4w",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bc4729j",
       "name": "Brotality @ Will's Pub — Orlando, FL — Dec 13 2026",
       "date": "2026-12-13",
@@ -2124,6 +1999,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbmteay",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yf4w",
+      "name": "D.R.I. + Authors of Fate + Swift Knuckle Solution @ Conduit — Winter Park (Orlando), FL — Dec 13 2026",
+      "date": "2026-12-13",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "D.R.I.",
+        "Authors of Fate",
+        "Swift Knuckle Solution"
+      ],
+      "description": "Crossover-thrash originators D.R.I. hit Conduit with Authors of Fate, Swift Knuckle Solution and more.",
+      "ticketUrl": "https://www.ticketweb.com/event/dri-authors-of-fate-swift-conduit-tickets/14451044",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf4w",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -2257,26 +2154,6 @@
       ]
     },
     {
-      "id": "86bd1pupj",
-      "name": "Rolling Quartz @ Hero Rock Festival 2026 — Incheon, South Korea — Dec 18 2026",
-      "date": "2026-12-17",
-      "venue": "Hero Rock Festival 2026",
-      "city": "Incheon",
-      "country": "South Korea",
-      "bands": [
-        "Rolling Quartz"
-      ],
-      "description": "Rolling Quartz play the 2026 Hero Rock Festival in Incheon, South Korea on December 18 — a bill bringing together Korean and international rock and metal (YB, Marty Friedman, and more across the weekend).",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd1pupj",
-      "buckets": [
-        "japanese-metal",
-        "key-festivals"
-      ]
-    },
-    {
       "id": "86bd325h6",
       "name": "Trailer + AS-33 + SOL @ Churchill's Pub — Miami, FL — Dec 17 2026",
       "date": "2026-12-17",
@@ -2296,6 +2173,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bd325h6",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd1pupj",
+      "name": "Rolling Quartz @ Hero Rock Festival 2026 — Incheon, South Korea — Dec 18 2026",
+      "date": "2026-12-17",
+      "venue": "Hero Rock Festival 2026",
+      "city": "Incheon",
+      "country": "South Korea",
+      "bands": [
+        "Rolling Quartz"
+      ],
+      "description": "Rolling Quartz play the 2026 Hero Rock Festival in Incheon, South Korea on December 18 — a bill bringing together Korean and international rock and metal (YB, Marty Friedman, and more across the weekend).",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd1pupj",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
       ]
     },
     {
@@ -2457,28 +2354,6 @@
       ]
     },
     {
-      "id": "86bd4yf4y",
-      "name": "The Bunny The Bear + Dot Dot Curve + Player Vs Environment @ Conduit — Winter Park (Orlando), FL — Dec 19 2026",
-      "date": "2026-12-19",
-      "venue": "Conduit",
-      "city": "Winter Park (Orlando)",
-      "state": "FL",
-      "bands": [
-        "The Bunny The Bear",
-        "Dot Dot Curve",
-        "Player Vs Environment"
-      ],
-      "description": "Post-hardcore oddballs The Bunny The Bear headline Conduit with Dot Dot Curve and Player Vs Environment.",
-      "ticketUrl": "https://www.ticketweb.com/event/the-bunny-the-bear-dot-conduit-tickets/14451424",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd4yf4y",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bbz59pj",
       "name": "HAGANE @ Sapporo SPiCE — Sapporo, Japan — Dec 19 2026",
       "date": "2026-12-19",
@@ -2514,6 +2389,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbuyjm5",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yf4y",
+      "name": "The Bunny The Bear + Dot Dot Curve + Player Vs Environment @ Conduit — Winter Park (Orlando), FL — Dec 19 2026",
+      "date": "2026-12-19",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "The Bunny The Bear",
+        "Dot Dot Curve",
+        "Player Vs Environment"
+      ],
+      "description": "Post-hardcore oddballs The Bunny The Bear headline Conduit with Dot Dot Curve and Player Vs Environment.",
+      "ticketUrl": "https://www.ticketweb.com/event/the-bunny-the-bear-dot-conduit-tickets/14451424",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf4y",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -2580,26 +2477,6 @@
       ]
     },
     {
-      "id": "86bd43q1q",
-      "name": "A Very Metal Christmas @ Culture Room — Fort Lauderdale, FL — Dec 26 2026",
-      "date": "2026-12-26",
-      "venue": "Culture Room",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "A Very Metal Christmas"
-      ],
-      "description": "A Very Metal Christmas at Culture Room.",
-      "ticketUrl": "https://www.cultureroom.net/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd43q1q",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bbz59r0",
       "name": "HAGANE @ Kanazawa EIGHT HALL — Kanazawa, Japan — Dec 26 2026",
       "date": "2026-12-26",
@@ -2637,6 +2514,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbwe8tg",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd43q1q",
+      "name": "A Very Metal Christmas @ Culture Room — Fort Lauderdale, FL — Dec 26 2026",
+      "date": "2026-12-26",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "A Very Metal Christmas"
+      ],
+      "description": "A Very Metal Christmas at Culture Room.",
+      "ticketUrl": "https://www.cultureroom.net/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd43q1q",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2773,6 +2670,27 @@
       ]
     },
     {
+      "id": "86bd55prd",
+      "name": "Filth + Resistor + SLAM BAND @ The Albatross — Jacksonville, FL — Jan 9 2027",
+      "date": "2027-01-08",
+      "venue": "The Albatross",
+      "city": "Jacksonville",
+      "state": "FL",
+      "bands": [
+        "Filth",
+        "Resistor",
+        "SLAM BAND"
+      ],
+      "description": "Deathcore/hip-hop hybrid Filth open the Florida leg of the \"We Did It All For The Glizzy Tour\", with Resistor and Filth's satirical side project SLAM BAND in support. First of four Florida dates.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd55prd",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbct3x7",
       "name": "Florida Underground Fest 7 @ Downtown Sanford — Sanford, FL — Jan 8 2027",
       "date": "2027-01-08",
@@ -2790,6 +2708,27 @@
       "buckets": [
         "florida-metal-scene",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd55prg",
+      "name": "Filth + Resistor + SLAM BAND @ The Orpheum — Tampa, FL — Jan 10 2027",
+      "date": "2027-01-09",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Filth",
+        "Resistor",
+        "SLAM BAND"
+      ],
+      "description": "Deathcore/hip-hop hybrid Filth bring the \"We Did It All For The Glizzy Tour\" to The Orpheum, with Resistor and SLAM BAND in support.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd55prg",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2872,6 +2811,27 @@
       ]
     },
     {
+      "id": "86bd55prk",
+      "name": "Filth + Resistor + SLAM BAND @ West End Live (West End Trading Co) — Sanford, FL — Jan 12 2027",
+      "date": "2027-01-11",
+      "venue": "West End Live (West End Trading Co)",
+      "city": "Sanford",
+      "state": "FL",
+      "bands": [
+        "Filth",
+        "Resistor",
+        "SLAM BAND"
+      ],
+      "description": "Deathcore/hip-hop hybrid Filth hit Sanford on the \"We Did It All For The Glizzy Tour\", with Resistor and SLAM BAND in support. Announcement lists the room as \"West End Live\"; assumed to be the West End Trading Co stage in Sanford, verify against the venue listing.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd55prk",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbz59tr",
       "name": "HAGANE @ Fukuoka DRUM Be-1 — Fukuoka, Japan — Jan 11 2027",
       "date": "2027-01-11",
@@ -2889,6 +2849,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbz59tr",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd55prn",
+      "name": "Filth + Resistor + SLAM BAND @ Propaganda — Lake Worth, FL — Jan 13 2027",
+      "date": "2027-01-12",
+      "venue": "Propaganda",
+      "city": "Lake Worth",
+      "state": "FL",
+      "bands": [
+        "Filth",
+        "Resistor",
+        "SLAM BAND"
+      ],
+      "description": "Deathcore/hip-hop hybrid Filth close the Florida leg of the \"We Did It All For The Glizzy Tour\" in Lake Worth, with Resistor and SLAM BAND in support. The South Florida stop.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd55prn",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2973,28 +2954,6 @@
       ]
     },
     {
-      "id": "86bd43q1d",
-      "name": "Deadreef + Ramtha + Sacrilous + Whorer @ Suite E Studios — St. Petersburg, FL — Jan 16 2027",
-      "date": "2027-01-16",
-      "venue": "Suite E Studios",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Deadreef",
-        "Ramtha",
-        "Sacrilous",
-        "Whorer"
-      ],
-      "description": "St. Pete Dredge Pit 3 — Deadreef's underground showcase returns.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd43q1d",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bcj3br0",
       "name": "Quiet Riot @ Cotee River Bike Fest — New Port Richey, FL — Jan 16 2027",
       "date": "2027-01-16",
@@ -3031,6 +2990,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bbz59u6",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd43q1d",
+      "name": "Deadreef + Ramtha + Sacrilous + Whorer @ Suite E Studios — St. Petersburg, FL — Jan 16 2027",
+      "date": "2027-01-16",
+      "venue": "Suite E Studios",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Deadreef",
+        "Ramtha",
+        "Sacrilous",
+        "Whorer"
+      ],
+      "description": "St. Pete Dredge Pit 3 — Deadreef's underground showcase returns.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd43q1d",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3073,6 +3054,25 @@
       ]
     },
     {
+      "id": "86bbu78xb",
+      "name": "SiM @ SWG3 — Glasgow, UK — Jan 20 2027",
+      "date": "2027-01-20",
+      "venue": "SWG3",
+      "city": "Glasgow",
+      "state": "UK",
+      "bands": [
+        "SiM"
+      ],
+      "description": "Opening night of the HOOMAN AFTER ALL UK/EU leg, following the autumn North American run.",
+      "priority": "high",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78xb",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bd4yf53",
       "name": "Des Rocs @ Conduit — Winter Park (Orlando), FL — Jan 20 2027",
       "date": "2027-01-20",
@@ -3090,25 +3090,6 @@
       "clickupUrl": "https://app.clickup.com/t/86bd4yf53",
       "buckets": [
         "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbu78xb",
-      "name": "SiM @ SWG3 — Glasgow, UK — Jan 20 2027",
-      "date": "2027-01-20",
-      "venue": "SWG3",
-      "city": "Glasgow",
-      "state": "UK",
-      "bands": [
-        "SiM"
-      ],
-      "description": "Opening night of the HOOMAN AFTER ALL UK/EU leg, following the autumn North American run.",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78xb",
-      "buckets": [
-        "japanese-metal"
       ]
     },
     {
@@ -3381,27 +3362,6 @@
       ]
     },
     {
-      "id": "86bcbtfa0",
-      "name": "Gene Simmons Band + Lita Ford @ Ferg's Pavilion — St. Petersburg, FL — Jan 30 2027",
-      "date": "2027-01-31",
-      "venue": "Ferg's Pavilion",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Gene Simmons Band",
-        "Lita Ford"
-      ],
-      "description": "Gene Simmons (KISS co-founder) brings his band to Ferg's Pavilion in St. Petersburg, with Lita Ford as special guest. An intimate outdoor show — a rare small-room look at Simmons now that KISS has ended touring.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcbtfa0",
-      "buckets": [
-        "florida-metal-scene",
-        "japanese-metal"
-      ]
-    },
-    {
       "id": "86bbz59yb",
       "name": "HAGANE @ Hiroshima LIVE VANQUISH — Hiroshima, Japan — Jan 31 2027",
       "date": "2027-01-31",
@@ -3458,6 +3418,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu78hx",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bcbtfa0",
+      "name": "Gene Simmons Band + Lita Ford @ Ferg's Pavilion — St. Petersburg, FL — Jan 30 2027",
+      "date": "2027-01-31",
+      "venue": "Ferg's Pavilion",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Gene Simmons Band",
+        "Lita Ford"
+      ],
+      "description": "Gene Simmons (KISS co-founder) brings his band to Ferg's Pavilion in St. Petersburg, with Lita Ford as special guest. An intimate outdoor show — a rare small-room look at Simmons now that KISS has ended touring.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bcbtfa0",
+      "buckets": [
+        "florida-metal-scene",
+        "japanese-metal"
       ]
     },
     {
@@ -3542,24 +3523,6 @@
       ]
     },
     {
-      "id": "86bd325jg",
-      "name": "📀 As I Lay Dying — As I Lay Dying — RELEASE — Feb 5 2027",
-      "date": "2027-02-05",
-      "venue": "As I Lay Dying — RELEASE",
-      "bands": [
-        "As I Lay Dying"
-      ],
-      "description": "Artist: As I Lay Dying\nRelease: As I Lay Dying (self-titled studio album)\nLabel: Napalm Records\nRelease date: February 5, 2027 — pre-order now",
-      "priority": "normal",
-      "isRelease": true,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd325jg",
-      "buckets": [
-        "interesting-elsewhere",
-        "album-releases"
-      ]
-    },
-    {
       "id": "86bbwe8wz",
       "name": "The Warning @ Estadio GNP Seguros — Mexico City, Mexico — Feb 5 2027",
       "date": "2027-02-05",
@@ -3577,6 +3540,24 @@
       "clickupUrl": "https://app.clickup.com/t/86bbwe8wz",
       "buckets": [
         "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd325jg",
+      "name": "📀 As I Lay Dying — As I Lay Dying — RELEASE — Feb 5 2027",
+      "date": "2027-02-05",
+      "venue": "As I Lay Dying — RELEASE",
+      "bands": [
+        "As I Lay Dying"
+      ],
+      "description": "Artist: As I Lay Dying\nRelease: As I Lay Dying (self-titled studio album)\nLabel: Napalm Records\nRelease date: February 5, 2027 — pre-order now",
+      "priority": "normal",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd325jg",
+      "buckets": [
+        "interesting-elsewhere",
+        "album-releases"
       ]
     },
     {
@@ -4241,28 +4222,6 @@
       ]
     },
     {
-      "id": "86bd4yf9h",
-      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Middle East Downstairs — Boston, MA — Mar 10 2027",
-      "date": "2027-03-10",
-      "venue": "Middle East Downstairs",
-      "city": "Boston",
-      "state": "MA",
-      "bands": [
-        "Týr",
-        "Dynazty",
-        "Dominum",
-        "Edge of Paradise"
-      ],
-      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Middle East Downstairs, Boston, MA. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source:…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd4yf9h",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
       "id": "86bc4yu1t",
       "name": "Eluveitie + Nini Music + Illumishade @ Warehouse Live Midtown — Houston, TX — Mar 10 2027",
       "date": "2027-03-10",
@@ -4306,23 +4265,23 @@
       ]
     },
     {
-      "id": "86bd4yf9j",
-      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Salle Montaigne — Quebec City, QC — Mar 11 2027",
-      "date": "2027-03-11",
-      "venue": "Salle Montaigne",
-      "city": "Quebec City",
-      "state": "QC",
+      "id": "86bd4yf9h",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Middle East Downstairs — Boston, MA — Mar 10 2027",
+      "date": "2027-03-10",
+      "venue": "Middle East Downstairs",
+      "city": "Boston",
+      "state": "MA",
       "bands": [
         "Týr",
         "Dynazty",
         "Dominum",
         "Edge of Paradise"
       ],
-      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Salle Montaigne, Quebec City, QC. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty…",
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Middle East Downstairs, Boston, MA. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source:…",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd4yf9j",
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9h",
       "buckets": [
         "japanese-metal"
       ]
@@ -4350,11 +4309,11 @@
       ]
     },
     {
-      "id": "86bd4yf9k",
-      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Le Studio TD — Montreal, QC — Mar 12 2027",
-      "date": "2027-03-12",
-      "venue": "Le Studio TD",
-      "city": "Montreal",
+      "id": "86bd4yf9j",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Salle Montaigne — Quebec City, QC — Mar 11 2027",
+      "date": "2027-03-11",
+      "venue": "Salle Montaigne",
+      "city": "Quebec City",
       "state": "QC",
       "bands": [
         "Týr",
@@ -4362,11 +4321,11 @@
         "Dominum",
         "Edge of Paradise"
       ],
-      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Le Studio TD, Montreal, QC. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Salle Montaigne, Quebec City, QC. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty…",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd4yf9k",
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9j",
       "buckets": [
         "japanese-metal"
       ]
@@ -4407,6 +4366,66 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbqbpde",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yf9k",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Le Studio TD — Montreal, QC — Mar 12 2027",
+      "date": "2027-03-12",
+      "venue": "Le Studio TD",
+      "city": "Montreal",
+      "state": "QC",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Le Studio TD, Montreal, QC. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9k",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bbu78uf",
+      "name": "VNV Nation @ The Orpheum — Tampa, FL — Mar 13 2027",
+      "date": "2027-03-13",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "VNV Nation"
+      ],
+      "description": "Tampa leg, one night after the Fort Lauderdale date at Culture Room.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78uf",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bbu78nr",
+      "name": "Polyphia @ Hard Rock Live — Orlando, FL — Mar 13 2027",
+      "date": "2027-03-13",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Polyphia"
+      ],
+      "description": "First of two Florida dates; St. Pete follows on the 14th.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bbu78nr",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -4454,39 +4473,20 @@
       ]
     },
     {
-      "id": "86bbu78uf",
-      "name": "VNV Nation @ The Orpheum — Tampa, FL — Mar 13 2027",
-      "date": "2027-03-13",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "VNV Nation"
-      ],
-      "description": "Tampa leg, one night after the Fort Lauderdale date at Culture Room.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78uf",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbu78nr",
-      "name": "Polyphia @ Hard Rock Live — Orlando, FL — Mar 13 2027",
-      "date": "2027-03-13",
-      "venue": "Hard Rock Live",
-      "city": "Orlando",
+      "id": "86bbu78jr",
+      "name": "Polyphia @ Jannus Live — St. Petersburg, FL — Mar 14 2027",
+      "date": "2027-03-14",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
       "state": "FL",
       "bands": [
         "Polyphia"
       ],
-      "description": "First of two Florida dates; St. Pete follows on the 14th.",
+      "description": "Second Florida leg — Orlando the night before, St. Pete on the 14th.",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78nr",
+      "clickupUrl": "https://app.clickup.com/t/86bbu78jr",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -4534,25 +4534,6 @@
       ]
     },
     {
-      "id": "86bbu78jr",
-      "name": "Polyphia @ Jannus Live — St. Petersburg, FL — Mar 14 2027",
-      "date": "2027-03-14",
-      "venue": "Jannus Live",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Polyphia"
-      ],
-      "description": "Second Florida leg — Orlando the night before, St. Pete on the 14th.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78jr",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
       "id": "86bd4yf9u",
       "name": "Týr + Dynazty + Dominum + Edge of Paradise @ The Sanctuary Music Center — Detroit, MI — Mar 15 2027",
       "date": "2027-03-15",
@@ -4570,28 +4551,6 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bd4yf9u",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bd4yf9v",
-      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Reggies — Chicago, IL — Mar 16 2027",
-      "date": "2027-03-16",
-      "venue": "Reggies",
-      "city": "Chicago",
-      "state": "IL",
-      "bands": [
-        "Týr",
-        "Dynazty",
-        "Dominum",
-        "Edge of Paradise"
-      ],
-      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Reggies, Chicago, IL. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd4yf9v",
       "buckets": [
         "japanese-metal"
       ]
@@ -4617,6 +4576,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bczf8hh",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd4yf9v",
+      "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Reggies — Chicago, IL — Mar 16 2027",
+      "date": "2027-03-16",
+      "venue": "Reggies",
+      "city": "Chicago",
+      "state": "IL",
+      "bands": [
+        "Týr",
+        "Dynazty",
+        "Dominum",
+        "Edge of Paradise"
+      ],
+      "description": "Edge of Paradise heads out on a co-headline North American run with Týr, Dynazty (their first full North American tour) and Dominum. Full lineup: Týr, Dynazty, Dominum, Edge of Paradise. Reggies, Chicago, IL. Tickets on sale Fri Nov 20 2026, 12 PM ET. Source: Dynazty tour…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4yf9v",
+      "buckets": [
+        "japanese-metal"
       ]
     },
     {
@@ -4722,6 +4703,25 @@
       ]
     },
     {
+      "id": "86baaae33",
+      "name": "Yuja Wang (piano) — Knight Concert Hall, Arsht Center, Miami FL",
+      "date": "2027-03-23",
+      "venue": "Knight Concert Hall, Arsht Center",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Yuja Wang (piano)"
+      ],
+      "description": "Yuja Wang — Arsht Debut — Arsht Center 2026-27 Classical Music Series",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86baaae33",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bd4yfa0",
       "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Rickshaw Theatre — Vancouver, BC — Mar 23 2027",
       "date": "2027-03-23",
@@ -4741,25 +4741,6 @@
       "clickupUrl": "https://app.clickup.com/t/86bd4yfa0",
       "buckets": [
         "japanese-metal"
-      ]
-    },
-    {
-      "id": "86baaae33",
-      "name": "Yuja Wang (piano) — Knight Concert Hall, Arsht Center, Miami FL",
-      "date": "2027-03-23",
-      "venue": "Knight Concert Hall, Arsht Center",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Yuja Wang (piano)"
-      ],
-      "description": "Yuja Wang — Arsht Debut — Arsht Center 2026-27 Classical Music Series",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86baaae33",
-      "buckets": [
-        "florida-metal-scene"
       ]
     },
     {
@@ -4785,6 +4766,23 @@
       ]
     },
     {
+      "id": "86bd4ybg8",
+      "name": "Uriah Heep @ Ponte Vedra Concert Hall — Ponte Vedra Beach, FL — Mar 25 2027",
+      "date": "2027-03-25",
+      "venue": "Ponte Vedra Concert Hall",
+      "city": "Ponte Vedra Beach",
+      "state": "FL",
+      "bands": [
+        "Uriah Heep"
+      ],
+      "description": "Fifty-six years in, Uriah Heep are calling it — \"The Magician's Farewell,\" 28 North American dates Feb 17 → Mar 27 2027, and the tour closes with a three-night Florida swing. This is the first of the three: Jacksonville-area, the night before Orlando and two before the…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd4ybg8",
+      "buckets": []
+    },
+    {
       "id": "86bd3myn9",
       "name": "Clutch + Corrosion of Conformity + Agnostic Front + Chuck Ragan @ House of Blues — Lake Buena Vista (Orlando), FL — Mar 26 2027",
       "date": "2027-03-25",
@@ -4805,23 +4803,6 @@
       "buckets": [
         "florida-metal-scene"
       ]
-    },
-    {
-      "id": "86bd4ybg8",
-      "name": "Uriah Heep @ Ponte Vedra Concert Hall — Ponte Vedra Beach, FL — Mar 25 2027",
-      "date": "2027-03-25",
-      "venue": "Ponte Vedra Concert Hall",
-      "city": "Ponte Vedra Beach",
-      "state": "FL",
-      "bands": [
-        "Uriah Heep"
-      ],
-      "description": "Fifty-six years in, Uriah Heep are calling it — \"The Magician's Farewell,\" 28 North American dates Feb 17 → Mar 27 2027, and the tour closes with a three-night Florida swing. This is the first of the three: Jacksonville-area, the night before Orlando and two before the…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd4ybg8",
-      "buckets": []
     },
     {
       "id": "86bd4yfa2",
@@ -4865,6 +4846,28 @@
       ]
     },
     {
+      "id": "86bd55prr",
+      "name": "Chiodos + Hail The Sun + Emery + Buried In Spring @ Jannus Live — St. Petersburg, FL — Mar 27 2027",
+      "date": "2027-03-26",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "Chiodos",
+        "Hail The Sun",
+        "Emery",
+        "Buried In Spring"
+      ],
+      "description": "Post-hardcore veterans Chiodos bring the \"All The World's A Stage\" 2027 tour to Jannus Live, with Hail The Sun, Emery and Buried In Spring. General on-sale Fri Nov 20 2026, 10 AM local, via Ticketmaster.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd55prr",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bd4yfa3",
       "name": "Týr + Dynazty + Dominum + Edge of Paradise @ DNA Lounge — San Francisco, CA — Mar 26 2027",
       "date": "2027-03-26",
@@ -4901,6 +4904,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bd4ybh0",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd55pru",
+      "name": "Chiodos + Hail The Sun + Emery + Buried In Spring @ Revolution Live — Fort Lauderdale, FL — Mar 28 2027",
+      "date": "2027-03-27",
+      "venue": "Revolution Live",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Chiodos",
+        "Hail The Sun",
+        "Emery",
+        "Buried In Spring"
+      ],
+      "description": "Post-hardcore veterans Chiodos bring the \"All The World's A Stage\" 2027 tour to Revolution Live the night after St. Pete, with Hail The Sun, Emery and Buried In Spring. General on-sale Fri Nov 20 2026, 10 AM local, via Ticketmaster.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd55pru",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -5054,6 +5079,26 @@
       ]
     },
     {
+      "id": "86bc4ytf2",
+      "name": "The Warning @ OVO Arena Wembley — London, UK — Apr 2 2027",
+      "date": "2027-04-02",
+      "venue": "OVO Arena Wembley",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "The Warning"
+      ],
+      "description": "Everything's Falling world tour — The Warning's biggest London headline to date, capping the UK/European leg at Wembley Arena. Tickets: https://thewarningband.com/pages/tour",
+      "ticketUrl": "https://thewarningband.com/pages/tour",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc4ytf2",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bd4yfaa",
       "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Warehouse on Broadway — Kansas City, MO — Apr 2 2027",
       "date": "2027-04-02",
@@ -5073,26 +5118,6 @@
       "clickupUrl": "https://app.clickup.com/t/86bd4yfaa",
       "buckets": [
         "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bc4ytf2",
-      "name": "The Warning @ OVO Arena Wembley — London, UK — Apr 2 2027",
-      "date": "2027-04-02",
-      "venue": "OVO Arena Wembley",
-      "city": "London",
-      "state": "UK",
-      "bands": [
-        "The Warning"
-      ],
-      "description": "Everything's Falling world tour — The Warning's biggest London headline to date, capping the UK/European leg at Wembley Arena. Tickets: https://thewarningband.com/pages/tour",
-      "ticketUrl": "https://thewarningband.com/pages/tour",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc4ytf2",
-      "buckets": [
-        "interesting-elsewhere"
       ]
     },
     {
@@ -5162,6 +5187,27 @@
       ]
     },
     {
+      "id": "86bc2zkce",
+      "name": "The Psychedelic Furs + Living Colour @ The Moon — Tallahassee, FL — Apr 7 2027",
+      "date": "2027-04-07",
+      "venue": "The Moon",
+      "city": "Tallahassee",
+      "state": "FL",
+      "bands": [
+        "The Psychedelic Furs",
+        "Living Colour"
+      ],
+      "description": "The rescheduled Psychedelic Furs / Living Colour co-headline run opens its Florida leg at The Moon in Tallahassee. This is the tour originally routed for fall 2026 and reset to spring 2027 after the Furs' medical postponement — Vernon Reid and Living Colour on the bill makes…",
+      "ticketUrl": "https://themoontallahassee.com",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc2zkce",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bd4yfbc",
       "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Chapel of Bones — Raleigh, NC — Apr 7 2027",
       "date": "2027-04-07",
@@ -5181,27 +5227,6 @@
       "clickupUrl": "https://app.clickup.com/t/86bd4yfbc",
       "buckets": [
         "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bc2zkce",
-      "name": "The Psychedelic Furs + Living Colour @ The Moon — Tallahassee, FL — Apr 7 2027",
-      "date": "2027-04-07",
-      "venue": "The Moon",
-      "city": "Tallahassee",
-      "state": "FL",
-      "bands": [
-        "The Psychedelic Furs",
-        "Living Colour"
-      ],
-      "description": "The rescheduled Psychedelic Furs / Living Colour co-headline run opens its Florida leg at The Moon in Tallahassee. This is the tour originally routed for fall 2026 and reset to spring 2027 after the Furs' medical postponement — Vernon Reid and Living Colour on the bill makes…",
-      "ticketUrl": "https://themoontallahassee.com",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc2zkce",
-      "buckets": [
-        "interesting-elsewhere"
       ]
     },
     {
@@ -5244,6 +5269,27 @@
       ]
     },
     {
+      "id": "86bc2zkch",
+      "name": "The Psychedelic Furs + Living Colour @ Jannus Live — St. Petersburg, FL — Apr 8 2027",
+      "date": "2027-04-08",
+      "venue": "Jannus Live",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "bands": [
+        "The Psychedelic Furs",
+        "Living Colour"
+      ],
+      "description": "The Psychedelic Furs / Living Colour co-headline tour lands at Jannus Live — the makeup for the postponed Sep 3, 2026 St. Pete date, reset to spring 2027. Living Colour's Vernon Reid remains one of the great living rock guitarists; the courtyard at Jannus is the right room for…",
+      "ticketUrl": "https://www.jannuslive.com",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc2zkch",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bd4yfbj",
       "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Baltimore Soundstage — Baltimore, MD — Apr 8 2027",
       "date": "2027-04-08",
@@ -5263,27 +5309,6 @@
       "clickupUrl": "https://app.clickup.com/t/86bd4yfbj",
       "buckets": [
         "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bc2zkch",
-      "name": "The Psychedelic Furs + Living Colour @ Jannus Live — St. Petersburg, FL — Apr 8 2027",
-      "date": "2027-04-08",
-      "venue": "Jannus Live",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "The Psychedelic Furs",
-        "Living Colour"
-      ],
-      "description": "The Psychedelic Furs / Living Colour co-headline tour lands at Jannus Live — the makeup for the postponed Sep 3, 2026 St. Pete date, reset to spring 2027. Living Colour's Vernon Reid remains one of the great living rock guitarists; the courtyard at Jannus is the right room for…",
-      "ticketUrl": "https://www.jannuslive.com",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc2zkch",
-      "buckets": [
-        "florida-metal-scene"
       ]
     },
     {
@@ -5328,6 +5353,27 @@
       "buckets": []
     },
     {
+      "id": "86bc2zkcm",
+      "name": "The Psychedelic Furs + Living Colour @ Fillmore Miami Beach — Miami Beach, FL — Apr 10 2027",
+      "date": "2027-04-10",
+      "venue": "Fillmore Miami Beach",
+      "city": "Miami Beach",
+      "state": "FL",
+      "bands": [
+        "The Psychedelic Furs",
+        "Living Colour"
+      ],
+      "description": "The Psychedelic Furs / Living Colour co-headline run hits the Fillmore at Jackie Gleason Theater in Miami Beach — part of the rescheduled spring 2027 leg that replaced the postponed fall 2026 routing. Sat Apr 10, 2027. Tickets: https://www.fillmoremb.com. Source: Ultimate…",
+      "ticketUrl": "https://www.fillmoremb.com",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bc2zkcm",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bd4yfbn",
       "name": "Týr + Dynazty + Dominum + Edge of Paradise @ Space Ballroom — Hamden, CT — Apr 10 2027",
       "date": "2027-04-10",
@@ -5350,22 +5396,22 @@
       ]
     },
     {
-      "id": "86bc2zkcm",
-      "name": "The Psychedelic Furs + Living Colour @ Fillmore Miami Beach — Miami Beach, FL — Apr 10 2027",
-      "date": "2027-04-10",
-      "venue": "Fillmore Miami Beach",
-      "city": "Miami Beach",
+      "id": "86bc2zkdk",
+      "name": "The Psychedelic Furs + Living Colour @ Hard Rock Live — Orlando, FL — Apr 11 2027",
+      "date": "2027-04-11",
+      "venue": "Hard Rock Live",
+      "city": "Orlando",
       "state": "FL",
       "bands": [
         "The Psychedelic Furs",
         "Living Colour"
       ],
-      "description": "The Psychedelic Furs / Living Colour co-headline run hits the Fillmore at Jackie Gleason Theater in Miami Beach — part of the rescheduled spring 2027 leg that replaced the postponed fall 2026 routing. Sat Apr 10, 2027. Tickets: https://www.fillmoremb.com. Source: Ultimate…",
-      "ticketUrl": "https://www.fillmoremb.com",
+      "description": "The Psychedelic Furs / Living Colour co-headline tour plays Hard Rock Live Orlando on the rescheduled spring 2027 Florida leg — the routing that replaced the postponed fall 2026 dates. Sun Apr 11, 2027. Tickets: https://www.hardrock.com/live/locations/orlando/. Source: Ultimate…",
+      "ticketUrl": "https://www.hardrock.com/live/locations/orlando/",
       "priority": "normal",
       "isRelease": false,
       "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc2zkcm",
+      "clickupUrl": "https://app.clickup.com/t/86bc2zkdk",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -5390,27 +5436,6 @@
       "clickupUrl": "https://app.clickup.com/t/86bd4yfbv",
       "buckets": [
         "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bc2zkdk",
-      "name": "The Psychedelic Furs + Living Colour @ Hard Rock Live — Orlando, FL — Apr 11 2027",
-      "date": "2027-04-11",
-      "venue": "Hard Rock Live",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "The Psychedelic Furs",
-        "Living Colour"
-      ],
-      "description": "The Psychedelic Furs / Living Colour co-headline tour plays Hard Rock Live Orlando on the rescheduled spring 2027 Florida leg — the routing that replaced the postponed fall 2026 dates. Sun Apr 11, 2027. Tickets: https://www.hardrock.com/live/locations/orlando/. Source: Ultimate…",
-      "ticketUrl": "https://www.hardrock.com/live/locations/orlando/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc2zkdk",
-      "buckets": [
-        "florida-metal-scene"
       ]
     },
     {
