@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T16:26:52.000Z",
+  "generatedAt": "2026-11-21T13:10:37.000Z",
   "labels": [
     {
       "id": "napalm",
@@ -513,10 +513,28 @@
     },
     {
       "kind": "pick",
+      "date": "2027-01-08",
+      "label": "napalm",
+      "artist": "tAKiDA",
+      "headline": "Swedish rockers return with new studio album Numbers, led by the single \"So far away.\"",
+      "type": "Album",
+      "releaseDate": "2027-01-08"
+    },
+    {
+      "kind": "pick",
       "date": "2027-02-05",
       "label": "napalm",
       "artist": "AS I LAY DYING",
       "headline": "Metalcore icons return with their self-titled studio album, led by the single \"The Cost To Stay.\"",
+      "type": "Album",
+      "releaseDate": "2027-02-05"
+    },
+    {
+      "kind": "pick",
+      "date": "2027-02-05",
+      "label": "napalm",
+      "artist": "THUNDERMOTHER",
+      "headline": "Swedish hard rock band returns with new studio album Mothers of Thunder, featuring the single \"Time Is Never Wasted (When You're Wasted All The Time).\"",
       "type": "Album",
       "releaseDate": "2027-02-05"
     },
