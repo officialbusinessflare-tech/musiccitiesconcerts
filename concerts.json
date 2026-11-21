@@ -1,104 +1,6 @@
 {
-  "generatedAt": "2026-11-20T07:01:34.711Z",
+  "generatedAt": "2026-11-21T07:00:59.523Z",
   "entries": [
-    {
-      "id": "86bc05h69",
-      "name": "The Great NOLA Trendkill — Pantera + Down + Black Label Society @ Lakefront Arena — New Orleans, LA — Nov 20-21 2026",
-      "date": "2026-11-20",
-      "city": "Pantera + Down + Black Label Society @ Lakefront Arena — New Orleans",
-      "country": "LA — Nov 20-21 2026",
-      "bands": [
-        "The Great NOLA Trendkill"
-      ],
-      "description": "Two massive nights in New Orleans — Pantera's first hometown-adjacent NOLA shows in 30 years. Full takeover lineup across November 20 and 21 at Lakefront Arena: Pantera, Down, Black Label Society, Power Trip, Corrosion of Conformity, Crowbar, Pig Destroyer, Eyehategod,…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc05h69",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bbzrk4p",
-      "name": "EMNW @ ell.FITS ALL — Nagoya, Japan — Nov 20 2026",
-      "date": "2026-11-20",
-      "venue": "ell.FITS ALL",
-      "city": "Nagoya",
-      "country": "Japan",
-      "bands": [
-        "EMNW"
-      ],
-      "description": "EMNW album tour — ell.FITS ALL, Nagoya. Friday, November 20, 2026. Listing: https://www.bandsintown.com/EMNW",
-      "ticketUrl": "https://www.bandsintown.com/EMNW",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzrk4p",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbqbpd8",
-      "name": "Ho99o9 + N8NOFACE @ Churchill's Pub — Miami, FL — Nov 20 2026",
-      "date": "2026-11-20",
-      "venue": "Churchill's Pub",
-      "city": "Miami",
-      "state": "FL",
-      "bands": [
-        "Ho99o9",
-        "N8NOFACE"
-      ],
-      "description": "Ho99o9 with N8NOFACE — Sincerely___ The Void Tour.",
-      "ticketUrl": "https://www.ticketweb.com/event/ho99o9-n8noface-churchills-pub-tickets/14235244",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbqbpd8",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbmte98",
-      "name": "Miss May I + Born of Osiris @ The Orpheum — Tampa, FL — Nov 20 2026",
-      "date": "2026-11-20",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Miss May I",
-        "Born of Osiris"
-      ],
-      "description": "Bands: Miss May I, Born of Osiris, w/ Convictions, Downswing\nTour: The Perpetual Iron Tour\nVenue: The Orpheum, Tampa FL\nDate: Fri Nov 20 2026",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbmte98",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86baaaf87",
-      "name": "DragonForce — House of Blues, Lake Buena Vista (Orlando) FL",
-      "date": "2026-11-20",
-      "venue": "House of Blues",
-      "city": "Lake Buena Vista (Orlando)",
-      "state": "FL",
-      "bands": [
-        "DragonForce"
-      ],
-      "description": "DragonForce — Inhuman Rampage 20th Anniversary Tour 2026",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86baaaf87",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86bcmjtv0",
       "name": "Ripe @ Culture Room — Fort Lauderdale, FL — Nov 21 2026",
@@ -239,6 +141,48 @@
       "clickupUrl": "https://app.clickup.com/t/86bd43q0q",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd5hkqx",
+      "name": "I Set My Friends On Fire @ Come and Take It Live — Austin, TX — Nov 21 2026",
+      "date": "2026-11-21",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "I Set My Friends On Fire"
+      ],
+      "description": "I Set My Friends On Fire (Third String Entertainment). All ages, show 6 PM.",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkqx",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd5hkq4",
+      "name": "As I Lay Dying + The Curse Within + Trained To Go @ Whisky a Go Go — West Hollywood, CA — Nov 21 2026",
+      "date": "2026-11-21",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "As I Lay Dying",
+        "The Curse Within",
+        "Trained To Go"
+      ],
+      "description": "As I Lay Dying with The Curse Within and Trained To Go. Doors 7:30 PM.",
+      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkq4",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -526,6 +470,46 @@
       ]
     },
     {
+      "id": "86bd5hkr1",
+      "name": "Ho99o9 + N8NOFACE @ Come and Take It Live — Austin, TX — Nov 25 2026",
+      "date": "2026-11-25",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Ho99o9",
+        "N8NOFACE"
+      ],
+      "description": "Ho99o9 and N8NOFACE — Sincerely___ The Void tour. All ages, show 7 PM.",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkr1",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd5hkq5",
+      "name": "A Killer's Confession + Dizasterpiece @ Whisky a Go Go — West Hollywood, CA — Nov 25 2026",
+      "date": "2026-11-25",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "A Killer's Confession",
+        "Dizasterpiece"
+      ],
+      "description": "A Killer's Confession (featuring former members of Mushroomhead) with Dizasterpiece, Sophia Mengrosso, Illusions of Grandeur, Bury My Demons and Dead Things. Doors 6 PM.",
+      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkq5",
+      "buckets": []
+    },
+    {
       "id": "86bcqxztb",
       "name": "Yngwie Malmsteen @ Lillian S. Wells Hall at The Parker — Fort Lauderdale, FL — Nov 25 2026",
       "date": "2026-11-26",
@@ -727,6 +711,27 @@
       ]
     },
     {
+      "id": "86bd5hkr3",
+      "name": "Miss May I + Born of Osiris @ Come and Take It Live — Austin, TX — Nov 28 2026",
+      "date": "2026-11-28",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Miss May I",
+        "Born of Osiris"
+      ],
+      "description": "Miss May I and Born of Osiris — The Perpetual Iron Tour. All ages, show 6 PM.",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkr3",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bb9w5m5",
       "name": "ZILQY @ OSAKA MUSE — Osaka, Japan — Nov 28 2026",
       "date": "2026-11-28",
@@ -802,6 +807,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu78h8",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd5hkr6",
+      "name": "As I Lay Dying @ Come and Take It Live — Austin, TX — Nov 29 2026",
+      "date": "2026-11-29",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "As I Lay Dying"
+      ],
+      "description": "As I Lay Dying — the final dates celebrating 20 years of 'Shadows Are Security'. All ages, show 6:30 PM. (Corpus Christi stop at House of Rock on Nov 27.)",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkr6",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -981,6 +1006,46 @@
       ]
     },
     {
+      "id": "86bd5hkr8",
+      "name": "D.R.I. @ Come and Take It Live — Austin, TX — Dec 2 2026",
+      "date": "2026-12-02",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "D.R.I."
+      ],
+      "description": "Crossover thrash legends D.R.I. All ages, show 7 PM.",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkr8",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd5hkqa",
+      "name": "The Dread Crew of Oddwood + Ørlendr + Ravenshire @ Whisky a Go Go — West Hollywood, CA — Dec 2 2026",
+      "date": "2026-12-02",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "The Dread Crew of Oddwood",
+        "Ørlendr",
+        "Ravenshire"
+      ],
+      "description": "Pirate-metal night: The Dread Crew of Oddwood with Ørlendr and Ravenshire. Doors 6 PM.",
+      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkqa",
+      "buckets": []
+    },
+    {
       "id": "86bd3egud",
       "name": "Beartooth + Don Broco + Magnolia Park + Windwaker @ St. Augustine Amphitheatre — St. Augustine, FL — Dec 4 2026",
       "date": "2026-12-03",
@@ -1081,6 +1146,24 @@
       "buckets": [
         "japanese-metal"
       ]
+    },
+    {
+      "id": "86bd5hkqd",
+      "name": "Silent Civilian @ Whisky a Go Go — West Hollywood, CA — Dec 3 2026",
+      "date": "2026-12-03",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Silent Civilian"
+      ],
+      "description": "Silent Civilian headline the Whisky. Doors 6 PM.",
+      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkqd",
+      "buckets": []
     },
     {
       "id": "86bb9w4h8",
@@ -1244,6 +1327,26 @@
       ]
     },
     {
+      "id": "86bd5hkrb",
+      "name": "Eyes Set To Kill @ Come and Take It Live — Austin, TX — Dec 4 2026",
+      "date": "2026-12-04",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Eyes Set To Kill"
+      ],
+      "description": "Eyes Set To Kill — Guilty Pleasures Tour. All ages, show 6 PM.",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkrb",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bcmjupy",
       "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Garage — Saarbrücken, Germany — Dec 5 2026",
       "date": "2026-12-05",
@@ -1380,6 +1483,25 @@
       "buckets": [
         "japanese-metal"
       ]
+    },
+    {
+      "id": "86bd5hkqf",
+      "name": "Unloco + Burdens Within @ Whisky a Go Go — West Hollywood, CA — Dec 6 2026",
+      "date": "2026-12-06",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Unloco",
+        "Burdens Within"
+      ],
+      "description": "Unloco with Burdens Within. Doors 6 PM.",
+      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkqf",
+      "buckets": []
     },
     {
       "id": "86bd55pra",
@@ -1641,6 +1763,26 @@
       ]
     },
     {
+      "id": "86bd5hkqg",
+      "name": "Taken By Tides + Stray View + Rain Division @ Whisky a Go Go — West Hollywood, CA — Dec 10 2026",
+      "date": "2026-12-10",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Taken By Tides",
+        "Stray View",
+        "Rain Division"
+      ],
+      "description": "Taken By Tides with Stray View, Rain Division, Casmerva, Valea and From Afar. Doors 6 PM.",
+      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkqg",
+      "buckets": []
+    },
+    {
       "id": "86bd325gp",
       "name": "SIDS + Inhumane Deception + Grievous @ Churchill's Pub — Miami, FL — Dec 11 2026",
       "date": "2026-12-11",
@@ -1742,6 +1884,25 @@
       "buckets": [
         "florida-metal-scene"
       ]
+    },
+    {
+      "id": "86bd5hkqh",
+      "name": "Orgy + Silos @ Whisky a Go Go — West Hollywood, CA — Dec 11 2026",
+      "date": "2026-12-11",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Orgy",
+        "Silos"
+      ],
+      "description": "Orgy with Silos, Sophia Mengrosso and Marintha. Doors 6 PM.",
+      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkqh",
+      "buckets": []
     },
     {
       "id": "86bcmjv18",
@@ -1905,6 +2066,26 @@
       ]
     },
     {
+      "id": "86bd5hkre",
+      "name": "Kingdom of Giants @ Come and Take It Live — Austin, TX — Dec 12 2026",
+      "date": "2026-12-12",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Kingdom of Giants"
+      ],
+      "description": "Kingdom of Giants (Third String Entertainment). All ages, show 6 PM.",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkre",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bb9w585",
       "name": "HANABIE. @ Zepp Shinjuku — Tokyo, Japan — Dec 12 2026",
       "date": "2026-12-12",
@@ -2026,6 +2207,46 @@
       ]
     },
     {
+      "id": "86bd5hkrg",
+      "name": "Upon A Burning Body @ Come and Take It Live — Austin, TX — Dec 13 2026",
+      "date": "2026-12-13",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Upon A Burning Body"
+      ],
+      "description": "Upon A Burning Body (Corpus Christi stop at House of Rock on Dec 11). All ages, show 6 PM.",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkrg",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd5hkrh",
+      "name": "The Bunny The Bear @ Come and Take It Live — Austin, TX — Dec 14 2026",
+      "date": "2026-12-14",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "The Bunny The Bear"
+      ],
+      "description": "The Bunny The Bear. All ages, show 7 PM.",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkrh",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bcmjv59",
       "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ SO36 — Berlin, Germany — Dec 15 2026",
       "date": "2026-12-15",
@@ -2133,6 +2354,46 @@
         "florida-metal-scene",
         "japanese-metal"
       ]
+    },
+    {
+      "id": "86bd5hkrj",
+      "name": "Taken By Tides @ Come and Take It Live — Austin, TX — Dec 16 2026",
+      "date": "2026-12-16",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Taken By Tides"
+      ],
+      "description": "Taken By Tides — Ghost Vibrations Tour. All ages, show 6 PM.",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkrj",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd5hkqm",
+      "name": "Eyes Set To Kill + Sicksense + Twist It @ Whisky a Go Go — West Hollywood, CA — Dec 16 2026",
+      "date": "2026-12-16",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Eyes Set To Kill",
+        "Sicksense",
+        "Twist It"
+      ],
+      "description": "Eyes Set To Kill with Sicksense, Twist It, This Foul Play, Silvercel, These Severed Hands and The High Priestess. Doors 6 PM.",
+      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkqm",
+      "buckets": []
     },
     {
       "id": "86bb9w5n1",
@@ -2557,6 +2818,45 @@
       ]
     },
     {
+      "id": "86bd5hkqn",
+      "name": "Lynch Mob + Rev It Up + Fire N Ice @ Whisky a Go Go — West Hollywood, CA — Dec 27 2026",
+      "date": "2026-12-27",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Lynch Mob",
+        "Rev It Up",
+        "Fire N Ice"
+      ],
+      "description": "George Lynch's Lynch Mob with Rev It Up, Fire 'N Ice, Out-Law and Rock City Tribe. Doors 6 PM.",
+      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkqn",
+      "buckets": []
+    },
+    {
+      "id": "86bd5hkqp",
+      "name": "Enuff Z'Nuff + Pretty Boy Floyd @ Whisky a Go Go — West Hollywood, CA — Dec 28 2026",
+      "date": "2026-12-28",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Enuff Z'Nuff",
+        "Pretty Boy Floyd"
+      ],
+      "description": "Enuff Z'Nuff and Pretty Boy Floyd with The Throbs and Red the Rose. Doors 6 PM.",
+      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkqp",
+      "buckets": []
+    },
+    {
       "id": "86bcrmhe8",
       "name": "Sevendust @ Ferg's Pavilion — St. Petersburg, FL — Dec 29 2026",
       "date": "2026-12-29",
@@ -2574,6 +2874,48 @@
       "clickupUrl": "https://app.clickup.com/t/86bcrmhe8",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd5hkqt",
+      "name": "White Lion + Guilty as Charged + Stonebreed @ Whisky a Go Go — West Hollywood, CA — Dec 29 2026",
+      "date": "2026-12-29",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "White Lion",
+        "Guilty as Charged",
+        "Stonebreed"
+      ],
+      "description": "White Lion with Guilty as Charged, Stonebreed, Stacy Kim J and Amy Schugar. Doors 6 PM.",
+      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkqt",
+      "buckets": []
+    },
+    {
+      "id": "86bd5hkqv",
+      "name": "Faster Pussycat + Nasty Passion + Scotty Austin @ Whisky a Go Go — West Hollywood, CA — Dec 30 2026",
+      "date": "2026-12-30",
+      "venue": "Whisky a Go Go",
+      "city": "West Hollywood",
+      "state": "CA",
+      "bands": [
+        "Faster Pussycat",
+        "Nasty Passion",
+        "Scotty Austin"
+      ],
+      "description": "Faster Pussycat with Nasty Passion, Alexis Marrero and Scotty Austin (formerly of Saving Abel). Doors 6 PM.",
+      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkqv",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -2711,6 +3053,23 @@
       ]
     },
     {
+      "id": "86bd5hkrt",
+      "name": "📀 tAKiDA — Numbers — RELEASE — Jan 8 2027",
+      "date": "2027-01-08",
+      "venue": "Numbers — RELEASE",
+      "bands": [
+        "tAKiDA"
+      ],
+      "description": "New studio album from Swedish rockers tAKiDA on Napalm Records. New single \"So far away\" is out now with a lyric video.",
+      "priority": "normal",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkrt",
+      "buckets": [
+        "album-releases"
+      ]
+    },
+    {
       "id": "86bd55prg",
       "name": "Filth + Resistor + SLAM BAND @ The Orpheum — Tampa, FL — Jan 10 2027",
       "date": "2027-01-09",
@@ -2811,6 +3170,26 @@
       ]
     },
     {
+      "id": "86bd5hkrk",
+      "name": "Smile Empty Soul @ Come and Take It Live — Austin, TX — Jan 10 2027",
+      "date": "2027-01-10",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Smile Empty Soul"
+      ],
+      "description": "Smile Empty Soul. Just announced.",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkrk",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
       "id": "86bd55prk",
       "name": "Filth + Resistor + SLAM BAND @ West End Live (West End Trading Co) — Sanford, FL — Jan 12 2027",
       "date": "2027-01-11",
@@ -2889,6 +3268,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bd1pukq",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd5hkrn",
+      "name": "As Cities Burn @ Come and Take It Live — Austin, TX — Jan 13 2027",
+      "date": "2027-01-13",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "As Cities Burn"
+      ],
+      "description": "As Cities Burn (Third String Entertainment). Just announced.",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkrn",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -3051,6 +3450,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bc472kh",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd5hkrq",
+      "name": "Filth @ Come and Take It Live — Austin, TX — Jan 17 2027",
+      "date": "2027-01-17",
+      "venue": "Come and Take It Live",
+      "city": "Austin",
+      "state": "TX",
+      "bands": [
+        "Filth"
+      ],
+      "description": "Filth — We Did It All For The Glizzy Tour, following the Florida run. Just announced.",
+      "ticketUrl": "https://comeandtakeitproductions.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkrq",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
@@ -3557,6 +3976,23 @@
       "clickupUrl": "https://app.clickup.com/t/86bd325jg",
       "buckets": [
         "interesting-elsewhere",
+        "album-releases"
+      ]
+    },
+    {
+      "id": "86bd5hkrr",
+      "name": "📀 THUNDERMOTHER — Mothers of Thunder — RELEASE — Feb 5 2027",
+      "date": "2027-02-05",
+      "venue": "Mothers of Thunder — RELEASE",
+      "bands": [
+        "THUNDERMOTHER"
+      ],
+      "description": "New studio album from Swedish hard rock band THUNDERMOTHER on Napalm Records. Second single \"Time Is Never Wasted (When You're Wasted All The Time)\" is out now with a video.",
+      "priority": "normal",
+      "isRelease": true,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5hkrr",
+      "buckets": [
         "album-releases"
       ]
     },
