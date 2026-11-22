@@ -1,13 +1,154 @@
 {
-  "fetchedAt": "2026-11-21T07:01:47.906Z",
+  "fetchedAt": "2026-11-22T07:01:21.104Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 156000,
-      "videoCount": 329,
+      "videoCount": 333,
       "recentLongform": [
+        {
+          "id": "PDDez-zqUfs",
+          "title": "Sally Explains RE:RAIGN",
+          "publishedAt": "2026-11-21T13:35:09Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/PDDez-zqUfs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/PDDez-zqUfs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/PDDez-zqUfs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/PDDez-zqUfs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/PDDez-zqUfs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M53S",
+          "durationSeconds": 113
+        },
+        {
+          "id": "_OG-QDJRYd4",
+          "title": "Himari Tsukishiro: Strength for Tomorrow Title (JA): 明日を生きる力",
+          "publishedAt": "2026-11-21T11:35:22Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/_OG-QDJRYd4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/_OG-QDJRYd4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/_OG-QDJRYd4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/_OG-QDJRYd4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/_OG-QDJRYd4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M20S",
+          "durationSeconds": 80
+        },
+        {
+          "id": "EICmxGungRU",
+          "title": "HAGANE's Nagi: Steal It, in a Good Way",
+          "publishedAt": "2026-11-21T09:34:38Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/EICmxGungRU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/EICmxGungRU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/EICmxGungRU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/EICmxGungRU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/EICmxGungRU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "qhd": {
+              "url": "https://i.ytimg.com/vi/EICmxGungRU/qhddefault.jpg",
+              "width": 2560,
+              "height": 1440
+            }
+          },
+          "duration": "PT1M31S",
+          "durationSeconds": 91
+        },
+        {
+          "id": "G5j28RmBfgg",
+          "title": "BRIDEAR: Why Metal Bands Leave Fukuoka for Tokyo",
+          "publishedAt": "2026-11-21T07:33:59Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/G5j28RmBfgg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/G5j28RmBfgg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/G5j28RmBfgg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/G5j28RmBfgg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/G5j28RmBfgg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M57S",
+          "durationSeconds": 117
+        },
         {
           "id": "exezAGKA2Ow",
           "title": "Mayto: From Karate to Guitar 空手からギターへ",
@@ -484,74 +625,6 @@
           },
           "duration": "PT1M35S",
           "durationSeconds": 95
-        },
-        {
-          "id": "l8HJQbBZqW0",
-          "title": "No Skip Review: SAKI, PLUVIA",
-          "publishedAt": "2026-10-17T20:51:24Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/l8HJQbBZqW0/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/l8HJQbBZqW0/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/l8HJQbBZqW0/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/l8HJQbBZqW0/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/l8HJQbBZqW0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT9M56S",
-          "durationSeconds": 596
-        },
-        {
-          "id": "1MPbKRPQLrk",
-          "title": "Arch Enemy | Nemesis",
-          "publishedAt": "2026-10-17T12:54:05Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/1MPbKRPQLrk/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/1MPbKRPQLrk/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/1MPbKRPQLrk/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/1MPbKRPQLrk/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/1MPbKRPQLrk/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M35S",
-          "durationSeconds": 95
         }
       ],
       "recentShorts": [
@@ -792,74 +865,6 @@
           },
           "duration": "PT24S",
           "durationSeconds": 24
-        },
-        {
-          "id": "dURAtMd5UmI",
-          "title": "Nini on why she posts the same thing over and over",
-          "publishedAt": "2026-10-17T19:58:03Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/dURAtMd5UmI/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/dURAtMd5UmI/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/dURAtMd5UmI/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/dURAtMd5UmI/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/dURAtMd5UmI/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT32S",
-          "durationSeconds": 32
-        },
-        {
-          "id": "fVGlJrjWW7I",
-          "title": "Thrown Into Exile | Fort Lauderdale",
-          "publishedAt": "2026-10-16T22:32:34Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/fVGlJrjWW7I/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/fVGlJrjWW7I/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/fVGlJrjWW7I/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/fVGlJrjWW7I/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/fVGlJrjWW7I/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M",
-          "durationSeconds": 60
         }
       ]
     },
