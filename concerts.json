@@ -1,190 +1,6 @@
 {
-  "generatedAt": "2026-11-21T07:01:30.496Z",
+  "generatedAt": "2026-11-22T07:01:01.094Z",
   "entries": [
-    {
-      "id": "86bcmjtv0",
-      "name": "Ripe @ Culture Room — Fort Lauderdale, FL — Nov 21 2026",
-      "date": "2026-11-21",
-      "venue": "Culture Room",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "Ripe"
-      ],
-      "description": "Ripe with special guests at Culture Room, Fort Lauderdale. Tickets: https://www.ticketmaster.com/event/0D006518C43296C3",
-      "ticketUrl": "https://www.ticketmaster.com/event/0D006518C43296C3",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcmjtv0",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bcb0tut",
-      "name": "BRIDEAR @ over fest 2026 — Tokyo, Japan — Nov 21 2026",
-      "date": "2026-11-21",
-      "venue": "over fest 2026",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "BRIDEAR"
-      ],
-      "description": "SNAZZY TUNES x over print \"over fest 2026\" — Shimokitazawa circuit festival across 9 live houses. BRIDEAR on the lineup.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcb0tut",
-      "buckets": [
-        "japanese-metal",
-        "key-festivals"
-      ]
-    },
-    {
-      "id": "86bbqec9n",
-      "name": "Ho99o9 + N8NOFACE @ Conduit — Winter Park (Orlando), FL — Nov 21 2026",
-      "date": "2026-11-21",
-      "venue": "Conduit",
-      "city": "Winter Park (Orlando)",
-      "state": "FL",
-      "bands": [
-        "Ho99o9",
-        "N8NOFACE"
-      ],
-      "description": "Ho99o9 & N8NOFACE — \"Sincerely___ The Void\" Tour.\nConduit, 6700 Aloma Ave, Winter Park (Orlando), FL. Show 7:00 PM.\nThe Orlando leg of the same run that hits Churchill's in Miami the night before — two Florida shots at this bill in 48 hours.\nSource: Conduit venue calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbqec9n",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbct3ta",
-      "name": "Born of Osiris + Miss May I @ The Banyan Live — West Palm Beach, FL — Nov 21 2026",
-      "date": "2026-11-21",
-      "venue": "The Banyan Live",
-      "city": "West Palm Beach",
-      "state": "FL",
-      "bands": [
-        "Born of Osiris",
-        "Miss May I"
-      ],
-      "description": "Bands: Born of Osiris, Miss May I, Convictions, Downswing\nVenue: The Banyan Live, 8199 Southern Blvd Suite B, West Palm Beach, FL\nDate: Saturday, November 21, 2026\nThe Perpetual Iron Tour, North America 2026. Presented by The Limitless Agency — tickets at limitlessagencyfl.com,…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbct3ta",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86baqty2k",
-      "name": "SiM — House of Blues, San Diego CA",
-      "date": "2026-11-21",
-      "venue": "House of Blues",
-      "city": "San Diego",
-      "state": "CA",
-      "bands": [
-        "SiM"
-      ],
-      "description": "SiM HOOMAN AFTER ALL World Tour 2026 — Sat 11/21/2026.",
-      "ticketUrl": "https://tix.soundrink.com/tours/sim",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86baqty2k",
-      "buckets": [
-        "florida-metal-scene",
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86baaafa5",
-      "name": "DragonForce — The Ritz Ybor, Tampa FL",
-      "date": "2026-11-21",
-      "venue": "The Ritz Ybor",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "DragonForce"
-      ],
-      "description": "DragonForce — Inhuman Rampage 20th Anniversary Tour 2026",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86baaafa5",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bd43q0q",
-      "name": "Obituary + Intoxicated + Must Not Kill @ Brass Mug — Tampa, FL — Nov 21 2026",
-      "date": "2026-11-21",
-      "venue": "Brass Mug",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Obituary",
-        "Intoxicated",
-        "Must Not Kill"
-      ],
-      "description": "Tampa's Evil Ways Celebration — night one of Obituary's two-night Brass Mug homecoming, built around Xecutioner's Return (2007).",
-      "ticketUrl": "https://www.obituary.cc/tour",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd43q0q",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bd5hkqx",
-      "name": "I Set My Friends On Fire @ Come and Take It Live — Austin, TX — Nov 21 2026",
-      "date": "2026-11-21",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "bands": [
-        "I Set My Friends On Fire"
-      ],
-      "description": "I Set My Friends On Fire (Third String Entertainment). All ages, show 6 PM.",
-      "ticketUrl": "https://comeandtakeitproductions.com/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd5hkqx",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bd5hkq4",
-      "name": "As I Lay Dying + The Curse Within + Trained To Go @ Whisky a Go Go — West Hollywood, CA — Nov 21 2026",
-      "date": "2026-11-21",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "As I Lay Dying",
-        "The Curse Within",
-        "Trained To Go"
-      ],
-      "description": "As I Lay Dying with The Curse Within and Trained To Go. Doors 7:30 PM.",
-      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd5hkq4",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
     {
       "id": "86bbzrk56",
       "name": "EMNW @ LIVE HOUSE Queblick — Fukuoka, Japan — Nov 22 2026",
@@ -2950,6 +2766,28 @@
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86ban5v9w",
       "buckets": []
+    },
+    {
+      "id": "86bd5v06g",
+      "name": "Sevendust + Kingdom Collapse + Soulswitch @ House of Blues — Lake Buena Vista (Orlando), FL — Dec 31 2026",
+      "date": "2027-01-01",
+      "venue": "House of Blues",
+      "city": "Lake Buena Vista (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Sevendust",
+        "Kingdom Collapse",
+        "Soulswitch"
+      ],
+      "description": "WJRR's Heavy New Year ft. Sevendust — the Atlanta hard-rock lifers ring in 2027 at House of Blues Orlando (Disney Springs, Lake Buena Vista), with Kingdom Collapse and Soulswitch on the bill. Show 8:00 PM. Two nights after their Dec 29 Ferg's Pavilion date in St. Pete, so…",
+      "ticketUrl": "https://www.ticketmaster.com/wjrrs-heavy-new-year-ft-sevendust-orlando-florida-12-31-2026/event/2200652ABC304896",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd5v06g",
+      "buckets": [
+        "florida-metal-scene"
+      ]
     },
     {
       "id": "86bcrmhet",
