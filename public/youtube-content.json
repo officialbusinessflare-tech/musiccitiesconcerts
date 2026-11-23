@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-11-22T07:01:50.233Z",
+  "fetchedAt": "2026-11-23T07:01:21.582Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 156000,
-      "videoCount": 333,
+      "videoCount": 334,
       "recentLongform": [
+        {
+          "id": "4IHenu6ntYA",
+          "title": "HAGANE: Rebuilt in Tokyo, Written by the Band, Headed for Europe | 東京で再始動、全員で作る音楽、そしてヨーロッパへ",
+          "publishedAt": "2026-11-23T00:00:07Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/4IHenu6ntYA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/4IHenu6ntYA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/4IHenu6ntYA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/4IHenu6ntYA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/4IHenu6ntYA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT15M9S",
+          "durationSeconds": 909
+        },
         {
           "id": "PDDez-zqUfs",
           "title": "Sally Explains RE:RAIGN",
@@ -831,40 +865,6 @@
           },
           "duration": "PT1M4S",
           "durationSeconds": 64
-        },
-        {
-          "id": "U-zWYLvEGBs",
-          "title": "No Skips - Saki's \"PLUVIA\"",
-          "publishedAt": "2026-10-20T06:04:43Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/U-zWYLvEGBs/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/U-zWYLvEGBs/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/U-zWYLvEGBs/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/U-zWYLvEGBs/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/U-zWYLvEGBs/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT24S",
-          "durationSeconds": 24
         }
       ]
     },
