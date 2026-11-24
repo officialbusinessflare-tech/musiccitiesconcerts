@@ -1,26 +1,6 @@
 {
-  "generatedAt": "2026-11-23T07:01:33.170Z",
+  "generatedAt": "2026-11-24T07:01:04.771Z",
   "entries": [
-    {
-      "id": "86bbzrk5r",
-      "name": "EMNW @ SIX ONE Live STAR — Hiroshima, Japan — Nov 23 2026",
-      "date": "2026-11-23",
-      "venue": "SIX ONE Live STAR",
-      "city": "Hiroshima",
-      "country": "Japan",
-      "bands": [
-        "EMNW"
-      ],
-      "description": "EMNW album tour — SIX ONE Live STAR, Hiroshima. Monday, November 23, 2026. Listing: https://www.bandsintown.com/EMNW",
-      "ticketUrl": "https://www.bandsintown.com/EMNW",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbzrk5r",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
     {
       "id": "86bcmju8c",
       "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ La Machine du Moulin Rouge — Paris, France — Nov 24 2026",
@@ -2784,6 +2764,26 @@
       ]
     },
     {
+      "id": "86bd65ep8",
+      "name": "HANABIE. @ The Republik — Honolulu, HI — Jan 9 2027",
+      "date": "2027-01-09",
+      "venue": "The Republik",
+      "city": "Honolulu",
+      "state": "HI",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. headline The Republik in Honolulu on Saturday, January 9, 2027. Harajuku core heads to Hawaii, a rare Pacific stop for the Tokyo four piece ahead of their 2027 festival run.",
+      "ticketUrl": "https://wl.eventim.us/event/HANABIE/709255",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd65ep8",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bd55prg",
       "name": "Filth + Resistor + SLAM BAND @ The Orpheum — Tampa, FL — Jan 10 2027",
       "date": "2027-01-09",
@@ -4125,6 +4125,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bbz5a14",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd62fxd",
+      "name": "FLOW @ Lillian S. Wells Hall at The Parker — Fort Lauderdale, FL — Feb 20 2027",
+      "date": "2027-02-20",
+      "venue": "Lillian S. Wells Hall at The Parker",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "FLOW"
+      ],
+      "description": "FLOW World Tour 2027 \"Once In A Century\" ANIME THE MAX!!! The Japanese rock veterans behind a long run of anime theme songs bring their 2027 world tour through Broward, at Lillian S. Wells Hall at The Parker in Fort Lauderdale. It is the only Florida stop on a US East and South…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd62fxd",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -6025,6 +6044,28 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu798w",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd65eqn",
+      "name": "HANABIE. @ Welcome to Rockville — Daytona Beach, FL — May 6-9 2027",
+      "date": "2027-05-06",
+      "venue": "Welcome to Rockville",
+      "city": "Daytona Beach",
+      "country": "FL — May 6-9 2027",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. are on the Welcome to Rockville 2027 bill at Daytona International Speedway, May 6 to 9, 2027. This card tracks the HANABIE. set inside the festival; the main Welcome to Rockville 2027 card carries the full lineup. Day and stage not yet announced. A Florida return for…",
+      "ticketUrl": "https://www.clickorlando.com/news/local/2026/10/29/welcome-to-rockville-2027-announces-full-lineup-major-festival-upgrades/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd65eqn",
+      "buckets": [
+        "florida-metal-scene",
+        "japanese-metal",
+        "key-festivals"
       ]
     },
     {
