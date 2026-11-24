@@ -1,13 +1,81 @@
 {
-  "fetchedAt": "2026-11-23T07:01:44.834Z",
+  "fetchedAt": "2026-11-24T07:01:23.022Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 156000,
-      "videoCount": 334,
+      "videoCount": 337,
       "recentLongform": [
+        {
+          "id": "R3PdIY0AluI",
+          "title": "BRIDEAR on Recording BORN AGAIN with Fredrik Nordström",
+          "publishedAt": "2026-11-23T17:07:28Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/R3PdIY0AluI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/R3PdIY0AluI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/R3PdIY0AluI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/R3PdIY0AluI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/R3PdIY0AluI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT2M7S",
+          "durationSeconds": 127
+        },
+        {
+          "id": "Q_dILA1HV3U",
+          "title": "HAGANE: Why Tokyo, and Why Social Media | なぜ東京なのか",
+          "publishedAt": "2026-11-23T12:07:50Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Q_dILA1HV3U/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Q_dILA1HV3U/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Q_dILA1HV3U/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Q_dILA1HV3U/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Q_dILA1HV3U/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M44S",
+          "durationSeconds": 104
+        },
         {
           "id": "4IHenu6ntYA",
           "title": "HAGANE: Rebuilt in Tokyo, Written by the Band, Headed for Europe | 東京で再始動、全員で作る音楽、そしてヨーロッパへ",
@@ -586,82 +654,43 @@
           },
           "duration": "PT1M19S",
           "durationSeconds": 79
-        },
-        {
-          "id": "6huW6ZAhEPo",
-          "title": "Savage Grace’s Christian Logue on owning your masters, paying for your own tours, and 45 years",
-          "publishedAt": "2026-10-23T01:15:41Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/6huW6ZAhEPo/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/6huW6ZAhEPo/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/6huW6ZAhEPo/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/6huW6ZAhEPo/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/6huW6ZAhEPo/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/6huW6ZAhEPo/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
-            }
-          },
-          "duration": "PT13M27S",
-          "durationSeconds": 807
-        },
-        {
-          "id": "kAhxL6ngRk0",
-          "title": "Savage Grace, Underworld: four releases on one day",
-          "publishedAt": "2026-10-23T00:40:27Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/kAhxL6ngRk0/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/kAhxL6ngRk0/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/kAhxL6ngRk0/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/kAhxL6ngRk0/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/kAhxL6ngRk0/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M35S",
-          "durationSeconds": 95
         }
       ],
       "recentShorts": [
+        {
+          "id": "E4SMtEz6Gvc",
+          "title": "Himari Tsukishiro: The Band That Made Me Love Metal",
+          "publishedAt": "2026-11-24T00:06:37Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/E4SMtEz6Gvc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/E4SMtEz6Gvc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/E4SMtEz6Gvc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/E4SMtEz6Gvc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/E4SMtEz6Gvc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT56S",
+          "durationSeconds": 56
+        },
         {
           "id": "LQZulFzT7tk",
           "title": "Himari Tsukishiro: In Metal, Cute Isn't Enough",
@@ -831,40 +860,6 @@
           },
           "duration": "PT31S",
           "durationSeconds": 31
-        },
-        {
-          "id": "AjRezkuPoeY",
-          "title": "Arch Enemy | Jannus Live Review",
-          "publishedAt": "2026-10-21T01:35:34Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/AjRezkuPoeY/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/AjRezkuPoeY/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/AjRezkuPoeY/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/AjRezkuPoeY/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/AjRezkuPoeY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M4S",
-          "durationSeconds": 64
         }
       ]
     },
