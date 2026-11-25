@@ -1,13 +1,86 @@
 {
-  "fetchedAt": "2026-11-24T07:01:33.008Z",
+  "fetchedAt": "2026-11-25T07:01:23.304Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 156000,
-      "videoCount": 337,
+      "videoCount": 340,
       "recentLongform": [
+        {
+          "id": "dDgY47Rw8IQ",
+          "title": "Sally: What London Taught Her | ロンドンで学んだこと",
+          "publishedAt": "2026-11-24T21:06:43Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/dDgY47Rw8IQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/dDgY47Rw8IQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/dDgY47Rw8IQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/dDgY47Rw8IQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/dDgY47Rw8IQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "qhd": {
+              "url": "https://i.ytimg.com/vi/dDgY47Rw8IQ/qhddefault.jpg",
+              "width": 2560,
+              "height": 1440
+            }
+          },
+          "duration": "PT1M59S",
+          "durationSeconds": 119
+        },
+        {
+          "id": "rWtAIORVMIQ",
+          "title": "Mayto.: Heavy Metal Is Art",
+          "publishedAt": "2026-11-24T17:11:09Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/rWtAIORVMIQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/rWtAIORVMIQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/rWtAIORVMIQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/rWtAIORVMIQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/rWtAIORVMIQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M48S",
+          "durationSeconds": 108
+        },
         {
           "id": "R3PdIY0AluI",
           "title": "BRIDEAR on Recording BORN AGAIN with Fredrik Nordström",
@@ -387,11 +460,6 @@
               "url": "https://i.ytimg.com/vi/MDZp1TXatoo/maxresdefault.jpg",
               "width": 1280,
               "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/MDZp1TXatoo/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
             }
           },
           "duration": "PT10M58S",
@@ -533,11 +601,6 @@
               "url": "https://i.ytimg.com/vi/zsYeZEV__uo/maxresdefault.jpg",
               "width": 1280,
               "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/zsYeZEV__uo/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
             }
           },
           "duration": "PT12M36S",
@@ -572,91 +635,47 @@
               "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/maxresdefault.jpg",
               "width": 1280,
               "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
             }
           },
           "duration": "PT23M51S",
           "durationSeconds": 1431
-        },
-        {
-          "id": "6mHrPFEXY2M",
-          "title": "Nini | Live in Tampa | Into the Fire",
-          "publishedAt": "2026-10-23T17:49:53Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/6mHrPFEXY2M/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/6mHrPFEXY2M/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/6mHrPFEXY2M/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/6mHrPFEXY2M/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/6mHrPFEXY2M/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/6mHrPFEXY2M/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
-            }
-          },
-          "duration": "PT3M42S",
-          "durationSeconds": 222
-        },
-        {
-          "id": "Dv2a2rO21IY",
-          "title": "SAKI, PLUVIA: the track she calls the one that saves her",
-          "publishedAt": "2026-10-23T02:14:02Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Dv2a2rO21IY/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Dv2a2rO21IY/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Dv2a2rO21IY/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/Dv2a2rO21IY/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/Dv2a2rO21IY/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M19S",
-          "durationSeconds": 79
         }
       ],
       "recentShorts": [
+        {
+          "id": "JYJ1Dm42GBI",
+          "title": "HAGANE: \"We're Not a Commercial Band\" | 決して商業バンドではない",
+          "publishedAt": "2026-11-24T12:06:31Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/JYJ1Dm42GBI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/JYJ1Dm42GBI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/JYJ1Dm42GBI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/JYJ1Dm42GBI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/JYJ1Dm42GBI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT58S",
+          "durationSeconds": 58
+        },
         {
           "id": "E4SMtEz6Gvc",
           "title": "Himari Tsukishiro: The Band That Made Me Love Metal",
@@ -826,40 +845,6 @@
           },
           "duration": "PT59S",
           "durationSeconds": 59
-        },
-        {
-          "id": "JG1Il-k8vt4",
-          "title": "Nini: there’s a phrase in Chinese, look more far away",
-          "publishedAt": "2026-10-23T02:12:58Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/JG1Il-k8vt4/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/JG1Il-k8vt4/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/JG1Il-k8vt4/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/JG1Il-k8vt4/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/JG1Il-k8vt4/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT31S",
-          "durationSeconds": 31
         }
       ]
     },
