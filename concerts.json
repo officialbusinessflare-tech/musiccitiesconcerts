@@ -1,85 +1,6 @@
 {
-  "generatedAt": "2026-11-24T07:01:20.284Z",
+  "generatedAt": "2026-11-25T07:01:04.243Z",
   "entries": [
-    {
-      "id": "86bcmju8c",
-      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ La Machine du Moulin Rouge — Paris, France — Nov 24 2026",
-      "date": "2026-11-24",
-      "venue": "La Machine du Moulin Rouge",
-      "city": "Paris",
-      "country": "France",
-      "bands": [
-        "Edge of Paradise",
-        "Dominum",
-        "The Night Flight Orchestra"
-      ],
-      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Paris.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcmju8c",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbu78gj",
-      "name": "Buzzcocks @ Jannus Live — St. Petersburg, FL — Nov 24 2026",
-      "date": "2026-11-24",
-      "venue": "Jannus Live",
-      "city": "St. Petersburg",
-      "state": "FL",
-      "bands": [
-        "Buzzcocks"
-      ],
-      "description": "Founding UK punk act, still touring. Rare Florida stop.",
-      "priority": "high",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbu78gj",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbqeca8",
-      "name": "Blitzkid @ Conduit — Winter Park (Orlando), FL — Nov 24 2026",
-      "date": "2026-11-24",
-      "venue": "Conduit",
-      "city": "Winter Park (Orlando)",
-      "state": "FL",
-      "bands": [
-        "Blitzkid"
-      ],
-      "description": "Blitzkid — Conduit, 6700 Aloma Ave, Winter Park (Orlando), FL. Show 7:00 PM.\nHorrorpunk mainstays back through Central Florida.\nSource: Conduit venue calendar sweep.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbqeca8",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbmte9q",
-      "name": "Miss May I + Born of Osiris @ Club LA — Destin, FL — Nov 24 2026",
-      "date": "2026-11-24",
-      "venue": "Club LA",
-      "city": "Destin",
-      "state": "FL",
-      "bands": [
-        "Miss May I",
-        "Born of Osiris"
-      ],
-      "description": "Bands: Miss May I, Born of Osiris, w/ Convictions, Downswing\nTour: The Perpetual Iron Tour\nVenue: Club LA, Destin FL\nDate: Tue Nov 24 2026",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbmte9q",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
     {
       "id": "86bcmjua0",
       "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Batschkapp — Frankfurt, Germany — Nov 25 2026",
@@ -4244,6 +4165,28 @@
       ]
     },
     {
+      "id": "86bd6fe8e",
+      "name": "Boundaries + Spite + The Callous Daoboys + Your Spirit Dies @ The Orpheum — Tampa, FL — Feb 27 2027",
+      "date": "2027-02-27",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Boundaries",
+        "Spite",
+        "The Callous Daoboys",
+        "Your Spirit Dies"
+      ],
+      "description": "Connecticut metalcore outfit Boundaries bring their first headlining run behind the Sumerian debut \"Yearning: the unbeautiful after\" to The Orpheum, with Spite, The Callous Daoboys and Your Spirit Dies in support. Tampa is the only Florida stop on the 26 date North American…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6fe8e",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bckgk6c",
       "name": "Drive-By Truckers @ Culture Room — Fort Lauderdale, FL — Feb 27 2027",
       "date": "2027-02-28",
@@ -6275,6 +6218,126 @@
       ]
     },
     {
+      "id": "86bd6kkxg",
+      "name": "Kreator @ Rock for People — Hradec Králové, Czechia — Jun 2-5 2027",
+      "date": "2027-06-02",
+      "venue": "Rock for People",
+      "city": "Hradec Králové",
+      "country": "Czechia — Jun 2-5 2027",
+      "bands": [
+        "Kreator"
+      ],
+      "description": "Kreator are on the Rock for People 2027 bill in Hradec Králové, June 2 to 5, 2027. The official lineup lists them on Friday, June 4. Watch list band.",
+      "ticketUrl": "https://rockforpeople.cz/en/lineup/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkxg",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd6kkx6",
+      "name": "EMNW @ Rock for People — Hradec Králové, Czechia — Jun 2-5 2027",
+      "date": "2027-06-02",
+      "venue": "Rock for People",
+      "city": "Hradec Králové",
+      "country": "Czechia — Jun 2-5 2027",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW are on the Rock for People 2027 bill in Hradec Králové, June 2 to 5, 2027. The festival's artist page lists them on Saturday, June 5. Japanese nu-metal duo; Japanese act abroad, part of their 2027 European festival run with Download, Resurrection Fest and Provinssi.",
+      "ticketUrl": "https://rockforpeople.cz/en/lineup/emnw/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkx6",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd6kkwy",
+      "name": "Arch Enemy @ Rock im Park — Nuremberg, Germany — Jun 4-6 2027",
+      "date": "2027-06-04",
+      "venue": "Rock im Park",
+      "city": "Nuremberg",
+      "country": "Germany — Jun 4-6 2027",
+      "bands": [
+        "Arch Enemy"
+      ],
+      "description": "Arch Enemy are on the Rock im Park 2027 bill in Nuremberg, June 4 to 6, 2027 (twin festival with Rock am Ring). Day not yet confirmed for the Nuremberg site. Watch list band.",
+      "ticketUrl": "https://www.rock-im-park.com/en/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkwy",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd6kkwh",
+      "name": "Arch Enemy @ Rock am Ring — Nürburgring, Germany — Jun 4-6 2027",
+      "date": "2027-06-04",
+      "venue": "Rock am Ring",
+      "city": "Nürburgring",
+      "country": "Germany — Jun 4-6 2027",
+      "bands": [
+        "Arch Enemy"
+      ],
+      "description": "Arch Enemy are on the Rock am Ring 2027 bill at the Nürburgring, June 4 to 6, 2027. The official lineup lists them on Sunday, June 6, alongside Amon Amarth and Lorna Shore. Watch list band.",
+      "ticketUrl": "https://www.rock-am-ring.com/en/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkwh",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd6kkw9",
+      "name": "HANABIE. @ Rock im Park — Nuremberg, Germany — Jun 4-6 2027",
+      "date": "2027-06-04",
+      "venue": "Rock im Park",
+      "city": "Nuremberg",
+      "country": "Germany — Jun 4-6 2027",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. are on the Rock im Park 2027 bill in Nuremberg, June 4 to 6, 2027 (twin festival with Rock am Ring). Day not yet confirmed for the Nuremberg site. Japanese act abroad.",
+      "ticketUrl": "https://www.rock-im-park.com/en/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkw9",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd6kkve",
+      "name": "HANABIE. @ Rock am Ring — Nürburgring, Germany — Jun 4-6 2027",
+      "date": "2027-06-04",
+      "venue": "Rock am Ring",
+      "city": "Nürburgring",
+      "country": "Germany — Jun 4-6 2027",
+      "bands": [
+        "HANABIE."
+      ],
+      "description": "HANABIE. are on the Rock am Ring 2027 bill at the Nürburgring, June 4 to 6, 2027. The official lineup lists them on Sunday, June 6. Part of the twin-festival booking with Rock im Park. Japanese act abroad; part of their 2027 European festival run alongside Download.",
+      "ticketUrl": "https://www.rock-am-ring.com/en/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkve",
+      "buckets": [
+        "japanese-metal"
+      ]
+    },
+    {
       "id": "86bd54vun",
       "name": "EMNW @ Download Festival — Donington, UK — Jun 9-13 2027",
       "date": "2027-06-08",
@@ -6334,6 +6397,86 @@
       ]
     },
     {
+      "id": "86bd6km09",
+      "name": "Arch Enemy @ Sweden Rock Festival — Sölvesborg, Sweden — Jun 9-12 2027",
+      "date": "2027-06-09",
+      "venue": "Sweden Rock Festival",
+      "city": "Sölvesborg",
+      "country": "Sweden — Jun 9-12 2027",
+      "bands": [
+        "Arch Enemy"
+      ],
+      "description": "Arch Enemy are on the Sweden Rock Festival 2027 bill in Norje, Sölvesborg, June 9 to 12, 2027. Day not yet announced. Watch list band.",
+      "ticketUrl": "https://swedenrock.com/en/line-up/arch-enemy/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6km09",
+      "buckets": [
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd6km00",
+      "name": "Alice Cooper @ Sweden Rock Festival — Sölvesborg, Sweden — Jun 9-12 2027",
+      "date": "2027-06-09",
+      "venue": "Sweden Rock Festival",
+      "city": "Sölvesborg",
+      "country": "Sweden — Jun 9-12 2027",
+      "bands": [
+        "Alice Cooper"
+      ],
+      "description": "Alice Cooper is on the Sweden Rock Festival 2027 bill in Norje, Sölvesborg, June 9 to 12, 2027. Day not yet announced. Watch list artist.",
+      "ticketUrl": "https://swedenrock.com/en/line-up/alice-cooper/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6km00",
+      "buckets": [
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd6kkzx",
+      "name": "Accept @ Sweden Rock Festival — Sölvesborg, Sweden — Jun 9-12 2027",
+      "date": "2027-06-09",
+      "venue": "Sweden Rock Festival",
+      "city": "Sölvesborg",
+      "country": "Sweden — Jun 9-12 2027",
+      "bands": [
+        "Accept"
+      ],
+      "description": "Accept are on the Sweden Rock Festival 2027 bill in Norje, Sölvesborg, June 9 to 12, 2027. Day not yet announced. Watch list band.",
+      "ticketUrl": "https://swedenrock.com/en/line-up/accept/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkzx",
+      "buckets": [
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd6kkzq",
+      "name": "Kreator @ Download Festival — Donington, UK — Jun 9-13 2027",
+      "date": "2027-06-09",
+      "venue": "Download Festival",
+      "city": "Donington",
+      "country": "UK — Jun 9-13 2027",
+      "bands": [
+        "Kreator"
+      ],
+      "description": "Kreator are on the Download 2027 bill at Donington Park, June 9 to 13, 2027 (headliners blink-182, Bring Me The Horizon, Evanescence). Day not yet announced. Watch list band.",
+      "ticketUrl": "https://downloadfestival.co.uk/artists-a-z/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkzq",
+      "buckets": [
+        "key-festivals"
+      ]
+    },
+    {
       "id": "86bcrmhk0",
       "name": "Def Leppard + Goo Goo Dolls @ Benchmark International Arena — Tampa, FL — Jun 13 2027",
       "date": "2027-06-13",
@@ -6352,6 +6495,104 @@
       "clickupUrl": "https://app.clickup.com/t/86bcrmhk0",
       "buckets": [
         "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd6kky6",
+      "name": "Kreator @ Graspop Metal Meeting — Dessel, Belgium — Jun 17-20 2027",
+      "date": "2027-06-17",
+      "venue": "Graspop Metal Meeting",
+      "city": "Dessel",
+      "country": "Belgium — Jun 17-20 2027",
+      "bands": [
+        "Kreator"
+      ],
+      "description": "Kreator are on the Graspop Metal Meeting 2027 bill in Dessel, June 17 to 20, 2027 (30th anniversary edition), confirmed in the 102-band wave. Day and stage not yet final. Watch list band.",
+      "ticketUrl": "https://www.graspop.be/en/line-up",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kky6",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd6kkxt",
+      "name": "Arch Enemy @ Graspop Metal Meeting — Dessel, Belgium — Jun 17-20 2027",
+      "date": "2027-06-17",
+      "venue": "Graspop Metal Meeting",
+      "city": "Dessel",
+      "country": "Belgium — Jun 17-20 2027",
+      "bands": [
+        "Arch Enemy"
+      ],
+      "description": "Arch Enemy are on the Graspop Metal Meeting 2027 bill in Dessel, June 17 to 20, 2027 (30th anniversary edition), confirmed in the 102-band wave. Day and stage not yet final. Watch list band.",
+      "ticketUrl": "https://www.graspop.be/en/line-up",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkxt",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd6kkxj",
+      "name": "Boris @ Graspop Metal Meeting — Dessel, Belgium — Jun 17-20 2027",
+      "date": "2027-06-17",
+      "venue": "Graspop Metal Meeting",
+      "city": "Dessel",
+      "country": "Belgium — Jun 17-20 2027",
+      "bands": [
+        "Boris"
+      ],
+      "description": "Boris are on the Graspop Metal Meeting 2027 bill in Dessel, June 17 to 20, 2027 (30th anniversary edition), confirmed in the 102-band wave. Day and stage not yet final. Japanese act abroad; the Tokyo heavy/drone trio's 2027 European festival slot.",
+      "ticketUrl": "https://www.graspop.be/en/line-up",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkxj",
+      "buckets": []
+    },
+    {
+      "id": "86bd6kkyf",
+      "name": "Paledusk @ Jera On Air — Ysselsteyn, Netherlands — Jun 24-26 2027",
+      "date": "2027-06-24",
+      "venue": "Jera On Air",
+      "city": "Ysselsteyn",
+      "country": "Netherlands — Jun 24-26 2027",
+      "bands": [
+        "Paledusk"
+      ],
+      "description": "Paledusk are on the Jera On Air 2027 bill in Ysselsteyn, June 24 to 26, 2027. Day not yet announced. Fukuoka five-piece; Japanese act abroad, part of their 2027 European festival run with Download, Vainstream and Resurrection Fest.",
+      "ticketUrl": "https://www.jeraonair.nl/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkyf",
+      "buckets": [
+        "interesting-elsewhere"
+      ]
+    },
+    {
+      "id": "86bd6kkym",
+      "name": "Paledusk @ Vainstream Rockfest — Münster, Germany — Jun 25-26 2027",
+      "date": "2027-06-25",
+      "venue": "Vainstream Rockfest",
+      "city": "Münster",
+      "country": "Germany — Jun 25-26 2027",
+      "bands": [
+        "Paledusk"
+      ],
+      "description": "Paledusk are on the Vainstream Rockfest 2027 bill at Am Hawerkamp, Münster, June 25 to 26, 2027. Day not yet announced. Japanese act abroad.",
+      "ticketUrl": "https://vainstream.com/artists/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkym",
+      "buckets": [
+        "key-festivals"
       ]
     },
     {
@@ -6412,6 +6653,67 @@
       ]
     },
     {
+      "id": "86bd6kkzd",
+      "name": "Kreator @ Resurrection Fest — Viveiro, Spain — Jun 30-Jul 3 2027",
+      "date": "2027-06-30",
+      "venue": "Resurrection Fest",
+      "city": "Viveiro",
+      "country": "Spain — Jun 30",
+      "bands": [
+        "Kreator"
+      ],
+      "description": "Kreator are on the Resurrection Fest 2027 bill in Viveiro, June 30 to July 3, 2027, in the festival's first-artists announcement. Day not yet announced. Watch list band.",
+      "ticketUrl": "https://www.resurrectionfest.es/en/%F0%9F%94%A5-resurrection-fest-eg-2027-primeros-artistas-first-artists-%F0%9F%A4%98/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkzd",
+      "buckets": [
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd6kkz5",
+      "name": "EMNW @ Resurrection Fest — Viveiro, Spain — Jun 30-Jul 3 2027",
+      "date": "2027-06-30",
+      "venue": "Resurrection Fest",
+      "city": "Viveiro",
+      "country": "Spain — Jun 30",
+      "bands": [
+        "EMNW"
+      ],
+      "description": "EMNW are on the Resurrection Fest 2027 bill in Viveiro, June 30 to July 3, 2027, in the festival's first-artists announcement. Day not yet announced. Japanese act abroad.",
+      "ticketUrl": "https://www.resurrectionfest.es/en/%F0%9F%94%A5-resurrection-fest-eg-2027-primeros-artistas-first-artists-%F0%9F%A4%98/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkz5",
+      "buckets": [
+        "japanese-metal",
+        "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd6kkyt",
+      "name": "Paledusk @ Resurrection Fest — Viveiro, Spain — Jun 30-Jul 3 2027",
+      "date": "2027-06-30",
+      "venue": "Resurrection Fest",
+      "city": "Viveiro",
+      "country": "Spain — Jun 30",
+      "bands": [
+        "Paledusk"
+      ],
+      "description": "Paledusk are on the Resurrection Fest 2027 bill in Viveiro, June 30 to July 3, 2027, in the festival's first-artists announcement alongside coldrain, DAMNED and NOCTURNAL BLOODLUST. Day not yet announced. Japanese act abroad.",
+      "ticketUrl": "https://www.resurrectionfest.es/en/%F0%9F%94%A5-resurrection-fest-eg-2027-primeros-artistas-first-artists-%F0%9F%A4%98/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6kkyt",
+      "buckets": [
+        "key-festivals"
+      ]
+    },
+    {
       "id": "86bd54vuu",
       "name": "EMNW @ Provinssi — Seinäjoki, Finland — Jul 1-3 2027",
       "date": "2027-06-30",
@@ -6428,6 +6730,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bd54vuu",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd6km0g",
+      "name": "Corrosion of Conformity @ Bloodstock Open Air — Catton Park, UK — Aug 5-8 2027",
+      "date": "2027-08-05",
+      "venue": "Bloodstock Open Air",
+      "city": "Catton Park",
+      "country": "UK — Aug 5-8 2027",
+      "bands": [
+        "Corrosion of Conformity"
+      ],
+      "description": "Corrosion of Conformity are on the Bloodstock Open Air 2027 bill at Catton Park, Derbyshire, August 5 to 8, 2027, on the Ronnie James Dio Stage (Saturday, August 7, per the festival site). Watch list band.",
+      "ticketUrl": "https://www.bloodstock.uk.com/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6km0g",
+      "buckets": [
+        "key-festivals"
       ]
     },
     {
