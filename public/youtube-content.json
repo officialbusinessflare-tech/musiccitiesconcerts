@@ -1,13 +1,47 @@
 {
-  "fetchedAt": "2026-11-25T07:01:45.286Z",
+  "fetchedAt": "2026-11-26T07:01:32.653Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 156000,
-      "videoCount": 340,
+      "videoCount": 343,
       "recentLongform": [
+        {
+          "id": "YNb3JxTIw-c",
+          "title": "Isiliel's Himari Tsukishiro: Idol to Metal, Scandinavia, and the Moonbow Legion | アイドルからメタルへ",
+          "publishedAt": "2026-11-25T18:57:00Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/YNb3JxTIw-c/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/YNb3JxTIw-c/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/YNb3JxTIw-c/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/YNb3JxTIw-c/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/YNb3JxTIw-c/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT24M29S",
+          "durationSeconds": 1469
+        },
         {
           "id": "dDgY47Rw8IQ",
           "title": "Sally: What London Taught Her | ロンドンで学んだこと",
@@ -537,111 +571,82 @@
           },
           "duration": "PT1M51S",
           "durationSeconds": 111
-        },
-        {
-          "id": "StMORIkoTNI",
-          "title": "BRIDEAR takes the stage at Antiknock",
-          "publishedAt": "2026-11-09T04:43:14Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/StMORIkoTNI/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/StMORIkoTNI/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/StMORIkoTNI/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/StMORIkoTNI/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/StMORIkoTNI/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M44S",
-          "durationSeconds": 104
-        },
-        {
-          "id": "zsYeZEV__uo",
-          "title": "The Most Metal Artist in Japan Has Never Recorded a Metal Song",
-          "publishedAt": "2026-11-02T03:47:07Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/zsYeZEV__uo/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/zsYeZEV__uo/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/zsYeZEV__uo/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/zsYeZEV__uo/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/zsYeZEV__uo/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT12M36S",
-          "durationSeconds": 756
-        },
-        {
-          "id": "b5rPFjp9dSM",
-          "title": "Arch Enemy Live: Three Rooms in Ten Weeks",
-          "publishedAt": "2026-11-01T17:39:41Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/b5rPFjp9dSM/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT23M51S",
-          "durationSeconds": 1431
         }
       ],
       "recentShorts": [
+        {
+          "id": "4zd-H7g7pHA",
+          "title": "BRIDEAR: An Even More Ferocious BRIDEAR | もっと獰猛なBRIDEARへ",
+          "publishedAt": "2026-11-26T00:07:34Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/4zd-H7g7pHA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/4zd-H7g7pHA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/4zd-H7g7pHA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/4zd-H7g7pHA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/4zd-H7g7pHA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M12S",
+          "durationSeconds": 72
+        },
+        {
+          "id": "_kBnal7i3Hs",
+          "title": "Himari Tsukishiro: Past the Language Barrier | 言葉の壁を越えて",
+          "publishedAt": "2026-11-25T12:06:36Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/_kBnal7i3Hs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/_kBnal7i3Hs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/_kBnal7i3Hs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/_kBnal7i3Hs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/_kBnal7i3Hs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            },
+            "qhd": {
+              "url": "https://i.ytimg.com/vi/_kBnal7i3Hs/qhddefault.jpg",
+              "width": 2560,
+              "height": 1440
+            }
+          },
+          "duration": "PT1M",
+          "durationSeconds": 60
+        },
         {
           "id": "JYJ1Dm42GBI",
           "title": "HAGANE: \"We're Not a Commercial Band\" | 決して商業バンドではない",
