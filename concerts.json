@@ -1,107 +1,6 @@
 {
-  "generatedAt": "2026-11-25T07:01:34.505Z",
+  "generatedAt": "2026-11-26T07:01:03.920Z",
   "entries": [
-    {
-      "id": "86bcmjua0",
-      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Batschkapp — Frankfurt, Germany — Nov 25 2026",
-      "date": "2026-11-25",
-      "venue": "Batschkapp",
-      "city": "Frankfurt",
-      "country": "Germany",
-      "bands": [
-        "Edge of Paradise",
-        "Dominum",
-        "The Night Flight Orchestra"
-      ],
-      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Frankfurt.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcmjua0",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbwe8rb",
-      "name": "Loudness @ LINE CUBE SHIBUYA — Tokyo, Japan — Nov 25 2026",
-      "date": "2026-11-25",
-      "venue": "LINE CUBE SHIBUYA",
-      "city": "Tokyo",
-      "country": "Japan",
-      "bands": [
-        "Loudness"
-      ],
-      "description": "Loudness headline LINE CUBE SHIBUYA, the first of two late-November hall shows at home (Osaka follows Nov 27).",
-      "ticketUrl": "https://concerts.hypebot.com/artist/l/58218-loudness",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbwe8rb",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbuyjur",
-      "name": "Blitzkid @ The Orpheum — Tampa, FL — Nov 25 2026",
-      "date": "2026-11-25",
-      "venue": "The Orpheum",
-      "city": "Tampa",
-      "state": "FL",
-      "bands": [
-        "Blitzkid"
-      ],
-      "description": "West Virginia horror-punk cult favorites Blitzkid play Tampa the night after their Conduit stop in Orlando. Doors 7 PM. Support TBA.",
-      "ticketUrl": "https://www.theorpheum.com/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbuyjur",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bd5hkr1",
-      "name": "Ho99o9 + N8NOFACE @ Come and Take It Live — Austin, TX — Nov 25 2026",
-      "date": "2026-11-25",
-      "venue": "Come and Take It Live",
-      "city": "Austin",
-      "state": "TX",
-      "bands": [
-        "Ho99o9",
-        "N8NOFACE"
-      ],
-      "description": "Ho99o9 and N8NOFACE — Sincerely___ The Void tour. All ages, show 7 PM.",
-      "ticketUrl": "https://comeandtakeitproductions.com/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd5hkr1",
-      "buckets": [
-        "interesting-elsewhere"
-      ]
-    },
-    {
-      "id": "86bd5hkq5",
-      "name": "A Killer's Confession + Dizasterpiece @ Whisky a Go Go — West Hollywood, CA — Nov 25 2026",
-      "date": "2026-11-25",
-      "venue": "Whisky a Go Go",
-      "city": "West Hollywood",
-      "state": "CA",
-      "bands": [
-        "A Killer's Confession",
-        "Dizasterpiece"
-      ],
-      "description": "A Killer's Confession (featuring former members of Mushroomhead) with Dizasterpiece, Sophia Mengrosso, Illusions of Grandeur, Bury My Demons and Dead Things. Doors 6 PM.",
-      "ticketUrl": "https://www.whiskyagogo.com/calendar/",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bd5hkq5",
-      "buckets": []
-    },
     {
       "id": "86bcqxztb",
       "name": "Yngwie Malmsteen @ Lillian S. Wells Hall at The Parker — Fort Lauderdale, FL — Nov 25 2026",
@@ -917,6 +816,26 @@
       "buckets": [
         "japanese-metal",
         "key-festivals"
+      ]
+    },
+    {
+      "id": "86bd6xt94",
+      "name": "Patriarchy + Period Bomb @ Conduit — Winter Park (Orlando), FL — Dec 3 2026",
+      "date": "2026-12-04",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Patriarchy",
+        "Period Bomb"
+      ],
+      "description": "Los Angeles industrial and darkwave project Patriarchy brings its cold, mechanical pulse to Conduit, with noise punk agitators Period Bomb on the bill and more support to be announced.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6xt94",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2988,6 +2907,25 @@
       ]
     },
     {
+      "id": "86bd6v4nc",
+      "name": "Emasculator @ Conduit — Winter Park (Orlando), FL — Jan 14 2027",
+      "date": "2027-01-15",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Emasculator"
+      ],
+      "description": "Relapse Records death metal quartet Emasculator make their first ever Florida run in January, and Orlando is the middle night of three. The band opens the swing headlining the Miami Metal Massacre pre-cruise show at Churchill's on Jan 13, then hits Conduit before closing at…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6v4nc",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bcj3br0",
       "name": "Quiet Riot @ Cotee River Bike Fest — New Port Richey, FL — Jan 16 2027",
       "date": "2027-01-16",
@@ -3044,6 +2982,25 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bd43q1d",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd6v4nd",
+      "name": "Emasculator @ Brass Mug — Tampa, FL — Jan 15 2027",
+      "date": "2027-01-16",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Emasculator"
+      ],
+      "description": "Relapse Records death metal quartet Emasculator close their first ever Florida run at Brass Mug, the night after Conduit in Orlando and two nights after headlining the Miami Metal Massacre pre-cruise show at Churchill's. Announced support for the run: To Violently Vomit, Demon…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6v4nd",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -3950,6 +3907,25 @@
       ]
     },
     {
+      "id": "86bd6xt9q",
+      "name": "Cowboy Mouth @ Culture Room — Fort Lauderdale, FL — Feb 12 2027",
+      "date": "2027-02-13",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Cowboy Mouth"
+      ],
+      "description": "New Orleans rock lifers Cowboy Mouth bring their famously sweaty, drummer fronted live show to Culture Room.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6xt9q",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bb9w5uz",
       "name": "TRiDENT @ LIQUIDROOM — Tokyo, Japan — Feb 13 2027",
       "date": "2027-02-13",
@@ -4110,6 +4086,45 @@
       ]
     },
     {
+      "id": "86bd6xtag",
+      "name": "The Fixx @ Culture Room — Fort Lauderdale, FL — Feb 19 2027",
+      "date": "2027-02-20",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "The Fixx"
+      ],
+      "description": "British new wave rock veterans The Fixx, the band behind \"One Thing Leads to Another\" and \"Saved by Zero,\" play Culture Room with special guests to be announced.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6xtag",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd6xtb8",
+      "name": "Mod Sun + Public Works @ Culture Room — Fort Lauderdale, FL — Feb 20 2027",
+      "date": "2027-02-21",
+      "venue": "Culture Room",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "bands": [
+        "Mod Sun",
+        "Public Works"
+      ],
+      "description": "Pop punk crossover artist Mod Sun brings the Don't Be A Poet Tour to Culture Room, with Public Works as special guests.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6xtb8",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbpafnj",
       "name": "Yamato The Drummers of Japan @ Lillian S. Wells Hall — Fort Lauderdale, FL — Feb 25 2027",
       "date": "2027-02-25",
@@ -4124,6 +4139,26 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bbpafnj",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd6xtc2",
+      "name": "Agonal Gasps + The March Violets @ Conduit — Winter Park (Orlando), FL — Feb 24 2027",
+      "date": "2027-02-25",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Agonal Gasps",
+        "The March Violets"
+      ],
+      "description": "Leeds gothic rock originals The March Violets share a bill with Agonal Gasps at Conduit, a rare Florida stop for one of the bands that built the 80s goth sound.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6xtc2",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -5689,6 +5724,25 @@
       ]
     },
     {
+      "id": "86bd6xtcq",
+      "name": "Scotty Austin @ The Banyan Live — West Palm Beach, FL — Apr 18 2027",
+      "date": "2027-04-18",
+      "venue": "The Banyan Live",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "bands": [
+        "Scotty Austin"
+      ],
+      "description": "Former Saving Abel singer Scotty Austin brings his Florida Invasion Tour to The Banyan Live.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6xtcq",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc4yth7",
       "name": "The Warning + Wilt @ The Van Buren — Phoenix, AZ — Apr 18 2027",
       "date": "2027-04-18",
@@ -6730,6 +6784,25 @@
       "clickupUrl": "https://app.clickup.com/t/86bd54vuu",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd6v4ne",
+      "name": "Scorpions @ The O2 — London, UK — Jul 6 2027",
+      "date": "2027-07-07",
+      "venue": "The O2",
+      "city": "London",
+      "state": "UK",
+      "bands": [
+        "Scorpions"
+      ],
+      "description": "Scorpions return to the road in 2027 with the Love, Peace and Rock N' Roll tour, their first shows since July 2026 after a run of cancellations and postponements. London's O2 Arena is the English capital stop on the European arena leg, between Glasgow on Jul 3 and Manchester on…",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd6v4ne",
+      "buckets": [
+        "interesting-elsewhere"
       ]
     },
     {
