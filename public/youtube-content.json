@@ -1,13 +1,81 @@
 {
-  "fetchedAt": "2026-11-26T07:01:46.104Z",
+  "fetchedAt": "2026-11-27T07:01:23.652Z",
   "channels": {
     "tmc": {
       "handle": "@themusiccitiespodcast",
       "channelId": "UCAvi7dTuTLh9RWp55ikyglg",
       "title": "The Music Cities ",
       "subscriberCount": 156000,
-      "videoCount": 343,
+      "videoCount": 345,
       "recentLongform": [
+        {
+          "id": "2T_J2L0-HBU",
+          "title": "Mayto.: The Highway Star Turning Point | 転機はHighway Star",
+          "publishedAt": "2026-11-26T21:07:42Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/2T_J2L0-HBU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/2T_J2L0-HBU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/2T_J2L0-HBU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/2T_J2L0-HBU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/2T_J2L0-HBU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M46S",
+          "durationSeconds": 106
+        },
+        {
+          "id": "HhEWbiy2Tkc",
+          "title": "Sally: Just Stay the Way You Are | そのままのSallyで",
+          "publishedAt": "2026-11-26T12:07:28Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/HhEWbiy2Tkc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/HhEWbiy2Tkc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/HhEWbiy2Tkc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/HhEWbiy2Tkc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/HhEWbiy2Tkc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "duration": "PT1M44S",
+          "durationSeconds": 104
+        },
         {
           "id": "YNb3JxTIw-c",
           "title": "Isiliel's Himari Tsukishiro: Idol to Metal, Scandinavia, and the Moonbow Legion | アイドルからメタルへ",
@@ -498,79 +566,6 @@
           },
           "duration": "PT10M58S",
           "durationSeconds": 658
-        },
-        {
-          "id": "R7cRcFSKi5s",
-          "title": "BRIDEAR | \"Scream\" | Antiknock",
-          "publishedAt": "2026-11-14T13:35:49Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/R7cRcFSKi5s/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/R7cRcFSKi5s/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/R7cRcFSKi5s/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/R7cRcFSKi5s/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/R7cRcFSKi5s/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            },
-            "fhd": {
-              "url": "https://i.ytimg.com/vi/R7cRcFSKi5s/fhddefault.jpg",
-              "width": 1920,
-              "height": 1080
-            }
-          },
-          "duration": "PT3M4S",
-          "durationSeconds": 184
-        },
-        {
-          "id": "nFKFRjrCsfQ",
-          "title": "BRIDEAR at Antiknock 11/8/2026",
-          "publishedAt": "2026-11-14T13:10:13Z",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/nFKFRjrCsfQ/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/nFKFRjrCsfQ/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/nFKFRjrCsfQ/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/nFKFRjrCsfQ/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            },
-            "maxres": {
-              "url": "https://i.ytimg.com/vi/nFKFRjrCsfQ/maxresdefault.jpg",
-              "width": 1280,
-              "height": 720
-            }
-          },
-          "duration": "PT1M51S",
-          "durationSeconds": 111
         }
       ],
       "recentShorts": [
