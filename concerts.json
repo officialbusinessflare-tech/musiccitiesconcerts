@@ -1,26 +1,6 @@
 {
-  "generatedAt": "2026-11-26T07:01:34.669Z",
+  "generatedAt": "2026-11-27T07:01:05.830Z",
   "entries": [
-    {
-      "id": "86bcqxztb",
-      "name": "Yngwie Malmsteen @ Lillian S. Wells Hall at The Parker — Fort Lauderdale, FL — Nov 25 2026",
-      "date": "2026-11-26",
-      "venue": "Lillian S. Wells Hall at The Parker",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "Yngwie Malmsteen"
-      ],
-      "description": "Neoclassical shred pioneer Yngwie Malmsteen brings his guitar fireworks to the Parker Playhouse's Lillian S. Wells Hall in Fort Lauderdale. Doors 7:30 PM. Tickets: https://www.parkerplayhouse.com/events/detail/yngwie-malmsteen-2026",
-      "ticketUrl": "https://www.parkerplayhouse.com/events/detail/yngwie-malmsteen-2026",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcqxztb",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86bcmjube",
       "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Große Freiheit 36 — Hamburg, Germany — Nov 27 2026",
@@ -4242,6 +4222,25 @@
       ]
     },
     {
+      "id": "86bd74jb6",
+      "name": "Reverend Horton Heat @ Terminal D, Port of Miami, Miami, FL, Mar 05 2027",
+      "date": "2027-03-05",
+      "venue": "Terminal D, Port of Miami, Miami",
+      "city": "FL",
+      "country": "Mar 05 2027",
+      "bands": [
+        "Reverend Horton Heat"
+      ],
+      "description": "Source: Bandsintown weekly, Nov 25 2026 (\"Just announced\"). Kevin has tracked Reverend Horton Heat before (West Palm Beach show, closed). Tickets via Bandsintown.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd74jb6",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc4ytwj",
       "name": "Eluveitie + Nini Music + Illumishade @ The Regent — Los Angeles, CA — Mar 5 2027",
       "date": "2027-03-05",
@@ -5224,6 +5223,23 @@
       "buckets": [
         "japanese-metal"
       ]
+    },
+    {
+      "id": "86bd74jbd",
+      "name": "North Mississippi Allstars @ Lyric Theatre, Stuart, FL, Apr 02 2027",
+      "date": "2027-04-02",
+      "venue": "Lyric Theatre, Stuart",
+      "city": "FL",
+      "country": "Apr 02 2027",
+      "bands": [
+        "North Mississippi Allstars"
+      ],
+      "description": "Source: Bandsintown weekly, Nov 25 2026 (\"On sale this week\"). Roots and blues rock; borderline for the channel but it is a Florida rock date at the Lyric in Stuart, where BusinessFlare® has an office.",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd74jbd",
+      "buckets": []
     },
     {
       "id": "86bc4ytf2",
