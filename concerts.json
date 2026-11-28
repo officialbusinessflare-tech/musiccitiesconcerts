@@ -1,87 +1,6 @@
 {
-  "generatedAt": "2026-11-27T07:01:37.880Z",
+  "generatedAt": "2026-11-28T07:01:06.589Z",
   "entries": [
-    {
-      "id": "86bcmjube",
-      "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Große Freiheit 36 — Hamburg, Germany — Nov 27 2026",
-      "date": "2026-11-27",
-      "venue": "Große Freiheit 36",
-      "city": "Hamburg",
-      "country": "Germany",
-      "bands": [
-        "Edge of Paradise",
-        "Dominum",
-        "The Night Flight Orchestra"
-      ],
-      "description": "Night Is Calling Tour 2026: Dominum + The Night Flight Orchestra + Edge of Paradise, Hamburg.",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bcmjube",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bc05gv7",
-      "name": "Slaughter to Prevail @ Revolution Live (The Backyard) — Fort Lauderdale, FL — Nov 27 2026",
-      "date": "2026-11-27",
-      "venue": "Revolution Live (The Backyard)",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "bands": [
-        "Slaughter to Prevail"
-      ],
-      "description": "Slaughter to Prevail bring the chaos to Revolution Live's Backyard stage in Fort Lauderdale on Friday, November 27, 2026. Crushing riffs and brutal breakdowns from Alex Terrible and company — their second Florida hit of the fall after the Oct 9 Orlando date. Tickets on sale now…",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bc05gv7",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
-    {
-      "id": "86bbwe8rp",
-      "name": "Loudness @ NHK Osaka Hall — Osaka, Japan — Nov 27 2026",
-      "date": "2026-11-27",
-      "venue": "NHK Osaka Hall",
-      "city": "Osaka",
-      "country": "Japan",
-      "bands": [
-        "Loudness"
-      ],
-      "description": "Loudness at NHK Osaka Hall, the Kansai half of their late-November hall pair (Tokyo Nov 25).",
-      "ticketUrl": "https://concerts.hypebot.com/artist/l/58218-loudness",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbwe8rp",
-      "buckets": [
-        "japanese-metal"
-      ]
-    },
-    {
-      "id": "86bbtbt7t",
-      "name": "Wage War + We Came As Romans @ Hard Rock Live — Orlando, FL — Nov 27 2026",
-      "date": "2026-11-27",
-      "venue": "Hard Rock Live",
-      "city": "Orlando",
-      "state": "FL",
-      "bands": [
-        "Wage War",
-        "We Came As Romans"
-      ],
-      "description": "Wage War playing a hometown-adjacent room — the band formed in Ocala. Varials and Cane Hill round out the bill. Thanksgiving-weekend show.",
-      "ticketUrl": "https://www.songkick.com/concerts/43263240-wage-war-at-hard-rock-live-orlando",
-      "priority": "normal",
-      "isRelease": false,
-      "isPast": false,
-      "clickupUrl": "https://app.clickup.com/t/86bbtbt7t",
-      "buckets": [
-        "florida-metal-scene"
-      ]
-    },
     {
       "id": "86bcmjudt",
       "name": "Edge of Paradise + Dominum + The Night Flight Orchestra @ Hellraiser — Leipzig, Germany — Nov 28 2026",
@@ -860,6 +779,28 @@
       ]
     },
     {
+      "id": "86bd7a4fn",
+      "name": "Donzii + Las Nubes + Homicide Jenny @ Churchill's Pub — Miami, FL — Dec 5 2026",
+      "date": "2026-12-05",
+      "venue": "Churchill's Pub",
+      "city": "Miami",
+      "state": "FL",
+      "bands": [
+        "Donzii",
+        "Las Nubes",
+        "Homicide Jenny"
+      ],
+      "description": "Basel Destruction at Churchill's: the loudest night of Art Week. Six bands of post punk, garage punk and dance punk heat. Donzii (Miami by way of LA), Las Nubes, Homicide Jenny, Dogsmiles from Jacksonville, Plastic Letters from Philadelphia and Miami grunge veterans Tereso.…",
+      "ticketUrl": "https://shotgun.live/events/churchill-s-pub-s-basel-destruction",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd7a4fn",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bd43mxm",
       "name": "The Casualties @ Conduit — Winter Park (Orlando), FL — Dec 6 2026",
       "date": "2026-12-05",
@@ -1292,6 +1233,27 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bd325gp",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd7a4g1",
+      "name": "Out of the Ashes + Stereo Joule @ Kill Your Idol — Miami Beach, FL — Dec 11 2026",
+      "date": "2026-12-11",
+      "venue": "Kill Your Idol",
+      "city": "Miami Beach",
+      "state": "FL",
+      "bands": [
+        "Out of the Ashes",
+        "Stereo Joule"
+      ],
+      "description": "Out of the Ashes return to Kill Your Idol in South Beach, with Stereo Joule on the bill. A December club night for the Miami Beach rock crowd.",
+      "ticketUrl": "https://www.songkick.com/venues/105-kill-your-idol/calendar",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd7a4g1",
       "buckets": [
         "florida-metal-scene"
       ]
@@ -2007,6 +1969,46 @@
       ]
     },
     {
+      "id": "86bd7a4gh",
+      "name": "The Disorderly + Amore Ad Lunam + Vermut @ Brass Mug — Tampa, FL — Dec 18 2026",
+      "date": "2026-12-18",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "The Disorderly",
+        "Amore Ad Lunam",
+        "Vermut"
+      ],
+      "description": "Bam Margera presents Amore Ad Lunam and the \"Songs For The End Of Daze\" run at the Brass Mug. Goth rock and metal from Amore Ad Lunam and Dark D'lusion, black and roll from Vermut, and The Disorderly headlining. Meet and greet at 6 PM, music all night.",
+      "ticketUrl": "https://www.songkick.com/concerts/43360422-disorderly-us-at-brass-mug",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd7a4gh",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd79g6e",
+      "name": "Two Piece @ Boomers Curb — Eustis, FL — Dec 18 2026",
+      "date": "2026-12-18",
+      "venue": "Boomers Curb",
+      "city": "Eustis",
+      "state": "FL",
+      "bands": [
+        "Two Piece"
+      ],
+      "description": "Jacksonville heavy hitters Two Piece bring their XMas Classic 2026 tour home to Florida, starting the three night state closer in Eustis.",
+      "ticketUrl": "https://metalgigs.us/two-piece-announce-xmas-classic-2026-tour-with-100-demons-joining-the-tampa-finale/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd79g6e",
+      "buckets": []
+    },
+    {
       "id": "86bcb1rb9",
       "name": "Bodysnatcher + PSYCHO-FRAME + Distant @ The Orpheum — Tampa, FL — Dec 18 2026",
       "date": "2026-12-18",
@@ -2107,6 +2109,26 @@
       ]
     },
     {
+      "id": "86bd79g6f",
+      "name": "Two Piece @ The Albatross — Jacksonville, FL — Dec 19 2026",
+      "date": "2026-12-19",
+      "venue": "The Albatross",
+      "city": "Jacksonville",
+      "state": "FL",
+      "bands": [
+        "Two Piece"
+      ],
+      "description": "Hometown night for Two Piece at The Albatross, the middle stop of the XMas Classic 2026 tour's Florida finish.",
+      "ticketUrl": "https://metalgigs.us/two-piece-announce-xmas-classic-2026-tour-with-100-demons-joining-the-tampa-finale/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd79g6f",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbz59pj",
       "name": "HAGANE @ Sapporo SPiCE — Sapporo, Japan — Dec 19 2026",
       "date": "2026-12-19",
@@ -2187,6 +2209,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bcmjvdd",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd79g6h",
+      "name": "Two Piece + 100 Demons @ S.P.O.T. FVC — Tampa, FL — Dec 20 2026",
+      "date": "2026-12-20",
+      "venue": "S.P.O.T. FVC",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Two Piece",
+        "100 Demons"
+      ],
+      "description": "The XMas Classic 2026 tour wraps in Tampa, with hardcore veterans 100 Demons joining Two Piece for the finale.",
+      "ticketUrl": "https://metalgigs.us/two-piece-announce-xmas-classic-2026-tour-with-100-demons-joining-the-tampa-finale/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd79g6h",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -2327,6 +2370,24 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bd5hkqn",
+      "buckets": []
+    },
+    {
+      "id": "86bd79g6a",
+      "name": "Sevendust @ The Ranch Concert Hall & Saloon — Fort Myers, FL — Dec 28 2026",
+      "date": "2026-12-28",
+      "venue": "The Ranch Concert Hall & Saloon",
+      "city": "Fort Myers",
+      "state": "FL",
+      "bands": [
+        "Sevendust"
+      ],
+      "description": "Sevendust open their Florida holiday run at The Ranch in Fort Myers, the first of three straight Florida nights ahead of Ferg's in St. Pete and WJRR's Heavy New Year in Orlando.",
+      "ticketUrl": "https://numetalagenda.com/news/story/sevendust-announce-30-years-of-dust-anniversary-tour-with-soil-and-drift-mothership/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd79g6a",
       "buckets": []
     },
     {
@@ -3005,6 +3066,28 @@
       ]
     },
     {
+      "id": "86bd7a4h1",
+      "name": "Twin Rova + Sky Navy + Cozy in the Black @ Conduit — Winter Park (Orlando), FL — Jan 17 2027",
+      "date": "2027-01-17",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Twin Rova",
+        "Sky Navy",
+        "Cozy in the Black"
+      ],
+      "description": "Twin Rova headline Conduit two weeks after opening for Sevendust on New Year's Eve at House of Blues. Sky Navy and Cozy in the Black support. Doors 6 PM.",
+      "ticketUrl": "https://www.songkick.com/concerts/43496545-twin-rova-at-conduit",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd7a4h1",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bc472kh",
       "name": "Sandman Sleeps + The Hot Seat @ The Banyan Live — West Palm Beach, FL — Jan 17 2027",
       "date": "2027-01-17",
@@ -3043,6 +3126,25 @@
       "buckets": [
         "interesting-elsewhere"
       ]
+    },
+    {
+      "id": "86bd7a4hg",
+      "name": "Smile Empty Soul + Makes My Blood Dance @ Oscura — Bradenton, FL — Jan 20 2027",
+      "date": "2027-01-20",
+      "venue": "Oscura",
+      "city": "Bradenton",
+      "state": "FL",
+      "bands": [
+        "Smile Empty Soul",
+        "Makes My Blood Dance"
+      ],
+      "description": "Smile Empty Soul open their 2027 Florida swing in Bradenton, with Brooklyn industrial rockers Makes My Blood Dance (Metropolis Records) along for the US tour.",
+      "ticketUrl": "https://concerts50.com/artists/smile-empty-soul-tour-dates",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd7a4hg",
+      "buckets": []
     },
     {
       "id": "86bbu78xb",
@@ -3084,6 +3186,27 @@
       ]
     },
     {
+      "id": "86bd7a4hu",
+      "name": "Smile Empty Soul + Makes My Blood Dance @ Brass Mug — Tampa, FL — Jan 22 2027",
+      "date": "2027-01-22",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Smile Empty Soul",
+        "Makes My Blood Dance"
+      ],
+      "description": "Smile Empty Soul bring the 2027 US tour to the Brass Mug, with Makes My Blood Dance supporting. Industrial rock hooks up front, post grunge anthems to close. Doors 6:15 PM.",
+      "ticketUrl": "https://www.songkick.com/concerts/43519629-smile-empty-soul-at-brass-mug",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd7a4hu",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
       "id": "86bbz59v2",
       "name": "HAGANE @ LiveHouse Hamamatsu Madowaku — Hamamatsu, Japan — Jan 22 2027",
       "date": "2027-01-22",
@@ -3120,6 +3243,27 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu78yf",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd7a4j4",
+      "name": "Flying Raccoon Suit + Fuákata @ Kill Your Idol — Miami Beach, FL — Jan 23 2027",
+      "date": "2027-01-23",
+      "venue": "Kill Your Idol",
+      "city": "Miami Beach",
+      "state": "FL",
+      "bands": [
+        "Flying Raccoon Suit",
+        "Fuákata"
+      ],
+      "description": "Ska punk night in South Beach: Flying Raccoon Suit with Florida favorites Fuákata at Kill Your Idol.",
+      "ticketUrl": "https://www.songkick.com/venues/105-kill-your-idol/calendar",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd7a4j4",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3251,6 +3395,26 @@
       "clickupUrl": "https://app.clickup.com/t/86bbu793e",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd7a4ja",
+      "name": "Red Calling @ Brass Mug — Tampa, FL — Jan 29 2027",
+      "date": "2027-01-29",
+      "venue": "Brass Mug",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Red Calling"
+      ],
+      "description": "Red Calling celebrate the release of \"The Fear of Loss\" with a hometown release party at the Brass Mug.",
+      "ticketUrl": "https://www.songkick.com/concerts/43425102-red-calling-at-brass-mug",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd7a4ja",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -3450,6 +3614,50 @@
       "clickupUrl": "https://app.clickup.com/t/86bbvpdw2",
       "buckets": [
         "japanese-metal"
+      ]
+    },
+    {
+      "id": "86bd79g6b",
+      "name": "Caskets + Nerv + Point North @ The Orpheum — Tampa, FL — Feb 2 2027",
+      "date": "2027-02-02",
+      "venue": "The Orpheum",
+      "city": "Tampa",
+      "state": "FL",
+      "bands": [
+        "Caskets",
+        "Nerv",
+        "Point North"
+      ],
+      "description": "UK metalcore outfit Caskets launch their early 2027 North American headline run at The Orpheum in Ybor, with Nerv and Point North opening.",
+      "ticketUrl": "https://metalanarchy.com/2026/11/03/caskets-announce-early-2027-north-american-tour-with-nerv-and-point-north/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd79g6b",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd79g6c",
+      "name": "Caskets + Nerv + Point North @ The Beacham — Orlando, FL — Feb 3 2027",
+      "date": "2027-02-03",
+      "venue": "The Beacham",
+      "city": "Orlando",
+      "state": "FL",
+      "bands": [
+        "Caskets",
+        "Nerv",
+        "Point North"
+      ],
+      "description": "Night two of the Caskets tour stays in Florida, with the UK metalcore band bringing Nerv and Point North to The Beacham in downtown Orlando.",
+      "ticketUrl": "https://metalanarchy.com/2026/11/03/caskets-announce-early-2027-north-american-tour-with-nerv-and-point-north/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd79g6c",
+      "buckets": [
+        "florida-metal-scene"
       ]
     },
     {
@@ -4197,6 +4405,28 @@
       "isRelease": false,
       "isPast": false,
       "clickupUrl": "https://app.clickup.com/t/86bd6fe8e",
+      "buckets": [
+        "florida-metal-scene"
+      ]
+    },
+    {
+      "id": "86bd79g6d",
+      "name": "Beyond Creation + Decrepit Birth + Vulvodynia @ Conduit — Winter Park (Orlando), FL — Feb 28 2027",
+      "date": "2027-02-28",
+      "venue": "Conduit",
+      "city": "Winter Park (Orlando)",
+      "state": "FL",
+      "bands": [
+        "Beyond Creation",
+        "Decrepit Birth",
+        "Vulvodynia"
+      ],
+      "description": "Montreal tech death masters Beyond Creation play The Aura in full at Conduit, with Decrepit Birth and South African slam crew Vulvodynia on the bill. A serious night for the Orlando extreme scene.",
+      "ticketUrl": "https://metalgigs.us/beyond-creation-will-play-the-aura-in-full-on-2027-tour-with-decrepit-birth-and-vulvodynia/",
+      "priority": "normal",
+      "isRelease": false,
+      "isPast": false,
+      "clickupUrl": "https://app.clickup.com/t/86bd79g6d",
       "buckets": [
         "florida-metal-scene"
       ]
